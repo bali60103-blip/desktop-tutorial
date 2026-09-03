@@ -10,13 +10,15 @@ for full citations and caveats.
 
 from dataclasses import dataclass
 
-# Approximate centroid of 市民大道一段 (Section 1 of Civic Boulevard),
-# the stretch roughly between Huanhe N. Rd. and Zhongshan N. Rd. in
-# Datong District, Taipei -- near Beimen / the north side of Taipei
-# Main Station. Adjust if you have a more precise definition of the
-# section's extent (e.g. exact start/end intersections).
-CENTER_LAT = 25.0520
-CENTER_LON = 121.5120
+# Centroid of the REAL "市民大道一段" road polygon (source: a user-supplied
+# TWD97/EPSG:3826 road shapefile, converted via pyproj -- see
+# demo/civic-blvd-heatmap.html for the full pipeline). It sits right on the
+# 大同/中正/中山 district boundary, a few hundred meters east and south of
+# an earlier hand-estimated guess. Officially "市民大道一段" only spans
+# roughly 中山北路 to 新生南路; its historic-name western continuation
+# (環河北路 to 中山北路) is recorded in the same cadastre as "鄭州路".
+CENTER_LAT = 25.0485
+CENTER_LON = 121.5187
 RADIUS_KM = 2.0
 
 
@@ -44,6 +46,8 @@ MRT_STATIONS = [
     Station("小南門", 25.0378, 121.5107),
     Station("松江南京", 25.0524, 121.5327),
     Station("忠孝新生", 25.0424, 121.5327),
+    Station("東門", 25.0335, 121.5290),
     Station("圓山", 25.0713, 121.5205),
     Station("南京復興", 25.0524, 121.5433),
+    Station("古亭", 25.0264, 121.5217),
 ]

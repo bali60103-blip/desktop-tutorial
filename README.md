@@ -1,7 +1,7 @@
 # 市民大道一段周邊活動熱力圖(以台北開放資料為代理指標)
 
-以台北市開放資料(捷運各站分時進出量、YouBike 站點)作為市民大道一段(大同區,環河北路
-至中山北路一帶)方圓 2 公里內「人流活動熱度」的代理指標,產生逐小時熱力圖。
+以台北市開放資料(捷運各站分時進出量、YouBike 站點、車輛偵測器車流、公車班次頻率)作為
+市民大道一段方圓 2 公里內「人流活動熱度」的代理指標,產生逐小時熱力圖。
 
 **這不是真正的人口流動資料** — 精細的手機信令人流資料屬電信業者商業資產,非公開資料。
 詳見 [`data_sources.md`](data_sources.md) 了解資料來源與限制,包括本次開發環境因網路
@@ -31,7 +31,11 @@ python build_heatmap.py
 - `src/fetch_mrt_hourly.py` — 抓取 data.taipei 捷運分時進出量資料
 - `src/poll_youbike.py` — 輪詢 YouBike 即時資料並累積快照
 - `src/build_heatmap.py` — 產生逐小時 Leaflet 熱力圖(folium HeatMapWithTime)
+- `src/build_geo_layers.py` — 將行政區界 TopoJSON、捷運路線與道路 shapefile(TWD97/
+  EPSG:3826)轉換、裁切成 `demo/civic-blvd-heatmap.html` 用的底圖資料,並用真實道路
+  多邊形算出路口交會點
 - `data_sources.md` — 資料來源清單與限制說明
 - `demo/civic-blvd-heatmap.html` — 單檔互動式示範頁面(捷運站 + 路口車流/公車代理指標
-  的逐小時熱力圖,含真實臺北市行政區界底圖)。**目前是示範/合成資料**,用瀏覽器直接開啟
-  即可查看;數字尚未套入真實資料,詳見 `data_sources.md`。
+  的逐小時熱力圖)。行政區界、捷運路線、道路路網(含市民大道一段本身的真實路型)都是
+  真實測繪資料;**只有逐小時的活動數字仍是示範/合成資料**,用瀏覽器直接開啟即可查看,
+  詳見 `data_sources.md`。
