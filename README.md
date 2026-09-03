@@ -32,3 +32,6 @@ python build_heatmap.py
 - `src/poll_youbike.py` — 輪詢 YouBike 即時資料並累積快照
 - `src/build_heatmap.py` — 產生逐小時 Leaflet 熱力圖(folium HeatMapWithTime)
 - `data_sources.md` — 資料來源清單與限制說明
+- `demo/civic-blvd-heatmap.html` — 單檔互動式示範頁面(捷運站 + 路口車流/公車代理指標
+  的逐小時熱力圖,含真實臺北市行政區界底圖)。**目前是示範/合成資料**,用瀏覽器直接開啟
+  即可查看;數字尚未套入真實資料,詳見 `data_sources.md`。

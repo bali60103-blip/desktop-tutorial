@@ -18,15 +18,38 @@
 | 臺北捷運各站分時進出量統計OD | 臺北大眾捷運股份有限公司 / data.taipei | 各站逐小時進出站人次 | https://data.taipei/dataset/detail?id=63f31c7e-7fc3-418b-bd82-b95158755b4d |
 | 臺北捷運各站進出人次 | 臺北大眾捷運股份有限公司 / data.taipei | 各站進出人次(輔助對照) | https://data.taipei/dataset/detail?id=178ebf06-0451-4ac1-bbba-c255ca1fdac6 |
 | YouBike2.0臺北市公共自行車即時資訊 | 臺北市政府交通局 / data.gov.tw / data.taipei | 各站即時可借/可還車輛數(僅即時,無現成逐小時歷史資料,需自行每小時輪詢累積) | https://data.gov.tw/dataset/137993 |
+| 臺北市車輛偵測器(VD)資料 | 臺北市交通管制工程處 / data.taipei | 各偵測站(多設於路口/路段)每 5 分鐘車道流量,可加總為逐小時路口車流量代理指標 | https://data.taipei/dataset/detail?id=e57afe7f-3c9e-4f31-9208-eed859a92600(TDX 版本:https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/VD/City/Taipei) |
+| 公車動態/路線站牌資料 | 交通部 / TDX 運輸資料流通服務 | 目前**未找到公開的逐站逐小時上下車人次資料集**(可能需向交通部數據匯流平臺申請)。可行的公開代理指標是由 GTFS 靜態路線班表(班距)推算「該站每小時預期發車班次」,代表運輸供給量,不是實際上下車人數 | https://tdx.transportdata.tw/ |
 
 範圍內納入計算的捷運站(依 `src/config.py` 的座標與 2km 半徑篩選):
 台北車站、北門、中山、雙連、西門、善導寺、台大醫院、大橋頭、民權西路、小南門。
 
+路口(VD 車流 + 公車班次代理指標)取樣點:由 `src/config.py` 中主要幹道(環河北路、
+延平北路、重慶北路、中山北路、新生北路 × 忠孝西路、南京西路、民生西路、民權西路、
+市民大道一段)的交叉口組成,同樣以 2km 半徑篩選。街道位置本身是依已知街名手繪的示意
+座標,不是路網測繪資料——見下一節。
+
+## 底圖:行政區界 vs. 街道線
+
+示範用的互動熱力圖(HTML/canvas 版本,非本 repo 程式碼)疊了兩種完全不同可信度的底圖
+圖層,務必分開看待:
+
+- **行政區界(大同區/中正區/中山區/萬華區)是真實測繪資料**:使用者提供了一份臺北市
+  行政區 TopoJSON(1:63,000),解碼後的多邊形座標直接繪成底圖輪廓。
+- **街道線(市民大道、中山北路、忠孝西路…)仍是示意圖**:因為這個環境連不上 OpenStreetMap
+  或任何地圖服務(見下一節),沒有真正的路網向量資料可用,只能依已知街名和大致方位手繪
+  簡化的直線網格,街廓角度、彎曲、寬度都不代表實際測繪結果。路口(車流/公車)取樣點的
+  座標,也是這個示意網格的交叉點,精度同樣受限。
+
 ## 這次工作階段(session)的一項技術限制
 
-執行這次任務的沙盒環境,其對外網路政策(egress policy)直接封鎖了 `data.taipei` 與
-YouBike 資料所在的 `tcgbusfs.blob.core.windows.net`(以 `curl` 直接測試,兩者都收到
-`CONNECT tunnel failed, response 403`,屬機構網路政策封鎖,並非可繞過的技術問題)。
+執行這次任務的沙盒環境,其對外網路是**白名單制**:只放行 GitHub、PyPI、npm 這類開發
+相關網域,一般網站一律被組織網路政策擋下(`curl` 直接測試回 `CONNECT tunnel failed,
+response 403`)。實測被擋的網域包括 `data.taipei`、YouBike 資料所在的
+`tcgbusfs.blob.core.windows.net`、TDX、所有 OpenStreetMap 鏡像站(overpass-api.de、
+openstreetmap.org 本站、geofabrik 下載站等)、以及 Google Maps 全系列網域
+(maps.google.com、maps.googleapis.com…)。這不是針對特定服務,而是這個環境本來就連不
+到「一般網站」,只能連開發工具鏈網域。
 
 **這代表我在這個 session 裡沒有辦法實際抓到真實資料、也沒辦法產生真正基於實際數字的
 24 小時熱力圖畫面。** `src/` 底下的抓取與繪圖程式已經寫好並用假資料做過煙霧測試
