@@ -1,0 +1,1371 @@
+{
+  "CAVEAT": "green patches = 公園用地+綠地用地+保護區(不含河川區水域本身),面積小於 500 平方公尺的碎片已濾掉。②③依賴建物資料,只涵蓋目前已收到的建物網格範圍(約94.7%)。④沒有正式路網拓樸,是路段密度代理。⑤的『步行連結偵測』是簡化的凸包走廊判斷,不是最短路徑分析。",
+  "green_patch_count": 166,
+  "sennett_edge_porosity_top10_most_porous": [
+    {
+      "patch_id": 73,
+      "area_m2": 4748.7,
+      "perimeter_m": 283.9,
+      "ramp_or_crossing_points": 18,
+      "porosity_index_per_100m_edge": 6.34,
+      "centroid_3826": [
+        303957.3,
+        2771441.2
+      ]
+    },
+    {
+      "patch_id": 75,
+      "area_m2": 1049.6,
+      "perimeter_m": 172.4,
+      "ramp_or_crossing_points": 10,
+      "porosity_index_per_100m_edge": 5.8,
+      "centroid_3826": [
+        303837.1,
+        2770925.4
+      ]
+    },
+    {
+      "patch_id": 152,
+      "area_m2": 549.9,
+      "perimeter_m": 105.7,
+      "ramp_or_crossing_points": 6,
+      "porosity_index_per_100m_edge": 5.68,
+      "centroid_3826": [
+        300373.4,
+        2769705.0
+      ]
+    },
+    {
+      "patch_id": 19,
+      "area_m2": 720.1,
+      "perimeter_m": 110.9,
+      "ramp_or_crossing_points": 6,
+      "porosity_index_per_100m_edge": 5.41,
+      "centroid_3826": [
+        305713.8,
+        2772468.6
+      ]
+    },
+    {
+      "patch_id": 17,
+      "area_m2": 2018.9,
+      "perimeter_m": 179.0,
+      "ramp_or_crossing_points": 9,
+      "porosity_index_per_100m_edge": 5.03,
+      "centroid_3826": [
+        305747.8,
+        2771824.3
+      ]
+    },
+    {
+      "patch_id": 76,
+      "area_m2": 1741.2,
+      "perimeter_m": 179.7,
+      "ramp_or_crossing_points": 9,
+      "porosity_index_per_100m_edge": 5.01,
+      "centroid_3826": [
+        303726.0,
+        2771464.9
+      ]
+    },
+    {
+      "patch_id": 49,
+      "area_m2": 2064.0,
+      "perimeter_m": 177.5,
+      "ramp_or_crossing_points": 8,
+      "porosity_index_per_100m_edge": 4.51,
+      "centroid_3826": [
+        304721.0,
+        2771828.1
+      ]
+    },
+    {
+      "patch_id": 4,
+      "area_m2": 1148.9,
+      "perimeter_m": 207.2,
+      "ramp_or_crossing_points": 9,
+      "porosity_index_per_100m_edge": 4.34,
+      "centroid_3826": [
+        306093.4,
+        2769832.9
+      ]
+    },
+    {
+      "patch_id": 15,
+      "area_m2": 1274.0,
+      "perimeter_m": 139.8,
+      "ramp_or_crossing_points": 6,
+      "porosity_index_per_100m_edge": 4.29,
+      "centroid_3826": [
+        305770.8,
+        2772249.0
+      ]
+    },
+    {
+      "patch_id": 20,
+      "area_m2": 1216.8,
+      "perimeter_m": 142.0,
+      "ramp_or_crossing_points": 6,
+      "porosity_index_per_100m_edge": 4.23,
+      "centroid_3826": [
+        305675.0,
+        2772191.7
+      ]
+    }
+  ],
+  "sennett_edge_porosity_bottom10_least_porous": [
+    {
+      "patch_id": 137,
+      "area_m2": 1281.3,
+      "perimeter_m": 278.1,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        301621.0,
+        2769791.5
+      ]
+    },
+    {
+      "patch_id": 138,
+      "area_m2": 1612.3,
+      "perimeter_m": 158.3,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        301655.6,
+        2773407.4
+      ]
+    },
+    {
+      "patch_id": 140,
+      "area_m2": 5832.8,
+      "perimeter_m": 568.6,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        301412.9,
+        2769898.9
+      ]
+    },
+    {
+      "patch_id": 145,
+      "area_m2": 1007.2,
+      "perimeter_m": 128.6,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        301228.3,
+        2769980.9
+      ]
+    },
+    {
+      "patch_id": 154,
+      "area_m2": 757.9,
+      "perimeter_m": 119.2,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        300285.0,
+        2770232.6
+      ]
+    },
+    {
+      "patch_id": 156,
+      "area_m2": 2065.1,
+      "perimeter_m": 216.0,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        300141.8,
+        2770183.4
+      ]
+    },
+    {
+      "patch_id": 157,
+      "area_m2": 1005.6,
+      "perimeter_m": 125.7,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        299998.5,
+        2770000.0
+      ]
+    },
+    {
+      "patch_id": 158,
+      "area_m2": 6676.7,
+      "perimeter_m": 322.7,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        299906.9,
+        2769571.7
+      ]
+    },
+    {
+      "patch_id": 160,
+      "area_m2": 1314.3,
+      "perimeter_m": 145.4,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        299891.3,
+        2769428.3
+      ]
+    },
+    {
+      "patch_id": 163,
+      "area_m2": 557.7,
+      "perimeter_m": 105.9,
+      "ramp_or_crossing_points": 0,
+      "porosity_index_per_100m_edge": 0.0,
+      "centroid_3826": [
+        299792.0,
+        2769747.1
+      ]
+    }
+  ],
+  "gehl_walk_catchment": {
+    "total_buildings_evaluated": 21524,
+    "within_400m_count": 20903,
+    "within_400m_pct": 97.1,
+    "within_800m_count": 21517,
+    "within_800m_pct": 100.0,
+    "outside_800m_count": 7,
+    "outside_800m_pct": 0.0,
+    "NOTE": "算的是「棟數」涵蓋率,不是人口涵蓋率(沒有居住單元/人口資料)"
+  },
+  "gehl_edge_building_density_top10": [
+    {
+      "patch_id": 163,
+      "buildings_within_30m_of_edge": 21,
+      "buildings_per_100m_perimeter": 19.83,
+      "perimeter_m": 105.9
+    },
+    {
+      "patch_id": 29,
+      "buildings_within_30m_of_edge": 31,
+      "buildings_per_100m_perimeter": 18.52,
+      "perimeter_m": 167.4
+    },
+    {
+      "patch_id": 107,
+      "buildings_within_30m_of_edge": 29,
+      "buildings_per_100m_perimeter": 17.21,
+      "perimeter_m": 168.5
+    },
+    {
+      "patch_id": 108,
+      "buildings_within_30m_of_edge": 21,
+      "buildings_per_100m_perimeter": 15.11,
+      "perimeter_m": 139.0
+    },
+    {
+      "patch_id": 135,
+      "buildings_within_30m_of_edge": 26,
+      "buildings_per_100m_perimeter": 14.91,
+      "perimeter_m": 174.4
+    },
+    {
+      "patch_id": 47,
+      "buildings_within_30m_of_edge": 22,
+      "buildings_per_100m_perimeter": 14.8,
+      "perimeter_m": 148.7
+    },
+    {
+      "patch_id": 138,
+      "buildings_within_30m_of_edge": 23,
+      "buildings_per_100m_perimeter": 14.53,
+      "perimeter_m": 158.3
+    },
+    {
+      "patch_id": 146,
+      "buildings_within_30m_of_edge": 21,
+      "buildings_per_100m_perimeter": 14.27,
+      "perimeter_m": 147.2
+    },
+    {
+      "patch_id": 40,
+      "buildings_within_30m_of_edge": 22,
+      "buildings_per_100m_perimeter": 13.77,
+      "perimeter_m": 159.8
+    },
+    {
+      "patch_id": 74,
+      "buildings_within_30m_of_edge": 30,
+      "buildings_per_100m_perimeter": 13.67,
+      "perimeter_m": 219.5
+    }
+  ],
+  "gehl_edge_building_density_bottom10": [
+    {
+      "patch_id": 144,
+      "buildings_within_30m_of_edge": 2,
+      "buildings_per_100m_perimeter": 0.36,
+      "perimeter_m": 558.6
+    },
+    {
+      "patch_id": 59,
+      "buildings_within_30m_of_edge": 3,
+      "buildings_per_100m_perimeter": 0.28,
+      "perimeter_m": 1067.1
+    },
+    {
+      "patch_id": 130,
+      "buildings_within_30m_of_edge": 1,
+      "buildings_per_100m_perimeter": 0.23,
+      "perimeter_m": 440.8
+    },
+    {
+      "patch_id": 25,
+      "buildings_within_30m_of_edge": 0,
+      "buildings_per_100m_perimeter": 0.0,
+      "perimeter_m": 250.5
+    },
+    {
+      "patch_id": 68,
+      "buildings_within_30m_of_edge": 0,
+      "buildings_per_100m_perimeter": 0.0,
+      "perimeter_m": 2320.5
+    },
+    {
+      "patch_id": 118,
+      "buildings_within_30m_of_edge": 0,
+      "buildings_per_100m_perimeter": 0.0,
+      "perimeter_m": 267.0
+    },
+    {
+      "patch_id": 125,
+      "buildings_within_30m_of_edge": 0,
+      "buildings_per_100m_perimeter": 0.0,
+      "perimeter_m": 235.6
+    },
+    {
+      "patch_id": 128,
+      "buildings_within_30m_of_edge": 0,
+      "buildings_per_100m_perimeter": 0.0,
+      "perimeter_m": 98.0
+    },
+    {
+      "patch_id": 131,
+      "buildings_within_30m_of_edge": 0,
+      "buildings_per_100m_perimeter": 0.0,
+      "perimeter_m": 409.6
+    },
+    {
+      "patch_id": 140,
+      "buildings_within_30m_of_edge": 0,
+      "buildings_per_100m_perimeter": 0.0,
+      "perimeter_m": 568.6
+    }
+  ],
+  "jacobs_block_grain": {
+    "road_segments_in_site": 7341,
+    "total_road_length_km": 95.72,
+    "road_density_km_per_km2": 3.18,
+    "fine_grain_lt8m_length_km": 15.63,
+    "fine_grain_lt8m_pct_of_total": 16.3,
+    "mid_8to20m_length_km": 34.71,
+    "wide_ge20m_length_km": 45.38,
+    "wide_ge20m_pct_of_total": 47.4,
+    "NOTE": "沒有正式路網節點/拓樸資料,這是道路寬度分級密度代理,不是路口密度或路徑選擇數的直接量測"
+  },
+  "jacobs_green_fragmentation": [
+    {
+      "patch_id": 0,
+      "nearest_patch_id": 5,
+      "gap_distance_m": 333.2,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 1,
+      "nearest_patch_id": 2,
+      "gap_distance_m": 423.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 2,
+      "nearest_patch_id": 6,
+      "gap_distance_m": 338.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 3,
+      "nearest_patch_id": 10,
+      "gap_distance_m": 262.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 4,
+      "nearest_patch_id": 9,
+      "gap_distance_m": 205.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 5,
+      "nearest_patch_id": 8,
+      "gap_distance_m": 407.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 6,
+      "nearest_patch_id": 12,
+      "gap_distance_m": 113.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 7,
+      "nearest_patch_id": 9,
+      "gap_distance_m": 210.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 8,
+      "nearest_patch_id": 11,
+      "gap_distance_m": 122.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 9,
+      "nearest_patch_id": 4,
+      "gap_distance_m": 205.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 10,
+      "nearest_patch_id": 14,
+      "gap_distance_m": 50.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 11,
+      "nearest_patch_id": 8,
+      "gap_distance_m": 122.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 12,
+      "nearest_patch_id": 13,
+      "gap_distance_m": 11.0,
+      "pedestrian_link_detected": false
+    },
+    {
+      "patch_id": 13,
+      "nearest_patch_id": 12,
+      "gap_distance_m": 11.0,
+      "pedestrian_link_detected": false
+    },
+    {
+      "patch_id": 14,
+      "nearest_patch_id": 15,
+      "gap_distance_m": 62.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 15,
+      "nearest_patch_id": 14,
+      "gap_distance_m": 62.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 16,
+      "nearest_patch_id": 20,
+      "gap_distance_m": 35.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 17,
+      "nearest_patch_id": 16,
+      "gap_distance_m": 291.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 18,
+      "nearest_patch_id": 23,
+      "gap_distance_m": 216.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 19,
+      "nearest_patch_id": 14,
+      "gap_distance_m": 115.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 20,
+      "nearest_patch_id": 16,
+      "gap_distance_m": 35.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 21,
+      "nearest_patch_id": 19,
+      "gap_distance_m": 118.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 22,
+      "nearest_patch_id": 11,
+      "gap_distance_m": 300.3,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 23,
+      "nearest_patch_id": 24,
+      "gap_distance_m": 213.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 24,
+      "nearest_patch_id": 23,
+      "gap_distance_m": 213.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 25,
+      "nearest_patch_id": 31,
+      "gap_distance_m": 225.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 26,
+      "nearest_patch_id": 36,
+      "gap_distance_m": 176.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 27,
+      "nearest_patch_id": 32,
+      "gap_distance_m": 128.3,
+      "pedestrian_link_detected": false
+    },
+    {
+      "patch_id": 28,
+      "nearest_patch_id": 32,
+      "gap_distance_m": 138.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 29,
+      "nearest_patch_id": 35,
+      "gap_distance_m": 191.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 30,
+      "nearest_patch_id": 33,
+      "gap_distance_m": 163.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 31,
+      "nearest_patch_id": 39,
+      "gap_distance_m": 119.6,
+      "pedestrian_link_detected": false
+    },
+    {
+      "patch_id": 32,
+      "nearest_patch_id": 28,
+      "gap_distance_m": 138.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 33,
+      "nearest_patch_id": 30,
+      "gap_distance_m": 163.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 34,
+      "nearest_patch_id": 41,
+      "gap_distance_m": 82.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 35,
+      "nearest_patch_id": 29,
+      "gap_distance_m": 191.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 36,
+      "nearest_patch_id": 42,
+      "gap_distance_m": 83.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 37,
+      "nearest_patch_id": 41,
+      "gap_distance_m": 197.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 38,
+      "nearest_patch_id": 40,
+      "gap_distance_m": 129.2,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 39,
+      "nearest_patch_id": 42,
+      "gap_distance_m": 101.0,
+      "pedestrian_link_detected": false
+    },
+    {
+      "patch_id": 40,
+      "nearest_patch_id": 38,
+      "gap_distance_m": 129.2,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 41,
+      "nearest_patch_id": 34,
+      "gap_distance_m": 82.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 42,
+      "nearest_patch_id": 36,
+      "gap_distance_m": 83.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 43,
+      "nearest_patch_id": 44,
+      "gap_distance_m": 39.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 44,
+      "nearest_patch_id": 43,
+      "gap_distance_m": 39.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 45,
+      "nearest_patch_id": 42,
+      "gap_distance_m": 139.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 46,
+      "nearest_patch_id": 55,
+      "gap_distance_m": 120.3,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 47,
+      "nearest_patch_id": 46,
+      "gap_distance_m": 138.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 48,
+      "nearest_patch_id": 45,
+      "gap_distance_m": 161.2,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 49,
+      "nearest_patch_id": 54,
+      "gap_distance_m": 19.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 50,
+      "nearest_patch_id": 63,
+      "gap_distance_m": 270.3,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 51,
+      "nearest_patch_id": 62,
+      "gap_distance_m": 6.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 52,
+      "nearest_patch_id": 56,
+      "gap_distance_m": 164.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 53,
+      "nearest_patch_id": 49,
+      "gap_distance_m": 171.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 54,
+      "nearest_patch_id": 49,
+      "gap_distance_m": 19.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 55,
+      "nearest_patch_id": 46,
+      "gap_distance_m": 120.3,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 56,
+      "nearest_patch_id": 52,
+      "gap_distance_m": 164.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 57,
+      "nearest_patch_id": 58,
+      "gap_distance_m": 6.0,
+      "pedestrian_link_detected": false
+    },
+    {
+      "patch_id": 58,
+      "nearest_patch_id": 57,
+      "gap_distance_m": 6.0,
+      "pedestrian_link_detected": false
+    },
+    {
+      "patch_id": 59,
+      "nearest_patch_id": 63,
+      "gap_distance_m": 126.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 60,
+      "nearest_patch_id": 47,
+      "gap_distance_m": 190.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 61,
+      "nearest_patch_id": 54,
+      "gap_distance_m": 52.2,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 62,
+      "nearest_patch_id": 51,
+      "gap_distance_m": 6.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 63,
+      "nearest_patch_id": 59,
+      "gap_distance_m": 126.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 64,
+      "nearest_patch_id": 61,
+      "gap_distance_m": 207.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 65,
+      "nearest_patch_id": 67,
+      "gap_distance_m": 103.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 66,
+      "nearest_patch_id": 62,
+      "gap_distance_m": 40.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 67,
+      "nearest_patch_id": 65,
+      "gap_distance_m": 103.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 68,
+      "nearest_patch_id": 82,
+      "gap_distance_m": 252.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 69,
+      "nearest_patch_id": 75,
+      "gap_distance_m": 87.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 70,
+      "nearest_patch_id": 79,
+      "gap_distance_m": 253.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 71,
+      "nearest_patch_id": 77,
+      "gap_distance_m": 316.3,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 72,
+      "nearest_patch_id": 78,
+      "gap_distance_m": 355.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 73,
+      "nearest_patch_id": 76,
+      "gap_distance_m": 173.2,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 74,
+      "nearest_patch_id": 84,
+      "gap_distance_m": 291.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 75,
+      "nearest_patch_id": 69,
+      "gap_distance_m": 87.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 76,
+      "nearest_patch_id": 73,
+      "gap_distance_m": 173.2,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 77,
+      "nearest_patch_id": 80,
+      "gap_distance_m": 11.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 78,
+      "nearest_patch_id": 85,
+      "gap_distance_m": 276.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 79,
+      "nearest_patch_id": 91,
+      "gap_distance_m": 252.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 80,
+      "nearest_patch_id": 77,
+      "gap_distance_m": 11.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 81,
+      "nearest_patch_id": 93,
+      "gap_distance_m": 282.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 82,
+      "nearest_patch_id": 87,
+      "gap_distance_m": 205.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 83,
+      "nearest_patch_id": 75,
+      "gap_distance_m": 226.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 84,
+      "nearest_patch_id": 89,
+      "gap_distance_m": 180.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 85,
+      "nearest_patch_id": 78,
+      "gap_distance_m": 276.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 86,
+      "nearest_patch_id": 88,
+      "gap_distance_m": 263.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 87,
+      "nearest_patch_id": 95,
+      "gap_distance_m": 129.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 88,
+      "nearest_patch_id": 100,
+      "gap_distance_m": 169.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 89,
+      "nearest_patch_id": 84,
+      "gap_distance_m": 180.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 90,
+      "nearest_patch_id": 89,
+      "gap_distance_m": 218.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 91,
+      "nearest_patch_id": 79,
+      "gap_distance_m": 252.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 92,
+      "nearest_patch_id": 98,
+      "gap_distance_m": 97.2,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 93,
+      "nearest_patch_id": 89,
+      "gap_distance_m": 261.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 94,
+      "nearest_patch_id": 78,
+      "gap_distance_m": 326.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 95,
+      "nearest_patch_id": 87,
+      "gap_distance_m": 129.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 96,
+      "nearest_patch_id": 82,
+      "gap_distance_m": 285.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 97,
+      "nearest_patch_id": 98,
+      "gap_distance_m": 45.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 98,
+      "nearest_patch_id": 97,
+      "gap_distance_m": 45.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 99,
+      "nearest_patch_id": 103,
+      "gap_distance_m": 20.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 100,
+      "nearest_patch_id": 88,
+      "gap_distance_m": 169.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 101,
+      "nearest_patch_id": 104,
+      "gap_distance_m": 201.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 102,
+      "nearest_patch_id": 106,
+      "gap_distance_m": 5.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 103,
+      "nearest_patch_id": 99,
+      "gap_distance_m": 20.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 104,
+      "nearest_patch_id": 101,
+      "gap_distance_m": 201.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 105,
+      "nearest_patch_id": 107,
+      "gap_distance_m": 233.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 106,
+      "nearest_patch_id": 102,
+      "gap_distance_m": 5.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 107,
+      "nearest_patch_id": 108,
+      "gap_distance_m": 230.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 108,
+      "nearest_patch_id": 110,
+      "gap_distance_m": 8.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 109,
+      "nearest_patch_id": 105,
+      "gap_distance_m": 225.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 110,
+      "nearest_patch_id": 108,
+      "gap_distance_m": 8.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 111,
+      "nearest_patch_id": 112,
+      "gap_distance_m": 5.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 112,
+      "nearest_patch_id": 111,
+      "gap_distance_m": 5.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 113,
+      "nearest_patch_id": 112,
+      "gap_distance_m": 11.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 114,
+      "nearest_patch_id": 116,
+      "gap_distance_m": 15.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 115,
+      "nearest_patch_id": 117,
+      "gap_distance_m": 218.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 116,
+      "nearest_patch_id": 114,
+      "gap_distance_m": 15.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 117,
+      "nearest_patch_id": 115,
+      "gap_distance_m": 218.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 118,
+      "nearest_patch_id": 113,
+      "gap_distance_m": 117.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 119,
+      "nearest_patch_id": 109,
+      "gap_distance_m": 449.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 120,
+      "nearest_patch_id": 118,
+      "gap_distance_m": 273.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 121,
+      "nearest_patch_id": 129,
+      "gap_distance_m": 247.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 122,
+      "nearest_patch_id": 125,
+      "gap_distance_m": 18.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 123,
+      "nearest_patch_id": 127,
+      "gap_distance_m": 41.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 124,
+      "nearest_patch_id": 126,
+      "gap_distance_m": 251.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 125,
+      "nearest_patch_id": 122,
+      "gap_distance_m": 18.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 126,
+      "nearest_patch_id": 129,
+      "gap_distance_m": 175.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 127,
+      "nearest_patch_id": 123,
+      "gap_distance_m": 41.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 128,
+      "nearest_patch_id": 122,
+      "gap_distance_m": 22.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 129,
+      "nearest_patch_id": 126,
+      "gap_distance_m": 175.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 130,
+      "nearest_patch_id": 131,
+      "gap_distance_m": 17.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 131,
+      "nearest_patch_id": 130,
+      "gap_distance_m": 17.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 132,
+      "nearest_patch_id": 133,
+      "gap_distance_m": 175.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 133,
+      "nearest_patch_id": 132,
+      "gap_distance_m": 175.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 134,
+      "nearest_patch_id": 137,
+      "gap_distance_m": 201.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 135,
+      "nearest_patch_id": 142,
+      "gap_distance_m": 224.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 136,
+      "nearest_patch_id": 137,
+      "gap_distance_m": 17.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 137,
+      "nearest_patch_id": 136,
+      "gap_distance_m": 17.7,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 138,
+      "nearest_patch_id": 142,
+      "gap_distance_m": 226.3,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 139,
+      "nearest_patch_id": 144,
+      "gap_distance_m": 267.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 140,
+      "nearest_patch_id": 145,
+      "gap_distance_m": 47.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 141,
+      "nearest_patch_id": 143,
+      "gap_distance_m": 142.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 142,
+      "nearest_patch_id": 135,
+      "gap_distance_m": 224.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 143,
+      "nearest_patch_id": 141,
+      "gap_distance_m": 142.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 144,
+      "nearest_patch_id": 139,
+      "gap_distance_m": 267.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 145,
+      "nearest_patch_id": 140,
+      "gap_distance_m": 47.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 146,
+      "nearest_patch_id": 147,
+      "gap_distance_m": 219.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 147,
+      "nearest_patch_id": 146,
+      "gap_distance_m": 219.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 148,
+      "nearest_patch_id": 149,
+      "gap_distance_m": 289.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 149,
+      "nearest_patch_id": 152,
+      "gap_distance_m": 71.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 150,
+      "nearest_patch_id": 154,
+      "gap_distance_m": 249.3,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 151,
+      "nearest_patch_id": 152,
+      "gap_distance_m": 94.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 152,
+      "nearest_patch_id": 151,
+      "gap_distance_m": 94.5,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 153,
+      "nearest_patch_id": 154,
+      "gap_distance_m": 47.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 154,
+      "nearest_patch_id": 153,
+      "gap_distance_m": 47.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 155,
+      "nearest_patch_id": 151,
+      "gap_distance_m": 66.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 156,
+      "nearest_patch_id": 154,
+      "gap_distance_m": 93.2,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 157,
+      "nearest_patch_id": 161,
+      "gap_distance_m": 164.1,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 158,
+      "nearest_patch_id": 162,
+      "gap_distance_m": 39.8,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 159,
+      "nearest_patch_id": 161,
+      "gap_distance_m": 88.9,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 160,
+      "nearest_patch_id": 158,
+      "gap_distance_m": 87.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 161,
+      "nearest_patch_id": 163,
+      "gap_distance_m": 69.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 162,
+      "nearest_patch_id": 163,
+      "gap_distance_m": 58.6,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 163,
+      "nearest_patch_id": 161,
+      "gap_distance_m": 69.4,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 164,
+      "nearest_patch_id": 165,
+      "gap_distance_m": 43.0,
+      "pedestrian_link_detected": true
+    },
+    {
+      "patch_id": 165,
+      "nearest_patch_id": 164,
+      "gap_distance_m": 43.0,
+      "pedestrian_link_detected": true
+    }
+  ]
+}
