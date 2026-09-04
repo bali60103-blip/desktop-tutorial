@@ -1,0 +1,1144 @@
+{
+  "CAVEAT": "activity_poi_count 是「15m內最近的真實OSM商業/辦公POI數」的空間鄰近代理值,不是實際商業登記或人流資料;buildings_with_tile_coverage_within_400m 低不代表該公園周圍真的沒建築/沒商業,很可能是使用者上傳的建築圖磚沒涵蓋到那個位置(圖磚是陸續拼接的,基地內約20%網格目前沒有建築資料),兩種情況在這份資料裡無法區分,已在 low_building_tile_coverage_parks 裡個別列出,解讀「活動密度低」的公園時要先排除這些資料缺口的公園,不能直接當成「這裡本來就沒有活動聚集」。",
+  "assume_radius_m": 15,
+  "park_radius_m": 400,
+  "total_buildings": 21524,
+  "matched_poi_count": 10560,
+  "unmatched_poi_count": 1553,
+  "unmatched_poi_note": "OSM POI 離最近建築超過 15m,無法配對到任何建築量體(可能在開放空間/圖磚缺口/建築圖磚本身位置誤差)。",
+  "low_connectivity_pr25_group": {
+    "park_count": 22,
+    "park_count_with_building_data": 22,
+    "avg_activity_poi_per_building": 0.25,
+    "avg_buildings_with_tile_coverage_within_400m": 350.7
+  },
+  "other_parks_group": {
+    "park_count": 138,
+    "park_count_with_building_data": 138,
+    "avg_activity_poi_per_building": 0.53,
+    "avg_buildings_with_tile_coverage_within_400m": 485.6
+  },
+  "low_building_tile_coverage_parks": [],
+  "park_activity_details": [
+    {
+      "name": "華江八號公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 414,
+      "total_activity_poi_within_400m": 44,
+      "avg_activity_poi_per_building_within_400m": 0.11
+    },
+    {
+      "name": "綠堤公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 399,
+      "total_activity_poi_within_400m": 49,
+      "avg_activity_poi_per_building_within_400m": 0.12
+    },
+    {
+      "name": "華江七號公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 420,
+      "total_activity_poi_within_400m": 56,
+      "avg_activity_poi_per_building_within_400m": 0.13
+    },
+    {
+      "name": "大同公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 372,
+      "total_activity_poi_within_400m": 55,
+      "avg_activity_poi_per_building_within_400m": 0.15
+    },
+    {
+      "name": "大理公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 465,
+      "total_activity_poi_within_400m": 75,
+      "avg_activity_poi_per_building_within_400m": 0.16
+    },
+    {
+      "name": "國順公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 385,
+      "total_activity_poi_within_400m": 69,
+      "avg_activity_poi_per_building_within_400m": 0.18
+    },
+    {
+      "name": "華江一號公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 435,
+      "total_activity_poi_within_400m": 77,
+      "avg_activity_poi_per_building_within_400m": 0.18
+    },
+    {
+      "name": "樹德公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 335,
+      "total_activity_poi_within_400m": 62,
+      "avg_activity_poi_per_building_within_400m": 0.19
+    },
+    {
+      "name": "聚德公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 503,
+      "total_activity_poi_within_400m": 97,
+      "avg_activity_poi_per_building_within_400m": 0.19
+    },
+    {
+      "name": "景化公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 589,
+      "total_activity_poi_within_400m": 117,
+      "avg_activity_poi_per_building_within_400m": 0.2
+    },
+    {
+      "name": "德鄰公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 452,
+      "total_activity_poi_within_400m": 90,
+      "avg_activity_poi_per_building_within_400m": 0.2
+    },
+    {
+      "name": "蘭州公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 471,
+      "total_activity_poi_within_400m": 96,
+      "avg_activity_poi_per_building_within_400m": 0.2
+    },
+    {
+      "name": "新糖廍公園(糖廍文化園區)",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 476,
+      "total_activity_poi_within_400m": 94,
+      "avg_activity_poi_per_building_within_400m": 0.2
+    },
+    {
+      "name": "糖廍公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 518,
+      "total_activity_poi_within_400m": 109,
+      "avg_activity_poi_per_building_within_400m": 0.21
+    },
+    {
+      "name": "民榮公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 448,
+      "total_activity_poi_within_400m": 93,
+      "avg_activity_poi_per_building_within_400m": 0.21
+    },
+    {
+      "name": "文光公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 728,
+      "total_activity_poi_within_400m": 174,
+      "avg_activity_poi_per_building_within_400m": 0.24
+    },
+    {
+      "name": "連雲公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 745,
+      "total_activity_poi_within_400m": 179,
+      "avg_activity_poi_per_building_within_400m": 0.24
+    },
+    {
+      "name": "長沙公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 447,
+      "total_activity_poi_within_400m": 112,
+      "avg_activity_poi_per_building_within_400m": 0.25
+    },
+    {
+      "name": "金山公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 473,
+      "total_activity_poi_within_400m": 116,
+      "avg_activity_poi_per_building_within_400m": 0.25
+    },
+    {
+      "name": "民輝公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 474,
+      "total_activity_poi_within_400m": 122,
+      "avg_activity_poi_per_building_within_400m": 0.26
+    },
+    {
+      "name": "錦州公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 580,
+      "total_activity_poi_within_400m": 159,
+      "avg_activity_poi_per_building_within_400m": 0.27
+    },
+    {
+      "name": "柳鄉公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 446,
+      "total_activity_poi_within_400m": 122,
+      "avg_activity_poi_per_building_within_400m": 0.27
+    },
+    {
+      "name": "江寧公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 333,
+      "total_activity_poi_within_400m": 94,
+      "avg_activity_poi_per_building_within_400m": 0.28
+    },
+    {
+      "name": "聚葉公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 585,
+      "total_activity_poi_within_400m": 172,
+      "avg_activity_poi_per_building_within_400m": 0.29
+    },
+    {
+      "name": "華山公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 513,
+      "total_activity_poi_within_400m": 152,
+      "avg_activity_poi_per_building_within_400m": 0.3
+    },
+    {
+      "name": "大稻埕公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 660,
+      "total_activity_poi_within_400m": 199,
+      "avg_activity_poi_per_building_within_400m": 0.3
+    },
+    {
+      "name": "延壽二號公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 310,
+      "total_activity_poi_within_400m": 94,
+      "avg_activity_poi_per_building_within_400m": 0.3
+    },
+    {
+      "name": "延壽三號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 340,
+      "total_activity_poi_within_400m": 103,
+      "avg_activity_poi_per_building_within_400m": 0.3
+    },
+    {
+      "name": "富錦六號公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 247,
+      "total_activity_poi_within_400m": 74,
+      "avg_activity_poi_per_building_within_400m": 0.3
+    },
+    {
+      "name": "歸綏戲曲公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 797,
+      "total_activity_poi_within_400m": 246,
+      "avg_activity_poi_per_building_within_400m": 0.31
+    },
+    {
+      "name": "精忠公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 224,
+      "total_activity_poi_within_400m": 70,
+      "avg_activity_poi_per_building_within_400m": 0.31
+    },
+    {
+      "name": "合江公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 449,
+      "total_activity_poi_within_400m": 142,
+      "avg_activity_poi_per_building_within_400m": 0.32
+    },
+    {
+      "name": "新壽公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 468,
+      "total_activity_poi_within_400m": 149,
+      "avg_activity_poi_per_building_within_400m": 0.32
+    },
+    {
+      "name": "玉泉公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 175,
+      "total_activity_poi_within_400m": 56,
+      "avg_activity_poi_per_building_within_400m": 0.32
+    },
+    {
+      "name": "蔣渭水紀念公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 529,
+      "total_activity_poi_within_400m": 170,
+      "avg_activity_poi_per_building_within_400m": 0.32
+    },
+    {
+      "name": "吉仁公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 481,
+      "total_activity_poi_within_400m": 152,
+      "avg_activity_poi_per_building_within_400m": 0.32
+    },
+    {
+      "name": "富錦五號公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 210,
+      "total_activity_poi_within_400m": 68,
+      "avg_activity_poi_per_building_within_400m": 0.32
+    },
+    {
+      "name": "大安森林公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 369,
+      "total_activity_poi_within_400m": 118,
+      "avg_activity_poi_per_building_within_400m": 0.32
+    },
+    {
+      "name": "居安公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 303,
+      "total_activity_poi_within_400m": 96,
+      "avg_activity_poi_per_building_within_400m": 0.32
+    },
+    {
+      "name": "龍江公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 427,
+      "total_activity_poi_within_400m": 141,
+      "avg_activity_poi_per_building_within_400m": 0.33
+    },
+    {
+      "name": "忠和公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 522,
+      "total_activity_poi_within_400m": 173,
+      "avg_activity_poi_per_building_within_400m": 0.33
+    },
+    {
+      "name": "精忠2號公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 357,
+      "total_activity_poi_within_400m": 117,
+      "avg_activity_poi_per_building_within_400m": 0.33
+    },
+    {
+      "name": "青山公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 492,
+      "total_activity_poi_within_400m": 162,
+      "avg_activity_poi_per_building_within_400m": 0.33
+    },
+    {
+      "name": "平安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 404,
+      "total_activity_poi_within_400m": 133,
+      "avg_activity_poi_per_building_within_400m": 0.33
+    },
+    {
+      "name": "復源公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 532,
+      "total_activity_poi_within_400m": 182,
+      "avg_activity_poi_per_building_within_400m": 0.34
+    },
+    {
+      "name": "信愛公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 792,
+      "total_activity_poi_within_400m": 266,
+      "avg_activity_poi_per_building_within_400m": 0.34
+    },
+    {
+      "name": "中原公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 626,
+      "total_activity_poi_within_400m": 221,
+      "avg_activity_poi_per_building_within_400m": 0.35
+    },
+    {
+      "name": "晴光公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 510,
+      "total_activity_poi_within_400m": 180,
+      "avg_activity_poi_per_building_within_400m": 0.35
+    },
+    {
+      "name": "老松公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 780,
+      "total_activity_poi_within_400m": 272,
+      "avg_activity_poi_per_building_within_400m": 0.35
+    },
+    {
+      "name": "和平青草園(原萬華402號公園)",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 400,
+      "total_activity_poi_within_400m": 139,
+      "avg_activity_poi_per_building_within_400m": 0.35
+    },
+    {
+      "name": "桂林公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 374,
+      "total_activity_poi_within_400m": 132,
+      "avg_activity_poi_per_building_within_400m": 0.35
+    },
+    {
+      "name": "萬華266號綠地",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 814,
+      "total_activity_poi_within_400m": 288,
+      "avg_activity_poi_per_building_within_400m": 0.35
+    },
+    {
+      "name": "金華公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 513,
+      "total_activity_poi_within_400m": 178,
+      "avg_activity_poi_per_building_within_400m": 0.35
+    },
+    {
+      "name": "榮星花園公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 239,
+      "total_activity_poi_within_400m": 85,
+      "avg_activity_poi_per_building_within_400m": 0.36
+    },
+    {
+      "name": "正守公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 496,
+      "total_activity_poi_within_400m": 184,
+      "avg_activity_poi_per_building_within_400m": 0.37
+    },
+    {
+      "name": "集英公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 409,
+      "total_activity_poi_within_400m": 151,
+      "avg_activity_poi_per_building_within_400m": 0.37
+    },
+    {
+      "name": "新興公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 596,
+      "total_activity_poi_within_400m": 223,
+      "avg_activity_poi_per_building_within_400m": 0.37
+    },
+    {
+      "name": "大同16號廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 572,
+      "total_activity_poi_within_400m": 212,
+      "avg_activity_poi_per_building_within_400m": 0.37
+    },
+    {
+      "name": "建成圓環",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 926,
+      "total_activity_poi_within_400m": 341,
+      "avg_activity_poi_per_building_within_400m": 0.37
+    },
+    {
+      "name": "撫順公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 498,
+      "total_activity_poi_within_400m": 191,
+      "avg_activity_poi_per_building_within_400m": 0.38
+    },
+    {
+      "name": "大稻埕廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 705,
+      "total_activity_poi_within_400m": 269,
+      "avg_activity_poi_per_building_within_400m": 0.38
+    },
+    {
+      "name": "中華公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 349,
+      "total_activity_poi_within_400m": 133,
+      "avg_activity_poi_per_building_within_400m": 0.38
+    },
+    {
+      "name": "華西公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 546,
+      "total_activity_poi_within_400m": 209,
+      "avg_activity_poi_per_building_within_400m": 0.38
+    },
+    {
+      "name": "錦安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 365,
+      "total_activity_poi_within_400m": 137,
+      "avg_activity_poi_per_building_within_400m": 0.38
+    },
+    {
+      "name": "永樂廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 722,
+      "total_activity_poi_within_400m": 283,
+      "avg_activity_poi_per_building_within_400m": 0.39
+    },
+    {
+      "name": "新龍公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 402,
+      "total_activity_poi_within_400m": 156,
+      "avg_activity_poi_per_building_within_400m": 0.39
+    },
+    {
+      "name": "塔城公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 504,
+      "total_activity_poi_within_400m": 203,
+      "avg_activity_poi_per_building_within_400m": 0.4
+    },
+    {
+      "name": "復盛公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 190,
+      "total_activity_poi_within_400m": 76,
+      "avg_activity_poi_per_building_within_400m": 0.4
+    },
+    {
+      "name": "朝陽公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 906,
+      "total_activity_poi_within_400m": 370,
+      "avg_activity_poi_per_building_within_400m": 0.41
+    },
+    {
+      "name": "中正138號綠地",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 85,
+      "total_activity_poi_within_400m": 35,
+      "avg_activity_poi_per_building_within_400m": 0.41
+    },
+    {
+      "name": "龍陣一號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 438,
+      "total_activity_poi_within_400m": 179,
+      "avg_activity_poi_per_building_within_400m": 0.41
+    },
+    {
+      "name": "龍陣二號公園 A",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 533,
+      "total_activity_poi_within_400m": 216,
+      "avg_activity_poi_per_building_within_400m": 0.41
+    },
+    {
+      "name": "龍陣二號公園 B",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 533,
+      "total_activity_poi_within_400m": 216,
+      "avg_activity_poi_per_building_within_400m": 0.41
+    },
+    {
+      "name": "錦華綠地",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 544,
+      "total_activity_poi_within_400m": 223,
+      "avg_activity_poi_per_building_within_400m": 0.41
+    },
+    {
+      "name": "寺前公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 522,
+      "total_activity_poi_within_400m": 217,
+      "avg_activity_poi_per_building_within_400m": 0.42
+    },
+    {
+      "name": "萬華51號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 583,
+      "total_activity_poi_within_400m": 245,
+      "avg_activity_poi_per_building_within_400m": 0.42
+    },
+    {
+      "name": "齊東公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 557,
+      "total_activity_poi_within_400m": 235,
+      "avg_activity_poi_per_building_within_400m": 0.42
+    },
+    {
+      "name": "安東公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 417,
+      "total_activity_poi_within_400m": 180,
+      "avg_activity_poi_per_building_within_400m": 0.43
+    },
+    {
+      "name": "永靜公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 638,
+      "total_activity_poi_within_400m": 283,
+      "avg_activity_poi_per_building_within_400m": 0.44
+    },
+    {
+      "name": "建興公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 335,
+      "total_activity_poi_within_400m": 146,
+      "avg_activity_poi_per_building_within_400m": 0.44
+    },
+    {
+      "name": "中央藝文公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 392,
+      "total_activity_poi_within_400m": 173,
+      "avg_activity_poi_per_building_within_400m": 0.44
+    },
+    {
+      "name": "附中公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 338,
+      "total_activity_poi_within_400m": 148,
+      "avg_activity_poi_per_building_within_400m": 0.44
+    },
+    {
+      "name": "德安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 468,
+      "total_activity_poi_within_400m": 205,
+      "avg_activity_poi_per_building_within_400m": 0.44
+    },
+    {
+      "name": "龍圖公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 521,
+      "total_activity_poi_within_400m": 230,
+      "avg_activity_poi_per_building_within_400m": 0.44
+    },
+    {
+      "name": "吉林公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 600,
+      "total_activity_poi_within_400m": 270,
+      "avg_activity_poi_per_building_within_400m": 0.45
+    },
+    {
+      "name": "林森公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 678,
+      "total_activity_poi_within_400m": 308,
+      "avg_activity_poi_per_building_within_400m": 0.45
+    },
+    {
+      "name": "松錦2號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 601,
+      "total_activity_poi_within_400m": 268,
+      "avg_activity_poi_per_building_within_400m": 0.45
+    },
+    {
+      "name": "民有一號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 223,
+      "total_activity_poi_within_400m": 101,
+      "avg_activity_poi_per_building_within_400m": 0.45
+    },
+    {
+      "name": "民有二號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 347,
+      "total_activity_poi_within_400m": 157,
+      "avg_activity_poi_per_building_within_400m": 0.45
+    },
+    {
+      "name": "美仁二號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 421,
+      "total_activity_poi_within_400m": 190,
+      "avg_activity_poi_per_building_within_400m": 0.45
+    },
+    {
+      "name": "艋舺公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 645,
+      "total_activity_poi_within_400m": 292,
+      "avg_activity_poi_per_building_within_400m": 0.45
+    },
+    {
+      "name": "進安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 241,
+      "total_activity_poi_within_400m": 112,
+      "avg_activity_poi_per_building_within_400m": 0.46
+    },
+    {
+      "name": "介壽公園",
+      "low_connectivity_pr25_below": true,
+      "buildings_with_tile_coverage_within_400m": 99,
+      "total_activity_poi_within_400m": 46,
+      "avg_activity_poi_per_building_within_400m": 0.46
+    },
+    {
+      "name": "光信公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 426,
+      "total_activity_poi_within_400m": 195,
+      "avg_activity_poi_per_building_within_400m": 0.46
+    },
+    {
+      "name": "松錦1號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 578,
+      "total_activity_poi_within_400m": 272,
+      "avg_activity_poi_per_building_within_400m": 0.47
+    },
+    {
+      "name": "仁愛公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 446,
+      "total_activity_poi_within_400m": 209,
+      "avg_activity_poi_per_building_within_400m": 0.47
+    },
+    {
+      "name": "敦安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 513,
+      "total_activity_poi_within_400m": 239,
+      "avg_activity_poi_per_building_within_400m": 0.47
+    },
+    {
+      "name": "康樂公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 669,
+      "total_activity_poi_within_400m": 322,
+      "avg_activity_poi_per_building_within_400m": 0.48
+    },
+    {
+      "name": "民有三號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 307,
+      "total_activity_poi_within_400m": 146,
+      "avg_activity_poi_per_building_within_400m": 0.48
+    },
+    {
+      "name": "美仁一號公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 405,
+      "total_activity_poi_within_400m": 196,
+      "avg_activity_poi_per_building_within_400m": 0.48
+    },
+    {
+      "name": "交通8號廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 616,
+      "total_activity_poi_within_400m": 297,
+      "avg_activity_poi_per_building_within_400m": 0.48
+    },
+    {
+      "name": "四維公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 420,
+      "total_activity_poi_within_400m": 205,
+      "avg_activity_poi_per_building_within_400m": 0.49
+    },
+    {
+      "name": "仁愛圓環",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 393,
+      "total_activity_poi_within_400m": 196,
+      "avg_activity_poi_per_building_within_400m": 0.5
+    },
+    {
+      "name": "永康公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 631,
+      "total_activity_poi_within_400m": 315,
+      "avg_activity_poi_per_building_within_400m": 0.5
+    },
+    {
+      "name": "麗水公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 656,
+      "total_activity_poi_within_400m": 331,
+      "avg_activity_poi_per_building_within_400m": 0.5
+    },
+    {
+      "name": "金杭公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 618,
+      "total_activity_poi_within_400m": 317,
+      "avg_activity_poi_per_building_within_400m": 0.51
+    },
+    {
+      "name": "通化公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 439,
+      "total_activity_poi_within_400m": 225,
+      "avg_activity_poi_per_building_within_400m": 0.51
+    },
+    {
+      "name": "敦化公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 402,
+      "total_activity_poi_within_400m": 208,
+      "avg_activity_poi_per_building_within_400m": 0.52
+    },
+    {
+      "name": "寧安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 448,
+      "total_activity_poi_within_400m": 231,
+      "avg_activity_poi_per_building_within_400m": 0.52
+    },
+    {
+      "name": "錦北公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 361,
+      "total_activity_poi_within_400m": 193,
+      "avg_activity_poi_per_building_within_400m": 0.53
+    },
+    {
+      "name": "長壽公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 274,
+      "total_activity_poi_within_400m": 146,
+      "avg_activity_poi_per_building_within_400m": 0.53
+    },
+    {
+      "name": "昌隆198公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 253,
+      "total_activity_poi_within_400m": 135,
+      "avg_activity_poi_per_building_within_400m": 0.53
+    },
+    {
+      "name": "中安公園 ",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 646,
+      "total_activity_poi_within_400m": 347,
+      "avg_activity_poi_per_building_within_400m": 0.54
+    },
+    {
+      "name": "仁慈公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 490,
+      "total_activity_poi_within_400m": 264,
+      "avg_activity_poi_per_building_within_400m": 0.54
+    },
+    {
+      "name": "東豐公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 444,
+      "total_activity_poi_within_400m": 246,
+      "avg_activity_poi_per_building_within_400m": 0.55
+    },
+    {
+      "name": "仁德公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 582,
+      "total_activity_poi_within_400m": 324,
+      "avg_activity_poi_per_building_within_400m": 0.56
+    },
+    {
+      "name": "和安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 454,
+      "total_activity_poi_within_400m": 258,
+      "avg_activity_poi_per_building_within_400m": 0.57
+    },
+    {
+      "name": "朱昌公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 441,
+      "total_activity_poi_within_400m": 256,
+      "avg_activity_poi_per_building_within_400m": 0.58
+    },
+    {
+      "name": "復華公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 489,
+      "total_activity_poi_within_400m": 286,
+      "avg_activity_poi_per_building_within_400m": 0.58
+    },
+    {
+      "name": "朱厝崙公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 429,
+      "total_activity_poi_within_400m": 253,
+      "avg_activity_poi_per_building_within_400m": 0.59
+    },
+    {
+      "name": "八德公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 424,
+      "total_activity_poi_within_400m": 252,
+      "avg_activity_poi_per_building_within_400m": 0.59
+    },
+    {
+      "name": "忠孝公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 512,
+      "total_activity_poi_within_400m": 301,
+      "avg_activity_poi_per_building_within_400m": 0.59
+    },
+    {
+      "name": "中山129號綠地",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 489,
+      "total_activity_poi_within_400m": 295,
+      "avg_activity_poi_per_building_within_400m": 0.6
+    },
+    {
+      "name": "安祥公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 361,
+      "total_activity_poi_within_400m": 224,
+      "avg_activity_poi_per_building_within_400m": 0.62
+    },
+    {
+      "name": "北門廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 396,
+      "total_activity_poi_within_400m": 251,
+      "avg_activity_poi_per_building_within_400m": 0.63
+    },
+    {
+      "name": "延吉公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 401,
+      "total_activity_poi_within_400m": 254,
+      "avg_activity_poi_per_building_within_400m": 0.63
+    },
+    {
+      "name": "民享公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 659,
+      "total_activity_poi_within_400m": 420,
+      "avg_activity_poi_per_building_within_400m": 0.64
+    },
+    {
+      "name": "興安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 463,
+      "total_activity_poi_within_400m": 300,
+      "avg_activity_poi_per_building_within_400m": 0.65
+    },
+    {
+      "name": "朱崙公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 488,
+      "total_activity_poi_within_400m": 323,
+      "avg_activity_poi_per_building_within_400m": 0.66
+    },
+    {
+      "name": "逸仙公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 321,
+      "total_activity_poi_within_400m": 218,
+      "avg_activity_poi_per_building_within_400m": 0.68
+    },
+    {
+      "name": "中吉公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 547,
+      "total_activity_poi_within_400m": 376,
+      "avg_activity_poi_per_building_within_400m": 0.69
+    },
+    {
+      "name": "建成公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 698,
+      "total_activity_poi_within_400m": 500,
+      "avg_activity_poi_per_building_within_400m": 0.72
+    },
+    {
+      "name": "敦中公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 391,
+      "total_activity_poi_within_400m": 281,
+      "avg_activity_poi_per_building_within_400m": 0.72
+    },
+    {
+      "name": "興亞公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 435,
+      "total_activity_poi_within_400m": 321,
+      "avg_activity_poi_per_building_within_400m": 0.74
+    },
+    {
+      "name": "西本願寺（萬華406號）廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 585,
+      "total_activity_poi_within_400m": 445,
+      "avg_activity_poi_per_building_within_400m": 0.76
+    },
+    {
+      "name": "行旅廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 432,
+      "total_activity_poi_within_400m": 333,
+      "avg_activity_poi_per_building_within_400m": 0.77
+    },
+    {
+      "name": "興國公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 505,
+      "total_activity_poi_within_400m": 395,
+      "avg_activity_poi_per_building_within_400m": 0.78
+    },
+    {
+      "name": "松基公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 397,
+      "total_activity_poi_within_400m": 308,
+      "avg_activity_poi_per_building_within_400m": 0.78
+    },
+    {
+      "name": "慶城公園 A",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 385,
+      "total_activity_poi_within_400m": 305,
+      "avg_activity_poi_per_building_within_400m": 0.79
+    },
+    {
+      "name": "遼寧公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 506,
+      "total_activity_poi_within_400m": 407,
+      "avg_activity_poi_per_building_within_400m": 0.8
+    },
+    {
+      "name": "寧馨公園A",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 311,
+      "total_activity_poi_within_400m": 257,
+      "avg_activity_poi_per_building_within_400m": 0.83
+    },
+    {
+      "name": "中山4號廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 674,
+      "total_activity_poi_within_400m": 566,
+      "avg_activity_poi_per_building_within_400m": 0.84
+    },
+    {
+      "name": "敦仁公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 375,
+      "total_activity_poi_within_400m": 317,
+      "avg_activity_poi_per_building_within_400m": 0.85
+    },
+    {
+      "name": "誠安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 239,
+      "total_activity_poi_within_400m": 205,
+      "avg_activity_poi_per_building_within_400m": 0.86
+    },
+    {
+      "name": "大安125號綠地",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 297,
+      "total_activity_poi_within_400m": 254,
+      "avg_activity_poi_per_building_within_400m": 0.86
+    },
+    {
+      "name": "大安公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 346,
+      "total_activity_poi_within_400m": 307,
+      "avg_activity_poi_per_building_within_400m": 0.89
+    },
+    {
+      "name": "長春綠地",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 472,
+      "total_activity_poi_within_400m": 436,
+      "avg_activity_poi_per_building_within_400m": 0.92
+    },
+    {
+      "name": "環東公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 348,
+      "total_activity_poi_within_400m": 322,
+      "avg_activity_poi_per_building_within_400m": 0.93
+    },
+    {
+      "name": "瑠公圳公園 ",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 349,
+      "total_activity_poi_within_400m": 325,
+      "avg_activity_poi_per_building_within_400m": 0.93
+    },
+    {
+      "name": "交通4號廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 302,
+      "total_activity_poi_within_400m": 288,
+      "avg_activity_poi_per_building_within_400m": 0.95
+    },
+    {
+      "name": "福星公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 520,
+      "total_activity_poi_within_400m": 498,
+      "avg_activity_poi_per_building_within_400m": 0.96
+    },
+    {
+      "name": "一江公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 576,
+      "total_activity_poi_within_400m": 557,
+      "avg_activity_poi_per_building_within_400m": 0.97
+    },
+    {
+      "name": "瑠公公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 392,
+      "total_activity_poi_within_400m": 380,
+      "avg_activity_poi_per_building_within_400m": 0.97
+    },
+    {
+      "name": "松江公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 579,
+      "total_activity_poi_within_400m": 604,
+      "avg_activity_poi_per_building_within_400m": 1.04
+    },
+    {
+      "name": "伊通公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 504,
+      "total_activity_poi_within_400m": 542,
+      "avg_activity_poi_per_building_within_400m": 1.08
+    },
+    {
+      "name": "二二八和平公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 368,
+      "total_activity_poi_within_400m": 421,
+      "avg_activity_poi_per_building_within_400m": 1.14
+    },
+    {
+      "name": "太原廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 382,
+      "total_activity_poi_within_400m": 455,
+      "avg_activity_poi_per_building_within_400m": 1.19
+    },
+    {
+      "name": "四平公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 500,
+      "total_activity_poi_within_400m": 607,
+      "avg_activity_poi_per_building_within_400m": 1.21
+    },
+    {
+      "name": "黎明公園",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 363,
+      "total_activity_poi_within_400m": 464,
+      "avg_activity_poi_per_building_within_400m": 1.28
+    },
+    {
+      "name": "交7廣場",
+      "low_connectivity_pr25_below": false,
+      "buildings_with_tile_coverage_within_400m": 307,
+      "total_activity_poi_within_400m": 443,
+      "avg_activity_poi_per_building_within_400m": 1.44
+    }
+  ]
+}
