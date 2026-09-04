@@ -9,9 +9,11 @@ import analysis3_riverside_connectivity
 import analysis4_crowd_hotspots
 import analysis5_permeability
 import analysis6_park_profiles
+import analysis7_park_neighborhood
 import map1_green_volume
 import map2_block_character
 import map5_permeability
+import map7_park_neighborhood
 import render_site_figure_ground
 
 
@@ -30,17 +32,21 @@ def main():
     analysis4_crowd_hotspots.main()
     print("\n== 7/13 分析⑤ 綠帶滲透性(Sennett/Gehl/Jacobs) ==")
     analysis5_permeability.main()
-    print("\n== 8/13 分析⑥ 公園基本資料共通性 ==")
+    print("\n== 8/15 分析⑥ 公園基本資料共通性 ==")
     analysis6_park_profiles.main()
-    print("\n== 9/13 產生總覽地圖 ==")
+    print("\n== 9/15 分析⑦ 公園設施類型 x 400m 連結設施/人潮 ==")
+    analysis7_park_neighborhood.main()
+    print("\n== 10/15 產生總覽地圖 ==")
     build_overview_map.main()
-    print("\n== 10/13 出圖① 綠帶體量 ==")
+    print("\n== 11/15 出圖① 綠帶體量 ==")
     map1_green_volume.main()
-    print("\n== 11/13 出圖② 街區特色 ==")
+    print("\n== 12/15 出圖② 街區特色 ==")
     map2_block_character.main()
-    print("\n== 12/13 出圖⑤ 綠帶滲透性 ==")
+    print("\n== 13/15 出圖⑤ 綠帶滲透性 ==")
     map5_permeability.main()
-    print("\n== 13/13 基地紋理圖(figure-ground) ==")
+    print("\n== 14/15 出圖⑦ 公園設施類型連結 ==")
+    map7_park_neighborhood.main()
+    print("\n== 15/15 基地紋理圖(figure-ground) ==")
     render_site_figure_ground.main()
 
 
