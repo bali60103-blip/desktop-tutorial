@@ -951,20 +951,22 @@
   },
   "building_footprints": {
     "source_tiles_received": [
+      "buildings_tile_3852.json",
       "buildings_tile_4342.json",
       "buildings_tile_4347.json",
       "buildings_tile_4352.json"
     ],
     "coverage_note": "buildings_in_site_boundary 是目前已收到網格範圍內的實際建物數,不是整個基地的建物總數。approx_site_area_covered_pct 是用各網格的外框(bounding box,不是實際建物分布形狀)估的粗略涵蓋率,可能比實際涵蓋率略高(外框內不一定每個角落都真的畫到建物)。缺口在哪裡看 tile 座標範圍自己判斷,還沒有自動標示。",
     "approx_site_area_covered_pct_by_tile": {
+      "buildings_tile_3852.json": 8.1,
       "buildings_tile_4342.json": 5.0,
       "buildings_tile_4347.json": 50.5,
       "buildings_tile_4352.json": 10.8
     },
-    "approx_site_area_covered_pct_combined": 64.2,
-    "buildings_total_in_received_tiles": 39866,
-    "buildings_in_site_boundary": 17418,
-    "avg_height_m": 21.83,
+    "approx_site_area_covered_pct_combined": 72.2,
+    "buildings_total_in_received_tiles": 42572,
+    "buildings_in_site_boundary": 17902,
+    "avg_height_m": 21.65,
     "max_height_m": 113.08
   }
 }
