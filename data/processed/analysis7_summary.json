@@ -75,6 +75,591 @@
       "pct_with_sports_business_within_400m": 97.6
     }
   },
+  "connectivity_pr_method": "四項指標(捷運站數/運動商家數/商業區面積/停車位)各自在160座公園間算百分等級(PR),取平均為綜合連結度PR。PR25以下 = 後1/4,標記為低度連結公園。",
+  "low_connectivity_parks_pr25_below": [
+    {
+      "name": "國順公園",
+      "facility_tags": [
+        "銀髮健身"
+      ],
+      "connectivity_pr_composite": 11.3,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 13.8,
+        "sports_business_count": 4.4,
+        "commercial_zoning_area_m2": 10.1,
+        "parking_spaces": 17.0
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 6,
+        "parking_spaces": 419,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 33349.2,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "Dance Zone 舞蹈生活館",
+            "type": "舞蹈"
+          }
+        ]
+      }
+    },
+    {
+      "name": "中正138號綠地",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 12.6,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 39.0,
+        "sports_business_count": 9.4,
+        "commercial_zoning_area_m2": 1.3,
+        "parking_spaces": 0.6
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 0,
+        "parking_spaces": 0,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 0.0,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "臺北市立大學博愛校區附設泳池",
+            "type": "游泳"
+          }
+        ]
+      }
+    },
+    {
+      "name": "延壽二號公園",
+      "facility_tags": [
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 13.0,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 21.4,
+        "sports_business_count": 14.5,
+        "commercial_zoning_area_m2": 4.4,
+        "parking_spaces": 11.9
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 6,
+        "parking_spaces": 366,
+        "market_zoning_area_m2": 1230.4,
+        "commercial_zoning_area_m2": 22555.1,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "怪獸健身實業股份有限公司",
+            "type": "健身房"
+          },
+          {
+            "name": "阿基里斯Fitness Bar",
+            "type": "健身房"
+          }
+        ]
+      }
+    },
+    {
+      "name": "富錦五號公園",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 13.1,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 23.3,
+        "sports_business_count": 15.1,
+        "commercial_zoning_area_m2": 5.7,
+        "parking_spaces": 8.2
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 4,
+        "parking_spaces": 314,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 22555.1,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "怪獸健身實業股份有限公司",
+            "type": "健身房"
+          },
+          {
+            "name": "阿基里斯Fitness Bar",
+            "type": "健身房"
+          }
+        ]
+      }
+    },
+    {
+      "name": "忠和公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 13.5,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 13.2,
+        "sports_business_count": 3.8,
+        "commercial_zoning_area_m2": 10.7,
+        "parking_spaces": 26.4
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 8,
+        "parking_spaces": 503,
+        "market_zoning_area_m2": 5731.0,
+        "commercial_zoning_area_m2": 33399.2,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "Double8岩究所",
+            "type": "攀岩"
+          }
+        ]
+      }
+    },
+    {
+      "name": "大同16號廣場",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 14.2,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 17.0,
+        "sports_business_count": 5.7,
+        "commercial_zoning_area_m2": 11.9,
+        "parking_spaces": 22.0
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 6,
+        "parking_spaces": 474,
+        "market_zoning_area_m2": 7867.0,
+        "commercial_zoning_area_m2": 34427.4,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "CV玩家體能訓練室",
+            "type": "體適能"
+          }
+        ]
+      }
+    },
+    {
+      "name": "富錦六號公園",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 14.6,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 23.9,
+        "sports_business_count": 15.7,
+        "commercial_zoning_area_m2": 6.3,
+        "parking_spaces": 12.6
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 6,
+        "parking_spaces": 366,
+        "market_zoning_area_m2": 706.5,
+        "commercial_zoning_area_m2": 22555.1,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "怪獸健身實業股份有限公司",
+            "type": "健身房"
+          },
+          {
+            "name": "阿基里斯Fitness Bar",
+            "type": "健身房"
+          }
+        ]
+      }
+    },
+    {
+      "name": "華江八號公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 14.8,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 32.7,
+        "sports_business_count": 1.3,
+        "commercial_zoning_area_m2": 0.0,
+        "parking_spaces": 25.2
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 9,
+        "parking_spaces": 486,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 0.0,
+        "sports_business_count": 0,
+        "sports_businesses": []
+      }
+    },
+    {
+      "name": "綠堤公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 16.0,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 35.2,
+        "sports_business_count": 2.5,
+        "commercial_zoning_area_m2": 0.6,
+        "parking_spaces": 25.8
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 9,
+        "parking_spaces": 486,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 0.0,
+        "sports_business_count": 0,
+        "sports_businesses": []
+      }
+    },
+    {
+      "name": "大理公園",
+      "facility_tags": [
+        "銀髮健身"
+      ],
+      "connectivity_pr_composite": 17.5,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 27.7,
+        "sports_business_count": 16.4,
+        "commercial_zoning_area_m2": 1.9,
+        "parking_spaces": 23.9
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 9,
+        "parking_spaces": 486,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 923.4,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "原岩攀岩館-萬華店",
+            "type": "攀岩"
+          },
+          {
+            "name": "原岩攀岩館",
+            "type": "攀岩"
+          }
+        ]
+      }
+    },
+    {
+      "name": "大同公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 19.0,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 11.9,
+        "sports_business_count": 3.1,
+        "commercial_zoning_area_m2": 27.7,
+        "parking_spaces": 33.3
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 5,
+        "parking_spaces": 593,
+        "market_zoning_area_m2": 3155.7,
+        "commercial_zoning_area_m2": 89071.5,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "Banana Fitness",
+            "type": "健身房"
+          }
+        ]
+      }
+    },
+    {
+      "name": "糖廍公園",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 19.2,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 36.5,
+        "sports_business_count": 21.4,
+        "commercial_zoning_area_m2": 8.8,
+        "parking_spaces": 10.1
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 9,
+        "parking_spaces": 343,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 29233.0,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "原岩攀岩館-萬華店",
+            "type": "攀岩"
+          },
+          {
+            "name": "原岩攀岩館",
+            "type": "攀岩"
+          }
+        ]
+      }
+    },
+    {
+      "name": "華江七號公園",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 19.6,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 32.1,
+        "sports_business_count": 18.9,
+        "commercial_zoning_area_m2": 3.1,
+        "parking_spaces": 24.5
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 9,
+        "parking_spaces": 486,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 7483.9,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "原岩攀岩館-萬華店",
+            "type": "攀岩"
+          },
+          {
+            "name": "原岩攀岩館",
+            "type": "攀岩"
+          }
+        ]
+      }
+    },
+    {
+      "name": "華江一號公園",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 20.2,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 31.4,
+        "sports_business_count": 18.2,
+        "commercial_zoning_area_m2": 15.7,
+        "parking_spaces": 15.7
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 9,
+        "parking_spaces": 406,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 44954.4,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "原岩攀岩館-萬華店",
+            "type": "攀岩"
+          },
+          {
+            "name": "原岩攀岩館",
+            "type": "攀岩"
+          }
+        ]
+      }
+    },
+    {
+      "name": "聚德公園",
+      "facility_tags": [
+        "銀髮健身"
+      ],
+      "connectivity_pr_composite": 20.7,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 35.8,
+        "sports_business_count": 20.1,
+        "commercial_zoning_area_m2": 17.6,
+        "parking_spaces": 9.4
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 9,
+        "parking_spaces": 343,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 50047.9,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "原岩攀岩館-萬華店",
+            "type": "攀岩"
+          },
+          {
+            "name": "原岩攀岩館",
+            "type": "攀岩"
+          }
+        ]
+      }
+    },
+    {
+      "name": "介壽公園",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 21.6,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 69.8,
+        "sports_business_count": 8.2,
+        "commercial_zoning_area_m2": 8.2,
+        "parking_spaces": 0.0
+      },
+      "nearby_400m": {
+        "mrt_stations": [
+          "臺大醫院站"
+        ],
+        "mrt_station_count": 1,
+        "parking_lots": 0,
+        "parking_spaces": 0,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 26757.2,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "臺北市立大學博愛校區附設泳池",
+            "type": "游泳"
+          }
+        ]
+      }
+    },
+    {
+      "name": "文光公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 21.8,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 37.7,
+        "sports_business_count": 37.7,
+        "commercial_zoning_area_m2": 9.4,
+        "parking_spaces": 2.5
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 15,
+        "parking_spaces": 181,
+        "market_zoning_area_m2": 2158.9,
+        "commercial_zoning_area_m2": 31499.5,
+        "sports_business_count": 4,
+        "sports_businesses": [
+          {
+            "name": "波克萊體能 Everyday Matters Fitness",
+            "type": "健身房"
+          },
+          {
+            "name": "Curves忠孝新生店",
+            "type": "健身房"
+          },
+          {
+            "name": "壹樓瑜伽 REYOGA",
+            "type": "瑜珈"
+          },
+          {
+            "name": "波克萊體能 BULKLIFE Studio",
+            "type": "健身房"
+          }
+        ]
+      }
+    },
+    {
+      "name": "居安公園",
+      "facility_tags": [
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 22.9,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 42.1,
+        "sports_business_count": 10.1,
+        "commercial_zoning_area_m2": 3.8,
+        "parking_spaces": 35.8
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 17,
+        "parking_spaces": 692,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 13399.4,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "59Fitness客製化運動空間",
+            "type": "體適能"
+          }
+        ]
+      }
+    },
+    {
+      "name": "精忠2號公園",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 23.9,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 26.4,
+        "sports_business_count": 27.7,
+        "commercial_zoning_area_m2": 6.9,
+        "parking_spaces": 34.6
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 7,
+        "parking_spaces": 635,
+        "market_zoning_area_m2": 1230.4,
+        "commercial_zoning_area_m2": 22555.1,
+        "sports_business_count": 3,
+        "sports_businesses": [
+          {
+            "name": "怪獸健身實業股份有限公司",
+            "type": "健身房"
+          },
+          {
+            "name": "伊格運動",
+            "type": "體適能"
+          },
+          {
+            "name": "阿基里斯Fitness Bar",
+            "type": "健身房"
+          }
+        ]
+      }
+    }
+  ],
+  "low_connectivity_parks_count": 19,
   "park_details": [
     {
       "name": "萬華266號綠地",
@@ -113,7 +698,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 37.1,
+        "sports_business_count": 47.2,
+        "commercial_zoning_area_m2": 100.0,
+        "parking_spaces": 13.8
+      },
+      "connectivity_pr_composite": 49.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "老松公園",
@@ -155,7 +748,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 66.0,
+        "sports_business_count": 45.9,
+        "commercial_zoning_area_m2": 99.4,
+        "parking_spaces": 47.8
+      },
+      "connectivity_pr_composite": 64.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "建成圓環",
@@ -198,7 +799,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 18.9,
+        "sports_business_count": 57.9,
+        "commercial_zoning_area_m2": 98.7,
+        "parking_spaces": 16.4
+      },
+      "connectivity_pr_composite": 48.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "林森公園",
@@ -251,7 +860,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 5.0,
+        "sports_business_count": 76.1,
+        "commercial_zoning_area_m2": 98.1,
+        "parking_spaces": 86.8
+      },
+      "connectivity_pr_composite": 66.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "晴光公園",
@@ -304,7 +921,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 50.9,
+        "sports_business_count": 76.7,
+        "commercial_zoning_area_m2": 97.5,
+        "parking_spaces": 41.5
+      },
+      "connectivity_pr_composite": 66.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "西本願寺（萬華406號）廣場",
@@ -341,7 +966,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 67.9,
+        "sports_business_count": 37.1,
+        "commercial_zoning_area_m2": 96.9,
+        "parking_spaces": 38.4
+      },
+      "connectivity_pr_composite": 60.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "康樂公園",
@@ -404,7 +1037,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 6.3,
+        "sports_business_count": 93.7,
+        "commercial_zoning_area_m2": 96.2,
+        "parking_spaces": 96.9
+      },
+      "connectivity_pr_composite": 73.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "華山公園",
@@ -437,7 +1078,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 7.5,
+        "sports_business_count": 23.9,
+        "commercial_zoning_area_m2": 95.6,
+        "parking_spaces": 93.7
+      },
+      "connectivity_pr_composite": 55.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "萬華51號公園",
@@ -474,7 +1123,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 66.7,
+        "sports_business_count": 36.5,
+        "commercial_zoning_area_m2": 95.0,
+        "parking_spaces": 64.8
+      },
+      "connectivity_pr_composite": 65.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "中山4號廣場",
@@ -524,7 +1181,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 96.2,
+        "sports_business_count": 68.6,
+        "commercial_zoning_area_m2": 94.3,
+        "parking_spaces": 78.6
+      },
+      "connectivity_pr_composite": 84.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "中安公園 ",
@@ -601,7 +1266,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 47.2,
+        "sports_business_count": 98.7,
+        "commercial_zoning_area_m2": 93.7,
+        "parking_spaces": 84.9
+      },
+      "connectivity_pr_composite": 81.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "艋舺公園",
@@ -630,7 +1303,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 67.3,
+        "sports_business_count": 20.8,
+        "commercial_zoning_area_m2": 93.1,
+        "parking_spaces": 76.7
+      },
+      "connectivity_pr_composite": 64.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "撫順公園",
@@ -679,7 +1360,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 54.1,
+        "sports_business_count": 67.3,
+        "commercial_zoning_area_m2": 92.5,
+        "parking_spaces": 39.6
+      },
+      "connectivity_pr_composite": 63.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "集英公園",
@@ -733,7 +1422,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 51.6,
+        "sports_business_count": 77.4,
+        "commercial_zoning_area_m2": 91.8,
+        "parking_spaces": 31.4
+      },
+      "connectivity_pr_composite": 63.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "新興公園",
@@ -783,7 +1480,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 52.8,
+        "sports_business_count": 66.7,
+        "commercial_zoning_area_m2": 91.2,
+        "parking_spaces": 56.6
+      },
+      "connectivity_pr_composite": 66.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "朝陽公園",
@@ -816,7 +1521,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 14.5,
+        "sports_business_count": 26.4,
+        "commercial_zoning_area_m2": 90.6,
+        "parking_spaces": 72.3
+      },
+      "connectivity_pr_composite": 51.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "福星公園",
@@ -855,7 +1568,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 34.6,
+        "sports_business_count": 46.5,
+        "commercial_zoning_area_m2": 89.9,
+        "parking_spaces": 95.6
+      },
+      "connectivity_pr_composite": 66.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "建成公園",
@@ -915,7 +1636,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 96.9,
+        "sports_business_count": 85.5,
+        "commercial_zoning_area_m2": 89.3,
+        "parking_spaces": 63.5
+      },
+      "connectivity_pr_composite": 83.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "交通8號廣場",
@@ -954,7 +1683,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 39.6,
+        "sports_business_count": 49.1,
+        "commercial_zoning_area_m2": 88.7,
+        "parking_spaces": 94.3
+      },
+      "connectivity_pr_composite": 67.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "永靜公園",
@@ -1012,7 +1749,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 48.4,
+        "sports_business_count": 83.0,
+        "commercial_zoning_area_m2": 88.1,
+        "parking_spaces": 74.2
+      },
+      "connectivity_pr_composite": 73.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "華西公園",
@@ -1030,7 +1775,15 @@
         "commercial_zoning_area_m2": 380835.6,
         "sports_business_count": 0,
         "sports_businesses": []
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 33.3,
+        "sports_business_count": 1.9,
+        "commercial_zoning_area_m2": 87.4,
+        "parking_spaces": 36.5
+      },
+      "connectivity_pr_composite": 39.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "吉林公園",
@@ -1082,7 +1835,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 1.9,
+        "sports_business_count": 74.8,
+        "commercial_zoning_area_m2": 86.8,
+        "parking_spaces": 85.5
+      },
+      "connectivity_pr_composite": 62.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "黎明公園",
@@ -1128,7 +1889,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 99.4,
+        "sports_business_count": 59.7,
+        "commercial_zoning_area_m2": 86.2,
+        "parking_spaces": 79.9
+      },
+      "connectivity_pr_composite": 81.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "中央藝文公園",
@@ -1154,7 +1923,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 69.2,
+        "sports_business_count": 7.5,
+        "commercial_zoning_area_m2": 85.5,
+        "parking_spaces": 77.4
+      },
+      "connectivity_pr_composite": 59.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "行旅廣場",
@@ -1199,7 +1976,15 @@
             "type": "武術"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 74.2,
+        "sports_business_count": 61.0,
+        "commercial_zoning_area_m2": 84.9,
+        "parking_spaces": 62.9
+      },
+      "connectivity_pr_composite": 70.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "聚葉公園",
@@ -1241,7 +2026,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 53.5,
+        "sports_business_count": 43.4,
+        "commercial_zoning_area_m2": 84.3,
+        "parking_spaces": 50.3
+      },
+      "connectivity_pr_composite": 57.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "歸綏戲曲公園",
@@ -1265,7 +2058,15 @@
             "type": "武術"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 16.4,
+        "sports_business_count": 5.0,
+        "commercial_zoning_area_m2": 83.6,
+        "parking_spaces": 58.5
+      },
+      "connectivity_pr_composite": 40.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "正守公園",
@@ -1301,7 +2102,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 1.3,
+        "sports_business_count": 34.0,
+        "commercial_zoning_area_m2": 83.0,
+        "parking_spaces": 96.2
+      },
+      "connectivity_pr_composite": 53.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "青山公園",
@@ -1319,7 +2128,15 @@
         "commercial_zoning_area_m2": 341112.2,
         "sports_business_count": 0,
         "sports_businesses": []
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 29.6,
+        "sports_business_count": 0.0,
+        "commercial_zoning_area_m2": 82.4,
+        "parking_spaces": 35.2
+      },
+      "connectivity_pr_composite": 36.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "北門廣場",
@@ -1360,7 +2177,15 @@
             "type": "武術"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 72.3,
+        "sports_business_count": 48.4,
+        "commercial_zoning_area_m2": 81.8,
+        "parking_spaces": 37.1
+      },
+      "connectivity_pr_composite": 59.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "民享公園",
@@ -1421,7 +2246,15 @@
             "type": "體適能"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 47.8,
+        "sports_business_count": 89.9,
+        "commercial_zoning_area_m2": 81.1,
+        "parking_spaces": 57.9
+      },
+      "connectivity_pr_composite": 69.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "太原廣場",
@@ -1470,7 +2303,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 60.4,
+        "sports_business_count": 69.2,
+        "commercial_zoning_area_m2": 80.5,
+        "parking_spaces": 97.5
+      },
+      "connectivity_pr_composite": 76.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "二二八和平公園",
@@ -1505,7 +2346,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 68.6,
+        "sports_business_count": 29.6,
+        "commercial_zoning_area_m2": 79.9,
+        "parking_spaces": 6.3
+      },
+      "connectivity_pr_composite": 46.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "長沙公園",
@@ -1529,7 +2378,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 28.9,
+        "sports_business_count": 6.9,
+        "commercial_zoning_area_m2": 79.2,
+        "parking_spaces": 1.3
+      },
+      "connectivity_pr_composite": 29.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "中原公園",
@@ -1577,7 +2434,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 0.0,
+        "sports_business_count": 64.8,
+        "commercial_zoning_area_m2": 78.6,
+        "parking_spaces": 55.3
+      },
+      "connectivity_pr_composite": 49.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "塔城公園",
@@ -1619,7 +2484,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 58.5,
+        "sports_business_count": 44.0,
+        "commercial_zoning_area_m2": 78.0,
+        "parking_spaces": 32.1
+      },
+      "connectivity_pr_composite": 53.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "錦州公園",
@@ -1653,7 +2526,15 @@
             "type": "體適能"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 55.3,
+        "sports_business_count": 24.5,
+        "commercial_zoning_area_m2": 77.4,
+        "parking_spaces": 23.3
+      },
+      "connectivity_pr_composite": 45.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "朱崙公園",
@@ -1707,7 +2588,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 49.1,
+        "sports_business_count": 75.5,
+        "commercial_zoning_area_m2": 76.7,
+        "parking_spaces": 83.6
+      },
+      "connectivity_pr_composite": 71.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "興國公園",
@@ -1777,7 +2666,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 95.0,
+        "sports_business_count": 97.5,
+        "commercial_zoning_area_m2": 76.1,
+        "parking_spaces": 66.7
+      },
+      "connectivity_pr_composite": 83.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "蔣渭水紀念公園",
@@ -1805,7 +2702,15 @@
             "type": "武術"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 15.1,
+        "sports_business_count": 12.6,
+        "commercial_zoning_area_m2": 75.5,
+        "parking_spaces": 66.0
+      },
+      "connectivity_pr_composite": 42.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "遼寧公園",
@@ -1872,7 +2777,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 95.6,
+        "sports_business_count": 94.3,
+        "commercial_zoning_area_m2": 74.8,
+        "parking_spaces": 73.0
+      },
+      "connectivity_pr_composite": 84.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "寺前公園",
@@ -1901,7 +2814,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 65.4,
+        "sports_business_count": 17.0,
+        "commercial_zoning_area_m2": 74.2,
+        "parking_spaces": 81.1
+      },
+      "connectivity_pr_composite": 59.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "交7廣場",
@@ -1946,7 +2867,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 73.0,
+        "sports_business_count": 60.4,
+        "commercial_zoning_area_m2": 73.6,
+        "parking_spaces": 100.0
+      },
+      "connectivity_pr_composite": 76.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "松江公園",
@@ -2021,7 +2950,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 94.3,
+        "sports_business_count": 98.1,
+        "commercial_zoning_area_m2": 73.0,
+        "parking_spaces": 62.3
+      },
+      "connectivity_pr_composite": 81.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "興安公園",
@@ -2065,7 +3002,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 9.4,
+        "sports_business_count": 56.0,
+        "commercial_zoning_area_m2": 72.3,
+        "parking_spaces": 61.0
+      },
+      "connectivity_pr_composite": 49.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "仁德公園",
@@ -2113,7 +3058,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 0.6,
+        "sports_business_count": 65.4,
+        "commercial_zoning_area_m2": 71.7,
+        "parking_spaces": 88.7
+      },
+      "connectivity_pr_composite": 56.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "樹德公園",
@@ -2149,7 +3102,15 @@
             "type": "撞球"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 15.7,
+        "sports_business_count": 35.2,
+        "commercial_zoning_area_m2": 71.1,
+        "parking_spaces": 20.1
+      },
+      "connectivity_pr_composite": 35.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "桂林公園",
@@ -2167,7 +3128,15 @@
         "commercial_zoning_area_m2": 245177.1,
         "sports_business_count": 0,
         "sports_businesses": []
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 30.8,
+        "sports_business_count": 0.6,
+        "commercial_zoning_area_m2": 70.4,
+        "parking_spaces": 1.9
+      },
+      "connectivity_pr_composite": 25.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "松基公園",
@@ -2217,7 +3186,15 @@
             "type": "體適能"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 62.9,
+        "sports_business_count": 69.8,
+        "commercial_zoning_area_m2": 69.8,
+        "parking_spaces": 93.1
+      },
+      "connectivity_pr_composite": 73.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "松錦2號公園",
@@ -2275,7 +3252,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 50.3,
+        "sports_business_count": 84.3,
+        "commercial_zoning_area_m2": 69.2,
+        "parking_spaces": 3.8
+      },
+      "connectivity_pr_composite": 51.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "通化公園",
@@ -2337,7 +3322,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 85.5,
+        "sports_business_count": 92.5,
+        "commercial_zoning_area_m2": 68.6,
+        "parking_spaces": 14.5
+      },
+      "connectivity_pr_composite": 65.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "興亞公園",
@@ -2385,7 +3378,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 10.1,
+        "sports_business_count": 67.9,
+        "commercial_zoning_area_m2": 67.9,
+        "parking_spaces": 95.0
+      },
+      "connectivity_pr_composite": 60.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "松錦1號公園",
@@ -2442,7 +3443,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 49.7,
+        "sports_business_count": 83.6,
+        "commercial_zoning_area_m2": 67.3,
+        "parking_spaces": 4.4
+      },
+      "connectivity_pr_composite": 51.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "逸仙公園",
@@ -2487,7 +3496,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 71.7,
+        "sports_business_count": 59.1,
+        "commercial_zoning_area_m2": 66.7,
+        "parking_spaces": 99.4
+      },
+      "connectivity_pr_composite": 74.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "伊通公園",
@@ -2555,7 +3572,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 93.7,
+        "sports_business_count": 93.1,
+        "commercial_zoning_area_m2": 66.0,
+        "parking_spaces": 81.8
+      },
+      "connectivity_pr_composite": 83.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "朱厝崙公園",
@@ -2599,7 +3624,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 3.8,
+        "sports_business_count": 54.7,
+        "commercial_zoning_area_m2": 65.4,
+        "parking_spaces": 82.4
+      },
+      "connectivity_pr_composite": 51.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "德鄰公園",
@@ -2632,7 +3665,15 @@
             "type": "武術"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 59.1,
+        "sports_business_count": 27.0,
+        "commercial_zoning_area_m2": 64.8,
+        "parking_spaces": 45.3
+      },
+      "connectivity_pr_composite": 49.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "一江公園",
@@ -2675,7 +3716,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 92.5,
+        "sports_business_count": 40.9,
+        "commercial_zoning_area_m2": 64.2,
+        "parking_spaces": 53.5
+      },
+      "connectivity_pr_composite": 62.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "蘭州公園",
@@ -2717,7 +3766,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 59.7,
+        "sports_business_count": 44.7,
+        "commercial_zoning_area_m2": 63.5,
+        "parking_spaces": 19.5
+      },
+      "connectivity_pr_composite": 46.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "交通4號廣場",
@@ -2766,7 +3823,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 73.6,
+        "sports_business_count": 71.1,
+        "commercial_zoning_area_m2": 62.9,
+        "parking_spaces": 98.7
+      },
+      "connectivity_pr_composite": 76.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "永樂廣場",
@@ -2793,7 +3858,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 18.2,
+        "sports_business_count": 13.8,
+        "commercial_zoning_area_m2": 62.3,
+        "parking_spaces": 17.6
+      },
+      "connectivity_pr_composite": 28.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "復華公園",
@@ -2840,7 +3913,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 6.9,
+        "sports_business_count": 66.0,
+        "commercial_zoning_area_m2": 61.6,
+        "parking_spaces": 79.2
+      },
+      "connectivity_pr_composite": 53.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "瑠公圳公園 ",
@@ -2886,7 +3967,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 75.5,
+        "sports_business_count": 61.6,
+        "commercial_zoning_area_m2": 61.0,
+        "parking_spaces": 89.3
+      },
+      "connectivity_pr_composite": 71.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "環東公園",
@@ -2939,7 +4028,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 56.6,
+        "sports_business_count": 78.0,
+        "commercial_zoning_area_m2": 60.4,
+        "parking_spaces": 91.8
+      },
+      "connectivity_pr_composite": 71.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "中吉公園",
@@ -2977,7 +4074,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 46.5,
+        "sports_business_count": 33.3,
+        "commercial_zoning_area_m2": 59.7,
+        "parking_spaces": 30.8
+      },
+      "connectivity_pr_composite": 42.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "中山129號綠地",
@@ -3020,7 +4125,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 10.7,
+        "sports_business_count": 57.2,
+        "commercial_zoning_area_m2": 59.1,
+        "parking_spaces": 78.0
+      },
+      "connectivity_pr_composite": 51.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "敦中公園",
@@ -3071,7 +4184,15 @@
             "type": "體適能"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 97.5,
+        "sports_business_count": 70.4,
+        "commercial_zoning_area_m2": 58.5,
+        "parking_spaces": 80.5
+      },
+      "connectivity_pr_composite": 76.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "龍江公園",
@@ -3117,7 +4238,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 56.0,
+        "sports_business_count": 56.6,
+        "commercial_zoning_area_m2": 57.9,
+        "parking_spaces": 27.0
+      },
+      "connectivity_pr_composite": 49.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "慶城公園 A",
@@ -3172,7 +4301,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 98.1,
+        "sports_business_count": 79.2,
+        "commercial_zoning_area_m2": 57.2,
+        "parking_spaces": 90.6
+      },
+      "connectivity_pr_composite": 81.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "四平公園",
@@ -3231,7 +4368,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 93.1,
+        "sports_business_count": 82.4,
+        "commercial_zoning_area_m2": 56.6,
+        "parking_spaces": 61.6
+      },
+      "connectivity_pr_composite": 73.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "大稻埕廣場",
@@ -3258,7 +4403,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 17.6,
+        "sports_business_count": 13.2,
+        "commercial_zoning_area_m2": 56.0,
+        "parking_spaces": 29.6
+      },
+      "connectivity_pr_composite": 29.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "八德公園",
@@ -3294,7 +4447,15 @@
             "type": "瑜珈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 19.5,
+        "sports_business_count": 35.8,
+        "commercial_zoning_area_m2": 55.3,
+        "parking_spaces": 87.4
+      },
+      "connectivity_pr_composite": 49.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "大安公園",
@@ -3353,7 +4514,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 76.1,
+        "sports_business_count": 88.7,
+        "commercial_zoning_area_m2": 54.7,
+        "parking_spaces": 84.3
+      },
+      "connectivity_pr_composite": 76.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "寧安公園",
@@ -3416,7 +4585,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 64.8,
+        "sports_business_count": 91.2,
+        "commercial_zoning_area_m2": 54.1,
+        "parking_spaces": 34.0
+      },
+      "connectivity_pr_composite": 61.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "朱昌公園",
@@ -3457,7 +4634,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 3.1,
+        "sports_business_count": 41.5,
+        "commercial_zoning_area_m2": 53.5,
+        "parking_spaces": 75.5
+      },
+      "connectivity_pr_composite": 43.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "長春綠地",
@@ -3516,7 +4701,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 11.3,
+        "sports_business_count": 90.6,
+        "commercial_zoning_area_m2": 52.8,
+        "parking_spaces": 86.2
+      },
+      "connectivity_pr_composite": 60.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "大稻埕公園",
@@ -3544,7 +4737,15 @@
             "type": "武術"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 12.6,
+        "sports_business_count": 11.9,
+        "commercial_zoning_area_m2": 52.2,
+        "parking_spaces": 56.0
+      },
+      "connectivity_pr_composite": 33.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "新壽公園",
@@ -3586,7 +4787,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 52.2,
+        "sports_business_count": 42.8,
+        "commercial_zoning_area_m2": 51.6,
+        "parking_spaces": 8.8
+      },
+      "connectivity_pr_composite": 38.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "瑠公公園",
@@ -3640,7 +4849,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 74.8,
+        "sports_business_count": 80.5,
+        "commercial_zoning_area_m2": 50.9,
+        "parking_spaces": 68.6
+      },
+      "connectivity_pr_composite": 68.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "敦仁公園",
@@ -3707,7 +4924,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 100.0,
+        "sports_business_count": 96.9,
+        "commercial_zoning_area_m2": 50.3,
+        "parking_spaces": 67.9
+      },
+      "connectivity_pr_composite": 78.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "柳鄉公園",
@@ -3735,7 +4960,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 30.2,
+        "sports_business_count": 17.6,
+        "commercial_zoning_area_m2": 49.7,
+        "parking_spaces": 3.1
+      },
+      "connectivity_pr_composite": 25.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "美仁一號公園",
@@ -3829,7 +5062,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 63.5,
+        "sports_business_count": 100.0,
+        "commercial_zoning_area_m2": 49.1,
+        "parking_spaces": 45.9
+      },
+      "connectivity_pr_composite": 64.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "民有二號公園",
@@ -3886,7 +5127,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 62.3,
+        "sports_business_count": 86.2,
+        "commercial_zoning_area_m2": 48.4,
+        "parking_spaces": 74.8
+      },
+      "connectivity_pr_composite": 67.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "美仁二號公園",
@@ -3967,7 +5216,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 64.2,
+        "sports_business_count": 99.4,
+        "commercial_zoning_area_m2": 47.8,
+        "parking_spaces": 47.2
+      },
+      "connectivity_pr_composite": 64.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "和安公園",
@@ -4009,7 +5266,15 @@
             "type": "皮拉提斯"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 82.4,
+        "sports_business_count": 51.6,
+        "commercial_zoning_area_m2": 47.2,
+        "parking_spaces": 50.9
+      },
+      "connectivity_pr_composite": 58.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "安祥公園",
@@ -4054,7 +5319,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 81.8,
+        "sports_business_count": 63.5,
+        "commercial_zoning_area_m2": 46.5,
+        "parking_spaces": 65.4
+      },
+      "connectivity_pr_composite": 64.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "敦安公園",
@@ -4105,7 +5378,15 @@
             "type": "瑜珈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 86.2,
+        "sports_business_count": 73.0,
+        "commercial_zoning_area_m2": 45.9,
+        "parking_spaces": 15.1
+      },
+      "connectivity_pr_composite": 55.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "龍陣一號公園",
@@ -4143,7 +5424,15 @@
             "type": "桌球"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 88.7,
+        "sports_business_count": 40.3,
+        "commercial_zoning_area_m2": 45.3,
+        "parking_spaces": 10.7
+      },
+      "connectivity_pr_composite": 46.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "景化公園",
@@ -4176,7 +5465,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 57.9,
+        "sports_business_count": 25.8,
+        "commercial_zoning_area_m2": 44.7,
+        "parking_spaces": 40.3
+      },
+      "connectivity_pr_composite": 42.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "齊東公園",
@@ -4200,7 +5497,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 38.4,
+        "sports_business_count": 8.8,
+        "commercial_zoning_area_m2": 44.0,
+        "parking_spaces": 42.8
+      },
+      "connectivity_pr_composite": 33.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "東豐公園",
@@ -4242,7 +5547,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 84.3,
+        "sports_business_count": 52.8,
+        "commercial_zoning_area_m2": 43.4,
+        "parking_spaces": 49.7
+      },
+      "connectivity_pr_composite": 57.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "仁慈公園",
@@ -4292,7 +5605,15 @@
             "type": "皮拉提斯"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 77.4,
+        "sports_business_count": 71.7,
+        "commercial_zoning_area_m2": 42.8,
+        "parking_spaces": 42.1
+      },
+      "connectivity_pr_composite": 58.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "建興公園",
@@ -4328,7 +5649,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 5.7,
+        "sports_business_count": 34.6,
+        "commercial_zoning_area_m2": 42.1,
+        "parking_spaces": 88.1
+      },
+      "connectivity_pr_composite": 42.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "錦北公園",
@@ -4386,7 +5715,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 54.7,
+        "sports_business_count": 84.9,
+        "commercial_zoning_area_m2": 41.5,
+        "parking_spaces": 92.5
+      },
+      "connectivity_pr_composite": 68.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "民有三號公園",
@@ -4442,7 +5779,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 20.1,
+        "sports_business_count": 86.8,
+        "commercial_zoning_area_m2": 40.9,
+        "parking_spaces": 91.2
+      },
+      "connectivity_pr_composite": 59.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "玉泉公園",
@@ -4477,7 +5822,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 57.2,
+        "sports_business_count": 25.2,
+        "commercial_zoning_area_m2": 40.3,
+        "parking_spaces": 89.9
+      },
+      "connectivity_pr_composite": 53.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "誠安公園",
@@ -4524,7 +5877,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 87.4,
+        "sports_business_count": 64.2,
+        "commercial_zoning_area_m2": 39.6,
+        "parking_spaces": 76.1
+      },
+      "connectivity_pr_composite": 66.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "光信公園",
@@ -4590,7 +5951,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 80.5,
+        "sports_business_count": 96.2,
+        "commercial_zoning_area_m2": 39.0,
+        "parking_spaces": 7.5
+      },
+      "connectivity_pr_composite": 55.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "和平青草園(原萬華402號公園)",
@@ -4622,7 +5991,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 28.3,
+        "sports_business_count": 28.9,
+        "commercial_zoning_area_m2": 38.4,
+        "parking_spaces": 59.7
+      },
+      "connectivity_pr_composite": 38.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "四維公園",
@@ -4677,7 +6054,15 @@
             "type": "桌球"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 78.0,
+        "sports_business_count": 81.1,
+        "commercial_zoning_area_m2": 37.7,
+        "parking_spaces": 28.3
+      },
+      "connectivity_pr_composite": 56.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "延吉公園",
@@ -4739,7 +6124,15 @@
             "type": "皮拉提斯"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 83.0,
+        "sports_business_count": 91.8,
+        "commercial_zoning_area_m2": 37.1,
+        "parking_spaces": 98.1
+      },
+      "connectivity_pr_composite": 77.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "龍圖公園",
@@ -4789,7 +6182,15 @@
             "type": "桌球"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 90.6,
+        "sports_business_count": 73.6,
+        "commercial_zoning_area_m2": 36.5,
+        "parking_spaces": 54.1
+      },
+      "connectivity_pr_composite": 63.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "仁愛公園",
@@ -4833,7 +6234,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 40.3,
+        "sports_business_count": 62.3,
+        "commercial_zoning_area_m2": 35.8,
+        "parking_spaces": 54.7
+      },
+      "connectivity_pr_composite": 48.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "新龍公園",
@@ -4891,7 +6300,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 86.8,
+        "sports_business_count": 89.3,
+        "commercial_zoning_area_m2": 35.2,
+        "parking_spaces": 51.6
+      },
+      "connectivity_pr_composite": 65.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "附中公園",
@@ -4926,7 +6343,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 44.0,
+        "sports_business_count": 39.0,
+        "commercial_zoning_area_m2": 34.6,
+        "parking_spaces": 52.2
+      },
+      "connectivity_pr_composite": 42.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "長壽公園",
@@ -4982,7 +6407,15 @@
             "type": "兒童體操"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 22.6,
+        "sports_business_count": 87.4,
+        "commercial_zoning_area_m2": 34.0,
+        "parking_spaces": 46.5
+      },
+      "connectivity_pr_composite": 47.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "信愛公園",
@@ -5036,7 +6469,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 71.1,
+        "sports_business_count": 79.9,
+        "commercial_zoning_area_m2": 33.3,
+        "parking_spaces": 5.7
+      },
+      "connectivity_pr_composite": 47.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "民有一號公園",
@@ -5089,7 +6530,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 61.6,
+        "sports_business_count": 78.6,
+        "commercial_zoning_area_m2": 32.7,
+        "parking_spaces": 70.4
+      },
+      "connectivity_pr_composite": 60.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "合江公園",
@@ -5116,7 +6565,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 2.5,
+        "sports_business_count": 10.7,
+        "commercial_zoning_area_m2": 32.1,
+        "parking_spaces": 71.7
+      },
+      "connectivity_pr_composite": 29.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "寧馨公園A",
@@ -5150,7 +6607,15 @@
             "type": "潛水"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 88.1,
+        "sports_business_count": 31.4,
+        "commercial_zoning_area_m2": 31.4,
+        "parking_spaces": 69.2
+      },
+      "connectivity_pr_composite": 55.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "大安125號綠地",
@@ -5183,7 +6648,15 @@
             "type": "潛水"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 91.8,
+        "sports_business_count": 32.7,
+        "commercial_zoning_area_m2": 30.8,
+        "parking_spaces": 69.8
+      },
+      "connectivity_pr_composite": 56.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "進安公園",
@@ -5211,7 +6684,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 8.2,
+        "sports_business_count": 11.3,
+        "commercial_zoning_area_m2": 30.2,
+        "parking_spaces": 67.3
+      },
+      "connectivity_pr_composite": 29.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "永康公園",
@@ -5253,7 +6734,15 @@
             "type": "瑜珈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 79.9,
+        "sports_business_count": 50.3,
+        "commercial_zoning_area_m2": 29.6,
+        "parking_spaces": 22.6
+      },
+      "connectivity_pr_composite": 45.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "德安公園",
@@ -5289,7 +6778,15 @@
             "type": "皮拉提斯"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 44.7,
+        "sports_business_count": 39.6,
+        "commercial_zoning_area_m2": 28.9,
+        "parking_spaces": 28.9
+      },
+      "connectivity_pr_composite": 35.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "江寧公園",
@@ -5328,7 +6825,15 @@
             "type": "撞球"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 4.4,
+        "sports_business_count": 42.1,
+        "commercial_zoning_area_m2": 28.3,
+        "parking_spaces": 73.6
+      },
+      "connectivity_pr_composite": 37.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "大同公園",
@@ -5352,7 +6857,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 11.9,
+        "sports_business_count": 3.1,
+        "commercial_zoning_area_m2": 27.7,
+        "parking_spaces": 33.3
+      },
+      "connectivity_pr_composite": 19.0,
+      "low_connectivity_flag": true
     },
     {
       "name": "榮星花園公園",
@@ -5396,7 +6909,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 8.8,
+        "sports_business_count": 55.3,
+        "commercial_zoning_area_m2": 27.0,
+        "parking_spaces": 43.4
+      },
+      "connectivity_pr_composite": 33.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "吉仁公園",
@@ -5460,7 +6981,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 20.8,
+        "sports_business_count": 95.6,
+        "commercial_zoning_area_m2": 26.4,
+        "parking_spaces": 40.9
+      },
+      "connectivity_pr_composite": 45.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "金杭公園",
@@ -5514,7 +7043,15 @@
             "type": "瑜珈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 84.9,
+        "sports_business_count": 81.8,
+        "commercial_zoning_area_m2": 25.8,
+        "parking_spaces": 13.2
+      },
+      "connectivity_pr_composite": 51.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "龍陣二號公園 A",
@@ -5556,7 +7093,15 @@
             "type": "桌球"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 89.3,
+        "sports_business_count": 53.5,
+        "commercial_zoning_area_m2": 24.5,
+        "parking_spaces": 20.8
+      },
+      "connectivity_pr_composite": 47.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "龍陣二號公園 B",
@@ -5597,7 +7142,15 @@
             "type": "桌球"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 89.9,
+        "sports_business_count": 54.1,
+        "commercial_zoning_area_m2": 25.2,
+        "parking_spaces": 21.4
+      },
+      "connectivity_pr_composite": 47.6,
+      "low_connectivity_flag": false
     },
     {
       "name": "安東公園",
@@ -5639,7 +7192,15 @@
             "type": "桌球"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 81.1,
+        "sports_business_count": 50.9,
+        "commercial_zoning_area_m2": 23.9,
+        "parking_spaces": 32.7
+      },
+      "connectivity_pr_composite": 47.2,
+      "low_connectivity_flag": false
     },
     {
       "name": "麗水公園",
@@ -5688,7 +7249,15 @@
             "type": "瑜珈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 91.2,
+        "sports_business_count": 74.2,
+        "commercial_zoning_area_m2": 23.3,
+        "parking_spaces": 6.9
+      },
+      "connectivity_pr_composite": 48.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "連雲公園",
@@ -5720,7 +7289,15 @@
             "type": "體適能"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 98.7,
+        "sports_business_count": 22.0,
+        "commercial_zoning_area_m2": 22.6,
+        "parking_spaces": 5.0
+      },
+      "connectivity_pr_composite": 37.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "復源公園",
@@ -5764,7 +7341,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 25.2,
+        "sports_business_count": 58.5,
+        "commercial_zoning_area_m2": 22.0,
+        "parking_spaces": 48.4
+      },
+      "connectivity_pr_composite": 38.5,
+      "low_connectivity_flag": false
     },
     {
       "name": "忠孝公園",
@@ -5806,7 +7391,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 70.4,
+        "sports_business_count": 47.8,
+        "commercial_zoning_area_m2": 21.4,
+        "parking_spaces": 52.8
+      },
+      "connectivity_pr_composite": 48.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "中華公園",
@@ -5872,7 +7465,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 61.0,
+        "sports_business_count": 95.0,
+        "commercial_zoning_area_m2": 20.8,
+        "parking_spaces": 44.7
+      },
+      "connectivity_pr_composite": 55.4,
+      "low_connectivity_flag": false
     },
     {
       "name": "平安公園",
@@ -5911,7 +7512,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 41.5,
+        "sports_business_count": 49.7,
+        "commercial_zoning_area_m2": 20.1,
+        "parking_spaces": 49.1
+      },
+      "connectivity_pr_composite": 40.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "錦安公園",
@@ -5943,7 +7552,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 45.3,
+        "sports_business_count": 32.1,
+        "commercial_zoning_area_m2": 19.5,
+        "parking_spaces": 18.9
+      },
+      "connectivity_pr_composite": 29.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "昌隆198公園",
@@ -5984,7 +7601,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 83.6,
+        "sports_business_count": 52.2,
+        "commercial_zoning_area_m2": 18.9,
+        "parking_spaces": 57.2
+      },
+      "connectivity_pr_composite": 53.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "大安森林公園",
@@ -6020,7 +7645,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 76.7,
+        "sports_business_count": 30.2,
+        "commercial_zoning_area_m2": 18.2,
+        "parking_spaces": 83.0
+      },
+      "connectivity_pr_composite": 52.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "聚德公園",
@@ -6047,7 +7680,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 35.8,
+        "sports_business_count": 20.1,
+        "commercial_zoning_area_m2": 17.6,
+        "parking_spaces": 9.4
+      },
+      "connectivity_pr_composite": 20.7,
+      "low_connectivity_flag": true
     },
     {
       "name": "仁愛圓環",
@@ -6090,7 +7731,15 @@
             "type": "皮拉提斯"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 40.9,
+        "sports_business_count": 62.9,
+        "commercial_zoning_area_m2": 17.0,
+        "parking_spaces": 39.0
+      },
+      "connectivity_pr_composite": 40.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "民輝公園",
@@ -6128,7 +7777,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 79.2,
+        "sports_business_count": 38.4,
+        "commercial_zoning_area_m2": 16.4,
+        "parking_spaces": 59.1
+      },
+      "connectivity_pr_composite": 48.3,
+      "low_connectivity_flag": false
     },
     {
       "name": "華江一號公園",
@@ -6155,7 +7812,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 31.4,
+        "sports_business_count": 18.2,
+        "commercial_zoning_area_m2": 15.7,
+        "parking_spaces": 15.7
+      },
+      "connectivity_pr_composite": 20.2,
+      "low_connectivity_flag": true
     },
     {
       "name": "民榮公園",
@@ -6189,7 +7854,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 78.6,
+        "sports_business_count": 30.8,
+        "commercial_zoning_area_m2": 15.1,
+        "parking_spaces": 18.2
+      },
+      "connectivity_pr_composite": 35.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "復盛公園",
@@ -6213,7 +7886,15 @@
             "type": "綜合武術格鬥"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 24.5,
+        "sports_business_count": 6.3,
+        "commercial_zoning_area_m2": 14.5,
+        "parking_spaces": 71.1
+      },
+      "connectivity_pr_composite": 29.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "金華公園",
@@ -6241,7 +7922,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 43.4,
+        "sports_business_count": 22.6,
+        "commercial_zoning_area_m2": 13.8,
+        "parking_spaces": 27.7
+      },
+      "connectivity_pr_composite": 26.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "敦化公園",
@@ -6297,7 +7986,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 25.8,
+        "sports_business_count": 88.1,
+        "commercial_zoning_area_m2": 13.2,
+        "parking_spaces": 60.4
+      },
+      "connectivity_pr_composite": 46.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "金山公園",
@@ -6345,7 +8042,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 42.8,
+        "sports_business_count": 72.3,
+        "commercial_zoning_area_m2": 12.6,
+        "parking_spaces": 11.3
+      },
+      "connectivity_pr_composite": 34.8,
+      "low_connectivity_flag": false
     },
     {
       "name": "大同16號廣場",
@@ -6368,7 +8073,15 @@
             "type": "體適能"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 17.0,
+        "sports_business_count": 5.7,
+        "commercial_zoning_area_m2": 11.9,
+        "parking_spaces": 22.0
+      },
+      "connectivity_pr_composite": 14.2,
+      "low_connectivity_flag": true
     },
     {
       "name": "錦華綠地",
@@ -6395,7 +8108,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 45.9,
+        "sports_business_count": 23.3,
+        "commercial_zoning_area_m2": 11.3,
+        "parking_spaces": 30.2
+      },
+      "connectivity_pr_composite": 27.7,
+      "low_connectivity_flag": false
     },
     {
       "name": "忠和公園",
@@ -6419,7 +8140,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 13.2,
+        "sports_business_count": 3.8,
+        "commercial_zoning_area_m2": 10.7,
+        "parking_spaces": 26.4
+      },
+      "connectivity_pr_composite": 13.5,
+      "low_connectivity_flag": true
     },
     {
       "name": "國順公園",
@@ -6442,7 +8171,15 @@
             "type": "舞蹈"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 13.8,
+        "sports_business_count": 4.4,
+        "commercial_zoning_area_m2": 10.1,
+        "parking_spaces": 17.0
+      },
+      "connectivity_pr_composite": 11.3,
+      "low_connectivity_flag": true
     },
     {
       "name": "文光公園",
@@ -6478,7 +8215,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 37.7,
+        "sports_business_count": 37.7,
+        "commercial_zoning_area_m2": 9.4,
+        "parking_spaces": 2.5
+      },
+      "connectivity_pr_composite": 21.8,
+      "low_connectivity_flag": true
     },
     {
       "name": "糖廍公園",
@@ -6505,7 +8250,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 36.5,
+        "sports_business_count": 21.4,
+        "commercial_zoning_area_m2": 8.8,
+        "parking_spaces": 10.1
+      },
+      "connectivity_pr_composite": 19.2,
+      "low_connectivity_flag": true
     },
     {
       "name": "介壽公園",
@@ -6530,7 +8283,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 69.8,
+        "sports_business_count": 8.2,
+        "commercial_zoning_area_m2": 8.2,
+        "parking_spaces": 0.0
+      },
+      "connectivity_pr_composite": 21.6,
+      "low_connectivity_flag": true
     },
     {
       "name": "延壽二號公園",
@@ -6557,7 +8318,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 21.4,
+        "sports_business_count": 14.5,
+        "commercial_zoning_area_m2": 4.4,
+        "parking_spaces": 11.9
+      },
+      "connectivity_pr_composite": 13.0,
+      "low_connectivity_flag": true
     },
     {
       "name": "延壽三號公園",
@@ -6597,7 +8366,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 22.0,
+        "sports_business_count": 45.3,
+        "commercial_zoning_area_m2": 5.0,
+        "parking_spaces": 64.2
+      },
+      "connectivity_pr_composite": 34.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "富錦五號公園",
@@ -6624,7 +8401,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 23.3,
+        "sports_business_count": 15.1,
+        "commercial_zoning_area_m2": 5.7,
+        "parking_spaces": 8.2
+      },
+      "connectivity_pr_composite": 13.1,
+      "low_connectivity_flag": true
     },
     {
       "name": "富錦六號公園",
@@ -6651,7 +8436,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 23.9,
+        "sports_business_count": 15.7,
+        "commercial_zoning_area_m2": 6.3,
+        "parking_spaces": 12.6
+      },
+      "connectivity_pr_composite": 14.6,
+      "low_connectivity_flag": true
     },
     {
       "name": "精忠2號公園",
@@ -6682,7 +8475,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 26.4,
+        "sports_business_count": 27.7,
+        "commercial_zoning_area_m2": 6.9,
+        "parking_spaces": 34.6
+      },
+      "connectivity_pr_composite": 23.9,
+      "low_connectivity_flag": true
     },
     {
       "name": "精忠公園",
@@ -6713,7 +8514,15 @@
             "type": "健身房"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 27.0,
+        "sports_business_count": 28.3,
+        "commercial_zoning_area_m2": 7.5,
+        "parking_spaces": 37.7
+      },
+      "connectivity_pr_composite": 25.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "居安公園",
@@ -6736,7 +8545,15 @@
             "type": "體適能"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 42.1,
+        "sports_business_count": 10.1,
+        "commercial_zoning_area_m2": 3.8,
+        "parking_spaces": 35.8
+      },
+      "connectivity_pr_composite": 22.9,
+      "low_connectivity_flag": true
     },
     {
       "name": "華江七號公園",
@@ -6763,7 +8580,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 32.1,
+        "sports_business_count": 18.9,
+        "commercial_zoning_area_m2": 3.1,
+        "parking_spaces": 24.5
+      },
+      "connectivity_pr_composite": 19.6,
+      "low_connectivity_flag": true
     },
     {
       "name": "新糖廍公園(糖廍文化園區)",
@@ -6791,7 +8616,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 34.0,
+        "sports_business_count": 19.5,
+        "commercial_zoning_area_m2": 2.5,
+        "parking_spaces": 44.0
+      },
+      "connectivity_pr_composite": 25.0,
+      "low_connectivity_flag": false
     },
     {
       "name": "大理公園",
@@ -6818,7 +8651,15 @@
             "type": "攀岩"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 27.7,
+        "sports_business_count": 16.4,
+        "commercial_zoning_area_m2": 1.9,
+        "parking_spaces": 23.9
+      },
+      "connectivity_pr_composite": 17.5,
+      "low_connectivity_flag": true
     },
     {
       "name": "華江八號公園",
@@ -6837,7 +8678,15 @@
         "commercial_zoning_area_m2": 0.0,
         "sports_business_count": 0,
         "sports_businesses": []
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 32.7,
+        "sports_business_count": 1.3,
+        "commercial_zoning_area_m2": 0.0,
+        "parking_spaces": 25.2
+      },
+      "connectivity_pr_composite": 14.8,
+      "low_connectivity_flag": true
     },
     {
       "name": "綠堤公園",
@@ -6856,7 +8705,15 @@
         "commercial_zoning_area_m2": 0.0,
         "sports_business_count": 0,
         "sports_businesses": []
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 35.2,
+        "sports_business_count": 2.5,
+        "commercial_zoning_area_m2": 0.6,
+        "parking_spaces": 25.8
+      },
+      "connectivity_pr_composite": 16.0,
+      "low_connectivity_flag": true
     },
     {
       "name": "中正138號綠地",
@@ -6879,7 +8736,15 @@
             "type": "游泳"
           }
         ]
-      }
+      },
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 39.0,
+        "sports_business_count": 9.4,
+        "commercial_zoning_area_m2": 1.3,
+        "parking_spaces": 0.6
+      },
+      "connectivity_pr_composite": 12.6,
+      "low_connectivity_flag": true
     }
   ]
 }

@@ -128,6 +128,38 @@ def main():
             }
         )
 
+    # -- 連結度綜合評分:四項指標(捷運站數/運動商家數/商業區面積/停車位)各自算
+    # 百分等級(PR,0-100,越大代表在這160座公園裡排名越高),再取平均當「綜合連結度
+    # PR」。用 PR 而不是直接加總原始數值,是因為商業區面積跟其他指標單位、量級差
+    # 太多(有些公園附近商業區破50萬平方公尺,停車位卻只有幾十個),直接加總會被
+    # 面積數字主導,PR 化之後每項指標權重才公平。PR25 以下 = 落在後 1/4,四項指標
+    # 平均起來都偏低,標記為「低度連結公園」。
+    def percentile_ranks(values):
+        n = len(values)
+        order = sorted(range(n), key=lambda i: values[i])
+        pr = [0.0] * n
+        for rank, i in enumerate(order):
+            pr[i] = round(100 * rank / (n - 1), 1) if n > 1 else 100.0
+        return pr
+
+    metrics = {
+        "mrt_station_count": [r["nearby_400m"]["mrt_station_count"] for r in park_records],
+        "sports_business_count": [r["nearby_400m"]["sports_business_count"] for r in park_records],
+        "commercial_zoning_area_m2": [r["nearby_400m"]["commercial_zoning_area_m2"] for r in park_records],
+        "parking_spaces": [r["nearby_400m"]["parking_spaces"] for r in park_records],
+    }
+    pr_by_metric = {k: percentile_ranks(v) for k, v in metrics.items()}
+    for i, r in enumerate(park_records):
+        prs = {k: pr_by_metric[k][i] for k in metrics}
+        composite = round(sum(prs.values()) / len(prs), 1)
+        r["connectivity_pr_by_metric"] = prs
+        r["connectivity_pr_composite"] = composite
+        r["low_connectivity_flag"] = composite < 25
+
+    low_connectivity_parks = sorted(
+        [r for r in park_records if r["low_connectivity_flag"]], key=lambda r: r["connectivity_pr_composite"]
+    )
+
     # 依設施類型分組,看周邊平均值有沒有差異
     from collections import defaultdict
 
@@ -186,6 +218,21 @@ def main():
         "sports_businesses_citywide_total": len(sports_biz_pts),
         "sports_business_type_distribution_in_site": dict(sports_biz_type_counter.most_common()),
         "summary_by_facility_type": tag_summary,
+        "connectivity_pr_method": (
+            "四項指標(捷運站數/運動商家數/商業區面積/停車位)各自在160座公園間算百分"
+            "等級(PR),取平均為綜合連結度PR。PR25以下 = 後1/4,標記為低度連結公園。"
+        ),
+        "low_connectivity_parks_pr25_below": [
+            {
+                "name": r["name"],
+                "facility_tags": r["facility_tags"],
+                "connectivity_pr_composite": r["connectivity_pr_composite"],
+                "connectivity_pr_by_metric": r["connectivity_pr_by_metric"],
+                "nearby_400m": r["nearby_400m"],
+            }
+            for r in low_connectivity_parks
+        ],
+        "low_connectivity_parks_count": len(low_connectivity_parks),
         "park_details": sorted(
             park_records, key=lambda r: -r["nearby_400m"]["commercial_zoning_area_m2"]
         ),
@@ -193,6 +240,10 @@ def main():
     with open(os.path.join(PROCESSED_DIR, "analysis7_summary.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
+    print(f"low connectivity parks (PR25 below): {len(low_connectivity_parks)} / {len(park_records)}")
+    for r in low_connectivity_parks:
+        print(f"  {r['name']}: composite PR {r['connectivity_pr_composite']}, {r['connectivity_pr_by_metric']}")
+    print()
     print("sports businesses in site:", total_sports_biz_in_site, "/ citywide", len(sports_biz_pts))
     print("type distribution:", result["sports_business_type_distribution_in_site"])
     print()

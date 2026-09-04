@@ -65,7 +65,10 @@ def main():
             f"<b>{name}</b>({'/'.join(d['facility_tags'])})<br>"
             f"400m內:捷運站 {nb['mrt_station_count']}(={', '.join(nb['mrt_stations']) or '無'})<br>"
             f"停車位 {nb['parking_spaces']}(共{nb['parking_lots']}處)<br>"
-            f"商業區面積 {nb['commercial_zoning_area_m2']:.0f}m² / 市場用地 {nb['market_zoning_area_m2']:.0f}m²"
+            f"商業區面積 {nb['commercial_zoning_area_m2']:.0f}m² / 市場用地 {nb['market_zoning_area_m2']:.0f}m²<br>"
+            f"運動商家 {nb['sports_business_count']} 間<br>"
+            f"<b>綜合連結度 PR {d['connectivity_pr_composite']}</b>"
+            + ("<br><b style='color:#de2d26;'>⚠ 低度連結公園(PR25以下)</b>" if d.get("low_connectivity_flag") else "")
         )
         folium.Circle(
             location=[lat, lon], radius=400, color=color, weight=1, fill=False, opacity=0.35
@@ -74,6 +77,29 @@ def main():
             location=[lat, lon], radius=5, color=color, fill=True, fill_opacity=0.9, popup=popup
         ).add_to(park_layer)
     park_layer.add_to(m)
+
+    low_conn_layer = folium.FeatureGroup(name=f"⚠ 低度連結公園(綜合連結度PR25以下,{summary['low_connectivity_parks_count']}座)")
+    for r in summary["low_connectivity_parks_pr25_below"]:
+        f = next((f for f in parks_geo["features"] if f["properties"].get("pm_name") == r["name"]), None)
+        if not f:
+            continue
+        lon, lat = f["geometry"]["coordinates"]
+        folium.Circle(
+            location=[lat, lon],
+            radius=400,
+            color="#de2d26",
+            weight=2.5,
+            fill=True,
+            fill_color="#de2d26",
+            fill_opacity=0.08,
+            dash_array="6,4",
+            popup=f"<b>{r['name']}</b><br>綜合連結度 PR {r['connectivity_pr_composite']}(全基地160座公園裡後1/4)",
+        ).add_to(low_conn_layer)
+        folium.Marker(
+            location=[lat, lon],
+            icon=folium.DivIcon(html=f"<div style='font-size:16px;color:#de2d26;'>&#9888;</div>"),
+        ).add_to(low_conn_layer)
+    low_conn_layer.add_to(m)
 
     sports_biz_layer = MarkerCluster(name=f"運動/健身商家(真實POI,{summary['sports_businesses_in_site_total']}間)")
     for b in load_geojson(os.path.join(RAW_DIR, "sports_businesses.json")):
