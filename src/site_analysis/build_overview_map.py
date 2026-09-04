@@ -73,6 +73,35 @@ def main():
         ).add_to(station_layer)
     station_layer.add_to(m)
 
+    try:
+        density = load("building_density_grid.geojson")
+    except FileNotFoundError:
+        density = None
+    if density:
+        def _density_color(count):
+            if count < 10:
+                return "#fee5d9"
+            if count < 25:
+                return "#fcae91"
+            if count < 50:
+                return "#fb6a4a"
+            if count < 100:
+                return "#de2d26"
+            return "#a50f15"
+
+        density_layer = folium.FeatureGroup(name="建物密度(200m 網格,棟數)", show=False)
+        folium.GeoJson(
+            density,
+            style_function=lambda x: {
+                "color": "#666",
+                "weight": 0.3,
+                "fillColor": _density_color(x["properties"]["building_count"]),
+                "fillOpacity": 0.6,
+            },
+            tooltip=folium.GeoJsonTooltip(fields=["building_count", "avg_height_m"], aliases=["棟數", "平均樓高(m)"]),
+        ).add_to(density_layer)
+        density_layer.add_to(m)
+
     folium.Marker(
         [YANPING_RIVERSIDE_PARK_LAT, YANPING_RIVERSIDE_PARK_LON],
         popup="延平河濱公園",

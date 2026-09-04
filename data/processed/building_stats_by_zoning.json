@@ -1,0 +1,788 @@
+{
+  "CAVEAT": "building_count/footprint 只統計落在目前已收到建物網格範圍內的分區部分。footprint_coverage_ratio(建物 footprint 面積/分區在建物資料涵蓋範圍內的面積)是建蔽率的粗略代理,不是正式建蔽率(正式建蔽率該用地籍上的建築線退縮規範去算,這裡只是簡單面積比)。分區面積小於 100 平方公尺的不計算比例(避免極端值)。",
+  "by_zoning_category": {
+    "第三種住宅區": {
+      "building_count": 6332,
+      "avg_height_m": 18.95,
+      "median_height_m": 16.69,
+      "max_height_m": 106.48,
+      "total_footprint_area_m2": 1783510.3,
+      "zone_area_within_building_coverage_m2": 3799022.6,
+      "footprint_coverage_ratio": 0.469
+    },
+    "第三種商業區(特)": {
+      "building_count": 2633,
+      "avg_height_m": 26.07,
+      "median_height_m": 20.17,
+      "max_height_m": 105.79,
+      "total_footprint_area_m2": 841119.4,
+      "zone_area_within_building_coverage_m2": 1535861.7,
+      "footprint_coverage_ratio": 0.548
+    },
+    "第三種商業區": {
+      "building_count": 2251,
+      "avg_height_m": 21.1,
+      "median_height_m": 16.59,
+      "max_height_m": 84.58,
+      "total_footprint_area_m2": 520549.1,
+      "zone_area_within_building_coverage_m2": 910466.9,
+      "footprint_coverage_ratio": 0.572
+    },
+    "第四種住宅區": {
+      "building_count": 1977,
+      "avg_height_m": 18.11,
+      "median_height_m": 17.35,
+      "max_height_m": 61.01,
+      "total_footprint_area_m2": 577877.9,
+      "zone_area_within_building_coverage_m2": 1108794.4,
+      "footprint_coverage_ratio": 0.521
+    },
+    "第四種商業區": {
+      "building_count": 1573,
+      "avg_height_m": 22.46,
+      "median_height_m": 17.96,
+      "max_height_m": 121.36,
+      "total_footprint_area_m2": 372216.5,
+      "zone_area_within_building_coverage_m2": 685618.3,
+      "footprint_coverage_ratio": 0.543
+    },
+    "第四種商業區(特)": {
+      "building_count": 1560,
+      "avg_height_m": 24.13,
+      "median_height_m": 19.38,
+      "max_height_m": 77.24,
+      "total_footprint_area_m2": 449462.6,
+      "zone_area_within_building_coverage_m2": 792291.7,
+      "footprint_coverage_ratio": 0.567
+    },
+    "第三之二種住宅區": {
+      "building_count": 528,
+      "avg_height_m": 27.7,
+      "median_height_m": 23.01,
+      "max_height_m": 88.06,
+      "total_footprint_area_m2": 154089.3,
+      "zone_area_within_building_coverage_m2": 344889.1,
+      "footprint_coverage_ratio": 0.447
+    },
+    "第三之一種住宅區": {
+      "building_count": 340,
+      "avg_height_m": 23.43,
+      "median_height_m": 20.14,
+      "max_height_m": 87.15,
+      "total_footprint_area_m2": 92682.0,
+      "zone_area_within_building_coverage_m2": 195891.1,
+      "footprint_coverage_ratio": 0.473
+    },
+    "特定專用區(供一般商業使用)": {
+      "building_count": 314,
+      "avg_height_m": 18.53,
+      "median_height_m": 15.8,
+      "max_height_m": 67.06,
+      "total_footprint_area_m2": 69367.1,
+      "zone_area_within_building_coverage_m2": 107471.8,
+      "footprint_coverage_ratio": 0.645
+    },
+    "第二種商業區(特)": {
+      "building_count": 289,
+      "avg_height_m": 17.97,
+      "median_height_m": 16.13,
+      "max_height_m": 60.68,
+      "total_footprint_area_m2": 91198.0,
+      "zone_area_within_building_coverage_m2": 157432.1,
+      "footprint_coverage_ratio": 0.579
+    },
+    "敦化南北路特定專用區(A區)": {
+      "building_count": 228,
+      "avg_height_m": 31.82,
+      "median_height_m": 35.18,
+      "max_height_m": 66.93,
+      "total_footprint_area_m2": 111749.9,
+      "zone_area_within_building_coverage_m2": 249865.9,
+      "footprint_coverage_ratio": 0.447
+    },
+    "國小用地": {
+      "building_count": 196,
+      "avg_height_m": 14.48,
+      "median_height_m": 13.94,
+      "max_height_m": 32.46,
+      "total_footprint_area_m2": 176229.3,
+      "zone_area_within_building_coverage_m2": 646335.1,
+      "footprint_coverage_ratio": 0.273
+    },
+    "第二種商業區": {
+      "building_count": 177,
+      "avg_height_m": 28.87,
+      "median_height_m": 29.67,
+      "max_height_m": 59.16,
+      "total_footprint_area_m2": 48292.5,
+      "zone_area_within_building_coverage_m2": 88031.2,
+      "footprint_coverage_ratio": 0.549
+    },
+    "第三之一種住宅區(特)": {
+      "building_count": 174,
+      "avg_height_m": 17.86,
+      "median_height_m": 17.27,
+      "max_height_m": 42.01,
+      "total_footprint_area_m2": 55131.4,
+      "zone_area_within_building_coverage_m2": 131465.5,
+      "footprint_coverage_ratio": 0.419
+    },
+    "特定專用區(三)(供住宅使用)": {
+      "building_count": 168,
+      "avg_height_m": 16.21,
+      "median_height_m": 15.62,
+      "max_height_m": 42.52,
+      "total_footprint_area_m2": 37886.2,
+      "zone_area_within_building_coverage_m2": 65897.6,
+      "footprint_coverage_ratio": 0.575
+    },
+    "特定專用區(供特定商業使用)": {
+      "building_count": 162,
+      "avg_height_m": 14.09,
+      "median_height_m": 12.98,
+      "max_height_m": 42.7,
+      "total_footprint_area_m2": 35156.5,
+      "zone_area_within_building_coverage_m2": 60626.0,
+      "footprint_coverage_ratio": 0.58
+    },
+    "特定專用區(一)": {
+      "building_count": 146,
+      "avg_height_m": 17.47,
+      "median_height_m": 16.28,
+      "max_height_m": 42.75,
+      "total_footprint_area_m2": 40462.6,
+      "zone_area_within_building_coverage_m2": 82317.6,
+      "footprint_coverage_ratio": 0.492
+    },
+    "大專用地": {
+      "building_count": 145,
+      "avg_height_m": 28.14,
+      "median_height_m": 23.75,
+      "max_height_m": 74.65,
+      "total_footprint_area_m2": 90576.9,
+      "zone_area_within_building_coverage_m2": 355968.6,
+      "footprint_coverage_ratio": 0.254
+    },
+    "敦化南北路特定專用區(B區)": {
+      "building_count": 138,
+      "avg_height_m": 36.52,
+      "median_height_m": 38.05,
+      "max_height_m": 81.46,
+      "total_footprint_area_m2": 59034.5,
+      "zone_area_within_building_coverage_m2": 181069.8,
+      "footprint_coverage_ratio": 0.326
+    },
+    "住宅用地": {
+      "building_count": 138,
+      "avg_height_m": 16.99,
+      "median_height_m": 15.85,
+      "max_height_m": 59.36,
+      "total_footprint_area_m2": 48320.3,
+      "zone_area_within_building_coverage_m2": 135635.9,
+      "footprint_coverage_ratio": 0.356
+    },
+    "行政區": {
+      "building_count": 128,
+      "avg_height_m": 22.18,
+      "median_height_m": 17.17,
+      "max_height_m": 77.62,
+      "total_footprint_area_m2": 84911.5,
+      "zone_area_within_building_coverage_m2": 340300.0,
+      "footprint_coverage_ratio": 0.25
+    },
+    "第四之一種住宅區": {
+      "building_count": 126,
+      "avg_height_m": 19.94,
+      "median_height_m": 16.74,
+      "max_height_m": 59.77,
+      "total_footprint_area_m2": 40426.0,
+      "zone_area_within_building_coverage_m2": 66689.5,
+      "footprint_coverage_ratio": 0.606
+    },
+    "機關用地": {
+      "building_count": 125,
+      "avg_height_m": 26.44,
+      "median_height_m": 20.37,
+      "max_height_m": 104.85,
+      "total_footprint_area_m2": 75837.7,
+      "zone_area_within_building_coverage_m2": 219613.5,
+      "footprint_coverage_ratio": 0.345
+    },
+    "第四之一種住宅區(特)": {
+      "building_count": 102,
+      "avg_height_m": 24.11,
+      "median_height_m": 22.76,
+      "max_height_m": 57.91,
+      "total_footprint_area_m2": 30658.1,
+      "zone_area_within_building_coverage_m2": 62793.2,
+      "footprint_coverage_ratio": 0.488
+    },
+    "市場用地": {
+      "building_count": 97,
+      "avg_height_m": 25.02,
+      "median_height_m": 22.15,
+      "max_height_m": 55.85,
+      "total_footprint_area_m2": 56867.2,
+      "zone_area_within_building_coverage_m2": 92920.5,
+      "footprint_coverage_ratio": 0.612
+    },
+    "第參種工業區": {
+      "building_count": 95,
+      "avg_height_m": 14.93,
+      "median_height_m": 8.51,
+      "max_height_m": 60.6,
+      "total_footprint_area_m2": 74456.9,
+      "zone_area_within_building_coverage_m2": 325741.0,
+      "footprint_coverage_ratio": 0.229
+    },
+    "高中用地": {
+      "building_count": 86,
+      "avg_height_m": 18.17,
+      "median_height_m": 17.73,
+      "max_height_m": 42.57,
+      "total_footprint_area_m2": 68927.2,
+      "zone_area_within_building_coverage_m2": 306037.6,
+      "footprint_coverage_ratio": 0.225
+    },
+    "特定專用區": {
+      "building_count": 81,
+      "avg_height_m": 8.6,
+      "median_height_m": 6.71,
+      "max_height_m": 25.15,
+      "total_footprint_area_m2": 50915.0,
+      "zone_area_within_building_coverage_m2": 276331.2,
+      "footprint_coverage_ratio": 0.184
+    },
+    "國中用地": {
+      "building_count": 79,
+      "avg_height_m": 17.82,
+      "median_height_m": 17.27,
+      "max_height_m": 31.6,
+      "total_footprint_area_m2": 105947.7,
+      "zone_area_within_building_coverage_m2": 316036.2,
+      "footprint_coverage_ratio": 0.335
+    },
+    "文教區": {
+      "building_count": 67,
+      "avg_height_m": 24.05,
+      "median_height_m": 20.22,
+      "max_height_m": 49.02,
+      "total_footprint_area_m2": 33771.0,
+      "zone_area_within_building_coverage_m2": 102864.8,
+      "footprint_coverage_ratio": 0.328
+    },
+    "公園用地": {
+      "building_count": 66,
+      "avg_height_m": 8.74,
+      "median_height_m": 7.59,
+      "max_height_m": 35.56,
+      "total_footprint_area_m2": 31951.3,
+      "zone_area_within_building_coverage_m2": 1064239.8,
+      "footprint_coverage_ratio": 0.03
+    },
+    "特定專用區(二)": {
+      "building_count": 65,
+      "avg_height_m": 17.47,
+      "median_height_m": 17.63,
+      "max_height_m": 38.66,
+      "total_footprint_area_m2": 24590.9,
+      "zone_area_within_building_coverage_m2": 52063.0,
+      "footprint_coverage_ratio": 0.472
+    },
+    "第三種商業區(特)(遷)": {
+      "building_count": 58,
+      "avg_height_m": 16.31,
+      "median_height_m": 16.56,
+      "max_height_m": 23.95,
+      "total_footprint_area_m2": 12190.1,
+      "zone_area_within_building_coverage_m2": 19692.4,
+      "footprint_coverage_ratio": 0.619
+    },
+    "商業用地": {
+      "building_count": 57,
+      "avg_height_m": 17.97,
+      "median_height_m": 16.76,
+      "max_height_m": 45.03,
+      "total_footprint_area_m2": 13194.8,
+      "zone_area_within_building_coverage_m2": 31351.2,
+      "footprint_coverage_ratio": 0.421
+    },
+    "(不在任何分區內/計畫範圍外)": {
+      "building_count": 53,
+      "avg_height_m": 8.69,
+      "median_height_m": 7.75,
+      "max_height_m": 17.6,
+      "total_footprint_area_m2": 16599.2,
+      "zone_area_within_building_coverage_m2": 0.0,
+      "footprint_coverage_ratio": null
+    },
+    "資訊產業專用區": {
+      "building_count": 48,
+      "avg_height_m": 19.9,
+      "median_height_m": 16.23,
+      "max_height_m": 49.66,
+      "total_footprint_area_m2": 13594.1,
+      "zone_area_within_building_coverage_m2": 47572.8,
+      "footprint_coverage_ratio": 0.286
+    },
+    "特定專用區(四)(供河濱住宅使用)": {
+      "building_count": 46,
+      "avg_height_m": 20.01,
+      "median_height_m": 19.02,
+      "max_height_m": 36.91,
+      "total_footprint_area_m2": 13568.6,
+      "zone_area_within_building_coverage_m2": 26340.7,
+      "footprint_coverage_ratio": 0.515
+    },
+    "行政專用區": {
+      "building_count": 46,
+      "avg_height_m": 14.27,
+      "median_height_m": 15.34,
+      "max_height_m": 26.8,
+      "total_footprint_area_m2": 24568.1,
+      "zone_area_within_building_coverage_m2": 102609.5,
+      "footprint_coverage_ratio": 0.239
+    },
+    "第三種住宅區(特)": {
+      "building_count": 45,
+      "avg_height_m": 16.82,
+      "median_height_m": 15.6,
+      "max_height_m": 35.08,
+      "total_footprint_area_m2": 12889.8,
+      "zone_area_within_building_coverage_m2": 49019.7,
+      "footprint_coverage_ratio": 0.263
+    },
+    "電信用地": {
+      "building_count": 43,
+      "avg_height_m": 37.67,
+      "median_height_m": 36.47,
+      "max_height_m": 84.96,
+      "total_footprint_area_m2": 25175.9,
+      "zone_area_within_building_coverage_m2": 73006.2,
+      "footprint_coverage_ratio": 0.345
+    },
+    "醫療用地": {
+      "building_count": 39,
+      "avg_height_m": 14.35,
+      "median_height_m": 12.57,
+      "max_height_m": 44.91,
+      "total_footprint_area_m2": 24988.8,
+      "zone_area_within_building_coverage_m2": 68796.1,
+      "footprint_coverage_ratio": 0.363
+    },
+    "交通用地": {
+      "building_count": 36,
+      "avg_height_m": 26.95,
+      "median_height_m": 17.32,
+      "max_height_m": 74.65,
+      "total_footprint_area_m2": 23072.7,
+      "zone_area_within_building_coverage_m2": 165321.9,
+      "footprint_coverage_ratio": 0.14
+    },
+    "創意文化專用區": {
+      "building_count": 35,
+      "avg_height_m": 5.68,
+      "median_height_m": 3.51,
+      "max_height_m": 14.3,
+      "total_footprint_area_m2": 18822.6,
+      "zone_area_within_building_coverage_m2": 72238.8,
+      "footprint_coverage_ratio": 0.261
+    },
+    "第一種商業區": {
+      "building_count": 25,
+      "avg_height_m": 17.99,
+      "median_height_m": 16.56,
+      "max_height_m": 44.65,
+      "total_footprint_area_m2": 7854.1,
+      "zone_area_within_building_coverage_m2": 16767.8,
+      "footprint_coverage_ratio": 0.468
+    },
+    "轉運站用地": {
+      "building_count": 25,
+      "avg_height_m": 59.29,
+      "median_height_m": 71.68,
+      "max_height_m": 79.48,
+      "total_footprint_area_m2": 19264.0,
+      "zone_area_within_building_coverage_m2": 21204.3,
+      "footprint_coverage_ratio": 0.908
+    },
+    "醫療及衛生用地": {
+      "building_count": 24,
+      "avg_height_m": 35.58,
+      "median_height_m": 17.27,
+      "max_height_m": 107.8,
+      "total_footprint_area_m2": 16422.8,
+      "zone_area_within_building_coverage_m2": 40810.1,
+      "footprint_coverage_ratio": 0.402
+    },
+    "保存區": {
+      "building_count": 23,
+      "avg_height_m": 6.17,
+      "median_height_m": 4.24,
+      "max_height_m": 12.88,
+      "total_footprint_area_m2": 9285.7,
+      "zone_area_within_building_coverage_m2": 50191.1,
+      "footprint_coverage_ratio": 0.185
+    },
+    "第三之二種住宅區(特)": {
+      "building_count": 22,
+      "avg_height_m": 24.93,
+      "median_height_m": 18.82,
+      "max_height_m": 53.11,
+      "total_footprint_area_m2": 6621.7,
+      "zone_area_within_building_coverage_m2": 15966.5,
+      "footprint_coverage_ratio": 0.415
+    },
+    "第三種住宅區(特)(遷)": {
+      "building_count": 22,
+      "avg_height_m": 16.37,
+      "median_height_m": 15.67,
+      "max_height_m": 24.56,
+      "total_footprint_area_m2": 4688.6,
+      "zone_area_within_building_coverage_m2": 15214.7,
+      "footprint_coverage_ratio": 0.308
+    },
+    "第四種住宅區(特)": {
+      "building_count": 22,
+      "avg_height_m": 20.11,
+      "median_height_m": 18.9,
+      "max_height_m": 36.25,
+      "total_footprint_area_m2": 6232.5,
+      "zone_area_within_building_coverage_m2": 15862.2,
+      "footprint_coverage_ratio": 0.393
+    },
+    "高職用地": {
+      "building_count": 21,
+      "avg_height_m": 17.67,
+      "median_height_m": 20.12,
+      "max_height_m": 30.05,
+      "total_footprint_area_m2": 10266.2,
+      "zone_area_within_building_coverage_m2": 44201.1,
+      "footprint_coverage_ratio": 0.232
+    },
+    "金融服務專用區": {
+      "building_count": 20,
+      "avg_height_m": 42.35,
+      "median_height_m": 42.88,
+      "max_height_m": 66.7,
+      "total_footprint_area_m2": 8873.7,
+      "zone_area_within_building_coverage_m2": 17769.6,
+      "footprint_coverage_ratio": 0.499
+    },
+    "聯合開發區": {
+      "building_count": 19,
+      "avg_height_m": 57.68,
+      "median_height_m": 54.23,
+      "max_height_m": 113.08,
+      "total_footprint_area_m2": 6937.6,
+      "zone_area_within_building_coverage_m2": 57350.7,
+      "footprint_coverage_ratio": 0.121
+    },
+    "體育場用地": {
+      "building_count": 17,
+      "avg_height_m": 21.59,
+      "median_height_m": 17.96,
+      "max_height_m": 43.15,
+      "total_footprint_area_m2": 25902.2,
+      "zone_area_within_building_coverage_m2": 116841.7,
+      "footprint_coverage_ratio": 0.222
+    },
+    "郵政用地": {
+      "building_count": 15,
+      "avg_height_m": 24.5,
+      "median_height_m": 17.6,
+      "max_height_m": 41.73,
+      "total_footprint_area_m2": 14371.4,
+      "zone_area_within_building_coverage_m2": 28094.3,
+      "footprint_coverage_ratio": 0.512
+    },
+    "變電所用地": {
+      "building_count": 14,
+      "avg_height_m": 15.3,
+      "median_height_m": 18.21,
+      "max_height_m": 30.1,
+      "total_footprint_area_m2": 3703.0,
+      "zone_area_within_building_coverage_m2": 28833.4,
+      "footprint_coverage_ratio": 0.128
+    },
+    "醫院用地": {
+      "building_count": 14,
+      "avg_height_m": 35.18,
+      "median_height_m": 35.71,
+      "max_height_m": 52.81,
+      "total_footprint_area_m2": 11575.5,
+      "zone_area_within_building_coverage_m2": 30344.9,
+      "footprint_coverage_ratio": 0.381
+    },
+    "文教用地": {
+      "building_count": 13,
+      "avg_height_m": 4.84,
+      "median_height_m": 3.91,
+      "max_height_m": 7.65,
+      "total_footprint_area_m2": 10696.3,
+      "zone_area_within_building_coverage_m2": 21589.7,
+      "footprint_coverage_ratio": 0.495
+    },
+    "博物館特定專用區": {
+      "building_count": 12,
+      "avg_height_m": 4.57,
+      "median_height_m": 3.51,
+      "max_height_m": 6.88,
+      "total_footprint_area_m2": 6859.9,
+      "zone_area_within_building_coverage_m2": 15760.6,
+      "footprint_coverage_ratio": 0.435
+    },
+    "中正紀念堂用地": {
+      "building_count": 12,
+      "avg_height_m": 3.58,
+      "median_height_m": 3.51,
+      "max_height_m": 4.19,
+      "total_footprint_area_m2": 11617.9,
+      "zone_area_within_building_coverage_m2": 249435.5,
+      "footprint_coverage_ratio": 0.047
+    },
+    "大學用地": {
+      "building_count": 12,
+      "avg_height_m": 12.99,
+      "median_height_m": 12.22,
+      "max_height_m": 26.42,
+      "total_footprint_area_m2": 7336.8,
+      "zone_area_within_building_coverage_m2": 17605.6,
+      "footprint_coverage_ratio": 0.417
+    },
+    "交通廣場用地": {
+      "building_count": 10,
+      "avg_height_m": 11.69,
+      "median_height_m": 12.27,
+      "max_height_m": 20.55,
+      "total_footprint_area_m2": 4270.7,
+      "zone_area_within_building_coverage_m2": 82833.4,
+      "footprint_coverage_ratio": 0.052
+    },
+    "台灣大學用地": {
+      "building_count": 10,
+      "avg_height_m": 11.42,
+      "median_height_m": 10.57,
+      "max_height_m": 20.88,
+      "total_footprint_area_m2": 8425.7,
+      "zone_area_within_building_coverage_m2": 23786.7,
+      "footprint_coverage_ratio": 0.354
+    },
+    "捷運開發區": {
+      "building_count": 9,
+      "avg_height_m": 14.3,
+      "median_height_m": 15.39,
+      "max_height_m": 19.89,
+      "total_footprint_area_m2": 1884.4,
+      "zone_area_within_building_coverage_m2": 5620.8,
+      "footprint_coverage_ratio": 0.335
+    },
+    "停車場用地": {
+      "building_count": 8,
+      "avg_height_m": 24.97,
+      "median_height_m": 23.52,
+      "max_height_m": 54.36,
+      "total_footprint_area_m2": 9228.7,
+      "zone_area_within_building_coverage_m2": 32667.3,
+      "footprint_coverage_ratio": 0.283
+    },
+    "殯儀館用地": {
+      "building_count": 8,
+      "avg_height_m": 5.73,
+      "median_height_m": 4.01,
+      "max_height_m": 10.64,
+      "total_footprint_area_m2": 6216.7,
+      "zone_area_within_building_coverage_m2": 21294.0,
+      "footprint_coverage_ratio": 0.292
+    },
+    "國際事務及公共服務特定專用區": {
+      "building_count": 7,
+      "avg_height_m": 47.57,
+      "median_height_m": 54.1,
+      "max_height_m": 60.32,
+      "total_footprint_area_m2": 4892.8,
+      "zone_area_within_building_coverage_m2": 13960.9,
+      "footprint_coverage_ratio": 0.35
+    },
+    "社福及機關用地": {
+      "building_count": 6,
+      "avg_height_m": 8.0,
+      "median_height_m": 3.51,
+      "max_height_m": 19.58,
+      "total_footprint_area_m2": 3927.8,
+      "zone_area_within_building_coverage_m2": 11411.8,
+      "footprint_coverage_ratio": 0.344
+    },
+    "學校用地": {
+      "building_count": 6,
+      "avg_height_m": 17.66,
+      "median_height_m": 12.85,
+      "max_height_m": 32.31,
+      "total_footprint_area_m2": 3305.0,
+      "zone_area_within_building_coverage_m2": 7267.9,
+      "footprint_coverage_ratio": 0.455
+    },
+    "郵政電信用地": {
+      "building_count": 6,
+      "avg_height_m": 23.28,
+      "median_height_m": 25.5,
+      "max_height_m": 36.19,
+      "total_footprint_area_m2": 4796.0,
+      "zone_area_within_building_coverage_m2": 10268.4,
+      "footprint_coverage_ratio": 0.467
+    },
+    "廣場用地": {
+      "building_count": 5,
+      "avg_height_m": 5.42,
+      "median_height_m": 3.86,
+      "max_height_m": 9.55,
+      "total_footprint_area_m2": 3185.8,
+      "zone_area_within_building_coverage_m2": 53436.0,
+      "footprint_coverage_ratio": 0.06
+    },
+    "加油站用地": {
+      "building_count": 4,
+      "avg_height_m": 12.08,
+      "median_height_m": 8.51,
+      "max_height_m": 25.4,
+      "total_footprint_area_m2": 1462.6,
+      "zone_area_within_building_coverage_m2": 9319.5,
+      "footprint_coverage_ratio": 0.157
+    },
+    "河川區": {
+      "building_count": 3,
+      "avg_height_m": 11.47,
+      "median_height_m": 10.08,
+      "max_height_m": 14.55,
+      "total_footprint_area_m2": 432.9,
+      "zone_area_within_building_coverage_m2": 3018465.3,
+      "footprint_coverage_ratio": 0.0
+    },
+    "社福及機關用地(供本府及相關單位公務使用)": {
+      "building_count": 3,
+      "avg_height_m": 23.47,
+      "median_height_m": 24.33,
+      "max_height_m": 36.04,
+      "total_footprint_area_m2": 1052.7,
+      "zone_area_within_building_coverage_m2": 2581.1,
+      "footprint_coverage_ratio": 0.408
+    },
+    "污水處理場用地": {
+      "building_count": 2,
+      "avg_height_m": 11.06,
+      "median_height_m": 11.2,
+      "max_height_m": 11.2,
+      "total_footprint_area_m2": 227.4,
+      "zone_area_within_building_coverage_m2": 907.7,
+      "footprint_coverage_ratio": 0.25
+    },
+    "聚落風貌保存專用區": {
+      "building_count": 2,
+      "avg_height_m": 4.8,
+      "median_height_m": 5.61,
+      "max_height_m": 5.61,
+      "total_footprint_area_m2": 441.9,
+      "zone_area_within_building_coverage_m2": 8674.6,
+      "footprint_coverage_ratio": 0.051
+    },
+    "公共服務設施用地": {
+      "building_count": 1,
+      "avg_height_m": 28.45,
+      "median_height_m": 28.45,
+      "max_height_m": 28.45,
+      "total_footprint_area_m2": 522.8,
+      "zone_area_within_building_coverage_m2": 1191.3,
+      "footprint_coverage_ratio": 0.439
+    },
+    "鐵路用地": {
+      "building_count": 1,
+      "avg_height_m": 11.13,
+      "median_height_m": 11.13,
+      "max_height_m": 11.13,
+      "total_footprint_area_m2": 120.0,
+      "zone_area_within_building_coverage_m2": 80038.7,
+      "footprint_coverage_ratio": 0.001
+    },
+    "機關及社會福利設施用地": {
+      "building_count": 1,
+      "avg_height_m": 35.76,
+      "median_height_m": 35.76,
+      "max_height_m": 35.76,
+      "total_footprint_area_m2": 444.0,
+      "zone_area_within_building_coverage_m2": 1307.8,
+      "footprint_coverage_ratio": 0.339
+    },
+    "甬道": {
+      "building_count": 1,
+      "avg_height_m": 32.61,
+      "median_height_m": 32.61,
+      "max_height_m": 32.61,
+      "total_footprint_area_m2": 187.9,
+      "zone_area_within_building_coverage_m2": 88.7,
+      "footprint_coverage_ratio": null
+    },
+    "古蹟用地": {
+      "building_count": 1,
+      "avg_height_m": 9.25,
+      "median_height_m": 9.25,
+      "max_height_m": 9.25,
+      "total_footprint_area_m2": 195.4,
+      "zone_area_within_building_coverage_m2": 2736.0,
+      "footprint_coverage_ratio": 0.071
+    },
+    "抽水站用地": {
+      "building_count": 1,
+      "avg_height_m": 21.21,
+      "median_height_m": 21.21,
+      "max_height_m": 21.21,
+      "total_footprint_area_m2": 477.7,
+      "zone_area_within_building_coverage_m2": 5344.3,
+      "footprint_coverage_ratio": 0.089
+    },
+    "警察局用地": {
+      "building_count": 1,
+      "avg_height_m": 16.84,
+      "median_height_m": 16.84,
+      "max_height_m": 16.84,
+      "total_footprint_area_m2": 136.6,
+      "zone_area_within_building_coverage_m2": 361.2,
+      "footprint_coverage_ratio": 0.378
+    },
+    "敦化南北路特定專用區(A區)(遷)": {
+      "building_count": 1,
+      "avg_height_m": 11.99,
+      "median_height_m": 11.99,
+      "max_height_m": 11.99,
+      "total_footprint_area_m2": 348.5,
+      "zone_area_within_building_coverage_m2": 309.9,
+      "footprint_coverage_ratio": 1.125
+    },
+    "警所用地": {
+      "building_count": 1,
+      "avg_height_m": 39.52,
+      "median_height_m": 39.52,
+      "max_height_m": 39.52,
+      "total_footprint_area_m2": 336.0,
+      "zone_area_within_building_coverage_m2": 928.6,
+      "footprint_coverage_ratio": 0.362
+    },
+    "公共建築用地": {
+      "building_count": 1,
+      "avg_height_m": 22.12,
+      "median_height_m": 22.12,
+      "max_height_m": 22.12,
+      "total_footprint_area_m2": 84.9,
+      "zone_area_within_building_coverage_m2": 2402.1,
+      "footprint_coverage_ratio": 0.035
+    },
+    "公園廣場用地": {
+      "building_count": 1,
+      "avg_height_m": 17.55,
+      "median_height_m": 17.55,
+      "max_height_m": 17.55,
+      "total_footprint_area_m2": 965.0,
+      "zone_area_within_building_coverage_m2": 8122.3,
+      "footprint_coverage_ratio": 0.119
+    }
+  }
+}
