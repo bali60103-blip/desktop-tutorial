@@ -103,9 +103,10 @@ def main():
         buildings_summary = {
             "source_tiles_received": tile_names,
             "coverage_note": (
-                "只涵蓋已收到的網格範圍,不是整個基地——目前只覆蓋基地北側一小角"
-                "(大同/中山區靠雙連站一帶),市民大道走廊主體、台北車站、華山一帶都還沒有資料。"
-                "之後補齊更多網格後重跑即會自動合併進來。"
+                "只涵蓋已收到的網格範圍,不是整個基地——目前涵蓋基地北側一角(大同/中山區"
+                "靠雙連站一帶,來自 4352)+ 東南角一小條(來自 4342,主要範圍其實在信義/"
+                "南港,只有極南緣切到基地)。市民大道走廊主體、台北車站、西門、華山一帶"
+                "都還沒有資料。之後補齊更多網格後重跑即會自動合併進來。"
             ),
             "buildings_total_in_received_tiles": len(all_buildings),
             "buildings_in_site_boundary": len(buildings_clipped),
