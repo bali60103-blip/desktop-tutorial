@@ -80,8 +80,8 @@ def main():
     ).add_to(m)
     folium.Marker(
         [HUASHAN_LAWN_LAT, HUASHAN_LAWN_LON],
-        popup="華山大草皮(座標未經資料驗證,概略估計)",
-        icon=folium.Icon(color="orange", icon="question", prefix="fa"),
+        popup="華山大草皮(中央藝文公園)",
+        icon=folium.Icon(color="orange", icon="tree", prefix="fa"),
     ).add_to(m)
 
     folium.LayerControl(collapsed=False).add_to(m)

@@ -1,9 +1,9 @@
 {
   "CAVEAT": "無路網 graph 資料,無法做最短路徑分析;connector_corridor_signal 只是沿一條假想直線(市民大道西端到延平河濱公園,長 4.53 公里)左右 300 公尺內既有設施數量的粗略訊號,不是真正可走的路徑。延平河濱公園只有中心點座標,無公園邊界,故距離量到中心點。",
   "site_pedestrian_infrastructure_totals": {
-    "sidewalk_length_m_in_site": 690170.0,
-    "painted_sidewalk_length_m_in_site": 163925.0,
-    "accessibility_ramps_in_site": 10740,
+    "sidewalk_length_m_in_site": 687431.0,
+    "painted_sidewalk_length_m_in_site": 162287.0,
+    "accessibility_ramps_in_site": 10674,
     "footbridges_in_site": 13,
     "underpasses_in_site": 12
   },

@@ -1,0 +1,5 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"name":"華山公園","city":"臺北市","district":"中山區","location":"市民大道二段","area_sq_meters":14565},"geometry":{"type":"Polygon","coordinates":[[[121.528343,25.047811],[121.529881,25.047585],[121.529683,25.046894],[121.528148,25.047118],[121.528343,25.047811]]]}},
+{"type":"Feature","properties":{"name":"中央藝文公園 (華山大草原)","address":"臺北市中正區梅花里北平東路30號","area_sq_meters":26700},"geometry":{"type":"Point","coordinates":[121.526856,25.046272]}},
+{"type":"Feature","properties":{"name":"中央藝文公園邊界輪廓"},"geometry":{"type":"Polygon","coordinates":[[[121.52485,25.04690],[121.52840,25.04620],[121.52800,25.04525],[121.52550,25.04575],[121.52485,25.04690]]]}}
+]}
