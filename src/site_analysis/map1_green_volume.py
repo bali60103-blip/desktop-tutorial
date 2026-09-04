@@ -47,6 +47,19 @@ def main():
     HeatMap(heat_pts, radius=12, blur=10, max_zoom=16).add_to(heat_layer)
     heat_layer.add_to(m)
 
+    park_pts = load("parks_basic_info_clipped.geojson")
+    TYPE_COLORS = {"公園": "#238b45", "廣場": "#8856a7", "綠地": "#66c2a4"}
+    park_layer = folium.FeatureGroup(name=f"公園處官方登記公園點位({len(park_pts['features'])} 座)")
+    for f in park_pts["features"]:
+        lon, lat = f["geometry"]["coordinates"]
+        p = f["properties"]
+        color = TYPE_COLORS.get(p.get("pm_type"), "#999")
+        popup = f"{p.get('pm_name')}({p.get('pm_type')})<br>面積 {p.get('pm_LandPublicArea')} m²<br>闢建 {p.get('pm_const_year')}"
+        folium.CircleMarker(
+            location=[lat, lon], radius=5, color=color, fill=True, fill_opacity=0.9, popup=popup
+        ).add_to(park_layer)
+    park_layer.add_to(m)
+
     legend_html = """
     <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
                 background: white; padding: 10px 14px; border: 1px solid #999;

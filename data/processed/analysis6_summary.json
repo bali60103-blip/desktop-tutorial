@@ -1,0 +1,2043 @@
+{
+  "CAVEAT": "這份公園基本資料(pm_ 開頭欄位)是公園處官方登記資料,跟先前都市計畫分區圖層(J0301/L01015/L02015 等)是不同來源、不同分類方式,沒有互相核對比對,兩邊筆數/範圍不會完全一致,是正常的——不同機關的資料本來就不會完全對齊,不強行調和。",
+  "parks_in_site_count": 160,
+  "parks_total_citywide": 818,
+  "parks_citywide_missing_geometry": 1,
+  "park_list": [
+    {
+      "name": "大安森林公園",
+      "type": "公園",
+      "const_year": "1994",
+      "area_m2": 259354,
+      "unit": "青年公園管理所",
+      "sports": "支撐前進、直臂曲腿、翻山越嶺、伸展運動、仰臥舉腿、單槓、腰背按摩器、划船訓練器、三人扭腰器、雙人漫步機",
+      "recreation": "滑梯、翹翹板、鞦韆、組合遊具、搖搖樂、攀爬架、沙坑、活水飛輪",
+      "service": "廁所(含親子廁所、無障礙廁所)、洗手台、直飲台、音樂臺、哺乳室、運動場",
+      "ecology": true
+    },
+    {
+      "name": "二二八和平公園",
+      "type": "公園",
+      "const_year": "1899",
+      "area_m2": 76180,
+      "unit": "青年公園管理所",
+      "sports": "支撐前進、手部訓練器(雙人肩關節康復器)、雙人漫步器、划船訓練器、平步訓練器、腿部訓練器、腹肌訓練器、手臂推力訓練器、手臂拉力訓練器、雙人扭腰訓練器、腿部訓練器、坐蹬訓練器、單槓",
+      "recreation": "組合遊具、磨石滑梯、鞦韆、翹翹板、戲沙坑、跳樁組合",
+      "service": "廁所(含親子廁所、無障礙廁所)、直飲台、音樂臺",
+      "ecology": false
+    },
+    {
+      "name": "榮星花園公園",
+      "type": "公園",
+      "const_year": "1990",
+      "area_m2": 65192,
+      "unit": "圓山公園管理所",
+      "sports": null,
+      "recreation": "沙坑遊戲版、旋轉杯、環型天梯、無障礙上肢設施",
+      "service": "慢跑道、籃球場",
+      "ecology": true
+    },
+    {
+      "name": "行旅廣場",
+      "type": "廣場",
+      "const_year": "2000年2016年",
+      "area_m2": 39233,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "林森公園",
+      "type": "公園",
+      "const_year": "1975",
+      "area_m2": 29331,
+      "unit": "圓山公園管理所",
+      "sports": "大轉輪、雙人漫步機、引體向上、仰臥起坐",
+      "recreation": "溜滑梯、梅花樁、旋轉盤、搖搖馬、組合遊具、三維攀爬網",
+      "service": "公廁、籃球場、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "中央藝文公園",
+      "type": "公園",
+      "const_year": "2005",
+      "area_m2": 26700,
+      "unit": "青年公園管理所",
+      "sports": "單槓、直臂曲腿、腿後肌伸展、扭腰器、肩關節康復器",
+      "recreation": "磨石滑梯、鞦韆、攀爬組、戲沙坑",
+      "service": "廁所(含親子廁所、無障礙廁所)、涼亭",
+      "ecology": false
+    },
+    {
+      "name": "中正138號綠地",
+      "type": "綠地",
+      "const_year": "1981",
+      "area_m2": 20180,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": "石椅",
+      "ecology": false
+    },
+    {
+      "name": "玉泉公園",
+      "type": "公園",
+      "const_year": "1994",
+      "area_m2": 19265,
+      "unit": "圓山公園管理所",
+      "sports": "引體向上、雙人大轉輪、撐體向上、垂直梯、仰臥舉腿、水平吊梯、滑雪器",
+      "recreation": "組合遊具、盪鞦韆、搖搖馬",
+      "service": "游泳池、廁所、涼亭、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "華山公園",
+      "type": "公園",
+      "const_year": "1994",
+      "area_m2": 14565,
+      "unit": "圓山公園管理所",
+      "sports": "腿後肌伸展、垂直梯、引體向上、水平吊梯、直臂曲腿、雙人雙槓、雙人扭腰器、 肩關節復健器、雙人太空漫步機、滑雪器、仰臥石",
+      "recreation": "溜滑梯、組合遊具、盪鞦韆",
+      "service": "涼亭、直飲台、籃球場",
+      "ecology": false
+    },
+    {
+      "name": "康樂公園",
+      "type": "公園",
+      "const_year": "1997",
+      "area_m2": 13385,
+      "unit": "圓山公園管理所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "艋舺公園",
+      "type": "公園",
+      "const_year": "2004",
+      "area_m2": 13373,
+      "unit": "青年公園管理所",
+      "sports": null,
+      "recreation": null,
+      "service": "公廁",
+      "ecology": false
+    },
+    {
+      "name": "介壽公園",
+      "type": "公園",
+      "const_year": "1963",
+      "area_m2": 13156,
+      "unit": "青年公園管理所",
+      "sports": null,
+      "recreation": null,
+      "service": "直飲台、涼亭",
+      "ecology": false
+    },
+    {
+      "name": "瑠公圳公園 ",
+      "type": "公園",
+      "const_year": "1981",
+      "area_m2": 12423,
+      "unit": "青年公園管理所",
+      "sports": "平衡木、仰臥起坐、單槓、水平吊梯",
+      "recreation": "滑梯、翹翹板、鞦韆、組合遊具、搖搖樂、特色遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "交7廣場",
+      "type": "廣場",
+      "const_year": "2005",
+      "area_m2": 11200,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "建成公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 10640,
+      "unit": "圓山公園管理所",
+      "sports": "雙人扭腰訓練器、仰臥起坐、雙人漫步機、雙人滑雪器、單槓",
+      "recreation": "打鐵舖高塔滑梯、共融多人蹺蹺板、共融滾輪滑梯、共融多人轉轉盤、共融音樂響板、共融鞦韆組",
+      "service": "籃球場、涼亭",
+      "ecology": false
+    },
+    {
+      "name": "復盛公園",
+      "type": "公園",
+      "const_year": "2004",
+      "area_m2": 9244,
+      "unit": "松山區公所",
+      "sports": "大轉輪、扭腰器、肩關節康復器、健康步道、單槓、滑雪器、雙人太空漫步機、雙槓、引體訓練器、腹肌板、伸腰伸背器",
+      "recreation": "組合遊具",
+      "service": "涼亭2座",
+      "ecology": false
+    },
+    {
+      "name": "西本願寺（萬華406號）廣場",
+      "type": "廣場",
+      "const_year": "2013",
+      "area_m2": 8974,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": "廁所.直飲台.座椅",
+      "ecology": false
+    },
+    {
+      "name": "興國公園",
+      "type": "公園",
+      "const_year": "1987",
+      "area_m2": 7766,
+      "unit": "中山區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "北門廣場",
+      "type": "廣場",
+      "const_year": "2017",
+      "area_m2": 6865,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "松基公園",
+      "type": "公園",
+      "const_year": "2012",
+      "area_m2": 6693,
+      "unit": "圓山公園管理所",
+      "sports": "單槓",
+      "recreation": "組合遊具、搖搖樂",
+      "service": "里民活動中心",
+      "ecology": false
+    },
+    {
+      "name": "新糖廍公園(糖廍文化園區)",
+      "type": "公園",
+      "const_year": "2009",
+      "area_m2": 6650,
+      "unit": "萬華區公所",
+      "sports": "大轉輪",
+      "recreation": "組合遊具、搖搖樂",
+      "service": "直飲台",
+      "ecology": false
+    },
+    {
+      "name": "糖廍公園",
+      "type": "公園",
+      "const_year": "2022",
+      "area_m2": 6650,
+      "unit": "萬華區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "慶城公園 A",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 5390,
+      "unit": "松山區公所",
+      "sports": "肩關節康復器、雙人扭腰器、單槓、腹肌板、滑雪器、雙人太空漫步機、腰背按摩器",
+      "recreation": "組合遊具、鞦韃、搖搖馬、翹翹板",
+      "service": "涼亭、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "蔣渭水紀念公園",
+      "type": "公園",
+      "const_year": "1976",
+      "area_m2": 5060,
+      "unit": "大同區公所",
+      "sports": "肩關節康復器、三人扭腰器、單槓、大轉輪、滑雪器、單人太空漫步",
+      "recreation": "組合遊具",
+      "service": "涼亭2座",
+      "ecology": false
+    },
+    {
+      "name": "仁愛圓環",
+      "type": "公園",
+      "const_year": "57",
+      "area_m2": 5060,
+      "unit": "園藝工程隊(南區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "朝陽公園",
+      "type": "公園",
+      "const_year": "1984",
+      "area_m2": 4903,
+      "unit": "大同區公所",
+      "sports": "雙人伸腰背器、單槓",
+      "recreation": "拉鍊響板,搖擺沙鈴,獅吼鼻頭,獅背攀爬網,獅眼滾珠迷宮",
+      "service": "頂棚廣場",
+      "ecology": false
+    },
+    {
+      "name": "交通4號廣場",
+      "type": "廣場",
+      "const_year": "1999",
+      "area_m2": 4825,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "伊通公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 4715,
+      "unit": "中山區公所",
+      "sports": "單槓、雙槓、滑步機、雙人大轉輪、上肢牽引器、肩關節復健器",
+      "recreation": "組合遊具、蹺蹺板",
+      "service": "涼亭、羽球場",
+      "ecology": false
+    },
+    {
+      "name": "和平青草園(原萬華402號公園)",
+      "type": "公園",
+      "const_year": "2006",
+      "area_m2": 4633,
+      "unit": "青年公園管理所",
+      "sports": "雙槓、單槓、雙人漫步器、腰背按摩器、雙人大轉輪、腰背伸展器",
+      "recreation": "組合遊具、攀爬組、擺盪船索、旋轉球椅",
+      "service": "廁所(含親子廁所、無障礙廁所)、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "樹德公園",
+      "type": "公園",
+      "const_year": "1973",
+      "area_m2": 4549,
+      "unit": "大同區公所",
+      "sports": "單槓、扭腰器、腰背按摩器",
+      "recreation": "攀爬架、攀爬網",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "環東公園",
+      "type": "公園",
+      "const_year": "1996",
+      "area_m2": 4410,
+      "unit": "內湖區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "金華公園",
+      "type": "公園",
+      "const_year": "1998",
+      "area_m2": 4390,
+      "unit": "大安區公所",
+      "sports": "雙人浪板、太空漫步機、單槓",
+      "recreation": "翹翹板、組合遊具、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "金杭公園",
+      "type": "公園",
+      "const_year": "2017",
+      "area_m2": 4271,
+      "unit": "大安區公所",
+      "sports": "圓環滑動、踏板伸展、懸吊伸展、腿部伸展",
+      "recreation": "滑梯、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "興安公園",
+      "type": "公園",
+      "const_year": "1986",
+      "area_m2": 3903,
+      "unit": "中山區公所",
+      "sports": "三人扭腰器、引體向上、平步訓練器、滑雪器",
+      "recreation": "組合遊具、搖搖馬",
+      "service": "涼亭、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "大稻埕公園",
+      "type": "公園",
+      "const_year": "1999",
+      "area_m2": 3827,
+      "unit": "大同區公所",
+      "sports": "太空漫步機、大轉輪、單槓",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "昌隆198公園",
+      "type": "公園",
+      "const_year": "2006",
+      "area_m2": 3807,
+      "unit": "大安區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "長壽公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 3568,
+      "unit": "松山區公所",
+      "sports": "溜冰場、單槓、腹肌板、雙人太空漫步機、扭腰器、肩關節康復器、雙人浪板",
+      "recreation": "組合遊具、攀爬架、搖搖馬",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "四維公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 3097,
+      "unit": "大安區公所",
+      "sports": "肩關節康復器、太空漫步機、單槓",
+      "recreation": "翹翹板、組合遊具、搖搖樂",
+      "service": "運動場",
+      "ecology": false
+    },
+    {
+      "name": "塔城公園",
+      "type": "公園",
+      "const_year": "1988",
+      "area_m2": 3078,
+      "unit": "大同區公所",
+      "sports": "單槓、划雪器、雙人伸腰伸背器、大轉輪",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "逸仙公園",
+      "type": "公園",
+      "const_year": "1988",
+      "area_m2": 3025,
+      "unit": "青年公園管理所",
+      "sports": null,
+      "recreation": null,
+      "service": "廁所(含親子廁所、無障礙廁所)、涼亭",
+      "ecology": false
+    },
+    {
+      "name": "中吉公園",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 2970,
+      "unit": "中山區公所",
+      "sports": "雙人大轉輪、腹背肌、引體向上、扭腰器",
+      "recreation": "組合遊具",
+      "service": "涼亭、直飲台、廁所",
+      "ecology": false
+    },
+    {
+      "name": "瑠公公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 2939,
+      "unit": "大安區公所",
+      "sports": "坐拉坐推練習器、肩關節康復器、 扭腰器、單槓、腿部康復器",
+      "recreation": "攀爬架、沙坑、跳樁組合、鞦韆、滑梯、爬繩",
+      "service": "洗手台、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "大安公園",
+      "type": "公園",
+      "const_year": "1983",
+      "area_m2": 2913,
+      "unit": "大安區公所",
+      "sports": "單槓",
+      "recreation": "組合遊具",
+      "service": "運動場",
+      "ecology": false
+    },
+    {
+      "name": "民榮公園",
+      "type": "公園",
+      "const_year": "1984",
+      "area_m2": 2896,
+      "unit": "大安區公所",
+      "sports": "雙人浪板、腹肌板、大轉輪、肩關節訓練器、雙人健步器、單槓、推拉復健器、三人扭腰器",
+      "recreation": "組合遊具、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "寧安公園",
+      "type": "公園",
+      "const_year": "1986",
+      "area_m2": 2856,
+      "unit": "松山區公所",
+      "sports": "划船器、雙人臥推器、單槓、單人漫步器、",
+      "recreation": "組合遊具",
+      "service": "涼亭、直飲台、籃球場(全場)",
+      "ecology": false
+    },
+    {
+      "name": "歸綏戲曲公園",
+      "type": "公園",
+      "const_year": "1978",
+      "area_m2": 2849,
+      "unit": "大同區公所",
+      "sports": "雙人扭腰器、划船健身器、高低槓、單人太空漫步",
+      "recreation": "組合遊具",
+      "service": "小舞臺",
+      "ecology": false
+    },
+    {
+      "name": "四平公園",
+      "type": "公園",
+      "const_year": "1976",
+      "area_m2": 2845,
+      "unit": "中山區公所",
+      "sports": "漫步機、肩關節康復器、引體向上",
+      "recreation": "組合遊具",
+      "service": "涼亭、直飲台、廁所",
+      "ecology": false
+    },
+    {
+      "name": "敦安公園",
+      "type": "公園",
+      "const_year": "1981",
+      "area_m2": 2820,
+      "unit": "大安區公所",
+      "sports": "單槓、雙人肩關節訓練器、雙人漫步器",
+      "recreation": "鞦韆、組合遊具、搖搖樂、攀爬架",
+      "service": "運動場、涼亭",
+      "ecology": false
+    },
+    {
+      "name": "晴光公園",
+      "type": "公園",
+      "const_year": "1978",
+      "area_m2": 2740,
+      "unit": "中山區公所",
+      "sports": "單槓、漫步器、上肢牽引器",
+      "recreation": "複合式遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "建成圓環",
+      "type": "廣場",
+      "const_year": "2001",
+      "area_m2": 2726,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": "直飲台",
+      "ecology": false
+    },
+    {
+      "name": "交通8號廣場",
+      "type": "廣場",
+      "const_year": "89",
+      "area_m2": 2698,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "錦州公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 2690,
+      "unit": "中山區公所",
+      "sports": "單槓、仰臥起坐椅 、大轉輪 、滑雪器、伸腰伸背器",
+      "recreation": "組合遊具、搖搖馬",
+      "service": "涼亭、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "朱昌公園",
+      "type": "公園",
+      "const_year": "1986",
+      "area_m2": 2637,
+      "unit": "中山區公所",
+      "sports": "引體向上、大轉輪、平步訓練器、滑雪器",
+      "recreation": "組合遊具、蹺蹺板、搖搖馬",
+      "service": "直飲台、涼亭、露天廣場",
+      "ecology": false
+    },
+    {
+      "name": "朱崙公園",
+      "type": "公園",
+      "const_year": "1972",
+      "area_m2": 2423,
+      "unit": "中山區公所",
+      "sports": "仰臥起坐器、雙人肩關節康復器、單槓",
+      "recreation": null,
+      "service": "涼亭、籃球場",
+      "ecology": false
+    },
+    {
+      "name": "敦中公園",
+      "type": "公園",
+      "const_year": "1981",
+      "area_m2": 2421,
+      "unit": "松山區公所",
+      "sports": "腹肌板、肩關節康復器、單槓、伸腰伸背器",
+      "recreation": "組合遊具、搖搖馬",
+      "service": "涼亭、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "附中公園",
+      "type": "公園",
+      "const_year": "1998",
+      "area_m2": 2369,
+      "unit": "大安區公所",
+      "sports": null,
+      "recreation": "組合遊具、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "一江公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 2330,
+      "unit": "中山區公所",
+      "sports": "引體向上、雙人大轉輪、扭腰器",
+      "recreation": "組合遊具",
+      "service": "涼亭、直飲台、廁所",
+      "ecology": false
+    },
+    {
+      "name": "金山公園",
+      "type": "公園",
+      "const_year": "1987",
+      "area_m2": 2286,
+      "unit": "大安區公所",
+      "sports": "圓環滑動、上半身伸展、踏板伸展、懸吊伸展",
+      "recreation": "幸運餅乾溜滑梯、吊床、攀爬網",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "延吉公園",
+      "type": "公園",
+      "const_year": "1982",
+      "area_m2": 2284,
+      "unit": "大安區公所",
+      "sports": "肩關節訓練器、雙人漫步機、扭腰器",
+      "recreation": "組合遊具、搖搖樂",
+      "service": "直飲台",
+      "ecology": false
+    },
+    {
+      "name": "中原公園",
+      "type": "公園",
+      "const_year": "1981",
+      "area_m2": 2273,
+      "unit": "中山區公所",
+      "sports": "引體向上、扭腰器、腰背按摩器、拉筋板、坐蹬器、滑雪器",
+      "recreation": "組合遊具、搖搖馬",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "新龍公園",
+      "type": "公園",
+      "const_year": "1986",
+      "area_m2": 2255,
+      "unit": "大安區公所",
+      "sports": "單槓、太空漫步機、大轉輪、腰背按摩器、坐推坐拉訓練器",
+      "recreation": "滑梯、翹翹板、搖搖樂",
+      "service": "洗手台",
+      "ecology": false
+    },
+    {
+      "name": "文光公園",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 2252,
+      "unit": "中正區公所",
+      "sports": "單人漫步機、雙人下肢康復器、扭腰器、手部訓練器、支撐前進、單槓",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "龍江公園",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 2200,
+      "unit": "中山區公所",
+      "sports": "推拉康復器、腰背按摩器、太空漫步器、雙人下肢康復器、滑雪器",
+      "recreation": "組合遊具、搖搖馬",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "蘭州公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 2200,
+      "unit": "大同區公所",
+      "sports": "單槓 、肩關節康復器、雙槓",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "復華公園",
+      "type": "公園",
+      "const_year": "1986",
+      "area_m2": 2176,
+      "unit": "中山區公所",
+      "sports": "單槓、雙槓、仰臥起坐器、漫步機、滑雪器、肩關節康復器",
+      "recreation": null,
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "進安公園",
+      "type": "公園",
+      "const_year": "1997",
+      "area_m2": 2163,
+      "unit": "中山區公所",
+      "sports": "單槓",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "大同公園",
+      "type": "公園",
+      "const_year": "1981",
+      "area_m2": 2141,
+      "unit": "大同區公所",
+      "sports": "雙人肩關節康復器、單槓、三人扭腰器、腰背按摩器 ",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "桂林公園",
+      "type": "公園",
+      "const_year": "1993",
+      "area_m2": 2137,
+      "unit": "萬華區公所",
+      "sports": "大轉輪、多人壓腿器",
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "老松公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 2130,
+      "unit": "萬華區公所",
+      "sports": "雙人晃版、大轉輪",
+      "recreation": "滑梯、搖搖樂",
+      "service": "廁所、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "太原廣場",
+      "type": "廣場",
+      "const_year": "2000",
+      "area_m2": 2129,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "居安公園",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 2089,
+      "unit": "大安區公所",
+      "sports": null,
+      "recreation": "鞦韆",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "寧馨公園A",
+      "type": "公園",
+      "const_year": "1988",
+      "area_m2": 2080,
+      "unit": "大安區公所",
+      "sports": "漫步機、雙人肩關節訓練器、坐推坐拉訓練器",
+      "recreation": "鞦韆、組合遊具、搖搖樂",
+      "service": "洗手台",
+      "ecology": false
+    },
+    {
+      "name": "遼寧公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 2065,
+      "unit": "中山區公所",
+      "sports": "三人上肢牽引器、單槓、漫步機、滑雪器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "復源公園",
+      "type": "公園",
+      "const_year": "1987",
+      "area_m2": 2064,
+      "unit": "松山區公所",
+      "sports": "單槓、雙人浪板、雙人扭腰器、單人太空漫步機、肩關節復健器",
+      "recreation": "石製溜滑梯、搖搖馬",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "龍陣二號公園 A",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 2056,
+      "unit": "大安區公所",
+      "sports": "太空漫步機、肩關節訓練器、單槓",
+      "recreation": "滑梯、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "龍陣二號公園 B",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 2056,
+      "unit": "大安區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "連雲公園",
+      "type": "公園",
+      "const_year": "1979",
+      "area_m2": 2009,
+      "unit": "中正區公所",
+      "sports": "單人漫步機、划船器、單槓、手部訓練器",
+      "recreation": "磨石滑梯、鞦韆",
+      "service": "運動場、洗手臺",
+      "ecology": false
+    },
+    {
+      "name": "撫順公園",
+      "type": "公園",
+      "const_year": "1979",
+      "area_m2": 2007,
+      "unit": "中山區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "中華公園",
+      "type": "公園",
+      "const_year": "1979",
+      "area_m2": 2006,
+      "unit": "松山區公所",
+      "sports": "肩關節康復器、單槓、雙人太空漫步機",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "中安公園 ",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 2000,
+      "unit": "中山區公所",
+      "sports": "雙人大轉輪、單人漫步機、單人滑雪器",
+      "recreation": "彩虹琴、旋轉音樂盒、遊戲礫石坑、彈跳節拍",
+      "service": "花架",
+      "ecology": false
+    },
+    {
+      "name": "景化公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 1940,
+      "unit": "大同區公所",
+      "sports": "大轉輪、雙人太空漫步器、腰背按摩器",
+      "recreation": "宇宙穿梭機、時空訊息牆、景化小飛碟、黃金光束坡",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "集英公園",
+      "type": "公園",
+      "const_year": "1995",
+      "area_m2": 1890,
+      "unit": "中山區公所",
+      "sports": "單槓",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "仁德公園",
+      "type": "公園",
+      "const_year": "1986",
+      "area_m2": 1881,
+      "unit": "中山區公所",
+      "sports": "引體向上、坐蹬器、扭腰器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "永靜公園",
+      "type": "公園",
+      "const_year": "1979",
+      "area_m2": 1850,
+      "unit": "中山區公所",
+      "sports": "單槓",
+      "recreation": "組合遊具",
+      "service": "涼亭、花架",
+      "ecology": false
+    },
+    {
+      "name": "誠安公園",
+      "type": "公園",
+      "const_year": "1986",
+      "area_m2": 1816,
+      "unit": "大安區公所",
+      "sports": "雙人浪板、漫步機、划船器、腹肌板、腰背按摩器、三人扭腰器、大轉輪",
+      "recreation": "組合遊具、搖搖樂、翹翹板",
+      "service": "運動場",
+      "ecology": false
+    },
+    {
+      "name": "松江公園",
+      "type": "公園",
+      "const_year": "1973",
+      "area_m2": 1804,
+      "unit": "中山區公所",
+      "sports": "單槓、滑雪器、腰背按摩器、大轉輪、平步訓練器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "永康公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 1800,
+      "unit": "大安區公所",
+      "sports": "仰臥板、單槓、水平吊梯",
+      "recreation": "滑梯、搖搖樂",
+      "service": "廁所(含親子廁所、無障礙廁所)、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "敦仁公園",
+      "type": "公園",
+      "const_year": "2017",
+      "area_m2": 1757,
+      "unit": "大安區公所",
+      "sports": "單槓、接力環、腰背按摩器",
+      "recreation": "攀爬架、沙坑、跳樁組合、鞦韆、滑梯、爬繩",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "延壽三號公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 1730,
+      "unit": "松山區公所",
+      "sports": "大轉輪、肩關節康復器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "敦化公園",
+      "type": "公園",
+      "const_year": "1973",
+      "area_m2": 1728,
+      "unit": "松山區公所",
+      "sports": "大轉輪、雙人扭腰器、單槓、整脊壓背、雙人太空漫步機、腹肌板、肩關節康復器、伸腰伸背器",
+      "recreation": "組合遊具、翹翹板",
+      "service": "涼亭、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "新興公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 1630,
+      "unit": "中山區公所",
+      "sports": "漫步機、雙人浪板、引體訓練器、划船器、扭腰器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "安東公園",
+      "type": "公園",
+      "const_year": "1973",
+      "area_m2": 1630,
+      "unit": "大安區公所",
+      "sports": "肩關節訓練器、雙人扭腰機、單槓",
+      "recreation": "翹翹板、組合遊具、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "中山4號廣場",
+      "type": "廣場",
+      "const_year": "1992",
+      "area_m2": 1622,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "德安公園",
+      "type": "公園",
+      "const_year": "1989",
+      "area_m2": 1617,
+      "unit": "大安區公所",
+      "sports": "大轉輪、腰背按摩器、單槓",
+      "recreation": "鞦韆、組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "平安公園",
+      "type": "公園",
+      "const_year": "1990",
+      "area_m2": 1614,
+      "unit": "大安區公所",
+      "sports": "單槓、肩關節康復器",
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "民享公園",
+      "type": "公園",
+      "const_year": "1976",
+      "area_m2": 1610,
+      "unit": "中山區公所",
+      "sports": null,
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "國順公園",
+      "type": "公園",
+      "const_year": "2018",
+      "area_m2": 1600,
+      "unit": "大同區公所",
+      "sports": "扭腰器、單槓遊具組、雙人浪版、大轉輪",
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "安祥公園",
+      "type": "公園",
+      "const_year": "1987",
+      "area_m2": 1598,
+      "unit": "大安區公所",
+      "sports": "健康步道",
+      "recreation": "組合遊具、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "吉林公園",
+      "type": "公園",
+      "const_year": "1974",
+      "area_m2": 1579,
+      "unit": "中山區公所",
+      "sports": "坐蹬器、雙人浪板、滑雪器、肩關節康復器、平步訓練器、大轉盤、上肢牽引器、引體向上",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "朱厝崙公園",
+      "type": "公園",
+      "const_year": "2004",
+      "area_m2": 1557,
+      "unit": "中山區公所",
+      "sports": "肩關節康復器、雙人浪板、單槓、單人滑雪機",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "民有一號公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 1542,
+      "unit": "松山區公所",
+      "sports": null,
+      "recreation": "組合遊具",
+      "service": "涼亭、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "和安公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 1541,
+      "unit": "大安區公所",
+      "sports": "單槓、划船器、漫步機",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "八德公園",
+      "type": "公園",
+      "const_year": "1978",
+      "area_m2": 1520,
+      "unit": "松山區公所",
+      "sports": "肩關節康復器、扭腰器、單槓、伸腰伸背器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "美仁一號公園",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 1502,
+      "unit": "松山區公所",
+      "sports": "腹肌器、單槓、雙人太空漫步機、肩關節康復器、雙人浪板、腰背按摩器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "龍陣一號公園",
+      "type": "公園",
+      "const_year": "1982",
+      "area_m2": 1451,
+      "unit": "大安區公所",
+      "sports": "仰臥起坐(木)、垂直梯 、太空漫步機、扭腰器",
+      "recreation": "滑梯、翹翹板、沙坑、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "東豐公園",
+      "type": "公園",
+      "const_year": "1988",
+      "area_m2": 1421,
+      "unit": "大安區公所",
+      "sports": "肩關節訓練器、吊槓、雙槓、扭腰器",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "民輝公園",
+      "type": "公園",
+      "const_year": "1984",
+      "area_m2": 1397,
+      "unit": "大安區公所",
+      "sports": "肩關節訓練器、雙人浪板、漫步機、推拉復健器、雙人伸腰健身器",
+      "recreation": "組合遊具",
+      "service": "洗手台",
+      "ecology": false
+    },
+    {
+      "name": "大安125號綠地",
+      "type": "綠地",
+      "const_year": "70",
+      "area_m2": 1397,
+      "unit": "園藝工程隊(南區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "松錦2號公園",
+      "type": "公園",
+      "const_year": "1977",
+      "area_m2": 1390,
+      "unit": "中山區公所",
+      "sports": "引體向上、仰臥起坐椅、上肢牽引器、扭腰器、雙槓、滑步機、伸腰伸背器",
+      "recreation": "組合遊具",
+      "service": "涼亭、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "仁愛公園",
+      "type": "公園",
+      "const_year": "1979",
+      "area_m2": 1390,
+      "unit": "大安區公所",
+      "sports": "單槓",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "錦北公園",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 1359,
+      "unit": "中山區公所",
+      "sports": "雙人大轉輪、上肢牽引器、扭腰器、漫步機、滑雪器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "延壽二號公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 1350,
+      "unit": "松山區公所",
+      "sports": null,
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "美仁二號公園",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 1343,
+      "unit": "松山區公所",
+      "sports": "雙人扭腰器、雙人肩關節康復器、伸腰伸背器",
+      "recreation": null,
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "福星公園",
+      "type": "公園",
+      "const_year": "2001",
+      "area_m2": 1332,
+      "unit": "萬華區公所",
+      "sports": null,
+      "recreation": null,
+      "service": "直飲台",
+      "ecology": false
+    },
+    {
+      "name": "吉仁公園",
+      "type": "公園",
+      "const_year": "1983",
+      "area_m2": 1319,
+      "unit": "松山區公所",
+      "sports": "大轉輪、扭腰器、單槓",
+      "recreation": "組合遊具",
+      "service": "涼亭、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "華江八號公園",
+      "type": "公園",
+      "const_year": "1984",
+      "area_m2": 1263,
+      "unit": "萬華區公所",
+      "sports": "大轉輪、單槓、支撐前進",
+      "recreation": "組合遊具、搖搖樂",
+      "service": "直飲台",
+      "ecology": false
+    },
+    {
+      "name": "綠堤公園",
+      "type": "公園",
+      "const_year": "1984",
+      "area_m2": 1260,
+      "unit": "萬華區公所",
+      "sports": "支撐前進、雙人肩關節康復器、划船器",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "錦安公園",
+      "type": "公園",
+      "const_year": "1983",
+      "area_m2": 1246,
+      "unit": "大安區公所",
+      "sports": "單槓",
+      "recreation": "組合遊具、搖搖馬",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "長沙公園",
+      "type": "公園",
+      "const_year": "1979",
+      "area_m2": 1242,
+      "unit": "萬華區公所",
+      "sports": "扭腰器、雙人腰背按摩器",
+      "recreation": "組合遊具、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "龍圖公園",
+      "type": "公園",
+      "const_year": "1982",
+      "area_m2": 1234,
+      "unit": "大安區公所",
+      "sports": "三人扭腰器、雙人漫步機、單槓、肩關節康復器",
+      "recreation": "翹翹板、搖搖樂、組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "江寧公園",
+      "type": "公園",
+      "const_year": "1988",
+      "area_m2": 1230,
+      "unit": "中山區公所",
+      "sports": "滑雪器、扭腰器、上肢牽引器、肩背按摩器、肩關節復健器、坐推坐拉器",
+      "recreation": "磨石子遊具、搖搖馬",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "大理公園",
+      "type": "公園",
+      "const_year": "1984",
+      "area_m2": 1230,
+      "unit": "萬華區公所",
+      "sports": "多人壓腿器、雙人雙槓、大轉輪、單槓",
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "新壽公園",
+      "type": "公園",
+      "const_year": "1981",
+      "area_m2": 1215,
+      "unit": "中山區公所",
+      "sports": "雙人滑步機、上肢牽引器、扭腰器、滑雪器",
+      "recreation": "組合遊具",
+      "service": "涼亭、直飲台、廁所",
+      "ecology": false
+    },
+    {
+      "name": "光信公園",
+      "type": "公園",
+      "const_year": "1983",
+      "area_m2": 1211,
+      "unit": "大安區公所",
+      "sports": "大轉輪、單人漫步機、雙人扭腰器、肩關節康復器",
+      "recreation": "組合遊具、搖搖樂、翹翹板",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "永樂廣場",
+      "type": "廣場",
+      "const_year": "2000",
+      "area_m2": 1200,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": "直飲台.座椅",
+      "ecology": false
+    },
+    {
+      "name": "忠孝公園",
+      "type": "公園",
+      "const_year": "1973",
+      "area_m2": 1200,
+      "unit": "中正區公所",
+      "sports": "划船訓練器、手臂推力訓練器、腿部訓練器",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "通化公園",
+      "type": "公園",
+      "const_year": "1987",
+      "area_m2": 1180,
+      "unit": "大安區公所",
+      "sports": "單槓",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "民有三號公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 1108,
+      "unit": "松山區公所",
+      "sports": "大轉輪、腹肌器、扭腰器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "仁慈公園",
+      "type": "公園",
+      "const_year": "1982",
+      "area_m2": 1090,
+      "unit": "大安區公所",
+      "sports": "單槓、雙人坐推器",
+      "recreation": "滑梯、組合遊具、搖搖樂",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "齊東公園",
+      "type": "公園",
+      "const_year": "1979",
+      "area_m2": 1061,
+      "unit": "中正區公所",
+      "sports": "單人漫步機、手部訓練器",
+      "recreation": "滑梯、鞦韆、組合遊具",
+      "service": "組合遊具、磨石滑梯、鞦韆",
+      "ecology": false
+    },
+    {
+      "name": "柳鄉公園",
+      "type": "公園",
+      "const_year": "1983",
+      "area_m2": 1002,
+      "unit": "萬華區公所",
+      "sports": "支撐前進、大轉輪、水平吊梯",
+      "recreation": "搖搖樂、組合遊具",
+      "service": "洗手台、生飲台",
+      "ecology": false
+    },
+    {
+      "name": "富錦六號公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 1000,
+      "unit": "松山區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "富錦五號公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 980,
+      "unit": "松山區公所",
+      "sports": null,
+      "recreation": null,
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "華西公園",
+      "type": "公園",
+      "const_year": "1987",
+      "area_m2": 968,
+      "unit": "萬華區公所",
+      "sports": null,
+      "recreation": "搖搖樂",
+      "service": "直飲台",
+      "ecology": false
+    },
+    {
+      "name": "民有二號公園",
+      "type": "公園",
+      "const_year": "1980",
+      "area_m2": 938,
+      "unit": "松山區公所",
+      "sports": null,
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "松錦1號公園",
+      "type": "公園",
+      "const_year": "1977",
+      "area_m2": 906,
+      "unit": "中山區公所",
+      "sports": null,
+      "recreation": null,
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "信愛公園",
+      "type": "公園",
+      "const_year": "1984",
+      "area_m2": 901,
+      "unit": "中正區公所",
+      "sports": "單人漫步機、划船器",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "麗水公園",
+      "type": "公園",
+      "const_year": "2022",
+      "area_m2": 901,
+      "unit": "大安區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "興亞公園",
+      "type": "公園",
+      "const_year": "1992",
+      "area_m2": 875,
+      "unit": "中山區公所",
+      "sports": "單槓、肩關節復健器、漫步器、滑雪器、平步訓練器、下肢蹬力器、腰備按摩器",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "忠和公園",
+      "type": "公園",
+      "const_year": "1989",
+      "area_m2": 849,
+      "unit": "大同區公所",
+      "sports": "高低槓 、三人扭腰器 、太空漫步機",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "萬華51號公園",
+      "type": "公園",
+      "const_year": "1981",
+      "area_m2": 845,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": "座椅.舞台",
+      "ecology": false
+    },
+    {
+      "name": "正守公園",
+      "type": "公園",
+      "const_year": "1995",
+      "area_m2": 824,
+      "unit": "中山區公所",
+      "sports": "上肢牽引器、肩關節康復器、腹肌板 、滑雪器",
+      "recreation": "組合遊具、搖搖馬",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "建興公園",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 804,
+      "unit": "中山區公所",
+      "sports": "伸腰伸背器、仰臥起坐器、單槓",
+      "recreation": "組合遊具",
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "青山公園",
+      "type": "公園",
+      "const_year": "2006",
+      "area_m2": 780,
+      "unit": "萬華區公所",
+      "sports": null,
+      "recreation": null,
+      "service": "廁所(含親子廁所、無障礙廁所)、直飲台",
+      "ecology": false
+    },
+    {
+      "name": "精忠公園",
+      "type": "公園",
+      "const_year": "1971",
+      "area_m2": 720,
+      "unit": "松山區公所",
+      "sports": "伸腰伸背器",
+      "recreation": null,
+      "service": "涼亭",
+      "ecology": false
+    },
+    {
+      "name": "大同16號廣場",
+      "type": "廣場",
+      "const_year": "1995",
+      "area_m2": 718,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "精忠2號公園",
+      "type": "公園",
+      "const_year": "1973",
+      "area_m2": 700,
+      "unit": "松山區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "聚葉公園",
+      "type": "公園",
+      "const_year": "1995",
+      "area_m2": 649,
+      "unit": "中山區公所",
+      "sports": "扭腰器、滑雪器、雙人浪板",
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "華江七號公園",
+      "type": "公園",
+      "const_year": "1984",
+      "area_m2": 544,
+      "unit": "萬華區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "聚德公園",
+      "type": "公園",
+      "const_year": "1977",
+      "area_m2": 510,
+      "unit": "萬華區公所",
+      "sports": "肩關節康復器、大轉輪、水平吊梯",
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "萬華266號綠地",
+      "type": "綠地",
+      "const_year": "1971",
+      "area_m2": 478,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": "溜滑梯",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "長春綠地",
+      "type": "綠地",
+      "const_year": "2009",
+      "area_m2": 474,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "黎明公園",
+      "type": "公園",
+      "const_year": "1983",
+      "area_m2": 465,
+      "unit": "中正區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "錦華綠地",
+      "type": "綠地",
+      "const_year": "87",
+      "area_m2": 365,
+      "unit": "園藝工程隊(南區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "合江公園",
+      "type": "公園",
+      "const_year": "1985",
+      "area_m2": 333,
+      "unit": "中山區公所",
+      "sports": null,
+      "recreation": "組合遊具",
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "華江一號公園",
+      "type": "公園",
+      "const_year": "1977",
+      "area_m2": 298,
+      "unit": "萬華區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "寺前公園",
+      "type": "公園",
+      "const_year": "1986",
+      "area_m2": 272,
+      "unit": "萬華區公所",
+      "sports": null,
+      "recreation": null,
+      "service": "直飲台",
+      "ecology": false
+    },
+    {
+      "name": "大稻埕廣場",
+      "type": "廣場",
+      "const_year": "2001",
+      "area_m2": 131,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "中山129號綠地",
+      "type": "綠地",
+      "const_year": "1990",
+      "area_m2": 39,
+      "unit": "園藝工程隊(西區分隊)",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    },
+    {
+      "name": "德鄰公園",
+      "type": "公園",
+      "const_year": "1984 ",
+      "area_m2": 1.627,
+      "unit": "大同區公所",
+      "sports": null,
+      "recreation": null,
+      "service": null,
+      "ecology": false
+    }
+  ],
+  "type_distribution": {
+    "公園": 142,
+    "廣場": 12,
+    "綠地": 6
+  },
+  "const_year_distribution": {
+    "1890年代": 1,
+    "1960年代": 1,
+    "1970年代": 39,
+    "1980年代": 70,
+    "1984 ": 1,
+    "1990年代": 20,
+    "2000年2016年": 1,
+    "2000年代": 15,
+    "2010年代": 6,
+    "2020年代": 2,
+    "57": 1,
+    "70": 1,
+    "87": 1,
+    "89": 1
+  },
+  "avg_area_m2": 5884.1,
+  "median_area_m2": 2000,
+  "ecology_flagged_count": 2,
+  "ecology_flagged_pct": 1.2,
+  "common_sports_facilities_park_count": [
+    [
+      "單槓",
+      61
+    ],
+    [
+      "大轉輪",
+      26
+    ],
+    [
+      "扭腰器",
+      24
+    ],
+    [
+      "肩關節康復器",
+      23
+    ],
+    [
+      "滑雪器",
+      20
+    ],
+    [
+      "腰背按摩器",
+      14
+    ],
+    [
+      "引體向上",
+      12
+    ],
+    [
+      "雙人浪板",
+      11
+    ],
+    [
+      "漫步機",
+      9
+    ],
+    [
+      "伸腰伸背器",
+      9
+    ],
+    [
+      "腹肌板",
+      8
+    ],
+    [
+      "上肢牽引器",
+      8
+    ],
+    [
+      "三人扭腰器",
+      8
+    ],
+    [
+      "雙人大轉輪",
+      7
+    ],
+    [
+      "雙槓",
+      7
+    ]
+  ],
+  "common_recreation_facilities_park_count": [
+    [
+      "組合遊具",
+      87
+    ],
+    [
+      "搖搖樂",
+      27
+    ],
+    [
+      "搖搖馬",
+      14
+    ],
+    [
+      "翹翹板",
+      13
+    ],
+    [
+      "滑梯",
+      12
+    ],
+    [
+      "鞦韆",
+      12
+    ],
+    [
+      "攀爬架",
+      6
+    ],
+    [
+      "沙坑",
+      4
+    ],
+    [
+      "溜滑梯",
+      3
+    ],
+    [
+      "磨石滑梯",
+      3
+    ],
+    [
+      "跳樁組合",
+      3
+    ],
+    [
+      "蹺蹺板",
+      2
+    ],
+    [
+      "盪鞦韆",
+      2
+    ],
+    [
+      "攀爬網",
+      2
+    ],
+    [
+      "攀爬組",
+      2
+    ]
+  ],
+  "common_service_facilities_park_count": [
+    [
+      "涼亭",
+      57
+    ],
+    [
+      "直飲台",
+      32
+    ],
+    [
+      "廁所(含親子廁所",
+      7
+    ],
+    [
+      "無障礙廁所)",
+      7
+    ],
+    [
+      "廁所",
+      6
+    ],
+    [
+      "洗手台",
+      6
+    ],
+    [
+      "運動場",
+      6
+    ],
+    [
+      "籃球場",
+      5
+    ],
+    [
+      "花架",
+      2
+    ],
+    [
+      "公廁",
+      2
+    ],
+    [
+      "涼亭2座",
+      2
+    ],
+    [
+      "音樂臺",
+      2
+    ],
+    [
+      "羽球場",
+      1
+    ],
+    [
+      "露天廣場",
+      1
+    ],
+    [
+      "慢跑道",
+      1
+    ]
+  ],
+  "common_play_equipment_park_count_UNRELIABLE": [
+    [
+      "組合遊具(村莊高塔)",
+      110
+    ],
+    [
+      "鳥巢鞦韆",
+      110
+    ],
+    [
+      "組合遊具(遊戲城堡)",
+      110
+    ],
+    [
+      "旋轉台",
+      110
+    ],
+    [
+      "木隧道",
+      110
+    ],
+    [
+      "尿布鞦韆",
+      110
+    ],
+    [
+      "城堡遊戲組",
+      110
+    ],
+    [
+      "特色溜滑梯",
+      110
+    ],
+    [
+      "機車搖搖樂",
+      110
+    ],
+    [
+      "大旋轉組",
+      110
+    ],
+    [
+      "戲沙坑遊戲桌",
+      110
+    ],
+    [
+      "旋轉拉環",
+      110
+    ],
+    [
+      "隧道",
+      110
+    ],
+    [
+      "旋轉飛輪",
+      110
+    ],
+    [
+      "盪鞦韆",
+      110
+    ]
+  ],
+  "facility_counts_are": "有幾座公園擁有這項設施(每座公園最多算1次),不是設施出現的總次數",
+  "playeq_field_quality_warning": "pm_playeq 這個欄位的原始資料本身有問題:160座基地內公園裡,有非空值的110筆pm_playeq 文字**全部以一模一樣的開頭字串起始**(彈跳床,搖滾盤,攀爬組,磨石滑梯…這一長串),疑似原始資料匯出/建檔時把某種共用清單誤植/累加進每一筆紀錄,不是每座公園真的都有這些遊具。這個欄位的逐項統計不可信,common_play_equipment_park_count_UNRELIABLE 只留供參考,**不要拿來當作論述依據**,除非另外核實。"
+}
