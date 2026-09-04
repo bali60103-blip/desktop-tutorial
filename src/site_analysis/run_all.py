@@ -10,6 +10,7 @@ import analysis4_crowd_hotspots
 import analysis5_permeability
 import analysis6_park_profiles
 import analysis7_park_neighborhood
+import analysis8_osm_poi
 import map1_green_volume
 import map2_block_character
 import map5_permeability
@@ -34,9 +35,11 @@ def main():
     analysis5_permeability.main()
     print("\n== 8/15 分析⑥ 公園基本資料共通性 ==")
     analysis6_park_profiles.main()
-    print("\n== 9/15 分析⑦ 公園設施類型 x 400m 連結設施/人潮 ==")
+    print("\n== 9/16 分析⑦ 公園設施類型 x 400m 連結設施/人潮 ==")
     analysis7_park_neighborhood.main()
-    print("\n== 10/15 產生總覽地圖 ==")
+    print("\n== 9.5/16 分析⑧ OSM POI(餐飲/公園/辦公室/零售) ==")
+    analysis8_osm_poi.main()
+    print("\n== 10/16 產生總覽地圖 ==")
     build_overview_map.main()
     print("\n== 11/15 出圖① 綠帶體量 ==")
     map1_green_volume.main()

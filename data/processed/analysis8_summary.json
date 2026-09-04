@@ -1,0 +1,21 @@
+{
+  "CAVEAT": "OSM 是志工協作地圖,不保證100%涵蓋——尤其辦公室(office tag)在OSM上普遍標記不齊全,這裡的辦公室數字很可能是低估。這是目前手上最接近「真正商店清單」的資料,比都市計畫商業區/市場用地面積代理指標準確,但不是官方統計,無法保證完整性。",
+  "source_files": [
+    "osm_poi_cafe.json",
+    "osm_poi_convenience.json",
+    "osm_poi_office.json"
+  ],
+  "total_pois_in_site": 53,
+  "category_counts": {
+    "餐飲": 30,
+    "辦公室": 17,
+    "零售/商店": 9
+  },
+  "amenity_type_counts": {
+    "cafe": 30
+  },
+  "shop_type_counts": {
+    "convenience": 7,
+    "beverages": 2
+  }
+}
