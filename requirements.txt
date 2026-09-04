@@ -3,3 +3,5 @@ folium
 shapely
 pyproj
 pyshp
+matplotlib
+striprtf

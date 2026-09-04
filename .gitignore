@@ -1,5 +1,7 @@
 data/*.csv
 data/raw/
 output/*.html
+output/*.png
+output/*.svg
 __pycache__/
 *.pyc
