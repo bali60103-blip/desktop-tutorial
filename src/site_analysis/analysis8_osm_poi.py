@@ -48,6 +48,15 @@ def classify(tags):
     return cats or ["未分類"]
 
 
+def _clean(s):
+    """部分 RTF 貼上的資料裡混了破損的 UTF-16 代理對(通常是 emoji 之類的擴充字元
+    被 striprtf 轉壞了),寫回 JSON 時會讓 utf-8 編碼直接炸掉,這裡把無法編碼的
+    字元換成替代符號,不讓一筆壞資料搞垮整批。"""
+    if not isinstance(s, str):
+        return s
+    return s.encode("utf-8", errors="replace").decode("utf-8")
+
+
 def element_center(el):
     """node 直接有 lat/lon;way/relation 若查詢時用了 `out center`,會有 center.lat/lon。"""
     if "lat" in el and "lon" in el:
@@ -92,13 +101,13 @@ def main():
                 {
                     "osm_type": el.get("type"),
                     "osm_id": el.get("id"),
-                    "name": tags.get("name") or tags.get("brand") or "(無名稱)",
+                    "name": _clean(tags.get("name") or tags.get("brand") or "(無名稱)"),
                     "categories": classify(tags),
                     "amenity": tags.get("amenity"),
                     "shop": tags.get("shop"),
                     "leisure": tags.get("leisure"),
                     "office": tags.get("office"),
-                    "address": tags.get("addr:full"),
+                    "address": _clean(tags.get("addr:full")),
                     "opening_hours": tags.get("opening_hours"),
                     "lon": lon,
                     "lat": lat,

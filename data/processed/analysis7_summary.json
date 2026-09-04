@@ -32,7 +32,9 @@
       "avg_parking_spaces_within_400m": 1112.8,
       "pct_with_mrt_within_400m": 56.1,
       "avg_sports_businesses_within_400m": 5.79,
-      "pct_with_sports_business_within_400m": 97.2
+      "pct_with_sports_business_within_400m": 97.2,
+      "avg_dining_poi_within_400m": 132.3,
+      "avg_retail_poi_within_400m": 83.2
     },
     "兒童遊戲": {
       "park_count": 106,
@@ -42,7 +44,9 @@
       "avg_parking_spaces_within_400m": 1115.4,
       "pct_with_mrt_within_400m": 55.7,
       "avg_sports_businesses_within_400m": 5.69,
-      "pct_with_sports_business_within_400m": 97.2
+      "pct_with_sports_business_within_400m": 97.2,
+      "avg_dining_poi_within_400m": 132.7,
+      "avg_retail_poi_within_400m": 84.2
     },
     "運動場館": {
       "park_count": 14,
@@ -52,7 +56,9 @@
       "avg_parking_spaces_within_400m": 1427.6,
       "pct_with_mrt_within_400m": 78.6,
       "avg_sports_businesses_within_400m": 6.64,
-      "pct_with_sports_business_within_400m": 100.0
+      "pct_with_sports_business_within_400m": 100.0,
+      "avg_dining_poi_within_400m": 143.7,
+      "avg_retail_poi_within_400m": 97.6
     },
     "廣場集會": {
       "park_count": 4,
@@ -62,7 +68,9 @@
       "avg_parking_spaces_within_400m": 1320.0,
       "pct_with_mrt_within_400m": 50.0,
       "avg_sports_businesses_within_400m": 3.5,
-      "pct_with_sports_business_within_400m": 100.0
+      "pct_with_sports_business_within_400m": 100.0,
+      "avg_dining_poi_within_400m": 161.2,
+      "avg_retail_poi_within_400m": 130.2
     },
     "其他/未分類": {
       "park_count": 42,
@@ -72,50 +80,26 @@
       "avg_parking_spaces_within_400m": 1219.4,
       "pct_with_mrt_within_400m": 52.4,
       "avg_sports_businesses_within_400m": 4.64,
-      "pct_with_sports_business_within_400m": 97.6
+      "pct_with_sports_business_within_400m": 97.6,
+      "avg_dining_poi_within_400m": 157.3,
+      "avg_retail_poi_within_400m": 121.3
     }
   },
   "connectivity_pr_method": "四項指標(捷運站數/運動商家數/商業區面積/停車位)各自在160座公園間算百分等級(PR),取平均為綜合連結度PR。PR25以下 = 後1/4,標記為低度連結公園。",
   "low_connectivity_parks_pr25_below": [
     {
-      "name": "國順公園",
-      "facility_tags": [
-        "銀髮健身"
-      ],
-      "connectivity_pr_composite": 11.3,
-      "connectivity_pr_by_metric": {
-        "mrt_station_count": 13.8,
-        "sports_business_count": 4.4,
-        "commercial_zoning_area_m2": 10.1,
-        "parking_spaces": 17.0
-      },
-      "nearby_400m": {
-        "mrt_stations": [],
-        "mrt_station_count": 0,
-        "parking_lots": 6,
-        "parking_spaces": 419,
-        "market_zoning_area_m2": 0.0,
-        "commercial_zoning_area_m2": 33349.2,
-        "sports_business_count": 1,
-        "sports_businesses": [
-          {
-            "name": "Dance Zone 舞蹈生活館",
-            "type": "舞蹈"
-          }
-        ]
-      }
-    },
-    {
       "name": "中正138號綠地",
       "facility_tags": [
         "其他/未分類"
       ],
-      "connectivity_pr_composite": 12.6,
+      "connectivity_pr_composite": 8.9,
       "connectivity_pr_by_metric": {
         "mrt_station_count": 39.0,
         "sports_business_count": 9.4,
         "commercial_zoning_area_m2": 1.3,
-        "parking_spaces": 0.6
+        "parking_spaces": 0.6,
+        "dining_poi_count": 0.0,
+        "retail_poi_count": 3.1
       },
       "nearby_400m": {
         "mrt_stations": [],
@@ -130,39 +114,69 @@
             "name": "臺北市立大學博愛校區附設泳池",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 13,
+        "retail_poi_count": 11
       }
     },
     {
-      "name": "延壽二號公園",
+      "name": "國順公園",
       "facility_tags": [
-        "兒童遊戲"
+        "銀髮健身"
       ],
-      "connectivity_pr_composite": 13.0,
+      "connectivity_pr_composite": 9.7,
       "connectivity_pr_by_metric": {
-        "mrt_station_count": 21.4,
-        "sports_business_count": 14.5,
-        "commercial_zoning_area_m2": 4.4,
-        "parking_spaces": 11.9
+        "mrt_station_count": 13.8,
+        "sports_business_count": 4.4,
+        "commercial_zoning_area_m2": 10.1,
+        "parking_spaces": 17.0,
+        "dining_poi_count": 11.3,
+        "retail_poi_count": 1.3
       },
       "nearby_400m": {
         "mrt_stations": [],
         "mrt_station_count": 0,
         "parking_lots": 6,
-        "parking_spaces": 366,
-        "market_zoning_area_m2": 1230.4,
-        "commercial_zoning_area_m2": 22555.1,
-        "sports_business_count": 2,
+        "parking_spaces": 419,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 33349.2,
+        "sports_business_count": 1,
         "sports_businesses": [
           {
-            "name": "怪獸健身實業股份有限公司",
-            "type": "健身房"
-          },
-          {
-            "name": "阿基里斯Fitness Bar",
-            "type": "健身房"
+            "name": "Dance Zone 舞蹈生活館",
+            "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 61,
+        "retail_poi_count": 10
+      }
+    },
+    {
+      "name": "華江八號公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 10.1,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 32.7,
+        "sports_business_count": 1.3,
+        "commercial_zoning_area_m2": 0.0,
+        "parking_spaces": 25.2,
+        "dining_poi_count": 0.6,
+        "retail_poi_count": 0.6
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 9,
+        "parking_spaces": 486,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 0.0,
+        "sports_business_count": 0,
+        "sports_businesses": [],
+        "dining_poi_count": 30,
+        "retail_poi_count": 9
       }
     },
     {
@@ -170,12 +184,14 @@
       "facility_tags": [
         "其他/未分類"
       ],
-      "connectivity_pr_composite": 13.1,
+      "connectivity_pr_composite": 11.1,
       "connectivity_pr_by_metric": {
         "mrt_station_count": 23.3,
         "sports_business_count": 15.1,
         "commercial_zoning_area_m2": 5.7,
-        "parking_spaces": 8.2
+        "parking_spaces": 8.2,
+        "dining_poi_count": 5.0,
+        "retail_poi_count": 9.4
       },
       "nearby_400m": {
         "mrt_stations": [],
@@ -194,64 +210,37 @@
             "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 47,
+        "retail_poi_count": 21
       }
     },
     {
-      "name": "忠和公園",
+      "name": "綠堤公園",
       "facility_tags": [
         "銀髮健身",
         "兒童遊戲"
       ],
-      "connectivity_pr_composite": 13.5,
+      "connectivity_pr_composite": 11.5,
       "connectivity_pr_by_metric": {
-        "mrt_station_count": 13.2,
-        "sports_business_count": 3.8,
-        "commercial_zoning_area_m2": 10.7,
-        "parking_spaces": 26.4
+        "mrt_station_count": 35.2,
+        "sports_business_count": 2.5,
+        "commercial_zoning_area_m2": 0.6,
+        "parking_spaces": 25.8,
+        "dining_poi_count": 2.5,
+        "retail_poi_count": 2.5
       },
       "nearby_400m": {
         "mrt_stations": [],
         "mrt_station_count": 0,
-        "parking_lots": 8,
-        "parking_spaces": 503,
-        "market_zoning_area_m2": 5731.0,
-        "commercial_zoning_area_m2": 33399.2,
-        "sports_business_count": 1,
-        "sports_businesses": [
-          {
-            "name": "Double8岩究所",
-            "type": "攀岩"
-          }
-        ]
-      }
-    },
-    {
-      "name": "大同16號廣場",
-      "facility_tags": [
-        "其他/未分類"
-      ],
-      "connectivity_pr_composite": 14.2,
-      "connectivity_pr_by_metric": {
-        "mrt_station_count": 17.0,
-        "sports_business_count": 5.7,
-        "commercial_zoning_area_m2": 11.9,
-        "parking_spaces": 22.0
-      },
-      "nearby_400m": {
-        "mrt_stations": [],
-        "mrt_station_count": 0,
-        "parking_lots": 6,
-        "parking_spaces": 474,
-        "market_zoning_area_m2": 7867.0,
-        "commercial_zoning_area_m2": 34427.4,
-        "sports_business_count": 1,
-        "sports_businesses": [
-          {
-            "name": "CV玩家體能訓練室",
-            "type": "體適能"
-          }
-        ]
+        "parking_lots": 9,
+        "parking_spaces": 486,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 0.0,
+        "sports_business_count": 0,
+        "sports_businesses": [],
+        "dining_poi_count": 41,
+        "retail_poi_count": 11
       }
     },
     {
@@ -259,12 +248,14 @@
       "facility_tags": [
         "其他/未分類"
       ],
-      "connectivity_pr_composite": 14.6,
+      "connectivity_pr_composite": 12.5,
       "connectivity_pr_by_metric": {
         "mrt_station_count": 23.9,
         "sports_business_count": 15.7,
         "commercial_zoning_area_m2": 6.3,
-        "parking_spaces": 12.6
+        "parking_spaces": 12.6,
+        "dining_poi_count": 6.3,
+        "retail_poi_count": 10.1
       },
       "nearby_400m": {
         "mrt_stations": [],
@@ -283,55 +274,78 @@
             "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 52,
+        "retail_poi_count": 21
       }
     },
     {
-      "name": "華江八號公園",
+      "name": "大同公園",
       "facility_tags": [
         "銀髮健身",
         "兒童遊戲"
       ],
-      "connectivity_pr_composite": 14.8,
+      "connectivity_pr_composite": 13.4,
       "connectivity_pr_by_metric": {
-        "mrt_station_count": 32.7,
-        "sports_business_count": 1.3,
-        "commercial_zoning_area_m2": 0.0,
-        "parking_spaces": 25.2
+        "mrt_station_count": 11.9,
+        "sports_business_count": 3.1,
+        "commercial_zoning_area_m2": 27.7,
+        "parking_spaces": 33.3,
+        "dining_poi_count": 4.4,
+        "retail_poi_count": 0.0
       },
       "nearby_400m": {
         "mrt_stations": [],
         "mrt_station_count": 0,
-        "parking_lots": 9,
-        "parking_spaces": 486,
-        "market_zoning_area_m2": 0.0,
-        "commercial_zoning_area_m2": 0.0,
-        "sports_business_count": 0,
-        "sports_businesses": []
+        "parking_lots": 5,
+        "parking_spaces": 593,
+        "market_zoning_area_m2": 3155.7,
+        "commercial_zoning_area_m2": 89071.5,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "Banana Fitness",
+            "type": "健身房"
+          }
+        ],
+        "dining_poi_count": 47,
+        "retail_poi_count": 9
       }
     },
     {
-      "name": "綠堤公園",
+      "name": "延壽二號公園",
       "facility_tags": [
-        "銀髮健身",
         "兒童遊戲"
       ],
-      "connectivity_pr_composite": 16.0,
+      "connectivity_pr_composite": 13.4,
       "connectivity_pr_by_metric": {
-        "mrt_station_count": 35.2,
-        "sports_business_count": 2.5,
-        "commercial_zoning_area_m2": 0.6,
-        "parking_spaces": 25.8
+        "mrt_station_count": 21.4,
+        "sports_business_count": 14.5,
+        "commercial_zoning_area_m2": 4.4,
+        "parking_spaces": 11.9,
+        "dining_poi_count": 17.0,
+        "retail_poi_count": 11.3
       },
       "nearby_400m": {
         "mrt_stations": [],
         "mrt_station_count": 0,
-        "parking_lots": 9,
-        "parking_spaces": 486,
-        "market_zoning_area_m2": 0.0,
-        "commercial_zoning_area_m2": 0.0,
-        "sports_business_count": 0,
-        "sports_businesses": []
+        "parking_lots": 6,
+        "parking_spaces": 366,
+        "market_zoning_area_m2": 1230.4,
+        "commercial_zoning_area_m2": 22555.1,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "怪獸健身實業股份有限公司",
+            "type": "健身房"
+          },
+          {
+            "name": "阿基里斯Fitness Bar",
+            "type": "健身房"
+          }
+        ],
+        "dining_poi_count": 73,
+        "retail_poi_count": 23
       }
     },
     {
@@ -339,12 +353,14 @@
       "facility_tags": [
         "銀髮健身"
       ],
-      "connectivity_pr_composite": 17.5,
+      "connectivity_pr_composite": 13.6,
       "connectivity_pr_by_metric": {
         "mrt_station_count": 27.7,
         "sports_business_count": 16.4,
         "commercial_zoning_area_m2": 1.9,
-        "parking_spaces": 23.9
+        "parking_spaces": 23.9,
+        "dining_poi_count": 6.9,
+        "retail_poi_count": 5.0
       },
       "nearby_400m": {
         "mrt_stations": [],
@@ -363,68 +379,9 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
-      }
-    },
-    {
-      "name": "大同公園",
-      "facility_tags": [
-        "銀髮健身",
-        "兒童遊戲"
-      ],
-      "connectivity_pr_composite": 19.0,
-      "connectivity_pr_by_metric": {
-        "mrt_station_count": 11.9,
-        "sports_business_count": 3.1,
-        "commercial_zoning_area_m2": 27.7,
-        "parking_spaces": 33.3
-      },
-      "nearby_400m": {
-        "mrt_stations": [],
-        "mrt_station_count": 0,
-        "parking_lots": 5,
-        "parking_spaces": 593,
-        "market_zoning_area_m2": 3155.7,
-        "commercial_zoning_area_m2": 89071.5,
-        "sports_business_count": 1,
-        "sports_businesses": [
-          {
-            "name": "Banana Fitness",
-            "type": "健身房"
-          }
-        ]
-      }
-    },
-    {
-      "name": "糖廍公園",
-      "facility_tags": [
-        "其他/未分類"
-      ],
-      "connectivity_pr_composite": 19.2,
-      "connectivity_pr_by_metric": {
-        "mrt_station_count": 36.5,
-        "sports_business_count": 21.4,
-        "commercial_zoning_area_m2": 8.8,
-        "parking_spaces": 10.1
-      },
-      "nearby_400m": {
-        "mrt_stations": [],
-        "mrt_station_count": 0,
-        "parking_lots": 9,
-        "parking_spaces": 343,
-        "market_zoning_area_m2": 0.0,
-        "commercial_zoning_area_m2": 29233.0,
-        "sports_business_count": 2,
-        "sports_businesses": [
-          {
-            "name": "原岩攀岩館-萬華店",
-            "type": "攀岩"
-          },
-          {
-            "name": "原岩攀岩館",
-            "type": "攀岩"
-          }
-        ]
+        ],
+        "dining_poi_count": 54,
+        "retail_poi_count": 15
       }
     },
     {
@@ -432,12 +389,14 @@
       "facility_tags": [
         "其他/未分類"
       ],
-      "connectivity_pr_composite": 19.6,
+      "connectivity_pr_composite": 13.7,
       "connectivity_pr_by_metric": {
         "mrt_station_count": 32.1,
         "sports_business_count": 18.9,
         "commercial_zoning_area_m2": 3.1,
-        "parking_spaces": 24.5
+        "parking_spaces": 24.5,
+        "dining_poi_count": 1.9,
+        "retail_poi_count": 1.9
       },
       "nearby_400m": {
         "mrt_stations": [],
@@ -456,7 +415,9 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 39,
+        "retail_poi_count": 11
       }
     },
     {
@@ -464,12 +425,14 @@
       "facility_tags": [
         "其他/未分類"
       ],
-      "connectivity_pr_composite": 20.2,
+      "connectivity_pr_composite": 15.7,
       "connectivity_pr_by_metric": {
         "mrt_station_count": 31.4,
         "sports_business_count": 18.2,
         "commercial_zoning_area_m2": 15.7,
-        "parking_spaces": 15.7
+        "parking_spaces": 15.7,
+        "dining_poi_count": 8.8,
+        "retail_poi_count": 4.4
       },
       "nearby_400m": {
         "mrt_stations": [],
@@ -488,7 +451,43 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 58,
+        "retail_poi_count": 12
+      }
+    },
+    {
+      "name": "介壽公園",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 16.6,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 69.8,
+        "sports_business_count": 8.2,
+        "commercial_zoning_area_m2": 8.2,
+        "parking_spaces": 0.0,
+        "dining_poi_count": 1.3,
+        "retail_poi_count": 11.9
+      },
+      "nearby_400m": {
+        "mrt_stations": [
+          "臺大醫院站"
+        ],
+        "mrt_station_count": 1,
+        "parking_lots": 0,
+        "parking_spaces": 0,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 26757.2,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "臺北市立大學博愛校區附設泳池",
+            "type": "游泳"
+          }
+        ],
+        "dining_poi_count": 34,
+        "retail_poi_count": 23
       }
     },
     {
@@ -496,12 +495,14 @@
       "facility_tags": [
         "銀髮健身"
       ],
-      "connectivity_pr_composite": 20.7,
+      "connectivity_pr_composite": 17.9,
       "connectivity_pr_by_metric": {
         "mrt_station_count": 35.8,
         "sports_business_count": 20.1,
         "commercial_zoning_area_m2": 17.6,
-        "parking_spaces": 9.4
+        "parking_spaces": 9.4,
+        "dining_poi_count": 18.2,
+        "retail_poi_count": 6.3
       },
       "nearby_400m": {
         "mrt_stations": [],
@@ -520,78 +521,85 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 74,
+        "retail_poi_count": 18
       }
     },
     {
-      "name": "介壽公園",
+      "name": "糖廍公園",
       "facility_tags": [
         "其他/未分類"
       ],
-      "connectivity_pr_composite": 21.6,
+      "connectivity_pr_composite": 18.5,
       "connectivity_pr_by_metric": {
-        "mrt_station_count": 69.8,
-        "sports_business_count": 8.2,
-        "commercial_zoning_area_m2": 8.2,
-        "parking_spaces": 0.0
-      },
-      "nearby_400m": {
-        "mrt_stations": [
-          "臺大醫院站"
-        ],
-        "mrt_station_count": 1,
-        "parking_lots": 0,
-        "parking_spaces": 0,
-        "market_zoning_area_m2": 0.0,
-        "commercial_zoning_area_m2": 26757.2,
-        "sports_business_count": 1,
-        "sports_businesses": [
-          {
-            "name": "臺北市立大學博愛校區附設泳池",
-            "type": "游泳"
-          }
-        ]
-      }
-    },
-    {
-      "name": "文光公園",
-      "facility_tags": [
-        "銀髮健身",
-        "兒童遊戲"
-      ],
-      "connectivity_pr_composite": 21.8,
-      "connectivity_pr_by_metric": {
-        "mrt_station_count": 37.7,
-        "sports_business_count": 37.7,
-        "commercial_zoning_area_m2": 9.4,
-        "parking_spaces": 2.5
+        "mrt_station_count": 36.5,
+        "sports_business_count": 21.4,
+        "commercial_zoning_area_m2": 8.8,
+        "parking_spaces": 10.1,
+        "dining_poi_count": 23.3,
+        "retail_poi_count": 10.7
       },
       "nearby_400m": {
         "mrt_stations": [],
         "mrt_station_count": 0,
-        "parking_lots": 15,
-        "parking_spaces": 181,
-        "market_zoning_area_m2": 2158.9,
-        "commercial_zoning_area_m2": 31499.5,
-        "sports_business_count": 4,
+        "parking_lots": 9,
+        "parking_spaces": 343,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 29233.0,
+        "sports_business_count": 2,
         "sports_businesses": [
           {
-            "name": "波克萊體能 Everyday Matters Fitness",
+            "name": "原岩攀岩館-萬華店",
+            "type": "攀岩"
+          },
+          {
+            "name": "原岩攀岩館",
+            "type": "攀岩"
+          }
+        ],
+        "dining_poi_count": 81,
+        "retail_poi_count": 22
+      }
+    },
+    {
+      "name": "精忠公園",
+      "facility_tags": [
+        "其他/未分類"
+      ],
+      "connectivity_pr_composite": 18.9,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 27.0,
+        "sports_business_count": 28.3,
+        "commercial_zoning_area_m2": 7.5,
+        "parking_spaces": 37.7,
+        "dining_poi_count": 5.7,
+        "retail_poi_count": 6.9
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 10,
+        "parking_spaces": 743,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 22555.1,
+        "sports_business_count": 3,
+        "sports_businesses": [
+          {
+            "name": "怪獸健身實業股份有限公司",
             "type": "健身房"
           },
           {
-            "name": "Curves忠孝新生店",
+            "name": "長庚生物科技股份有限公司健康中心暨身心靈轉化中心",
             "type": "健身房"
           },
           {
-            "name": "壹樓瑜伽 REYOGA",
-            "type": "瑜珈"
-          },
-          {
-            "name": "波克萊體能 BULKLIFE Studio",
+            "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 48,
+        "retail_poi_count": 19
       }
     },
     {
@@ -599,12 +607,14 @@
       "facility_tags": [
         "兒童遊戲"
       ],
-      "connectivity_pr_composite": 22.9,
+      "connectivity_pr_composite": 20.8,
       "connectivity_pr_by_metric": {
         "mrt_station_count": 42.1,
         "sports_business_count": 10.1,
         "commercial_zoning_area_m2": 3.8,
-        "parking_spaces": 35.8
+        "parking_spaces": 35.8,
+        "dining_poi_count": 14.5,
+        "retail_poi_count": 18.2
       },
       "nearby_400m": {
         "mrt_stations": [],
@@ -619,7 +629,79 @@
             "name": "59Fitness客製化運動空間",
             "type": "體適能"
           }
-        ]
+        ],
+        "dining_poi_count": 67,
+        "retail_poi_count": 33
+      }
+    },
+    {
+      "name": "復盛公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 21.6,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 24.5,
+        "sports_business_count": 6.3,
+        "commercial_zoning_area_m2": 14.5,
+        "parking_spaces": 71.1,
+        "dining_poi_count": 7.5,
+        "retail_poi_count": 5.7
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 14,
+        "parking_spaces": 1459,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 39962.7,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "MMAclass松山格鬥教室",
+            "type": "綜合武術格鬥"
+          }
+        ],
+        "dining_poi_count": 57,
+        "retail_poi_count": 18
+      }
+    },
+    {
+      "name": "新糖廍公園(糖廍文化園區)",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 22.1,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 34.0,
+        "sports_business_count": 19.5,
+        "commercial_zoning_area_m2": 2.5,
+        "parking_spaces": 44.0,
+        "dining_poi_count": 18.9,
+        "retail_poi_count": 13.8
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 10,
+        "parking_spaces": 846,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 4845.5,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "原岩攀岩館-萬華店",
+            "type": "攀岩"
+          },
+          {
+            "name": "原岩攀岩館",
+            "type": "攀岩"
+          }
+        ],
+        "dining_poi_count": 75,
+        "retail_poi_count": 25
       }
     },
     {
@@ -627,12 +709,14 @@
       "facility_tags": [
         "其他/未分類"
       ],
-      "connectivity_pr_composite": 23.9,
+      "connectivity_pr_composite": 22.6,
       "connectivity_pr_by_metric": {
         "mrt_station_count": 26.4,
         "sports_business_count": 27.7,
         "commercial_zoning_area_m2": 6.9,
-        "parking_spaces": 34.6
+        "parking_spaces": 34.6,
+        "dining_poi_count": 22.6,
+        "retail_poi_count": 17.6
       },
       "nearby_400m": {
         "mrt_stations": [],
@@ -655,11 +739,128 @@
             "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 80,
+        "retail_poi_count": 31
+      }
+    },
+    {
+      "name": "忠和公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 22.8,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 13.2,
+        "sports_business_count": 3.8,
+        "commercial_zoning_area_m2": 10.7,
+        "parking_spaces": 26.4,
+        "dining_poi_count": 21.4,
+        "retail_poi_count": 61.6
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 8,
+        "parking_spaces": 503,
+        "market_zoning_area_m2": 5731.0,
+        "commercial_zoning_area_m2": 33399.2,
+        "sports_business_count": 1,
+        "sports_businesses": [
+          {
+            "name": "Double8岩究所",
+            "type": "攀岩"
+          }
+        ],
+        "dining_poi_count": 78,
+        "retail_poi_count": 100
+      }
+    },
+    {
+      "name": "柳鄉公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 24.5,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 30.2,
+        "sports_business_count": 17.6,
+        "commercial_zoning_area_m2": 49.7,
+        "parking_spaces": 3.1,
+        "dining_poi_count": 25.8,
+        "retail_poi_count": 20.8
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 7,
+        "parking_spaces": 183,
+        "market_zoning_area_m2": 0.0,
+        "commercial_zoning_area_m2": 151147.1,
+        "sports_business_count": 2,
+        "sports_businesses": [
+          {
+            "name": "原岩攀岩館-萬華店",
+            "type": "攀岩"
+          },
+          {
+            "name": "原岩攀岩館",
+            "type": "攀岩"
+          }
+        ],
+        "dining_poi_count": 86,
+        "retail_poi_count": 36
+      }
+    },
+    {
+      "name": "樹德公園",
+      "facility_tags": [
+        "銀髮健身",
+        "兒童遊戲"
+      ],
+      "connectivity_pr_composite": 24.8,
+      "connectivity_pr_by_metric": {
+        "mrt_station_count": 15.7,
+        "sports_business_count": 35.2,
+        "commercial_zoning_area_m2": 71.1,
+        "parking_spaces": 20.1,
+        "dining_poi_count": 3.1,
+        "retail_poi_count": 3.8
+      },
+      "nearby_400m": {
+        "mrt_stations": [],
+        "mrt_station_count": 0,
+        "parking_lots": 9,
+        "parking_spaces": 451,
+        "market_zoning_area_m2": 5944.3,
+        "commercial_zoning_area_m2": 245482.5,
+        "sports_business_count": 4,
+        "sports_businesses": [
+          {
+            "name": "Banana Fitness",
+            "type": "健身房"
+          },
+          {
+            "name": "大同運動中心",
+            "type": "市民運動中心"
+          },
+          {
+            "name": "黃金比例健身工坊",
+            "type": "健身房"
+          },
+          {
+            "name": "德比撞球館",
+            "type": "撞球"
+          }
+        ],
+        "dining_poi_count": 42,
+        "retail_poi_count": 12
       }
     }
   ],
-  "low_connectivity_parks_count": 19,
+  "low_connectivity_parks_count": 22,
   "park_details": [
     {
       "name": "萬華266號綠地",
@@ -697,15 +898,19 @@
             "name": "鳳凰體能訓練俱樂部",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 165,
+        "retail_poi_count": 120
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 37.1,
         "sports_business_count": 47.2,
         "commercial_zoning_area_m2": 100.0,
-        "parking_spaces": 13.8
+        "parking_spaces": 13.8,
+        "dining_poi_count": 69.8,
+        "retail_poi_count": 67.9
       },
-      "connectivity_pr_composite": 49.5,
+      "connectivity_pr_composite": 56.0,
       "low_connectivity_flag": false
     },
     {
@@ -747,15 +952,19 @@
             "name": "鳳凰體能訓練俱樂部",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 153,
+        "retail_poi_count": 124
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 66.0,
         "sports_business_count": 45.9,
         "commercial_zoning_area_m2": 99.4,
-        "parking_spaces": 47.8
+        "parking_spaces": 47.8,
+        "dining_poi_count": 64.8,
+        "retail_poi_count": 71.7
       },
-      "connectivity_pr_composite": 64.8,
+      "connectivity_pr_composite": 65.9,
       "low_connectivity_flag": false
     },
     {
@@ -798,15 +1007,19 @@
             "name": "桑富士運動俱樂部",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 155,
+        "retail_poi_count": 180
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 18.9,
         "sports_business_count": 57.9,
         "commercial_zoning_area_m2": 98.7,
-        "parking_spaces": 16.4
+        "parking_spaces": 16.4,
+        "dining_poi_count": 66.0,
+        "retail_poi_count": 89.9
       },
-      "connectivity_pr_composite": 48.0,
+      "connectivity_pr_composite": 58.0,
       "low_connectivity_flag": false
     },
     {
@@ -859,15 +1072,19 @@
             "name": "LT UpstairStudio 舞蹈瑜伽工作室",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 184,
+        "retail_poi_count": 113
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 5.0,
         "sports_business_count": 76.1,
         "commercial_zoning_area_m2": 98.1,
-        "parking_spaces": 86.8
+        "parking_spaces": 86.8,
+        "dining_poi_count": 78.6,
+        "retail_poi_count": 66.0
       },
-      "connectivity_pr_composite": 66.5,
+      "connectivity_pr_composite": 68.4,
       "low_connectivity_flag": false
     },
     {
@@ -920,15 +1137,19 @@
             "name": "好時光女生運動樂園 The GTFP Lucky7 (民權)",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 105,
+        "retail_poi_count": 69
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 50.9,
         "sports_business_count": 76.7,
         "commercial_zoning_area_m2": 97.5,
-        "parking_spaces": 41.5
+        "parking_spaces": 41.5,
+        "dining_poi_count": 39.0,
+        "retail_poi_count": 42.8
       },
-      "connectivity_pr_composite": 66.7,
+      "connectivity_pr_composite": 58.1,
       "low_connectivity_flag": false
     },
     {
@@ -965,15 +1186,19 @@
             "name": "鳳凰體能訓練俱樂部",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 216,
+        "retail_poi_count": 232
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 67.9,
         "sports_business_count": 37.1,
         "commercial_zoning_area_m2": 96.9,
-        "parking_spaces": 38.4
+        "parking_spaces": 38.4,
+        "dining_poi_count": 86.8,
+        "retail_poi_count": 95.6
       },
-      "connectivity_pr_composite": 60.1,
+      "connectivity_pr_composite": 70.5,
       "low_connectivity_flag": false
     },
     {
@@ -1036,15 +1261,19 @@
             "name": "LT UpstairStudio 舞蹈瑜伽工作室",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 182,
+        "retail_poi_count": 126
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 6.3,
         "sports_business_count": 93.7,
         "commercial_zoning_area_m2": 96.2,
-        "parking_spaces": 96.9
+        "parking_spaces": 96.9,
+        "dining_poi_count": 77.4,
+        "retail_poi_count": 73.0
       },
-      "connectivity_pr_composite": 73.3,
+      "connectivity_pr_composite": 73.9,
       "low_connectivity_flag": false
     },
     {
@@ -1077,15 +1306,19 @@
             "name": "角 • 攀岩館 - 華山 CORNER Bouldering Gym",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 99,
+        "retail_poi_count": 52
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 7.5,
         "sports_business_count": 23.9,
         "commercial_zoning_area_m2": 95.6,
-        "parking_spaces": 93.7
+        "parking_spaces": 93.7,
+        "dining_poi_count": 34.6,
+        "retail_poi_count": 30.2
       },
-      "connectivity_pr_composite": 55.2,
+      "connectivity_pr_composite": 47.6,
       "low_connectivity_flag": false
     },
     {
@@ -1122,15 +1355,19 @@
             "name": "鳳凰體能訓練俱樂部",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 121,
+        "retail_poi_count": 127
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 66.7,
         "sports_business_count": 36.5,
         "commercial_zoning_area_m2": 95.0,
-        "parking_spaces": 64.8
+        "parking_spaces": 64.8,
+        "dining_poi_count": 48.4,
+        "retail_poi_count": 74.2
       },
-      "connectivity_pr_composite": 65.8,
+      "connectivity_pr_composite": 64.3,
       "low_connectivity_flag": false
     },
     {
@@ -1180,15 +1417,19 @@
             "name": "PULSEGYM台北中山店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 290,
+        "retail_poi_count": 253
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 96.2,
         "sports_business_count": 68.6,
         "commercial_zoning_area_m2": 94.3,
-        "parking_spaces": 78.6
+        "parking_spaces": 78.6,
+        "dining_poi_count": 95.0,
+        "retail_poi_count": 98.1
       },
-      "connectivity_pr_composite": 84.4,
+      "connectivity_pr_composite": 88.5,
       "low_connectivity_flag": false
     },
     {
@@ -1265,15 +1506,19 @@
             "name": "LT UpstairStudio 舞蹈瑜伽工作室",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 171,
+        "retail_poi_count": 163
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 47.2,
         "sports_business_count": 98.7,
         "commercial_zoning_area_m2": 93.7,
-        "parking_spaces": 84.9
+        "parking_spaces": 84.9,
+        "dining_poi_count": 71.1,
+        "retail_poi_count": 88.1
       },
-      "connectivity_pr_composite": 81.1,
+      "connectivity_pr_composite": 80.6,
       "low_connectivity_flag": false
     },
     {
@@ -1302,15 +1547,19 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 155,
+        "retail_poi_count": 134
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 67.3,
         "sports_business_count": 20.8,
         "commercial_zoning_area_m2": 93.1,
-        "parking_spaces": 76.7
+        "parking_spaces": 76.7,
+        "dining_poi_count": 66.7,
+        "retail_poi_count": 78.0
       },
-      "connectivity_pr_composite": 64.5,
+      "connectivity_pr_composite": 67.1,
       "low_connectivity_flag": false
     },
     {
@@ -1359,15 +1608,19 @@
             "name": "好時光女生運動樂園 The GTFP Lucky7 (民權)",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 110,
+        "retail_poi_count": 75
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 54.1,
         "sports_business_count": 67.3,
         "commercial_zoning_area_m2": 92.5,
-        "parking_spaces": 39.6
+        "parking_spaces": 39.6,
+        "dining_poi_count": 42.8,
+        "retail_poi_count": 49.7
       },
-      "connectivity_pr_composite": 63.4,
+      "connectivity_pr_composite": 57.7,
       "low_connectivity_flag": false
     },
     {
@@ -1421,15 +1674,19 @@
             "name": "好時光女生運動樂園 The GTFP Lucky7 (民權)",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 88,
+        "retail_poi_count": 59
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 51.6,
         "sports_business_count": 77.4,
         "commercial_zoning_area_m2": 91.8,
-        "parking_spaces": 31.4
+        "parking_spaces": 31.4,
+        "dining_poi_count": 27.7,
+        "retail_poi_count": 35.2
       },
-      "connectivity_pr_composite": 63.1,
+      "connectivity_pr_composite": 52.5,
       "low_connectivity_flag": false
     },
     {
@@ -1479,15 +1736,19 @@
             "name": "好時光女生運動樂園 The GTFP Lucky7 (民權)",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 126,
+        "retail_poi_count": 93
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 52.8,
         "sports_business_count": 66.7,
         "commercial_zoning_area_m2": 91.2,
-        "parking_spaces": 56.6
+        "parking_spaces": 56.6,
+        "dining_poi_count": 50.9,
+        "retail_poi_count": 57.2
       },
-      "connectivity_pr_composite": 66.8,
+      "connectivity_pr_composite": 62.6,
       "low_connectivity_flag": false
     },
     {
@@ -1520,15 +1781,19 @@
             "name": "Wfitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 183,
+        "retail_poi_count": 186
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 14.5,
         "sports_business_count": 26.4,
         "commercial_zoning_area_m2": 90.6,
-        "parking_spaces": 72.3
+        "parking_spaces": 72.3,
+        "dining_poi_count": 78.0,
+        "retail_poi_count": 90.6
       },
-      "connectivity_pr_composite": 51.0,
+      "connectivity_pr_composite": 62.1,
       "low_connectivity_flag": false
     },
     {
@@ -1567,15 +1832,19 @@
             "name": "跨時代健身中心-300壯士俱樂部",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 227,
+        "retail_poi_count": 271
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 34.6,
         "sports_business_count": 46.5,
         "commercial_zoning_area_m2": 89.9,
-        "parking_spaces": 95.6
+        "parking_spaces": 95.6,
+        "dining_poi_count": 88.1,
+        "retail_poi_count": 100.0
       },
-      "connectivity_pr_composite": 66.7,
+      "connectivity_pr_composite": 75.8,
       "low_connectivity_flag": false
     },
     {
@@ -1635,15 +1904,19 @@
             "name": "PULSEGYM台北中山店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 255,
+        "retail_poi_count": 245
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 96.9,
         "sports_business_count": 85.5,
         "commercial_zoning_area_m2": 89.3,
-        "parking_spaces": 63.5
+        "parking_spaces": 63.5,
+        "dining_poi_count": 94.3,
+        "retail_poi_count": 96.9
       },
-      "connectivity_pr_composite": 83.8,
+      "connectivity_pr_composite": 87.7,
       "low_connectivity_flag": false
     },
     {
@@ -1682,15 +1955,19 @@
             "name": "BEING sport 統一健身俱樂部 - 京站館",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 235,
+        "retail_poi_count": 191
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 39.6,
         "sports_business_count": 49.1,
         "commercial_zoning_area_m2": 88.7,
-        "parking_spaces": 94.3
+        "parking_spaces": 94.3,
+        "dining_poi_count": 91.2,
+        "retail_poi_count": 91.8
       },
-      "connectivity_pr_composite": 67.9,
+      "connectivity_pr_composite": 75.8,
       "low_connectivity_flag": false
     },
     {
@@ -1748,15 +2025,19 @@
             "name": "好時光女生運動樂園 The GTFP Lucky7 (民權)",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 175,
+        "retail_poi_count": 100
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 48.4,
         "sports_business_count": 83.0,
         "commercial_zoning_area_m2": 88.1,
-        "parking_spaces": 74.2
+        "parking_spaces": 74.2,
+        "dining_poi_count": 74.8,
+        "retail_poi_count": 61.0
       },
-      "connectivity_pr_composite": 73.4,
+      "connectivity_pr_composite": 71.6,
       "low_connectivity_flag": false
     },
     {
@@ -1774,15 +2055,19 @@
         "market_zoning_area_m2": 1703.3,
         "commercial_zoning_area_m2": 380835.6,
         "sports_business_count": 0,
-        "sports_businesses": []
+        "sports_businesses": [],
+        "dining_poi_count": 111,
+        "retail_poi_count": 133
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 33.3,
         "sports_business_count": 1.9,
         "commercial_zoning_area_m2": 87.4,
-        "parking_spaces": 36.5
+        "parking_spaces": 36.5,
+        "dining_poi_count": 43.4,
+        "retail_poi_count": 77.4
       },
-      "connectivity_pr_composite": 39.8,
+      "connectivity_pr_composite": 46.6,
       "low_connectivity_flag": false
     },
     {
@@ -1834,15 +2119,19 @@
             "name": "角 • 攀岩館 - 華山 CORNER Bouldering Gym",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 187,
+        "retail_poi_count": 75
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 1.9,
         "sports_business_count": 74.8,
         "commercial_zoning_area_m2": 86.8,
-        "parking_spaces": 85.5
+        "parking_spaces": 85.5,
+        "dining_poi_count": 82.4,
+        "retail_poi_count": 49.1
       },
-      "connectivity_pr_composite": 62.2,
+      "connectivity_pr_composite": 63.4,
       "low_connectivity_flag": false
     },
     {
@@ -1888,15 +2177,19 @@
             "name": "虎鐵健身工作室TG Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 352,
+        "retail_poi_count": 235
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 99.4,
         "sports_business_count": 59.7,
         "commercial_zoning_area_m2": 86.2,
-        "parking_spaces": 79.9
+        "parking_spaces": 79.9,
+        "dining_poi_count": 98.7,
+        "retail_poi_count": 96.2
       },
-      "connectivity_pr_composite": 81.3,
+      "connectivity_pr_composite": 86.7,
       "low_connectivity_flag": false
     },
     {
@@ -1922,15 +2215,19 @@
             "name": "角 • 攀岩館 - 華山 CORNER Bouldering Gym",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 91,
+        "retail_poi_count": 69
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 69.2,
         "sports_business_count": 7.5,
         "commercial_zoning_area_m2": 85.5,
-        "parking_spaces": 77.4
+        "parking_spaces": 77.4,
+        "dining_poi_count": 30.8,
+        "retail_poi_count": 43.4
       },
-      "connectivity_pr_composite": 59.9,
+      "connectivity_pr_composite": 52.3,
       "low_connectivity_flag": false
     },
     {
@@ -1975,15 +2272,19 @@
             "name": "MIXFIT BOXING 全方位拳擊體能健身中心",
             "type": "武術"
           }
-        ]
+        ],
+        "dining_poi_count": 254,
+        "retail_poi_count": 207
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 74.2,
         "sports_business_count": 61.0,
         "commercial_zoning_area_m2": 84.9,
-        "parking_spaces": 62.9
+        "parking_spaces": 62.9,
+        "dining_poi_count": 93.7,
+        "retail_poi_count": 93.1
       },
-      "connectivity_pr_composite": 70.8,
+      "connectivity_pr_composite": 78.3,
       "low_connectivity_flag": false
     },
     {
@@ -2025,15 +2326,19 @@
             "name": "東光舞蹈世界",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 108,
+        "retail_poi_count": 58
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 53.5,
         "sports_business_count": 43.4,
         "commercial_zoning_area_m2": 84.3,
-        "parking_spaces": 50.3
+        "parking_spaces": 50.3,
+        "dining_poi_count": 40.9,
+        "retail_poi_count": 34.6
       },
-      "connectivity_pr_composite": 57.9,
+      "connectivity_pr_composite": 51.2,
       "low_connectivity_flag": false
     },
     {
@@ -2057,15 +2362,19 @@
             "name": "長興極限空間",
             "type": "武術"
           }
-        ]
+        ],
+        "dining_poi_count": 127,
+        "retail_poi_count": 125
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 16.4,
         "sports_business_count": 5.0,
         "commercial_zoning_area_m2": 83.6,
-        "parking_spaces": 58.5
+        "parking_spaces": 58.5,
+        "dining_poi_count": 52.8,
+        "retail_poi_count": 72.3
       },
-      "connectivity_pr_composite": 40.9,
+      "connectivity_pr_composite": 48.1,
       "low_connectivity_flag": false
     },
     {
@@ -2101,15 +2410,19 @@
             "name": "角 • 攀岩館 - 華山 CORNER Bouldering Gym",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 119,
+        "retail_poi_count": 51
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 1.3,
         "sports_business_count": 34.0,
         "commercial_zoning_area_m2": 83.0,
-        "parking_spaces": 96.2
+        "parking_spaces": 96.2,
+        "dining_poi_count": 47.2,
+        "retail_poi_count": 28.9
       },
-      "connectivity_pr_composite": 53.6,
+      "connectivity_pr_composite": 48.4,
       "low_connectivity_flag": false
     },
     {
@@ -2127,15 +2440,19 @@
         "market_zoning_area_m2": 1703.3,
         "commercial_zoning_area_m2": 341112.2,
         "sports_business_count": 0,
-        "sports_businesses": []
+        "sports_businesses": [],
+        "dining_poi_count": 78,
+        "retail_poi_count": 108
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 29.6,
         "sports_business_count": 0.0,
         "commercial_zoning_area_m2": 82.4,
-        "parking_spaces": 35.2
+        "parking_spaces": 35.2,
+        "dining_poi_count": 22.0,
+        "retail_poi_count": 64.2
       },
-      "connectivity_pr_composite": 36.8,
+      "connectivity_pr_composite": 38.9,
       "low_connectivity_flag": false
     },
     {
@@ -2176,15 +2493,19 @@
             "name": "MIXFIT BOXING 全方位拳擊體能健身中心",
             "type": "武術"
           }
-        ]
+        ],
+        "dining_poi_count": 150,
+        "retail_poi_count": 132
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 72.3,
         "sports_business_count": 48.4,
         "commercial_zoning_area_m2": 81.8,
-        "parking_spaces": 37.1
+        "parking_spaces": 37.1,
+        "dining_poi_count": 62.3,
+        "retail_poi_count": 76.7
       },
-      "connectivity_pr_composite": 59.9,
+      "connectivity_pr_composite": 63.1,
       "low_connectivity_flag": false
     },
     {
@@ -2245,15 +2566,19 @@
             "name": "菲特邦健康管理",
             "type": "體適能"
           }
-        ]
+        ],
+        "dining_poi_count": 234,
+        "retail_poi_count": 178
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 47.8,
         "sports_business_count": 89.9,
         "commercial_zoning_area_m2": 81.1,
-        "parking_spaces": 57.9
+        "parking_spaces": 57.9,
+        "dining_poi_count": 89.9,
+        "retail_poi_count": 89.3
       },
-      "connectivity_pr_composite": 69.2,
+      "connectivity_pr_composite": 76.0,
       "low_connectivity_flag": false
     },
     {
@@ -2302,15 +2627,19 @@
             "name": "BEING sport 統一健身俱樂部 - 京站館",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 397,
+        "retail_poi_count": 265
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 60.4,
         "sports_business_count": 69.2,
         "commercial_zoning_area_m2": 80.5,
-        "parking_spaces": 97.5
+        "parking_spaces": 97.5,
+        "dining_poi_count": 100.0,
+        "retail_poi_count": 99.4
       },
-      "connectivity_pr_composite": 76.9,
+      "connectivity_pr_composite": 84.5,
       "low_connectivity_flag": false
     },
     {
@@ -2345,15 +2674,19 @@
             "name": "虎鐵健身工作室TG Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 245,
+        "retail_poi_count": 175
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 68.6,
         "sports_business_count": 29.6,
         "commercial_zoning_area_m2": 79.9,
-        "parking_spaces": 6.3
+        "parking_spaces": 6.3,
+        "dining_poi_count": 92.5,
+        "retail_poi_count": 88.7
       },
-      "connectivity_pr_composite": 46.1,
+      "connectivity_pr_composite": 60.9,
       "low_connectivity_flag": false
     },
     {
@@ -2377,15 +2710,19 @@
             "name": "西門國民小學",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 66,
+        "retail_poi_count": 67
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 28.9,
         "sports_business_count": 6.9,
         "commercial_zoning_area_m2": 79.2,
-        "parking_spaces": 1.3
+        "parking_spaces": 1.3,
+        "dining_poi_count": 13.8,
+        "retail_poi_count": 40.3
       },
-      "connectivity_pr_composite": 29.1,
+      "connectivity_pr_composite": 28.4,
       "low_connectivity_flag": false
     },
     {
@@ -2433,15 +2770,19 @@
             "name": "LT UpstairStudio 舞蹈瑜伽工作室",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 139,
+        "retail_poi_count": 75
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 0.0,
         "sports_business_count": 64.8,
         "commercial_zoning_area_m2": 78.6,
-        "parking_spaces": 55.3
+        "parking_spaces": 55.3,
+        "dining_poi_count": 58.5,
+        "retail_poi_count": 48.4
       },
-      "connectivity_pr_composite": 49.7,
+      "connectivity_pr_composite": 50.9,
       "low_connectivity_flag": false
     },
     {
@@ -2483,15 +2824,19 @@
             "name": "Wfitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 108,
+        "retail_poi_count": 102
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 58.5,
         "sports_business_count": 44.0,
         "commercial_zoning_area_m2": 78.0,
-        "parking_spaces": 32.1
+        "parking_spaces": 32.1,
+        "dining_poi_count": 41.5,
+        "retail_poi_count": 63.5
       },
-      "connectivity_pr_composite": 53.1,
+      "connectivity_pr_composite": 52.9,
       "low_connectivity_flag": false
     },
     {
@@ -2525,15 +2870,19 @@
             "name": "好團工作室",
             "type": "體適能"
           }
-        ]
+        ],
+        "dining_poi_count": 97,
+        "retail_poi_count": 59
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 55.3,
         "sports_business_count": 24.5,
         "commercial_zoning_area_m2": 77.4,
-        "parking_spaces": 23.3
+        "parking_spaces": 23.3,
+        "dining_poi_count": 33.3,
+        "retail_poi_count": 35.8
       },
-      "connectivity_pr_composite": 45.1,
+      "connectivity_pr_composite": 41.6,
       "low_connectivity_flag": false
     },
     {
@@ -2587,15 +2936,19 @@
             "name": "永動定律健身訓練工作室 Perpetual Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 205,
+        "retail_poi_count": 102
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 49.1,
         "sports_business_count": 75.5,
         "commercial_zoning_area_m2": 76.7,
-        "parking_spaces": 83.6
+        "parking_spaces": 83.6,
+        "dining_poi_count": 84.9,
+        "retail_poi_count": 62.9
       },
-      "connectivity_pr_composite": 71.2,
+      "connectivity_pr_composite": 72.1,
       "low_connectivity_flag": false
     },
     {
@@ -2665,15 +3018,19 @@
             "name": "健身工廠FitnessFactory 長春廠",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 232,
+        "retail_poi_count": 162
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 95.0,
         "sports_business_count": 97.5,
         "commercial_zoning_area_m2": 76.1,
-        "parking_spaces": 66.7
+        "parking_spaces": 66.7,
+        "dining_poi_count": 88.7,
+        "retail_poi_count": 87.4
       },
-      "connectivity_pr_composite": 83.8,
+      "connectivity_pr_composite": 85.2,
       "low_connectivity_flag": false
     },
     {
@@ -2701,15 +3058,19 @@
             "name": "長興極限空間",
             "type": "武術"
           }
-        ]
+        ],
+        "dining_poi_count": 113,
+        "retail_poi_count": 60
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 15.1,
         "sports_business_count": 12.6,
         "commercial_zoning_area_m2": 75.5,
-        "parking_spaces": 66.0
+        "parking_spaces": 66.0,
+        "dining_poi_count": 44.7,
+        "retail_poi_count": 36.5
       },
-      "connectivity_pr_composite": 42.3,
+      "connectivity_pr_composite": 41.7,
       "low_connectivity_flag": false
     },
     {
@@ -2776,15 +3137,19 @@
             "name": "健身工廠FitnessFactory 長春廠",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 235,
+        "retail_poi_count": 160
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 95.6,
         "sports_business_count": 94.3,
         "commercial_zoning_area_m2": 74.8,
-        "parking_spaces": 73.0
+        "parking_spaces": 73.0,
+        "dining_poi_count": 90.6,
+        "retail_poi_count": 86.8
       },
-      "connectivity_pr_composite": 84.4,
+      "connectivity_pr_composite": 85.8,
       "low_connectivity_flag": false
     },
     {
@@ -2813,15 +3178,19 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 116,
+        "retail_poi_count": 100
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 65.4,
         "sports_business_count": 17.0,
         "commercial_zoning_area_m2": 74.2,
-        "parking_spaces": 81.1
+        "parking_spaces": 81.1,
+        "dining_poi_count": 46.5,
+        "retail_poi_count": 62.3
       },
-      "connectivity_pr_composite": 59.4,
+      "connectivity_pr_composite": 57.8,
       "low_connectivity_flag": false
     },
     {
@@ -2866,15 +3235,19 @@
             "name": "BEING sport 統一健身俱樂部 - 京站館",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 376,
+        "retail_poi_count": 258
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 73.0,
         "sports_business_count": 60.4,
         "commercial_zoning_area_m2": 73.6,
-        "parking_spaces": 100.0
+        "parking_spaces": 100.0,
+        "dining_poi_count": 99.4,
+        "retail_poi_count": 98.7
       },
-      "connectivity_pr_composite": 76.8,
+      "connectivity_pr_composite": 84.2,
       "low_connectivity_flag": false
     },
     {
@@ -2949,15 +3322,19 @@
             "name": "MORE FIT 松江南京店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 327,
+        "retail_poi_count": 214
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 94.3,
         "sports_business_count": 98.1,
         "commercial_zoning_area_m2": 73.0,
-        "parking_spaces": 62.3
+        "parking_spaces": 62.3,
+        "dining_poi_count": 98.1,
+        "retail_poi_count": 94.3
       },
-      "connectivity_pr_composite": 81.9,
+      "connectivity_pr_composite": 86.7,
       "low_connectivity_flag": false
     },
     {
@@ -3001,15 +3378,19 @@
             "name": "健身工廠FitnessFactory 長春廠",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 171,
+        "retail_poi_count": 130
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 9.4,
         "sports_business_count": 56.0,
         "commercial_zoning_area_m2": 72.3,
-        "parking_spaces": 61.0
+        "parking_spaces": 61.0,
+        "dining_poi_count": 71.7,
+        "retail_poi_count": 76.1
       },
-      "connectivity_pr_composite": 49.7,
+      "connectivity_pr_composite": 57.8,
       "low_connectivity_flag": false
     },
     {
@@ -3057,15 +3438,19 @@
             "name": "LT UpstairStudio 舞蹈瑜伽工作室",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 221,
+        "retail_poi_count": 86
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 0.6,
         "sports_business_count": 65.4,
         "commercial_zoning_area_m2": 71.7,
-        "parking_spaces": 88.7
+        "parking_spaces": 88.7,
+        "dining_poi_count": 87.4,
+        "retail_poi_count": 55.3
       },
-      "connectivity_pr_composite": 56.6,
+      "connectivity_pr_composite": 61.5,
       "low_connectivity_flag": false
     },
     {
@@ -3101,16 +3486,20 @@
             "name": "德比撞球館",
             "type": "撞球"
           }
-        ]
+        ],
+        "dining_poi_count": 42,
+        "retail_poi_count": 12
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 15.7,
         "sports_business_count": 35.2,
         "commercial_zoning_area_m2": 71.1,
-        "parking_spaces": 20.1
+        "parking_spaces": 20.1,
+        "dining_poi_count": 3.1,
+        "retail_poi_count": 3.8
       },
-      "connectivity_pr_composite": 35.5,
-      "low_connectivity_flag": false
+      "connectivity_pr_composite": 24.8,
+      "low_connectivity_flag": true
     },
     {
       "name": "桂林公園",
@@ -3127,15 +3516,19 @@
         "market_zoning_area_m2": 0.0,
         "commercial_zoning_area_m2": 245177.1,
         "sports_business_count": 0,
-        "sports_businesses": []
+        "sports_businesses": [],
+        "dining_poi_count": 71,
+        "retail_poi_count": 87
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 30.8,
         "sports_business_count": 0.6,
         "commercial_zoning_area_m2": 70.4,
-        "parking_spaces": 1.9
+        "parking_spaces": 1.9,
+        "dining_poi_count": 16.4,
+        "retail_poi_count": 56.0
       },
-      "connectivity_pr_composite": 25.9,
+      "connectivity_pr_composite": 29.4,
       "low_connectivity_flag": false
     },
     {
@@ -3185,15 +3578,19 @@
             "name": "S動作訓練中心",
             "type": "體適能"
           }
-        ]
+        ],
+        "dining_poi_count": 186,
+        "retail_poi_count": 121
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 62.9,
         "sports_business_count": 69.8,
         "commercial_zoning_area_m2": 69.8,
-        "parking_spaces": 93.1
+        "parking_spaces": 93.1,
+        "dining_poi_count": 81.8,
+        "retail_poi_count": 68.6
       },
-      "connectivity_pr_composite": 73.9,
+      "connectivity_pr_composite": 74.3,
       "low_connectivity_flag": false
     },
     {
@@ -3251,15 +3648,19 @@
             "name": "BEING fit 松江門市",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 150,
+        "retail_poi_count": 98
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 50.3,
         "sports_business_count": 84.3,
         "commercial_zoning_area_m2": 69.2,
-        "parking_spaces": 3.8
+        "parking_spaces": 3.8,
+        "dining_poi_count": 61.6,
+        "retail_poi_count": 59.1
       },
-      "connectivity_pr_composite": 51.9,
+      "connectivity_pr_composite": 54.7,
       "low_connectivity_flag": false
     },
     {
@@ -3321,15 +3722,19 @@
             "name": "健身星球 Star Fitness 光復星球",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 106,
+        "retail_poi_count": 112
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 85.5,
         "sports_business_count": 92.5,
         "commercial_zoning_area_m2": 68.6,
-        "parking_spaces": 14.5
+        "parking_spaces": 14.5,
+        "dining_poi_count": 39.6,
+        "retail_poi_count": 65.4
       },
-      "connectivity_pr_composite": 65.3,
+      "connectivity_pr_composite": 61.0,
       "low_connectivity_flag": false
     },
     {
@@ -3377,15 +3782,19 @@
             "name": "角 • 攀岩館 - 華山 CORNER Bouldering Gym",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 132,
+        "retail_poi_count": 157
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 10.1,
         "sports_business_count": 67.9,
         "commercial_zoning_area_m2": 67.9,
-        "parking_spaces": 95.0
+        "parking_spaces": 95.0,
+        "dining_poi_count": 55.3,
+        "retail_poi_count": 84.9
       },
-      "connectivity_pr_composite": 60.2,
+      "connectivity_pr_composite": 63.5,
       "low_connectivity_flag": false
     },
     {
@@ -3442,15 +3851,19 @@
             "name": "BEING fit 松江門市",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 152,
+        "retail_poi_count": 99
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 49.7,
         "sports_business_count": 83.6,
         "commercial_zoning_area_m2": 67.3,
-        "parking_spaces": 4.4
+        "parking_spaces": 4.4,
+        "dining_poi_count": 63.5,
+        "retail_poi_count": 60.4
       },
-      "connectivity_pr_composite": 51.3,
+      "connectivity_pr_composite": 54.8,
       "low_connectivity_flag": false
     },
     {
@@ -3495,15 +3908,19 @@
             "name": "BEING sport 統一健身俱樂部 - 京站館",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 239,
+        "retail_poi_count": 141
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 71.7,
         "sports_business_count": 59.1,
         "commercial_zoning_area_m2": 66.7,
-        "parking_spaces": 99.4
+        "parking_spaces": 99.4,
+        "dining_poi_count": 91.8,
+        "retail_poi_count": 82.4
       },
-      "connectivity_pr_composite": 74.2,
+      "connectivity_pr_composite": 78.5,
       "low_connectivity_flag": false
     },
     {
@@ -3571,15 +3988,19 @@
             "name": "MORE FIT 松江南京店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 294,
+        "retail_poi_count": 222
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 93.7,
         "sports_business_count": 93.1,
         "commercial_zoning_area_m2": 66.0,
-        "parking_spaces": 81.8
+        "parking_spaces": 81.8,
+        "dining_poi_count": 95.6,
+        "retail_poi_count": 95.0
       },
-      "connectivity_pr_composite": 83.7,
+      "connectivity_pr_composite": 87.5,
       "low_connectivity_flag": false
     },
     {
@@ -3623,15 +4044,19 @@
             "name": "WEEE Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 167,
+        "retail_poi_count": 77
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 3.8,
         "sports_business_count": 54.7,
         "commercial_zoning_area_m2": 65.4,
-        "parking_spaces": 82.4
+        "parking_spaces": 82.4,
+        "dining_poi_count": 70.4,
+        "retail_poi_count": 50.9
       },
-      "connectivity_pr_composite": 51.6,
+      "connectivity_pr_composite": 54.6,
       "low_connectivity_flag": false
     },
     {
@@ -3664,15 +4089,19 @@
             "name": "長興極限空間",
             "type": "武術"
           }
-        ]
+        ],
+        "dining_poi_count": 60,
+        "retail_poi_count": 27
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 59.1,
         "sports_business_count": 27.0,
         "commercial_zoning_area_m2": 64.8,
-        "parking_spaces": 45.3
+        "parking_spaces": 45.3,
+        "dining_poi_count": 10.1,
+        "retail_poi_count": 15.1
       },
-      "connectivity_pr_composite": 49.0,
+      "connectivity_pr_composite": 36.9,
       "low_connectivity_flag": false
     },
     {
@@ -3715,15 +4144,19 @@
             "name": "MORE FIT 松江南京店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 313,
+        "retail_poi_count": 213
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 92.5,
         "sports_business_count": 40.9,
         "commercial_zoning_area_m2": 64.2,
-        "parking_spaces": 53.5
+        "parking_spaces": 53.5,
+        "dining_poi_count": 96.9,
+        "retail_poi_count": 93.7
       },
-      "connectivity_pr_composite": 62.8,
+      "connectivity_pr_composite": 73.6,
       "low_connectivity_flag": false
     },
     {
@@ -3765,15 +4198,19 @@
             "name": "Sky Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 64,
+        "retail_poi_count": 25
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 59.7,
         "sports_business_count": 44.7,
         "commercial_zoning_area_m2": 63.5,
-        "parking_spaces": 19.5
+        "parking_spaces": 19.5,
+        "dining_poi_count": 13.2,
+        "retail_poi_count": 13.2
       },
-      "connectivity_pr_composite": 46.9,
+      "connectivity_pr_composite": 35.6,
       "low_connectivity_flag": false
     },
     {
@@ -3822,15 +4259,19 @@
             "name": "BEING sport 統一健身俱樂部 - 京站館",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 296,
+        "retail_poi_count": 189
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 73.6,
         "sports_business_count": 71.1,
         "commercial_zoning_area_m2": 62.9,
-        "parking_spaces": 98.7
+        "parking_spaces": 98.7,
+        "dining_poi_count": 96.2,
+        "retail_poi_count": 91.2
       },
-      "connectivity_pr_composite": 76.6,
+      "connectivity_pr_composite": 82.3,
       "low_connectivity_flag": false
     },
     {
@@ -3857,15 +4298,19 @@
             "name": "Wfitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 126,
+        "retail_poi_count": 147
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 18.2,
         "sports_business_count": 13.8,
         "commercial_zoning_area_m2": 62.3,
-        "parking_spaces": 17.6
+        "parking_spaces": 17.6,
+        "dining_poi_count": 51.6,
+        "retail_poi_count": 84.3
       },
-      "connectivity_pr_composite": 28.0,
+      "connectivity_pr_composite": 41.3,
       "low_connectivity_flag": false
     },
     {
@@ -3912,15 +4357,19 @@
             "name": "健身工廠FitnessFactory 長春廠",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 172,
+        "retail_poi_count": 123
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 6.9,
         "sports_business_count": 66.0,
         "commercial_zoning_area_m2": 61.6,
-        "parking_spaces": 79.2
+        "parking_spaces": 79.2,
+        "dining_poi_count": 73.0,
+        "retail_poi_count": 69.8
       },
-      "connectivity_pr_composite": 53.4,
+      "connectivity_pr_composite": 59.4,
       "low_connectivity_flag": false
     },
     {
@@ -3966,15 +4415,19 @@
             "name": "Axis Fitness亞西斯健身會館",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 205,
+        "retail_poi_count": 139
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 75.5,
         "sports_business_count": 61.6,
         "commercial_zoning_area_m2": 61.0,
-        "parking_spaces": 89.3
+        "parking_spaces": 89.3,
+        "dining_poi_count": 85.5,
+        "retail_poi_count": 81.8
       },
-      "connectivity_pr_composite": 71.8,
+      "connectivity_pr_composite": 75.8,
       "low_connectivity_flag": false
     },
     {
@@ -4027,15 +4480,19 @@
             "name": "Axis Fitness亞西斯健身會館",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 204,
+        "retail_poi_count": 139
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 56.6,
         "sports_business_count": 78.0,
         "commercial_zoning_area_m2": 60.4,
-        "parking_spaces": 91.8
+        "parking_spaces": 91.8,
+        "dining_poi_count": 83.6,
+        "retail_poi_count": 81.1
       },
-      "connectivity_pr_composite": 71.7,
+      "connectivity_pr_composite": 75.2,
       "low_connectivity_flag": false
     },
     {
@@ -4073,15 +4530,19 @@
             "name": "BEING fit 松江門市",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 205,
+        "retail_poi_count": 139
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 46.5,
         "sports_business_count": 33.3,
         "commercial_zoning_area_m2": 59.7,
-        "parking_spaces": 30.8
+        "parking_spaces": 30.8,
+        "dining_poi_count": 84.3,
+        "retail_poi_count": 80.5
       },
-      "connectivity_pr_composite": 42.6,
+      "connectivity_pr_composite": 55.9,
       "low_connectivity_flag": false
     },
     {
@@ -4124,15 +4585,19 @@
             "name": "健身工廠FitnessFactory 長春廠",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 175,
+        "retail_poi_count": 128
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 10.7,
         "sports_business_count": 57.2,
         "commercial_zoning_area_m2": 59.1,
-        "parking_spaces": 78.0
+        "parking_spaces": 78.0,
+        "dining_poi_count": 75.5,
+        "retail_poi_count": 74.8
       },
-      "connectivity_pr_composite": 51.2,
+      "connectivity_pr_composite": 59.2,
       "low_connectivity_flag": false
     },
     {
@@ -4183,15 +4648,19 @@
             "name": "X Jumping 跳床健康俱樂部(民生店)",
             "type": "體適能"
           }
-        ]
+        ],
+        "dining_poi_count": 171,
+        "retail_poi_count": 94
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 97.5,
         "sports_business_count": 70.4,
         "commercial_zoning_area_m2": 58.5,
-        "parking_spaces": 80.5
+        "parking_spaces": 80.5,
+        "dining_poi_count": 72.3,
+        "retail_poi_count": 57.9
       },
-      "connectivity_pr_composite": 76.7,
+      "connectivity_pr_composite": 72.8,
       "low_connectivity_flag": false
     },
     {
@@ -4237,15 +4706,19 @@
             "name": "中山國中星耀樓",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 82,
+        "retail_poi_count": 40
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 56.0,
         "sports_business_count": 56.6,
         "commercial_zoning_area_m2": 57.9,
-        "parking_spaces": 27.0
+        "parking_spaces": 27.0,
+        "dining_poi_count": 23.9,
+        "retail_poi_count": 25.2
       },
-      "connectivity_pr_composite": 49.4,
+      "connectivity_pr_composite": 41.1,
       "low_connectivity_flag": false
     },
     {
@@ -4300,15 +4773,19 @@
             "name": "鍛鍊基地Workout Base",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 178,
+        "retail_poi_count": 127
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 98.1,
         "sports_business_count": 79.2,
         "commercial_zoning_area_m2": 57.2,
-        "parking_spaces": 90.6
+        "parking_spaces": 90.6,
+        "dining_poi_count": 76.1,
+        "retail_poi_count": 73.6
       },
-      "connectivity_pr_composite": 81.3,
+      "connectivity_pr_composite": 79.1,
       "low_connectivity_flag": false
     },
     {
@@ -4367,15 +4844,19 @@
             "name": "MORE FIT 松江南京店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 326,
+        "retail_poi_count": 249
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 93.1,
         "sports_business_count": 82.4,
         "commercial_zoning_area_m2": 56.6,
-        "parking_spaces": 61.6
+        "parking_spaces": 61.6,
+        "dining_poi_count": 97.5,
+        "retail_poi_count": 97.5
       },
-      "connectivity_pr_composite": 73.4,
+      "connectivity_pr_composite": 81.5,
       "low_connectivity_flag": false
     },
     {
@@ -4402,15 +4883,19 @@
             "name": "Wfitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 124,
+        "retail_poi_count": 137
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 17.6,
         "sports_business_count": 13.2,
         "commercial_zoning_area_m2": 56.0,
-        "parking_spaces": 29.6
+        "parking_spaces": 29.6,
+        "dining_poi_count": 49.7,
+        "retail_poi_count": 79.9
       },
-      "connectivity_pr_composite": 29.1,
+      "connectivity_pr_composite": 41.0,
       "low_connectivity_flag": false
     },
     {
@@ -4446,15 +4931,19 @@
             "name": "yogajourney瑜珈旅程",
             "type": "瑜珈"
           }
-        ]
+        ],
+        "dining_poi_count": 161,
+        "retail_poi_count": 83
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 19.5,
         "sports_business_count": 35.8,
         "commercial_zoning_area_m2": 55.3,
-        "parking_spaces": 87.4
+        "parking_spaces": 87.4,
+        "dining_poi_count": 69.2,
+        "retail_poi_count": 52.8
       },
-      "connectivity_pr_composite": 49.5,
+      "connectivity_pr_composite": 53.3,
       "low_connectivity_flag": false
     },
     {
@@ -4513,15 +5002,19 @@
             "name": "力坊體適能忠孝復興店 LEAP Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 185,
+        "retail_poi_count": 135
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 76.1,
         "sports_business_count": 88.7,
         "commercial_zoning_area_m2": 54.7,
-        "parking_spaces": 84.3
+        "parking_spaces": 84.3,
+        "dining_poi_count": 80.5,
+        "retail_poi_count": 78.6
       },
-      "connectivity_pr_composite": 76.0,
+      "connectivity_pr_composite": 77.1,
       "low_connectivity_flag": false
     },
     {
@@ -4584,15 +5077,19 @@
             "name": "唯爾運動Well Space",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 153,
+        "retail_poi_count": 68
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 64.8,
         "sports_business_count": 91.2,
         "commercial_zoning_area_m2": 54.1,
-        "parking_spaces": 34.0
+        "parking_spaces": 34.0,
+        "dining_poi_count": 64.2,
+        "retail_poi_count": 40.9
       },
-      "connectivity_pr_composite": 61.0,
+      "connectivity_pr_composite": 58.2,
       "low_connectivity_flag": false
     },
     {
@@ -4633,15 +5130,19 @@
             "name": "好時光女生運動樂園 南京樂園",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 148,
+        "retail_poi_count": 115
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 3.1,
         "sports_business_count": 41.5,
         "commercial_zoning_area_m2": 53.5,
-        "parking_spaces": 75.5
+        "parking_spaces": 75.5,
+        "dining_poi_count": 61.0,
+        "retail_poi_count": 67.3
       },
-      "connectivity_pr_composite": 43.4,
+      "connectivity_pr_composite": 50.3,
       "low_connectivity_flag": false
     },
     {
@@ -4700,15 +5201,19 @@
             "name": "MORE FIT 松江南京店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 233,
+        "retail_poi_count": 198
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 11.3,
         "sports_business_count": 90.6,
         "commercial_zoning_area_m2": 52.8,
-        "parking_spaces": 86.2
+        "parking_spaces": 86.2,
+        "dining_poi_count": 89.3,
+        "retail_poi_count": 92.5
       },
-      "connectivity_pr_composite": 60.2,
+      "connectivity_pr_composite": 70.5,
       "low_connectivity_flag": false
     },
     {
@@ -4736,15 +5241,19 @@
             "name": "長興極限空間",
             "type": "武術"
           }
-        ]
+        ],
+        "dining_poi_count": 87,
+        "retail_poi_count": 113
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 12.6,
         "sports_business_count": 11.9,
         "commercial_zoning_area_m2": 52.2,
-        "parking_spaces": 56.0
+        "parking_spaces": 56.0,
+        "dining_poi_count": 27.0,
+        "retail_poi_count": 66.7
       },
-      "connectivity_pr_composite": 33.2,
+      "connectivity_pr_composite": 37.7,
       "low_connectivity_flag": false
     },
     {
@@ -4786,15 +5295,19 @@
             "name": "山姆伯伯工作坊",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 86,
+        "retail_poi_count": 48
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 52.2,
         "sports_business_count": 42.8,
         "commercial_zoning_area_m2": 51.6,
-        "parking_spaces": 8.8
+        "parking_spaces": 8.8,
+        "dining_poi_count": 25.2,
+        "retail_poi_count": 27.7
       },
-      "connectivity_pr_composite": 38.9,
+      "connectivity_pr_composite": 34.7,
       "low_connectivity_flag": false
     },
     {
@@ -4848,15 +5361,19 @@
             "name": "Eros Fitness艾瑞斯健身工作室",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 249,
+        "retail_poi_count": 158
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 74.8,
         "sports_business_count": 80.5,
         "commercial_zoning_area_m2": 50.9,
-        "parking_spaces": 68.6
+        "parking_spaces": 68.6,
+        "dining_poi_count": 93.1,
+        "retail_poi_count": 86.2
       },
-      "connectivity_pr_composite": 68.7,
+      "connectivity_pr_composite": 75.7,
       "low_connectivity_flag": false
     },
     {
@@ -4923,15 +5440,19 @@
             "name": "Flow Taipei",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 213,
+        "retail_poi_count": 136
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 100.0,
         "sports_business_count": 96.9,
         "commercial_zoning_area_m2": 50.3,
-        "parking_spaces": 67.9
+        "parking_spaces": 67.9,
+        "dining_poi_count": 86.2,
+        "retail_poi_count": 79.2
       },
-      "connectivity_pr_composite": 78.8,
+      "connectivity_pr_composite": 80.1,
       "low_connectivity_flag": false
     },
     {
@@ -4959,16 +5480,20 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 86,
+        "retail_poi_count": 36
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 30.2,
         "sports_business_count": 17.6,
         "commercial_zoning_area_m2": 49.7,
-        "parking_spaces": 3.1
+        "parking_spaces": 3.1,
+        "dining_poi_count": 25.8,
+        "retail_poi_count": 20.8
       },
-      "connectivity_pr_composite": 25.1,
-      "low_connectivity_flag": false
+      "connectivity_pr_composite": 24.5,
+      "low_connectivity_flag": true
     },
     {
       "name": "美仁一號公園",
@@ -5061,15 +5586,19 @@
             "name": "唯爾運動Well Space",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 143,
+        "retail_poi_count": 51
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 63.5,
         "sports_business_count": 100.0,
         "commercial_zoning_area_m2": 49.1,
-        "parking_spaces": 45.9
+        "parking_spaces": 45.9,
+        "dining_poi_count": 59.7,
+        "retail_poi_count": 29.6
       },
-      "connectivity_pr_composite": 64.6,
+      "connectivity_pr_composite": 58.0,
       "low_connectivity_flag": false
     },
     {
@@ -5126,15 +5655,19 @@
             "name": "中山國中星耀樓",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 97,
+        "retail_poi_count": 45
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 62.3,
         "sports_business_count": 86.2,
         "commercial_zoning_area_m2": 48.4,
-        "parking_spaces": 74.8
+        "parking_spaces": 74.8,
+        "dining_poi_count": 34.0,
+        "retail_poi_count": 25.8
       },
-      "connectivity_pr_composite": 67.9,
+      "connectivity_pr_composite": 55.2,
       "low_connectivity_flag": false
     },
     {
@@ -5215,15 +5748,19 @@
             "name": "唯爾運動Well Space",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 130,
+        "retail_poi_count": 50
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 64.2,
         "sports_business_count": 99.4,
         "commercial_zoning_area_m2": 47.8,
-        "parking_spaces": 47.2
+        "parking_spaces": 47.2,
+        "dining_poi_count": 54.7,
+        "retail_poi_count": 28.3
       },
-      "connectivity_pr_composite": 64.7,
+      "connectivity_pr_composite": 56.9,
       "low_connectivity_flag": false
     },
     {
@@ -5265,15 +5802,19 @@
             "name": "Jenny’s Pilates 珍妮彼拉提斯體適能學苑            ",
             "type": "皮拉提斯"
           }
-        ]
+        ],
+        "dining_poi_count": 174,
+        "retail_poi_count": 71
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 82.4,
         "sports_business_count": 51.6,
         "commercial_zoning_area_m2": 47.2,
-        "parking_spaces": 50.9
+        "parking_spaces": 50.9,
+        "dining_poi_count": 73.6,
+        "retail_poi_count": 45.9
       },
-      "connectivity_pr_composite": 58.0,
+      "connectivity_pr_composite": 58.6,
       "low_connectivity_flag": false
     },
     {
@@ -5318,15 +5859,19 @@
             "name": "師大附中運動中心游泳池",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 143,
+        "retail_poi_count": 72
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 81.8,
         "sports_business_count": 63.5,
         "commercial_zoning_area_m2": 46.5,
-        "parking_spaces": 65.4
+        "parking_spaces": 65.4,
+        "dining_poi_count": 60.4,
+        "retail_poi_count": 46.5
       },
-      "connectivity_pr_composite": 64.3,
+      "connectivity_pr_composite": 60.7,
       "low_connectivity_flag": false
     },
     {
@@ -5377,15 +5922,19 @@
             "name": "cocoon lab 繭 感官實驗室",
             "type": "瑜珈"
           }
-        ]
+        ],
+        "dining_poi_count": 136,
+        "retail_poi_count": 98
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 86.2,
         "sports_business_count": 73.0,
         "commercial_zoning_area_m2": 45.9,
-        "parking_spaces": 15.1
+        "parking_spaces": 15.1,
+        "dining_poi_count": 56.6,
+        "retail_poi_count": 59.7
       },
-      "connectivity_pr_composite": 55.0,
+      "connectivity_pr_composite": 56.1,
       "low_connectivity_flag": false
     },
     {
@@ -5423,15 +5972,19 @@
             "name": "天生好手桌球訓練中心",
             "type": "桌球"
           }
-        ]
+        ],
+        "dining_poi_count": 92,
+        "retail_poi_count": 75
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 88.7,
         "sports_business_count": 40.3,
         "commercial_zoning_area_m2": 45.3,
-        "parking_spaces": 10.7
+        "parking_spaces": 10.7,
+        "dining_poi_count": 32.1,
+        "retail_poi_count": 50.3
       },
-      "connectivity_pr_composite": 46.2,
+      "connectivity_pr_composite": 44.6,
       "low_connectivity_flag": false
     },
     {
@@ -5464,15 +6017,19 @@
             "name": "Dance Zone 舞蹈生活館",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 93,
+        "retail_poi_count": 21
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 57.9,
         "sports_business_count": 25.8,
         "commercial_zoning_area_m2": 44.7,
-        "parking_spaces": 40.3
+        "parking_spaces": 40.3,
+        "dining_poi_count": 32.7,
+        "retail_poi_count": 8.8
       },
-      "connectivity_pr_composite": 42.2,
+      "connectivity_pr_composite": 35.0,
       "low_connectivity_flag": false
     },
     {
@@ -5496,15 +6053,19 @@
             "name": "Curves忠孝新生店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 141,
+        "retail_poi_count": 85
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 38.4,
         "sports_business_count": 8.8,
         "commercial_zoning_area_m2": 44.0,
-        "parking_spaces": 42.8
+        "parking_spaces": 42.8,
+        "dining_poi_count": 59.1,
+        "retail_poi_count": 54.7
       },
-      "connectivity_pr_composite": 33.5,
+      "connectivity_pr_composite": 41.3,
       "low_connectivity_flag": false
     },
     {
@@ -5546,15 +6107,19 @@
             "name": "Flow Taipei",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 181,
+        "retail_poi_count": 63
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 84.3,
         "sports_business_count": 52.8,
         "commercial_zoning_area_m2": 43.4,
-        "parking_spaces": 49.7
+        "parking_spaces": 49.7,
+        "dining_poi_count": 76.7,
+        "retail_poi_count": 37.1
       },
-      "connectivity_pr_composite": 57.5,
+      "connectivity_pr_composite": 57.3,
       "low_connectivity_flag": false
     },
     {
@@ -5604,15 +6169,19 @@
             "name": "Jenny’s Pilates 珍妮彼拉提斯體適能學苑            ",
             "type": "皮拉提斯"
           }
-        ]
+        ],
+        "dining_poi_count": 184,
+        "retail_poi_count": 66
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 77.4,
         "sports_business_count": 71.7,
         "commercial_zoning_area_m2": 42.8,
-        "parking_spaces": 42.1
+        "parking_spaces": 42.1,
+        "dining_poi_count": 79.2,
+        "retail_poi_count": 38.4
       },
-      "connectivity_pr_composite": 58.5,
+      "connectivity_pr_composite": 58.6,
       "low_connectivity_flag": false
     },
     {
@@ -5648,15 +6217,19 @@
             "name": "WEEE Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 90,
+        "retail_poi_count": 46
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 5.7,
         "sports_business_count": 34.6,
         "commercial_zoning_area_m2": 42.1,
-        "parking_spaces": 88.1
+        "parking_spaces": 88.1,
+        "dining_poi_count": 30.2,
+        "retail_poi_count": 27.0
       },
-      "connectivity_pr_composite": 42.6,
+      "connectivity_pr_composite": 37.9,
       "low_connectivity_flag": false
     },
     {
@@ -5714,15 +6287,19 @@
             "name": "BEING fit 松江門市",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 107,
+        "retail_poi_count": 70
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 54.7,
         "sports_business_count": 84.9,
         "commercial_zoning_area_m2": 41.5,
-        "parking_spaces": 92.5
+        "parking_spaces": 92.5,
+        "dining_poi_count": 40.3,
+        "retail_poi_count": 44.7
       },
-      "connectivity_pr_composite": 68.4,
+      "connectivity_pr_composite": 59.8,
       "low_connectivity_flag": false
     },
     {
@@ -5778,15 +6355,19 @@
             "name": "中山國中星耀樓",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 101,
+        "retail_poi_count": 37
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 20.1,
         "sports_business_count": 86.8,
         "commercial_zoning_area_m2": 40.9,
-        "parking_spaces": 91.2
+        "parking_spaces": 91.2,
+        "dining_poi_count": 35.8,
+        "retail_poi_count": 21.4
       },
-      "connectivity_pr_composite": 59.8,
+      "connectivity_pr_composite": 49.4,
       "low_connectivity_flag": false
     },
     {
@@ -5821,15 +6402,19 @@
             "name": "玉泉公園游泳池",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 45,
+        "retail_poi_count": 20
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 57.2,
         "sports_business_count": 25.2,
         "commercial_zoning_area_m2": 40.3,
-        "parking_spaces": 89.9
+        "parking_spaces": 89.9,
+        "dining_poi_count": 3.8,
+        "retail_poi_count": 7.5
       },
-      "connectivity_pr_composite": 53.2,
+      "connectivity_pr_composite": 37.3,
       "low_connectivity_flag": false
     },
     {
@@ -5876,15 +6461,19 @@
             "name": "力坊體適能忠孝復興店 LEAP Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 120,
+        "retail_poi_count": 97
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 87.4,
         "sports_business_count": 64.2,
         "commercial_zoning_area_m2": 39.6,
-        "parking_spaces": 76.1
+        "parking_spaces": 76.1,
+        "dining_poi_count": 47.8,
+        "retail_poi_count": 58.5
       },
-      "connectivity_pr_composite": 66.8,
+      "connectivity_pr_composite": 62.3,
       "low_connectivity_flag": false
     },
     {
@@ -5950,15 +6539,19 @@
             "name": "Give Training",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 125,
+        "retail_poi_count": 68
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 80.5,
         "sports_business_count": 96.2,
         "commercial_zoning_area_m2": 39.0,
-        "parking_spaces": 7.5
+        "parking_spaces": 7.5,
+        "dining_poi_count": 50.3,
+        "retail_poi_count": 41.5
       },
-      "connectivity_pr_composite": 55.8,
+      "connectivity_pr_composite": 52.5,
       "low_connectivity_flag": false
     },
     {
@@ -5990,15 +6583,19 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 89,
+        "retail_poi_count": 65
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 28.3,
         "sports_business_count": 28.9,
         "commercial_zoning_area_m2": 38.4,
-        "parking_spaces": 59.7
+        "parking_spaces": 59.7,
+        "dining_poi_count": 29.6,
+        "retail_poi_count": 37.7
       },
-      "connectivity_pr_composite": 38.8,
+      "connectivity_pr_composite": 37.1,
       "low_connectivity_flag": false
     },
     {
@@ -6053,15 +6650,19 @@
             "name": "天生好手桌球訓練中心",
             "type": "桌球"
           }
-        ]
+        ],
+        "dining_poi_count": 123,
+        "retail_poi_count": 66
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 78.0,
         "sports_business_count": 81.1,
         "commercial_zoning_area_m2": 37.7,
-        "parking_spaces": 28.3
+        "parking_spaces": 28.3,
+        "dining_poi_count": 49.1,
+        "retail_poi_count": 39.0
       },
-      "connectivity_pr_composite": 56.3,
+      "connectivity_pr_composite": 52.2,
       "low_connectivity_flag": false
     },
     {
@@ -6123,15 +6724,19 @@
             "name": "B.P.Y 220 台北忠孝店",
             "type": "皮拉提斯"
           }
-        ]
+        ],
+        "dining_poi_count": 174,
+        "retail_poi_count": 73
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 83.0,
         "sports_business_count": 91.8,
         "commercial_zoning_area_m2": 37.1,
-        "parking_spaces": 98.1
+        "parking_spaces": 98.1,
+        "dining_poi_count": 74.2,
+        "retail_poi_count": 47.2
       },
-      "connectivity_pr_composite": 77.5,
+      "connectivity_pr_composite": 71.9,
       "low_connectivity_flag": false
     },
     {
@@ -6181,15 +6786,19 @@
             "name": "天生好手桌球訓練中心",
             "type": "桌球"
           }
-        ]
+        ],
+        "dining_poi_count": 109,
+        "retail_poi_count": 90
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 90.6,
         "sports_business_count": 73.6,
         "commercial_zoning_area_m2": 36.5,
-        "parking_spaces": 54.1
+        "parking_spaces": 54.1,
+        "dining_poi_count": 42.1,
+        "retail_poi_count": 56.6
       },
-      "connectivity_pr_composite": 63.7,
+      "connectivity_pr_composite": 58.9,
       "low_connectivity_flag": false
     },
     {
@@ -6233,15 +6842,19 @@
             "name": "Flow Taipei",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 157,
+        "retail_poi_count": 53
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 40.3,
         "sports_business_count": 62.3,
         "commercial_zoning_area_m2": 35.8,
-        "parking_spaces": 54.7
+        "parking_spaces": 54.7,
+        "dining_poi_count": 67.9,
+        "retail_poi_count": 31.4
       },
-      "connectivity_pr_composite": 48.3,
+      "connectivity_pr_composite": 48.7,
       "low_connectivity_flag": false
     },
     {
@@ -6299,15 +6912,19 @@
             "name": "Waypoint 作伙CrossFit",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 73,
+        "retail_poi_count": 70
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 86.8,
         "sports_business_count": 89.3,
         "commercial_zoning_area_m2": 35.2,
-        "parking_spaces": 51.6
+        "parking_spaces": 51.6,
+        "dining_poi_count": 17.6,
+        "retail_poi_count": 45.3
       },
-      "connectivity_pr_composite": 65.7,
+      "connectivity_pr_composite": 54.3,
       "low_connectivity_flag": false
     },
     {
@@ -6342,15 +6959,19 @@
             "name": "師大附中運動中心游泳池",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 84,
+        "retail_poi_count": 53
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 44.0,
         "sports_business_count": 39.0,
         "commercial_zoning_area_m2": 34.6,
-        "parking_spaces": 52.2
+        "parking_spaces": 52.2,
+        "dining_poi_count": 24.5,
+        "retail_poi_count": 32.7
       },
-      "connectivity_pr_composite": 42.5,
+      "connectivity_pr_composite": 37.8,
       "low_connectivity_flag": false
     },
     {
@@ -6406,15 +7027,19 @@
             "name": "小虎世界民生推廣中心",
             "type": "兒童體操"
           }
-        ]
+        ],
+        "dining_poi_count": 89,
+        "retail_poi_count": 53
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 22.6,
         "sports_business_count": 87.4,
         "commercial_zoning_area_m2": 34.0,
-        "parking_spaces": 46.5
+        "parking_spaces": 46.5,
+        "dining_poi_count": 28.9,
+        "retail_poi_count": 30.8
       },
-      "connectivity_pr_composite": 47.6,
+      "connectivity_pr_composite": 41.7,
       "low_connectivity_flag": false
     },
     {
@@ -6468,15 +7093,19 @@
             "name": "波克萊體能 BULKLIFE Studio",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 138,
+        "retail_poi_count": 123
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 71.1,
         "sports_business_count": 79.9,
         "commercial_zoning_area_m2": 33.3,
-        "parking_spaces": 5.7
+        "parking_spaces": 5.7,
+        "dining_poi_count": 57.9,
+        "retail_poi_count": 70.4
       },
-      "connectivity_pr_composite": 47.5,
+      "connectivity_pr_composite": 53.1,
       "low_connectivity_flag": false
     },
     {
@@ -6529,15 +7158,19 @@
             "name": "中山國中星耀樓",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 62,
+        "retail_poi_count": 30
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 61.6,
         "sports_business_count": 78.6,
         "commercial_zoning_area_m2": 32.7,
-        "parking_spaces": 70.4
+        "parking_spaces": 70.4,
+        "dining_poi_count": 11.9,
+        "retail_poi_count": 17.0
       },
-      "connectivity_pr_composite": 60.8,
+      "connectivity_pr_composite": 45.4,
       "low_connectivity_flag": false
     },
     {
@@ -6564,15 +7197,19 @@
             "name": "SuperFIT私人教練健身房會館-松江民權館",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 103,
+        "retail_poi_count": 39
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 2.5,
         "sports_business_count": 10.7,
         "commercial_zoning_area_m2": 32.1,
-        "parking_spaces": 71.7
+        "parking_spaces": 71.7,
+        "dining_poi_count": 37.1,
+        "retail_poi_count": 23.9
       },
-      "connectivity_pr_composite": 29.2,
+      "connectivity_pr_composite": 29.7,
       "low_connectivity_flag": false
     },
     {
@@ -6606,15 +7243,19 @@
             "name": "Soulfree Freediving &amp; Yoga",
             "type": "潛水"
           }
-        ]
+        ],
+        "dining_poi_count": 129,
+        "retail_poi_count": 141
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 88.1,
         "sports_business_count": 31.4,
         "commercial_zoning_area_m2": 31.4,
-        "parking_spaces": 69.2
+        "parking_spaces": 69.2,
+        "dining_poi_count": 54.1,
+        "retail_poi_count": 83.0
       },
-      "connectivity_pr_composite": 55.0,
+      "connectivity_pr_composite": 59.5,
       "low_connectivity_flag": false
     },
     {
@@ -6647,15 +7288,19 @@
             "name": "Soulfree Freediving &amp; Yoga",
             "type": "潛水"
           }
-        ]
+        ],
+        "dining_poi_count": 127,
+        "retail_poi_count": 142
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 91.8,
         "sports_business_count": 32.7,
         "commercial_zoning_area_m2": 30.8,
-        "parking_spaces": 69.8
+        "parking_spaces": 69.8,
+        "dining_poi_count": 53.5,
+        "retail_poi_count": 83.6
       },
-      "connectivity_pr_composite": 56.3,
+      "connectivity_pr_composite": 60.4,
       "low_connectivity_flag": false
     },
     {
@@ -6683,15 +7328,19 @@
             "name": "WEEE Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 76,
+        "retail_poi_count": 38
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 8.2,
         "sports_business_count": 11.3,
         "commercial_zoning_area_m2": 30.2,
-        "parking_spaces": 67.3
+        "parking_spaces": 67.3,
+        "dining_poi_count": 20.1,
+        "retail_poi_count": 22.6
       },
-      "connectivity_pr_composite": 29.2,
+      "connectivity_pr_composite": 26.6,
       "low_connectivity_flag": false
     },
     {
@@ -6733,15 +7382,19 @@
             "name": "HATHA YOGA STUDIO",
             "type": "瑜珈"
           }
-        ]
+        ],
+        "dining_poi_count": 185,
+        "retail_poi_count": 122
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 79.9,
         "sports_business_count": 50.3,
         "commercial_zoning_area_m2": 29.6,
-        "parking_spaces": 22.6
+        "parking_spaces": 22.6,
+        "dining_poi_count": 81.1,
+        "retail_poi_count": 69.2
       },
-      "connectivity_pr_composite": 45.6,
+      "connectivity_pr_composite": 55.4,
       "low_connectivity_flag": false
     },
     {
@@ -6777,15 +7430,19 @@
             "name": "Jenny’s Pilates 珍妮彼拉提斯體適能學苑            ",
             "type": "皮拉提斯"
           }
-        ]
+        ],
+        "dining_poi_count": 155,
+        "retail_poi_count": 39
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 44.7,
         "sports_business_count": 39.6,
         "commercial_zoning_area_m2": 28.9,
-        "parking_spaces": 28.9
+        "parking_spaces": 28.9,
+        "dining_poi_count": 67.3,
+        "retail_poi_count": 24.5
       },
-      "connectivity_pr_composite": 35.5,
+      "connectivity_pr_composite": 39.0,
       "low_connectivity_flag": false
     },
     {
@@ -6824,15 +7481,19 @@
             "name": "巧克叔叔體育用品社",
             "type": "撞球"
           }
-        ]
+        ],
+        "dining_poi_count": 61,
+        "retail_poi_count": 26
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 4.4,
         "sports_business_count": 42.1,
         "commercial_zoning_area_m2": 28.3,
-        "parking_spaces": 73.6
+        "parking_spaces": 73.6,
+        "dining_poi_count": 10.7,
+        "retail_poi_count": 14.5
       },
-      "connectivity_pr_composite": 37.1,
+      "connectivity_pr_composite": 28.9,
       "low_connectivity_flag": false
     },
     {
@@ -6856,15 +7517,19 @@
             "name": "Banana Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 47,
+        "retail_poi_count": 9
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 11.9,
         "sports_business_count": 3.1,
         "commercial_zoning_area_m2": 27.7,
-        "parking_spaces": 33.3
+        "parking_spaces": 33.3,
+        "dining_poi_count": 4.4,
+        "retail_poi_count": 0.0
       },
-      "connectivity_pr_composite": 19.0,
+      "connectivity_pr_composite": 13.4,
       "low_connectivity_flag": true
     },
     {
@@ -6908,15 +7573,19 @@
             "name": "普拉斯運動顧問",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 58,
+        "retail_poi_count": 21
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 8.8,
         "sports_business_count": 55.3,
         "commercial_zoning_area_m2": 27.0,
-        "parking_spaces": 43.4
+        "parking_spaces": 43.4,
+        "dining_poi_count": 8.2,
+        "retail_poi_count": 8.2
       },
-      "connectivity_pr_composite": 33.6,
+      "connectivity_pr_composite": 25.1,
       "low_connectivity_flag": false
     },
     {
@@ -6980,15 +7649,19 @@
             "name": "超越心動力",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 112,
+        "retail_poi_count": 34
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 20.8,
         "sports_business_count": 95.6,
         "commercial_zoning_area_m2": 26.4,
-        "parking_spaces": 40.9
+        "parking_spaces": 40.9,
+        "dining_poi_count": 44.0,
+        "retail_poi_count": 19.5
       },
-      "connectivity_pr_composite": 45.9,
+      "connectivity_pr_composite": 41.2,
       "low_connectivity_flag": false
     },
     {
@@ -7042,15 +7715,19 @@
             "name": "HATHA YOGA STUDIO",
             "type": "瑜珈"
           }
-        ]
+        ],
+        "dining_poi_count": 184,
+        "retail_poi_count": 123
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 84.9,
         "sports_business_count": 81.8,
         "commercial_zoning_area_m2": 25.8,
-        "parking_spaces": 13.2
+        "parking_spaces": 13.2,
+        "dining_poi_count": 79.9,
+        "retail_poi_count": 71.1
       },
-      "connectivity_pr_composite": 51.4,
+      "connectivity_pr_composite": 59.5,
       "low_connectivity_flag": false
     },
     {
@@ -7092,15 +7769,19 @@
             "name": "天生好手桌球訓練中心",
             "type": "桌球"
           }
-        ]
+        ],
+        "dining_poi_count": 114,
+        "retail_poi_count": 83
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 89.3,
         "sports_business_count": 53.5,
         "commercial_zoning_area_m2": 24.5,
-        "parking_spaces": 20.8
+        "parking_spaces": 20.8,
+        "dining_poi_count": 45.3,
+        "retail_poi_count": 53.5
       },
-      "connectivity_pr_composite": 47.0,
+      "connectivity_pr_composite": 47.8,
       "low_connectivity_flag": false
     },
     {
@@ -7141,15 +7822,19 @@
             "name": "天生好手桌球訓練中心",
             "type": "桌球"
           }
-        ]
+        ],
+        "dining_poi_count": 114,
+        "retail_poi_count": 83
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 89.9,
         "sports_business_count": 54.1,
         "commercial_zoning_area_m2": 25.2,
-        "parking_spaces": 21.4
+        "parking_spaces": 21.4,
+        "dining_poi_count": 45.9,
+        "retail_poi_count": 54.1
       },
-      "connectivity_pr_composite": 47.6,
+      "connectivity_pr_composite": 48.4,
       "low_connectivity_flag": false
     },
     {
@@ -7191,15 +7876,19 @@
             "name": "天生好手桌球訓練中心",
             "type": "桌球"
           }
-        ]
+        ],
+        "dining_poi_count": 102,
+        "retail_poi_count": 69
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 81.1,
         "sports_business_count": 50.9,
         "commercial_zoning_area_m2": 23.9,
-        "parking_spaces": 32.7
+        "parking_spaces": 32.7,
+        "dining_poi_count": 36.5,
+        "retail_poi_count": 44.0
       },
-      "connectivity_pr_composite": 47.2,
+      "connectivity_pr_composite": 44.9,
       "low_connectivity_flag": false
     },
     {
@@ -7248,15 +7937,19 @@
             "name": "HATHA YOGA STUDIO",
             "type": "瑜珈"
           }
-        ]
+        ],
+        "dining_poi_count": 191,
+        "retail_poi_count": 128
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 91.2,
         "sports_business_count": 74.2,
         "commercial_zoning_area_m2": 23.3,
-        "parking_spaces": 6.9
+        "parking_spaces": 6.9,
+        "dining_poi_count": 83.0,
+        "retail_poi_count": 75.5
       },
-      "connectivity_pr_composite": 48.9,
+      "connectivity_pr_composite": 59.0,
       "low_connectivity_flag": false
     },
     {
@@ -7288,15 +7981,19 @@
             "name": "DR.GYM 運動醫療訓練中心",
             "type": "體適能"
           }
-        ]
+        ],
+        "dining_poi_count": 86,
+        "retail_poi_count": 82
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 98.7,
         "sports_business_count": 22.0,
         "commercial_zoning_area_m2": 22.6,
-        "parking_spaces": 5.0
+        "parking_spaces": 5.0,
+        "dining_poi_count": 26.4,
+        "retail_poi_count": 52.2
       },
-      "connectivity_pr_composite": 37.1,
+      "connectivity_pr_composite": 37.8,
       "low_connectivity_flag": false
     },
     {
@@ -7340,15 +8037,19 @@
             "name": "超越心動力",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 133,
+        "retail_poi_count": 37
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 25.2,
         "sports_business_count": 58.5,
         "commercial_zoning_area_m2": 22.0,
-        "parking_spaces": 48.4
+        "parking_spaces": 48.4,
+        "dining_poi_count": 56.0,
+        "retail_poi_count": 22.0
       },
-      "connectivity_pr_composite": 38.5,
+      "connectivity_pr_composite": 38.7,
       "low_connectivity_flag": false
     },
     {
@@ -7390,15 +8091,19 @@
             "name": "POWER FIT運動工作室",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 158,
+        "retail_poi_count": 158
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 70.4,
         "sports_business_count": 47.8,
         "commercial_zoning_area_m2": 21.4,
-        "parking_spaces": 52.8
+        "parking_spaces": 52.8,
+        "dining_poi_count": 68.6,
+        "retail_poi_count": 85.5
       },
-      "connectivity_pr_composite": 48.1,
+      "connectivity_pr_composite": 57.8,
       "low_connectivity_flag": false
     },
     {
@@ -7464,15 +8169,19 @@
             "name": "唯爾運動Well Space",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 104,
+        "retail_poi_count": 34
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 61.0,
         "sports_business_count": 95.0,
         "commercial_zoning_area_m2": 20.8,
-        "parking_spaces": 44.7
+        "parking_spaces": 44.7,
+        "dining_poi_count": 38.4,
+        "retail_poi_count": 18.9
       },
-      "connectivity_pr_composite": 55.4,
+      "connectivity_pr_composite": 46.5,
       "low_connectivity_flag": false
     },
     {
@@ -7511,15 +8220,19 @@
             "name": "奮發向上健身",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 92,
+        "retail_poi_count": 35
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 41.5,
         "sports_business_count": 49.7,
         "commercial_zoning_area_m2": 20.1,
-        "parking_spaces": 49.1
+        "parking_spaces": 49.1,
+        "dining_poi_count": 31.4,
+        "retail_poi_count": 20.1
       },
-      "connectivity_pr_composite": 40.1,
+      "connectivity_pr_composite": 35.3,
       "low_connectivity_flag": false
     },
     {
@@ -7551,15 +8264,19 @@
             "name": "RPS 運動整合訓練中心",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 103,
+        "retail_poi_count": 38
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 45.3,
         "sports_business_count": 32.1,
         "commercial_zoning_area_m2": 19.5,
-        "parking_spaces": 18.9
+        "parking_spaces": 18.9,
+        "dining_poi_count": 37.7,
+        "retail_poi_count": 23.3
       },
-      "connectivity_pr_composite": 29.0,
+      "connectivity_pr_composite": 29.5,
       "low_connectivity_flag": false
     },
     {
@@ -7600,15 +8317,19 @@
             "name": "力坊體適能忠孝復興店 LEAP Fitness",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 63,
+        "retail_poi_count": 73
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 83.6,
         "sports_business_count": 52.2,
         "commercial_zoning_area_m2": 18.9,
-        "parking_spaces": 57.2
+        "parking_spaces": 57.2,
+        "dining_poi_count": 12.6,
+        "retail_poi_count": 47.8
       },
-      "connectivity_pr_composite": 53.0,
+      "connectivity_pr_composite": 45.4,
       "low_connectivity_flag": false
     },
     {
@@ -7644,15 +8365,19 @@
             "name": "Master Fitness專業健身職人",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 69,
+        "retail_poi_count": 45
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 76.7,
         "sports_business_count": 30.2,
         "commercial_zoning_area_m2": 18.2,
-        "parking_spaces": 83.0
+        "parking_spaces": 83.0,
+        "dining_poi_count": 15.7,
+        "retail_poi_count": 26.4
       },
-      "connectivity_pr_composite": 52.0,
+      "connectivity_pr_composite": 41.7,
       "low_connectivity_flag": false
     },
     {
@@ -7679,15 +8404,19 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 74,
+        "retail_poi_count": 18
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 35.8,
         "sports_business_count": 20.1,
         "commercial_zoning_area_m2": 17.6,
-        "parking_spaces": 9.4
+        "parking_spaces": 9.4,
+        "dining_poi_count": 18.2,
+        "retail_poi_count": 6.3
       },
-      "connectivity_pr_composite": 20.7,
+      "connectivity_pr_composite": 17.9,
       "low_connectivity_flag": true
     },
     {
@@ -7730,15 +8459,19 @@
             "name": "Purpose Space Soft",
             "type": "皮拉提斯"
           }
-        ]
+        ],
+        "dining_poi_count": 154,
+        "retail_poi_count": 57
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 40.9,
         "sports_business_count": 62.9,
         "commercial_zoning_area_m2": 17.0,
-        "parking_spaces": 39.0
+        "parking_spaces": 39.0,
+        "dining_poi_count": 65.4,
+        "retail_poi_count": 34.0
       },
-      "connectivity_pr_composite": 40.0,
+      "connectivity_pr_composite": 43.2,
       "low_connectivity_flag": false
     },
     {
@@ -7776,15 +8509,19 @@
             "name": "POWER FIT運動工作室",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 68,
+        "retail_poi_count": 53
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 79.2,
         "sports_business_count": 38.4,
         "commercial_zoning_area_m2": 16.4,
-        "parking_spaces": 59.1
+        "parking_spaces": 59.1,
+        "dining_poi_count": 15.1,
+        "retail_poi_count": 32.1
       },
-      "connectivity_pr_composite": 48.3,
+      "connectivity_pr_composite": 40.0,
       "low_connectivity_flag": false
     },
     {
@@ -7811,15 +8548,19 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 58,
+        "retail_poi_count": 12
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 31.4,
         "sports_business_count": 18.2,
         "commercial_zoning_area_m2": 15.7,
-        "parking_spaces": 15.7
+        "parking_spaces": 15.7,
+        "dining_poi_count": 8.8,
+        "retail_poi_count": 4.4
       },
-      "connectivity_pr_composite": 20.2,
+      "connectivity_pr_composite": 15.7,
       "low_connectivity_flag": true
     },
     {
@@ -7853,15 +8594,19 @@
             "name": "Master Fitness專業健身職人",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 58,
+        "retail_poi_count": 29
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 78.6,
         "sports_business_count": 30.8,
         "commercial_zoning_area_m2": 15.1,
-        "parking_spaces": 18.2
+        "parking_spaces": 18.2,
+        "dining_poi_count": 9.4,
+        "retail_poi_count": 16.4
       },
-      "connectivity_pr_composite": 35.7,
+      "connectivity_pr_composite": 28.1,
       "low_connectivity_flag": false
     },
     {
@@ -7885,16 +8630,20 @@
             "name": "MMAclass松山格鬥教室",
             "type": "綜合武術格鬥"
           }
-        ]
+        ],
+        "dining_poi_count": 57,
+        "retail_poi_count": 18
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 24.5,
         "sports_business_count": 6.3,
         "commercial_zoning_area_m2": 14.5,
-        "parking_spaces": 71.1
+        "parking_spaces": 71.1,
+        "dining_poi_count": 7.5,
+        "retail_poi_count": 5.7
       },
-      "connectivity_pr_composite": 29.1,
-      "low_connectivity_flag": false
+      "connectivity_pr_composite": 21.6,
+      "low_connectivity_flag": true
     },
     {
       "name": "金華公園",
@@ -7921,15 +8670,19 @@
             "name": "World Gym健身俱樂部台北麗水店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 126,
+        "retail_poi_count": 54
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 43.4,
         "sports_business_count": 22.6,
         "commercial_zoning_area_m2": 13.8,
-        "parking_spaces": 27.7
+        "parking_spaces": 27.7,
+        "dining_poi_count": 52.2,
+        "retail_poi_count": 33.3
       },
-      "connectivity_pr_composite": 26.9,
+      "connectivity_pr_composite": 32.2,
       "low_connectivity_flag": false
     },
     {
@@ -7985,15 +8738,19 @@
             "name": "超越心動力",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 138,
+        "retail_poi_count": 67
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 25.8,
         "sports_business_count": 88.1,
         "commercial_zoning_area_m2": 13.2,
-        "parking_spaces": 60.4
+        "parking_spaces": 60.4,
+        "dining_poi_count": 57.2,
+        "retail_poi_count": 39.6
       },
-      "connectivity_pr_composite": 46.9,
+      "connectivity_pr_composite": 47.4,
       "low_connectivity_flag": false
     },
     {
@@ -8041,15 +8798,19 @@
             "name": "RPS 運動整合訓練中心",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 75,
+        "retail_poi_count": 24
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 42.8,
         "sports_business_count": 72.3,
         "commercial_zoning_area_m2": 12.6,
-        "parking_spaces": 11.3
+        "parking_spaces": 11.3,
+        "dining_poi_count": 19.5,
+        "retail_poi_count": 12.6
       },
-      "connectivity_pr_composite": 34.8,
+      "connectivity_pr_composite": 28.5,
       "low_connectivity_flag": false
     },
     {
@@ -8072,16 +8833,20 @@
             "name": "CV玩家體能訓練室",
             "type": "體適能"
           }
-        ]
+        ],
+        "dining_poi_count": 99,
+        "retail_poi_count": 111
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 17.0,
         "sports_business_count": 5.7,
         "commercial_zoning_area_m2": 11.9,
-        "parking_spaces": 22.0
+        "parking_spaces": 22.0,
+        "dining_poi_count": 35.2,
+        "retail_poi_count": 64.8
       },
-      "connectivity_pr_composite": 14.2,
-      "low_connectivity_flag": true
+      "connectivity_pr_composite": 26.1,
+      "low_connectivity_flag": false
     },
     {
       "name": "錦華綠地",
@@ -8107,15 +8872,19 @@
             "name": "World Gym健身俱樂部台北麗水店",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 151,
+        "retail_poi_count": 68
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 45.9,
         "sports_business_count": 23.3,
         "commercial_zoning_area_m2": 11.3,
-        "parking_spaces": 30.2
+        "parking_spaces": 30.2,
+        "dining_poi_count": 62.9,
+        "retail_poi_count": 42.1
       },
-      "connectivity_pr_composite": 27.7,
+      "connectivity_pr_composite": 35.9,
       "low_connectivity_flag": false
     },
     {
@@ -8139,15 +8908,19 @@
             "name": "Double8岩究所",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 78,
+        "retail_poi_count": 100
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 13.2,
         "sports_business_count": 3.8,
         "commercial_zoning_area_m2": 10.7,
-        "parking_spaces": 26.4
+        "parking_spaces": 26.4,
+        "dining_poi_count": 21.4,
+        "retail_poi_count": 61.6
       },
-      "connectivity_pr_composite": 13.5,
+      "connectivity_pr_composite": 22.8,
       "low_connectivity_flag": true
     },
     {
@@ -8170,15 +8943,19 @@
             "name": "Dance Zone 舞蹈生活館",
             "type": "舞蹈"
           }
-        ]
+        ],
+        "dining_poi_count": 61,
+        "retail_poi_count": 10
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 13.8,
         "sports_business_count": 4.4,
         "commercial_zoning_area_m2": 10.1,
-        "parking_spaces": 17.0
+        "parking_spaces": 17.0,
+        "dining_poi_count": 11.3,
+        "retail_poi_count": 1.3
       },
-      "connectivity_pr_composite": 11.3,
+      "connectivity_pr_composite": 9.7,
       "low_connectivity_flag": true
     },
     {
@@ -8214,16 +8991,20 @@
             "name": "波克萊體能 BULKLIFE Studio",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 88,
+        "retail_poi_count": 78
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 37.7,
         "sports_business_count": 37.7,
         "commercial_zoning_area_m2": 9.4,
-        "parking_spaces": 2.5
+        "parking_spaces": 2.5,
+        "dining_poi_count": 28.3,
+        "retail_poi_count": 51.6
       },
-      "connectivity_pr_composite": 21.8,
-      "low_connectivity_flag": true
+      "connectivity_pr_composite": 27.9,
+      "low_connectivity_flag": false
     },
     {
       "name": "糖廍公園",
@@ -8249,15 +9030,19 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 81,
+        "retail_poi_count": 22
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 36.5,
         "sports_business_count": 21.4,
         "commercial_zoning_area_m2": 8.8,
-        "parking_spaces": 10.1
+        "parking_spaces": 10.1,
+        "dining_poi_count": 23.3,
+        "retail_poi_count": 10.7
       },
-      "connectivity_pr_composite": 19.2,
+      "connectivity_pr_composite": 18.5,
       "low_connectivity_flag": true
     },
     {
@@ -8282,15 +9067,19 @@
             "name": "臺北市立大學博愛校區附設泳池",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 34,
+        "retail_poi_count": 23
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 69.8,
         "sports_business_count": 8.2,
         "commercial_zoning_area_m2": 8.2,
-        "parking_spaces": 0.0
+        "parking_spaces": 0.0,
+        "dining_poi_count": 1.3,
+        "retail_poi_count": 11.9
       },
-      "connectivity_pr_composite": 21.6,
+      "connectivity_pr_composite": 16.6,
       "low_connectivity_flag": true
     },
     {
@@ -8317,15 +9106,19 @@
             "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 73,
+        "retail_poi_count": 23
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 21.4,
         "sports_business_count": 14.5,
         "commercial_zoning_area_m2": 4.4,
-        "parking_spaces": 11.9
+        "parking_spaces": 11.9,
+        "dining_poi_count": 17.0,
+        "retail_poi_count": 11.3
       },
-      "connectivity_pr_composite": 13.0,
+      "connectivity_pr_composite": 13.4,
       "low_connectivity_flag": true
     },
     {
@@ -8365,15 +9158,19 @@
             "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 76,
+        "retail_poi_count": 27
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 22.0,
         "sports_business_count": 45.3,
         "commercial_zoning_area_m2": 5.0,
-        "parking_spaces": 64.2
+        "parking_spaces": 64.2,
+        "dining_poi_count": 20.8,
+        "retail_poi_count": 15.7
       },
-      "connectivity_pr_composite": 34.1,
+      "connectivity_pr_composite": 28.8,
       "low_connectivity_flag": false
     },
     {
@@ -8400,15 +9197,19 @@
             "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 47,
+        "retail_poi_count": 21
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 23.3,
         "sports_business_count": 15.1,
         "commercial_zoning_area_m2": 5.7,
-        "parking_spaces": 8.2
+        "parking_spaces": 8.2,
+        "dining_poi_count": 5.0,
+        "retail_poi_count": 9.4
       },
-      "connectivity_pr_composite": 13.1,
+      "connectivity_pr_composite": 11.1,
       "low_connectivity_flag": true
     },
     {
@@ -8435,15 +9236,19 @@
             "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 52,
+        "retail_poi_count": 21
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 23.9,
         "sports_business_count": 15.7,
         "commercial_zoning_area_m2": 6.3,
-        "parking_spaces": 12.6
+        "parking_spaces": 12.6,
+        "dining_poi_count": 6.3,
+        "retail_poi_count": 10.1
       },
-      "connectivity_pr_composite": 14.6,
+      "connectivity_pr_composite": 12.5,
       "low_connectivity_flag": true
     },
     {
@@ -8474,15 +9279,19 @@
             "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 80,
+        "retail_poi_count": 31
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 26.4,
         "sports_business_count": 27.7,
         "commercial_zoning_area_m2": 6.9,
-        "parking_spaces": 34.6
+        "parking_spaces": 34.6,
+        "dining_poi_count": 22.6,
+        "retail_poi_count": 17.6
       },
-      "connectivity_pr_composite": 23.9,
+      "connectivity_pr_composite": 22.6,
       "low_connectivity_flag": true
     },
     {
@@ -8513,16 +9322,20 @@
             "name": "阿基里斯Fitness Bar",
             "type": "健身房"
           }
-        ]
+        ],
+        "dining_poi_count": 48,
+        "retail_poi_count": 19
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 27.0,
         "sports_business_count": 28.3,
         "commercial_zoning_area_m2": 7.5,
-        "parking_spaces": 37.7
+        "parking_spaces": 37.7,
+        "dining_poi_count": 5.7,
+        "retail_poi_count": 6.9
       },
-      "connectivity_pr_composite": 25.1,
-      "low_connectivity_flag": false
+      "connectivity_pr_composite": 18.9,
+      "low_connectivity_flag": true
     },
     {
       "name": "居安公園",
@@ -8544,15 +9357,19 @@
             "name": "59Fitness客製化運動空間",
             "type": "體適能"
           }
-        ]
+        ],
+        "dining_poi_count": 67,
+        "retail_poi_count": 33
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 42.1,
         "sports_business_count": 10.1,
         "commercial_zoning_area_m2": 3.8,
-        "parking_spaces": 35.8
+        "parking_spaces": 35.8,
+        "dining_poi_count": 14.5,
+        "retail_poi_count": 18.2
       },
-      "connectivity_pr_composite": 22.9,
+      "connectivity_pr_composite": 20.8,
       "low_connectivity_flag": true
     },
     {
@@ -8579,15 +9396,19 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 39,
+        "retail_poi_count": 11
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 32.1,
         "sports_business_count": 18.9,
         "commercial_zoning_area_m2": 3.1,
-        "parking_spaces": 24.5
+        "parking_spaces": 24.5,
+        "dining_poi_count": 1.9,
+        "retail_poi_count": 1.9
       },
-      "connectivity_pr_composite": 19.6,
+      "connectivity_pr_composite": 13.7,
       "low_connectivity_flag": true
     },
     {
@@ -8615,16 +9436,20 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 75,
+        "retail_poi_count": 25
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 34.0,
         "sports_business_count": 19.5,
         "commercial_zoning_area_m2": 2.5,
-        "parking_spaces": 44.0
+        "parking_spaces": 44.0,
+        "dining_poi_count": 18.9,
+        "retail_poi_count": 13.8
       },
-      "connectivity_pr_composite": 25.0,
-      "low_connectivity_flag": false
+      "connectivity_pr_composite": 22.1,
+      "low_connectivity_flag": true
     },
     {
       "name": "大理公園",
@@ -8650,15 +9475,19 @@
             "name": "原岩攀岩館",
             "type": "攀岩"
           }
-        ]
+        ],
+        "dining_poi_count": 54,
+        "retail_poi_count": 15
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 27.7,
         "sports_business_count": 16.4,
         "commercial_zoning_area_m2": 1.9,
-        "parking_spaces": 23.9
+        "parking_spaces": 23.9,
+        "dining_poi_count": 6.9,
+        "retail_poi_count": 5.0
       },
-      "connectivity_pr_composite": 17.5,
+      "connectivity_pr_composite": 13.6,
       "low_connectivity_flag": true
     },
     {
@@ -8677,15 +9506,19 @@
         "market_zoning_area_m2": 0.0,
         "commercial_zoning_area_m2": 0.0,
         "sports_business_count": 0,
-        "sports_businesses": []
+        "sports_businesses": [],
+        "dining_poi_count": 30,
+        "retail_poi_count": 9
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 32.7,
         "sports_business_count": 1.3,
         "commercial_zoning_area_m2": 0.0,
-        "parking_spaces": 25.2
+        "parking_spaces": 25.2,
+        "dining_poi_count": 0.6,
+        "retail_poi_count": 0.6
       },
-      "connectivity_pr_composite": 14.8,
+      "connectivity_pr_composite": 10.1,
       "low_connectivity_flag": true
     },
     {
@@ -8704,15 +9537,19 @@
         "market_zoning_area_m2": 0.0,
         "commercial_zoning_area_m2": 0.0,
         "sports_business_count": 0,
-        "sports_businesses": []
+        "sports_businesses": [],
+        "dining_poi_count": 41,
+        "retail_poi_count": 11
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 35.2,
         "sports_business_count": 2.5,
         "commercial_zoning_area_m2": 0.6,
-        "parking_spaces": 25.8
+        "parking_spaces": 25.8,
+        "dining_poi_count": 2.5,
+        "retail_poi_count": 2.5
       },
-      "connectivity_pr_composite": 16.0,
+      "connectivity_pr_composite": 11.5,
       "low_connectivity_flag": true
     },
     {
@@ -8735,15 +9572,19 @@
             "name": "臺北市立大學博愛校區附設泳池",
             "type": "游泳"
           }
-        ]
+        ],
+        "dining_poi_count": 13,
+        "retail_poi_count": 11
       },
       "connectivity_pr_by_metric": {
         "mrt_station_count": 39.0,
         "sports_business_count": 9.4,
         "commercial_zoning_area_m2": 1.3,
-        "parking_spaces": 0.6
+        "parking_spaces": 0.6,
+        "dining_poi_count": 0.0,
+        "retail_poi_count": 3.1
       },
-      "connectivity_pr_composite": 12.6,
+      "connectivity_pr_composite": 8.9,
       "low_connectivity_flag": true
     }
   ]

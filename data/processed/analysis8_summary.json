@@ -3,19 +3,58 @@
   "source_files": [
     "osm_poi_cafe.json",
     "osm_poi_convenience.json",
+    "osm_poi_full.json",
     "osm_poi_office.json"
   ],
-  "total_pois_in_site": 53,
+  "total_pois_in_site": 12950,
   "category_counts": {
-    "餐飲": 30,
-    "辦公室": 17,
-    "零售/商店": 9
+    "餐飲": 6675,
+    "零售/商店": 4678,
+    "辦公室": 870,
+    "公園綠地": 837
   },
   "amenity_type_counts": {
-    "cafe": 30
+    "restaurant": 4983,
+    "cafe": 1065,
+    "fast_food": 374,
+    "bar": 147,
+    "ice_cream": 63,
+    "pub": 26,
+    "food_court": 17,
+    "prep_school": 6,
+    "police": 6,
+    "fire_station": 5,
+    "pharmacy": 4,
+    "post_office": 2,
+    "community_centre": 2,
+    "shelter": 1,
+    "archive": 1,
+    "college": 1,
+    "clinic": 1,
+    "bank": 1,
+    "courthouse": 1,
+    "townhall": 1
   },
   "shop_type_counts": {
-    "convenience": 7,
-    "beverages": 2
+    "convenience": 748,
+    "clothes": 533,
+    "hairdresser": 199,
+    "bakery": 178,
+    "beverages": 162,
+    "massage": 149,
+    "chemist": 131,
+    "supermarket": 117,
+    "gift": 99,
+    "beauty": 99,
+    "optician": 91,
+    "books": 89,
+    "jewelry": 85,
+    "vacant": 84,
+    "deli": 79,
+    "shoes": 75,
+    "tea": 70,
+    "lottery": 67,
+    "florist": 64,
+    "computer": 63
   }
 }

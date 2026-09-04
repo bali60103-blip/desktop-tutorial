@@ -1,17 +1,18 @@
 """⑦ 依公園設施種類,看周邊 400m 內可能連結的設施/商店與人潮來源。
 
 做法與限制(先講清楚):
-- 一般商店(超商、餐飲、服飾等)還是**沒有實際 POI 資料**,商業區/市場用地都市
-  計畫分區面積繼續當代理指標,不是店家清單。
-- **運動/健身類商家現在有真實 POI 了**(使用者提供,585 筆全市體育署運動產業
-  登記資料,含健身房/游泳/體適能/瑜珈/撞球/桌球/武術/舞蹈/市民運動中心等,
-  有店名、地址、營業時間、座標),這塊從「分區面積代理」升級成「實際商家清單
-  +數量」,尤其對「銀髮健身」「運動場館」這兩個公園設施標籤特別有意義——可以
-  直接驗證這類公園附近是不是真的有對應的運動商家聚集,不用再靠分區面積猜。
+- **餐飲/零售現在也有真實 POI 了**(analysis8 的 OSM 資料,dining_poi_count/
+  retail_poi_count),商業區/市場用地分區面積(commercial_zoning_area_m2/
+  market_zoning_area_m2)保留當補充參考,但不再是唯一依據——OSM 資料仍有
+  涵蓋率不保證100%的問題(見 analysis8 的 CAVEAT)。
+- **運動/健身類商家有真實 POI**(使用者提供,585 筆全市體育署運動產業登記
+  資料,含健身房/游泳/體適能/瑜珈/撞球/桌球/武術/舞蹈/市民運動中心等)。
 - 人潮來源用捷運站(含分析④的進出站人次)+ 停車場(車位數)當代理。
 - 公園設施種類是從 analysis6 的 pm_sports/pm_recreation 文字裡,用關鍵字比對
   分成幾個粗略類型(銀髮健身/兒童遊戲/運動場館/廣場集會),同一座公園可以同時
   屬於多種類型,不是互斥分類。
+- 連結度綜合PR現在用六項指標(捷運站數/運動商家數/商業區面積/停車位/餐飲POI數/
+  零售POI數)平均,比先前只有四項更能反映真實生活機能,而不是只看分區面積。
 """
 
 import json
@@ -66,6 +67,20 @@ def main():
             continue
         parking_pts.append((Point(x, y), p.get("totalcar", 0) or 0))
 
+    osm_poi_path = os.path.join(PROCESSED_DIR, "osm_poi_clipped.geojson")
+    dining_pts, retail_pts = [], []
+    if os.path.exists(osm_poi_path):
+        osm_poi = load_geojson(osm_poi_path)
+        for f in osm_poi["features"]:
+            lon, lat = f["geometry"]["coordinates"]  # osm_poi_clipped.geojson is WGS84
+            cats = f["properties"].get("categories", [])
+            x, y = wgs84_to_proj(lon, lat)
+            pt = Point(x, y)
+            if "餐飲" in cats:
+                dining_pts.append(pt)
+            if "零售/商店" in cats:
+                retail_pts.append(pt)
+
     sports_biz = load_geojson(os.path.join(RAW_DIR, "sports_businesses.json"))
     sports_biz_pts = []
     for b in sports_biz:
@@ -87,6 +102,11 @@ def main():
                     g = g.buffer(0)
                 commercial_zoning.append((g, cat))
 
+    from shapely.strtree import STRtree
+
+    dining_tree = STRtree(dining_pts) if dining_pts else None
+    retail_tree = STRtree(retail_pts) if retail_pts else None
+
     park_records = []
     for f in parks_geo["features"]:
         name = f["properties"].get("pm_name")
@@ -106,6 +126,13 @@ def main():
 
         nearby_sports_biz = [(nm, tp) for g, nm, tp in sports_biz_pts if buf.contains(g)]
 
+        nearby_dining_count = (
+            sum(1 for i in dining_tree.query(buf) if buf.contains(dining_pts[i])) if dining_tree else 0
+        )
+        nearby_retail_count = (
+            sum(1 for i in retail_tree.query(buf) if buf.contains(retail_pts[i])) if retail_tree else 0
+        )
+
         info = park_info_by_name.get(name, {})
         tags = tag_facility_types(info)
 
@@ -124,16 +151,18 @@ def main():
                     "commercial_zoning_area_m2": round(commercial_area, 1),
                     "sports_business_count": len(nearby_sports_biz),
                     "sports_businesses": [{"name": nm, "type": tp} for nm, tp in nearby_sports_biz],
+                    "dining_poi_count": nearby_dining_count,
+                    "retail_poi_count": nearby_retail_count,
                 },
             }
         )
 
-    # -- 連結度綜合評分:四項指標(捷運站數/運動商家數/商業區面積/停車位)各自算
-    # 百分等級(PR,0-100,越大代表在這160座公園裡排名越高),再取平均當「綜合連結度
-    # PR」。用 PR 而不是直接加總原始數值,是因為商業區面積跟其他指標單位、量級差
-    # 太多(有些公園附近商業區破50萬平方公尺,停車位卻只有幾十個),直接加總會被
-    # 面積數字主導,PR 化之後每項指標權重才公平。PR25 以下 = 落在後 1/4,四項指標
-    # 平均起來都偏低,標記為「低度連結公園」。
+    # -- 連結度綜合評分:六項指標(捷運站數/運動商家數/商業區面積/停車位/真實餐飲POI數/
+    # 真實零售POI數)各自算百分等級(PR,0-100,越大代表在這160座公園裡排名越高),
+    # 再取平均當「綜合連結度PR」。用 PR 而不是直接加總原始數值,是因為商業區面積跟
+    # 其他指標單位、量級差太多(有些公園附近商業區破50萬平方公尺,停車位卻只有幾十
+    # 個),直接加總會被面積數字主導,PR 化之後每項指標權重才公平。PR25 以下 = 落在
+    # 後 1/4,六項指標平均起來都偏低,標記為「低度連結公園」。
     def percentile_ranks(values):
         n = len(values)
         order = sorted(range(n), key=lambda i: values[i])
@@ -147,6 +176,8 @@ def main():
         "sports_business_count": [r["nearby_400m"]["sports_business_count"] for r in park_records],
         "commercial_zoning_area_m2": [r["nearby_400m"]["commercial_zoning_area_m2"] for r in park_records],
         "parking_spaces": [r["nearby_400m"]["parking_spaces"] for r in park_records],
+        "dining_poi_count": [r["nearby_400m"]["dining_poi_count"] for r in park_records],
+        "retail_poi_count": [r["nearby_400m"]["retail_poi_count"] for r in park_records],
     }
     pr_by_metric = {k: percentile_ranks(v) for k, v in metrics.items()}
     for i, r in enumerate(park_records):
@@ -192,6 +223,8 @@ def main():
             "pct_with_sports_business_within_400m": round(
                 100 * sum(1 for r in recs if r["nearby_400m"]["sports_business_count"] > 0) / n, 1
             ),
+            "avg_dining_poi_within_400m": round(sum(r["nearby_400m"]["dining_poi_count"] for r in recs) / n, 1),
+            "avg_retail_poi_within_400m": round(sum(r["nearby_400m"]["retail_poi_count"] for r in recs) / n, 1),
         }
 
     from clip_utils import site_boundary_3826
