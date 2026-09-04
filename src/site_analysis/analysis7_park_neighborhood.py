@@ -1,9 +1,13 @@
 """⑦ 依公園設施種類,看周邊 400m 內可能連結的設施/商店與人潮來源。
 
 做法與限制(先講清楚):
-- **沒有實際商店 POI 資料**(這件事在之前的對話裡已經確認很多次了)。這裡用
-  「商業區/市場用地」都市計畫分區面積當「有沒有商店聚集」的代理指標,不是真正
-  的店家清單,無法告訴你 400m 內具體有哪幾間店。
+- 一般商店(超商、餐飲、服飾等)還是**沒有實際 POI 資料**,商業區/市場用地都市
+  計畫分區面積繼續當代理指標,不是店家清單。
+- **運動/健身類商家現在有真實 POI 了**(使用者提供,585 筆全市體育署運動產業
+  登記資料,含健身房/游泳/體適能/瑜珈/撞球/桌球/武術/舞蹈/市民運動中心等,
+  有店名、地址、營業時間、座標),這塊從「分區面積代理」升級成「實際商家清單
+  +數量」,尤其對「銀髮健身」「運動場館」這兩個公園設施標籤特別有意義——可以
+  直接驗證這類公園附近是不是真的有對應的運動商家聚集,不用再靠分區面積猜。
 - 人潮來源用捷運站(含分析④的進出站人次)+ 停車場(車位數)當代理。
 - 公園設施種類是從 analysis6 的 pm_sports/pm_recreation 文字裡,用關鍵字比對
   分成幾個粗略類型(銀髮健身/兒童遊戲/運動場館/廣場集會),同一座公園可以同時
@@ -12,6 +16,7 @@
 
 import json
 import os
+from collections import Counter
 
 from shapely.geometry import Point, shape
 from shapely.ops import transform
@@ -61,6 +66,16 @@ def main():
             continue
         parking_pts.append((Point(x, y), p.get("totalcar", 0) or 0))
 
+    sports_biz = load_geojson(os.path.join(RAW_DIR, "sports_businesses.json"))
+    sports_biz_pts = []
+    for b in sports_biz:
+        try:
+            lat, lon = float(b["Latitude"]), float(b["Longitude"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        x, y = wgs84_to_proj(lon, lat)
+        sports_biz_pts.append((Point(x, y), b.get("CompanyName2") or b.get("CompanyName1"), b.get("SportType1")))
+
     commercial_zoning = []
     for shp in ["主計圖-面.shp", "細計-面.shp"]:
         d = load_shapefile_as_geojson(os.path.join(RAW_DIR, "shp", shp))
@@ -89,6 +104,8 @@ def main():
             g.intersection(buf).area for g, cat in commercial_zoning if cat != "市場用地"
         )
 
+        nearby_sports_biz = [(nm, tp) for g, nm, tp in sports_biz_pts if buf.contains(g)]
+
         info = park_info_by_name.get(name, {})
         tags = tag_facility_types(info)
 
@@ -105,6 +122,8 @@ def main():
                     "parking_spaces": nearby_parking_spaces,
                     "market_zoning_area_m2": round(market_area, 1),
                     "commercial_zoning_area_m2": round(commercial_area, 1),
+                    "sports_business_count": len(nearby_sports_biz),
+                    "sports_businesses": [{"name": nm, "type": tp} for nm, tp in nearby_sports_biz],
                 },
             }
         )
@@ -135,16 +154,37 @@ def main():
             "pct_with_mrt_within_400m": round(
                 100 * sum(1 for r in recs if r["nearby_400m"]["mrt_station_count"] > 0) / n, 1
             ),
+            "avg_sports_businesses_within_400m": round(
+                sum(r["nearby_400m"]["sports_business_count"] for r in recs) / n, 2
+            ),
+            "pct_with_sports_business_within_400m": round(
+                100 * sum(1 for r in recs if r["nearby_400m"]["sports_business_count"] > 0) / n, 1
+            ),
         }
+
+    from clip_utils import site_boundary_3826
+
+    boundary = site_boundary_3826()
+    sports_biz_type_counter = Counter()
+    total_sports_biz_in_site = 0
+    for g, nm, tp in sports_biz_pts:
+        if boundary.contains(g):
+            total_sports_biz_in_site += 1
+            sports_biz_type_counter[tp] += 1
 
     result = {
         "CAVEAT": (
-            "沒有實際商店 POI 資料,market_zoning_area/commercial_zoning_area 是都市計畫"
-            "商業區/市場用地分區面積的代理指標,不是店家清單,無法告訴你 400m 內具體"
-            "有哪幾間店。人潮來源用捷運站+停車場代理,沒有行人量測資料。"
+            "一般商店還是沒有實際 POI 資料,market_zoning_area/commercial_zoning_area 是"
+            "都市計畫商業區/市場用地分區面積的代理指標,不是店家清單。運動/健身類商家"
+            "現在有真實 POI(sports_business_count/sports_businesses,585筆全市體育署"
+            "運動產業登記資料),是實際店名+地址+座標,不是代理指標。人潮來源用捷運站"
+            "(含④的進出站人次)+停車場代理,沒有行人量測資料。"
         ),
         "radius_m": RADIUS_M,
         "parks_analyzed": len(park_records),
+        "sports_businesses_in_site_total": total_sports_biz_in_site,
+        "sports_businesses_citywide_total": len(sports_biz_pts),
+        "sports_business_type_distribution_in_site": dict(sports_biz_type_counter.most_common()),
         "summary_by_facility_type": tag_summary,
         "park_details": sorted(
             park_records, key=lambda r: -r["nearby_400m"]["commercial_zoning_area_m2"]
@@ -153,10 +193,13 @@ def main():
     with open(os.path.join(PROCESSED_DIR, "analysis7_summary.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
+    print("sports businesses in site:", total_sports_biz_in_site, "/ citywide", len(sports_biz_pts))
+    print("type distribution:", result["sports_business_type_distribution_in_site"])
+    print()
     print(json.dumps(tag_summary, ensure_ascii=False, indent=2))
-    print("\ntop 5 parks by nearby commercial zoning area:")
-    for r in result["park_details"][:5]:
-        print(r["name"], r["facility_tags"], r["nearby_400m"])
+    print("\ntop 5 parks by nearby sports business count:")
+    for r in sorted(park_records, key=lambda r: -r["nearby_400m"]["sports_business_count"])[:5]:
+        print(r["name"], r["facility_tags"], r["nearby_400m"]["sports_business_count"], r["nearby_400m"]["sports_businesses"])
 
 
 if __name__ == "__main__":
