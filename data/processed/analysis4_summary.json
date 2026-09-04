@@ -1,0 +1,284 @@
+{
+  "CAVEAT": "沒有百貨/夜市/宗教場所/體育館等實際 POI 名單，也沒有公車站牌資料。以下只列出有資料佐證的聚集地點類型：捷運站、停車場、市場用地、機關/文教/學校用地分區。",
+  "mrt_stations_in_site": [
+    {
+      "name": "西門站",
+      "loc": "中華路與成都路交叉口",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 50095231
+    },
+    {
+      "name": "忠孝敦化站",
+      "loc": "忠孝東路統領商圈附近",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 23488865
+    },
+    {
+      "name": "龍山寺站",
+      "loc": "和平西路三段與康定路交叉口",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 20648238
+    },
+    {
+      "name": "國父紀念館",
+      "loc": "忠孝東路與光復南路交叉口",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 20199111
+    },
+    {
+      "name": "中正紀念堂",
+      "loc": "羅斯福路與愛國東路交叉口 (中央銀行前)",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 19859935
+    },
+    {
+      "name": "行天宮站",
+      "loc": "民生東路與錦州街間之松江路下方",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 19075171
+    },
+    {
+      "name": "東門站",
+      "loc": "金山南路與永康街間之信義路下方(交會站)",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 19048594
+    },
+    {
+      "name": "善導寺站",
+      "loc": "忠孝東路與林森路交叉口",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 15741611
+    },
+    {
+      "name": "雙連站",
+      "loc": "原台鐵淡水線與民生西路交叉口",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 15629856
+    },
+    {
+      "name": "台北小巨蛋站",
+      "loc": "台北小巨蛋西北側\r\n臺北小巨蛋北側",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 15278663
+    },
+    {
+      "name": "信義安和站",
+      "loc": "信義安和路口",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 13389953
+    },
+    {
+      "name": "北門站",
+      "loc": "塔城街\r\n塔城街",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 12418688
+    },
+    {
+      "name": "中山國小站",
+      "loc": "林森北路與新生北路間之民權東路下方",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 12191502
+    },
+    {
+      "name": "大橋頭站",
+      "loc": "民權西路大橋國小旁",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 9593253
+    },
+    {
+      "name": "中山國中站",
+      "loc": "復興北路介於錦州街與民權東路之間",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 9049649
+    },
+    {
+      "name": "台北橋站",
+      "loc": "三重市重新路一、二段與文化南、北路交叉口兩側",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 7661299
+    },
+    {
+      "name": "菜寮站",
+      "loc": "三重市重新路三段，中正南路高架橋與光明路之間",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 7333499
+    },
+    {
+      "name": "小南門站",
+      "loc": "愛國西路與博愛路交叉口附近",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 6969029
+    },
+    {
+      "name": "大安森林公園站",
+      "loc": "信義路三段大安森林公園內(建國南路與新生南路間,經濟",
+      "latest_ridership_year": "114年",
+      "latest_ridership_total_entries_exits": 6912252
+    },
+    {
+      "name": "民權西路站",
+      "loc": "原台鐵淡水線與民權西路交叉口",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "中山站",
+      "loc": "原台鐵淡水線與南京西路交叉口",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "臺大醫院站",
+      "loc": "公園路與常德街口",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "大安站",
+      "loc": "復興南路與信義路交叉口",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "忠孝復興站",
+      "loc": "忠孝東路與復興南路交叉口",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "忠孝新生站",
+      "loc": "忠孝東路與新生南路交叉口",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "台北車站",
+      "loc": "台鐵火車站對面之忠孝西路地面下",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "南京復興站",
+      "loc": "復興北路與南京東路交叉口(木柵線)",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "松江南京站",
+      "loc": "松江路與南京東路交叉口",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "南京復興站",
+      "loc": "復興北路與南京東路交叉口(松山線)",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "松江南京站",
+      "loc": "松江路與南京東路交叉口(松山線)",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    },
+    {
+      "name": "中山站",
+      "loc": "原台鐵淡水線與南京西路交叉口(松山線)",
+      "latest_ridership_year": null,
+      "latest_ridership_total_entries_exits": null
+    }
+  ],
+  "parking": {
+    "lots_in_site": 682,
+    "total_car_spaces_in_site": 57063
+  },
+  "crowd_related_zoning_by_source": {
+    "主計畫": {
+      "文教區": {
+        "features": 22,
+        "area_m2": 102715.5
+      },
+      "行政區": {
+        "features": 18,
+        "area_m2": 370752.2
+      },
+      "國小用地": {
+        "features": 33,
+        "area_m2": 630307.3
+      },
+      "國中用地": {
+        "features": 14,
+        "area_m2": 336454.4
+      },
+      "機關用地": {
+        "features": 28,
+        "area_m2": 139291.8
+      },
+      "市場用地": {
+        "features": 6,
+        "area_m2": 32416.6
+      },
+      "高中用地": {
+        "features": 8,
+        "area_m2": 352011.2
+      },
+      "大專用地": {
+        "features": 9,
+        "area_m2": 252929.0
+      },
+      "體育場用地": {
+        "features": 2,
+        "area_m2": 118665.5
+      }
+    },
+    "細部計畫": {
+      "市場用地": {
+        "features": 35,
+        "area_m2": 94954.2
+      },
+      "機關用地": {
+        "features": 66,
+        "area_m2": 225887.6
+      },
+      "國小用地": {
+        "features": 36,
+        "area_m2": 695695.6
+      },
+      "國中用地": {
+        "features": 19,
+        "area_m2": 352257.5
+      },
+      "大專用地": {
+        "features": 12,
+        "area_m2": 355968.6
+      },
+      "高中用地": {
+        "features": 9,
+        "area_m2": 344604.4
+      },
+      "體育場用地": {
+        "features": 3,
+        "area_m2": 116841.7
+      },
+      "行政區": {
+        "features": 23,
+        "area_m2": 340300.0
+      },
+      "文教區": {
+        "features": 22,
+        "area_m2": 102864.8
+      }
+    }
+  },
+  "zoning_category_meaning": {
+    "市場用地": "市場",
+    "機關用地": "公家機關",
+    "文教區": "文教設施",
+    "國小用地": "國小",
+    "國中用地": "國中",
+    "高中用地": "高中",
+    "大專用地": "大專院校",
+    "體育場用地": "體育場館",
+    "行政區": "行政機關"
+  }
+}

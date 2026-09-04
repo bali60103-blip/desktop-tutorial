@@ -32,3 +32,16 @@ python build_heatmap.py
 - `src/poll_youbike.py` — 輪詢 YouBike 即時資料並累積快照
 - `src/build_heatmap.py` — 產生逐小時 Leaflet 熱力圖(folium HeatMapWithTime)
 - `data_sources.md` — 資料來源清單與限制說明
+
+## 基地分析:市民大道西段—華山大草皮(`src/site_analysis/`)
+
+另一組獨立的分析,基地範圍改成市民大道西段到華山大草皮(2 公里緩衝),做四項
+分析:綠帶體量、街區特色、綠帶連結延平河濱公園可行性、人潮聚集地點。使用者
+提供的台北市開放資料(公園綠地、都市計畫分區、行道樹、人行道、捷運站等)已
+整理到 `data/raw/`。詳見 [`src/site_analysis/README.md`](src/site_analysis/README.md)。
+
+```bash
+pip install -r requirements.txt
+cd src/site_analysis
+python run_all.py
+```

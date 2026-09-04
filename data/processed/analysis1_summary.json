@@ -1,0 +1,147 @@
+{
+  "CAVEAT": "greenland_area_by_layer 的 5 個圖層(J0301/J02015/J05015/L01015/L02015)來自都市設計審議的不同管制圖層,彼此範圍會重疊(例如同一座公園可能同時出現在公園綠地圖層和綠地使用分區圖層),不能直接加總當作「總綠地面積」。zoning_green_area_by_source 是都市計畫主計圖/細部計畫的公園用地/綠地用地/河川區/保護區分區面積,單一來源內部不重疊,較適合當作綠地總量的主要參考,但主計畫跟細部計畫兩者之間本身也會有重疊(細部計畫是主計畫的加細版)。",
+  "greenland_area_by_layer": {
+    "公園綠地(J0301)": {
+      "features_in_site": 23,
+      "features_total": 102,
+      "total_area_m2": 29138.2,
+      "total_area_ha": 2.91
+    },
+    "道路緣帶(J02015)": {
+      "features_in_site": 315,
+      "features_total": 848,
+      "total_area_m2": 82166.1,
+      "total_area_ha": 8.22
+    },
+    "景觀工程(J05015)": {
+      "features_in_site": 24,
+      "features_total": 80,
+      "total_area_m2": 134181.6,
+      "total_area_ha": 13.42
+    },
+    "綠地使用分區(L01015)": {
+      "features_in_site": 174,
+      "features_total": 880,
+      "total_area_m2": 1092559.4,
+      "total_area_ha": 109.26
+    },
+    "公園用地分區(L02015)": {
+      "features_in_site": 4,
+      "features_total": 29,
+      "total_area_m2": 649865.9,
+      "total_area_ha": 64.99
+    }
+  },
+  "zoning_green_area_by_source": {
+    "主計畫": {
+      "河川區": {
+        "features": 10,
+        "area_m2": 3451547.0,
+        "area_ha": 345.15
+      },
+      "公園用地": {
+        "features": 59,
+        "area_m2": 877125.8,
+        "area_ha": 87.71
+      },
+      "綠地用地": {
+        "features": 14,
+        "area_m2": 22403.3,
+        "area_ha": 2.24
+      }
+    },
+    "細部計畫": {
+      "公園用地": {
+        "features": 172,
+        "area_m2": 1064833.4,
+        "area_ha": 106.48
+      },
+      "綠地用地": {
+        "features": 21,
+        "area_m2": 28677.5,
+        "area_ha": 2.87
+      },
+      "河川區": {
+        "features": 23,
+        "area_m2": 3829240.7,
+        "area_ha": 382.92
+      }
+    }
+  },
+  "street_trees": {
+    "trees_in_site": 25490,
+    "trees_total_citywide": 91012,
+    "avg_height_m": 10.47,
+    "avg_diameter_cm": 28.67,
+    "height_distribution": {
+      "<5m": 2795,
+      "5-10m": 8864,
+      "10-15m": 9994,
+      "15-20m": 3659,
+      ">=20m": 178
+    },
+    "top_species": [
+      [
+        "樟樹",
+        4316
+      ],
+      [
+        "茄苳",
+        3746
+      ],
+      [
+        "榕樹",
+        3618
+      ],
+      [
+        "楓香",
+        2752
+      ],
+      [
+        "大王椰子",
+        1440
+      ],
+      [
+        "小葉欖仁",
+        913
+      ],
+      [
+        "臺灣欒樹",
+        861
+      ],
+      [
+        "白千層",
+        778
+      ],
+      [
+        "木棉",
+        766
+      ],
+      [
+        "菩提樹",
+        764
+      ],
+      [
+        "光蠟樹",
+        456
+      ],
+      [
+        "紫薇",
+        358
+      ],
+      [
+        "水黃皮",
+        285
+      ],
+      [
+        "盾柱木",
+        275
+      ],
+      [
+        "黑板樹",
+        260
+      ]
+    ],
+    "NOTE": "無樹冠寬度資料,無法計算樹冠覆蓋面積或體積,以上僅為株數與樹高統計"
+  }
+}

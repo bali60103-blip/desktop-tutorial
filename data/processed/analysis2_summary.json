@@ -1,0 +1,952 @@
+{
+  "CAVEAT": "無建物 footprint/地籍資料,以下僅為土地使用分區組成與建照點位分布,不是完整的街廓特色分析",
+  "zoning_mix_by_source": {
+    "主計畫": {
+      "住宅區": {
+        "features": 156,
+        "area_m2": 7086097.0,
+        "area_ha": 708.61,
+        "pct_of_site_zoning_area": 32.8
+      },
+      "商業區": {
+        "features": 309,
+        "area_m2": 4147402.9,
+        "area_ha": 414.74,
+        "pct_of_site_zoning_area": 19.2
+      },
+      "河川區": {
+        "features": 10,
+        "area_m2": 3451547.0,
+        "area_ha": 345.15,
+        "pct_of_site_zoning_area": 16.0
+      },
+      "特定專用區": {
+        "features": 53,
+        "area_m2": 1859881.9,
+        "area_ha": 185.99,
+        "pct_of_site_zoning_area": 8.6
+      },
+      "公園用地": {
+        "features": 59,
+        "area_m2": 877125.8,
+        "area_ha": 87.71,
+        "pct_of_site_zoning_area": 4.1
+      },
+      "國小用地": {
+        "features": 33,
+        "area_m2": 630307.3,
+        "area_ha": 63.03,
+        "pct_of_site_zoning_area": 2.9
+      },
+      "行政區": {
+        "features": 18,
+        "area_m2": 370752.2,
+        "area_ha": 37.08,
+        "pct_of_site_zoning_area": 1.7
+      },
+      "高中用地": {
+        "features": 8,
+        "area_m2": 352011.2,
+        "area_ha": 35.2,
+        "pct_of_site_zoning_area": 1.6
+      },
+      "國中用地": {
+        "features": 14,
+        "area_m2": 336454.4,
+        "area_ha": 33.65,
+        "pct_of_site_zoning_area": 1.6
+      },
+      "工業區": {
+        "features": 4,
+        "area_m2": 334402.4,
+        "area_ha": 33.44,
+        "pct_of_site_zoning_area": 1.5
+      },
+      "大專用地": {
+        "features": 9,
+        "area_m2": 252929.0,
+        "area_ha": 25.29,
+        "pct_of_site_zoning_area": 1.2
+      },
+      "中正紀念堂用地": {
+        "features": 1,
+        "area_m2": 249346.9,
+        "area_ha": 24.93,
+        "pct_of_site_zoning_area": 1.2
+      },
+      "交通用地": {
+        "features": 47,
+        "area_m2": 181525.1,
+        "area_ha": 18.15,
+        "pct_of_site_zoning_area": 0.8
+      },
+      "機關用地": {
+        "features": 28,
+        "area_m2": 139291.8,
+        "area_ha": 13.93,
+        "pct_of_site_zoning_area": 0.6
+      },
+      "體育場用地": {
+        "features": 2,
+        "area_m2": 118665.5,
+        "area_ha": 11.87,
+        "pct_of_site_zoning_area": 0.5
+      },
+      "行政專用區": {
+        "features": 4,
+        "area_m2": 104492.4,
+        "area_ha": 10.45,
+        "pct_of_site_zoning_area": 0.5
+      },
+      "文教區": {
+        "features": 22,
+        "area_m2": 102715.5,
+        "area_ha": 10.27,
+        "pct_of_site_zoning_area": 0.5
+      },
+      "台北工專用地": {
+        "features": 2,
+        "area_m2": 93112.0,
+        "area_ha": 9.31,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "鐵路用地": {
+        "features": 11,
+        "area_m2": 81947.6,
+        "area_ha": 8.19,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "交通廣場用地": {
+        "features": 8,
+        "area_m2": 76074.3,
+        "area_ha": 7.61,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "電信用地": {
+        "features": 5,
+        "area_m2": 76067.7,
+        "area_ha": 7.61,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "創意文化專用區": {
+        "features": 1,
+        "area_m2": 72617.1,
+        "area_ha": 7.26,
+        "pct_of_site_zoning_area": 0.3
+      },
+      "資訊產業專用區": {
+        "features": 6,
+        "area_m2": 46115.2,
+        "area_ha": 4.61,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "保存區": {
+        "features": 17,
+        "area_m2": 46003.0,
+        "area_ha": 4.6,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "聯合開發區": {
+        "features": 9,
+        "area_m2": 45569.8,
+        "area_ha": 4.56,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "高職用地": {
+        "features": 1,
+        "area_m2": 44201.3,
+        "area_ha": 4.42,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "醫療及衛生用地": {
+        "features": 1,
+        "area_m2": 39412.7,
+        "area_ha": 3.94,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "師範大學用地": {
+        "features": 1,
+        "area_m2": 32719.7,
+        "area_ha": 3.27,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "市場用地": {
+        "features": 6,
+        "area_m2": 32416.6,
+        "area_ha": 3.24,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "廣場用地": {
+        "features": 8,
+        "area_m2": 31944.6,
+        "area_ha": 3.19,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "醫院用地": {
+        "features": 2,
+        "area_m2": 30423.0,
+        "area_ha": 3.04,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "郵政用地": {
+        "features": 4,
+        "area_m2": 25232.6,
+        "area_ha": 2.52,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "文教用地": {
+        "features": 1,
+        "area_m2": 24219.2,
+        "area_ha": 2.42,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "綠地用地": {
+        "features": 14,
+        "area_m2": 22403.3,
+        "area_ha": 2.24,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "殯儀館用地": {
+        "features": 1,
+        "area_m2": 21299.0,
+        "area_ha": 2.13,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "金融服務專用區": {
+        "features": 2,
+        "area_m2": 17795.0,
+        "area_ha": 1.78,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "大學用地": {
+        "features": 1,
+        "area_m2": 17604.9,
+        "area_ha": 1.76,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "博物館特定專用區": {
+        "features": 1,
+        "area_m2": 15883.0,
+        "area_ha": 1.59,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "國際事務及公共服務特定專用區": {
+        "features": 1,
+        "area_m2": 13964.7,
+        "area_ha": 1.4,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "郵政電信用地": {
+        "features": 1,
+        "area_m2": 10434.6,
+        "area_ha": 1.04,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "古蹟保存區": {
+        "features": 3,
+        "area_m2": 9135.6,
+        "area_ha": 0.91,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "變電所用地": {
+        "features": 5,
+        "area_m2": 9105.8,
+        "area_ha": 0.91,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "聚落風貌保存專用區": {
+        "features": 5,
+        "area_m2": 8685.2,
+        "area_ha": 0.87,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "公園廣場用地": {
+        "features": 1,
+        "area_m2": 8538.8,
+        "area_ha": 0.85,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "文化觀光專用區": {
+        "features": 1,
+        "area_m2": 6593.9,
+        "area_ha": 0.66,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "學校用地": {
+        "features": 1,
+        "area_m2": 5437.2,
+        "area_ha": 0.54,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "停車場用地": {
+        "features": 1,
+        "area_m2": 4597.1,
+        "area_ha": 0.46,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "捷運開發區": {
+        "features": 2,
+        "area_m2": 4018.5,
+        "area_ha": 0.4,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "社福及機關用地": {
+        "features": 1,
+        "area_m2": 3718.2,
+        "area_ha": 0.37,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "學校及郵政用地": {
+        "features": 1,
+        "area_m2": 3657.8,
+        "area_ha": 0.37,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "批發市場用地": {
+        "features": 1,
+        "area_m2": 2804.6,
+        "area_ha": 0.28,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "加油站用地": {
+        "features": 2,
+        "area_m2": 2390.7,
+        "area_ha": 0.24,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "文化廣場用地": {
+        "features": 1,
+        "area_m2": 1720.3,
+        "area_ha": 0.17,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "污水抽水站用地": {
+        "features": 1,
+        "area_m2": 1627.5,
+        "area_ha": 0.16,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "污水處理場用地": {
+        "features": 1,
+        "area_m2": 897.8,
+        "area_ha": 0.09,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "抽水站用地": {
+        "features": 1,
+        "area_m2": 681.1,
+        "area_ha": 0.07,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "人行步道用地": {
+        "features": 1,
+        "area_m2": 313.7,
+        "area_ha": 0.03,
+        "pct_of_site_zoning_area": 0.0
+      }
+    },
+    "細部計畫": {
+      "第三種住宅區": {
+        "features": 1269,
+        "area_m2": 4101733.5,
+        "area_ha": 410.17,
+        "pct_of_site_zoning_area": 19.3
+      },
+      "河川區": {
+        "features": 23,
+        "area_m2": 3829240.7,
+        "area_ha": 382.92,
+        "pct_of_site_zoning_area": 18.0
+      },
+      "第三種商業區(特)": {
+        "features": 786,
+        "area_m2": 1574272.8,
+        "area_ha": 157.43,
+        "pct_of_site_zoning_area": 7.4
+      },
+      "第四種住宅區": {
+        "features": 357,
+        "area_m2": 1115547.8,
+        "area_ha": 111.55,
+        "pct_of_site_zoning_area": 5.2
+      },
+      "公園用地": {
+        "features": 172,
+        "area_m2": 1064833.4,
+        "area_ha": 106.48,
+        "pct_of_site_zoning_area": 5.0
+      },
+      "第三種商業區": {
+        "features": 293,
+        "area_m2": 910466.9,
+        "area_ha": 91.05,
+        "pct_of_site_zoning_area": 4.3
+      },
+      "第四種商業區(特)": {
+        "features": 243,
+        "area_m2": 792291.7,
+        "area_ha": 79.23,
+        "pct_of_site_zoning_area": 3.7
+      },
+      "國小用地": {
+        "features": 36,
+        "area_m2": 695695.6,
+        "area_ha": 69.57,
+        "pct_of_site_zoning_area": 3.3
+      },
+      "第四種商業區": {
+        "features": 191,
+        "area_m2": 685618.3,
+        "area_ha": 68.56,
+        "pct_of_site_zoning_area": 3.2
+      },
+      "大專用地": {
+        "features": 12,
+        "area_m2": 355968.6,
+        "area_ha": 35.6,
+        "pct_of_site_zoning_area": 1.7
+      },
+      "國中用地": {
+        "features": 19,
+        "area_m2": 352257.5,
+        "area_ha": 35.23,
+        "pct_of_site_zoning_area": 1.7
+      },
+      "第三之二種住宅區": {
+        "features": 191,
+        "area_m2": 345052.7,
+        "area_ha": 34.51,
+        "pct_of_site_zoning_area": 1.6
+      },
+      "高中用地": {
+        "features": 9,
+        "area_m2": 344604.4,
+        "area_ha": 34.46,
+        "pct_of_site_zoning_area": 1.6
+      },
+      "行政區": {
+        "features": 23,
+        "area_m2": 340300.0,
+        "area_ha": 34.03,
+        "pct_of_site_zoning_area": 1.6
+      },
+      "第參種工業區": {
+        "features": 8,
+        "area_m2": 325741.0,
+        "area_ha": 32.57,
+        "pct_of_site_zoning_area": 1.5
+      },
+      "特定專用區": {
+        "features": 13,
+        "area_m2": 276331.2,
+        "area_ha": 27.63,
+        "pct_of_site_zoning_area": 1.3
+      },
+      "第三之一種住宅區": {
+        "features": 158,
+        "area_m2": 259545.1,
+        "area_ha": 25.95,
+        "pct_of_site_zoning_area": 1.2
+      },
+      "敦化南北路特定專用區(A區)": {
+        "features": 106,
+        "area_m2": 249865.9,
+        "area_ha": 24.99,
+        "pct_of_site_zoning_area": 1.2
+      },
+      "中正紀念堂用地": {
+        "features": 1,
+        "area_m2": 249435.5,
+        "area_ha": 24.94,
+        "pct_of_site_zoning_area": 1.2
+      },
+      "機關用地": {
+        "features": 66,
+        "area_m2": 225887.6,
+        "area_ha": 22.59,
+        "pct_of_site_zoning_area": 1.1
+      },
+      "敦化南北路特定專用區(B區)": {
+        "features": 73,
+        "area_m2": 181069.8,
+        "area_ha": 18.11,
+        "pct_of_site_zoning_area": 0.9
+      },
+      "交通用地": {
+        "features": 56,
+        "area_m2": 165321.9,
+        "area_ha": 16.53,
+        "pct_of_site_zoning_area": 0.8
+      },
+      "第二種商業區(特)": {
+        "features": 85,
+        "area_m2": 157432.1,
+        "area_ha": 15.74,
+        "pct_of_site_zoning_area": 0.7
+      },
+      "住宅用地": {
+        "features": 25,
+        "area_m2": 135635.9,
+        "area_ha": 13.56,
+        "pct_of_site_zoning_area": 0.6
+      },
+      "第三之一種住宅區(特)": {
+        "features": 46,
+        "area_m2": 133590.0,
+        "area_ha": 13.36,
+        "pct_of_site_zoning_area": 0.6
+      },
+      "體育場用地": {
+        "features": 3,
+        "area_m2": 116841.7,
+        "area_ha": 11.68,
+        "pct_of_site_zoning_area": 0.5
+      },
+      "特定專用區(供一般商業使用)": {
+        "features": 33,
+        "area_m2": 107471.8,
+        "area_ha": 10.75,
+        "pct_of_site_zoning_area": 0.5
+      },
+      "文教區": {
+        "features": 22,
+        "area_m2": 102864.8,
+        "area_ha": 10.29,
+        "pct_of_site_zoning_area": 0.5
+      },
+      "行政專用區": {
+        "features": 6,
+        "area_m2": 102609.5,
+        "area_ha": 10.26,
+        "pct_of_site_zoning_area": 0.5
+      },
+      "市場用地": {
+        "features": 35,
+        "area_m2": 94954.2,
+        "area_ha": 9.5,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "第二種商業區": {
+        "features": 37,
+        "area_m2": 88031.2,
+        "area_ha": 8.8,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "鐵路用地": {
+        "features": 12,
+        "area_m2": 87900.0,
+        "area_ha": 8.79,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "交通廣場用地": {
+        "features": 11,
+        "area_m2": 82833.4,
+        "area_ha": 8.28,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "特定專用區(一)": {
+        "features": 25,
+        "area_m2": 82317.6,
+        "area_ha": 8.23,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "電信用地": {
+        "features": 7,
+        "area_m2": 78135.8,
+        "area_ha": 7.81,
+        "pct_of_site_zoning_area": 0.4
+      },
+      "創意文化專用區": {
+        "features": 1,
+        "area_m2": 72238.8,
+        "area_ha": 7.22,
+        "pct_of_site_zoning_area": 0.3
+      },
+      "軍事機關用地": {
+        "features": 1,
+        "area_m2": 71972.1,
+        "area_ha": 7.2,
+        "pct_of_site_zoning_area": 0.3
+      },
+      "醫療用地": {
+        "features": 2,
+        "area_m2": 68796.1,
+        "area_ha": 6.88,
+        "pct_of_site_zoning_area": 0.3
+      },
+      "第四之一種住宅區": {
+        "features": 38,
+        "area_m2": 66689.5,
+        "area_ha": 6.67,
+        "pct_of_site_zoning_area": 0.3
+      },
+      "特定專用區(三)(供住宅使用)": {
+        "features": 19,
+        "area_m2": 65897.6,
+        "area_ha": 6.59,
+        "pct_of_site_zoning_area": 0.3
+      },
+      "第四之一種住宅區(特)": {
+        "features": 19,
+        "area_m2": 62793.2,
+        "area_ha": 6.28,
+        "pct_of_site_zoning_area": 0.3
+      },
+      "特定專用區(供特定商業使用)": {
+        "features": 13,
+        "area_m2": 60626.0,
+        "area_ha": 6.06,
+        "pct_of_site_zoning_area": 0.3
+      },
+      "聯合開發區": {
+        "features": 25,
+        "area_m2": 57350.7,
+        "area_ha": 5.74,
+        "pct_of_site_zoning_area": 0.3
+      },
+      "特定專用區(二)": {
+        "features": 15,
+        "area_m2": 52063.0,
+        "area_ha": 5.21,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "第三種住宅區(特)": {
+        "features": 37,
+        "area_m2": 51878.2,
+        "area_ha": 5.19,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "保存區": {
+        "features": 27,
+        "area_m2": 50191.1,
+        "area_ha": 5.02,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "資訊產業專用區": {
+        "features": 13,
+        "area_m2": 47572.8,
+        "area_ha": 4.76,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "廣場用地": {
+        "features": 18,
+        "area_m2": 46601.0,
+        "area_ha": 4.66,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "高職用地": {
+        "features": 1,
+        "area_m2": 44201.1,
+        "area_ha": 4.42,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "醫療及衛生用地": {
+        "features": 1,
+        "area_m2": 40810.1,
+        "area_ha": 4.08,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "第一種商業區(特)": {
+        "features": 8,
+        "area_m2": 37767.7,
+        "area_ha": 3.78,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "醫院用地": {
+        "features": 4,
+        "area_m2": 33932.0,
+        "area_ha": 3.39,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "停車場用地": {
+        "features": 16,
+        "area_m2": 32767.5,
+        "area_ha": 3.28,
+        "pct_of_site_zoning_area": 0.2
+      },
+      "第三之二種住宅區(特)": {
+        "features": 10,
+        "area_m2": 31653.1,
+        "area_ha": 3.17,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "商業用地": {
+        "features": 13,
+        "area_m2": 31351.2,
+        "area_ha": 3.14,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "郵政用地": {
+        "features": 13,
+        "area_m2": 29397.7,
+        "area_ha": 2.94,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "變電所用地": {
+        "features": 18,
+        "area_m2": 28833.4,
+        "area_ha": 2.88,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "綠地用地": {
+        "features": 21,
+        "area_m2": 28677.5,
+        "area_ha": 2.87,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "特定專用區(四)(供河濱住宅使用)": {
+        "features": 10,
+        "area_m2": 26340.7,
+        "area_ha": 2.63,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "第一種商業區": {
+        "features": 7,
+        "area_m2": 25001.7,
+        "area_ha": 2.5,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "台灣大學用地": {
+        "features": 1,
+        "area_m2": 23786.7,
+        "area_ha": 2.38,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "文教用地": {
+        "features": 1,
+        "area_m2": 21589.7,
+        "area_ha": 2.16,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "殯儀館用地": {
+        "features": 1,
+        "area_m2": 21294.0,
+        "area_ha": 2.13,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "轉運站用地": {
+        "features": 1,
+        "area_m2": 21204.3,
+        "area_ha": 2.12,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "第三種商業區(特)(遷)": {
+        "features": 14,
+        "area_m2": 19692.4,
+        "area_ha": 1.97,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "金融服務專用區": {
+        "features": 3,
+        "area_m2": 17769.6,
+        "area_ha": 1.78,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "大學用地": {
+        "features": 1,
+        "area_m2": 17605.6,
+        "area_ha": 1.76,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "第四種住宅區(特)": {
+        "features": 7,
+        "area_m2": 15862.2,
+        "area_ha": 1.59,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "博物館特定專用區": {
+        "features": 2,
+        "area_m2": 15760.6,
+        "area_ha": 1.58,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "第三種住宅區(特)(遷)": {
+        "features": 9,
+        "area_m2": 15214.7,
+        "area_ha": 1.52,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "國際事務及公共服務特定專用區": {
+        "features": 1,
+        "area_m2": 13960.9,
+        "area_ha": 1.4,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "社福及機關用地": {
+        "features": 5,
+        "area_m2": 11411.8,
+        "area_ha": 1.14,
+        "pct_of_site_zoning_area": 0.1
+      },
+      "郵政電信用地": {
+        "features": 2,
+        "area_m2": 10268.4,
+        "area_ha": 1.03,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "加油站用地": {
+        "features": 9,
+        "area_m2": 9319.5,
+        "area_ha": 0.93,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "聚落風貌保存專用區": {
+        "features": 5,
+        "area_m2": 8674.6,
+        "area_ha": 0.87,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "公園廣場用地": {
+        "features": 1,
+        "area_m2": 8122.3,
+        "area_ha": 0.81,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "學校用地": {
+        "features": 2,
+        "area_m2": 7267.9,
+        "area_ha": 0.73,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "捷運開發區": {
+        "features": 5,
+        "area_m2": 6828.7,
+        "area_ha": 0.68,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "文化觀光專用區": {
+        "features": 2,
+        "area_m2": 6464.4,
+        "area_ha": 0.65,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "抽水站用地": {
+        "features": 4,
+        "area_m2": 5344.3,
+        "area_ha": 0.53,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "學校及郵政用地": {
+        "features": 1,
+        "area_m2": 3586.8,
+        "area_ha": 0.36,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "古蹟保存區用地": {
+        "features": 1,
+        "area_m2": 2752.5,
+        "area_ha": 0.28,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "古蹟用地": {
+        "features": 1,
+        "area_m2": 2736.0,
+        "area_ha": 0.27,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "社福及機關用地(供本府及相關單位公務使用)": {
+        "features": 4,
+        "area_m2": 2581.1,
+        "area_ha": 0.26,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "人行步道用地": {
+        "features": 9,
+        "area_m2": 2490.9,
+        "area_ha": 0.25,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "公共建築用地": {
+        "features": 1,
+        "area_m2": 2402.1,
+        "area_ha": 0.24,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "文化廣場用地": {
+        "features": 1,
+        "area_m2": 1743.3,
+        "area_ha": 0.17,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "機關及社會福利設施用地": {
+        "features": 1,
+        "area_m2": 1307.8,
+        "area_ha": 0.13,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "公共服務設施用地": {
+        "features": 1,
+        "area_m2": 1191.3,
+        "area_ha": 0.12,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "社會福利設施用地": {
+        "features": 1,
+        "area_m2": 954.8,
+        "area_ha": 0.1,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "警所用地": {
+        "features": 1,
+        "area_m2": 928.6,
+        "area_ha": 0.09,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "污水處理場用地": {
+        "features": 1,
+        "area_m2": 907.7,
+        "area_ha": 0.09,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "排水溝用地": {
+        "features": 1,
+        "area_m2": 543.0,
+        "area_ha": 0.05,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "警察局用地": {
+        "features": 1,
+        "area_m2": 361.2,
+        "area_ha": 0.04,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "敦化南北路特定專用區(A區)(遷)": {
+        "features": 1,
+        "area_m2": 309.9,
+        "area_ha": 0.03,
+        "pct_of_site_zoning_area": 0.0
+      },
+      "甬道": {
+        "features": 1,
+        "area_m2": 88.7,
+        "area_ha": 0.01,
+        "pct_of_site_zoning_area": 0.0
+      }
+    }
+  },
+  "block_id_field_coverage": {
+    "主計畫": {
+      "features_in_site": 913,
+      "features_with_街廓編號": 0,
+      "skipped_boundary_line_features": 3
+    },
+    "細部計畫": {
+      "features_in_site": 4908,
+      "features_with_街廓編號": 0,
+      "skipped_boundary_line_features": 3
+    }
+  },
+  "building_permits": {
+    "permits_in_site": 133,
+    "permits_total_citywide": 470,
+    "by_roc_year": {
+      "104": 3,
+      "105": 22,
+      "106": 21,
+      "107": 29,
+      "108": 6,
+      "109": 1,
+      "未知": 51
+    }
+  }
+}
