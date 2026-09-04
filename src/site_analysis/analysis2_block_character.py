@@ -14,7 +14,7 @@ import glob
 import json
 import os
 
-from clip_utils import clip_features_3826
+from clip_utils import clip_features_3826, site_boundary_3826
 from config import PROCESSED_DIR, RAW_DIR
 from gis_utils import load_geojson, load_shapefile_as_geojson
 
@@ -91,23 +91,56 @@ def main():
     buildings_summary = None
     if all_buildings:
         buildings_3826 = []
-        for f in all_buildings:
-            g3826 = _transform(lambda lon, lat: _to_proj(lon, lat), _shape2(f["geometry"]))
-            buildings_3826.append(
-                {"geometry": g3826.__geo_interface__, "properties": f["properties"]}
+        tile_bboxes_3826 = {}
+        for path in building_tiles:
+            name = os.path.basename(path)
+            feats = load_geojson(path)["features"]
+            lons, lats = [], []
+
+            def _rec(c, lons=lons, lats=lats):
+                if isinstance(c[0], (int, float)):
+                    lons.append(c[0])
+                    lats.append(c[1])
+                else:
+                    for cc in c:
+                        _rec(cc)
+
+            for f in feats:
+                _rec(f["geometry"]["coordinates"])
+                g3826 = _transform(lambda lon, lat: _to_proj(lon, lat), _shape2(f["geometry"]))
+                buildings_3826.append({"geometry": g3826.__geo_interface__, "properties": f["properties"]})
+            from shapely.geometry import box as _box
+
+            tile_bboxes_3826[name] = _transform(
+                lambda lon, lat: _to_proj(lon, lat), _box(min(lons), min(lats), max(lons), max(lats))
             )
+
         buildings_clipped = clip_features_3826(buildings_3826)
         heights = [f["properties"].get("height") for f in buildings_clipped if f["properties"].get("height") is not None]
         with open(os.path.join(PROCESSED_DIR, "buildings_clipped.geojson"), "w", encoding="utf-8") as f:
             json.dump({"type": "FeatureCollection", "features": buildings_clipped}, f, ensure_ascii=False)
+
+        from shapely.ops import unary_union
+
+        boundary = site_boundary_3826()
+        site_area = boundary.area
+        coverage_by_tile_pct = {
+            name: round(boundary.intersection(bbox).area / site_area * 100, 1)
+            for name, bbox in tile_bboxes_3826.items()
+        }
+        combined_bbox_coverage_pct = round(
+            unary_union(list(tile_bboxes_3826.values())).intersection(boundary).area / site_area * 100, 1
+        )
         buildings_summary = {
             "source_tiles_received": tile_names,
             "coverage_note": (
-                "只涵蓋已收到的網格範圍,不是整個基地——目前涵蓋基地北側一角(大同/中山區"
-                "靠雙連站一帶,來自 4352)+ 東南角一小條(來自 4342,主要範圍其實在信義/"
-                "南港,只有極南緣切到基地)。市民大道走廊主體、台北車站、西門、華山一帶"
-                "都還沒有資料。之後補齊更多網格後重跑即會自動合併進來。"
+                "buildings_in_site_boundary 是目前已收到網格範圍內的實際建物數,不是整個基地的"
+                "建物總數。approx_site_area_covered_pct 是用各網格的外框(bounding box,不是"
+                "實際建物分布形狀)估的粗略涵蓋率,可能比實際涵蓋率略高(外框內不一定每個角落"
+                "都真的畫到建物)。缺口在哪裡看 tile 座標範圍自己判斷,還沒有自動標示。"
             ),
+            "approx_site_area_covered_pct_by_tile": coverage_by_tile_pct,
+            "approx_site_area_covered_pct_combined": combined_bbox_coverage_pct,
             "buildings_total_in_received_tiles": len(all_buildings),
             "buildings_in_site_boundary": len(buildings_clipped),
             "avg_height_m": round(sum(heights) / len(heights), 2) if heights else None,
