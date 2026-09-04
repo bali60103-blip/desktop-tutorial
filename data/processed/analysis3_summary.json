@@ -5,7 +5,8 @@
     "painted_sidewalk_length_m_in_site": 162287.0,
     "accessibility_ramps_in_site": 10674,
     "footbridges_in_site": 13,
-    "underpasses_in_site": 12
+    "underpasses_in_site": 12,
+    "street_trees_in_site": 25388
   },
   "connector_corridor_signal_to_yanping_park": {
     "sidewalk_segments_near_corridor": 127,
@@ -13,6 +14,10 @@
     "accessibility_ramps_near_corridor": 255,
     "footbridges_near_corridor": 1,
     "underpasses_near_corridor": 0,
+    "street_trees_within_300m_of_corridor": 492,
+    "street_trees_within_30m_of_corridor": 3,
+    "street_trees_within_30m_per_km": 0.7,
+    "tree_shade_note": "30m內株數遠低於300m內株數,代表這一帶雖然有樹,但這條特定路線本身未必林蔭——樹木密度落差越大,越可能是路線需要調整才能真正走在樹蔭下",
     "connector_line_length_m": 4528.0,
     "corridor_check_buffer_m": 300
   }

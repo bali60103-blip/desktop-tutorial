@@ -69,6 +69,20 @@ def load_pedestrian_points():
     return pts
 
 
+def load_tree_points():
+    import csv
+
+    with open(os.path.join(RAW_DIR, "street_trees.csv"), encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    pts = []
+    for r in rows:
+        try:
+            pts.append(Point(float(r["TWD97X"]), float(r["TWD97Y"])))
+        except (TypeError, ValueError, KeyError):
+            continue
+    return pts
+
+
 def load_sidewalk_lines():
     sw = load_geojson(os.path.join(RAW_DIR, "sidewalks.json"))
     lines = [shape(f["geometry"]) for f in sw["features"]]
@@ -202,11 +216,19 @@ def block_grain():
     }
 
 
-def green_fragmentation(patches, ped_points):
-    """Jacobs 綠地連通:各斑塊形心兩兩最近距離,以及斑塊間是否有步行設施在兩者之間
-    的走廊上(粗略:兩斑塊邊界間 100m 緩衝內是否有步行設施點位)。"""
+def green_fragmentation(patches, ped_points, tree_points):
+    """Jacobs 綠地連通:各斑塊形心兩兩最近距離,以及斑塊間是否有步行設施/行道樹在
+    兩者之間的走廊上(粗略:兩斑塊凸包間 50m 緩衝內是否有步行設施/行道樹點位)。
+
+    多加行道樹是因為:就算兩塊綠地之間有人行道相連(pedestrian_link_detected),
+    那條路線走起來是不是「綠意連續」是另一件事——沒有行道樹的話,人行道只是
+    灰色基礎設施把兩塊綠地在地圖上連起來,不是 Jacobs/Gehl 講的那種讓人願意
+    走、有生活感的綠廊。tree_linked 用「走廊內至少 5 株樹」當門檻,是粗略判斷,
+    沒有精確到「連續林蔭」的程度。"""
     centroids = [p.centroid for p in patches]
     n = len(patches)
+    ped_tree = STRtree(ped_points)
+    tree_str = STRtree(tree_points)
     nearest = []
     for i in range(n):
         dists = [(centroids[i].distance(centroids[j]), j) for j in range(n) if j != i]
@@ -215,15 +237,21 @@ def green_fragmentation(patches, ped_points):
         dmin, j = min(dists)
         gap = patches[i].distance(patches[j])
         corridor = patches[i].union(patches[j]).convex_hull.buffer(50).difference(patches[i]).difference(patches[j])
-        ped_tree = STRtree(ped_points)
-        idxs = ped_tree.query(corridor)
-        linked = sum(1 for k in idxs if corridor.contains(ped_points[k])) > 0
+
+        ped_idxs = ped_tree.query(corridor)
+        linked = sum(1 for k in ped_idxs if corridor.contains(ped_points[k])) > 0
+
+        tree_idxs = tree_str.query(corridor)
+        trees_in_corridor = sum(1 for k in tree_idxs if corridor.contains(tree_points[k]))
+
         nearest.append(
             {
                 "patch_id": i,
                 "nearest_patch_id": j,
                 "gap_distance_m": round(gap, 1),
                 "pedestrian_link_detected": linked,
+                "trees_in_corridor": trees_in_corridor,
+                "tree_linked": trees_in_corridor >= 5,
             }
         )
     return nearest
@@ -234,6 +262,7 @@ def main():
     patches = load_green_patches()
     ped_points = load_pedestrian_points()
     sidewalk_lines = load_sidewalk_lines()
+    tree_points = load_tree_points()
 
     import glob
 
@@ -252,10 +281,26 @@ def main():
     catchment = walk_catchment(patches, buildings_clipped)
     edge_density = edge_building_density(patches, buildings_clipped)
     grain = block_grain()
-    fragmentation = green_fragmentation(patches, ped_points)
+    fragmentation = green_fragmentation(patches, ped_points, tree_points)
 
     porosity_sorted = sorted(porosity, key=lambda r: -(r["porosity_index_per_100m_edge"] or 0))
     edge_density_sorted = sorted(edge_density, key=lambda r: -(r["buildings_per_100m_perimeter"] or 0))
+
+    n_links = len(fragmentation)
+    n_ped_linked = sum(1 for r in fragmentation if r["pedestrian_link_detected"])
+    n_tree_linked = sum(1 for r in fragmentation if r["tree_linked"])
+    n_ped_but_not_tree = sum(1 for r in fragmentation if r["pedestrian_link_detected"] and not r["tree_linked"])
+    fragmentation_summary = {
+        "nearest_neighbor_pairs": n_links,
+        "pedestrian_linked_pct": round(100 * n_ped_linked / n_links, 1) if n_links else None,
+        "tree_linked_pct": round(100 * n_tree_linked / n_links, 1) if n_links else None,
+        "pedestrian_linked_but_treeless_pct": round(100 * n_ped_but_not_tree / n_links, 1) if n_links else None,
+        "NOTE": (
+            "pedestrian_linked_but_treeless = 兩塊綠地之間雖然有人行道相連,但走廊內"
+            "行道樹不到5株——連得起來,但不是真的綠廊,是這次新增行道樹分析後最直接"
+            "可以拿來論證的落差。"
+        ),
+    }
 
     result = {
         "CAVEAT": (
@@ -272,6 +317,7 @@ def main():
         "gehl_edge_building_density_bottom10": edge_density_sorted[-10:],
         "jacobs_block_grain": grain,
         "jacobs_green_fragmentation": fragmentation,
+        "jacobs_green_fragmentation_summary": fragmentation_summary,
     }
     with open(os.path.join(PROCESSED_DIR, "analysis5_summary.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)

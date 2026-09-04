@@ -112,8 +112,10 @@ def main():
         ).add_to(layer4)
     layer4.add_to(m)
 
-    # -- 5. Jacobs:綠地碎片化/連通 --
-    layer5 = folium.FeatureGroup(name="⑤ Jacobs 綠地斑塊連通(最近鄰,綠=有步行連結/紅=無)", show=False)
+    # -- 5. Jacobs:綠地碎片化/連通(+行道樹是否真的林蔭相連) --
+    layer5 = folium.FeatureGroup(
+        name="⑤ Jacobs 綠地斑塊連通(綠=林蔭連結/橘=僅步道無樹/紅=無連結)", show=False
+    )
     frag = summary["jacobs_green_fragmentation"]
     patch_geoms = {f["properties"]["patch_id"]: shape(f["geometry"]) for f in patches["features"]}
     for link in frag:
@@ -122,16 +124,34 @@ def main():
         if p1 is None or p2 is None:
             continue
         c1, c2 = to_wgs84(p1.centroid), to_wgs84(p2.centroid)
-        color = "#31a354" if link["pedestrian_link_detected"] else "#de2d26"
+        if link.get("tree_linked"):
+            color, weight, dash = "#31a354", 2.2, None
+        elif link["pedestrian_link_detected"]:
+            color, weight, dash = "#e6852c", 1.5, "6,4"
+        else:
+            color, weight, dash = "#de2d26", 1.2, "2,4"
         folium.PolyLine(
             [[c1.y, c1.x], [c2.y, c2.x]],
             color=color,
-            weight=1.5,
-            opacity=0.7,
-            dash_array="4,4" if not link["pedestrian_link_detected"] else None,
-            tooltip=f"間距 {link['gap_distance_m']}m",
+            weight=weight,
+            opacity=0.75,
+            dash_array=dash,
+            tooltip=f"間距 {link['gap_distance_m']}m,走廊內行道樹 {link.get('trees_in_corridor', '?')} 株",
         ).add_to(layer5)
     layer5.add_to(m)
+
+    # -- 6. 行道樹密度(供對照⑤的林蔭判斷) --
+    from folium.plugins import HeatMap
+
+    layer6 = folium.FeatureGroup(name="⑥ 行道樹密度(對照⑤的林蔭連結判斷)", show=False)
+    trees = load("street_trees_clipped.geojson")
+    heat_pts = []
+    for f in trees["features"]:
+        x, y = f["geometry"]["coordinates"]
+        lon, lat = proj_to_wgs84(x, y)
+        heat_pts.append([lat, lon, 1])
+    HeatMap(heat_pts, radius=10, blur=8, max_zoom=16).add_to(layer6)
+    layer6.add_to(m)
 
     legend_html = f"""
     <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
@@ -142,7 +162,10 @@ def main():
       800m內 {summary['gehl_walk_catchment']['within_800m_pct']}%<br>
       細街廓道路(&lt;8m)佔比 {summary['jacobs_block_grain']['fine_grain_lt8m_pct_of_total']}%,
       寬幹道(&ge;20m)佔比 {summary['jacobs_block_grain']['wide_ge20m_pct_of_total']}%<br>
-      綠地斑塊數:{summary['green_patch_count']}
+      綠地斑塊數:{summary['green_patch_count']}<br>
+      斑塊最近鄰連結:步道相連 {summary['jacobs_green_fragmentation_summary']['pedestrian_linked_pct']}%,
+      <b>真正林蔭相連僅 {summary['jacobs_green_fragmentation_summary']['tree_linked_pct']}%</b><br>
+      <span style="color:#e6852c;">■</span> 步道相連但無樹({summary['jacobs_green_fragmentation_summary']['pedestrian_linked_but_treeless_pct']}%)
     </div>
     """
     m.get_root().html.add_child(folium.Element(legend_html))

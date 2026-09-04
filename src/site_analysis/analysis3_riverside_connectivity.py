@@ -8,8 +8,12 @@
   不是實際可走的路徑規劃,真正可行性還是要實地或用路網資料做路徑分析才準。
 - 延平河濱公園本身在資料裡只有一個中心點座標+概略面積,沒有公園邊界多邊形,
   所以沒辦法算「基地到公園邊界」的精確距離,只能算到公園中心點的距離。
+- 行道樹另外用兩種寬度計算:300m(跟其他設施同一個寬鬆廊帶,看「這一帶整體有沒有
+  樹」)+ 30m(貼近道路的緊窄帶,看「路線本身是不是真的林蔭」)。兩個數字差很多的話
+  代表「這一區有樹」但「這條特定路線未必走得到樹蔭下」,是兩件事。
 """
 
+import csv
 import json
 import os
 
@@ -62,14 +66,27 @@ def main():
         r["_x"], r["_y"] = wgs84_to_proj(r["_x"], r["_y"])
     underpasses_in_site = clip_points_xy(up_records, "_x", "_y")
 
+    # -- 行道樹 --
+    with open(os.path.join(RAW_DIR, "street_trees.csv"), encoding="utf-8") as f:
+        tree_rows = list(csv.DictReader(f))
+    for r in tree_rows:
+        try:
+            r["_x"], r["_y"] = float(r["TWD97X"]), float(r["TWD97Y"])
+        except (TypeError, ValueError):
+            r["_x"] = r["_y"] = None
+    tree_rows = [r for r in tree_rows if r["_x"] is not None]
+    trees_in_site = clip_points_xy(tree_rows, "_x", "_y")
+    tree_pts_all = [Point(r["_x"], r["_y"]) for r in tree_rows]
+
     # -- 概略連結廊帶:市民大道西端 -> 延平河濱公園 --
     west_proj = wgs84_to_proj(CORRIDOR_WEST_LON, CORRIDOR_WEST_LAT)
     park_proj = wgs84_to_proj(YANPING_RIVERSIDE_PARK_LON, YANPING_RIVERSIDE_PARK_LAT)
     connector_line = LineString([west_proj, park_proj])
     connector_buffer = connector_line.buffer(CORRIDOR_CHECK_BUFFER_M)
+    connector_buffer_tight = connector_line.buffer(30)
 
-    def count_within_corridor(geoms):
-        return sum(1 for g in geoms if connector_buffer.intersects(g))
+    def count_within_corridor(geoms, buf=connector_buffer):
+        return sum(1 for g in geoms if buf.intersects(g))
 
     sidewalk_geoms_all = [shape(f["geometry"]) for f in sidewalks["features"]]
     painted_geoms_all = [shape(f["geometry"]) for f in painted["features"]]
@@ -77,12 +94,27 @@ def main():
     fb_pts_all = [Point(r["_x"], r["_y"]) for r in fb_records]
     up_pts_all = [Point(r["_x"], r["_y"]) for r in up_records]
 
+    trees_near_corridor_300m = count_within_corridor(tree_pts_all)
+    trees_near_corridor_30m = count_within_corridor(tree_pts_all, connector_buffer_tight)
+    corridor_len_km = connector_line.length / 1000
+
     corridor_signal = {
         "sidewalk_segments_near_corridor": count_within_corridor(sidewalk_geoms_all),
         "painted_sidewalk_segments_near_corridor": count_within_corridor(painted_geoms_all),
         "accessibility_ramps_near_corridor": count_within_corridor(ramp_pts_all),
         "footbridges_near_corridor": count_within_corridor(fb_pts_all),
         "underpasses_near_corridor": count_within_corridor(up_pts_all),
+        "street_trees_within_300m_of_corridor": trees_near_corridor_300m,
+        "street_trees_within_30m_of_corridor": trees_near_corridor_30m,
+        "street_trees_within_30m_per_km": round(trees_near_corridor_30m / corridor_len_km, 1)
+        if corridor_len_km
+        else None,
+        "tree_shade_note": (
+            "30m內株數遠低於300m內株數,代表這一帶雖然有樹,但這條特定路線本身未必"
+            "林蔭——樹木密度落差越大,越可能是路線需要調整才能真正走在樹蔭下"
+            if trees_near_corridor_300m and trees_near_corridor_30m / max(trees_near_corridor_300m, 1) < 0.15
+            else "30m內株數佔300m內比例不低,這條路線本身沿線有一定行道樹覆蓋"
+        ),
         "connector_line_length_m": round(connector_line.length, 0),
         "corridor_check_buffer_m": CORRIDOR_CHECK_BUFFER_M,
     }
@@ -120,6 +152,7 @@ def main():
             "accessibility_ramps_in_site": len(ramps_in_site),
             "footbridges_in_site": len(footbridges_in_site),
             "underpasses_in_site": len(underpasses_in_site),
+            "street_trees_in_site": len(trees_in_site),
         },
         "connector_corridor_signal_to_yanping_park": corridor_signal,
     }
