@@ -1,5 +1,5 @@
 {
-  "CAVEAT": "無建物 footprint/地籍資料,以下僅為土地使用分區組成與建照點位分布,不是完整的街廓特色分析",
+  "CAVEAT": "土地使用分區組成+建照點位是全基地涵蓋;建物 footprint/樓高目前只有部分網格,見 building_footprints",
   "zoning_mix_by_source": {
     "主計畫": {
       "住宅區": {
@@ -948,5 +948,15 @@
       "109": 1,
       "未知": 51
     }
+  },
+  "building_footprints": {
+    "source_tiles_received": [
+      "buildings_tile_4352.json"
+    ],
+    "coverage_note": "只涵蓋已收到的網格範圍,不是整個基地——目前只覆蓋基地北側一小角(大同/中山區靠雙連站一帶),市民大道走廊主體、台北車站、華山一帶都還沒有資料。之後補齊更多網格後重跑即會自動合併進來。",
+    "buildings_total_in_received_tiles": 13268,
+    "buildings_in_site_boundary": 3178,
+    "avg_height_m": 21.17,
+    "max_height_m": 66.5
   }
 }

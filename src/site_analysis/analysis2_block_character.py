@@ -1,16 +1,16 @@
-"""② 找出周邊代表基地特色的街區 — 用都市計畫土地使用分區 + 近年建照分布來描述街廓特色。
+"""② 找出周邊代表基地特色的街區 — 土地使用分區 + 建照 + (部分)建物 footprint/樓高。
 
-真話先講在前面:目前**完全沒有建物 footprint(建築物外形)或地籍資料**,所以這裡
-做不到「街廓」層級的容積率/建物量體/屋齡等直接統計,只能做:
-1. 主計畫/細部計畫土地使用分區在基地內的組成(住宅區/商業區/文教區…佔比)
-2. 街廓編號(街廓編號欄位在資料裡幾乎是空的,只有極少數,見輸出裡的 note)
-3. 近年建照(建築執照)點位分布,做為「哪裡有新建/改建活動」的間接指標
-
-這些只能反映「土地使用分區」跟「近年開發動態」這兩個側面,不是真正的建成環境
-街廓特色分析。要做到那個程度,需要建物 footprint、樓層數、屋齡、地籍等資料——
-使用者已表示待會補建物資料。
+真話先講在前面:
+- 都市計畫分區(住宅區/商業區/文教區…佔比)跟建照點位分布,只能反映分區跟近年
+  開發動態,不是真正的建成環境街廓特色。
+- 建物 footprint + 樓高資料**目前只有部分涵蓋**:使用者是用「臺北市建物3D模型」
+  按網格分批提供,已收到的網格只覆蓋基地北側一小塊(大同/中山區靠雙連站一帶),
+  基地主體(市民大道走廊本身、台北車站、華山一帶)還沒有建物資料,見輸出裡的
+  `building_footprints.coverage_note`,千萬不要把這個部分結果當成完整基地的建物
+  統計。之後使用者補齊其他網格後,重跑這支腳本就會自動合併(見 glob 那段)。
 """
 
+import glob
 import json
 import os
 
@@ -75,8 +75,46 @@ def main():
     with open(os.path.join(PROCESSED_DIR, "building_permits_clipped.geojson"), "w", encoding="utf-8") as f:
         json.dump({"type": "FeatureCollection", "features": permits_clipped}, f, ensure_ascii=False)
 
+    # -- 建物 footprint + 樓高(部分網格,見檔頭說明) --
+    from shapely.geometry import shape as _shape2
+    from shapely.ops import transform as _transform
+    from gis_utils import wgs84_to_proj as _to_proj
+
+    building_tiles = sorted(glob.glob(os.path.join(RAW_DIR, "buildings_tile_*.json")))
+    all_buildings = []
+    tile_names = []
+    for path in building_tiles:
+        tile_names.append(os.path.basename(path))
+        d = load_geojson(path)
+        all_buildings.extend(d["features"])
+
+    buildings_summary = None
+    if all_buildings:
+        buildings_3826 = []
+        for f in all_buildings:
+            g3826 = _transform(lambda lon, lat: _to_proj(lon, lat), _shape2(f["geometry"]))
+            buildings_3826.append(
+                {"geometry": g3826.__geo_interface__, "properties": f["properties"]}
+            )
+        buildings_clipped = clip_features_3826(buildings_3826)
+        heights = [f["properties"].get("height") for f in buildings_clipped if f["properties"].get("height") is not None]
+        with open(os.path.join(PROCESSED_DIR, "buildings_clipped.geojson"), "w", encoding="utf-8") as f:
+            json.dump({"type": "FeatureCollection", "features": buildings_clipped}, f, ensure_ascii=False)
+        buildings_summary = {
+            "source_tiles_received": tile_names,
+            "coverage_note": (
+                "只涵蓋已收到的網格範圍,不是整個基地——目前只覆蓋基地北側一小角"
+                "(大同/中山區靠雙連站一帶),市民大道走廊主體、台北車站、華山一帶都還沒有資料。"
+                "之後補齊更多網格後重跑即會自動合併進來。"
+            ),
+            "buildings_total_in_received_tiles": len(all_buildings),
+            "buildings_in_site_boundary": len(buildings_clipped),
+            "avg_height_m": round(sum(heights) / len(heights), 2) if heights else None,
+            "max_height_m": round(max(heights), 2) if heights else None,
+        }
+
     result = {
-        "CAVEAT": "無建物 footprint/地籍資料,以下僅為土地使用分區組成與建照點位分布,不是完整的街廓特色分析",
+        "CAVEAT": "土地使用分區組成+建照點位是全基地涵蓋;建物 footprint/樓高目前只有部分網格,見 building_footprints",
         "zoning_mix_by_source": zoning_mix,
         "block_id_field_coverage": block_id_coverage,
         "building_permits": {
@@ -84,6 +122,8 @@ def main():
             "permits_total_citywide": len(permits["features"]),
             "by_roc_year": dict(sorted(year_count.items())),
         },
+        "building_footprints": buildings_summary
+        or {"status": "尚未收到任何建物 footprint 資料"},
     }
     with open(os.path.join(PROCESSED_DIR, "analysis2_summary.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
