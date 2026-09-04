@@ -962,9 +962,9 @@
       "buildings_tile_4352.json": 10.8
     },
     "approx_site_area_covered_pct_combined": 64.2,
-    "buildings_total_in_received_tiles": 39640,
-    "buildings_in_site_boundary": 17406,
-    "avg_height_m": 21.86,
+    "buildings_total_in_received_tiles": 39866,
+    "buildings_in_site_boundary": 17418,
+    "avg_height_m": 21.83,
     "max_height_m": 113.08
   }
 }
