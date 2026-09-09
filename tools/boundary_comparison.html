@@ -346,6 +346,18 @@
   .notes h3 { font-size: .95rem; color: var(--ink); font-weight: 700; }
   .notes ul { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 6px; }
   .persist-note { margin: 0; font-size: .8rem; color: var(--ink-faint); }
+  .src-note { font-size: .72rem; color: var(--ink-faint); }
+  .diff-badge.no-data { opacity: .62; font-style: italic; }
+  .tile-count { font-size: .78rem; color: var(--ink-faint); margin: 4px 0 0; }
+  .method-callout {
+    border-left: 3px solid var(--road);
+    padding: 12px 14px;
+    font-size: .84rem;
+    line-height: 1.6;
+    background: rgba(0,0,0,.03);
+    border-radius: 0 8px 8px 0;
+  }
+  .method-callout strong { color: var(--ink); }
 
   @media (max-width: 520px) {
     .val-input { width: 58px; font-size: .82rem; }
@@ -361,9 +373,10 @@
     <h1>市民大道分界儀</h1>
     <p class="lede">
       市民大道是沿著老鐵路廊帶(鐵路地下化後)蓋起來的高架快速道路,把台北切出一條長長的
-      東西向縫隙。但一條路要成為「分界」,不能只看地圖上的線——要看它兩側的土地使用、
-      商業型態、街道活動有沒有真的長成兩個不同的區,以及住在附近的人心裡是不是也把它
-      當成日常活動範圍的邊。把你蒐集到的比較項目填進下面的表,右上角的分界指數會即時算給你看。
+      東西向縫隙。這張表逐項比較它南北兩側的差異。<strong>前六項是實測值</strong>,
+      由 <code>src/severance/build_boundary_rows.py</code> 從 OSM 與基地模型算出,
+      每一列下方標了資料來源;<strong>後四項需要商業登記、建物年份或問卷資料,我們沒有,
+      所以留白</strong>,不填假數字。你可以自己補上或增列。
     </p>
   </header>
 
@@ -371,8 +384,11 @@
     <div class="tile-number"><span id="score">0</span><span class="tile-unit">/ 100</span></div>
     <div class="tile-meta">
       <span class="verdict-pill" id="verdict">—</span>
-      <p class="tile-desc">分界指數是每一項比較的「南北相對差異」取平均。數字越高,代表你填的
-      指標在兩側差得越開;數字接近 0,代表市民大道在這些指標上比較像是「同一區裡的一條路」。</p>
+      <p class="tile-count" id="scoreCount">—</p>
+      <p class="tile-desc">這個指數是各項「南北相對差異」的平均,只計入兩側都有資料的列。
+      它衡量的是<strong>兩側有多不一樣</strong>,不等於<strong>市民大道造成了分隔</strong>——
+      密集市區裡任兩條相鄰街帶都會不一樣。因果判斷請看
+      <a href="civic_blvd_severance.html">市民大道南北分隔</a>。</p>
     </div>
   </section>
 
@@ -380,6 +396,12 @@
     <div class="comparison-head">
       <h2>逐項比較</h2>
     </div>
+    <p class="method-callout">
+      <strong>讀這張表之前:</strong>南北數值差得開,只證明兩側不一樣,不證明是市民大道造成的。
+      要看因果,用<a href="civic_blvd_severance.html">南北分隔分析</a>裡的路緣凹陷與繞路係數
+      ——那兩項是把市民大道跟五條平行幹道並列後,唯一符號相反的判準。
+    </p>
+
     <div class="col-headers">
       <span class="col-h north">市民大道以北</span>
       <span class="road-chip">市民大道</span>
@@ -397,11 +419,20 @@
   <footer class="notes">
     <h3>怎麼用這張表</h3>
     <ul>
-      <li>目前列出的六項是<strong>示意用的範例數字</strong>,不是任何真實調查的結果——請換成你實際蒐集到的資料,或直接刪掉重填。</li>
+      <li>前六項是<strong>實測值</strong>(OSM tag 分類的 POI、可步行路網拓樸的 degree≥3 路口、
+        Blender 量體高度),不是範例數字。後四項標「待補資料」的是<strong>真的沒有資料</strong>,
+        不是還沒填——需要商業登記、建物執照年份或實地問卷才能補。</li>
+      <li><strong>這個指數不能單獨用來證明分隔。</strong>
+        <code>measure_industry.py</code> 做過 placebo 檢定:把同樣的南北比較搬到偏移 ±300／±450 m
+        的假想線上(整條都在同一側),分歧度是 0.145–0.263,而真實軸線是 0.213——落在區間之內,
+        偏北 300 m 的假想線甚至更分歧。也就是說「兩側不一樣」在市中心是常態,不是市民大道的特徵。
+        真正把市民大道和其他五條平行幹道區分開的是<strong>路緣活動凹陷</strong>
+        (市民大道 +67%,八德路 −93%、忠孝東路 −107%、南京東路 −99%)與
+        <strong>行人繞路成本</strong>(多走 209 m vs 對照組 145–173 m)。</li>
       <li>對應兩個驗證面向:①土地使用、商業型態、街道活動在兩側是否長成不同的區;②居民認知地圖裡,市民大道是否成為「我平常會去的範圍」的心理邊界(可用受訪者比例當作一列)。</li>
       <li>每一列的長條各自以該列數值較大的一邊為滿格基準,方便你看清同一指標的南北落差;不同列之間的長條長度不能互相比較,只有百分比、差距數字才能跨列比較。</li>
     </ul>
-    <p class="persist-note">你的編輯會存在這個瀏覽器的 localStorage 裡,重新整理不會消失;清除瀏覽器資料或換一台裝置就會回到範例。</p>
+    <p class="persist-note">你的編輯會存在這個瀏覽器的 localStorage 裡,重新整理不會消失;清除瀏覽器資料或換一台裝置就會回到實測值。</p>
   </footer>
 
 </div>
@@ -410,15 +441,19 @@
 (function () {
   "use strict";
 
-  var STORAGE_KEY = "minsheng-boundary-rows-v1";
+  var STORAGE_KEY = "minsheng-boundary-rows-v2-measured";
 
   var seedRows = [
-    { id: 1, name: "商家密度", unit: "家 / km²", north: 138, south: 210 },
-    { id: 2, name: "連鎖品牌店占比", unit: "%", north: 22, south: 41 },
-    { id: 3, name: "建物平均樓齡", unit: "年", north: 42, south: 28 },
-    { id: 4, name: "騎樓 / 招牌型態一致度", unit: "分(0–10)", north: 3.1, south: 5.4 },
-    { id: 5, name: "認知地圖:視市民大道為活動邊界的受訪者比例", unit: "%", north: 61, south: 57 },
-    { id: 6, name: "路口密度(步行可及性)", unit: "個 / km²", north: 92, south: 105 }
+    { id: 1, name: "商家密度（餐飲＋零售＋超商＋夜生活）", unit: "家 / km²", north: 351, south: 508, src: "OSM tag 分類，軸線兩側 300 m 帶" },
+    { id: 2, name: "路口密度（人行網路 degree≥3 節點）", unit: "個 / km²", north: 658, south: 896, src: "OSM 可步行路網拓樸，非道路寬度代理" },
+    { id: 3, name: "建物平均樓高（貼線 0–50 m）", unit: "m", north: 18.15, south: 12.19, src: "Blender 量體，已排除 12.0 m 預設值" },
+    { id: 4, name: "建物平均樓高（走廊 0–400 m）", unit: "m", north: 17.58, south: 18.29, src: "同上；注意 200 m 外南北關係反轉" },
+    { id: 5, name: "停車設施佔 POI 比例", unit: "%", north: 24.5, south: 12.1, src: "OSM tag 分類；北側被停車佔據是走廊最不對稱的類別" },
+    { id: 6, name: "綠地佔 POI 比例", unit: "%", north: 5.6, south: 13.1, src: "OSM tag 分類" },
+    { id: 7, name: "連鎖品牌店占比", unit: "%", north: null, south: null, src: "無資料：OSM brand tag 覆蓋率過低，需要商業登記或實地清點" },
+    { id: 8, name: "建物平均樓齡", unit: "年", north: null, south: null, src: "無資料：需要建物執照年份資料集" },
+    { id: 9, name: "騎樓／招牌型態一致度", unit: "分(0–10)", north: null, south: null, src: "無資料：需要實地觀察評分" },
+    { id: 10, name: "認知地圖：視市民大道為活動邊界的受訪者比例", unit: "%", north: null, south: null, src: "無資料：需要問卷調查" }
   ];
 
   var rowsEl = document.getElementById("rows");
@@ -466,20 +501,41 @@
   }
 
   function updateSummary() {
-    if (!rows.length) {
-      scoreEl.textContent = "0";
+    // Only rows with data on BOTH sides count. Averaging in a blank row as if
+    // it were 0% difference would drag the index down and misrepresent it as
+    // a measurement over more evidence than actually exists.
+    var scored = rows.filter(hasData);
+    var countEl = document.getElementById("scoreCount");
+    if (!scored.length) {
+      scoreEl.textContent = "—";
       verdictEl.textContent = "尚無資料";
+      if (countEl) countEl.textContent = "0 / " + rows.length + " 項有資料";
       return;
     }
-    var total = rows.reduce(function (sum, r) { return sum + relDiff(Number(r.north) || 0, Number(r.south) || 0); }, 0);
-    var score = Math.round(total / rows.length);
+    var total = scored.reduce(function (sum, r) { return sum + relDiff(Number(r.north) || 0, Number(r.south) || 0); }, 0);
+    var score = Math.round(total / scored.length);
     scoreEl.textContent = String(score);
-    verdictEl.textContent = score < 15 ? "低分界性 · 較像同一區"
-      : score < 35 ? "中分界性 · 兩側有落差"
-      : "高分界性 · 兩側明顯分化";
+    verdictEl.textContent = score < 15 ? "兩側落差小"
+      : score < 35 ? "兩側有落差"
+      : "兩側明顯不同";
+    if (countEl) countEl.textContent = scored.length + " / " + rows.length + " 項有資料";
+  }
+
+  function hasData(row) {
+    return row.north !== null && row.north !== undefined && row.north !== "" &&
+           row.south !== null && row.south !== undefined && row.south !== "";
   }
 
   function updateRowBar(rowEl, row) {
+    var badge = rowEl.querySelector(".diff-badge");
+    if (!hasData(row)) {
+      rowEl.querySelector(".bar-fill.north").style.width = "0%";
+      rowEl.querySelector(".bar-fill.south").style.width = "0%";
+      badge.textContent = "待補資料 · 不計入指數";
+      badge.classList.add("no-data");
+      return;
+    }
+    badge.classList.remove("no-data");
     var n = Number(row.north) || 0;
     var s = Number(row.south) || 0;
     var max = Math.max(Math.abs(n), Math.abs(s)) || 1;
@@ -487,7 +543,7 @@
     var sPct = s === 0 ? 0 : Math.max(4, (Math.abs(s) / max) * 100);
     rowEl.querySelector(".bar-fill.north").style.width = nPct + "%";
     rowEl.querySelector(".bar-fill.south").style.width = sPct + "%";
-    rowEl.querySelector(".diff-badge").textContent = "南北相差 " + Math.round(relDiff(n, s)) + "%";
+    badge.textContent = "南北相差 " + Math.round(relDiff(n, s)) + "%";
   }
 
   function buildRowEl(row) {
@@ -509,7 +565,7 @@
         '</div>' +
         '<input class="val-input south" type="number" step="any" />' +
       '</div>' +
-      '<div class="row-bottom"><span class="diff-badge"></span></div>';
+      '<div class="row-bottom"><span class="diff-badge"></span><span class="src-note"></span></div>';
 
     var nameInput = el.querySelector(".name-input");
     var unitInput = el.querySelector(".unit-input");
@@ -519,19 +575,23 @@
 
     nameInput.value = row.name;
     unitInput.value = row.unit;
-    northInput.value = formatNum(Number(row.north) || 0);
-    southInput.value = formatNum(Number(row.south) || 0);
+    el.querySelector(".src-note").textContent = row.src || "";
+    // A null value means "we have no data for this", which is different from
+    // zero. Render it as an empty field so the tool never shows a measured-
+    // looking number the project cannot back up.
+    northInput.value = row.north === null || row.north === undefined ? "" : formatNum(Number(row.north));
+    southInput.value = row.south === null || row.south === undefined ? "" : formatNum(Number(row.south));
 
     nameInput.addEventListener("input", function () { row.name = nameInput.value; saveRows(); });
     unitInput.addEventListener("input", function () { row.unit = unitInput.value; saveRows(); });
     northInput.addEventListener("input", function () {
-      row.north = northInput.value === "" ? 0 : parseFloat(northInput.value);
+      row.north = northInput.value === "" ? null : parseFloat(northInput.value);
       updateRowBar(el, row);
       updateSummary();
       saveRows();
     });
     southInput.addEventListener("input", function () {
-      row.south = southInput.value === "" ? 0 : parseFloat(southInput.value);
+      row.south = southInput.value === "" ? null : parseFloat(southInput.value);
       updateRowBar(el, row);
       updateSummary();
       saveRows();
@@ -553,7 +613,7 @@
   }
 
   addBtn.addEventListener("click", function () {
-    var newRow = { id: uid++, name: "", unit: "", north: 50, south: 50 };
+    var newRow = { id: uid++, name: "", unit: "", north: null, south: null, src: "" };
     rows.push(newRow);
     saveRows();
     render();

@@ -4,3 +4,22 @@ data/*.json
 output/*
 __pycache__/
 *.pyc
+
+# 進度記錄的機器本地狀態，不進版控
+.claude/progress/.*.fingerprint
+
+# Regenerable build artifacts of the severance pipeline. The existing
+# data/*.json rule only matches the top level, so the subdirectories need
+# their own entries. All of this comes back from `sh src/severance/run_all.sh`
+# (plus the Blender export scripts when the .blend model changes).
+data/raw/
+data/processed/
+data/blend/
+*.npy
+
+.DS_Store
+
+# The severance overlay tool carries its whole dataset inline (1.83 MB) so it
+# opens offline as a single file. That makes it a build artifact, not source:
+# regenerate with `cd src/severance && sh run_all.sh`.
+tools/civic_blvd_severance.html

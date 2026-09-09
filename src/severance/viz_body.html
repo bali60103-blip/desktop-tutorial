@@ -1,0 +1,153 @@
+<div class="wrap">
+
+<header class="sheet">
+  <div>
+    <div class="eyebrow">Site analysis · 市民大道高架 · 6,533 m · TWD97 TM2</div>
+    <h1>市民大道<em>把台北切成南北兩半</em>嗎？</h1>
+    <p class="lede">同一條軸線，十項可查證的量測，與五條平行幹道對照。
+      七項支持分隔假設、一項反證、兩項不採用——全部列出，包含那些不利於假設的。</p>
+  </div>
+  <div class="stampbox" id="stampbox"></div>
+</header>
+
+<div class="ribbon" id="ribbon"></div>
+
+<section>
+  <div class="shead">
+    <span class="sn">01</span><h2>疊圖：真實地理環境上的分隔證據</h2>
+    <span class="sd">拖曳平移 · 滾輪縮放 · 點擊查詢</span>
+  </div>
+  <div class="maprow">
+    <canvas id="map"></canvas>
+    <div class="panel" id="panel">
+      <div class="ptitle">圖層 Layers <button id="pcollapse" type="button">−</button></div>
+      <div class="pbody" id="pbody"></div>
+    </div>
+    <div class="zoomers">
+      <button id="zin" type="button" title="放大">+</button>
+      <button id="zout" type="button" title="縮小">−</button>
+      <button id="zfit" type="button" title="回到全段" style="font-size:10px">全段</button>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="readout" id="readout">移動滑鼠讀取里程與側別</div>
+  </div>
+  <div class="ruler" id="ruler"></div>
+</section>
+
+<section>
+  <div class="shead">
+    <span class="sn">02</span><h2>橫斷面：決定性的一張圖</h2>
+    <span class="sd">E1 · 活躍店面密度 vs 垂直距離</span>
+  </div>
+  <div class="grid2">
+    <div class="chartcard">
+      <h3>一般幹道在路緣「隆起」，市民大道在路緣「凹陷」</h3>
+      <p class="sub">以中線為 0，往南北各 600 公尺、每 25 公尺一格，統計餐飲／零售／超商／辦公／金融／旅宿／醫療／夜生活等
+        「活躍店面」POI 的密度（筆／公頃）。灰帶是五條平行幹道的範圍。</p>
+      <svg id="ch_section" viewBox="0 0 720 300" role="img"
+           aria-label="活躍店面密度隨垂直距離變化：市民大道在中線凹陷，控制組隆起"></svg>
+      <p class="note" id="ch_section_note"></p>
+    </div>
+    <div class="chartcard">
+      <h3>凹陷深度：符號相反</h3>
+      <p class="sub">凹陷深度 = 1 −（中線 ±50 m 密度 ÷ 200–400 m 密度）。
+        正值代表中線活動被推開，負值代表活動被吸到路緣。</p>
+      <svg id="ch_trough" viewBox="0 0 420 300" role="img"
+           aria-label="凹陷深度比較：市民大道為正，五條控制組皆為負"></svg>
+      <p class="note">六條路用完全相同的判準計算。只有市民大道是正值。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="shead">
+    <span class="sn">03</span><h2>沿線剖面：分隔在哪幾段最嚴重</h2>
+    <span class="sd">共用里程軸 0 → 6,533 m（西端淡水河 → 東端光復南路）</span>
+  </div>
+  <div class="strips" id="strips"></div>
+  <p class="note" style="font-size:11.5px;color:var(--ink-3);margin-top:9px">
+    滑過任一剖面可在上方地圖標出對應位置。</p>
+</section>
+
+<section>
+  <div class="shead">
+    <span class="sn">04</span><h2>行人繞路成本</h2>
+    <span class="sd">E2 · 網路最短路徑，非直線距離</span>
+  </div>
+  <div class="grid2">
+    <div class="chartcard">
+      <h3>跨越市民大道平均多走 209 公尺</h3>
+      <p class="sub">每 100 公尺取一組樣本點：軸線北側 150 m 與南側 150 m 各一點，
+        吸附到真實人行網路後計算最短步行路徑。直線需求 300 m。</p>
+      <svg id="ch_detour" viewBox="0 0 720 260" role="img"
+           aria-label="六條幹道的行人繞路多走距離比較"></svg>
+      <p class="note" id="ch_detour_note"></p>
+    </div>
+    <div class="chartcard">
+      <h3>多走的距離，與出發點遠近無關</h3>
+      <p class="sub">把取樣距離換成 100 / 150 / 250 公尺重跑。倍率會下降（分母變大），
+        但「多走的公尺數」幾乎不動。</p>
+      <svg id="ch_offset" viewBox="0 0 420 260" role="img"
+           aria-label="三種取樣距離下的繞路倍率與多走公尺數"></svg>
+      <p class="note">這是線狀障礙的指紋：不論從哪裡出發，都要付一筆固定的「繞去閘口再回來」成本。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="shead">
+    <span class="sn">05</span><h2>產業分布與區域特色</h2>
+    <span class="sd">依 OSM tag 分類，非店名推測</span>
+  </div>
+  <div class="grid2">
+    <div class="chartcard">
+      <h3>走廊內南北兩側的產業結構</h3>
+      <p class="sub">軸線南北各 300 公尺內、依 OSM tag 分類的 POI。
+        北側被停車佔據，南側是綠地與文化設施——這是真實的空間差異。</p>
+      <svg id="ch_industry" viewBox="0 0 720 430" role="img"
+           aria-label="南北兩側各產業類別的 POI 數量對照"></svg>
+      <p class="note" id="ch_industry_note"></p>
+    </div>
+    <div class="chartcard">
+      <h3>但這個差異，不能當成分隔的證據</h3>
+      <p class="sub">把同樣的量測搬到偏移 ±300／±450 公尺的假想線上——那些線整條都在同一側，
+        測到的只會是一般的空間異質性。軸線必須贏過它們才算證據。</p>
+      <svg id="ch_placebo" viewBox="0 0 420 300" role="img"
+           aria-label="軸線與四條假想線的南北產業組成分歧度比較"></svg>
+      <p class="note" id="ch_placebo_note"></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="shead">
+    <span class="sn">06</span><h2>證據表</h2>
+    <span class="sd">支持 / 反證 / 不採用，逐項列出</span>
+  </div>
+  <div class="ev" id="ev"></div>
+</section>
+
+<section>
+  <div class="shead">
+    <span class="sn">07</span><h2>與五條平行幹道的並列對照</h2>
+    <span class="sd">同一經度窗口、同一判準</span>
+  </div>
+  <div class="tw"><table id="cmp"></table></div>
+</section>
+
+<section>
+  <div class="shead"><span class="sn">08</span><h2>方法、資料與已知限制</h2></div>
+  <div class="grid2" style="align-items:start">
+    <div class="chartcard">
+      <h3>怎麼算的</h3>
+      <div id="method" style="font-size:12.5px;color:var(--ink-2)"></div>
+    </div>
+    <div class="cav">
+      <div class="ck">已知限制（依「有缺少資料就要說」的原則逐項列出）</div>
+      <ul id="caveats"></ul>
+    </div>
+  </div>
+</section>
+
+<footer id="foot"></footer>
+</div>
