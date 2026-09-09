@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<title>市民大道疊圖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #eceef0;
+    --surface: #ffffff;
+    --surface-2: #f4f5f6;
+    --ink: #1b1f23;
+    --ink-muted: #5b6470;
+    --ink-faint: #939ba3;
+    --border: #dadde1;
+    --road: #34383e;
+    --road-line: #d9b23c;
+    --heat: #c64545;
+    --age: #3b72b0;
+    --chain: #4655c4;
+    --indie: #c98a2c;
+    --cog: #7c6fbe;
+    --shadow: 0 1px 2px rgba(20,22,25,.06), 0 10px 24px -16px rgba(20,22,25,.28);
+    --radius: 12px;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14161a; --surface: #1d2024; --surface-2: #24272c;
+      --ink: #edeef0; --ink-muted: #a9b0b8; --ink-faint: #6f767e;
+      --border: #33373c; --road: #0f1113; --road-line: #e0b84e;
+      --heat: #e2685f; --age: #6fa0de; --chain: #7c89e8; --indie: #e3a94e; --cog: #a79be0;
+      --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -16px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14161a; --surface: #1d2024; --surface-2: #24272c;
+    --ink: #edeef0; --ink-muted: #a9b0b8; --ink-faint: #6f767e;
+    --border: #33373c; --road: #0f1113; --road-line: #e0b84e;
+    --heat: #e2685f; --age: #6fa0de; --chain: #7c89e8; --indie: #e3a94e; --cog: #a79be0;
+    --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", "Noto Sans TC", system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  .page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  h1 { font-family: "Archivo", "Noto Sans TC", sans-serif; font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; letter-spacing: -.01em; text-wrap: balance; margin: 0; }
+  .eyebrow {
+    margin: 0 0 8px; font-family: "IBM Plex Mono", monospace; font-size: .78rem;
+    letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint);
+  }
+  .lede { max-width: 68ch; color: var(--ink-muted); font-size: .96rem; margin: 8px 0 0; }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 18px 20px;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 18px;
+  }
+  .layer-toggle {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: .86rem;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+  }
+  .layer-toggle input { accent-color: var(--ink); width: 15px; height: 15px; cursor: pointer; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+  .swatch.heat { background: var(--heat); }
+  .swatch.age { background: var(--age); }
+  .swatch.chain { background: var(--chain); }
+  .swatch.indie { background: var(--indie); }
+  .swatch.cog { background: var(--cog); border-radius: 50%; }
+
+  .quick-actions { display: flex; gap: 8px; margin-left: auto; }
+  .quick-actions button {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: .8rem; font-weight: 600;
+    padding: 6px 12px; border-radius: 7px;
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    color: var(--ink-muted);
+    cursor: pointer;
+  }
+  .quick-actions button:hover { color: var(--ink); border-color: var(--ink-faint); }
+
+  .map-wrap { overflow-x: auto; }
+  svg { display: block; width: 100%; height: auto; min-width: 640px; }
+
+  .layer-group.hidden { display: none; }
+
+  .end-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+    fill: var(--ink-faint);
+  }
+  .side-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    fill: var(--ink-muted);
+  }
+  .road-chip-text {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    fill: #f2e7c4;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 22px;
+    padding-top: 4px;
+    border-top: 1px solid var(--border);
+    margin-top: 14px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 7px; font-size: .82rem; color: var(--ink-muted); }
+
+  .notes {
+    font-size: .86rem;
+    color: var(--ink-muted);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .notes strong { color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <p class="eyebrow">研究工具 · 空間疊圖</p>
+    <h1>市民大道疊圖</h1>
+    <p class="lede">
+      這是市民大道一段(大同區,環河北路到中山北路一帶)沿線的空間示意圖,把商家密度、
+      連鎖 / 獨立店家分布、建物樓齡、認知地圖邊界感受這幾層證據疊在同一張圖上。
+      全部打開,直接看圖案在市民大道兩側是不是真的斷開。
+    </p>
+  </header>
+
+  <section class="panel">
+    <div class="controls">
+      <label class="layer-toggle"><input type="checkbox" data-layer="heat" checked /><span class="swatch heat"></span>商家密度熱區</label>
+      <label class="layer-toggle"><input type="checkbox" data-layer="age" checked /><span class="swatch age"></span>建物樓齡(舊 → 新)</label>
+      <label class="layer-toggle"><input type="checkbox" data-layer="brand" checked /><span class="swatch chain"></span>連鎖 / <span class="swatch indie"></span>獨立店家</label>
+      <label class="layer-toggle"><input type="checkbox" data-layer="cog" checked /><span class="swatch cog"></span>認知地圖邊界標記</label>
+      <div class="quick-actions">
+        <button type="button" id="showAll">全部顯示</button>
+        <button type="button" id="hideAll">全部隱藏</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel map-wrap">
+    <svg id="map" viewBox="0 0 1000 620" role="img" aria-label="市民大道一段兩側證據疊圖">
+      <defs>
+        <filter id="blurSoft" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="16" />
+        </filter>
+        <filter id="blurSoft2" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="22" />
+        </filter>
+      </defs>
+
+      <!-- side labels -->
+      <text class="side-label" x="20" y="46">市民大道以北</text>
+      <text class="side-label" x="20" y="592" text-anchor="start">市民大道以南</text>
+      <text class="end-label" x="20" y="614">環河北路</text>
+      <text class="end-label" x="980" y="614" text-anchor="end">中山北路</text>
+
+      <!-- heat layer: 商家密度 (sequential, one hue) -->
+      <g id="layer-heat" class="layer-group">
+        <g fill="var(--heat)" filter="url(#blurSoft2)">
+          <circle cx="150" cy="170" r="70" opacity=".30" />
+          <circle cx="210" cy="200" r="55" opacity=".25" />
+          <circle cx="470" cy="190" r="40" opacity=".16" />
+          <circle cx="640" cy="150" r="35" opacity=".14" />
+        </g>
+        <g fill="var(--heat)" filter="url(#blurSoft2)">
+          <circle cx="330" cy="430" r="80" opacity=".34" />
+          <circle cx="470" cy="470" r="90" opacity=".36" />
+          <circle cx="620" cy="420" r="75" opacity=".32" />
+          <circle cx="740" cy="460" r="65" opacity=".30" />
+          <circle cx="860" cy="410" r="55" opacity=".24" />
+          <circle cx="220" cy="480" r="45" opacity=".22" />
+        </g>
+      </g>
+
+      <!-- age layer: 建物樓齡 (sequential, one hue, older = larger/denser) -->
+      <g id="layer-age" class="layer-group">
+        <g fill="var(--age)" filter="url(#blurSoft)">
+          <circle cx="130" cy="140" r="60" opacity=".30" />
+          <circle cx="260" cy="180" r="50" opacity=".26" />
+          <circle cx="420" cy="150" r="45" opacity=".22" />
+          <circle cx="600" cy="190" r="40" opacity=".18" />
+          <circle cx="800" cy="160" r="38" opacity=".16" />
+        </g>
+        <g fill="var(--age)" filter="url(#blurSoft)">
+          <circle cx="300" cy="470" r="30" opacity=".12" />
+          <circle cx="560" cy="500" r="26" opacity=".10" />
+          <circle cx="780" cy="450" r="24" opacity=".10" />
+        </g>
+      </g>
+
+      <!-- brand layer: 連鎖 vs 獨立 (categorical, two hues) -->
+      <g id="layer-brand" class="layer-group">
+        <g fill="var(--indie)">
+          <circle cx="95" cy="120" r="6" /><circle cx="145" cy="200" r="6" />
+          <circle cx="195" cy="150" r="6" /><circle cx="255" cy="230" r="6" />
+          <circle cx="320" cy="170" r="6" /><circle cx="380" cy="210" r="6" />
+          <circle cx="440" cy="140" r="6" /><circle cx="510" cy="200" r="6" />
+          <circle cx="580" cy="160" r="6" /><circle cx="650" cy="220" r="6" />
+          <circle cx="720" cy="150" r="6" /><circle cx="790" cy="190" r="6" />
+          <circle cx="860" cy="130" r="6" /><circle cx="920" cy="200" r="6" />
+          <circle cx="360" cy="480" r="6" /><circle cx="700" cy="500" r="6" />
+        </g>
+        <g fill="var(--chain)">
+          <circle cx="120" cy="440" r="6" /><circle cx="180" cy="500" r="6" />
+          <circle cx="240" cy="460" r="6" /><circle cx="300" cy="410" r="6" />
+          <circle cx="360" cy="500" r="6" /><circle cx="420" cy="440" r="6" />
+          <circle cx="480" cy="490" r="6" /><circle cx="540" cy="420" r="6" />
+          <circle cx="600" cy="480" r="6" /><circle cx="660" cy="440" r="6" />
+          <circle cx="720" cy="500" r="6" /><circle cx="780" cy="420" r="6" />
+          <circle cx="840" cy="470" r="6" /><circle cx="900" cy="430" r="6" />
+          <circle cx="950" cy="490" r="6" /><circle cx="500" cy="160" r="6" />
+          <circle cx="850" cy="210" r="6" />
+        </g>
+      </g>
+
+      <!-- cognitive-boundary layer: ticks along the road, density = agreement -->
+      <g id="layer-cog" class="layer-group" stroke="var(--cog)" stroke-width="4" stroke-linecap="round">
+        <!-- north edge ticks -->
+        <line x1="60" y1="248" x2="60" y2="266" opacity=".7" />
+        <line x1="110" y1="248" x2="110" y2="266" opacity=".9" />
+        <line x1="160" y1="248" x2="160" y2="266" opacity=".9" />
+        <line x1="220" y1="248" x2="220" y2="266" opacity=".6" />
+        <line x1="280" y1="248" x2="280" y2="266" opacity=".8" />
+        <line x1="340" y1="248" x2="340" y2="266" opacity=".7" />
+        <line x1="400" y1="248" x2="400" y2="266" opacity=".9" />
+        <line x1="460" y1="248" x2="460" y2="266" opacity=".6" />
+        <line x1="520" y1="248" x2="520" y2="266" opacity=".8" />
+        <line x1="580" y1="248" x2="580" y2="266" opacity=".7" />
+        <line x1="640" y1="248" x2="640" y2="266" opacity=".9" />
+        <line x1="700" y1="248" x2="700" y2="266" opacity=".6" />
+        <line x1="760" y1="248" x2="760" y2="266" opacity=".8" />
+        <line x1="820" y1="248" x2="820" y2="266" opacity=".7" />
+        <line x1="880" y1="248" x2="880" y2="266" opacity=".9" />
+        <line x1="940" y1="248" x2="940" y2="266" opacity=".6" />
+        <!-- south edge ticks -->
+        <line x1="80" y1="354" x2="80" y2="372" opacity=".6" />
+        <line x1="140" y1="354" x2="140" y2="372" opacity=".7" />
+        <line x1="200" y1="354" x2="200" y2="372" opacity=".8" />
+        <line x1="260" y1="354" x2="260" y2="372" opacity=".5" />
+        <line x1="320" y1="354" x2="320" y2="372" opacity=".7" />
+        <line x1="380" y1="354" x2="380" y2="372" opacity=".9" />
+        <line x1="440" y1="354" x2="440" y2="372" opacity=".6" />
+        <line x1="500" y1="354" x2="500" y2="372" opacity=".7" />
+        <line x1="560" y1="354" x2="560" y2="372" opacity=".8" />
+        <line x1="620" y1="354" x2="620" y2="372" opacity=".5" />
+        <line x1="680" y1="354" x2="680" y2="372" opacity=".7" />
+        <line x1="740" y1="354" x2="740" y2="372" opacity=".9" />
+        <line x1="800" y1="354" x2="800" y2="372" opacity=".6" />
+        <line x1="860" y1="354" x2="860" y2="372" opacity=".7" />
+        <line x1="920" y1="354" x2="920" y2="372" opacity=".8" />
+      </g>
+
+      <!-- 市民大道 road band: always on top, always visible -->
+      <g>
+        <rect x="0" y="284" width="1000" height="34" fill="var(--road)" />
+        <rect x="0" y="298" width="1000" height="4"
+          fill="none" stroke="var(--road-line)" stroke-width="4" stroke-dasharray="18 14" />
+        <rect x="430" y="288" width="140" height="26" rx="13" fill="var(--road)" />
+        <text class="road-chip-text" x="500" y="305" text-anchor="middle">市民大道一段</text>
+      </g>
+    </svg>
+
+    <div class="legend">
+      <span class="legend-item"><span class="swatch heat"></span>商家密度(顏色越深 = 密度越高)</span>
+      <span class="legend-item"><span class="swatch age"></span>建物樓齡(顏色越深 = 屋齡越高)</span>
+      <span class="legend-item"><span class="swatch chain"></span>連鎖品牌店</span>
+      <span class="legend-item"><span class="swatch indie"></span>獨立 / 傳統店家</span>
+      <span class="legend-item"><span class="swatch cog"></span>認知地圖:標記市民大道為活動邊界的受訪者位置</span>
+    </div>
+  </section>
+
+  <section class="panel notes">
+    <p><strong>這是示意用的範例分布</strong>,座標是手動配置來說明「怎麼疊證據」的方法,不是任何真實調查或資料集撈出來的結果。</p>
+    <p>換成真的資料時:商家密度 / 連鎖品牌可查台北市商業登記開放資料或財政部稅籍資料;建物樓齡可查建物登記或都市計畫土地使用分區資料;認知地圖邊界則要靠實際問卷,請受訪者在地圖上畫出「我平常會去的範圍」,再把邊界線落在圖上的哪個位置數位化。</p>
+    <p>圖不會幫你下結論——市民大道那條路線一直畫在最上層,你自己看疊起來的顏色在那條線兩側是不是真的斷開。</p>
+  </section>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var layerMap = { heat: "layer-heat", age: "layer-age", brand: "layer-brand", cog: "layer-cog" };
+  var checkboxes = document.querySelectorAll(".layer-toggle input[type=checkbox]");
+
+  function applyState(cb) {
+    var id = layerMap[cb.dataset.layer];
+    var el = document.getElementById(id);
+    if (!el) return;
+    el.classList.toggle("hidden", !cb.checked);
+  }
+
+  checkboxes.forEach(function (cb) {
+    cb.addEventListener("change", function () { applyState(cb); });
+    applyState(cb);
+  });
+
+  document.getElementById("showAll").addEventListener("click", function () {
+    checkboxes.forEach(function (cb) { cb.checked = true; applyState(cb); });
+  });
+  document.getElementById("hideAll").addEventListener("click", function () {
+    checkboxes.forEach(function (cb) { cb.checked = false; applyState(cb); });
+  });
+})();
+</script>
+</body>
+</html>
