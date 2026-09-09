@@ -9,6 +9,7 @@ import json, math, collections
 import numpy as np
 from shapely.geometry import LineString, Point, Polygon, box
 from shapely.prepared import prep
+from config import PDF_ZONES
 from geo import to_m, to_deg, ll_to_m, TO_M
 from sectors import classify, SECTOR_KEYS
 
@@ -262,6 +263,32 @@ bundle["crossings"] = {"per_km": a1["civic"]["walkable_per_km"],
                                  "s": round(l["s"],1), "w": l["walkable"],
                                  "k": l["kinds"], "n": l["names"][:2]}
                                 for l in a1["civic"]["locations"]]}
+# The proposal's three intervention zones, with the measured detour inside
+# each. This is the check that matters for the design: do the zones the
+# proposal picked actually coincide with the worst-severed stretches?
+_ok = [r for r in b_det["civic"]["rows"] if r["status"] == "ok"]
+_inzone = set()
+_zones = []
+for nm, ext, a, b in PDF_ZONES:
+    v = [r for r in _ok if a <= r["s"] <= b]
+    _inzone.update(r["s"] for r in v)
+    d = [r["detour"] for r in v]
+    _zones.append({"name": nm, "extent": ext, "s0": a, "s1": b,
+                   "n": len(v),
+                   "detour_mean": round(sum(d)/len(d), 3) if d else None,
+                   "detour_max": round(max(d), 3) if d else None,
+                   "share_over_2x": round(sum(1 for x in d if x > 2)/len(d), 4) if d else None})
+_out = [r for r in _ok if r["s"] not in _inzone]
+_do = [r["detour"] for r in _out]
+bundle["zones"] = {
+    "zones": _zones,
+    "outside": {"n": len(_out),
+                "detour_mean": round(sum(_do)/len(_do), 3),
+                "detour_max": round(max(_do), 3),
+                "share_over_2x": round(sum(1 for x in _do if x > 2)/len(_do), 4)},
+    "worst": [{"s": r["s"], "detour": r["detour"], "extra": round(r["net_m"]-300)}
+              for r in sorted(_ok, key=lambda r: -r["detour"])[:6]],
+}
 bundle["verdict"] = verdict
 
 out = "../../output/bundle.json"

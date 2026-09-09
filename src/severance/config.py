@@ -7,7 +7,8 @@ asks whether the elevated expressway **severs** the city north from south.
 SCOPE DIFFERS FROM ../config.py ON PURPOSE. That pipeline is scoped to
 市民大道一段 (Datong, 環河北路–中山北路, 2 km radius). The severance question
 is a property of the elevated structure, so this pipeline covers the whole
-6,533 m elevated deck, 環河北路 to 光復南路. 市民大道 as a street runs 13.6 km,
+6,533 m elevated deck, 忠孝橋/環河北路 to 基隆路一段 (NOT to 光復南路,
+which sits at chainage 5,188 m, 1.3 km short of the east end). 市民大道 as a street runs 13.6 km,
 but 六～八段 (toward 南港) has no elevated deck and is therefore outside the
 barrier hypothesis.
 
@@ -52,6 +53,19 @@ GRADIENT_BIN_M = 25.0
 # as the axis and run through identical code. Without these, a number like
 # "1.7x detour" means nothing.
 CONTROL_CORRIDORS = ["八德路", "忠孝東路", "南京東路", "長安東路", "民生東路"]
+
+# --- the design proposal's three 潛力節點 -----------------------------------
+# 市民高架都市空間活化論述_1150610.pdf p10 names each zone's extent by cross
+# street. Those street names were converted to chainage by intersecting the
+# reconstructed axis with the OSM ways of the same name, so these bounds are
+# derived, not eyeballed off the drawing:
+#   林森北路 2040 m · 新生北路 2740 m · 建國南路 3398 m
+#   復興南路 4095 m · 敦化南路 4641 m · 光復南路 5188 m
+PDF_ZONES = [
+    ("A 街頭競演", "林森北—新生高架", 2040, 2740),
+    ("B 藝文通學", "建國高架—復興南北", 3398, 4095),
+    ("C 夜間漫步", "復興南北—敦化南北", 4095, 4641),
+]
 
 # --- output paths ----------------------------------------------------------
 DATA_RAW = "../../data/raw"

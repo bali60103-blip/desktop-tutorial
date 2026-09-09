@@ -532,16 +532,19 @@ function drawRuler() {
     h += `<i style="left:${(f * 100).toFixed(3)}%"></i>` +
       `<b style="left:${(f * 100).toFixed(3)}%">${s}</b>`;
   }
-  /* PDF potential-node zones A / B / C, positioned by chainage */
-  const zones = [['A 街頭競演', 1900, 2900, css('--accent')],
-                 ['B 藝文通學', 3100, 4300, css('--good')],
-                 ['C 夜間漫步', 4300, 6533, css('--south')]];
-  for (const [nm, a, b, col] of zones) {
-    const pa = toScr(axisAt(a) || [0, 0])[0] / W, pb2 = toScr(axisAt(b) || [0, 0])[0] / W;
+  /* The proposal's three 潛力節點, at the chainages its own cross-street names
+     resolve to (config.PDF_ZONES) — not eyeballed off the drawing. */
+  const ZCOL = [css('--accent'), css('--good'), css('--south')];
+  (D.zones ? D.zones.zones : []).forEach((z, i) => {
+    const pa = toScr(axisAt(z.s0) || [0, 0])[0] / W;
+    const pb2 = toScr(axisAt(z.s1) || [0, 0])[0] / W;
     const l = Math.max(0, pa), r2 = Math.min(1, pb2);
-    if (r2 <= l) continue;
-    h += `<div class="zone" title="${nm}" style="left:${l * 100}%;width:${(r2 - l) * 100}%;background:${col}"></div>`;
-  }
+    if (r2 <= l) return;
+    const stat = z.detour_mean == null ? '' :
+      ` · 區內繞路平均 ${z.detour_mean.toFixed(2)}x、最差 ${z.detour_max.toFixed(2)}x`;
+    h += `<div class="zone" title="${z.name}（${z.extent}，里程 ${z.s0}–${z.s1} m）${stat}" ` +
+         `style="left:${l * 100}%;width:${(r2 - l) * 100}%;background:${ZCOL[i % 3]}"></div>`;
+  });
   el.innerHTML = h;
 }
 
