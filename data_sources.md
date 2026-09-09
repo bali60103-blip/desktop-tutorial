@@ -22,16 +22,36 @@
 範圍內納入計算的捷運站(依 `src/config.py` 的座標與 2km 半徑篩選):
 台北車站、北門、中山、雙連、西門、善導寺、台大醫院、大橋頭、民權西路、小南門。
 
+## 市民大道的真實路網幾何
+
+前面的疊圖工具(`tools/boundary_overlay_map.html`)裡的市民大道是手畫的示意直線,不是
+真實座標。要對照真實地區,`src/fetch_road_network.py` 改用 OpenStreetMap 的 Overpass API
+抓市民大道(一段到七段)所有路段的實際經緯度線型:
+
+| 資料集 | 提供單位 | 內容 | 連結 |
+|---|---|---|---|
+| OpenStreetMap way 幾何(`name~"^市民大道"`) | OpenStreetMap 貢獻者 / Overpass API | 市民大道各路段的真實節點座標 | https://overpass-api.de/api/interpreter(可先用 https://overpass-turbo.eu/ 預覽查詢) |
+
+流程:`fetch_road_network.py` 抓回 `data/mingsheng_road.geojson`(真實座標的
+GeoJSON),`build_road_overlay.py` 讀這個檔案、依真實經緯度等比例投影,畫出
+`output/real_road_map.html`(含經緯度格線與比例尺)。**這張圖只畫路網本身**——商家密度、
+連鎖品牌、建物樓齡、認知地圖邊界等圖層目前仍是示意資料,要疊上真實內容得各自找資料源
+(例如商業登記開放資料、建物登記、或實際問卷)。
+
 ## 這次工作階段(session)的一項技術限制
 
 執行這次任務的沙盒環境,其對外網路政策(egress policy)直接封鎖了 `data.taipei` 與
 YouBike 資料所在的 `tcgbusfs.blob.core.windows.net`(以 `curl` 直接測試,兩者都收到
 `CONNECT tunnel failed, response 403`,屬機構網路政策封鎖,並非可繞過的技術問題)。
+同一個政策也擋掉了 `overpass-api.de` 與 `nominatim.openstreetmap.org`(同樣是
+`CONNECT tunnel failed, response 403`),所以 `fetch_road_network.py` 也沒辦法在這個
+session 裡連上 Overpass API 抓市民大道的真實路網座標。
 
 **這代表我在這個 session 裡沒有辦法實際抓到真實資料、也沒辦法產生真正基於實際數字的
-24 小時熱力圖畫面。** `src/` 底下的抓取與繪圖程式已經寫好並用假資料做過煙霧測試
-(smoke test)確認邏輯正確,但你需要在**沒有被封鎖 data.taipei 的環境**(例如你自己的
-電腦、或允許外部網路的 GitHub Actions)執行 `fetch_mrt_hourly.py` 才能拿到真正的數字。
+24 小時熱力圖畫面或真實路網疊圖。** `src/` 底下的抓取與繪圖程式已經寫好並用假資料做過煙霧測試
+(smoke test)確認邏輯正確,但你需要在**沒有被封鎖這些網域的環境**(例如你自己的
+電腦、或允許外部網路的 GitHub Actions)執行 `fetch_mrt_hourly.py` / `fetch_road_network.py`
+才能拿到真正的數字與座標。
 
 另外,`fetch_mrt_hourly.py` 裡的 API 資源 ID(`RESOURCE_ID`)與欄位名稱對照表
 (`COLUMN_MAP`)是依照 data.taipei 一般的 API 慣例與資料集頁面上看到的中文欄位名稱猜測

@@ -1,4 +1,5 @@
 data/*.csv
+data/*.geojson
 output/*.html
 __pycache__/
 *.pyc
