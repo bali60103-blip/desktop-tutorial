@@ -38,6 +38,26 @@ GeoJSON),`build_road_overlay.py` 讀這個檔案、依真實經緯度等比例�
 連鎖品牌、建物樓齡、認知地圖邊界等圖層目前仍是示意資料,要疊上真實內容得各自找資料源
 (例如商業登記開放資料、建物登記、或實際問卷)。
 
+### 手動查詢 + 上傳,繞過這個 session 連不出去的問題
+
+因為這個 session 連不上 Overpass API(見下一節),實際可行的路徑是:你自己在
+[overpass-turbo.eu](https://overpass-turbo.eu/) 貼查詢、Export → GeoJSON 下載,再把檔案
+直接上傳到對話裡。已驗證過一次:2026-09-09 這樣抓到 `name~"^市民大道"` 的完整匯出(93
+筆 way,環河北路到松山車站一帶),流程是:
+
+1. `src/filter_road_segments.py <上傳的原始匯出.geojson>` —— 只留下高架道路本體與各段
+   （一~五段)的路型,排除巷弄側支與出入口匝道(這些也會被 `name~"^市民大道"` 誤抓進來,
+   但不是道路本身),輸出到 `data/mingsheng_road.geojson`。
+2. `src/build_road_overlay.py` —— 照前面說的畫出 `output/real_road_map.html`。
+3. 需要「貼著真實路線兩側街廓」的 POI 查詢時,`src/build_corridor_query.py` 會用
+   `市民大道高架道路`(全線唯一連續的實體結構)的真實節點座標,依經度分箱平滑出中心線,
+   算出左右 ±300m 的緩衝多邊形,輸出成 Overpass 的 `poly` 查詢(`output/corridor_query.txt`),
+   讓查詢範圍全程貼著道路彎曲的實際路線,而不是一個矩形框。**已知缺口**:高架道路本體只到
+   塔悠路一帶,離松山車站還有約 700 公尺;那段的「市民大道五段」在 OSM 上是幾段不相連的
+   路型片段,用經度分箱平均硬接會產生自我交叉的錯誤多邊形(已經試過、確認有問題後改回不接),
+   要接上那 700 公尺需要真正的線段合併(如 `shapely.ops.linemerge`),目前沒有為了這一小段
+   加這個依賴——那段如果要涵蓋,建議另外用一個簡單的矩形框查詢就好。
+
 ## 這次工作階段(session)的一項技術限制
 
 執行這次任務的沙盒環境,其對外網路政策(egress policy)直接封鎖了 `data.taipei` 與

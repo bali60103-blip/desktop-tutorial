@@ -128,6 +128,20 @@ def main():
 
     proj, meters_per_px, bounds = build_projection(feats)
 
+    corridor_svg, corridor_note = "", ""
+    try:
+        with open("../data/corridor_polygon.json", encoding="utf-8") as f:
+            corridor = json.load(f)
+        ring = corridor["north"] + list(reversed(corridor["south"]))
+        corridor_svg = f'<path d="{path_d(ring, proj)} Z" class="corridor-fill" />'
+        corridor_note = (
+            f'<p class="meta">淡色帶是 build_corridor_query.py 算出的 &plusmn;'
+            f'{corridor["buffer_m"]:.0f}m 緩衝範圍(用來產生貼著真實路線的 POI 查詢),'
+            f"不是路寬本身。</p>"
+        )
+    except FileNotFoundError:
+        pass
+
     road_paths = "\n".join(
         f'<path d="{path_d(ft["geometry"]["coordinates"], proj)}" class="road-path" />'
         for ft in feats
@@ -158,20 +172,20 @@ def main():
   :root {{
     --bg: #eceef0; --surface: #ffffff; --ink: #1b1f23; --ink-muted: #5b6470;
     --ink-faint: #939ba3; --border: #dadde1; --road: #34383e; --road-line: #d9b23c;
-    --grid: #c7ccd1; --shadow: 0 1px 2px rgba(20,22,25,.06), 0 10px 24px -16px rgba(20,22,25,.28);
+    --grid: #c7ccd1; --corridor: #6b6fc9; --shadow: 0 1px 2px rgba(20,22,25,.06), 0 10px 24px -16px rgba(20,22,25,.28);
     --radius: 12px; color-scheme: light;
   }}
   @media (prefers-color-scheme: dark) {{
     :root:not([data-theme="light"]) {{
       --bg: #14161a; --surface: #1d2024; --ink: #edeef0; --ink-muted: #a9b0b8;
       --ink-faint: #6f767e; --border: #33373c; --road: #d9dde2; --road-line: #e0b84e;
-      --grid: #33383e; --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -16px rgba(0,0,0,.7);
+      --grid: #33383e; --corridor: #9297e0; --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -16px rgba(0,0,0,.7);
     }}
   }}
   :root[data-theme="dark"] {{
     --bg: #14161a; --surface: #1d2024; --ink: #edeef0; --ink-muted: #a9b0b8;
     --ink-faint: #6f767e; --border: #33373c; --road: #d9dde2; --road-line: #e0b84e;
-    --grid: #33383e; --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -16px rgba(0,0,0,.7);
+    --grid: #33383e; --corridor: #9297e0; --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -16px rgba(0,0,0,.7);
   }}
   * {{ box-sizing: border-box; }}
   body {{ background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", "Noto Sans TC", system-ui, sans-serif; line-height: 1.6; }}
@@ -185,6 +199,7 @@ def main():
   .road-path {{ fill: none; stroke: var(--road); stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }}
   .lane-path {{ fill: none; stroke: var(--road-line); stroke-width: 2; stroke-dasharray: 14 10; stroke-linecap: round; }}
   .grid-line {{ stroke: var(--grid); stroke-width: 1; }}
+  .corridor-fill {{ fill: var(--corridor); opacity: .16; stroke: var(--corridor); stroke-width: 1; stroke-dasharray: 5 4; }}
   .grid-label {{ font-family: "IBM Plex Mono", monospace; font-size: 10px; fill: var(--ink-faint); }}
   .scale-bar {{ stroke: var(--ink-muted); stroke-width: 2; }}
   .scale-label {{ font-family: "IBM Plex Mono", monospace; font-size: 12px; fill: var(--ink-muted); }}
@@ -203,6 +218,7 @@ def main():
   <section class="panel map-wrap">
     <svg viewBox="0 0 1000 620" role="img" aria-label="市民大道真實路網,依經緯度等比例投影">
       {grid_svg}
+      {corridor_svg}
       {road_paths}
       {lane_paths}
       <line x1="{bar_x0:.1f}" y1="{bar_y}" x2="{DRAW_X0 + DRAW_W}" y2="{bar_y}" class="scale-bar" />
@@ -212,6 +228,7 @@ def main():
     </svg>
   </section>
   <p class="meta">投影:等距圓柱投影(以緯度校正經度縮放),原始座標來自 OpenStreetMap way 幾何 &mdash; 不是預設的示意直線。</p>
+  {corridor_note}
   <section class="panel notes">
     <p><strong>這張圖只畫路網本身。</strong>商家密度、連鎖品牌、建物樓齡、認知地圖邊界等圖層仍然需要各自的真實資料來源才能疊上去,見 <code>data_sources.md</code>。</p>
   </section>

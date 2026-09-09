@@ -31,8 +31,10 @@ python build_heatmap.py
 - `src/fetch_mrt_hourly.py` — 抓取 data.taipei 捷運分時進出量資料
 - `src/poll_youbike.py` — 輪詢 YouBike 即時資料並累積快照
 - `src/build_heatmap.py` — 產生逐小時 Leaflet 熱力圖(folium HeatMapWithTime)
-- `src/fetch_road_network.py` — 從 OpenStreetMap Overpass API 抓市民大道真實路網座標(GeoJSON)
+- `src/fetch_road_network.py` — 從 OpenStreetMap Overpass API 抓市民大道真實路網座標(GeoJSON);這個 session 連不出去時,改成自己在 overpass-turbo.eu 查、Export 成 GeoJSON 後上傳
+- `src/filter_road_segments.py` — 從 Overpass 匯出的原始檔案裡,篩掉巷弄/出入口匝道,只留下市民大道本體路型
 - `src/build_road_overlay.py` — 依真實經緯度等比例投影,畫出市民大道真實路網圖(含格線、比例尺)
+- `src/build_corridor_query.py` — 依真實路網算出貼著道路彎曲兩側 ±300m 的緩衝多邊形,產生 Overpass `poly` 查詢(給後續 POI 查詢用)
 - `tools/boundary_comparison.html` — 可自行增刪比較項目的南北分界指數工具(獨立 HTML,瀏覽器打開即可用)
 - `tools/boundary_overlay_map.html` — 商家密度/連鎖品牌/建物樓齡/認知地圖邊界的可疊圖層示意圖(獨立 HTML)
 - `data_sources.md` — 資料來源清單與限制說明
