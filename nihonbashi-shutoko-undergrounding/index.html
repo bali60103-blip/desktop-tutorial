@@ -65,6 +65,32 @@
     .corner{font-size:9.5px; padding:5px 7px;}
     .legend{max-width:140px;}
   }
+
+  .timeline-wrap{max-width:640px; margin:26px auto 0; padding:0 20px;}
+  .timeline-wrap h2{font-size:15px; margin:0 0 3px; letter-spacing:.02em;}
+  .timeline-wrap .tl-sub{font-size:11.5px; color:var(--sub); margin:0 0 14px;}
+  .timeline{margin:0;}
+  .tl-item{display:flex; align-items:stretch;}
+  .tl-year{flex:0 0 80px; text-align:right; padding:1px 10px 24px 0; font-size:12px; font-weight:700; color:var(--ink);}
+  .tl-year small{display:block; font-weight:400; color:var(--sub); font-size:10px; margin-top:1px;}
+  .tl-rail{flex:0 0 16px; position:relative;}
+  .tl-rail::before{content:""; position:absolute; left:50%; top:0; bottom:0; width:2px; background:var(--line); transform:translateX(-50%);}
+  .tl-dot{position:absolute; left:50%; top:2px; transform:translateX(-50%); width:11px; height:11px; border-radius:50%; background:#fff; border:2.5px solid #8a6d2f; z-index:1;}
+  .tl-body{flex:1; padding:0 0 24px 14px; font-size:12.5px; color:var(--sub); line-height:1.65;}
+  .tl-body b{color:var(--ink);}
+  .tl-tag{display:inline-block; font-size:10px; background:#eee6d2; color:#6b5730; border-radius:999px; padding:1px 8px; margin-bottom:4px;}
+  .tl-item:last-child .tl-rail::before{display:none;}
+  .tl-item.era .tl-body{padding-top:1px; padding-bottom:16px; font-weight:700; font-size:11px; color:#8a6d2f; letter-spacing:.03em;}
+  .tl-item.now .tl-dot{background:#c0392b; border-color:#c0392b; box-shadow:0 0 0 4px rgba(192,57,43,.18);}
+  .tl-item.now .tl-year{color:#c0392b;}
+  .tl-item.now .tl-body b{color:#c0392b;}
+  .tl-item.future .tl-dot{background:#fff; border-color:#4a3a86; border-style:dashed;}
+  .tl-item.future .tl-body b{color:#4a3a86;}
+  .tl-item.future .tl-tag{background:#e7e1f5; color:#4a3a86;}
+  @media (max-width:480px){
+    .timeline-wrap{padding:0 12px;}
+    .tl-year{flex-basis:64px; font-size:11px;}
+  }
 </style>
 </head>
 <body>
@@ -119,6 +145,88 @@
   </div>
   <p class="caption" id="stateCaption"></p>
 </main>
+
+<section class="timeline-wrap">
+  <h2>日本橋・首都高地下化 時間軸</h2>
+  <p class="tl-sub">上段為日本橋本身的橋梁歷史,下段為首都高地下化事業的推動過程;紅點為目前時間點(2026年9月)。</p>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-year">1603<small>慶長8年</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>日本橋初代架設。</b>木造橋,成為東海道等「五街道」起點,現為「日本国道路元標」所在地。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1911<small>明治44年</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>現今第19代石造二連拱橋完工。</b>妻木頼黄設計,橋上麒麟與獅子像沿用至今。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1963<small>昭和38年</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">現況高架通車</span><br><b>首都高速都心環状線神田橋JCT～江戸橋JCT開通。</b>高架橋自此直接跨越日本橋川與日本橋上空,東京奧運前一年。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1964</div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">東京奧運舉行。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1999<small>5月13日</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>日本橋(橋梁本體)指定為國家重要文化財。</b></div>
+    </div>
+    <div class="tl-item era">
+      <div class="tl-year"></div>
+      <div class="tl-rail"></div>
+      <div class="tl-body">🚧　首都高日本橋区間地下化事業　🚧</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2017<small>7月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">事業起點</span><br><b>国土交通大臣與東京都知事共同發表</b>,將攜手民間都市開發推動日本橋周邊首都高地下化。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2017–2018<small>11月～7月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">国交省・東京都・中央区・首都高組成<b>「首都高日本橋地下化検討会」</b>,彙整地下路線方案、事業架構與概算經費。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2019<small>10月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>都市計画決定。</b></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2020<small>3月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">国土交通省<b>核發事業許可。</b></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2020<small>4月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">東京都都市計画事業認可,<b>首都高速道路株式会社正式著手興建。</b></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2025<small>4月5日</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>八重洲線(神田橋JCT～西銀座JCT)20時起長期封閉</b>,直到2035年度,為地下化工程讓路。</div>
+    </div>
+    <div class="tl-item now">
+      <div class="tl-year">現在<small>2026年9月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>目前時間點。</b>八重洲線長期封閉施工期間,距地下新路線通車目標約9年。</div>
+    </div>
+    <div class="tl-item future">
+      <div class="tl-year">2035<small>年度(預計)</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">預計</span><br><b>地下新路線通車。</b></div>
+    </div>
+    <div class="tl-item future">
+      <div class="tl-year">2040<small>年度(預計)</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">預計・全案完成</span><br><b>既有高架拆除完成,日本橋重見天空。</b>沿岸日本橋River Walk親水空間(約1.2km×約100m)全案完成。</div>
+    </div>
+  </div>
+</section>
 
 <footer>
   <p class="warn">＊本頁為示意平面圖：一般街廓與建物輪廓為簡化量體，並非實測坐標或官方測繪圖。原因與資料來源詳見下方說明。</p>
