@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>日本橋首都高地下化 前後平面圖對比</title>
+<style>
+  :root{
+    --bg:#f4f1ea; --ink:#2b2620; --sub:#6b6255; --panel:#fffdf8e6; --line:#cabfa8;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--bg);color:var(--ink);}
+  body{font-family:"Noto Sans TC","Hiragino Sans","Yu Gothic",system-ui,-apple-system,sans-serif;}
+  header{padding:18px 20px 6px;}
+  h1{margin:0; font-size:21px; letter-spacing:.02em;}
+  h1 .en{display:block; font-size:12.5px; font-weight:400; color:var(--sub); margin-top:3px;}
+  .facts{display:flex; flex-wrap:wrap; gap:6px 18px; margin:10px 0 4px; font-size:12px; color:var(--sub);}
+  .facts b{color:var(--ink);}
+  .toolbar{
+    display:flex; flex-wrap:wrap; align-items:center; gap:12px;
+    padding:10px 20px; background:#fffdf8; border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+    position:sticky; top:0; z-index:20;
+  }
+  .seg{display:inline-flex; border:1px solid var(--line); border-radius:999px; overflow:hidden; transition:opacity .15s;}
+  .seg.disabled{opacity:.4; pointer-events:none;}
+  .seg button{border:0; background:#fff; padding:7px 14px; font-size:12.5px; cursor:pointer; color:var(--sub);}
+  .seg button.active{background:var(--ink); color:#fff;}
+  .chk{display:inline-flex; align-items:center; gap:5px; font-size:12.5px; color:var(--ink); cursor:pointer; user-select:none;}
+  .chk input{accent-color:var(--ink);}
+  .btn{border:1px solid var(--line); background:#fff; border-radius:999px; padding:7px 14px; font-size:12.5px; cursor:pointer; color:var(--ink);}
+  .btn.active{background:#eee6d2; border-color:#b9ac8d;}
+  main{padding:14px 20px 4px;}
+  .mapwrap{position:relative; max-width:640px; margin:0 auto; border:1px solid var(--line); background:#fbf9f4; border-radius:10px; overflow:hidden;}
+  svg.scene{display:block; width:100%; height:auto;}
+  .swipe-overlay{position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;}
+  .swipe-overlay svg.scene{position:absolute; top:0; left:0;}
+  .divider{position:absolute; top:0; bottom:0; width:2px; background:#fff; box-shadow:0 0 0 1px var(--ink); pointer-events:none;}
+  .divider::after{
+    content:"⟷"; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    background:var(--ink); color:#fff; border-radius:999px; width:24px; height:24px;
+    display:flex; align-items:center; justify-content:center; font-size:12px;
+  }
+  .swiperow{max-width:640px; margin:8px auto 0; display:flex; align-items:center; gap:10px; font-size:11.5px; color:var(--sub);}
+  .swiperow input[type=range]{flex:1; accent-color:var(--ink);}
+  .corner{position:absolute; background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:7px 9px; font-size:11px; line-height:1.6;}
+  .legend .row{display:flex; align-items:center; gap:6px; white-space:nowrap;}
+  .swatch{width:13px; height:9px; border-radius:2px; display:inline-block; flex:none; border:1px solid rgba(0,0,0,.25);}
+  .swatch.ln{height:0; border:0; border-top:2.5px solid; width:16px;}
+  .swatch.dash{height:0; border:0; border-top:2.5px dashed; width:16px;}
+  .legend{left:10px; bottom:10px; max-width:180px;}
+  .scalebar{right:10px; bottom:10px; text-align:center;}
+  .scalebar .bar{width:90px; height:6px; border-left:1px solid var(--ink); border-right:1px solid var(--ink); border-bottom:1px solid var(--ink); margin-top:2px;}
+  .northarrow{right:10px; top:10px; text-align:center; font-size:15px; line-height:1.1;}
+  .northarrow small{font-size:8px; color:var(--sub); display:block;}
+  .caption{max-width:640px; margin:10px auto 0; font-size:11.5px; color:var(--sub); line-height:1.7;}
+  .state-tag{font-weight:700; color:var(--ink);}
+  footer{max-width:640px; margin:16px auto 34px; padding:0 4px; font-size:11.5px; color:var(--sub); line-height:1.85;}
+  footer h2{font-size:12.5px; color:var(--ink); margin:14px 0 4px;}
+  footer a{color:#3f6f97;}
+  footer .warn{background:#fbeee0; border:1px solid #e2c79a; border-radius:8px; padding:8px 10px; color:#5b4520;}
+  @media (max-width:480px){
+    .toolbar{gap:7px; padding:8px 12px;}
+    header{padding:14px 12px 4px;}
+    main{padding:10px 12px 4px;}
+    .corner{font-size:9.5px; padding:5px 7px;}
+    .legend{max-width:140px;}
+  }
+
+  .timeline-wrap{max-width:640px; margin:26px auto 0; padding:0 20px;}
+  .timeline-wrap h2{font-size:15px; margin:0 0 3px; letter-spacing:.02em;}
+  .timeline-wrap .tl-sub{font-size:11.5px; color:var(--sub); margin:0 0 14px;}
+  .timeline{margin:0;}
+  .tl-item{display:flex; align-items:stretch;}
+  .tl-year{flex:0 0 80px; text-align:right; padding:1px 10px 24px 0; font-size:12px; font-weight:700; color:var(--ink);}
+  .tl-year small{display:block; font-weight:400; color:var(--sub); font-size:10px; margin-top:1px;}
+  .tl-rail{flex:0 0 16px; position:relative;}
+  .tl-rail::before{content:""; position:absolute; left:50%; top:0; bottom:0; width:2px; background:var(--line); transform:translateX(-50%);}
+  .tl-dot{position:absolute; left:50%; top:2px; transform:translateX(-50%); width:11px; height:11px; border-radius:50%; background:#fff; border:2.5px solid #8a6d2f; z-index:1;}
+  .tl-body{flex:1; padding:0 0 24px 14px; font-size:12.5px; color:var(--sub); line-height:1.65;}
+  .tl-body b{color:var(--ink);}
+  .tl-tag{display:inline-block; font-size:10px; background:#eee6d2; color:#6b5730; border-radius:999px; padding:1px 8px; margin-bottom:4px;}
+  .tl-item:last-child .tl-rail::before{display:none;}
+  .tl-item.era .tl-body{padding-top:1px; padding-bottom:16px; font-weight:700; font-size:11px; color:#8a6d2f; letter-spacing:.03em;}
+  .tl-item.now .tl-dot{background:#c0392b; border-color:#c0392b; box-shadow:0 0 0 4px rgba(192,57,43,.18);}
+  .tl-item.now .tl-year{color:#c0392b;}
+  .tl-item.now .tl-body b{color:#c0392b;}
+  .tl-item.future .tl-dot{background:#fff; border-color:#4a3a86; border-style:dashed;}
+  .tl-item.future .tl-body b{color:#4a3a86;}
+  .tl-item.future .tl-tag{background:#e7e1f5; color:#4a3a86;}
+  @media (max-width:480px){
+    .timeline-wrap{padding:0 12px;}
+    .tl-year{flex-basis:64px; font-size:11px;}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>日本橋首都高地下化・前後平面圖對比<span class="en">Nihonbashi Shuto Expressway Undergrounding — Before / After Site Plan Comparison</span></h1>
+  <div class="facts">
+    <span><b>地下化區間</b>：神田橋JCT ⟷ 江戸橋JCT（約1.8km，其中1.1km地下化）</span>
+    <span><b>現況高架通車</b>：1963年（東京奧運前）</span>
+    <span><b>地下新路線目標</b>：2035年度通車</span>
+    <span><b>舊高架拆除・全案完成</b>：2040年度目標</span>
+    <span><b>附帶計畫</b>：日本橋River Walk親水空間（約1.2km×約100m）＋沿岸街廓再開發</span>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="seg" id="stateSeg">
+    <button type="button" data-state="before" class="active">現況（高架）Before</button>
+    <button type="button" data-state="after">地下化後（規劃）After</button>
+  </div>
+  <button type="button" class="btn" id="swipeBtn">左右拉桿比對 Swipe compare</button>
+  <label class="chk"><input type="checkbox" id="chkLandmarks" checked> 知名地標建物</label>
+  <label class="chk"><input type="checkbox" id="chkRedev" checked> 沿岸再開發街廓</label>
+  <label class="chk"><input type="checkbox" id="chkRiverwalk" checked> 親水步道／植栽（規劃）</label>
+  <label class="chk"><input type="checkbox" id="chkLabels" checked> 文字標籤</label>
+</div>
+
+<main>
+  <div class="mapwrap" id="mapwrap">
+    <svg class="scene" id="sceneA" viewBox="0 0 900 1300" xmlns="http://www.w3.org/2000/svg"></svg>
+    <div class="swipe-overlay" id="swipeOverlay" hidden>
+      <svg class="scene" id="sceneB" viewBox="0 0 900 1300" xmlns="http://www.w3.org/2000/svg"></svg>
+      <div class="divider" id="divider" style="left:50%;"></div>
+    </div>
+    <div class="corner northarrow" id="northArrow">↑<br>N<small>示意方位</small></div>
+    <div class="corner legend" id="legend">
+      <div class="row"><span class="swatch" style="background:#e2dac8"></span>一般街廓建物（簡化量體）</div>
+      <div class="row"><span class="swatch" style="background:#a9cde3"></span>日本橋川</div>
+      <div class="row"><span class="swatch" style="background:#8a7757"></span>日本橋（橋梁）</div>
+      <div class="row"><span class="swatch" style="background:#cf9f3f"></span>知名地標建物</div>
+      <div class="row"><span class="swatch" style="background:#c7b88e"></span>再開發街廓－現況</div>
+      <div class="row"><span class="swatch" style="background:#3f6f97"></span>再開發街廓－規劃後</div>
+      <div class="row"><span class="swatch" style="background:#6c7280"></span>首都高高架橋（現況）</div>
+      <div class="row"><span class="swatch dash" style="border-color:#7a56c2"></span>地下化隧道路線（規劃）</div>
+      <div class="row"><span class="swatch dash" style="border-color:#4f8a44"></span>親水步道／植栽（規劃）</div>
+    </div>
+    <div class="corner scalebar"><div>0　　　100m</div><div class="bar"></div></div>
+  </div>
+  <div class="swiperow" id="swiperow" hidden>
+    <span>Before</span>
+    <input type="range" id="swipeRange" min="0" max="100" value="50">
+    <span>After</span>
+  </div>
+  <p class="caption" id="stateCaption"></p>
+</main>
+
+<section class="timeline-wrap">
+  <h2>日本橋・首都高地下化 時間軸</h2>
+  <p class="tl-sub">上段為日本橋本身的橋梁歷史,下段為首都高地下化事業的推動過程;紅點為目前時間點(2026年9月)。</p>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-year">1603<small>慶長8年</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>日本橋初代架設。</b>木造橋,成為東海道等「五街道」起點,現為「日本国道路元標」所在地。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1911<small>明治44年</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>現今第19代石造二連拱橋完工。</b>妻木頼黄設計,橋上麒麟與獅子像沿用至今。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1963<small>昭和38年</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">現況高架通車</span><br><b>首都高速都心環状線神田橋JCT～江戸橋JCT開通。</b>高架橋自此直接跨越日本橋川與日本橋上空,東京奧運前一年。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1964</div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">東京奧運舉行。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1999<small>5月13日</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>日本橋(橋梁本體)指定為國家重要文化財。</b></div>
+    </div>
+    <div class="tl-item era">
+      <div class="tl-year"></div>
+      <div class="tl-rail"></div>
+      <div class="tl-body">🚧　首都高日本橋区間地下化事業　🚧</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2017<small>7月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">事業起點</span><br><b>国土交通大臣與東京都知事共同發表</b>,將攜手民間都市開發推動日本橋周邊首都高地下化。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2017–2018<small>11月～7月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">国交省・東京都・中央区・首都高組成<b>「首都高日本橋地下化検討会」</b>,彙整地下路線方案、事業架構與概算經費。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2019<small>10月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>都市計画決定。</b></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2020<small>3月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">国土交通省<b>核發事業許可。</b></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2020<small>4月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">東京都都市計画事業認可,<b>首都高速道路株式会社正式著手興建。</b></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2025<small>4月5日</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>八重洲線(神田橋JCT～西銀座JCT)20時起長期封閉</b>,直到2035年度,為地下化工程讓路。</div>
+    </div>
+    <div class="tl-item now">
+      <div class="tl-year">現在<small>2026年9月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>目前時間點。</b>八重洲線長期封閉施工期間,距地下新路線通車目標約9年。</div>
+    </div>
+    <div class="tl-item future">
+      <div class="tl-year">2035<small>年度(預計)</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">預計</span><br><b>地下新路線通車。</b></div>
+    </div>
+    <div class="tl-item future">
+      <div class="tl-year">2040<small>年度(預計)</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">預計・全案完成</span><br><b>既有高架拆除完成,日本橋重見天空。</b>沿岸日本橋River Walk親水空間(約1.2km×約100m)全案完成。</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="warn">＊本頁為示意平面圖：一般街廓與建物輪廓為簡化量體，並非實測坐標或官方測繪圖。原因與資料來源詳見下方說明。</p>
+  <h2>圖面判讀方式</h2>
+  <p>上方工具列可切換「現況（高架）」／「地下化後（規劃）」兩種狀態，或按「左右拉桿比對」以拉桿同畫面比較前後差異；四個核取方塊可個別開關「知名地標建物」「沿岸再開發街廓」「親水步道／植栽」「文字標籤」等圖層，設定會即時同步到網址列參數（state／landmarks／redev／riverwalk／labels／compare／pos），方便分享特定疊圖組合的連結。</p>
+  <h2>資料來源</h2>
+  <p>
+    首都高速道路株式会社《首都高速道路日本橋区間地下化事業》
+    <a href="https://www.shutoko.jp/ss/nihonbashi-tikaka/overview/" target="_blank" rel="noopener">事業の概要</a> ／
+    <a href="https://www.shutoko.jp/ss/nihonbashi-tikaka/future/" target="_blank" rel="noopener">未来の日本橋</a>　｜
+    東京都都市整備局
+    <a href="https://www.toshiseibi.metro.tokyo.lg.jp/kotsu_butsuryu/doromou/kosoku/kosoku_nihonbashi" target="_blank" rel="noopener">日本橋周辺のまちづくりと連携した首都高速道路の地下化</a>　｜
+    国土交通省 有識者会議資料
+    <a href="https://www.mlit.go.jp/road/ir/ir-council/exp-ug/pdf02/03.pdf" target="_blank" rel="noopener">対象区間及び地下ルート（案）の検討について</a>　｜
+    <a href="https://www.nihonbashiriverwalk.jp/about/" target="_blank" rel="noopener">日本橋リバーウォーク公式サイト</a>　｜
+    日経クロステック
+    <a href="https://xtech.nikkei.com/atcl/nxt/column/18/03045/060300023/" target="_blank" rel="noopener">日本橋の首都高地下化 待ち受ける難工事</a>　｜
+    <a href="https://www.watch.impress.co.jp/docs/news/2021806.html" target="_blank" rel="noopener">Impress Watch「日本橋リバーウォーク」</a>
+  </p>
+  <h2>資料限制與繪製方式說明</h2>
+  <p>
+    本次工作環境的對外網路政策（egress policy）封鎖了 OpenStreetMap（overpass-api.de／nominatim.openstreetmap.org）、日本国土地理院地図（gsi.go.jp）、Wikipedia／Wikimedia、以及 shutoko.jp 官方網站本身的直接連線（curl 與 WebFetch 皆收到 403 / EGRESS_BLOCKED），因此<b>無法在本次作業中抓取實測建物輪廓 GIS／向量圖資</b>。
+  </p>
+  <p>
+    本頁的街廓、建物量體、道路與河道線形，是依據可透過網路搜尋取得的官方新聞稿與媒體報導文字內容（見上方資料來源），並依日本橋地區已公開且穩定的地理常識（中央通り與日本橋川的相對位置、神田橋JCT／江戸橋JCT的相對位置、三井本館・三越本店・日本銀行本店・COREDO日本橋・日本橋高島屋S.C.等地標建物與日本橋的相對方位）手繪重建的<b>示意圖</b>，比例與街廓細節經過簡化，非測量成果。地下化區間、完成年度等數字已對照上述來源查核；一般街廓建物量體、再開發街廓的確切街廓界線為示意呈現。如需用於實際規劃比對，請以首都高速道路株式会社／国土交通省／東京都公告之正式圖說為準。
+  </p>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+  var W=900, H=1300;
+  var NS='http://www.w3.org/2000/svg';
+
+  var C={
+    lot:'#e2dac8', lotLine:'#b9ac8d',
+    street:'#d8d2c1', streetLine:'#b7ad94',
+    river:'#a9cde3', riverLine:'#6c9cc0',
+    bridge:'#8a7757', bridgeLine:'#5b4c33',
+    landmark:'#cf9f3f', landmarkLine:'#8a6a24',
+    redevOld:'#c7b88e', redevOldLine:'#93815a',
+    redevNew:'#3f6f97', redevNewLine:'#22405a',
+    expwy:'#6c7280', expwyLine:'#33384a',
+    tunnel:'#7a56c2',
+    riverwalk:'#4f8a44',
+    label:'#231f19', halo:'#fbf9f4'
+  };
+
+  // ---- river / expressway centerline control points (schematic, meters-ish) ----
+  var RIVER_LEFT=[[475,-30],[462,140],[450,300],[448,430],[462,540],[472,560],[492,650],[520,760],[552,880],[590,980],[630,1090],[665,1200],[690,1330]];
+  var RIVER_RIGHT=[[525,-30],[512,140],[500,300],[498,430],[512,540],[522,560],[542,650],[570,760],[602,880],[640,980],[680,1090],[715,1200],[740,1330]];
+  var CENTER=RIVER_LEFT.map(function(p,i){return [(p[0]+RIVER_RIGHT[i][0])/2, p[1]];});
+
+  var BRIDGE_Y=[545,585];
+  var BRIDGE_X=[460,534];
+  var UG_Y=[150,1100]; // ~1.1km undergrounded portion within the ~1.8km corridor
+
+  var LANDMARKS=[
+    {x:338,y:436,w:128,h:96, name:'三井本館・日本橋三井タワー'},
+    {x:274,y:606,w:154,h:112, name:'日本銀行本店'},
+    {x:544,y:426,w:132,h:100, name:'三越日本橋本店'},
+    {x:552,y:602,w:92,h:70, name:'COREDO日本橋'},
+    {x:558,y:816,w:142,h:112, name:'日本橋高島屋S.C.'}
+  ];
+  var REDEV=[
+    {x:118,y:86,w:264,h:172, oldName:'旧街区（常盤橋周辺）', newName:'常盤橋タワー（TOKYO TORCH）', tower:true},
+    {x:96,y:296,w:204,h:112, oldName:'旧街区', newName:'呉服橋プロジェクト', tower:false},
+    {x:556,y:996,w:206,h:132, oldName:'旧街区', newName:'河岸再開発街区（八重洲・日本橋一丁目）', tower:false}
+  ];
+
+  function mulberry32(a){
+    return function(){
+      a|=0; a=a+0x6D2B79F5|0;
+      var t=Math.imul(a^a>>>15,1|a);
+      t=t+Math.imul(t^t>>>7,61|t)^t;
+      return ((t^t>>>14)>>>0)/4294967296;
+    };
+  }
+  function scatterLots(x0,y0,w,h,seed,target){
+    target=target||32;
+    var rng=mulberry32(seed);
+    var cols=Math.max(1,Math.round(w/target)), rows=Math.max(1,Math.round(h/target));
+    var cw=w/cols, ch=h/rows, out=[];
+    for(var r=0;r<rows;r++){
+      for(var c=0;c<cols;c++){
+        var pad=2+rng()*2.4;
+        var jx=(rng()-0.5)*cw*0.12, jy=(rng()-0.5)*ch*0.12;
+        out.push([x0+c*cw+pad/2+jx, y0+r*ch+pad/2+jy, cw-pad, ch-pad]);
+      }
+    }
+    return out;
+  }
+
+  function smoothSeg(pts){
+    var d='';
+    for(var i=0;i<pts.length-1;i++){
+      var mx=(pts[i][0]+pts[i+1][0])/2, my=(pts[i][1]+pts[i+1][1])/2;
+      d += i===0
+        ? 'L '+mx.toFixed(1)+','+my.toFixed(1)+' '
+        : 'Q '+pts[i][0].toFixed(1)+','+pts[i][1].toFixed(1)+' '+mx.toFixed(1)+','+my.toFixed(1)+' ';
+    }
+    var last=pts[pts.length-1];
+    d += 'L '+last[0].toFixed(1)+','+last[1].toFixed(1)+' ';
+    return d;
+  }
+  function openSmoothPath(pts){
+    return 'M '+pts[0][0].toFixed(1)+','+pts[0][1].toFixed(1)+' '+smoothSeg(pts);
+  }
+  function bandPath(left,right){
+    var rev=right.slice().reverse();
+    return openSmoothPath(left)+smoothSeg(rev)+'Z';
+  }
+  function linePath(pts){
+    return 'M '+pts[0][0]+','+pts[0][1]+' '+pts.slice(1).map(function(p){return 'L '+p[0]+','+p[1];}).join(' ');
+  }
+  function offsetX(pts,dx){ return pts.map(function(p){return [p[0]+dx,p[1]];}); }
+  function sliceByY(pts,y0,y1){ return pts.filter(function(p){return p[1]>=y0 && p[1]<=y1;}); }
+
+  function el(tag,attrs,parent){
+    var e=document.createElementNS(NS,tag);
+    for(var k in attrs){ if(attrs[k]!==undefined) e.setAttribute(k,attrs[k]); }
+    if(parent) parent.appendChild(e);
+    return e;
+  }
+  function grp(id,parent){ return el('g',{id:id},parent); }
+  function label(parent,x,y,text,opts){
+    opts=opts||{};
+    var t=el('text',{
+      x:x,y:y,'font-size':opts.size||11,fill:opts.fill||C.label,
+      'paint-order':'stroke', stroke:C.halo,'stroke-width':3,
+      'font-weight':opts.w||500,'text-anchor':opts.anchor||'start'
+    },parent);
+    t.textContent=text;
+    return t;
+  }
+
+  function buildScene(svg){
+    svg.innerHTML='';
+    svg.setAttribute('viewBox','0 0 '+W+' '+H);
+    el('rect',{x:0,y:0,width:W,height:H,fill:'#fbf9f4'},svg);
+
+    // generic street-fabric lots (always on)
+    var gLots=grp('g-lots',svg);
+    scatterLots(40,-30,W-80,H,7,32).forEach(function(r){
+      el('rect',{x:r[0].toFixed(1),y:r[1].toFixed(1),width:r[2].toFixed(1),height:r[3].toFixed(1),
+        fill:C.lot,stroke:C.lotLine,'stroke-width':0.6,rx:1},gLots);
+    });
+
+    // river (under streets, so the road/bridge paints over it)
+    var gRiver=grp('g-river',svg);
+    el('path',{d:bandPath(RIVER_LEFT,RIVER_RIGHT),fill:C.river,stroke:C.riverLine,'stroke-width':1.4},gRiver);
+
+    // streets
+    var gStreets=grp('g-streets',svg);
+    el('rect',{x:0,y:BRIDGE_Y[0],width:W,height:BRIDGE_Y[1]-BRIDGE_Y[0],fill:C.street,stroke:C.streetLine,'stroke-width':1},gStreets);
+    [230,700].forEach(function(y){ el('rect',{x:0,y:y,width:140,height:14,fill:C.street,stroke:C.streetLine,'stroke-width':0.6},gStreets); });
+    [260,950].forEach(function(y){ el('rect',{x:630,y:y,width:W-630,height:14,fill:C.street,stroke:C.streetLine,'stroke-width':0.6},gStreets); });
+
+    // bridge deck accent
+    var gBridge=grp('g-bridge',svg);
+    el('rect',{x:BRIDGE_X[0],y:BRIDGE_Y[0]-2,width:BRIDGE_X[1]-BRIDGE_X[0],height:(BRIDGE_Y[1]-BRIDGE_Y[0])+4,
+      fill:C.bridge,stroke:C.bridgeLine,'stroke-width':1.6},gBridge);
+
+    // landmark buildings (unaffected by the project, common)
+    var gLandmarks=grp('g-landmarks',svg);
+    LANDMARKS.forEach(function(b){
+      el('rect',{x:b.x,y:b.y,width:b.w,height:b.h,fill:C.landmark,stroke:C.landmarkLine,'stroke-width':1.4,rx:2},gLandmarks);
+    });
+
+    // redevelopment massing: before (old) / after (new)
+    var gRedevBefore=grp('g-redev-before',svg);
+    var gRedevAfter=grp('g-redev-after',svg);
+    REDEV.forEach(function(b){
+      el('rect',{x:b.x,y:b.y,width:b.w,height:b.h,fill:C.redevOld,stroke:C.redevOldLine,'stroke-width':1.2,'stroke-dasharray':'4 2',rx:2},gRedevBefore);
+      if(b.tower){
+        el('rect',{x:b.x,y:b.y,width:b.w,height:b.h,fill:C.redevNew,stroke:C.redevNewLine,'stroke-width':1.2,'stroke-dasharray':'2 2',opacity:0.35,rx:2},gRedevAfter);
+        el('rect',{x:b.x+18,y:b.y+18,width:b.w-36,height:b.h-36,fill:C.redevNew,stroke:C.redevNewLine,'stroke-width':1.6,rx:2},gRedevAfter);
+        el('rect',{x:b.x+b.w/2-13,y:b.y+b.h/2-13,width:26,height:26,fill:C.redevNewLine},gRedevAfter);
+      } else {
+        el('rect',{x:b.x,y:b.y,width:b.w,height:b.h,fill:C.redevNew,stroke:C.redevNewLine,'stroke-width':1.6,rx:2},gRedevAfter);
+      }
+    });
+
+    // before: elevated expressway ribbon + piers + JCT ramps
+    var gExpwyBefore=grp('g-expwy-before',svg);
+    var EL=offsetX(CENTER,-13), ER=offsetX(CENTER,13);
+    el('path',{d:bandPath(EL,ER),fill:C.expwy,stroke:C.expwyLine,'stroke-width':1.2,opacity:0.94},gExpwyBefore);
+    CENTER.forEach(function(p){
+      if(p[1]>0 && p[1]<H) el('circle',{cx:p[0],cy:p[1],r:2.2,fill:C.expwyLine},gExpwyBefore);
+    });
+    [[CENTER[0][0],8],[CENTER[CENTER.length-1][0],H-16]].forEach(function(c){
+      el('circle',{cx:c[0],cy:c[1],r:32,fill:'none',stroke:C.expwyLine,'stroke-width':4,opacity:0.5},gExpwyBefore);
+    });
+
+    // after: underground route + tunnel portals + riverwalk / greenery
+    var gAfter=grp('g-after-infra',svg);
+    el('path',{d:linePath(CENTER),fill:'none',stroke:C.tunnel,'stroke-width':3,'stroke-dasharray':'9 6'},gAfter);
+    [UG_Y[0],UG_Y[1]].forEach(function(y){
+      var near=CENTER.reduce(function(a,b){ return Math.abs(b[1]-y)<Math.abs(a[1]-y) ? b : a; });
+      el('polygon',{points:(near[0]-9)+','+(y-10)+' '+(near[0]+9)+','+(y-10)+' '+near[0]+','+(y+10),fill:C.tunnel},gAfter);
+    });
+    var rwLeftPts=offsetX(sliceByY(RIVER_LEFT,UG_Y[0]-40,UG_Y[1]+40),-16);
+    var rwRightPts=offsetX(sliceByY(RIVER_RIGHT,UG_Y[0]-40,UG_Y[1]+40),16);
+    el('path',{d:openSmoothPath(rwLeftPts),class:'riverwalk-path',fill:'none',stroke:C.riverwalk,'stroke-width':2.4,'stroke-dasharray':'1 5','stroke-linecap':'round'},gAfter);
+    el('path',{d:openSmoothPath(rwRightPts),class:'riverwalk-path',fill:'none',stroke:C.riverwalk,'stroke-width':2.4,'stroke-dasharray':'1 5','stroke-linecap':'round'},gAfter);
+
+    // labels
+    var gLabelsCommon=grp('g-labels-common',svg);
+    label(gLabelsCommon,BRIDGE_X[0]-4,BRIDGE_Y[0]-8,'日本橋（1911）',{w:700});
+    label(gLabelsCommon,BRIDGE_X[1]+10,BRIDGE_Y[0]+14,'永代通り →',{size:10});
+    label(gLabelsCommon,20,BRIDGE_Y[0]+14,'中央通り',{size:10});
+    label(gLabelsCommon,CENTER[0][0]-38,24,'神田橋JCT',{size:11,w:700});
+    label(gLabelsCommon,CENTER[CENTER.length-1][0]-32,H-22,'江戸橋JCT',{size:11,w:700});
+    LANDMARKS.forEach(function(b){ label(gLabelsCommon,b.x+6,b.y+b.h/2,b.name,{size:9.5}); });
+
+    var gLabelsBefore=grp('g-labels-before',svg);
+    label(gLabelsBefore,CENTER[3][0]+22,470,'首都高速都心環状線（高架）1963年通車',{size:10.5,w:700,fill:'#33384a'});
+    REDEV.forEach(function(b){ label(gLabelsBefore,b.x+8,b.y+16,b.oldName,{size:9.5,fill:'#5b4c33'}); });
+
+    var gLabelsAfter=grp('g-labels-after',svg);
+    label(gLabelsAfter,CENTER[3][0]+22,470,'地下トンネル 2035年度通車目標',{size:10.5,w:700,fill:'#4a3a86'});
+    REDEV.forEach(function(b){ label(gLabelsAfter,b.x+8,b.y+16,b.newName,{size:9.5,fill:'#22405a'}); });
+    label(gLabelsAfter,20,UG_Y[0]+10,'日本橋リバーウォーク（親水空間）約1.2km×約100m',{size:9.5,fill:'#2f5327'});
+  }
+
+  function applyState(svg,p){
+    function q(sel){ return svg.querySelector(sel); }
+    function show(node,v){ if(node) node.style.display=v?'':'none'; }
+    show(q('#g-landmarks'), p.landmarks);
+    show(q('#g-redev-before'), p.redev && p.state==='before');
+    show(q('#g-redev-after'), p.redev && p.state==='after');
+    show(q('#g-expwy-before'), p.state==='before');
+    show(q('#g-after-infra'), p.state==='after');
+    show(q('#g-labels-common'), p.labels);
+    show(q('#g-labels-before'), p.labels && p.state==='before');
+    show(q('#g-labels-after'), p.labels && p.state==='after');
+    var rw = svg.querySelectorAll('.riverwalk-path');
+    for(var i=0;i<rw.length;i++){ rw[i].style.display=(p.state==='after' && p.riverwalk) ? '' : 'none'; }
+  }
+
+  // ---------------- controller ----------------
+  var params=new URLSearchParams(location.search);
+  var state={
+    state: params.get('state')==='after' ? 'after' : 'before',
+    landmarks: params.get('landmarks')!=='0',
+    redev: params.get('redev')!=='0',
+    riverwalk: params.get('riverwalk')!=='0',
+    labels: params.get('labels')!=='0',
+    compare: params.get('compare')==='1',
+    pos: Math.min(100,Math.max(0,parseInt(params.get('pos')||'50',10)||50))
+  };
+
+  var sceneA=document.getElementById('sceneA');
+  buildScene(sceneA);
+  var sceneB=null;
+
+  function syncUrl(){
+    var q=new URLSearchParams();
+    q.set('state',state.state);
+    if(!state.landmarks) q.set('landmarks','0');
+    if(!state.redev) q.set('redev','0');
+    if(!state.riverwalk) q.set('riverwalk','0');
+    if(!state.labels) q.set('labels','0');
+    if(state.compare){ q.set('compare','1'); q.set('pos',String(state.pos)); }
+    history.replaceState(null,'','?'+q.toString());
+  }
+
+  function render(){
+    applyState(sceneA, state.compare ? Object.assign({},state,{state:'before'}) : state);
+
+    var segBtns=document.querySelectorAll('#stateSeg button');
+    for(var i=0;i<segBtns.length;i++) segBtns[i].classList.toggle('active', segBtns[i].dataset.state===state.state);
+    document.getElementById('stateSeg').classList.toggle('disabled', state.compare);
+    document.getElementById('swipeBtn').classList.toggle('active', state.compare);
+    document.getElementById('swipeOverlay').hidden=!state.compare;
+    document.getElementById('swiperow').hidden=!state.compare;
+    document.getElementById('divider').style.left=state.pos+'%';
+    document.getElementById('swipeRange').value=state.pos;
+
+    if(state.compare){
+      if(!sceneB){ sceneB=document.getElementById('sceneB'); buildScene(sceneB); }
+      applyState(sceneB, Object.assign({},state,{state:'after'}));
+      sceneB.style.clipPath='inset(0 0 0 '+state.pos+'%)';
+    }
+
+    var cap=document.getElementById('stateCaption');
+    if(state.compare){
+      cap.innerHTML='拖曳下方拉桿，同畫面比較「現況高架」（左）與「規劃地下化後」（右）的平面差異。';
+    } else if(state.state==='before'){
+      cap.innerHTML='<span class="state-tag">現況 Before</span>　首都高速都心環状線高架橋自1963年通車以來，直接跨越日本橋川與日本橋上方，遮蔽天際線逾一甲子。';
+    } else {
+      cap.innerHTML='<span class="state-tag">規劃完成後 After</span>　高架橋拆除、車流改走地下隧道，日本橋重見天空，沿岸整建為親水步道與再開發街廓。';
+    }
+    syncUrl();
+  }
+
+  var segBtnsAll=document.querySelectorAll('#stateSeg button');
+  for(var i=0;i<segBtnsAll.length;i++){
+    segBtnsAll[i].addEventListener('click',function(e){ state.state=e.currentTarget.dataset.state; render(); });
+  }
+  document.getElementById('swipeBtn').addEventListener('click',function(){ state.compare=!state.compare; render(); });
+  document.getElementById('chkLandmarks').addEventListener('change',function(e){ state.landmarks=e.target.checked; render(); });
+  document.getElementById('chkRedev').addEventListener('change',function(e){ state.redev=e.target.checked; render(); });
+  document.getElementById('chkRiverwalk').addEventListener('change',function(e){ state.riverwalk=e.target.checked; render(); });
+  document.getElementById('chkLabels').addEventListener('change',function(e){ state.labels=e.target.checked; render(); });
+  document.getElementById('swipeRange').addEventListener('input',function(e){
+    state.pos=parseInt(e.target.value,10);
+    document.getElementById('divider').style.left=state.pos+'%';
+    if(sceneB) sceneB.style.clipPath='inset(0 0 0 '+state.pos+'%)';
+    syncUrl();
+  });
+
+  document.getElementById('chkLandmarks').checked=state.landmarks;
+  document.getElementById('chkRedev').checked=state.redev;
+  document.getElementById('chkRiverwalk').checked=state.riverwalk;
+  document.getElementById('chkLabels').checked=state.labels;
+  if(state.compare) document.getElementById('swipeRange').value=state.pos;
+
+  render();
+})();
+</script>
+</body>
+</html>

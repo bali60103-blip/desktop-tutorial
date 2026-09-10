@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>West Side Highway 前後平面圖對比</title>
+<style>
+  :root{
+    --bg:#f4f1ea; --ink:#2b2620; --sub:#6b6255; --panel:#fffdf8e6; --line:#cabfa8;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--bg);color:var(--ink);}
+  body{font-family:"Noto Sans TC","Hiragino Sans","Helvetica Neue",system-ui,-apple-system,sans-serif;}
+  header{padding:18px 20px 6px;}
+  h1{margin:0; font-size:21px; letter-spacing:.01em;}
+  h1 .en{display:block; font-size:12.5px; font-weight:400; color:var(--sub); margin-top:3px;}
+  .facts{display:flex; flex-wrap:wrap; gap:6px 18px; margin:10px 0 4px; font-size:12px; color:var(--sub);}
+  .facts b{color:var(--ink);}
+  .toolbar{
+    display:flex; flex-wrap:wrap; align-items:center; gap:12px;
+    padding:10px 20px; background:#fffdf8; border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+    position:sticky; top:0; z-index:20;
+  }
+  .seg{display:inline-flex; border:1px solid var(--line); border-radius:999px; overflow:hidden; transition:opacity .15s;}
+  .seg.disabled{opacity:.4; pointer-events:none;}
+  .seg button{border:0; background:#fff; padding:7px 14px; font-size:12.5px; cursor:pointer; color:var(--sub);}
+  .seg button.active{background:var(--ink); color:#fff;}
+  .chk{display:inline-flex; align-items:center; gap:5px; font-size:12.5px; color:var(--ink); cursor:pointer; user-select:none;}
+  .chk input{accent-color:var(--ink);}
+  .btn{border:1px solid var(--line); background:#fff; border-radius:999px; padding:7px 14px; font-size:12.5px; cursor:pointer; color:var(--ink);}
+  .btn.active{background:#eee6d2; border-color:#b9ac8d;}
+  main{padding:14px 20px 4px;}
+  .mapwrap{position:relative; max-width:640px; margin:0 auto; border:1px solid var(--line); background:#fbf9f4; border-radius:10px; overflow:hidden;}
+  svg.scene{display:block; width:100%; height:auto;}
+  .swipe-overlay{position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;}
+  .swipe-overlay svg.scene{position:absolute; top:0; left:0;}
+  .divider{position:absolute; top:0; bottom:0; width:2px; background:#fff; box-shadow:0 0 0 1px var(--ink); pointer-events:none;}
+  .divider::after{
+    content:"⟷"; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    background:var(--ink); color:#fff; border-radius:999px; width:24px; height:24px;
+    display:flex; align-items:center; justify-content:center; font-size:12px;
+  }
+  .swiperow{max-width:640px; margin:8px auto 0; display:flex; align-items:center; gap:10px; font-size:11.5px; color:var(--sub);}
+  .swiperow input[type=range]{flex:1; accent-color:var(--ink);}
+  .corner{position:absolute; background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:7px 9px; font-size:11px; line-height:1.6;}
+  .legend .row{display:flex; align-items:center; gap:6px; white-space:nowrap;}
+  .swatch{width:13px; height:9px; border-radius:2px; display:inline-block; flex:none; border:1px solid rgba(0,0,0,.25);}
+  .swatch.dash{height:0; border:0; border-top:2.5px dashed; width:16px;}
+  .legend{left:10px; bottom:10px; max-width:185px;}
+  .scalebar{right:10px; bottom:10px; text-align:center;}
+  .scalebar .bar{width:90px; height:6px; border-left:1px solid var(--ink); border-right:1px solid var(--ink); border-bottom:1px solid var(--ink); margin-top:2px;}
+  .northarrow{right:10px; top:10px; text-align:center; font-size:15px; line-height:1.1;}
+  .northarrow small{font-size:8px; color:var(--sub); display:block;}
+  .caption{max-width:640px; margin:10px auto 0; font-size:11.5px; color:var(--sub); line-height:1.7;}
+  .state-tag{font-weight:700; color:var(--ink);}
+  footer{max-width:640px; margin:16px auto 34px; padding:0 4px; font-size:11.5px; color:var(--sub); line-height:1.85;}
+  footer h2{font-size:12.5px; color:var(--ink); margin:14px 0 4px;}
+  footer a{color:#3f6f97;}
+  footer .warn{background:#fbeee0; border:1px solid #e2c79a; border-radius:8px; padding:8px 10px; color:#5b4520;}
+  @media (max-width:480px){
+    .toolbar{gap:7px; padding:8px 12px;}
+    header{padding:14px 12px 4px;}
+    main{padding:10px 12px 4px;}
+    .corner{font-size:9.5px; padding:5px 7px;}
+    .legend{max-width:150px;}
+  }
+  .timeline-wrap{max-width:640px; margin:26px auto 0; padding:0 20px;}
+  .timeline-wrap h2{font-size:15px; margin:0 0 3px; letter-spacing:.02em;}
+  .timeline-wrap .tl-sub{font-size:11.5px; color:var(--sub); margin:0 0 14px;}
+  .tl-item{display:flex; align-items:stretch;}
+  .tl-year{flex:0 0 92px; text-align:right; padding:1px 10px 24px 0; font-size:12px; font-weight:700; color:var(--ink);}
+  .tl-year small{display:block; font-weight:400; color:var(--sub); font-size:10px; margin-top:1px;}
+  .tl-rail{flex:0 0 16px; position:relative;}
+  .tl-rail::before{content:""; position:absolute; left:50%; top:0; bottom:0; width:2px; background:var(--line); transform:translateX(-50%);}
+  .tl-dot{position:absolute; left:50%; top:2px; transform:translateX(-50%); width:11px; height:11px; border-radius:50%; background:#fff; border:2.5px solid #8a6d2f; z-index:1;}
+  .tl-body{flex:1; padding:0 0 24px 14px; font-size:12.5px; color:var(--sub); line-height:1.65;}
+  .tl-body b{color:var(--ink);}
+  .tl-tag{display:inline-block; font-size:10px; background:#eee6d2; color:#6b5730; border-radius:999px; padding:1px 8px; margin-bottom:4px;}
+  .tl-item:last-child .tl-rail::before{display:none;}
+  .tl-item.era .tl-body{padding-top:1px; padding-bottom:16px; font-weight:700; font-size:11px; color:#8a6d2f; letter-spacing:.03em;}
+  .tl-item.now .tl-dot{background:#c0392b; border-color:#c0392b; box-shadow:0 0 0 4px rgba(192,57,43,.18);}
+  .tl-item.now .tl-year{color:#c0392b;}
+  .tl-item.now .tl-body b{color:#c0392b;}
+  .tl-item.crash .tl-dot{background:#c0392b; border-color:#c0392b;}
+  .tl-item.crash .tl-tag{background:#f6d9d3; color:#8a2d1f;}
+  @media (max-width:480px){
+    .timeline-wrap{padding:0 12px;}
+    .tl-year{flex-basis:70px; font-size:11px;}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>West Side Highway 前後平面圖對比<span class="en">Manhattan's Miller Highway — Elevated Highway vs. Route 9A + Hudson River Park (Meatpacking District segment)</span></h1>
+  <div class="facts">
+    <span><b>範圍</b>：Gansevoort St ⟷ Little West 12th St 一帶（Meatpacking District，14丁目以南）</span>
+    <span><b>舊高架通車</b>：1929–1951年分段完工（Miller Highway）</span>
+    <span><b>關鍵事件</b>：1973年12月15日局部崩塌，全線封閉</span>
+    <span><b>現況</b>：Route 9A平面大道＋Hudson River Park，2001年重建完成</span>
+    <span><b>新增水岸公園</b>：Little Island（2021）＋Gansevoort Peninsula（2023）</span>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="seg" id="stateSeg">
+    <button type="button" data-state="before" class="active">高架時期 Before（1929–1973）</button>
+    <button type="button" data-state="after">現況 After（2001年起）</button>
+  </div>
+  <button type="button" class="btn" id="swipeBtn">左右拉桿比對 Swipe compare</button>
+  <label class="chk"><input type="checkbox" id="chkLandmarks" checked> 知名地標</label>
+  <label class="chk"><input type="checkbox" id="chkPiers" checked> 水岸公園碼頭</label>
+  <label class="chk"><input type="checkbox" id="chkRiverwalk" checked> 親水步道／植栽</label>
+  <label class="chk"><input type="checkbox" id="chkLabels" checked> 文字標籤</label>
+</div>
+
+<main>
+  <div class="mapwrap" id="mapwrap">
+    <svg class="scene" id="sceneA" viewBox="0 0 900 1300" xmlns="http://www.w3.org/2000/svg"></svg>
+    <div class="swipe-overlay" id="swipeOverlay" hidden>
+      <svg class="scene" id="sceneB" viewBox="0 0 900 1300" xmlns="http://www.w3.org/2000/svg"></svg>
+      <div class="divider" id="divider" style="left:50%;"></div>
+    </div>
+    <div class="corner northarrow" id="northArrow">↑<br>N<small>示意方位</small></div>
+    <div class="corner legend" id="legend">
+      <div class="row"><span class="swatch" style="background:#e2dac8"></span>一般街廓建物（簡化量體）</div>
+      <div class="row"><span class="swatch" style="background:#a9cde3"></span>Hudson River</div>
+      <div class="row"><span class="swatch" style="background:#cf9f3f"></span>知名地標建物</div>
+      <div class="row"><span class="swatch" style="background:#c7b88e"></span>碼頭－舊（工業用／已拆）</div>
+      <div class="row"><span class="swatch" style="background:#3f6f97"></span>碼頭公園－新</div>
+      <div class="row"><span class="swatch" style="background:#6c7280"></span>Miller Highway 高架橋（1973前）</div>
+      <div class="row"><span class="swatch dash" style="border-color:#4f8a44"></span>親水步道／植栽（2001年起）</div>
+      <div class="row"><span class="swatch" style="background:#c0392b;border-radius:50%;width:9px;height:9px;"></span>1973崩塌處</div>
+    </div>
+    <div class="corner scalebar"><div>0　　　100m</div><div class="bar"></div></div>
+  </div>
+  <div class="swiperow" id="swiperow" hidden>
+    <span>Before</span>
+    <input type="range" id="swipeRange" min="0" max="100" value="50">
+    <span>After</span>
+  </div>
+  <p class="caption" id="stateCaption"></p>
+</main>
+
+<section class="timeline-wrap">
+  <h2>West Side Highway 時間軸</h2>
+  <p class="tl-sub">從1929年高架通車、1973年崩塌封閉，到拆除、Westway方案破局，再到Route 9A平面大道與Hudson River Park陸續完工；紅點為目前時間點(2026年9月)。</p>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-year">1929–1951</div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">高架通車</span><br><b>Miller Highway（West Side Elevated Highway）分段完工。</b>以曼哈頓區長Julius Miller命名，沿Hudson River東岸高架而建，車道狹窄、匝道曲折，通車不久即顯落伍。</div>
+    </div>
+    <div class="tl-item crash">
+      <div class="tl-year">1973<small>12月15日</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><span class="tl-tag">崩塌事件</span><br><b>Little West 12th St與Gansevoort St之間路段局部崩塌。</b>一輛滿載30餘噸瀝青(諷刺地正要用於路面維修)的傾卸卡車壓垮路面，北向車道墜落，全線隨即封閉。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1974–1985</div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>「Westway」巨型替代方案提出又破局。</b>原計畫以地下高速公路＋人工填地造陸＋公園取代高架，歷經環保訴訟(條紋鱸魚棲地)與政治角力，1985年正式放棄。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1973–1989</div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">高架封閉後<b>荒廢站立16年</b>，因拆除經費未到位，鏽蝕雜草叢生的結構體長期矗立原地。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1989</div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>高架橋體全數拆除完畢。</b></div>
+    </div>
+    <div class="tl-item era">
+      <div class="tl-year"></div>
+      <div class="tl-rail"></div>
+      <div class="tl-body">🌊　Route 9A ＋ Hudson River Park　🌊</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1998<small>6月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body">市長Giuliani與州長Pataki達成協議並立法，設立<b>Hudson River Park</b>（W59th St至Battery）。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2001</div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>Route 9A平面大道重建完成。</b>高架走廊原址改為地面道路，兩側陸續闢建公園綠帶。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2021<small>5月21日</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>Little Island（Pier 55）開幕。</b>由Barry Diller與Diller–von Furstenberg家族基金會捐助興建，鬱金香狀混凝土基座上的「漂浮」公園，設687席戶外劇場。</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">2023<small>10月2日</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>Gansevoort Peninsula開幕。</b>5.5英畝、耗資7,300萬美元，曼哈頓首座公共沙灘、球場與鹽沼濕地。</div>
+    </div>
+    <div class="tl-item now">
+      <div class="tl-year">現在<small>2026年9月</small></div>
+      <div class="tl-rail"><div class="tl-dot"></div></div>
+      <div class="tl-body"><b>目前時間點。</b>Hudson River Park持續分階段建設與維護中。</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="warn">＊本頁為示意平面圖：一般街廓與建物輪廓為簡化量體，並非實測坐標或官方測繪圖。原因與資料來源詳見下方說明。</p>
+  <h2>圖面判讀方式</h2>
+  <p>上方工具列可切換「高架時期（1929–1973）」／「現況（2001年起）」兩種狀態，或按「左右拉桿比對」以拉桿同畫面比較差異；三個核取方塊可個別開關「知名地標」「水岸公園碼頭」「親水步道／植栽」等圖層，設定會即時同步到網址列參數（state／landmarks／piers／riverwalk／labels／compare／pos），方便分享特定疊圖組合的連結。</p>
+  <h2>資料來源</h2>
+  <p>
+    <a href="https://en.wikipedia.org/wiki/West_Side_Elevated_Highway" target="_blank" rel="noopener">Wikipedia「West Side Elevated Highway」</a> ／
+    <a href="https://en.wikipedia.org/wiki/West_Side_Highway" target="_blank" rel="noopener">「West Side Highway」</a>　｜
+    <a href="https://www.villagepreservation.org/2022/12/21/the-hole-in-the-highway-at-gansevoort-street/" target="_blank" rel="noopener">Village Preservation「The Hole in the Highway at Gansevoort Street」</a>　｜
+    <a href="https://www.jalopnik.com/the-short-sad-corrupt-life-of-new-yorks-elevated-west-1822429885/" target="_blank" rel="noopener">Jalopnik「The Short, Sad, Corrupt Life...」</a>　｜
+    <a href="https://westsidehighwaystudy.com/history" target="_blank" rel="noopener">Route 9A Improvements「History」</a>　｜
+    <a href="https://en.wikipedia.org/wiki/Little_Island_at_Pier_55" target="_blank" rel="noopener">Wikipedia「Little Island at Pier 55」</a>　｜
+    <a href="https://www.governor.ny.gov/news/governor-hochul-and-mayor-adams-celebrate-opening-gansevoort-peninsula-hudson-river-park" target="_blank" rel="noopener">紐約州長辦公室「Gansevoort Peninsula開幕公告」</a>　｜
+    <a href="https://hudsonriverpark.org/locations/gansevoort-peninsula/" target="_blank" rel="noopener">Hudson River Park官方網站</a>
+  </p>
+  <h2>資料限制與繪製方式說明</h2>
+  <p>
+    本次工作環境的對外網路政策（egress policy）封鎖了 OpenStreetMap、Google Maps、Wikipedia／Wikimedia 等地圖資料源的直接連線（curl 與 WebFetch 皆收到 403 / EGRESS_BLOCKED），因此<b>無法在本次作業中抓取實測建物輪廓 GIS／向量圖資</b>，也無法取得地圖圖磚或官方測繪圖。
+  </p>
+  <p>
+    本頁的街廓、建物量體、道路與水岸線形，是依據可透過網路搜尋取得的百科全書條目與媒體報導文字內容（見上方資料來源）手繪重建的<b>示意圖</b>：Gansevoort St／Little West 12th St 等街道相對位置、1973年崩塌地點、Whitney Museum、Little Island／Gansevoort Peninsula 與 Hudson River 的相對方位，均已對照上述來源查核，但比例與街廓細節經過簡化，非測量成果。如需用於實際比對，請以官方地圖或測繪圖說為準。
+  </p>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+  var W=900, H=1300;
+  var NS='http://www.w3.org/2000/svg';
+
+  var C={
+    lot:'#e2dac8', lotLine:'#b9ac8d',
+    street:'#d8d2c1', streetLine:'#b7ad94',
+    river:'#a9cde3', riverLine:'#6c9cc0',
+    landmark:'#cf9f3f', landmarkLine:'#8a6a24',
+    pierOld:'#c7b88e', pierOldLine:'#93815a',
+    pierNew:'#3f6f97', pierNewLine:'#22405a',
+    hwy:'#6c7280', hwyLine:'#33384a',
+    riverwalk:'#4f8a44',
+    crash:'#c0392b',
+    label:'#231f19', halo:'#fbf9f4'
+  };
+
+  // river bank (east edge of Hudson River / west edge of Manhattan land), by y
+  var BANK=[[190,-30],[185,150],[192,300],[178,420],[170,520],[165,650],[172,800],[180,950],[188,1100],[195,1330]];
+
+  // Miller Highway / West St centerline
+  var HWY_CENTER=[[228,-30],[226,150],[230,300],[222,420],[224,520],[227,650],[225,800],[229,950],[226,1100],[228,1330]];
+  var CRASH_Y=[420,520]; // Little West 12th St <-> Gansevoort St
+
+  var CROSS_STREETS=[
+    {y:90,  label:'West 14th St'},
+    {y:420, label:'Gansevoort St'},
+    {y:520, label:'Little West 12th St'},
+    {y:800, label:'Horatio St'},
+    {y:950, label:'Jane St'},
+    {y:1100,label:'West 10th St'}
+  ];
+
+  var LANDMARKS=[
+    {x:378,y:388,w:112,h:88, name:'Whitney Museum of American Art'}
+  ];
+
+  // pier features: before = old/plain, after = new park pier
+  var PIERS=[
+    {y:[210,340], name_old:'Pier 54/55（舊碼頭,已拆除）', name_new:'Little Island（Pier 55, 2021）', little:true},
+    {y:[580,700], name_old:'舊工業碼頭邊坡', name_new:'Gansevoort Peninsula（2023）', little:false}
+  ];
+
+  function mulberry32(a){
+    return function(){
+      a|=0; a=a+0x6D2B79F5|0;
+      var t=Math.imul(a^a>>>15,1|a);
+      t=t+Math.imul(t^t>>>7,61|t)^t;
+      return ((t^t>>>14)>>>0)/4294967296;
+    };
+  }
+  function scatterLots(x0,y0,w,h,seed,target){
+    target=target||32;
+    var rng=mulberry32(seed);
+    var cols=Math.max(1,Math.round(w/target)), rows=Math.max(1,Math.round(h/target));
+    var cw=w/cols, ch=h/rows, out=[];
+    for(var r=0;r<rows;r++){
+      for(var c=0;c<cols;c++){
+        var pad=2+rng()*2.4;
+        var jx=(rng()-0.5)*cw*0.12, jy=(rng()-0.5)*ch*0.12;
+        out.push([x0+c*cw+pad/2+jx, y0+r*ch+pad/2+jy, cw-pad, ch-pad]);
+      }
+    }
+    return out;
+  }
+  function smoothSeg(pts){
+    var d='';
+    for(var i=0;i<pts.length-1;i++){
+      var mx=(pts[i][0]+pts[i+1][0])/2, my=(pts[i][1]+pts[i+1][1])/2;
+      d += i===0
+        ? 'L '+mx.toFixed(1)+','+my.toFixed(1)+' '
+        : 'Q '+pts[i][0].toFixed(1)+','+pts[i][1].toFixed(1)+' '+mx.toFixed(1)+','+my.toFixed(1)+' ';
+    }
+    var last=pts[pts.length-1];
+    d += 'L '+last[0].toFixed(1)+','+last[1].toFixed(1)+' ';
+    return d;
+  }
+  function openSmoothPath(pts){ return 'M '+pts[0][0].toFixed(1)+','+pts[0][1].toFixed(1)+' '+smoothSeg(pts); }
+  function bandPath(a,b){ var rev=b.slice().reverse(); return openSmoothPath(a)+smoothSeg(rev)+'Z'; }
+  function coastPath(bank){
+    var d='M 0,'+bank[0][1].toFixed(1)+' L '+bank[0][0].toFixed(1)+','+bank[0][1].toFixed(1)+' ';
+    d+=smoothSeg(bank);
+    var last=bank[bank.length-1];
+    d+='L 0,'+last[1].toFixed(1)+' Z';
+    return d;
+  }
+  function offsetX(pts,dx){ return pts.map(function(p){return [p[0]+dx,p[1]];}); }
+  function yToX(y){
+    for(var i=0;i<HWY_CENTER.length-1;i++){
+      var a=HWY_CENTER[i], b=HWY_CENTER[i+1];
+      if(y>=a[1] && y<=b[1]){ var t=(y-a[1])/(b[1]-a[1]); return a[0]+(b[0]-a[0])*t; }
+    }
+    return HWY_CENTER[0][0];
+  }
+  function bankXAt(y){
+    for(var i=0;i<BANK.length-1;i++){
+      var a=BANK[i], b=BANK[i+1];
+      if(y>=a[1] && y<=b[1]){ var t=(y-a[1])/(b[1]-a[1]); return a[0]+(b[0]-a[0])*t; }
+    }
+    return BANK[0][0];
+  }
+
+  function el(tag,attrs,parent){
+    var e=document.createElementNS(NS,tag);
+    for(var k in attrs){ if(attrs[k]!==undefined) e.setAttribute(k,attrs[k]); }
+    if(parent) parent.appendChild(e);
+    return e;
+  }
+  function grp(id,parent){ return el('g',{id:id},parent); }
+  function label(parent,x,y,text,opts){
+    opts=opts||{};
+    var t=el('text',{
+      x:x,y:y,'font-size':opts.size||11,fill:opts.fill||C.label,
+      'paint-order':'stroke', stroke:C.halo,'stroke-width':3,
+      'font-weight':opts.w||500,'text-anchor':opts.anchor||'start'
+    },parent);
+    t.textContent=text;
+    return t;
+  }
+
+  function buildScene(svg){
+    svg.innerHTML='';
+    svg.setAttribute('viewBox','0 0 '+W+' '+H);
+    el('rect',{x:0,y:0,width:W,height:H,fill:'#fbf9f4'},svg);
+
+    var gLots=grp('g-lots',svg);
+    scatterLots(230,-30,W-260,H,17,32).forEach(function(r){
+      el('rect',{x:r[0].toFixed(1),y:r[1].toFixed(1),width:r[2].toFixed(1),height:r[3].toFixed(1),
+        fill:C.lot,stroke:C.lotLine,'stroke-width':0.6,rx:1},gLots);
+    });
+
+    var gRiver=grp('g-river',svg);
+    el('path',{d:coastPath(BANK),fill:C.river,stroke:C.riverLine,'stroke-width':1.4},gRiver);
+
+    var gStreets=grp('g-streets',svg);
+    CROSS_STREETS.forEach(function(s){
+      el('rect',{x:bankXAt(s.y),y:s.y-7,width:W-bankXAt(s.y),height:14,fill:C.street,stroke:C.streetLine,'stroke-width':0.6},gStreets);
+    });
+    // West St / Route 9A road bed (common — same alignment used before & after)
+    el('rect',{x:bankXAt(0)+10,y:-30,width:70,height:H+60,fill:C.street,stroke:C.streetLine,'stroke-width':0.6},gStreets);
+
+    var gLandmarks=grp('g-landmarks',svg);
+    LANDMARKS.forEach(function(b){
+      el('rect',{x:b.x,y:b.y,width:b.w,height:b.h,fill:C.landmark,stroke:C.landmarkLine,'stroke-width':1.4,rx:2},gLandmarks);
+    });
+
+    // piers: before (old/plain) vs after (new park piers)
+    var gPierBefore=grp('g-pier-before',svg);
+    var gPierAfter=grp('g-pier-after',svg);
+    PIERS.forEach(function(p){
+      var yMid=(p.y[0]+p.y[1])/2, bx=bankXAt(yMid);
+      el('rect',{x:bx-70,y:p.y[0],width:74,height:p.y[1]-p.y[0],fill:C.pierOld,stroke:C.pierOldLine,'stroke-width':1.2,'stroke-dasharray':'4 2',rx:2},gPierBefore);
+      if(p.little){
+        [0,1,2].forEach(function(i){
+          el('circle',{cx:bx-95+i*22,cy:yMid-40+i*38,r:26-i*3,fill:C.pierNew,stroke:C.pierNewLine,'stroke-width':1.6,opacity:0.92},gPierAfter);
+        });
+        el('rect',{x:bx-4,y:p.y[0]+22,width:14,height:10,fill:'#8a7757',stroke:'#5b4c33','stroke-width':1},gPierAfter);
+        el('rect',{x:bx-4,y:p.y[1]-32,width:14,height:10,fill:'#8a7757',stroke:'#5b4c33','stroke-width':1},gPierAfter);
+      } else {
+        el('rect',{x:bx-95,y:p.y[0],width:99,height:p.y[1]-p.y[0],fill:C.pierNew,stroke:C.pierNewLine,'stroke-width':1.6,rx:6},gPierAfter);
+      }
+    });
+
+    // before: elevated Miller Highway ribbon + piers(columns) + crash marker
+    var gHwyBefore=grp('g-hwy-before',svg);
+    var HL=offsetX(HWY_CENTER,-20), HR=offsetX(HWY_CENTER,20);
+    el('path',{d:bandPath(HL,HR),fill:C.hwy,stroke:C.hwyLine,'stroke-width':1.2,opacity:0.94},gHwyBefore);
+    HWY_CENTER.forEach(function(p){ if(p[1]>0&&p[1]<H) el('circle',{cx:p[0],cy:p[1],r:2.2,fill:C.hwyLine},gHwyBefore); });
+    var crashX=yToX((CRASH_Y[0]+CRASH_Y[1])/2), crashY=(CRASH_Y[0]+CRASH_Y[1])/2;
+    el('circle',{cx:crashX,cy:crashY,r:7,fill:C.crash,stroke:'#fff','stroke-width':1.6},gHwyBefore);
+
+    // after: riverwalk / planting along reclaimed waterfront
+    var gAfter=grp('g-after-infra',svg);
+    var rwPts=BANK.map(function(p){return [p[0]-8,p[1]];});
+    el('path',{d:openSmoothPath(rwPts),class:'riverwalk-path',fill:'none',stroke:C.riverwalk,'stroke-width':2.6,'stroke-dasharray':'1 5','stroke-linecap':'round'},gAfter);
+    var seed=mulberry32(33);
+    for(var i=0;i<26;i++){
+      var yy=-20+seed()*(H+40), bx2=bankXAt(Math.max(0,Math.min(H,yy)));
+      el('circle',{cx:bx2+16+seed()*40,cy:yy,r:2.4,fill:'#3d6a34',class:'riverwalk-path'},gAfter);
+    }
+
+    // labels
+    var gLabelsCommon=grp('g-labels-common',svg);
+    label(gLabelsCommon,20,60,'↑ Chelsea Piers（17–23街，圖外）',{size:9});
+    label(gLabelsCommon,bankXAt(0)+14,-14,'West St / Route 9A',{size:9,anchor:'start'});
+    CROSS_STREETS.forEach(function(s){ label(gLabelsCommon,bankXAt(s.y)+80,s.y-10,s.label,{size:9.5}); });
+    LANDMARKS.forEach(function(b){ label(gLabelsCommon,b.x+6,b.y+b.h/2,b.name,{size:9.5}); });
+    label(gLabelsCommon,340,140,'The High Line（舊貨運高架鐵路→空中公園，2009起分階段開放）',{size:8.5,fill:'#5c6b52'});
+
+    var gLabelsBefore=grp('g-labels-before',svg);
+    label(gLabelsBefore,250,250,'Miller Highway（West Side Elevated Highway）',{size:10.5,w:700,fill:'#33384a'});
+    label(gLabelsBefore,crashX+12,crashY+4,'1973/12/15 崩塌處',{size:9.5,w:700,fill:'#8a2d1f'});
+    PIERS.forEach(function(p){ label(gLabelsBefore,bankXAt((p.y[0]+p.y[1])/2)-68,p.y[0]-6,p.name_old,{size:8.5,fill:'#5b4c33'}); });
+
+    var gLabelsAfter=grp('g-labels-after',svg);
+    label(gLabelsAfter,250,250,'Route 9A（平面大道)',{size:10.5,w:700,fill:'#2f5327'});
+    PIERS.forEach(function(p){ label(gLabelsAfter,bankXAt((p.y[0]+p.y[1])/2)-100,p.y[1]+16,p.name_new,{size:9,w:700,fill:'#22405a'}); });
+  }
+
+  function applyState(svg,p){
+    function q(sel){ return svg.querySelector(sel); }
+    function show(node,v){ if(node) node.style.display=v?'':'none'; }
+    show(q('#g-landmarks'), p.landmarks);
+    show(q('#g-pier-before'), p.piers && p.state==='before');
+    show(q('#g-pier-after'), p.piers && p.state==='after');
+    show(q('#g-hwy-before'), p.state==='before');
+    show(q('#g-labels-common'), p.labels);
+    show(q('#g-labels-before'), p.labels && p.state==='before');
+    show(q('#g-labels-after'), p.labels && p.state==='after');
+    var rw=svg.querySelectorAll('.riverwalk-path');
+    for(var i=0;i<rw.length;i++){ rw[i].style.display=(p.state==='after' && p.riverwalk) ? '' : 'none'; }
+  }
+
+  var params=new URLSearchParams(location.search);
+  var state={
+    state: params.get('state')==='after' ? 'after' : 'before',
+    landmarks: params.get('landmarks')!=='0',
+    piers: params.get('piers')!=='0',
+    riverwalk: params.get('riverwalk')!=='0',
+    labels: params.get('labels')!=='0',
+    compare: params.get('compare')==='1',
+    pos: Math.min(100,Math.max(0,parseInt(params.get('pos')||'50',10)||50))
+  };
+
+  var sceneA=document.getElementById('sceneA');
+  buildScene(sceneA);
+  var sceneB=null;
+
+  function syncUrl(){
+    var q=new URLSearchParams();
+    q.set('state',state.state);
+    if(!state.landmarks) q.set('landmarks','0');
+    if(!state.piers) q.set('piers','0');
+    if(!state.riverwalk) q.set('riverwalk','0');
+    if(!state.labels) q.set('labels','0');
+    if(state.compare){ q.set('compare','1'); q.set('pos',String(state.pos)); }
+    history.replaceState(null,'','?'+q.toString());
+  }
+
+  function render(){
+    applyState(sceneA, state.compare ? Object.assign({},state,{state:'before'}) : state);
+
+    var segBtns=document.querySelectorAll('#stateSeg button');
+    for(var i=0;i<segBtns.length;i++) segBtns[i].classList.toggle('active', segBtns[i].dataset.state===state.state);
+    document.getElementById('stateSeg').classList.toggle('disabled', state.compare);
+    document.getElementById('swipeBtn').classList.toggle('active', state.compare);
+    document.getElementById('swipeOverlay').hidden=!state.compare;
+    document.getElementById('swiperow').hidden=!state.compare;
+    document.getElementById('divider').style.left=state.pos+'%';
+    document.getElementById('swipeRange').value=state.pos;
+
+    if(state.compare){
+      if(!sceneB){ sceneB=document.getElementById('sceneB'); buildScene(sceneB); }
+      applyState(sceneB, Object.assign({},state,{state:'after'}));
+      sceneB.style.clipPath='inset(0 0 0 '+state.pos+'%)';
+    }
+
+    var cap=document.getElementById('stateCaption');
+    if(state.compare){
+      cap.innerHTML='拖曳下方拉桿，同畫面比較「高架時期」（左）與「現況」（右）的平面差異。';
+    } else if(state.state==='before'){
+      cap.innerHTML='<span class="state-tag">高架時期 Before（1929–1973）</span>　Miller Highway沿Hudson River東岸高架而建，阻隔市區與水岸；1973年12月15日Gansevoort St附近路段崩塌後全線封閉。';
+    } else {
+      cap.innerHTML='<span class="state-tag">現況 After（2001年起）</span>　高架於1989年拆除，原址改建為Route 9A平面大道；水岸整建為Hudson River Park，Little Island與Gansevoort Peninsula等新公園碼頭陸續開放。';
+    }
+    syncUrl();
+  }
+
+  var segBtnsAll=document.querySelectorAll('#stateSeg button');
+  for(var i=0;i<segBtnsAll.length;i++){
+    segBtnsAll[i].addEventListener('click',function(e){ state.state=e.currentTarget.dataset.state; render(); });
+  }
+  document.getElementById('swipeBtn').addEventListener('click',function(){ state.compare=!state.compare; render(); });
+  document.getElementById('chkLandmarks').addEventListener('change',function(e){ state.landmarks=e.target.checked; render(); });
+  document.getElementById('chkPiers').addEventListener('change',function(e){ state.piers=e.target.checked; render(); });
+  document.getElementById('chkRiverwalk').addEventListener('change',function(e){ state.riverwalk=e.target.checked; render(); });
+  document.getElementById('chkLabels').addEventListener('change',function(e){ state.labels=e.target.checked; render(); });
+  document.getElementById('swipeRange').addEventListener('input',function(e){
+    state.pos=parseInt(e.target.value,10);
+    document.getElementById('divider').style.left=state.pos+'%';
+    if(sceneB) sceneB.style.clipPath='inset(0 0 0 '+state.pos+'%)';
+    syncUrl();
+  });
+
+  document.getElementById('chkLandmarks').checked=state.landmarks;
+  document.getElementById('chkPiers').checked=state.piers;
+  document.getElementById('chkRiverwalk').checked=state.riverwalk;
+  document.getElementById('chkLabels').checked=state.labels;
+  if(state.compare) document.getElementById('swipeRange').value=state.pos;
+
+  render();
+})();
+</script>
+</body>
+</html>
