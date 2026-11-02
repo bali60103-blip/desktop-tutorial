@@ -1,0 +1,6 @@
+{
+  "diagnosis": "At Zhonglin B1/B2 camera, streaky floor/wall/ramp artifacts disappear when Workbench shadows are disabled, with cavity still enabled. Geometry unchanged in the diagnostic.",
+  "treatment": "Refresh parking camera review renders with shadows off, cavity on; keep road-camera shadows. This is a review-render setting, not real-world lighting calibration.",
+  "separate_geometry_fix": "Five legacy Zhonglin slabs trimmed only where overlapping newer working floor; originals retained in excluded collection. Remaining legacy fragments preserved.",
+  "remaining": "Dunyan/Yanji estimated envelope overlap and earlier blocked paths remain; not all overlapping contact faces are defects."
+}

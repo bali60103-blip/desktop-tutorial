@@ -1,0 +1,35 @@
+{
+  "snapshot": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Gate_B_Review/B_IN_PROGRESS_before_review_20260910_000742.blend",
+  "review_file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Gate_B_Review/B_review_20260910_000742.blend",
+  "prior_file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Stage05_Buildings/05_building_review_20260910_000123.blend",
+  "gate_status": {
+    "A": "scope accepted",
+    "B": "IN PROGRESS",
+    "C": "not passed",
+    "D": "not passed",
+    "E": "not passed"
+  },
+  "views": [
+    {
+      "name": "B_full_plan",
+      "camera": "REVIEW_B_full_plan",
+      "output": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Gate_B_Review/B_full_plan.png"
+    },
+    {
+      "name": "B_zhonglin_plan",
+      "camera": "REVIEW_B_zhonglin_plan",
+      "output": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Gate_B_Review/B_zhonglin_plan.png"
+    },
+    {
+      "name": "B_zhonglin_oblique",
+      "camera": "REVIEW_B_zhonglin_oblique",
+      "output": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Gate_B_Review/B_zhonglin_oblique.png"
+    }
+  ],
+  "limitations": [
+    "Work-model dimensions include estimates",
+    "Legacy piers unverified",
+    "Underground reference outlines do not establish floor elevations",
+    "Rendering is not validation of geographic accuracy"
+  ]
+}

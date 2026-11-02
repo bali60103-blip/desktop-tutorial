@@ -1,0 +1,22 @@
+[
+  {
+    "file": "ground_all_overview.png",
+    "bytes": 1858617,
+    "sha256": "2b7fd19724182c489b256c444a7d59693db91da2bfde77cd5f75740b86b62883"
+  },
+  {
+    "file": "ground_crossing_detail.png",
+    "bytes": 1885156,
+    "sha256": "0952311b8b0c89313629fa516b211e155cd349b36baff4a6deab96565ec5f6e9"
+  },
+  {
+    "file": "ground_east_plan.png",
+    "bytes": 956241,
+    "sha256": "332af89afd479362d3b69cf4713d9e797af01f6506d94f25897a1bee838a9c3d"
+  },
+  {
+    "file": "ground_zhonglin_plan.png",
+    "bytes": 1827868,
+    "sha256": "c7d30e5bc2728f70201df12c301f9107fef82bfecb9f6777494e071c8b2e68cc"
+  }
+]

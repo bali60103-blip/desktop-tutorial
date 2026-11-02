@@ -1,0 +1,66 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/GroundFull/GROUND_WORKING_20260910_013408.blend",
+  "mesh_checks": [
+    {
+      "object": "GROUND_ROADS_OFFICIAL_XY",
+      "before_nonmanifold_edges": 3,
+      "after_nonmanifold_edges": 1,
+      "surface_components": 78
+    },
+    {
+      "object": "GROUND_ROADS_ESTIMATED_GAPS",
+      "before_nonmanifold_edges": 0,
+      "after_nonmanifold_edges": 0,
+      "surface_components": 1
+    },
+    {
+      "object": "GROUND_SIDEWALKS_OFFICIAL_XY",
+      "before_nonmanifold_edges": 8,
+      "after_nonmanifold_edges": 0,
+      "surface_components": 263
+    },
+    {
+      "object": "GROUND_CURBS_ESTIMATED",
+      "before_nonmanifold_edges": 2,
+      "after_nonmanifold_edges": 0,
+      "surface_components": 25015
+    },
+    {
+      "object": "GROUND_MEDIAN_WORKING_ESTIMATED",
+      "before_nonmanifold_edges": 2,
+      "after_nonmanifold_edges": 0,
+      "surface_components": 37
+    },
+    {
+      "object": "GROUND_CROSSWALK_MARKINGS_ESTIMATED",
+      "before_nonmanifold_edges": 3,
+      "after_nonmanifold_edges": 0,
+      "surface_components": 1980
+    },
+    {
+      "object": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+      "before_nonmanifold_edges": 8,
+      "after_nonmanifold_edges": 0,
+      "surface_components": 280
+    },
+    {
+      "object": "GROUND_CURBS_WITH_ESTIMATED_OPENINGS",
+      "before_nonmanifold_edges": 2,
+      "after_nonmanifold_edges": 0,
+      "surface_components": 24922
+    },
+    {
+      "object": "GROUND_CURB_RAMPS_ESTIMATED",
+      "before_nonmanifold_edges": 0,
+      "after_nonmanifold_edges": 0,
+      "surface_components": 208
+    }
+  ],
+  "median_summary": {
+    "median_working_area_m2": 49923.32955000003,
+    "median_components": 37,
+    "official_records_with_median_area": 84,
+    "wide_gap_samples_capped_at_12m": 1624
+  },
+  "ground_status": "Ground surface working version: 8 sections, markings, estimated curb ramps and partial inferred medians. Not surveyed as-built."
+}

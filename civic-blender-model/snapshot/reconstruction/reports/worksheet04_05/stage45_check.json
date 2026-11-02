@@ -1,0 +1,701 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Worksheet04_05/STAGE45_REVIEW_20260910_014504.blend",
+  "duplicate_caps_hidden": 111,
+  "active_caps": 130,
+  "duplicates": [
+    {
+      "hidden": "UNVERIFIED_Pier_017_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_016_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_021_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_020_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_037_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_036_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_043_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_042_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_049_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_048_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_055_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_054_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_061_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_060_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_067_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_066_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_075_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_074_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_079_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_078_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_083_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_082_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_087_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_086_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_091_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_090_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_095_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_094_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_099_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_098_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_103_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_102_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_107_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_106_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_111_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_110_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_115_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_114_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_119_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_118_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_123_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_122_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_203_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_202_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_207_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_206_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_211_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_210_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_215_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_214_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_219_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_218_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_235_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_234_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_239_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_238_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_243_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_242_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_247_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_246_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_251_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_250_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_255_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_254_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_281_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_280_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_283_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_282_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_289_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_288_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_295_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_294_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_307_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_306_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_313_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_312_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_319_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_318_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_325_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_324_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_331_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_330_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_337_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_336_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_339_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_338_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_341_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_340_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_343_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_342_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_345_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_344_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_347_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_346_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_349_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_348_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_351_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_350_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_353_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_352_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_363_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_362_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_369_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_368_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_375_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_374_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_381_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_380_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_387_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_386_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_393_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_392_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_395_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_394_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_397_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_396_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_399_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_398_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_401_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_400_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_403_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_402_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_405_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_404_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_409_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_408_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_413_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_412_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_415_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_414_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_417_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_416_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_419_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_418_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_421_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_420_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_423_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_422_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_425_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_424_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_427_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_426_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_429_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_428_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_431_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_430_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_433_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_432_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_435_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_434_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_439_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_438_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_441_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_440_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_459_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_458_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_493_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_492_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_499_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_498_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_505_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_504_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_511_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_510_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_519_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_518_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_523_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_522_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_525_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_524_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_527_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_526_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_529_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_528_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_535_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_534_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_541_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_540_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_625_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_624_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_643_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_642_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_649_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_648_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_659_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_658_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_661_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_660_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_667_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_666_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_673_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_672_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_685_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_684_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_689_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_688_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_693_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_692_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_695_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_694_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_700_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_357_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_707_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_706_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_715_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_714_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_719_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_718_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_727_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_726_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_729_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_728_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_731_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_730_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_733_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_732_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_735_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_734_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_737_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_736_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    },
+    {
+      "hidden": "UNVERIFIED_Pier_739_CAP_ESTIMATED",
+      "kept": "UNVERIFIED_Pier_738_CAP_ESTIMATED",
+      "prior_hide_render": false,
+      "prior_hide_viewport": false
+    }
+  ],
+  "depth_options": [
+    {
+      "option": "A",
+      "B1_m": -3.0,
+      "B2_m": -6.0,
+      "slab_assumed_m": 0.3,
+      "slab_to_slab_clear_m": 2.7,
+      "test_grade": 0.1,
+      "straight_ramp_run_per_level_m": 30.0,
+      "limitations": "No beams/services allowance; grade not a code recommendation. Footprint width 24m is schematic only; no entrance or stair placement asserted."
+    },
+    {
+      "option": "B",
+      "B1_m": -3.6,
+      "B2_m": -7.2,
+      "slab_assumed_m": 0.3,
+      "slab_to_slab_clear_m": 3.3000000000000003,
+      "test_grade": 0.1,
+      "straight_ramp_run_per_level_m": 36.0,
+      "limitations": "No beams/services allowance; grade not a code recommendation. Footprint width 24m is schematic only; no entrance or stair placement asserted."
+    }
+  ],
+  "status": "04 sample review and 05 duplicate-cap repair; underground alternative selection pending; no pier XY moved; gates B/C not passed",
+  "corner_ray_summary": {
+    "caps_checked": 130,
+    "caps_without_corner_ray_hit": 114,
+    "limitation": "Corner-only sampling does not verify absence or presence of load bearing contact"
+  }
+}

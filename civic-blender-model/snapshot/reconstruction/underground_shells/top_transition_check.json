@@ -1,0 +1,15 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/YTopTransitions/CIVIC_Y_TOP_TRANSITIONS_20260910_174914.blend",
+  "entries": [
+    "Y9",
+    "Y10"
+  ],
+  "new_meshes": 6,
+  "nonmanifold_edges": 0,
+  "top_step_z": 0.15,
+  "old_top_step_z": 0,
+  "tread_m": 0.3,
+  "risers_to_B1": 25,
+  "B1_z": -3.6,
+  "limitation": "Geometry matches existing modeled sidewalk height, not real-world survey; no verified code compliance. Existing main scene unchanged."
+}

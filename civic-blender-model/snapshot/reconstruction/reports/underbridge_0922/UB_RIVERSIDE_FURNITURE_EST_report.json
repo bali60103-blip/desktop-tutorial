@@ -1,0 +1,93 @@
+{
+  "batch": "UB_RIVERSIDE_FURNITURE_EST",
+  "object_count": 15,
+  "names": [
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_0_SEAT_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_0_LEG_A_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_0_LEG_B_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_1_SEAT_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_1_LEG_A_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_1_LEG_B_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_2_SEAT_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_2_LEG_A_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_2_LEG_B_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_3_SEAT_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_3_LEG_A_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_BENCH_3_LEG_B_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_LAMP_POST_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_LAMP_ARM_EST",
+    "UB_RIVERSIDE_FURNITURE_EST_LAMP_HEAD_EST"
+  ],
+  "surface_intersections": [],
+  "aabb_candidates": [],
+  "median_sample_issues": [
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_0_SEAT_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_0_LEG_A_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_0_LEG_B_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_1_SEAT_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_1_LEG_A_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_1_LEG_B_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_2_SEAT_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_2_LEG_A_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_2_LEG_B_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_3_SEAT_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_3_LEG_A_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_BENCH_3_LEG_B_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_LAMP_POST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_LAMP_ARM_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_RIVERSIDE_FURNITURE_EST_LAMP_HEAD_EST",
+      "outside_samples": 4
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

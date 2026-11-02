@@ -1,0 +1,40 @@
+{
+  "cameras": 106,
+  "animation_unchanged": true,
+  "fps": 24,
+  "frames": [
+    1,
+    2544
+  ],
+  "camera_height_m": 1.7,
+  "target_height_above_axis_surface_m": 0.1,
+  "note": "Names ending N/S now identify camera side, not viewing direction. Positions and analysis axis remain estimated; some piers may occlude inward views.",
+  "max_aim_error_degrees": 0.0,
+  "ground_surface_query_misses": 46,
+  "ground_miss_note": "46 positions have no hit in selected road/sidewalk/median meshes; use estimated ground Z=0, camera Z=1.7. Not verified pedestrian locations.",
+  "sight_occlusions": [
+    {
+      "camera": "CIVIC200_00K600_N",
+      "sight_hit_object": "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_2",
+      "sight_hit_distance_m": 17.25815792264752
+    },
+    {
+      "camera": "CIVIC200_01K800_S",
+      "sight_hit_object": "UNVERIFIED_Pier_206",
+      "sight_hit_distance_m": 9.201159236529227
+    },
+    {
+      "camera": "CIVIC200_02K400_N",
+      "sight_hit_object": "UNVERIFIED_Pier_086",
+      "sight_hit_distance_m": 3.111281640064141
+    },
+    {
+      "camera": "CIVIC200_03K200_S",
+      "sight_hit_object": "COMP_ACCESS_\u5fa9\u6566_2_WALL_1",
+      "sight_hit_distance_m": 13.027598903279111
+    }
+  ],
+  "placement_method": "53 stations; paired north/south side viewpoints looking at each original axis station. Prefer 18m lateral offset and zero along offset, avoid low building footprints. Search 4-30m lateral and up to30m along. Axis itself is a derived OSM analysis axis, not surveyed engineering centerline.",
+  "camera_order": "East to west, N denotes north-side position looking inward; S denotes south-side position looking inward.",
+  "prior_camera_renders": "Previous 128-camera set depicts old outward views; six inward sample images refreshed separately, full inward animation not rendered."
+}

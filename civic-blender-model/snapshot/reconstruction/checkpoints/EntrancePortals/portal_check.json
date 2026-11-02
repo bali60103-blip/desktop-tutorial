@@ -1,0 +1,22 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/EntrancePortals/CIVIC_ENTRANCE_PORTALS_20260910_122647.blend",
+  "portal_count": 2,
+  "mesh_count": 28,
+  "portals": [
+    {
+      "ramp": "EAST_0_TO_B1_ASSUMED",
+      "placement_before_top_m": 1.5,
+      "beam_bottom_z": 1.8,
+      "clear_between_posts_m": 4.28,
+      "evidence": "OSM entrance height limit 1.8m; official plan inventory two freestanding portals; exact location and shape assumed"
+    },
+    {
+      "ramp": "WEST_0_TO_B1_ASSUMED",
+      "placement_before_top_m": 1.5,
+      "beam_bottom_z": 1.8,
+      "clear_between_posts_m": 4.28,
+      "evidence": "OSM entrance height limit 1.8m; official plan inventory two freestanding portals; exact location and shape assumed"
+    }
+  ],
+  "limitations": "Portal location and structural sizes assumed; not full vehicle clearance certification. Pier conflicts unresolved."
+}

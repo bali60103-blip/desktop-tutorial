@@ -1,0 +1,61 @@
+{
+  "object": "RAILWAY_CHIMNEY_45M_BODY",
+  "source_url": "https://www.nrm.gov.tw/News_Content2.aspx?n=3313&s=138273&sms=13762",
+  "photo_url": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/information/large/fe8d1ce3-c31c-4c4d-9d29-524d4a5bec7f.jpg",
+  "height_m": 45,
+  "height_evidence": "National Railway Museum official page",
+  "center_xy": [
+    5354.94287109375,
+    462.5844421386719
+  ],
+  "archived": [
+    "COMP_OSM_EQUIP_1342705709",
+    "BLOCK_w1342705709_CORE",
+    "BLOCK_w1342705709_FACADE"
+  ],
+  "removed_generic_window_instances": 112,
+  "profile_z_radius_est_m": [
+    [
+      0,
+      1.39
+    ],
+    [
+      2,
+      1.36
+    ],
+    [
+      35,
+      1.02
+    ],
+    [
+      43,
+      0.96
+    ],
+    [
+      45,
+      0.94
+    ],
+    [
+      45,
+      0.77
+    ],
+    [
+      43,
+      0.79
+    ],
+    [
+      35,
+      0.83
+    ],
+    [
+      2,
+      1.14
+    ],
+    [
+      0,
+      1.16
+    ]
+  ],
+  "mesh_closed": true,
+  "limits": "Real profile dimensions/base elevation unverified. Smoke/antenna/ladder fixtures not inferred from indistinct pixels."
+}

@@ -1,0 +1,153 @@
+{
+  "scope": "Six public-parking core paths vs selected Y/Zhongshan mall meshes only, including roofs; 342 upward samples per candidate. Parking slabs, shafts, ground/road openings, property boundaries, piers, utilities and route connections not checked.",
+  "candidates": [
+    {
+      "along_offset_m": 0,
+      "translation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "mall_hit_samples": 129,
+      "blocked_paths": [
+        "CORE_\u516c\u4e2d_0_B1_A",
+        "CORE_\u516c\u4e2d_0_B1_B",
+        "CORE_\u516c\u4e2d_0_B1_LANDING",
+        "CORE_\u516c\u4e2d_0_B2_A",
+        "CORE_\u516c\u4e2d_0_B2_B",
+        "CORE_\u516c\u4e2d_0_B2_LANDING"
+      ]
+    },
+    {
+      "along_offset_m": 5,
+      "translation": [
+        4.924991130828857,
+        -0.8628214597702026,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 10,
+      "translation": [
+        9.849982261657715,
+        -1.7256429195404053,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 15,
+      "translation": [
+        14.774972915649414,
+        -2.5884644985198975,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 20,
+      "translation": [
+        19.69996452331543,
+        -3.4512858390808105,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 25,
+      "translation": [
+        24.624956130981445,
+        -4.314107418060303,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 30,
+      "translation": [
+        29.549945831298828,
+        -5.176928997039795,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 35,
+      "translation": [
+        34.474937438964844,
+        -6.039750576019287,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 40,
+      "translation": [
+        39.39992904663086,
+        -6.902571678161621,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 45,
+      "translation": [
+        44.324920654296875,
+        -7.765393257141113,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 50,
+      "translation": [
+        49.24991226196289,
+        -8.628214836120605,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 55,
+      "translation": [
+        54.174903869628906,
+        -9.491036415100098,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    },
+    {
+      "along_offset_m": 60,
+      "translation": [
+        59.099891662597656,
+        -10.35385799407959,
+        0.0
+      ],
+      "mall_hit_samples": 0,
+      "blocked_paths": []
+    }
+  ],
+  "first_mall_clear_candidate": {
+    "along_offset_m": 5,
+    "translation": [
+      4.924991130828857,
+      -0.8628214597702026,
+      0.0
+    ],
+    "mall_hit_samples": 0,
+    "blocked_paths": []
+  },
+  "adopted": false
+}

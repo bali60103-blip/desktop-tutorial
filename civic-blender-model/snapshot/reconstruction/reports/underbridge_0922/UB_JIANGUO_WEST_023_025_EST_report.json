@@ -1,0 +1,327 @@
+{
+  "batch": "UB_JIANGUO_WEST_023_025_EST",
+  "object_count": 11,
+  "names": [
+    "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+    "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+    "UB_JIANGUO_WEST_023_025_EST_YELLOW_CABINET_EST",
+    "UB_JIANGUO_WEST_023_025_EST_LOW_ENCLOSURE_WEST_EST",
+    "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+    "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+    "UB_JIANGUO_WEST_023_025_EST_EQUIPMENT_HOUSE_EST",
+    "UB_JIANGUO_WEST_023_025_EST_EQUIPMENT_COPING_EST",
+    "UB_JIANGUO_WEST_023_025_EST_MESSAGE_BOARD_EST",
+    "UB_JIANGUO_WEST_023_025_EST_MESSAGE_MAST_EST",
+    "UB_JIANGUO_WEST_023_025_EST_LOW_ENCLOSURE_EAST_EST"
+  ],
+  "surface_intersections": [
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "UNVERIFIED_Pier_119"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "UNVERIFIED_Pier_123"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "UNVERIFIED_Pier_207"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "UNVERIFIED_Pier_207"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_107"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_110"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_111"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_114"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_219"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_111"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_219"
+    ]
+  ],
+  "aabb_candidates": [
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "UNVERIFIED_Pier_118"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "UNVERIFIED_Pier_119"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "UNVERIFIED_Pier_122"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "UNVERIFIED_Pier_123"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "UNVERIFIED_Pier_206"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "UNVERIFIED_Pier_207"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "BLOCK_w676713839_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "BLOCK_w676713871_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "BLOCK_w676713872_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "BLOCK_w676713873_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "BLOCK_w676713874_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "UNVERIFIED_Pier_118"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "UNVERIFIED_Pier_119"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "UNVERIFIED_Pier_206"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "UNVERIFIED_Pier_207"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "BLOCK_w676713871_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "BLOCK_w676713872_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "BLOCK_w676713873_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "BLOCK_w676713874_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_106"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_107"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_110"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_111"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_114"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_115"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_214"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_215"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_218"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "UNVERIFIED_Pier_219"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713820_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713822_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713823_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713824_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713826_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713827_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713828_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713843_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713844_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "BLOCK_w676713845_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_106"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_107"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_110"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_111"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_115"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_214"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_215"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_218"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_219"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "BLOCK_w676713820_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "BLOCK_w676713822_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "BLOCK_w676713823_CORE"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "BLOCK_w676713824_CORE"
+    ]
+  ],
+  "median_sample_issues": [
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_MEDIAN_WEST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_YELLOW_CABINET_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_LOW_ENCLOSURE_WEST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_MEDIAN_EAST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_EQUIPMENT_HOUSE_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_EQUIPMENT_COPING_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_MESSAGE_BOARD_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_MESSAGE_MAST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_LOW_ENCLOSURE_EAST_EST",
+      "outside_samples": 4
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

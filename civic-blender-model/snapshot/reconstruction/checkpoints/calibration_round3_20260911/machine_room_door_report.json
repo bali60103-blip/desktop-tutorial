@@ -1,0 +1,202 @@
+{
+  "rooms_detailed": 16,
+  "new_objects": 80,
+  "existing_shells_preserved": true,
+  "vent_openings_changed": false,
+  "door_state": "closed",
+  "rooms": [
+    {
+      "source": "COMP_\u5854\u57ce_MACHINE_ROOM_0",
+      "objects": [
+        "COMP_\u5854\u57ce_MACHINE_ROOM_0_DOOR_LINTEL",
+        "COMP_\u5854\u57ce_MACHINE_ROOM_0_DOOR_FRAME",
+        "COMP_\u5854\u57ce_MACHINE_ROOM_0_DOOR_LEAF",
+        "COMP_\u5854\u57ce_MACHINE_ROOM_0_DOOR_HANDLE",
+        "COMP_\u5854\u57ce_MACHINE_ROOM_0_DOOR_HINGES"
+      ],
+      "door_width_m": 1.2000075977902194,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u5854\u57ce_MACHINE_ROOM_1",
+      "objects": [
+        "COMP_\u5854\u57ce_MACHINE_ROOM_1_DOOR_LINTEL",
+        "COMP_\u5854\u57ce_MACHINE_ROOM_1_DOOR_FRAME",
+        "COMP_\u5854\u57ce_MACHINE_ROOM_1_DOOR_LEAF",
+        "COMP_\u5854\u57ce_MACHINE_ROOM_1_DOOR_HANDLE",
+        "COMP_\u5854\u57ce_MACHINE_ROOM_1_DOOR_HINGES"
+      ],
+      "door_width_m": 1.2000060892448046,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u516c\u4e2d_MACHINE_ROOM_0",
+      "objects": [
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_0_DOOR_LINTEL",
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_0_DOOR_FRAME",
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_0_DOOR_LEAF",
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_0_DOOR_HANDLE",
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_0_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1998505742450494,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u516c\u4e2d_MACHINE_ROOM_1",
+      "objects": [
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_1_DOOR_LINTEL",
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_1_DOOR_FRAME",
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_1_DOOR_LEAF",
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_1_DOOR_HANDLE",
+        "COMP_\u516c\u4e2d_MACHINE_ROOM_1_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1999460189898399,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u4e2d\u6797_MACHINE_ROOM_0",
+      "objects": [
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_0_DOOR_LINTEL",
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_0_DOOR_FRAME",
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_0_DOOR_LEAF",
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_0_DOOR_HANDLE",
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_0_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1995474495644658,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u4e2d\u6797_MACHINE_ROOM_1",
+      "objects": [
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_1_DOOR_LINTEL",
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_1_DOOR_FRAME",
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_1_DOOR_LEAF",
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_1_DOOR_HANDLE",
+        "COMP_\u4e2d\u6797_MACHINE_ROOM_1_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1994821062204108,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u6797\u91d1_MACHINE_ROOM_0",
+      "objects": [
+        "COMP_\u6797\u91d1_MACHINE_ROOM_0_DOOR_LINTEL",
+        "COMP_\u6797\u91d1_MACHINE_ROOM_0_DOOR_FRAME",
+        "COMP_\u6797\u91d1_MACHINE_ROOM_0_DOOR_LEAF",
+        "COMP_\u6797\u91d1_MACHINE_ROOM_0_DOOR_HANDLE",
+        "COMP_\u6797\u91d1_MACHINE_ROOM_0_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1984590183788122,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u6797\u91d1_MACHINE_ROOM_1",
+      "objects": [
+        "COMP_\u6797\u91d1_MACHINE_ROOM_1_DOOR_LINTEL",
+        "COMP_\u6797\u91d1_MACHINE_ROOM_1_DOOR_FRAME",
+        "COMP_\u6797\u91d1_MACHINE_ROOM_1_DOOR_LEAF",
+        "COMP_\u6797\u91d1_MACHINE_ROOM_1_DOOR_HANDLE",
+        "COMP_\u6797\u91d1_MACHINE_ROOM_1_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1985174813399935,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u5efa\u5fa9_MACHINE_ROOM_0",
+      "objects": [
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_0_DOOR_LINTEL",
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_0_DOOR_FRAME",
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_0_DOOR_LEAF",
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_0_DOOR_HANDLE",
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_0_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1953969025608067,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u5efa\u5fa9_MACHINE_ROOM_1",
+      "objects": [
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_1_DOOR_LINTEL",
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_1_DOOR_FRAME",
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_1_DOOR_LEAF",
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_1_DOOR_HANDLE",
+        "COMP_\u5efa\u5fa9_MACHINE_ROOM_1_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1952746372093883,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u5fa9\u6566_MACHINE_ROOM_0",
+      "objects": [
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_0_DOOR_LINTEL",
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_0_DOOR_FRAME",
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_0_DOOR_LEAF",
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_0_DOOR_HANDLE",
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_0_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1924013467660384,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u5fa9\u6566_MACHINE_ROOM_1",
+      "objects": [
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_1_DOOR_LINTEL",
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_1_DOOR_FRAME",
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_1_DOOR_LEAF",
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_1_DOOR_HANDLE",
+        "COMP_\u5fa9\u6566_MACHINE_ROOM_1_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1925231520273367,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u6566\u5ef6_MACHINE_ROOM_0",
+      "objects": [
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_0_DOOR_LINTEL",
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_0_DOOR_FRAME",
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_0_DOOR_LEAF",
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_0_DOOR_HANDLE",
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_0_DOOR_HINGES"
+      ],
+      "door_width_m": 1.198504205099988,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u6566\u5ef6_MACHINE_ROOM_1",
+      "objects": [
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_1_DOOR_LINTEL",
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_1_DOOR_FRAME",
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_1_DOOR_LEAF",
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_1_DOOR_HANDLE",
+        "COMP_\u6566\u5ef6_MACHINE_ROOM_1_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1987420157028,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u5ef6\u5409_MACHINE_ROOM_0",
+      "objects": [
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_0_DOOR_LINTEL",
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_0_DOOR_FRAME",
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_0_DOOR_LEAF",
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_0_DOOR_HANDLE",
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_0_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1953242551487393,
+      "door_height_assumed_m": 2.1
+    },
+    {
+      "source": "COMP_\u5ef6\u5409_MACHINE_ROOM_1",
+      "objects": [
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_1_DOOR_LINTEL",
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_1_DOOR_FRAME",
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_1_DOOR_LEAF",
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_1_DOOR_HANDLE",
+        "COMP_\u5ef6\u5409_MACHINE_ROOM_1_DOOR_HINGES"
+      ],
+      "door_width_m": 1.1953265421697459,
+      "door_height_assumed_m": 2.1
+    }
+  ],
+  "limits": "Door heights and hardware estimated; actual door locations only follow the prior estimated model, not surveyed entrances. Internal machinery remains generic blocks."
+}

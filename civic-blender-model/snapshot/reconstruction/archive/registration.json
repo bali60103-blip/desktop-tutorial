@@ -1,0 +1,28 @@
+{
+  "origin_epsg3826": [
+    301498.62626188376,
+    2770452.666688324
+  ],
+  "live_to_twd97": {
+    "translation": [
+      -3.0175125570876076,
+      6.8427084880426134
+    ],
+    "scale": 0.9999980676451855,
+    "rotation_degrees": -7.824973748058551e-05
+  },
+  "building_components": 19592,
+  "building_matches_within20m": 6745,
+  "building_match_median_m": 4.681371631650633,
+  "osm_buildings": 8209,
+  "geojson_features": 93,
+  "osm_piers": [],
+  "width_tags": {
+    "missing": 114
+  },
+  "registration_method": "Robust similarity fit using matching building footprint centroids, area ratio 0.8–1.25; held-out every fifth candidate. OSM agreement, not independent survey accuracy.",
+  "holdout_count": 1062,
+  "holdout_median_m": 0.0104072354912498,
+  "holdout_p90_m": 0.5124767346184914,
+  "footprint_iou_matches": 6622
+}

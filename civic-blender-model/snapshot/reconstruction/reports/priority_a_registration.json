@@ -1,0 +1,533 @@
+{
+  "priority": "P1",
+  "source": "User one-page potential-node diagram, A1-A3 west to east",
+  "anchors": [
+    {
+      "label": "LIN_SEN",
+      "distance_m": 0.0,
+      "chainage_m": 798.5672799338943,
+      "osm_id": 1347363384,
+      "name": "林森北路",
+      "live_xy": [
+        1397.496323882039,
+        716.1962745077786
+      ]
+    },
+    {
+      "label": "XIN_SHENG",
+      "distance_m": 0.0,
+      "chainage_m": 1479.1630080234986,
+      "osm_id": 244450513,
+      "name": "新生高架道路",
+      "live_xy": [
+        2049.8402214528614,
+        524.7282388507899
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "A1",
+      "chainage_interval_m": [
+        812.1791944956864,
+        955.1042973945033
+      ],
+      "fraction_interval": [
+        0.02,
+        0.23
+      ],
+      "axis": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1410.7938978650366,
+            713.2878824770803
+          ],
+          [
+            1550.418424686513,
+            682.7497661547483
+          ]
+        ]
+      },
+      "working_focus_polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1555.5463887521034,
+              706.1955330336971
+            ],
+            [
+              1545.2904606209224,
+              659.3039992757995
+            ],
+            [
+              1405.665933799446,
+              689.8421155981315
+            ],
+            [
+              1415.921861930627,
+              736.7336493560291
+            ],
+            [
+              1555.5463887521034,
+              706.1955330336971
+            ]
+          ]
+        ]
+      },
+      "context_polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1569.6482899324776,
+              770.6713919508062
+            ],
+            [
+              1531.1885594405483,
+              594.8281403586903
+            ],
+            [
+              1391.564032619072,
+              625.3662566810224
+            ],
+            [
+              1430.0237631110012,
+              801.2095082731382
+            ],
+            [
+              1569.6482899324776,
+              770.6713919508062
+            ]
+          ]
+        ]
+      },
+      "source_records": [
+        {
+          "osm_id": "w448227619",
+          "name": "華山車站",
+          "height_m": 6.6,
+          "height_status": "OSM floor count x estimated3.3m",
+          "first_row": true
+        },
+        {
+          "osm_id": "w754983498",
+          "name": "",
+          "height_m": 49.5,
+          "height_status": "OSM floor count x estimated3.3m",
+          "first_row": true
+        },
+        {
+          "osm_id": "w754983499",
+          "name": "",
+          "height_m": 49.5,
+          "height_status": "OSM floor count x estimated3.3m",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1174015837",
+          "name": "",
+          "height_m": 42.9,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1174015838",
+          "name": "",
+          "height_m": 42.9,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1174015847",
+          "name": "",
+          "height_m": 42.9,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1174015848",
+          "name": "",
+          "height_m": 42.9,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1174015849",
+          "name": "",
+          "height_m": 42.9,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1307737171",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "OSM floor count x estimated3.3m",
+          "first_row": false
+        },
+        {
+          "osm_id": "w1307737172",
+          "name": "",
+          "height_m": 6.6,
+          "height_status": "OSM floor count x estimated3.3m",
+          "first_row": false
+        }
+      ],
+      "status": "Schematic red-box position interpolated between mapped road anchors; extent and 24m/90m buffers are working review assumptions, not measured boundaries"
+    },
+    {
+      "id": "A2",
+      "chainage_interval_m": [
+        982.3281265180874,
+        1172.8949303831766
+      ],
+      "fraction_interval": [
+        0.27,
+        0.55
+      ],
+      "axis": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1577.0135726525082,
+            676.9329820933517
+          ],
+          [
+            1589.9378577590749,
+            674.1062343080434
+          ],
+          [
+            1757.9435445942793,
+            617.3391524051846
+          ]
+        ]
+      },
+      "working_focus_polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1595.0658218246656,
+              697.5520011869922
+            ],
+            [
+              1597.62046177143,
+              696.8433756320829
+            ],
+            [
+              1765.6261486066344,
+              640.0762937292241
+            ],
+            [
+              1750.2609405819242,
+              594.6020110811451
+            ],
+            [
+              1583.5129746604036,
+              650.9441243566737
+            ],
+            [
+              1571.8856085869174,
+              653.4872152144029
+            ],
+            [
+              1582.141536718099,
+              700.3787489723005
+            ],
+            [
+              1595.0658218246656,
+              697.5520011869922
+            ]
+          ]
+        ]
+      },
+      "context_polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1609.1677230050398,
+              762.0278601041014
+            ],
+            [
+              1618.7476228054068,
+              759.3705142731915
+            ],
+            [
+              1786.7533096406112,
+              702.6034323703326
+            ],
+            [
+              1729.1337795479474,
+              532.0748724400365
+            ],
+            [
+              1565.8445461390565,
+              587.2483219904072
+            ],
+            [
+              1557.7837074065433,
+              589.0113562972938
+            ],
+            [
+              1596.243437898473,
+              764.8546078894096
+            ],
+            [
+              1609.1677230050398,
+              762.0278601041014
+            ]
+          ]
+        ]
+      },
+      "source_records": [
+        {
+          "osm_id": "w810560898",
+          "name": "",
+          "height_m": 13.2,
+          "height_status": "Estimated13.2m fallback; no height source",
+          "first_row": false
+        },
+        {
+          "osm_id": "w810560907",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w810560908",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w810560909",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w810560910",
+          "name": "",
+          "height_m": 13.2,
+          "height_status": "Estimated13.2m fallback; no height source",
+          "first_row": false
+        },
+        {
+          "osm_id": "w810560911",
+          "name": "",
+          "height_m": 42.9,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w810560912",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w810560913",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w810560914",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w810560915",
+          "name": "",
+          "height_m": 42.9,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w810560916",
+          "name": "",
+          "height_m": 13.2,
+          "height_status": "Estimated13.2m fallback; no height source",
+          "first_row": false
+        },
+        {
+          "osm_id": "w810560917",
+          "name": "",
+          "height_m": 42.9,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1307743817",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "OSM floor count x estimated3.3m",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1307743821",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "OSM floor count x estimated3.3m",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1473342990",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1473342991",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1473342992",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        }
+      ],
+      "status": "Schematic red-box position interpolated between mapped road anchors; extent and 24m/90m buffers are working review assumptions, not measured boundaries"
+    },
+    {
+      "id": "A3",
+      "chainage_interval_m": [
+        1186.5068449449686,
+        1302.2081187202016
+      ],
+      "fraction_interval": [
+        0.57,
+        0.74
+      ],
+      "axis": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1770.8392123060382,
+            612.9818628456737
+          ],
+          [
+            1779.406978177326,
+            610.0869187750187
+          ],
+          [
+            1880.8229668992249,
+            577.061937531081
+          ]
+        ]
+      },
+      "working_focus_polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1786.9641350463658,
+              632.866447165789
+            ],
+            [
+              1888.2542165537623,
+              599.8824661965597
+            ],
+            [
+              1873.3917172446875,
+              554.2414088656022
+            ],
+            [
+              1771.9757285227886,
+              587.26639010954
+            ],
+            [
+              1771.724374164971,
+              587.3497774509792
+            ],
+            [
+              1763.1566082936833,
+              590.2447215216342
+            ],
+            [
+              1778.5218163183931,
+              635.7190041697132
+            ],
+            [
+              1786.9641350463658,
+              632.866447165789
+            ]
+          ]
+        ]
+      },
+      "context_polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1807.746316436239,
+              695.5101502404033
+            ],
+            [
+              1908.6901531037402,
+              662.6389200266264
+            ],
+            [
+              1852.9557806947096,
+              491.48495503553556
+            ],
+            [
+              1751.5397919728107,
+              524.5099362794733
+            ],
+            [
+              1750.5972131309948,
+              524.8226388098703
+            ],
+            [
+              1742.029447259707,
+              527.7175828805255
+            ],
+            [
+              1799.6489773523695,
+              698.246142810822
+            ],
+            [
+              1807.746316436239,
+              695.5101502404033
+            ]
+          ]
+        ]
+      },
+      "source_records": [
+        {
+          "osm_id": "w810560906",
+          "name": "",
+          "height_m": 3.3,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        },
+        {
+          "osm_id": "w1473342989",
+          "name": "",
+          "height_m": 23.099999999999998,
+          "height_status": "Preserved previous neighbor-height estimate",
+          "first_row": true
+        }
+      ],
+      "status": "Schematic red-box position interpolated between mapped road anchors; extent and 24m/90m buffers are working review assumptions, not measured boundaries"
+    }
+  ],
+  "registration_limit": "Axis is piecewise 200m camera-station interpolation. Fractions visually read from schematic red boxes. Neither mapping nor polygon is survey control."
+}

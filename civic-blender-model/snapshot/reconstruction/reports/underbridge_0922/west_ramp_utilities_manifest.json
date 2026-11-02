@@ -1,0 +1,196 @@
+{
+  "batch_name": "UB_WEST_RAMP_UTILITIES_EST",
+  "observations": [
+    {
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "lat": 25.0504235,
+      "lon": 121.5078964,
+      "date": "2024-12",
+      "heading": 41.95,
+      "observed": [
+        "two blue utility cabinets",
+        "cabinet support legs",
+        "low under-ramp passage",
+        "landscape boulders",
+        "low shrubs",
+        "grey pole-mounted cabinet"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    }
+  ],
+  "masses": [
+    {
+      "id": "BLUE_A",
+      "center": [
+        -259,
+        1021,
+        1.13
+      ],
+      "size": [
+        1.4,
+        0.65,
+        1.9
+      ],
+      "material": "louvre",
+      "kind": "box",
+      "angle": 0,
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "segment": "UB_X-003",
+      "placement_note": "Revisited visible cabinets/landscape. All XY, widths and heights estimated from Street View; not confirmed cabinet-to-legacy-pier mapping."
+    },
+    {
+      "id": "BLUE_B",
+      "center": [
+        -256.2,
+        1021,
+        1.28
+      ],
+      "size": [
+        0.95,
+        0.55,
+        1.2
+      ],
+      "material": "louvre",
+      "kind": "box",
+      "angle": 0,
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "segment": "UB_X-003",
+      "placement_note": "Revisited visible cabinets/landscape. All XY, widths and heights estimated from Street View; not confirmed cabinet-to-legacy-pier mapping."
+    },
+    {
+      "id": "BLUE_B_LEG_1",
+      "center": [
+        -256.55,
+        1021,
+        0.43
+      ],
+      "size": [
+        0.12,
+        0.12,
+        0.5
+      ],
+      "material": "stone",
+      "kind": "box",
+      "angle": 0,
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "segment": "UB_X-003",
+      "placement_note": "Revisited visible cabinets/landscape. All XY, widths and heights estimated from Street View; not confirmed cabinet-to-legacy-pier mapping."
+    },
+    {
+      "id": "BLUE_B_LEG_2",
+      "center": [
+        -255.85,
+        1021,
+        0.43
+      ],
+      "size": [
+        0.12,
+        0.12,
+        0.5
+      ],
+      "material": "stone",
+      "kind": "box",
+      "angle": 0,
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "segment": "UB_X-003",
+      "placement_note": "Revisited visible cabinets/landscape. All XY, widths and heights estimated from Street View; not confirmed cabinet-to-legacy-pier mapping."
+    },
+    {
+      "id": "ROCK_A",
+      "center": [
+        -249,
+        1027,
+        0.18
+      ],
+      "size": [
+        3,
+        2.2,
+        1.4
+      ],
+      "material": "rock",
+      "kind": "rock",
+      "angle": 0,
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "segment": "UB_X-003",
+      "placement_note": "Revisited visible cabinets/landscape. All XY, widths and heights estimated from Street View; not confirmed cabinet-to-legacy-pier mapping."
+    },
+    {
+      "id": "ROCK_B",
+      "center": [
+        -245,
+        1025,
+        0.18
+      ],
+      "size": [
+        2.6,
+        1.7,
+        1
+      ],
+      "material": "rock",
+      "kind": "rock",
+      "angle": 0,
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "segment": "UB_X-003",
+      "placement_note": "Revisited visible cabinets/landscape. All XY, widths and heights estimated from Street View; not confirmed cabinet-to-legacy-pier mapping."
+    },
+    {
+      "id": "SHRUB_WEST",
+      "center": [
+        -272,
+        1011,
+        0.18
+      ],
+      "size": [
+        13,
+        5,
+        0.65
+      ],
+      "material": "shrub",
+      "kind": "rock",
+      "angle": 0,
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "segment": "UB_X-003",
+      "placement_note": "Revisited visible cabinets/landscape. All XY, widths and heights estimated from Street View; not confirmed cabinet-to-legacy-pier mapping."
+    },
+    {
+      "id": "SHRUB_EAST",
+      "center": [
+        -247,
+        1014,
+        0.18
+      ],
+      "size": [
+        9,
+        4,
+        0.65
+      ],
+      "material": "shrub",
+      "kind": "rock",
+      "angle": 0,
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "segment": "UB_X-003",
+      "placement_note": "Revisited visible cabinets/landscape. All XY, widths and heights estimated from Street View; not confirmed cabinet-to-legacy-pier mapping."
+    },
+    {
+      "id": "CABINET_PLINTH",
+      "center": [
+        -259,
+        1021,
+        0.09
+      ],
+      "size": [
+        1.7,
+        0.85,
+        0.18
+      ],
+      "material": "stone",
+      "kind": "box",
+      "angle": 0,
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "segment": "UB_X-003",
+      "placement_note": "Revisited visible cabinets/landscape. All XY, widths and heights estimated from Street View; not confirmed cabinet-to-legacy-pier mapping."
+    }
+  ],
+  "full_corridor_complete": false
+}

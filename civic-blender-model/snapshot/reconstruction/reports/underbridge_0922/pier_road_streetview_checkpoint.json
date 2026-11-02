@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "NO_MAPPED_ROAD_OVERLAP": 76,
+    "ROAD_OVERLAP_REVIEW": 124,
+    "WITHIN_MODELED_MEDIAN": 41
+  },
+  "basis": "Evaluated mesh XY footprint intersection; modeled road minus modeled median, not verified vehicle lane geometry. Piers use bottom faces. No movement applied.",
+  "streetview_review": {
+    "sources": [
+      {
+        "pano": "PdYrpyY5JzRWty-6BTCaYw",
+        "date": "2025-05",
+        "heading": 0,
+        "observation": "Open U-turn passage ahead; columns on island to west of opening",
+        "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=PdYrpyY5JzRWty-6BTCaYw&heading=0&pitch=0"
+      },
+      {
+        "pano": "thep3S5iPBSW9exGL5CO_g",
+        "date": "2025-05",
+        "heading": 90,
+        "observation": "Paired columns inside landscaped island; U-turn opening beyond stone enclosure",
+        "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=thep3S5iPBSW9exGL5CO_g&heading=90&pitch=0"
+      }
+    ],
+    "comparison_excluded_supports": [
+      "UNVERIFIED_Pier_518",
+      "UNVERIFIED_Pier_518_CAP_ESTIMATED",
+      "UNVERIFIED_Pier_519"
+    ],
+    "decision": "Keep U-turn opening clear in comparison only; support correspondence and replacement positions unresolved",
+    "resolved_real_world_conflicts": 0
+  }
+}

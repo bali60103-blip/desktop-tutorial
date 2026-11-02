@@ -1,0 +1,30 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/GroundFull/GROUND_CROSSINGS_20260910_013407.blend",
+  "checks": [
+    {
+      "object": "GROUND_CROSSWALK_MARKINGS_ESTIMATED",
+      "faces": 17352,
+      "nonmanifold_edges": 3
+    },
+    {
+      "object": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+      "faces": 25238,
+      "nonmanifold_edges": 8
+    },
+    {
+      "object": "GROUND_CURBS_WITH_ESTIMATED_OPENINGS",
+      "faces": 223337,
+      "nonmanifold_edges": 2
+    },
+    {
+      "object": "GROUND_CURB_RAMPS_ESTIMATED",
+      "faces": 2657,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "summary": {
+    "crossing_points_used": 163,
+    "marking_pieces": 1980,
+    "estimated_ramp_candidates": 208
+  }
+}

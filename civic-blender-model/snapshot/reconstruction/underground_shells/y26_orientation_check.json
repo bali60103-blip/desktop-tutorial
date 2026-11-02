@@ -1,0 +1,38 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Y26Orientation/CIVIC_Y26_ORIENTATION_20260910_181001.blend",
+  "copied_objects": 92,
+  "source_orientation_preserved": true,
+  "new_camera_objects": 0,
+  "anchor_live_xy": [
+    121.83073261286829,
+    926.8633642997104
+  ],
+  "reference_building_osm_id": 381952589,
+  "building_distance_m": 34.3056261406633,
+  "reference_building_live_xy": [
+    [
+      70.93281781130054,
+      898.05980487072
+    ],
+    [
+      101.0537088454853,
+      889.7553311925324
+    ],
+    [
+      103.33334407745032,
+      897.9717980169221
+    ],
+    [
+      73.22260162461716,
+      906.2652280230959
+    ],
+    [
+      70.93281781130054,
+      898.05980487072
+    ]
+  ],
+  "original_axis_degrees_from_live_x": 78.86988499024336,
+  "alternative_axis_degrees_from_live_x": 164.58621362590043,
+  "rotation_radians": 1.4960321574137145,
+  "status": "Alternative inferred from nearest building long axis, westward sign chosen as hypothesis. No observed Y26 footprint or measured photograph pose. Not verified correction. OSM entrance anchor unchanged."
+}

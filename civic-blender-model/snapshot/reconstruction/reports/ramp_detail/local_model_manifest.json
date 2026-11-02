@@ -1,0 +1,308 @@
+{
+  "created_at": "2026-09-10T02:29:35.709180+08:00",
+  "storage": "Local desktop only; GitHub receives this manifest and scripts, not model binaries",
+  "gate_status": {
+    "A": "accepted scope; see Stage00 records",
+    "B": "in progress, not passed",
+    "C": "not passed",
+    "D": "not passed",
+    "E": "not passed"
+  },
+  "models": [
+    {
+      "path_relative_to_backup_root": "00_original_live_snapshot.blend",
+      "bytes": 17349446,
+      "sha256": "3a94ced181db30833a592bc0bab535d1458795fc068b2322166546cad3f80cef"
+    },
+    {
+      "path_relative_to_backup_root": "01_civic_georeferenced_rebuild.blend",
+      "bytes": 23857198,
+      "sha256": "02f80d32e3ab619d6fb4fbaa2e90e1ce3a332ffc34be53072fd24903d0c03d64"
+    },
+    {
+      "path_relative_to_backup_root": "B_OfficialControls/B_operator_controls_20260910_003148.blend",
+      "bytes": 23949686,
+      "sha256": "0146068b1fdbc4d68de85a3125eb8acaf69f2d4ab0a2d5c1b7e5703068fab5da"
+    },
+    {
+      "path_relative_to_backup_root": "B_OfficialControls/before_official_controls_20260910_003148.blend",
+      "bytes": 23941630,
+      "sha256": "a447b15195d662a166e35cf70d24b543572f223a32baefda522f86fac902b07c"
+    },
+    {
+      "path_relative_to_backup_root": "Cameras_500m/CIVIC_CAMERAS_500M_20260910_020246.blend",
+      "bytes": 41837117,
+      "sha256": "205e1535898dc1fa6907eefb4ceacaf3d32707b1770572e90ef8f8cc6b38e5f4"
+    },
+    {
+      "path_relative_to_backup_root": "Cameras_500m/before_cameras_20260910_020246.blend",
+      "bytes": 41804054,
+      "sha256": "207ab802aa15a832dbf9942f4c1bddac5b1cea53b481a43b1b8fb9f846e88336"
+    },
+    {
+      "path_relative_to_backup_root": "Detail01_Sidewalk/DETAIL_01_20260910_004706.blend",
+      "bytes": 28520131,
+      "sha256": "2fa7fefa3088944461bb04d45b7ea94bf54fe1080d106b9788fa366eb27a527f"
+    },
+    {
+      "path_relative_to_backup_root": "Detail01_Sidewalk/DETAIL_01_20260910_004927.blend",
+      "bytes": 28532325,
+      "sha256": "a49a41723cc9a82b81fced2ce0a161cad9ac2a332d98cfde0835dc159156fcb1"
+    },
+    {
+      "path_relative_to_backup_root": "Detail01_Sidewalk/DETAIL_01_20260910_005148.blend",
+      "bytes": 28534086,
+      "sha256": "ddc7a8d04eb6e8814acad5c29c84695ed1f32c6e27e6ba639dca4ca488522758"
+    },
+    {
+      "path_relative_to_backup_root": "Detail01_Sidewalk/before_detail_20260910_004706.blend",
+      "bytes": 23950569,
+      "sha256": "402108a67fb778db30ae98e385bc4a31bee2acfb7e240fbcab031d1e82870d23"
+    },
+    {
+      "path_relative_to_backup_root": "Detail01_Sidewalk/before_detail_20260910_004927.blend",
+      "bytes": 28519931,
+      "sha256": "f55ba8bee73740929298b1754df91e3757787cbebc1293ed439c75d38f168935"
+    },
+    {
+      "path_relative_to_backup_root": "Detail01_Sidewalk/before_detail_20260910_005148.blend",
+      "bytes": 28533282,
+      "sha256": "ea63498159acb1f299fd8646edf039c8de49da23d3278799103cd12583b3dc55"
+    },
+    {
+      "path_relative_to_backup_root": "Gate_B_Review/B_IN_PROGRESS_before_review_20260910_000742.blend",
+      "bytes": 23945659,
+      "sha256": "67a1a2bbae06a0d4fc71c19dc2082f343cd060af01ee08798f91793b759a16a6"
+    },
+    {
+      "path_relative_to_backup_root": "Gate_B_Review/B_review_20260910_000742.blend",
+      "bytes": 23941183,
+      "sha256": "f50290358a674487021f47859799a19385e229881d471c5250f54c1f33a47572"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/DETAIL_01_20260910_011750.blend",
+      "bytes": 42135638,
+      "sha256": "794df6b31671d3eb05b1a647300be8a9214ae601d315609bee2a8da31e20898e"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_CROSSINGS_20260910_011303.blend",
+      "bytes": 42145391,
+      "sha256": "9921133e57cac593bcabaa93e7907ee79d46a3b528c9d55b873909fd4084c99e"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_CROSSINGS_20260910_012641.blend",
+      "bytes": 42458510,
+      "sha256": "d7661e939b1932734d0e366107637a4fa2e6bd8280d2d976c386e6637db0ac61"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_CROSSINGS_20260910_012921.blend",
+      "bytes": 42540581,
+      "sha256": "de1a3ab6b30211d61e4498969975f4b26d5bb2267af74fb29b299d923405e004"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_CROSSINGS_20260910_013151.blend",
+      "bytes": 42293675,
+      "sha256": "dfdba0a33fb5b8c2d9383d355f413a22e6843c0ca93e33c62d88c08990ce4132"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_CROSSINGS_20260910_013407.blend",
+      "bytes": 42246740,
+      "sha256": "9e80e713e5daae547d39e46d97b2a88790ee4f3a2a711437e9e8a319a1be9ff4"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_FULL_20260910_010406.blend",
+      "bytes": 35301020,
+      "sha256": "e476797bb75585db59208b2d86188c98499734cf3cce08b568c765b62c8ece8f"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_WORKING_20260910_011934.blend",
+      "bytes": 46825624,
+      "sha256": "f383704b185c36e178563c69abb53db843ebfda8c3a1e8838f64cf905c9f222b"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_WORKING_20260910_012341.blend",
+      "bytes": 41526730,
+      "sha256": "1ad2598563c89a83ca2b62c09c341bc5f7b6c9dbb4e0e26cd016b1c6cff0ecb2"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_WORKING_20260910_012750.blend",
+      "bytes": 41890691,
+      "sha256": "de269f725b1c5e79e7ebed7b5f15ced95b2f915c202bd5c6b6a38e1e08690939"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_WORKING_20260910_012922.blend",
+      "bytes": 41982674,
+      "sha256": "e48b92903f4740a97694ff4fcf918d4bb3ac9cfbfad80321a491cc169a5bcb9b"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_WORKING_20260910_013152.blend",
+      "bytes": 41755675,
+      "sha256": "83ec7aafc12467c26b891f43931e9c4eb50406945da7f46765bf656e10c3e643"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/GROUND_WORKING_20260910_013408.blend",
+      "bytes": 41713283,
+      "sha256": "76d75c952a245c97cf576aedb9cea2a0a3cb385a2a431d39cc5ad6d1aac02a27"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_crossings_20260910_011303.blend",
+      "bytes": 35300557,
+      "sha256": "663faef0fdea91362bd1ef4b22098faacdf834dc315f7109f3f2bd144cc63c99"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_crossings_20260910_012641.blend",
+      "bytes": 41529494,
+      "sha256": "59f6aecdf89f6c6824a3b5b3b5321316af229d7448e30dcc2e6ef6a8bbd8e99b"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_crossings_20260910_012921.blend",
+      "bytes": 41890035,
+      "sha256": "1b476806214f53fa2ab790d983eefa019eacdd7ab6b552476ca643de836d956a"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_crossings_20260910_013151.blend",
+      "bytes": 41982962,
+      "sha256": "8712ecb11054f279929a8259f610d2a56b72c32bd76531d42abeba8962c5d505"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_crossings_20260910_013407.blend",
+      "bytes": 41751209,
+      "sha256": "cb6f1e4b5b75fab37dfd928d5289442f7ca20e31a1f21e90e404550f0d0c87f4"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_detail_20260910_011750.blend",
+      "bytes": 42145286,
+      "sha256": "06f4bd4d6f9d75b9fb4ff43d912023fa9a40e35d2d4bbee49d81dde13796f595"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_ground_20260910_010406.blend",
+      "bytes": 28534086,
+      "sha256": "7027da53b3b1400f27193cf5402ac1968d18fb58b7d463d6652ebbac193efeed"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_ground_finish_20260910_011934.blend",
+      "bytes": 42135430,
+      "sha256": "a8355d27c5b09c89283e945ecaefeda81aa69f1b0f9d7cdb46ca9210d96192c5"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_ground_finish_20260910_012341.blend",
+      "bytes": 46822592,
+      "sha256": "b6d2114665929691a19e19caef90b482043c839e8f882670f97c41cd947a1cf0"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_ground_finish_20260910_012750.blend",
+      "bytes": 42459653,
+      "sha256": "40085ff089874c5b046779721e534e42352c5061af4356782d510b9cf614c856"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_ground_finish_20260910_012922.blend",
+      "bytes": 42539501,
+      "sha256": "89573c5e7bdf2d626db19a67ed33adca5f0e7a8244b753f5abcc9540b8f6d1de"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_ground_finish_20260910_013152.blend",
+      "bytes": 42283981,
+      "sha256": "47b2372e713d08e135f4d6a68143eae94a74a517536a131c46d0b42b0669d9a5"
+    },
+    {
+      "path_relative_to_backup_root": "GroundFull/before_ground_finish_20260910_013408.blend",
+      "bytes": 42247460,
+      "sha256": "3b70819d2465bce5acbfc5b5498022eb20fd089ef080f95cea4a82b2e591a225"
+    },
+    {
+      "path_relative_to_backup_root": "RampDetail/CIVIC_RAMP_DETAIL_20260910_022450.blend",
+      "bytes": 42074869,
+      "sha256": "4669de05feb005ac45636988d76cc54d9d7c156ef2704edd0594d272bb11b401"
+    },
+    {
+      "path_relative_to_backup_root": "RampDetail/before_connection_check_20260910_022729.blend",
+      "bytes": 42071988,
+      "sha256": "9c2ab95b02da99bb73683549e73a12371b25af7e9f1a42cf600e87d54f1b078a"
+    },
+    {
+      "path_relative_to_backup_root": "RampDetail/before_ramp_detail_20260910_022450.blend",
+      "bytes": 41841437,
+      "sha256": "d626876d771fd8f6c0c557d8c629db4aa73873f5e4743f07e6ec443d43b3882b"
+    },
+    {
+      "path_relative_to_backup_root": "Stage02_ControlReview/02_control_review_20260909_212124.blend",
+      "bytes": 23860721,
+      "sha256": "2c42e4fad285810b2f7708ae512659347e7cb34a9d17331e14726c325ea50f21"
+    },
+    {
+      "path_relative_to_backup_root": "Stage02_ControlReview/02_control_review_20260909_212343.blend",
+      "bytes": 23900825,
+      "sha256": "f6764a3b4746bdad7fa72b1de0133686a691ac148e185358ed3719997a2bab53"
+    },
+    {
+      "path_relative_to_backup_root": "Stage02_ControlReview/before_controls_20260909_212124.blend",
+      "bytes": 23860610,
+      "sha256": "b5457a7bc77db98e6c3f6bb93ae681083a7d3509c25e4b946fbf00ce693cd5b1"
+    },
+    {
+      "path_relative_to_backup_root": "Stage02_ControlReview/before_controls_20260909_212343.blend",
+      "bytes": 23891037,
+      "sha256": "d910c96a09a28cc9864e63aa4355c75ef28095d3c94f882ff20945c6903dec7f"
+    },
+    {
+      "path_relative_to_backup_root": "Stage03_Zhonglin/03_zhonglin_review_20260909_224416.blend",
+      "bytes": 23898639,
+      "sha256": "50ea6a2b340a4a5f6689d8baf79ac5989a47827ba18ecbfd41b944ec017053ac"
+    },
+    {
+      "path_relative_to_backup_root": "Stage03_Zhonglin/before_zhonglin_20260909_224416.blend",
+      "bytes": 23897919,
+      "sha256": "3abe3553137316f8555cfea16556493cb3910b584c30c09b126931f94b25f903"
+    },
+    {
+      "path_relative_to_backup_root": "Stage04_SurfaceQA/04_surface_review_20260909_230545.blend",
+      "bytes": 23907733,
+      "sha256": "170739c2fe9db4507d426e3d939ccd9eb93d8b45a412f19990b4ffaa4cfb38b1"
+    },
+    {
+      "path_relative_to_backup_root": "Stage04_SurfaceQA/before_surface_20260909_230545.blend",
+      "bytes": 23899142,
+      "sha256": "014f36923ebfc74b8cbaf901c75d1ee681e6efbbc751105ca69af388e4683df3"
+    },
+    {
+      "path_relative_to_backup_root": "Stage05_Buildings/05_building_review_20260910_000123.blend",
+      "bytes": 23948406,
+      "sha256": "924a18b9e051e263399e0a2e69655235ddf9aca0e6cb674f494a4eec363dddd1"
+    },
+    {
+      "path_relative_to_backup_root": "Stage05_Buildings/before_buildings_20260910_000123.blend",
+      "bytes": 23909733,
+      "sha256": "c7e5dec9646f25dbf6369d3bfc51a511e36af06e8004ed572b908ec0250c304a"
+    },
+    {
+      "path_relative_to_backup_root": "Worksheet04_05/STAGE45_REVIEW_20260910_014504.blend",
+      "bytes": 41709115,
+      "sha256": "19caf8a7521c25c57b157cdfbc858fdbac7febf80fd74e395bff025dc0deaf72"
+    },
+    {
+      "path_relative_to_backup_root": "Worksheet04_05/STAGE45_SELECTED_20260910_014902.blend",
+      "bytes": 41799964,
+      "sha256": "c1a40d3d7ea63da2b9dcd6e12385921060b8de2954d053e7e72de630cb68ad1e"
+    },
+    {
+      "path_relative_to_backup_root": "Worksheet04_05/STAGE45_SELECTED_20260910_015522.blend",
+      "bytes": 41803398,
+      "sha256": "5be55cd066586b3b3a29a446c5b5dfd62b75d1c477391275c004d5f846848243"
+    },
+    {
+      "path_relative_to_backup_root": "Worksheet04_05/before_selected_20260910_014902.blend",
+      "bytes": 41706823,
+      "sha256": "05af091fb7543af019689d5741f89fdbd0e97389a710d424c36081187c9eaff4"
+    },
+    {
+      "path_relative_to_backup_root": "Worksheet04_05/before_selected_20260910_015522.blend",
+      "bytes": 41799074,
+      "sha256": "0af7ceab6988c693e4c3917d7feafdffe67c5e7dff625fbba5a6bcd15f201997"
+    },
+    {
+      "path_relative_to_backup_root": "Worksheet04_05/before_stage45_20260910_014504.blend",
+      "bytes": 41712772,
+      "sha256": "58fa8ad72b056615f62cafe806d4d22c3a6b1d060adc790c8a4024f528186b8d"
+    }
+  ]
+}

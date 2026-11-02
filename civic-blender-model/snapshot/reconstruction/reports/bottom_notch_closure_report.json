@@ -1,0 +1,42 @@
+{
+  "floors_repaired": 4,
+  "stair_voids_closed": 5,
+  "area_added_m2": 84.43862100001206,
+  "items": [
+    {
+      "object": "COMP_中林_B2_FLOOR",
+      "retained_object": "PRE_BOTTOM_NOTCH12_COMP_中林_B2_FLOOR",
+      "area_added_m2": 18.205304000001888,
+      "closed_core_paths": [
+        "CORE_中林_0_B2_A"
+      ]
+    },
+    {
+      "object": "COMP_敦延_B2_FLOOR",
+      "retained_object": "PRE_BOTTOM_NOTCH12_COMP_敦延_B2_FLOOR",
+      "area_added_m2": 16.132514499993704,
+      "closed_core_paths": [
+        "CORE_敦延_1_B2_A"
+      ]
+    },
+    {
+      "object": "COMP_延吉_B1_FLOOR",
+      "retained_object": "PRE_BOTTOM_NOTCH12_COMP_延吉_B1_FLOOR",
+      "area_added_m2": 32.58702250000442,
+      "closed_core_paths": [
+        "CORE_延吉_0_B1_A",
+        "CORE_延吉_1_B1_A"
+      ]
+    },
+    {
+      "object": "COMP_建復_B1_FLOOR",
+      "retained_object": "PRE_BOTTOM_NOTCH12_COMP_建復_B1_FLOOR",
+      "area_added_m2": 17.513780000012048,
+      "closed_core_paths": [
+        "CORE_建復_1_B1_A"
+      ]
+    }
+  ],
+  "unmatched": [],
+  "scope": "Restore generated stair boundary notches within the original estimated parking outline only. Original generator rectangles recovered; coordinates snapped within1mm. No footprint expansion or stair movement."
+}

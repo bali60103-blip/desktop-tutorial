@@ -1,0 +1,12 @@
+{
+  "objects": 25,
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "Only south stair visibly checked",
+    "North stair follows OSM without opposite-side photo confirmation",
+    "Headroom and bridge supports remain estimates",
+    "Sloped stair mass is not a final tread model"
+  ]
+}

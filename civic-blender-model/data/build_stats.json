@@ -1,0 +1,34 @@
+{
+  "civic_commit": "f7dd17cb459c9f35b054a969057fd5daee378641",
+  "model_versions": {
+    "versions": 106,
+    "with_sha256": 74,
+    "without_sha256": 32
+  },
+  "open_issue_counts": {
+    "height_unverified": 581,
+    "span_longer_than_60m": 69,
+    "pier_deck_assignment_ambiguous": 19,
+    "headroom_obstruction": 15,
+    "facility_position_and_size_unverified": 14,
+    "access_direction_and_ground_excavation_pending": 13,
+    "deck_without_span_measurement": 13,
+    "whole_layout_estimated": 8,
+    "span_endpoint_review": 8,
+    "pier_conflict": 7,
+    "relation_height_and_frontage_pending": 4,
+    "generic_interiors_and_shell_identity_pending": 3,
+    "lowest_floor_support_miss": 2,
+    "underbridge_model": 2,
+    "pier_not_in_span": 2,
+    "overlap": 1,
+    "heading_and_shell_association_unverified": 1,
+    "known_nonmanifold": 1,
+    "unfitted_supports": 1,
+    "estimated_elevation": 1,
+    "alternative_heading": 1,
+    "not_checked": 1
+  },
+  "sources_cited": 143,
+  "files_indexed": 583
+}

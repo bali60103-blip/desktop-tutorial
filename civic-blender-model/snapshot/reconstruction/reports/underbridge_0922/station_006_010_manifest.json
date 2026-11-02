@@ -1,0 +1,515 @@
+{
+  "batch_name": "UB_STATION_006_010",
+  "observations": [
+    {
+      "segment": "UB_X+005",
+      "pano": "fpBvxPDafuSLZq7KqrDa2A",
+      "lat": 25.0487937,
+      "lon": 121.5158176,
+      "date": "2025-02",
+      "status": "elevated_overview_only",
+      "observed": [
+        "opposite viaduct",
+        "low roofs beneath opposite span"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+006",
+      "pano": "ff___MA_weEO7gJ-dj-I3A",
+      "lat": 25.0485998,
+      "lon": 121.516809,
+      "date": "2025-05",
+      "heading": 10,
+      "status": "partial_ground_view",
+      "observed": [
+        "long stone-faced enclosure",
+        "adjacent hipped vent hood with louvres",
+        "paved forecourt",
+        "low retaining wall",
+        "curb"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+007",
+      "pano": "WoTp__lI-8855U_79CL80A",
+      "lat": 25.0485264,
+      "lon": 121.5173035,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "open cobbled median",
+        "long low stone plinth/wall",
+        "column base picket guards",
+        "raised curb",
+        "Y6 entrance and bus shelter opposite road"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+007",
+      "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+      "lat": 25.0484129,
+      "lon": 121.5179998,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "two adjacent green hipped louvre hoods",
+        "landscape boulders",
+        "small fenced bed",
+        "cobbled paving",
+        "column guards"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+008",
+      "pano": "thep3S5iPBSW9exGL5CO_g",
+      "lat": 25.048353,
+      "lon": 121.5183957,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "boulder landscape on gravel",
+        "stone enclosure at median end",
+        "U-turn opening beyond enclosure",
+        "column picket guard",
+        "road sign"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+008",
+      "pano": "PdYrpyY5JzRWty-6BTCaYw",
+      "lat": 25.0483018,
+      "lon": 121.5187415,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "wide U-turn opening",
+        "pointed median nose beyond opening",
+        "flat top enclosure with dark louvre panels",
+        "column perimeter fence"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+009",
+      "pano": "VuDIJbb1MdeZ8i5VHTxpZw",
+      "lat": 25.0482145,
+      "lon": 121.5192862,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "公園中山 underground parking entrance sign and height frame",
+        "ramp edge walls",
+        "narrow planted curb strip",
+        "round bridge columns with guards"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+009",
+      "pano": "dwnmAqivRESJAtK18Sb9vw",
+      "lat": 25.0481383,
+      "lon": 121.5197849,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "ramp wall with white coping",
+        "bare soil median",
+        "picket guard at end",
+        "small median trees further east"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+009",
+      "pano": "JDzQHdf53-iyGiEgCwyGgg",
+      "lat": 25.0480666,
+      "lon": 121.5202052,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "dense shrubs and small trees in median",
+        "roadside no-turn sign",
+        "median ends before Zhongshan junction"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+010",
+      "pano": "KDlqhgAP6r2QIz0x_yWfSQ",
+      "lat": 25.0479197,
+      "lon": 121.5210879,
+      "date": "2025-02",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "planted median nose",
+        "low stone enclosure between portal columns",
+        "separate turning opening west of island"
+      ],
+      "dimensions_verified": false
+    }
+  ],
+  "masses": [
+    {
+      "id": "006_WALL",
+      "segment": "UB_X+006",
+      "pano": "ff___MA_weEO7gJ-dj-I3A",
+      "center": [
+        656,
+        813,
+        1.48
+      ],
+      "size": [
+        10,
+        3,
+        2.6
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "stone",
+      "placement_note": "shifted south 7m to fit existing estimated median; scene median itself remains unverified"
+    },
+    {
+      "id": "006_VENT_BASE",
+      "segment": "UB_X+006",
+      "pano": "ff___MA_weEO7gJ-dj-I3A",
+      "center": [
+        671,
+        810.8,
+        1.18
+      ],
+      "size": [
+        6,
+        4,
+        2
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "stone",
+      "placement_note": "shifted south 6.7m to fit existing estimated median; photo-relative XY unresolved"
+    },
+    {
+      "id": "006_VENT_LOUVRE",
+      "segment": "UB_X+006",
+      "pano": "ff___MA_weEO7gJ-dj-I3A",
+      "center": [
+        671,
+        810.8,
+        2.38
+      ],
+      "size": [
+        5.8,
+        3.8,
+        0.4
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "louvre",
+      "placement_note": "shifted south 6.7m to fit existing estimated median; photo-relative XY unresolved"
+    },
+    {
+      "id": "006_VENT_HOOD",
+      "segment": "UB_X+006",
+      "pano": "ff___MA_weEO7gJ-dj-I3A",
+      "center": [
+        671,
+        810.8,
+        2.58
+      ],
+      "size": [
+        6.5,
+        4.5,
+        0.75
+      ],
+      "angle": -10,
+      "kind": "hip",
+      "material": "roof",
+      "placement_note": "shifted south 6.7m to fit existing estimated median; photo-relative XY unresolved"
+    },
+    {
+      "id": "007_LOW_PLINTH",
+      "segment": "UB_X+007",
+      "pano": "WoTp__lI-8855U_79CL80A",
+      "center": [
+        716,
+        803,
+        0.63
+      ],
+      "size": [
+        13,
+        3,
+        0.9
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "stone"
+    },
+    {
+      "id": "007_VENT_A",
+      "segment": "UB_X+007",
+      "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+      "center": [
+        758,
+        797,
+        1.03
+      ],
+      "size": [
+        3.4,
+        3,
+        1.7
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "louvre"
+    },
+    {
+      "id": "007_HOOD_A",
+      "segment": "UB_X+007",
+      "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+      "center": [
+        758,
+        797,
+        1.88
+      ],
+      "size": [
+        3.8,
+        3.4,
+        0.75
+      ],
+      "angle": -10,
+      "kind": "hip",
+      "material": "roof"
+    },
+    {
+      "id": "007_VENT_B",
+      "segment": "UB_X+007",
+      "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+      "center": [
+        762,
+        796.3,
+        1.03
+      ],
+      "size": [
+        3.4,
+        3,
+        1.7
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "louvre"
+    },
+    {
+      "id": "007_HOOD_B",
+      "segment": "UB_X+007",
+      "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+      "center": [
+        762,
+        796.3,
+        1.88
+      ],
+      "size": [
+        3.8,
+        3.4,
+        0.75
+      ],
+      "angle": -10,
+      "kind": "hip",
+      "material": "roof"
+    },
+    {
+      "id": "008_ENCLOSURE_WEST",
+      "segment": "UB_X+008",
+      "pano": "thep3S5iPBSW9exGL5CO_g",
+      "center": [
+        832,
+        786,
+        1.33
+      ],
+      "size": [
+        4.5,
+        3,
+        2.3
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "stone"
+    },
+    {
+      "id": "008_ENCLOSURE_EAST",
+      "segment": "UB_X+008",
+      "pano": "PdYrpyY5JzRWty-6BTCaYw",
+      "center": [
+        878,
+        775,
+        1.28
+      ],
+      "size": [
+        5,
+        3.5,
+        2.2
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "louvre"
+    },
+    {
+      "id": "009_SOIL_PATCH",
+      "segment": "UB_X+009",
+      "pano": "dwnmAqivRESJAtK18Sb9vw",
+      "center": [
+        968,
+        756,
+        0.19
+      ],
+      "size": [
+        10,
+        1,
+        0.02
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "soil",
+      "placement_note": "narrowed and shifted to preserve existing ramp opening"
+    },
+    {
+      "id": "009_SHRUB_PATCH",
+      "segment": "UB_X+009",
+      "pano": "JDzQHdf53-iyGiEgCwyGgg",
+      "center": [
+        998,
+        754,
+        0.6
+      ],
+      "size": [
+        18,
+        3,
+        0.8
+      ],
+      "angle": -10,
+      "kind": "box",
+      "material": "shrub"
+    },
+    {
+      "id": "010_LOW_ENCLOSURE",
+      "segment": "UB_X+010",
+      "pano": "KDlqhgAP6r2QIz0x_yWfSQ",
+      "center": [
+        1097,
+        737,
+        1.03
+      ],
+      "size": [
+        6,
+        3,
+        1.7
+      ],
+      "angle": -8,
+      "kind": "box",
+      "material": "stone"
+    },
+    {
+      "id": "007_ROCK_745",
+      "segment": "UB_X+007",
+      "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+      "center": [
+        745,
+        801,
+        0.18
+      ],
+      "size": [
+        2.5,
+        2,
+        1
+      ],
+      "angle": -10,
+      "kind": "rock",
+      "material": "rock"
+    },
+    {
+      "id": "007_ROCK_741",
+      "segment": "UB_X+007",
+      "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+      "center": [
+        741,
+        802,
+        0.18
+      ],
+      "size": [
+        3,
+        2.4,
+        1.4
+      ],
+      "angle": -10,
+      "kind": "rock",
+      "material": "rock"
+    },
+    {
+      "id": "008_ROCK_816",
+      "segment": "UB_X+008",
+      "pano": "thep3S5iPBSW9exGL5CO_g",
+      "center": [
+        816,
+        789,
+        0.18
+      ],
+      "size": [
+        3,
+        2,
+        1.1
+      ],
+      "angle": -10,
+      "kind": "rock",
+      "material": "rock"
+    },
+    {
+      "id": "008_ROCK_812",
+      "segment": "UB_X+008",
+      "pano": "thep3S5iPBSW9exGL5CO_g",
+      "center": [
+        812,
+        790,
+        0.18
+      ],
+      "size": [
+        2.4,
+        1.8,
+        0.7
+      ],
+      "angle": -10,
+      "kind": "rock",
+      "material": "rock"
+    },
+    {
+      "id": "008_ROCK_821",
+      "segment": "UB_X+008",
+      "pano": "thep3S5iPBSW9exGL5CO_g",
+      "center": [
+        821,
+        788,
+        0.18
+      ],
+      "size": [
+        1.9,
+        1.5,
+        0.8
+      ],
+      "angle": -10,
+      "kind": "rock",
+      "material": "rock"
+    }
+  ],
+  "scope": "Visible additions in station north-side ground views; excludes unseen areas and traffic openings",
+  "full_corridor_complete": false
+}

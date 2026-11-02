@@ -1,0 +1,27 @@
+{
+  "batch": "UB_GUANGFU_SERVICE_HOUSE_EST",
+  "object_count": 5,
+  "names": [
+    "UB_GUANGFU_SERVICE_HOUSE_EST_HOUSE_EST",
+    "UB_GUANGFU_SERVICE_HOUSE_EST_GRILLE_EST",
+    "UB_GUANGFU_SERVICE_HOUSE_EST_DOOR_EST",
+    "UB_GUANGFU_SERVICE_HOUSE_EST_HOOD_EST",
+    "UB_GUANGFU_SERVICE_HOUSE_EST_FENCE_EST"
+  ],
+  "surface_intersections": [],
+  "aabb_candidates": [],
+  "median_sample_issues": [
+    {
+      "name": "UB_GUANGFU_SERVICE_HOUSE_EST_HOUSE_EST",
+      "outside_samples": 2
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

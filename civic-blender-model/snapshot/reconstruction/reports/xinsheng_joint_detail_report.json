@@ -1,0 +1,25 @@
+{
+  "meshes": 55,
+  "closed_mesh_errors": [],
+  "observed": [
+    "Rectangular bolted joint plate and repeated bolt heads",
+    "External round drainpipe and collars"
+  ],
+  "estimated": {
+    "plate_m": [
+      0.025,
+      1.76,
+      0.6
+    ],
+    "bolt_grid": [
+      4,
+      12
+    ],
+    "bolt_radius_m": 0.025,
+    "pipe_diameter_m": 0.15,
+    "collar_spacing_m": 2
+  },
+  "bearing_pad_status": "No separate pad distinguishable in this view. Bolted exterior does not prove absence of hidden bearings.",
+  "source_url": "https://www.google.com/maps/@25.0461762,121.5302139,3a,45y,220h,150t/data=!3m4!1e1!3m2!1sLyDE7zKTZ6cDVJfCjJg6jg!2e0",
+  "placement_status": "South column photo-proportion study only; north side not copied without observation. Prior XY depends on uncalibrated panorama projection; remain provisional."
+}

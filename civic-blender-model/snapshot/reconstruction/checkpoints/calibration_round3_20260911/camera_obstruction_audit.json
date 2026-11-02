@@ -1,0 +1,102 @@
+{
+  "method": "Five forward rays within 40m; near flag >=3 hits under 3m. Does not classify image quality or prove free movement. GN instances included through evaluated scene ray casting.",
+  "cameras": [
+    {
+      "camera": "CIVIC200_03K800_S",
+      "samples": [
+        {
+          "ray": [
+            0,
+            0
+          ],
+          "distance_m": 0.399,
+          "object": "UNVERIFIED_Pier_414"
+        },
+        {
+          "ray": [
+            -0.2,
+            0
+          ],
+          "distance_m": null,
+          "object": null
+        },
+        {
+          "ray": [
+            0.2,
+            0
+          ],
+          "distance_m": 0.273,
+          "object": "UNVERIFIED_Pier_414"
+        },
+        {
+          "ray": [
+            0,
+            -0.15
+          ],
+          "distance_m": 0.403,
+          "object": "UNVERIFIED_Pier_414"
+        },
+        {
+          "ray": [
+            0,
+            0.15
+          ],
+          "distance_m": 0.403,
+          "object": "UNVERIFIED_Pier_414"
+        }
+      ],
+      "near_obstruction": true,
+      "recommendation": "Retain station camera; add offset comparison viewpoint after checking pedestrian space"
+    },
+    {
+      "camera": "CIVIC200_04K400_N",
+      "samples": [
+        {
+          "ray": [
+            0,
+            0
+          ],
+          "distance_m": 2.481,
+          "object": "00_RESIDENTIAL"
+        },
+        {
+          "ray": [
+            -0.2,
+            0
+          ],
+          "distance_m": 2.32,
+          "object": "00_RESIDENTIAL"
+        },
+        {
+          "ray": [
+            0.2,
+            0
+          ],
+          "distance_m": 2.783,
+          "object": "00_RESIDENTIAL"
+        },
+        {
+          "ray": [
+            0,
+            -0.15
+          ],
+          "distance_m": 2.509,
+          "object": "00_RESIDENTIAL"
+        },
+        {
+          "ray": [
+            0,
+            0.15
+          ],
+          "distance_m": 2.509,
+          "object": "00_RESIDENTIAL"
+        }
+      ],
+      "near_obstruction": true,
+      "recommendation": "Retain station camera; add offset comparison viewpoint after checking pedestrian space"
+    }
+  ],
+  "near_flag_count": 2,
+  "camera_count": 128,
+  "serialization_note": "Flagged rows only in GitHub summary; complete 128-camera ray samples retained locally"
+}

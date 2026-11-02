@@ -1,0 +1,215 @@
+{
+  "decks": [
+    {
+      "deck": "DECK_48776359",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 460,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_48776360",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 550,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_48776372",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 568,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_48793405",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 172,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_51362369",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 442,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_51919155",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 226,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_51919180",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 352,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_51919192",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 262,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_160053377",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 478,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_160053390",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 154,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_204711191",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 244,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_204711194",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 370,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_204711199",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 100,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_252494927",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 118,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_262844199",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 316,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_616091807",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 172,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_668070774",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 100,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_668070775",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 136,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_668070788",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 100,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_713760137",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 226,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_906806085",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 100,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_906806087",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 100,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_909274073",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 118,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_1119664466",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 118,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_1119664467",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 208,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_1272677946",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 352,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_1272682373",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 280,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_1272682374",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 244,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_1272718725",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 118,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    },
+    {
+      "deck": "DECK_1538959317",
+      "base_vertices_unchanged": true,
+      "evaluated_faces": 100,
+      "bevel_m": 0.03,
+      "shared_scene_count": 14
+    }
+  ],
+  "scope": "Edge shading and 3cm local bevel only; no alignment/plan curvature smoothing or height correction"
+}

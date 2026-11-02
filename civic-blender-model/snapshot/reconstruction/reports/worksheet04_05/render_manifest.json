@@ -1,0 +1,42 @@
+[
+  {
+    "name": "selected_depth_detail.png",
+    "bytes": 1083899,
+    "sha256": "ef029f5469e5e1f73eed0d68b4ae3ac1960e05130449601b92e4ea00f69037bc"
+  },
+  {
+    "name": "pier_original.png",
+    "bytes": 1346238,
+    "sha256": "ef4aaad2381ae22f8dbb9c6ce2802be465910a822335599dd13d9460e8efc5a8"
+  },
+  {
+    "name": "stage45_integrated_pilot.png",
+    "bytes": 2140594,
+    "sha256": "c05eec9ca57bea429428d28dc69d5d8dc42536f9b4e8c132b0b22868150bf4cb"
+  },
+  {
+    "name": "pier_alternative_plan.png",
+    "bytes": 1561845,
+    "sha256": "753a8dd667ff6a15323c7be4587a072e7650f94ee16f3050f00bc0bc3bc3cbf5"
+  },
+  {
+    "name": "pier_original_plan.png",
+    "bytes": 1561890,
+    "sha256": "1621f83d3b1d2f20767caaaacc35149466c673c4bfb4bc0691eb1c5df0de148e"
+  },
+  {
+    "name": "selected_depth_open_section.png",
+    "bytes": 1104594,
+    "sha256": "42c68ffcde980a829caad67d1c84469a022e4f19ea3743fc6820aa1a51b7c3f9"
+  },
+  {
+    "name": "pier_alternative.png",
+    "bytes": 1346109,
+    "sha256": "228cef31d5ce229497558af549b3b8c1375a9e4d597fc350542392125071f5bf"
+  },
+  {
+    "name": "depth_options.png",
+    "bytes": 1127907,
+    "sha256": "f28cf7f17b631bcb96f86a20403cedabb1547bbd17b222c5d0d02b02ff1d0720"
+  }
+]

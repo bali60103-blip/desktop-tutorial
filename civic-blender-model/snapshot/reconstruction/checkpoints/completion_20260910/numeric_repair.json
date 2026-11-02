@@ -1,0 +1,7 @@
+{
+  "fixed": [
+    "COMP_敦延_B1_PERIMETER",
+    "COMP_敦延_B2_PERIMETER"
+  ],
+  "method": "Local mesh origin; source shape and height unchanged"
+}

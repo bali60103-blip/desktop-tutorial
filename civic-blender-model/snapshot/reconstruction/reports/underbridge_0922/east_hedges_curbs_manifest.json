@@ -1,0 +1,233 @@
+{
+  "batch_name": "UB_EAST_HEDGES_CURBS_EST",
+  "observations": [
+    {
+      "pano": "qW5wQ6xlNLKJE7jPZ8_Beg",
+      "lat": 25.0444841,
+      "lon": 121.5511214,
+      "date": "2025-04",
+      "heading": 90,
+      "observed": [
+        "segmented stone planting curbs",
+        "cobbled median",
+        "unguarded portal piers"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view",
+      "camera_model_xy": [
+        4115.098,
+        358.437
+      ],
+      "camera_easting_strip": "UB_X+041",
+      "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+    },
+    {
+      "pano": "rZ15HNibSMZkMVtt7zegbw",
+      "lat": 25.044413,
+      "lon": 121.5518025,
+      "date": "2024-12",
+      "heading": 90,
+      "observed": [
+        "parking ramp hedge and sign"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view",
+      "camera_model_xy": [
+        4183.858,
+        350.842
+      ],
+      "camera_easting_strip": "UB_X+041",
+      "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+    },
+    {
+      "pano": "EtE1zVxTgl8sNr_LOvrrfA",
+      "lat": 25.0443434,
+      "lon": 121.5526809,
+      "date": "2025-05",
+      "heading": 90,
+      "observed": [
+        "ramp red coping, narrow hedge, lamp and signal"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view",
+      "camera_model_xy": [
+        4272.526,
+        343.494
+      ],
+      "camera_easting_strip": "UB_X+042",
+      "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+    },
+    {
+      "pano": "LBdnHvU6GYBVYHWf7_yI6Q",
+      "lat": 25.0448998,
+      "lon": 121.5562076,
+      "date": "2025-01",
+      "heading": 90,
+      "observed": [
+        "broad hedge, column drainage, small electrical cabinet"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view",
+      "camera_model_xy": [
+        4628.141,
+        406.583
+      ],
+      "camera_easting_strip": "UB_X+046",
+      "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+    },
+    {
+      "pano": "-mhyRldoDgcRnniHnvmIoQ",
+      "lat": 25.0453575,
+      "lon": 121.5581797,
+      "date": "2025-01",
+      "heading": 90,
+      "observed": [
+        "diverging ramps, hedge, column guard, white construction fence"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view",
+      "camera_model_xy": [
+        4826.93,
+        458.1
+      ],
+      "camera_easting_strip": "UB_X+048",
+      "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+    }
+  ],
+  "masses": [
+    {
+      "id": "HEDGE_DUNYAN_WEST",
+      "center": [
+        4162,
+        359,
+        0.58
+      ],
+      "size": [
+        52,
+        1.2,
+        0.8
+      ],
+      "angle": -7,
+      "material": "shrub",
+      "kind": "box",
+      "pano": "rZ15HNibSMZkMVtt7zegbw",
+      "segment": "UB_X+041_048",
+      "placement_note": "Photographed hedge/curb category; estimated strip extents and widths. Keep junction gaps and ramp clearance; no surveyed dimensions."
+    },
+    {
+      "id": "HEDGE_DUNYAN_RAMP",
+      "center": [
+        4221,
+        353.8,
+        0.58
+      ],
+      "size": [
+        38,
+        1.2,
+        0.8
+      ],
+      "angle": -1,
+      "material": "shrub",
+      "kind": "box",
+      "pano": "EtE1zVxTgl8sNr_LOvrrfA",
+      "segment": "UB_X+041_048",
+      "placement_note": "Photographed hedge/curb category; estimated strip extents and widths. Keep junction gaps and ramp clearance; no surveyed dimensions."
+    },
+    {
+      "id": "HEDGE_GUANGFU_WEST",
+      "center": [
+        4638,
+        405,
+        0.58
+      ],
+      "size": [
+        32,
+        2.4,
+        0.8
+      ],
+      "angle": 12,
+      "material": "shrub",
+      "kind": "box",
+      "pano": "LBdnHvU6GYBVYHWf7_yI6Q",
+      "segment": "UB_X+041_048",
+      "placement_note": "Photographed hedge/curb category; estimated strip extents and widths. Keep junction gaps and ramp clearance; no surveyed dimensions."
+    },
+    {
+      "id": "HEDGE_GUANGFU_EAST",
+      "center": [
+        4847,
+        455,
+        0.58
+      ],
+      "size": [
+        36,
+        2.4,
+        0.8
+      ],
+      "angle": 23,
+      "material": "shrub",
+      "kind": "box",
+      "pano": "-mhyRldoDgcRnniHnvmIoQ",
+      "segment": "UB_X+041_048",
+      "placement_note": "Photographed hedge/curb category; estimated strip extents and widths. Keep junction gaps and ramp clearance; no surveyed dimensions."
+    },
+    {
+      "id": "CURB_DUNYAN_0",
+      "center": [
+        4123,
+        368,
+        0.4
+      ],
+      "size": [
+        7,
+        0.35,
+        0.44
+      ],
+      "angle": -8,
+      "material": "stone",
+      "kind": "box",
+      "pano": "qW5wQ6xlNLKJE7jPZ8_Beg",
+      "segment": "UB_X+041_048",
+      "placement_note": "Photographed hedge/curb category; estimated strip extents and widths. Keep junction gaps and ramp clearance; no surveyed dimensions."
+    },
+    {
+      "id": "CURB_DUNYAN_1",
+      "center": [
+        4133,
+        366.6,
+        0.4
+      ],
+      "size": [
+        7,
+        0.35,
+        0.44
+      ],
+      "angle": -8,
+      "material": "stone",
+      "kind": "box",
+      "pano": "qW5wQ6xlNLKJE7jPZ8_Beg",
+      "segment": "UB_X+041_048",
+      "placement_note": "Photographed hedge/curb category; estimated strip extents and widths. Keep junction gaps and ramp clearance; no surveyed dimensions."
+    },
+    {
+      "id": "CURB_DUNYAN_2",
+      "center": [
+        4143,
+        365.2,
+        0.4
+      ],
+      "size": [
+        7,
+        0.35,
+        0.44
+      ],
+      "angle": -8,
+      "material": "stone",
+      "kind": "box",
+      "pano": "qW5wQ6xlNLKJE7jPZ8_Beg",
+      "segment": "UB_X+041_048",
+      "placement_note": "Photographed hedge/curb category; estimated strip extents and widths. Keep junction gaps and ramp clearance; no surveyed dimensions."
+    }
+  ],
+  "full_corridor_complete": false
+}

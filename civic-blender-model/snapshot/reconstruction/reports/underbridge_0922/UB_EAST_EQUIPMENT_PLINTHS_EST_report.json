@@ -1,0 +1,43 @@
+{
+  "batch": "UB_EAST_EQUIPMENT_PLINTHS_EST",
+  "object_count": 3,
+  "names": [
+    "UB_EAST_EQUIPMENT_PLINTHS_EST_YANJI_NORTH_EST",
+    "UB_EAST_EQUIPMENT_PLINTHS_EST_YANJI_SOUTH_EST",
+    "UB_EAST_EQUIPMENT_PLINTHS_EST_GUANGFU_EST"
+  ],
+  "surface_intersections": [
+    [
+      "UB_EAST_EQUIPMENT_PLINTHS_EST_GUANGFU_EST",
+      "UB_GUANGFU_SERVICE_HOUSE_EST_DOOR_EST"
+    ]
+  ],
+  "aabb_candidates": [
+    [
+      "UB_EAST_EQUIPMENT_PLINTHS_EST_GUANGFU_EST",
+      "UB_GUANGFU_SERVICE_HOUSE_EST_DOOR_EST"
+    ]
+  ],
+  "median_sample_issues": [
+    {
+      "name": "UB_EAST_EQUIPMENT_PLINTHS_EST_YANJI_NORTH_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_EAST_EQUIPMENT_PLINTHS_EST_YANJI_SOUTH_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_EAST_EQUIPMENT_PLINTHS_EST_GUANGFU_EST",
+      "outside_samples": 2
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

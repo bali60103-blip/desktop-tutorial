@@ -1,0 +1,9 @@
+{
+  "span_count": 116,
+  "station_rows": 1276,
+  "expected_station_rows": 1276,
+  "unique_span_ids": 116,
+  "missing_clearance_spans": 34,
+  "nonpositive_clearances": 0,
+  "real_world_verified": false
+}

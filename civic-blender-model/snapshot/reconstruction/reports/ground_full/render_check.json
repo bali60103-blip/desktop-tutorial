@@ -1,0 +1,10 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/GroundFull/GROUND_WORKING_20260910_013408.blend",
+  "renders": [
+    "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/GroundFull/ground_all_overview.png",
+    "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/GroundFull/ground_zhonglin_plan.png",
+    "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/GroundFull/ground_east_plan.png",
+    "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/GroundFull/ground_crossing_detail.png"
+  ],
+  "elevated_render_visibility_restored": true
+}

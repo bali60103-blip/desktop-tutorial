@@ -1,0 +1,55 @@
+{
+  "changes": [
+    {
+      "source": "B2_SLAB",
+      "target": "COMP_\u4e2d\u6797_B2_FLOOR",
+      "original_area_m2": 4800.003282666206,
+      "removed_area_m2": 4437.681357613372,
+      "retained_area_m2": 362.32192505283416,
+      "z0": -7.5,
+      "z1": -7.199999809265137,
+      "scope": "Remove exact plan overlap with working replacement floor, preserve unoverlapped legacy fragments; not a survey correction"
+    },
+    {
+      "source": "B1_SLAB_west",
+      "target": "COMP_\u4e2d\u6797_B1_FLOOR",
+      "original_area_m2": 1968.000656068325,
+      "removed_area_m2": 1802.63402914635,
+      "retained_area_m2": 165.3666269219743,
+      "z0": -3.9000000953674316,
+      "z1": -3.5999999046325684,
+      "scope": "Remove exact plan overlap with working replacement floor, preserve unoverlapped legacy fragments; not a survey correction"
+    },
+    {
+      "source": "B1_SLAB_east",
+      "target": "COMP_\u4e2d\u6797_B1_FLOOR",
+      "original_area_m2": 1968.000656068325,
+      "removed_area_m2": 1742.861289717517,
+      "retained_area_m2": 225.13936635080887,
+      "z0": -3.9000000953674316,
+      "z1": -3.5999999046325684,
+      "scope": "Remove exact plan overlap with working replacement floor, preserve unoverlapped legacy fragments; not a survey correction"
+    },
+    {
+      "source": "B1_SLAB_north",
+      "target": "COMP_\u4e2d\u6797_B1_FLOOR",
+      "original_area_m2": 357.8401998728514,
+      "removed_area_m2": 332.56183740207257,
+      "retained_area_m2": 25.278362470778365,
+      "z0": -3.9000000953674316,
+      "z1": -3.5999999046325684,
+      "scope": "Remove exact plan overlap with working replacement floor, preserve unoverlapped legacy fragments; not a survey correction"
+    },
+    {
+      "source": "B1_SLAB_south",
+      "target": "COMP_\u4e2d\u6797_B1_FLOOR",
+      "original_area_m2": 357.8401998728514,
+      "removed_area_m2": 301.81388097153905,
+      "retained_area_m2": 56.02631890131218,
+      "z0": -3.9000000953674316,
+      "z1": -3.5999999046325684,
+      "scope": "Remove exact plan overlap with working replacement floor, preserve unoverlapped legacy fragments; not a survey correction"
+    }
+  ],
+  "unresolved": "Ramp surfaces and road markings may still overlap; Dunyan/Yanji overlap deliberately retained. This only removes legacy floor duplication."
+}

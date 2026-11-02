@@ -1,0 +1,42 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Y26Orientation/CIVIC_Y26_CONNECTIONS_20260910_181441.blend",
+  "parts": [
+    {
+      "object": "Y26_A_LOWER_LANDING_CONNECTION",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "Y26_B_LOWER_LANDING_CONNECTION",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "Y26_B_CONNECTION_WALL_0",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "Y26_B_CONNECTION_WALL_1",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "Y26_B_CONNECTION_WALL_2",
+      "nonmanifold_edges": 0
+    }
+  ],
+  "variants": [
+    {
+      "variant": "A",
+      "gap_to_legacy_floor_m": 0.0,
+      "landing_inside_legacy": true,
+      "endpoint_inside_legacy": true,
+      "status": "ASSUMED local landing and shortest connector to legacy shell; routing not confirmed by survey or official plan. Existing shell wall opening still requires integration."
+    },
+    {
+      "variant": "B",
+      "gap_to_legacy_floor_m": 5.104591447169794,
+      "landing_inside_legacy": false,
+      "endpoint_inside_legacy": true,
+      "status": "ASSUMED local landing and shortest connector to legacy shell; routing not confirmed by survey or official plan. Existing shell wall opening still requires integration."
+    }
+  ],
+  "limits": "New geometry is in separate comparison collections. B requires approx5.1m approach to legacy shell plus overlap. Existing mall wall has not been opened; neither proposal is verified as-built or end-to-end traversable."
+}

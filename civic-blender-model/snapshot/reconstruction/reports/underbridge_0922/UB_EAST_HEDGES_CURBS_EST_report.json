@@ -1,0 +1,33 @@
+{
+  "batch": "UB_EAST_HEDGES_CURBS_EST",
+  "object_count": 7,
+  "names": [
+    "UB_EAST_HEDGES_CURBS_EST_HEDGE_DUNYAN_WEST_EST",
+    "UB_EAST_HEDGES_CURBS_EST_HEDGE_DUNYAN_RAMP_EST",
+    "UB_EAST_HEDGES_CURBS_EST_HEDGE_GUANGFU_WEST_EST",
+    "UB_EAST_HEDGES_CURBS_EST_HEDGE_GUANGFU_EAST_EST",
+    "UB_EAST_HEDGES_CURBS_EST_CURB_DUNYAN_0_EST",
+    "UB_EAST_HEDGES_CURBS_EST_CURB_DUNYAN_1_EST",
+    "UB_EAST_HEDGES_CURBS_EST_CURB_DUNYAN_2_EST"
+  ],
+  "surface_intersections": [],
+  "aabb_candidates": [],
+  "median_sample_issues": [
+    {
+      "name": "UB_EAST_HEDGES_CURBS_EST_HEDGE_DUNYAN_WEST_EST",
+      "outside_samples": 1
+    },
+    {
+      "name": "UB_EAST_HEDGES_CURBS_EST_HEDGE_GUANGFU_WEST_EST",
+      "outside_samples": 2
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

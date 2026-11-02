@@ -1,0 +1,15 @@
+{
+  "old_wall_in_working": false,
+  "old_wall_preserved": true,
+  "replacement": "UB_JIANFU_WALL_FENCE_EST_RAMP_WALL_UPPER_EST",
+  "estimated_top": 2.2,
+  "estimated_bottom": -3.85,
+  "cloned_branches": [
+    [
+      "PRESENTATION_20260916_UB_LOCAL",
+      "PRESENTATION_20260916_UB_LOCAL_JIANFU_LOCAL"
+    ]
+  ],
+  "dimensions_verified": false,
+  "note": "Continuous comparison retaining wall; below-grade flat bottom remains a simplification"
+}

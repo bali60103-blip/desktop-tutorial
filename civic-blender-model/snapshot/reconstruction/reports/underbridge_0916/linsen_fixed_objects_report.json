@@ -1,0 +1,31 @@
+{
+  "new_objects": [
+    "UB_LINSEN_FIRST_COLUMN_N_EST",
+    "UB_LINSEN_COLUMN_GUARD_N_EST",
+    "UB_LINSEN_FIRST_COLUMN_S_EST",
+    "UB_LINSEN_COLUMN_GUARD_S_EST",
+    "UB_LINSEN_CROSSHEAD_EST",
+    "UB_LINSEN_EQUIPMENT_ENCLOSURE_EST"
+  ],
+  "mesh_errors": [],
+  "status": "Provisional massing, not final calibration",
+  "assumptions": [
+    "First-pair longitudinal station x1434 provisional",
+    "Transverse positions use mapped deck axes",
+    "Column diameter2m, existing deck-height assumption retained",
+    "Fence represented as solid volume, not actual opaque surface",
+    "Equipment position/size approximate"
+  ],
+  "remaining": [
+    "Confirm against second pano or measured plan",
+    "Trim landscaping at actual base locations",
+    "Check median containment and road clearance",
+    "Add signals only after pose identification"
+  ],
+  "adopted_in_working_scene": false,
+  "placement_conflict": {
+    "south_guard_outside_median_m2": 5.465122089927354,
+    "north_guard_outside_median_m2": 0,
+    "interpretation": "Existing median or tentative column XY incorrect; no actual placement verified"
+  }
+}

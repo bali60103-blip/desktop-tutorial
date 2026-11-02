@@ -1,0 +1,526 @@
+{
+  "crossings": [
+    {
+      "name": "Zhongshan N",
+      "twd97": [
+        302556.0454190369,
+        2771202.561166502
+      ],
+      "live_xy": [
+        1060.4377040537606,
+        743.0546537895251
+      ],
+      "intersection_points": [
+        [
+          302560.5291622061,
+          2771212.121011853
+        ],
+        [
+          302551.5616758676,
+          2771193.001321151
+        ]
+      ],
+      "osm_way_ids": [
+        "264551743"
+      ],
+      "status": "Mean of OSM ground road intersections, not surveyed curb control"
+    },
+    {
+      "name": "Tianjin",
+      "twd97": [
+        302710.3133502959,
+        2771187.0114957616
+      ],
+      "live_xy": [
+        1214.7059546500452,
+        727.5051636880249
+      ],
+      "intersection_points": [
+        [
+          302708.9984001146,
+          2771176.0737022883
+        ],
+        [
+          302711.6283004772,
+          2771197.9492892353
+        ]
+      ],
+      "osm_way_ids": [
+        "232106525"
+      ],
+      "status": "Mean of OSM ground road intersections, not surveyed curb control"
+    },
+    {
+      "name": "Linsen N",
+      "twd97": [
+        302893.2353989092,
+        2771176.2322856467
+      ],
+      "live_xy": [
+        1397.6283714555348,
+        716.7261825638551
+      ],
+      "intersection_points": [
+        [
+          302895.89329506166,
+          2771186.8983838316
+        ],
+        [
+          302890.5775027568,
+          2771165.5661874614
+        ]
+      ],
+      "osm_way_ids": [
+        "1347363384"
+      ],
+      "status": "Mean of OSM ground road intersections, not surveyed curb control"
+    }
+  ],
+  "extent_lonlat": [
+    121.5198,
+    25.0473,
+    121.5247,
+    25.0486
+  ],
+  "stairs": [
+    {
+      "number": 1,
+      "side": "north",
+      "between": [
+        "Zhongshan N",
+        "Tianjin"
+      ],
+      "xy": null
+    },
+    {
+      "number": 2,
+      "side": "south",
+      "between": [
+        "Zhongshan N",
+        "Tianjin"
+      ],
+      "xy": null
+    },
+    {
+      "number": 3,
+      "side": "south",
+      "between": [
+        "Tianjin",
+        "Linsen N"
+      ],
+      "xy": null
+    },
+    {
+      "number": 4,
+      "side": "south",
+      "between": [
+        "Tianjin",
+        "Linsen N"
+      ],
+      "xy": null
+    }
+  ],
+  "sidewalk_height_m": null,
+  "source_plan_scale": null,
+  "gate": "B remains open; do not infer stair coordinates from schematic proportions",
+  "sidewalk_feature_count": 22,
+  "sidewalk_source_ids": [
+    {
+      "source_index": 22,
+      "properties": {
+        "ID": "CZ3946005-1",
+        "Town_N": "63000050",
+        "NAME_Road": "林森北路",
+        "PSTART": "市民大道二段",
+        "PEND": "北平東路",
+        "SW_DIRECT": "西側",
+        "SW_LENG_ItemValue": 140.64,
+        "SW_WTH_ItemValue": 4.41,
+        "Shape_AR_ItemValue": 610.376653844,
+        "SWW_WTH": 3.43000006676,
+        "code": "機關",
+        "Shape_Leng": 300.786446017,
+        "Shape_Area": 610.376653844
+      }
+    },
+    {
+      "source_index": 1326,
+      "properties": {
+        "ID": "CZ3946006",
+        "Town_N": "63000050",
+        "NAME_Road": "林森北路",
+        "PSTART": "市民大道二段",
+        "PEND": "北平東路",
+        "SW_DIRECT": "東側",
+        "SW_LENG_ItemValue": 145.64,
+        "SW_WTH_ItemValue": 6.85,
+        "Shape_AR_ItemValue": 935.646150396,
+        "SWW_WTH": 1.57000005245,
+        "code": "機關",
+        "Shape_Leng": 301.195312854,
+        "Shape_Area": 935.646150396
+      }
+    },
+    {
+      "source_index": 1330,
+      "properties": {
+        "ID": "CZ3946034",
+        "Town_N": "63000050",
+        "NAME_Road": "市民大道二段",
+        "PSTART": "林森北路",
+        "PEND": "金山北路",
+        "SW_DIRECT": "南側",
+        "SW_LENG_ItemValue": 652.01,
+        "SW_WTH_ItemValue": 8.77,
+        "Shape_AR_ItemValue": 4708.54789935,
+        "SWW_WTH": 2.41000008583,
+        "code": "計畫道路",
+        "Shape_Leng": 1319.44440231,
+        "Shape_Area": 4708.54789935
+      }
+    },
+    {
+      "source_index": 1626,
+      "properties": {
+        "ID": "CZ3946005",
+        "Town_N": "63000050",
+        "NAME_Road": "市民大道二段",
+        "PSTART": "天津街",
+        "PEND": "林森北路",
+        "SW_DIRECT": "南側",
+        "SW_LENG_ItemValue": 162.15,
+        "SW_WTH_ItemValue": 6.04,
+        "Shape_AR_ItemValue": 898.934427372,
+        "SWW_WTH": 1.37999999523,
+        "code": "計畫道路",
+        "Shape_Leng": 332.612769218,
+        "Shape_Area": 898.934427372
+      }
+    },
+    {
+      "source_index": 1627,
+      "properties": {
+        "ID": "CZ3946003",
+        "Town_N": "63000050",
+        "NAME_Road": "中山北路一段",
+        "PSTART": "北平東路",
+        "PEND": "市民大道一段",
+        "SW_DIRECT": "東側",
+        "SW_LENG_ItemValue": 76.78,
+        "SW_WTH_ItemValue": 6.29,
+        "Shape_AR_ItemValue": 484.550815936,
+        "SWW_WTH": 4.05999994278,
+        "code": "計畫道路",
+        "Shape_Leng": 163.147093232,
+        "Shape_Area": 484.550815936
+      }
+    },
+    {
+      "source_index": 1630,
+      "properties": {
+        "ID": "CZ3946004",
+        "Town_N": "63000050",
+        "NAME_Road": "市民大道二段",
+        "PSTART": "中山北路一段",
+        "PEND": "天津街",
+        "SW_DIRECT": "南側",
+        "SW_LENG_ItemValue": 150.6,
+        "SW_WTH_ItemValue": 5.15,
+        "Shape_AR_ItemValue": 806.25030945,
+        "SWW_WTH": 1.63999998569,
+        "code": "計畫道路",
+        "Shape_Leng": 306.745759659,
+        "Shape_Area": 806.25030945
+      }
+    },
+    {
+      "source_index": 2674,
+      "properties": {
+        "ID": "CZ3946001",
+        "Town_N": "63000050",
+        "NAME_Road": "市民大道一段",
+        "PSTART": "承德路一段",
+        "PEND": "中山北路一段",
+        "SW_DIRECT": "南側",
+        "SW_LENG_ItemValue": 61.81,
+        "SW_WTH_ItemValue": 6.21,
+        "Shape_AR_ItemValue": 381.059449589,
+        "SWW_WTH": 3.11999988556,
+        "code": "計畫道路",
+        "Shape_Leng": 133.957980161,
+        "Shape_Area": 381.059449589
+      }
+    },
+    {
+      "source_index": 2796,
+      "properties": {
+        "ID": "CZ3946002",
+        "Town_N": "63000050",
+        "NAME_Road": "中山北路一段",
+        "PSTART": "北平東路",
+        "PEND": "市民大道一段",
+        "SW_DIRECT": "西側",
+        "SW_LENG_ItemValue": 75.39,
+        "SW_WTH_ItemValue": 9.72,
+        "Shape_AR_ItemValue": 746.748752447,
+        "SWW_WTH": 2.42000007629,
+        "code": "計畫道路",
+        "Shape_Leng": 175.025230304,
+        "Shape_Area": 746.748752447
+      }
+    },
+    {
+      "source_index": 3086,
+      "properties": {
+        "ID": "1040264",
+        "Town_N": "63000050",
+        "NAME_Road": "北平東路",
+        "PSTART": "中山北路一段",
+        "PEND": "忠孝西路一段",
+        "SW_DIRECT": "南側",
+        "SW_LENG_ItemValue": 171.34,
+        "SW_WTH_ItemValue": 2.84,
+        "Shape_AR_ItemValue": 350.145515011,
+        "SWW_WTH": 0.680000007153,
+        "code": "計畫道路",
+        "Shape_Leng": 352.259250478,
+        "Shape_Area": 350.145515011
+      }
+    },
+    {
+      "source_index": 5898,
+      "properties": {
+        "ID": "113A0070",
+        "Town_N": "63000040",
+        "NAME_Road": "市民大道二段",
+        "PSTART": "林森北路",
+        "PEND": "金山北路",
+        "SW_DIRECT": "北側",
+        "SW_LENG_ItemValue": 74.63,
+        "SW_WTH_ItemValue": 7.11,
+        "Shape_AR_ItemValue": 534.562476971,
+        "SWW_WTH": 6.5,
+        "code": "計畫道路",
+        "Shape_Leng": 160.786657637,
+        "Shape_Area": 534.562476971
+      }
+    },
+    {
+      "source_index": 5899,
+      "properties": {
+        "ID": "112A0059",
+        "Town_N": "63000040",
+        "NAME_Road": "市民大道二段",
+        "PSTART": "天津街",
+        "PEND": "林森北路",
+        "SW_DIRECT": "北側",
+        "SW_LENG_ItemValue": 57.1,
+        "SW_WTH_ItemValue": 5.91,
+        "Shape_AR_ItemValue": 319.355027822,
+        "SWW_WTH": 3.4,
+        "code": "計畫道路",
+        "Shape_Leng": 122.742452883,
+        "Shape_Area": 319.355027822
+      }
+    },
+    {
+      "source_index": 5901,
+      "properties": {
+        "ID": "112A0059",
+        "Town_N": "63000040",
+        "NAME_Road": "市民大道二段",
+        "PSTART": "天津街",
+        "PEND": "林森北路",
+        "SW_DIRECT": "北側",
+        "SW_LENG_ItemValue": 105.29,
+        "SW_WTH_ItemValue": 6.08,
+        "Shape_AR_ItemValue": 603.024919811,
+        "SWW_WTH": 3.4,
+        "code": "計畫道路",
+        "Shape_Leng": 219.330779171,
+        "Shape_Area": 603.024919811
+      }
+    },
+    {
+      "source_index": 5902,
+      "properties": {
+        "ID": "CS3946005",
+        "Town_N": "63000040",
+        "NAME_Road": "市民大道二段",
+        "PSTART": "中山北路一段",
+        "PEND": "天津街",
+        "SW_DIRECT": "北側",
+        "SW_LENG_ItemValue": 81.79,
+        "SW_WTH_ItemValue": 6.91,
+        "Shape_AR_ItemValue": 559.373781916,
+        "SWW_WTH": 2.3599998951,
+        "code": "計畫道路",
+        "Shape_Leng": 174.002402997,
+        "Shape_Area": 559.373781916
+      }
+    },
+    {
+      "source_index": 6624,
+      "properties": {
+        "ID": "CS3946006",
+        "Town_N": "63000040",
+        "NAME_Road": "市民大道二段",
+        "PSTART": "中山北路一段",
+        "PEND": "天津街",
+        "SW_DIRECT": "北側",
+        "SW_LENG_ItemValue": 51.69,
+        "SW_WTH_ItemValue": 11.59,
+        "Shape_AR_ItemValue": 412.866351508,
+        "SWW_WTH": 2.96000003815,
+        "code": "計畫道路",
+        "Shape_Leng": 127.889354345,
+        "Shape_Area": 412.866351508
+      }
+    },
+    {
+      "source_index": 6658,
+      "properties": {
+        "ID": "CS3946007",
+        "Town_N": "63000040",
+        "NAME_Road": "中山北路一段",
+        "PSTART": "長安東路一段",
+        "PEND": "市民大道二段",
+        "SW_DIRECT": "東側",
+        "SW_LENG_ItemValue": 70.22,
+        "SW_WTH_ItemValue": 3.38,
+        "Shape_AR_ItemValue": 235.195197316,
+        "SWW_WTH": 0.819999992847,
+        "code": "計畫道路",
+        "Shape_Leng": 146.073341616,
+        "Shape_Area": 235.195197316
+      }
+    },
+    {
+      "source_index": 6660,
+      "properties": {
+        "ID": "CS3946023",
+        "Town_N": "63000040",
+        "NAME_Road": "中山北路一段",
+        "PSTART": "長安東路一段",
+        "PEND": "市民大道二段",
+        "SW_DIRECT": "西側",
+        "SW_LENG_ItemValue": 53.27,
+        "SW_WTH_ItemValue": 3.67,
+        "Shape_AR_ItemValue": 196.50326333,
+        "SWW_WTH": 1.59000003338,
+        "code": "計畫道路",
+        "Shape_Leng": 115.257467827,
+        "Shape_Area": 196.50326333
+      }
+    },
+    {
+      "source_index": 6835,
+      "properties": {
+        "ID": "CS3946023",
+        "Town_N": "63000040",
+        "NAME_Road": "中山北路一段",
+        "PSTART": "長安東路一段",
+        "PEND": "市民大道二段",
+        "SW_DIRECT": "西側",
+        "SW_LENG_ItemValue": 14.64,
+        "SW_WTH_ItemValue": 7.45,
+        "Shape_AR_ItemValue": 88.1031146778,
+        "SWW_WTH": 1.65999996662,
+        "code": "計畫道路",
+        "Shape_Leng": 42.1021636511,
+        "Shape_Area": 88.1031146778
+      }
+    },
+    {
+      "source_index": 6841,
+      "properties": {
+        "ID": "113A0050",
+        "Town_N": "63000040",
+        "NAME_Road": "天津街",
+        "PSTART": "長安東路一段",
+        "PEND": "市民大道二段",
+        "SW_DIRECT": "西側",
+        "SW_LENG_ItemValue": 57.49,
+        "SW_WTH_ItemValue": 1.23,
+        "Shape_AR_ItemValue": 65.8408214589,
+        "SWW_WTH": 1.1,
+        "code": "計畫道路",
+        "Shape_Leng": 117.061815383,
+        "Shape_Area": 65.8408214589
+      }
+    },
+    {
+      "source_index": 6880,
+      "properties": {
+        "ID": "CS3946047",
+        "Town_N": "63000040",
+        "NAME_Road": "林森北路",
+        "PSTART": "長安東路一段",
+        "PEND": "市民大道二段",
+        "SW_DIRECT": "西側",
+        "SW_LENG_ItemValue": 74.85,
+        "SW_WTH_ItemValue": 4.26,
+        "Shape_AR_ItemValue": 171.179363403,
+        "SWW_WTH": 0.75,
+        "code": "計畫道路",
+        "Shape_Leng": 158.00652721,
+        "Shape_Area": 171.179363403
+      }
+    },
+    {
+      "source_index": 12240,
+      "properties": {
+        "ID": "CS3946050",
+        "Town_N": "63000040",
+        "NAME_Road": "林森北路",
+        "PSTART": "長安東路一段",
+        "PEND": "市民大道二段",
+        "SW_DIRECT": "東側",
+        "SW_LENG_ItemValue": 39.69,
+        "SW_WTH_ItemValue": 3.57,
+        "Shape_AR_ItemValue": 139.109952043,
+        "SWW_WTH": 2.15000009537,
+        "code": "計畫道路",
+        "Shape_Leng": 84.5022336461,
+        "Shape_Area": 139.109952043
+      }
+    },
+    {
+      "source_index": 12671,
+      "properties": {
+        "ID": "CS3946049",
+        "Town_N": "63000040",
+        "NAME_Road": "天津街",
+        "PSTART": "長安東路一段",
+        "PEND": "市民大道二段",
+        "SW_DIRECT": "東側",
+        "SW_LENG_ItemValue": 54.97,
+        "SW_WTH_ItemValue": 1.37,
+        "Shape_AR_ItemValue": 65.1200655737,
+        "SWW_WTH": 1.10000002384,
+        "code": "計畫道路",
+        "Shape_Leng": 111.643724888,
+        "Shape_Area": 65.1200655737
+      }
+    },
+    {
+      "source_index": 14688,
+      "properties": {
+        "ID": "111A0015",
+        "Town_N": "63000040",
+        "NAME_Road": "市民大道一段",
+        "PSTART": "承德路一段",
+        "PEND": "中山北路一段",
+        "SW_DIRECT": "北側",
+        "SW_LENG_ItemValue": 162.29,
+        "SW_WTH_ItemValue": 6.0,
+        "Shape_AR_ItemValue": 1083.04789504,
+        "SWW_WTH": 3.5,
+        "code": "計畫道路",
+        "Shape_Leng": 339.101223299,
+        "Shape_Area": 1083.04789504
+      }
+    }
+  ],
+  "full_payload_sha256": "37fac8664b13fd1f2ef774f33bb699520dd9e0b8c7672ccba15bc2811b45c794"
+}

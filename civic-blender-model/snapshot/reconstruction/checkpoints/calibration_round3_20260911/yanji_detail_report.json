@@ -1,0 +1,43 @@
+{
+  "created_objects": 53,
+  "retained_square_posts": [
+    "YANJI_PHOTO_CENTER_POST_0",
+    "YANJI_PHOTO_CENTER_POST_1",
+    "YANJI_PHOTO_CENTER_POST_2",
+    "YANJI_PHOTO_CENTER_POST_3",
+    "YANJI_PHOTO_CENTER_POST_4",
+    "YANJI_PHOTO_CENTER_POST_5",
+    "YANJI_PHOTO_CENTER_POST_6",
+    "YANJI_PHOTO_CENTER_POST_7",
+    "YANJI_PHOTO_CENTER_POST_8",
+    "YANJI_PHOTO_CENTER_POST_9",
+    "YANJI_PHOTO_CENTER_POST_10",
+    "YANJI_PHOTO_CENTER_POST_11",
+    "YANJI_PHOTO_CENTER_POST_12",
+    "YANJI_PHOTO_CENTER_POST_13",
+    "YANJI_PHOTO_CENTER_POST_14"
+  ],
+  "new_cylindrical_dividers": 15,
+  "hanger_rods": 2,
+  "drains": [
+    {
+      "name": "UPPER",
+      "local_x": -0.8,
+      "width_m": 5.6,
+      "length_m": 0.3,
+      "status": "Estimated covered drain; invert/outfall and actual existence unverified; no hydraulic claim"
+    },
+    {
+      "name": "LOWER",
+      "local_x": 53.5,
+      "width_m": 5.6,
+      "length_m": 0.3,
+      "status": "Estimated covered drain; invert/outfall and actual existence unverified; no hydraulic claim"
+    }
+  ],
+  "mesh_issues": [],
+  "adopted": false,
+  "posted_height_limit_m": 1.8,
+  "limit_note": "Observed sign value; not a measured vertical clearance",
+  "limits": "Two original ramp pieces were subsequently recessed and solid pan proxies replaced by open channels; see yanji_drain_recess_report.json. Drain locations, dimensions, outfalls and structural adequacy remain unverified."
+}

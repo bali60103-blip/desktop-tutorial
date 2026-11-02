@@ -1,0 +1,167 @@
+{
+  "sampled_floors": 8,
+  "samples": 1296,
+  "support_misses": 13,
+  "items": [
+    {
+      "floor": "COMP_塔城_B2_FLOOR",
+      "samples": 162,
+      "support_misses": []
+    },
+    {
+      "floor": "COMP_公中_B2_FLOOR",
+      "samples": 162,
+      "support_misses": []
+    },
+    {
+      "floor": "COMP_中林_B2_FLOOR",
+      "samples": 162,
+      "support_misses": []
+    },
+    {
+      "floor": "COMP_林金_B2_FLOOR",
+      "samples": 162,
+      "support_misses": []
+    },
+    {
+      "floor": "COMP_復敦_B2_FLOOR",
+      "samples": 162,
+      "support_misses": []
+    },
+    {
+      "floor": "COMP_敦延_B2_FLOOR",
+      "samples": 162,
+      "support_misses": [
+        {
+          "path": "CORE_敦延_1_B2_B",
+          "fraction": 0.3,
+          "side": -0.8,
+          "xy": [
+            4356.9111328125,
+            358.8084716796875
+          ]
+        },
+        {
+          "path": "CORE_敦延_1_B2_B",
+          "fraction": 0.4,
+          "side": -0.8,
+          "xy": [
+            4356.58349609375,
+            358.8436584472656
+          ]
+        },
+        {
+          "path": "CORE_敦延_1_B2_B",
+          "fraction": 0.5,
+          "side": -0.8,
+          "xy": [
+            4356.255859375,
+            358.87884521484375
+          ]
+        },
+        {
+          "path": "CORE_敦延_1_B2_B",
+          "fraction": 0.6,
+          "side": -0.8,
+          "xy": [
+            4355.92822265625,
+            358.9140319824219
+          ]
+        },
+        {
+          "path": "CORE_敦延_1_B2_B",
+          "fraction": 0.7,
+          "side": -0.8,
+          "xy": [
+            4355.6005859375,
+            358.94921875
+          ]
+        },
+        {
+          "path": "CORE_敦延_1_B2_B",
+          "fraction": 0.8,
+          "side": -0.8,
+          "xy": [
+            4355.2724609375,
+            358.9844055175781
+          ]
+        },
+        {
+          "path": "CORE_敦延_1_B2_B",
+          "fraction": 0.9,
+          "side": -0.8,
+          "xy": [
+            4354.94482421875,
+            359.0196228027344
+          ]
+        }
+      ]
+    },
+    {
+      "floor": "COMP_延吉_B1_FLOOR",
+      "samples": 162,
+      "support_misses": [
+        {
+          "path": "CORE_延吉_0_B1_B",
+          "fraction": 0.1,
+          "side": -0.8,
+          "xy": [
+            4294.56689453125,
+            360.02960205078125
+          ]
+        },
+        {
+          "path": "CORE_延吉_0_B1_B",
+          "fraction": 0.2,
+          "side": -0.8,
+          "xy": [
+            4294.23876953125,
+            360.0047302246094
+          ]
+        },
+        {
+          "path": "CORE_延吉_0_B1_B",
+          "fraction": 0.3,
+          "side": -0.8,
+          "xy": [
+            4293.9111328125,
+            359.9798278808594
+          ]
+        },
+        {
+          "path": "CORE_延吉_0_B1_B",
+          "fraction": 0.4,
+          "side": -0.8,
+          "xy": [
+            4293.5830078125,
+            359.9549560546875
+          ]
+        },
+        {
+          "path": "CORE_延吉_0_B1_B",
+          "fraction": 0.5,
+          "side": -0.8,
+          "xy": [
+            4293.255859375,
+            359.9300842285156
+          ]
+        },
+        {
+          "path": "CORE_延吉_0_B1_B",
+          "fraction": 0.6,
+          "side": -0.8,
+          "xy": [
+            4292.927734375,
+            359.9051818847656
+          ]
+        }
+      ]
+    },
+    {
+      "floor": "COMP_建復_B1_FLOOR",
+      "samples": 162,
+      "support_misses": []
+    }
+  ],
+  "limits": "Sampled vertical slab presence below current stair envelopes; not load capacity or foundation validation"
+}

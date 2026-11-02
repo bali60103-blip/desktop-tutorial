@@ -1,0 +1,34 @@
+{
+  "new_object": "UB_MEDIAN_0_WITH_STATION_UTURN_EST",
+  "original_in_baseline": true,
+  "original_in_working": false,
+  "gap_center_still_hits": false,
+  "nonmanifold_edge_count": 0,
+  "scene_local_branches": [
+    [
+      "PRESENTATION_20260916",
+      "PRESENTATION_20260916_UB_LOCAL"
+    ]
+  ],
+  "estimated_opening_length_m": 23,
+  "dimensions_verified": false,
+  "remaining_issue": "legacy estimated piers near opening require separate street-view alignment",
+  "conflicting_legacy_piers": [
+    {
+      "object": "UNVERIFIED_Pier_518",
+      "xy": [
+        849.4542236328125,
+        769.6283569335938
+      ],
+      "marker": "REVIEW_UTURN_CONFLICT_UNVERIFIED_Pier_518"
+    },
+    {
+      "object": "UNVERIFIED_Pier_519",
+      "xy": [
+        850.4009399414062,
+        775.5531616210938
+      ],
+      "marker": "REVIEW_UTURN_CONFLICT_UNVERIFIED_Pier_519"
+    }
+  ]
+}

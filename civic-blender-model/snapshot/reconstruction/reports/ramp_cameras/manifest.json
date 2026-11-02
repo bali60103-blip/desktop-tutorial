@@ -1,0 +1,22 @@
+[
+  {
+    "file": "CIVIC_RAMP_CAMERAS_20260910_024247.blend",
+    "bytes": 42574646,
+    "sha256": "6d85934231ec13afeb090a13dfe6f160db07dbcee80082b36384f4724683520d"
+  },
+  {
+    "file": "RAMP_CAM_EAST_1F_B1.png",
+    "bytes": 1071570,
+    "sha256": "48211d39f4e10dad623c57330aba8e4aeb27821c996a14ee802e2b58e4aaa38a"
+  },
+  {
+    "file": "RAMP_CAM_B1_B2.png",
+    "bytes": 1044764,
+    "sha256": "f43b771f80bc5f9cfa3524d53222b7de868999e211390f0dec267a6cb49518a7"
+  },
+  {
+    "file": "RAMP_CAM_WEST_1F_B1.png",
+    "bytes": 1058019,
+    "sha256": "39cb7784036a7451304252e53091fec106cfb2064532b0456be49d07776d6e64"
+  }
+]

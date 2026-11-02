@@ -1,0 +1,412 @@
+{
+  "source_url": "https://data.taipei/dataset/detail?id=cfa4778c-62c1-497b-b704-756231de348b",
+  "download_url": "https://data.taipei/api/frontstage/tpeod/dataset/resource.download?rid=307a7f61-e302-4108-a817-877ccbfca7c1",
+  "controls": [
+    {
+      "name": "台北車站M5",
+      "ref": "M5",
+      "wgs84": [
+        121.516246,
+        25.046755
+      ],
+      "twd97": [
+        302090.5871444821,
+        2771055.600760762
+      ],
+      "live_xy": [
+        594.9787307736668,
+        596.0933283846748
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "否",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": [
+        {
+          "osm_id": "3505143993",
+          "distance_m": 9.265785502759517,
+          "osm_live_xy": [
+            586.1089526170583,
+            598.7732814141996
+          ]
+        }
+      ]
+    },
+    {
+      "name": "台北車站M6",
+      "ref": "M6",
+      "wgs84": [
+        121.516787,
+        25.046234
+      ],
+      "twd97": [
+        302145.39679833775,
+        2770998.1003284114
+      ],
+      "live_xy": [
+        649.7885690705331,
+        538.5928597771453
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "否",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": [
+        {
+          "osm_id": "3707479441",
+          "distance_m": 13.410476059896446,
+          "osm_live_xy": [
+            651.7766369200658,
+            525.3305391124404
+          ]
+        }
+      ]
+    },
+    {
+      "name": "台北車站M7",
+      "ref": "M7",
+      "wgs84": [
+        121.518643,
+        25.046077
+      ],
+      "twd97": [
+        302332.7428459703,
+        2770981.4265784975
+      ],
+      "live_xy": [
+        837.1350014943096,
+        521.9193335054769
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "否",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": [
+        {
+          "osm_id": "3505143594",
+          "distance_m": 2.1752787006941454,
+          "osm_live_xy": [
+            838.4031105869525,
+            520.1519187148631
+          ]
+        }
+      ]
+    },
+    {
+      "name": "台北車站M8",
+      "ref": "M8",
+      "wgs84": [
+        121.517479,
+        25.045948
+      ],
+      "twd97": [
+        302215.3440804759,
+        2770966.688233976
+      ],
+      "live_xy": [
+        719.7360292719295,
+        507.1808001703668
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "否",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": [
+        {
+          "osm_id": "2793285506",
+          "distance_m": 18.390928660465953,
+          "osm_live_xy": [
+            722.217405906612,
+            488.9580030705454
+          ]
+        }
+      ]
+    },
+    {
+      "name": "台北車站M1",
+      "ref": "M1",
+      "wgs84": [
+        121.518193,
+        25.048232
+      ],
+      "twd97": [
+        302286.4216014206,
+        2771219.9521609144
+      ],
+      "live_xy": [
+        790.8133416766668,
+        760.4453135773505
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "否",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": [
+        {
+          "osm_id": "2793285507",
+          "distance_m": 3.3072942043631084,
+          "osm_live_xy": [
+            788.4533822178515,
+            762.7623868563021
+          ]
+        }
+      ]
+    },
+    {
+      "name": "台北車站M2",
+      "ref": "M2",
+      "wgs84": [
+        121.51908,
+        25.048159
+      ],
+      "twd97": [
+        302375.9537778831,
+        2771212.2092966363
+      ],
+      "live_xy": [
+        880.3457017218882,
+        752.7025566129453
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "是",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": [
+        {
+          "osm_id": "2793285508",
+          "distance_m": 10.319146807441934,
+          "osm_live_xy": [
+            873.2505584857413,
+            745.2096169477612
+          ]
+        }
+      ]
+    },
+    {
+      "name": "台北車站M3",
+      "ref": "M3",
+      "wgs84": [
+        121.517882,
+        25.046337
+      ],
+      "twd97": [
+        302255.84394838125,
+        2771009.9315299084
+      ],
+      "live_xy": [
+        760.2359163793404,
+        550.42423497594
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "否",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": [
+        {
+          "osm_id": "3505143793",
+          "distance_m": 10.102733684827022,
+          "osm_live_xy": [
+            751.4052046275925,
+            545.516674246036
+          ]
+        }
+      ]
+    },
+    {
+      "name": "台北車站M4",
+      "ref": "M4",
+      "wgs84": [
+        121.517345,
+        25.046485
+      ],
+      "twd97": [
+        302201.59542233474,
+        2771026.117567883
+      ],
+      "live_xy": [
+        705.987263399703,
+        566.6102301393865
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "是",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": [
+        {
+          "osm_id": "3505143693",
+          "distance_m": 4.211128306572382,
+          "osm_live_xy": [
+            709.9881782458853,
+            565.2963235432263
+          ]
+        }
+      ]
+    },
+    {
+      "name": "中山站出口1",
+      "ref": "1",
+      "wgs84": [
+        121.520303,
+        25.052414
+      ],
+      "twd97": [
+        302497.5462731462,
+        2771683.9904456562
+      ],
+      "live_xy": [
+        1001.9377876250608,
+        1224.484783343878
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "否",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": []
+    },
+    {
+      "name": "中山站出口4",
+      "ref": "4",
+      "wgs84": [
+        121.520306,
+        25.052858
+      ],
+      "twd97": [
+        302497.6598520234,
+        2771733.1715107826
+      ],
+      "live_xy": [
+        1002.0512995542974,
+        1273.6659436607224
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "是",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": []
+    },
+    {
+      "name": "中山站出口2",
+      "ref": "2",
+      "wgs84": [
+        121.521063,
+        25.052382
+      ],
+      "twd97": [
+        302574.24378838675,
+        2771680.7410460156
+      ],
+      "live_xy": [
+        1078.6354555104322,
+        1221.2354821714705
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "否",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": []
+    },
+    {
+      "name": "中山站出口3",
+      "ref": "3",
+      "wgs84": [
+        121.521154,
+        25.052611
+      ],
+      "twd97": [
+        302583.32797463087,
+        2771706.1417200402
+      ],
+      "live_xy": [
+        1087.7196246182818,
+        1246.6362176856917
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "否",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": []
+    },
+    {
+      "name": "中山站出口5",
+      "ref": "5",
+      "wgs84": [
+        121.519329,
+        25.053037
+      ],
+      "twd97": [
+        302399.0049869165,
+        2771752.619811452
+      ],
+      "live_xy": [
+        903.3962172500022,
+        1293.1141471764852
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "是",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": []
+    },
+    {
+      "name": "中山站出口6",
+      "ref": "6",
+      "wgs84": [
+        121.519007,
+        25.052833
+      ],
+      "twd97": [
+        302366.6020905527,
+        2771729.898976006
+      ],
+      "live_xy": [
+        870.9932893024652,
+        1270.393223572566
+      ],
+      "elevation_m": null,
+      "operator_accessibility_flag": "是",
+      "source": "Taipei Metro operator exit coordinate dataset, resource update 2026-08-04",
+      "status": "Operator-published XY, not survey-certified; ground elevation unknown",
+      "osm_comparisons": []
+    }
+  ],
+  "flag_threshold_m": 10,
+  "threshold_note": "Review triage only, not a declared source accuracy tolerance",
+  "flags": [
+    {
+      "name": "台北車站M6",
+      "osm_id": "3707479441",
+      "distance_m": 13.410476059896446,
+      "osm_live_xy": [
+        651.7766369200658,
+        525.3305391124404
+      ]
+    },
+    {
+      "name": "台北車站M8",
+      "osm_id": "2793285506",
+      "distance_m": 18.390928660465953,
+      "osm_live_xy": [
+        722.217405906612,
+        488.9580030705454
+      ]
+    },
+    {
+      "name": "台北車站M2",
+      "osm_id": "2793285508",
+      "distance_m": 10.319146807441934,
+      "osm_live_xy": [
+        873.2505584857413,
+        745.2096169477612
+      ]
+    },
+    {
+      "name": "台北車站M3",
+      "osm_id": "3505143793",
+      "distance_m": 10.102733684827022,
+      "osm_live_xy": [
+        751.4052046275925,
+        545.516674246036
+      ]
+    }
+  ]
+}

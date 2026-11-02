@@ -1,0 +1,11 @@
+{
+  "retrieved": "2026-09-10",
+  "metro_csv_sha256": "134d8488c240fb23e04535db6a94da73006f890c83617eeedaa9b26c9f120015",
+  "metro_update": "2026-08-04",
+  "bridge_pages": [
+    "https://bridge.nco.taipei/bms2/guest/bridge/inventory.aspx?vid=28846",
+    "https://bridge.nco.taipei/bms2/guest/bridge/photo.aspx?vid=28846",
+    "https://bridge.nco.taipei/bms2/guest/bridge/dayInspect.aspx?vid=28846"
+  ],
+  "note": "Photo links discovered, images not inspected. One daily detail inspected; no pier coordinates supplied."
+}

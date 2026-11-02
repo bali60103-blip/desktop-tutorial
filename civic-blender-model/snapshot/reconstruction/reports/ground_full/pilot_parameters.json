@@ -1,0 +1,33 @@
+{
+  "parameters": {
+    "curb_width_m": 0.15,
+    "curb_top_z_m": 0.17,
+    "tile_size_m": [
+      0.6,
+      0.3
+    ],
+    "tile_thickness_m": 0.02,
+    "tile_bottom_z_m": 0.15,
+    "joint_m": 0.006,
+    "bond_rotation_degrees": -4.6,
+    "status": "ESTIMATED construction dimensions; ground datum assumed; NOT field-verified"
+  },
+  "source_ids": [
+    "CZ3946005",
+    "CZ3946004",
+    "112A0059",
+    "112A0059",
+    "CS3946005",
+    "CS3946006"
+  ],
+  "summary": {
+    "source_features": 6,
+    "sidewalk_union_area_m2": 3432.6075652759537,
+    "overlap_removed_m2": -4.547473508864641e-13,
+    "ramp_cut_area_m2": 29.85036993807944,
+    "curb_stones": 623,
+    "paving_tiles": 20066,
+    "curb_area_m2": 92.0439955021935,
+    "tile_area_m2": 3240.938889017107
+  }
+}

@@ -1,0 +1,382 @@
+[
+  {
+    "id": "w447502445",
+    "base_before": 0,
+    "base_after": 32.99999999999999,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w605982550",
+    "base_before": 0,
+    "base_after": 26.4,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w605982558",
+    "base_before": 0,
+    "base_after": 23.099999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w605982559",
+    "base_before": 0,
+    "base_after": 23.099999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w605982561",
+    "base_before": 0,
+    "base_after": 23.099999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w605982564",
+    "base_before": 0,
+    "base_after": 23.099999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w605982569",
+    "base_before": 0,
+    "base_after": 3.3,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w609514159",
+    "base_before": 0,
+    "base_after": 13.2,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w609514160",
+    "base_before": 0,
+    "base_after": 13.2,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w609514165",
+    "base_before": 0,
+    "base_after": 13.2,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w609514187",
+    "base_before": 0,
+    "base_after": 52.8,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w609514189",
+    "base_before": 0,
+    "base_after": 6.6,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w609514195",
+    "base_before": 0,
+    "base_after": 3.3,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w609514215",
+    "status": "CONFLICT min_level reaches top; retained original estimate pending tag/source review",
+    "base_candidate": 39.599999999999994,
+    "height": 39.599999999999994
+  },
+  {
+    "id": "w609514220",
+    "base_before": 0,
+    "base_after": 39.599999999999994,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w609514223",
+    "base_before": 0,
+    "base_after": 39.599999999999994,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w643771492",
+    "base_before": 0,
+    "base_after": 3.2999999999999994,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w644876034",
+    "base_before": 0,
+    "base_after": 23.099999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w644876039",
+    "base_before": 0,
+    "base_after": 16.499999999999996,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w644876044",
+    "base_before": 0,
+    "base_after": 49.5,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w645248920",
+    "base_before": 0,
+    "base_after": 13.2,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w645248921",
+    "base_before": 0,
+    "base_after": 6.6,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w663757112",
+    "base_before": 0,
+    "base_after": 85.8,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668315112",
+    "base_before": 0,
+    "base_after": 23.099999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668315145",
+    "base_before": 0,
+    "base_after": 49.5,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668315151",
+    "base_before": 0,
+    "base_after": 39.599999999999994,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668315152",
+    "base_before": 0,
+    "base_after": 39.599999999999994,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668378852",
+    "base_before": 0,
+    "base_after": 42.9,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668378880",
+    "base_before": 0,
+    "base_after": 46.199999999999996,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668629695",
+    "base_before": 0,
+    "base_after": 13.199999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668629696",
+    "base_before": 0,
+    "base_after": 13.199999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668629699",
+    "base_before": 0,
+    "base_after": 46.199999999999996,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668629700",
+    "base_before": 0,
+    "base_after": 46.199999999999996,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668629701",
+    "base_before": 0,
+    "base_after": 46.199999999999996,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668629705",
+    "base_before": 0,
+    "base_after": 16.499999999999996,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668629706",
+    "base_before": 0,
+    "base_after": 16.499999999999996,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668629707",
+    "base_before": 0,
+    "base_after": 13.2,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668637823",
+    "base_before": 0,
+    "base_after": 13.2,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668637852",
+    "base_before": 0,
+    "base_after": 23.099999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w668637853",
+    "base_before": 0,
+    "base_after": 13.2,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w702660268",
+    "base_before": 0,
+    "base_after": 3.3,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w908843920",
+    "base_before": 0,
+    "base_after": 37.06666666666667,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979898",
+    "base_before": 0,
+    "base_after": 33.0,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979899",
+    "base_before": 0,
+    "base_after": 32.99999999999999,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979900",
+    "base_before": 0,
+    "base_after": 33.0,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979901",
+    "base_before": 0,
+    "base_after": 33.0,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979902",
+    "base_before": 0,
+    "base_after": 33.0,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979903",
+    "base_before": 0,
+    "base_after": 33.0,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979904",
+    "base_before": 0,
+    "base_after": 32.99999999999999,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979905",
+    "base_before": 0,
+    "base_after": 33.0,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979906",
+    "base_before": 0,
+    "base_after": 33.0,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1153979907",
+    "base_before": 0,
+    "base_after": 33.0,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1307690210",
+    "base_before": 0,
+    "base_after": 3.3,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1342928452",
+    "base_before": 0,
+    "base_after": 23.099999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1342935596",
+    "base_before": 0,
+    "base_after": 23.099999999999998,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1347249272",
+    "base_before": 0,
+    "base_after": 9.899999999999999,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1390847381",
+    "status": "Shelter class instead of tower; height estimated"
+  },
+  {
+    "id": "w1434862300",
+    "base_before": 0,
+    "base_after": 3.3,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1434862301",
+    "base_before": 0,
+    "base_after": 3.3,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1434865015",
+    "base_before": 0,
+    "base_after": 3.3,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1434865016",
+    "base_before": 0,
+    "base_after": 3.3,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1434866423",
+    "base_before": 0,
+    "base_after": 9.899999999999999,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1434866424",
+    "base_before": 0,
+    "base_after": 3.3,
+    "status": "OSM vertical range interpreted; absolute elevation estimated"
+  },
+  {
+    "id": "w1535748877",
+    "status": "Shelter class instead of tower; height estimated"
+  }
+]

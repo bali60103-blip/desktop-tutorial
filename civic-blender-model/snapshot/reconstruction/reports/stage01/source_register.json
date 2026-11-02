@@ -1,0 +1,50 @@
+[
+  {
+    "id": "zhonglin_floors_2021",
+    "url": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/8370555/a70a6f8a-c272-4f25-810e-49ba98995741.pdf",
+    "geometry_status": "unregistered source plan; not surveyed XY/Z",
+    "sha256": "3db132418c1ed6072764f2a70902e6e52f735a22154e570068557b622185fa39",
+    "pages": 3,
+    "download": "ok"
+  },
+  {
+    "id": "zhonglin_linjin_facilities",
+    "url": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+    "geometry_status": "unregistered source plan; not surveyed XY/Z",
+    "sha256": "caf424773166e5a8d30072600ed976cf04f1c43852dd9c0462449f6ab62874b7",
+    "pages": 14,
+    "download": "ok"
+  },
+  {
+    "id": "jianfu_existing_2020",
+    "url": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/8197155/ecc2e858-6fd3-4f0b-b234-645e35dde037.pdf",
+    "geometry_status": "unregistered source plan; not surveyed XY/Z",
+    "sha256": "a2c142db81e0d6e02a593b54ca5ce404bc55e6aa51d24083abf143c820b27572",
+    "pages": 1,
+    "download": "ok"
+  },
+  {
+    "id": "gongzhong_tacheng",
+    "url": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/8540006/2ca614b1-c650-424a-8287-4ec92f2c2561.pdf",
+    "geometry_status": "unregistered source plan; not surveyed XY/Z",
+    "sha256": "7f720e4310a66278642c757103af765048118801ae8b2f30dfd59d8fa60633b2",
+    "pages": 10,
+    "download": "ok"
+  },
+  {
+    "id": "taipei_main_information",
+    "url": "https://web.metro.taipei/img/ALL/INFOPDF/051.pdf",
+    "geometry_status": "unregistered source plan; not surveyed XY/Z",
+    "sha256": "c3968d2d0410ac2751e6fdaea2e3939c9f482a7d32645c696cf08970c9b8ca36",
+    "pages": 4,
+    "download": "ok"
+  },
+  {
+    "id": "zhongshan_mall_information",
+    "url": "https://web.metro.taipei/c/img/ZhongshanMetroMall.pdf",
+    "geometry_status": "unregistered source plan; not surveyed XY/Z",
+    "sha256": "0e874d021c2ab15ec844addb6265c1852d88712c1519a8e0920493ebe81f17d6",
+    "pages": 1,
+    "download": "ok"
+  }
+]

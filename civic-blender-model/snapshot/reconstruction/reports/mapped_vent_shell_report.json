@@ -1,0 +1,255 @@
+{
+  "shafts_detailed": 20,
+  "archived_objects": 46,
+  "louver_blades": 6487,
+  "heights_preserved": true,
+  "items": [
+    {
+      "osm_id": "w268396843",
+      "new_object": "MAPPED_VENT_w268396843.001",
+      "archived": [
+        "BLOCK_w268396843_CORE",
+        "BLOCK_w268396843_FACADE"
+      ],
+      "height_m": 26.4,
+      "base_z_m": 0.0,
+      "height_status": "Preserved previous neighbor-height estimate",
+      "louver_blades": 1557
+    },
+    {
+      "osm_id": "w270789165",
+      "new_object": "MAPPED_VENT_w270789165",
+      "archived": [
+        "BLOCK_w270789165_CORE",
+        "BLOCK_w270789165_FACADE"
+      ],
+      "height_m": 16.65,
+      "base_z_m": 0.0,
+      "height_status": "Estimated median of known heights in selected block",
+      "louver_blades": 432
+    },
+    {
+      "osm_id": "w552658460",
+      "new_object": "MAPPED_VENT_w552658460",
+      "archived": [
+        "COMP_OSM_EQUIP_552658460",
+        "BLOCK_w552658460_CORE",
+        "BLOCK_w552658460_FACADE"
+      ],
+      "height_m": 13.2,
+      "base_z_m": 0.0,
+      "height_status": "Estimated13.2m fallback; no height source",
+      "louver_blades": 340
+    },
+    {
+      "osm_id": "w552658461",
+      "new_object": "MAPPED_VENT_w552658461",
+      "archived": [
+        "BLOCK_w552658461_CORE",
+        "BLOCK_w552658461_FACADE"
+      ],
+      "height_m": 13.2,
+      "base_z_m": 0.0,
+      "height_status": "Estimated13.2m fallback; no height source",
+      "louver_blades": 425
+    },
+    {
+      "osm_id": "w552658462",
+      "new_object": "MAPPED_VENT_w552658462",
+      "archived": [
+        "BLOCK_w552658462_CORE",
+        "BLOCK_w552658462_FACADE"
+      ],
+      "height_m": 13.2,
+      "base_z_m": 0.0,
+      "height_status": "Estimated13.2m fallback; no height source",
+      "louver_blades": 340
+    },
+    {
+      "osm_id": "w552658463",
+      "new_object": "MAPPED_VENT_w552658463",
+      "archived": [
+        "BLOCK_w552658463_CORE",
+        "BLOCK_w552658463_FACADE"
+      ],
+      "height_m": 13.2,
+      "base_z_m": 0.0,
+      "height_status": "Estimated13.2m fallback; no height source",
+      "louver_blades": 340
+    },
+    {
+      "osm_id": "w875067960",
+      "new_object": "MAPPED_VENT_w875067960",
+      "archived": [
+        "BLOCK_w875067960_CORE",
+        "BLOCK_w875067960_FACADE"
+      ],
+      "height_m": 13.2,
+      "base_z_m": 0.0,
+      "height_status": "Estimated13.2m fallback; no height source",
+      "louver_blades": 340
+    },
+    {
+      "osm_id": "w875067963",
+      "new_object": "MAPPED_VENT_w875067963",
+      "archived": [
+        "COMP_OSM_EQUIP_875067963",
+        "BLOCK_w875067963_CORE",
+        "BLOCK_w875067963_FACADE"
+      ],
+      "height_m": 13.2,
+      "base_z_m": 0.0,
+      "height_status": "Estimated13.2m fallback; no height source",
+      "louver_blades": 340
+    },
+    {
+      "osm_id": "w875067964",
+      "new_object": "MAPPED_VENT_w875067964",
+      "archived": [
+        "COMP_OSM_EQUIP_875067964",
+        "BLOCK_w875067964_CORE",
+        "BLOCK_w875067964_FACADE"
+      ],
+      "height_m": 3.3,
+      "base_z_m": 0.0,
+      "height_status": "Preserved previous neighbor-height estimate",
+      "louver_blades": 76
+    },
+    {
+      "osm_id": "w875067965",
+      "new_object": "MAPPED_VENT_w875067965",
+      "archived": [
+        "BLOCK_w875067965_CORE",
+        "BLOCK_w875067965_FACADE"
+      ],
+      "height_m": 3.3,
+      "base_z_m": 0.0,
+      "height_status": "Preserved previous neighbor-height estimate",
+      "louver_blades": 76
+    },
+    {
+      "osm_id": "w875067966",
+      "new_object": "MAPPED_VENT_w875067966",
+      "archived": [
+        "BLOCK_w875067966_CORE",
+        "BLOCK_w875067966_FACADE"
+      ],
+      "height_m": 16.65,
+      "base_z_m": 0.0,
+      "height_status": "Estimated median of known heights in selected block",
+      "louver_blades": 432
+    },
+    {
+      "osm_id": "w875067971",
+      "new_object": "MAPPED_VENT_w875067971",
+      "archived": [
+        "BLOCK_w875067971_CORE",
+        "BLOCK_w875067971_FACADE"
+      ],
+      "height_m": 16.65,
+      "base_z_m": 0.0,
+      "height_status": "Estimated median of known heights in selected block",
+      "louver_blades": 432
+    },
+    {
+      "osm_id": "w1015817093",
+      "new_object": "MAPPED_VENT_w1015817093",
+      "archived": [
+        "BLOCK_w1015817093_CORE",
+        "BLOCK_w1015817093_FACADE"
+      ],
+      "height_m": 13.2,
+      "base_z_m": 0.0,
+      "height_status": "Estimated13.2m fallback; no height source",
+      "louver_blades": 340
+    },
+    {
+      "osm_id": "w1015818580",
+      "new_object": "MAPPED_VENT_w1015818580",
+      "archived": [
+        "COMP_OSM_EQUIP_1015818580",
+        "BLOCK_w1015818580_CORE",
+        "BLOCK_w1015818580_FACADE"
+      ],
+      "height_m": 3.3,
+      "base_z_m": 0.0,
+      "height_status": "Preserved previous neighbor-height estimate",
+      "louver_blades": 76
+    },
+    {
+      "osm_id": "w1015831689",
+      "new_object": "MAPPED_VENT_w1015831689",
+      "archived": [
+        "BLOCK_w1015831689_CORE",
+        "BLOCK_w1015831689_FACADE"
+      ],
+      "height_m": 3.3,
+      "base_z_m": 0.0,
+      "height_status": "OSM floor count x estimated3.3m",
+      "louver_blades": 76
+    },
+    {
+      "osm_id": "w1156916093",
+      "new_object": "MAPPED_VENT_w1156916093",
+      "archived": [
+        "BLOCK_w1156916093_CORE",
+        "BLOCK_w1156916093_FACADE"
+      ],
+      "height_m": 16.5,
+      "base_z_m": 0.0,
+      "height_status": "OSM floor count x estimated3.3m",
+      "louver_blades": 428
+    },
+    {
+      "osm_id": "w1164891302",
+      "new_object": "MAPPED_VENT_w1164891302",
+      "archived": [
+        "COMP_OSM_EQUIP_1164891302",
+        "BLOCK_w1164891302_CORE",
+        "BLOCK_w1164891302_FACADE"
+      ],
+      "height_m": 3.3,
+      "base_z_m": 0.0,
+      "height_status": "OSM floor count x estimated3.3m",
+      "louver_blades": 76
+    },
+    {
+      "osm_id": "w1345175506",
+      "new_object": "MAPPED_VENT_w1345175506",
+      "archived": [
+        "BLOCK_w1345175506_CORE",
+        "BLOCK_w1345175506_FACADE"
+      ],
+      "height_m": 3.3,
+      "base_z_m": 0.0,
+      "height_status": "OSM floor count x estimated3.3m",
+      "louver_blades": 76
+    },
+    {
+      "osm_id": "w1345175507",
+      "new_object": "MAPPED_VENT_w1345175507",
+      "archived": [
+        "BLOCK_w1345175507_CORE",
+        "BLOCK_w1345175507_FACADE"
+      ],
+      "height_m": 3.3,
+      "base_z_m": 0.0,
+      "height_status": "OSM floor count x estimated3.3m",
+      "louver_blades": 114
+    },
+    {
+      "osm_id": "w1346883411",
+      "new_object": "MAPPED_VENT_w1346883411",
+      "archived": [
+        "COMP_OSM_EQUIP_1346883411",
+        "BLOCK_w1346883411_CORE",
+        "BLOCK_w1346883411_FACADE"
+      ],
+      "height_m": 3.3,
+      "base_z_m": 0.0,
+      "height_status": "OSM floor count x estimated3.3m",
+      "louver_blades": 171
+    }
+  ],
+  "limits": "OSM type is not a field survey. Some inherited tall shaft heights are generic estimates and remain flagged; no blanket height substitution applied. Housing cladding/entry access await photos."
+}

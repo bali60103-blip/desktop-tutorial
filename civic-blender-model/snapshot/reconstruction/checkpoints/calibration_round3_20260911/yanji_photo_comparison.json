@@ -1,0 +1,15 @@
+{
+  "scene": "YANJI_PHOTO_COMPARISON_ESTIMATED",
+  "anchor_live_xy": [
+    4215.13232421875,
+    348.24920654296875
+  ],
+  "anchor_status": "Google contributor-photo map center; ±unknown position error; official schematic supports west-of-Yanji-Street entrance only",
+  "assumed_ramp_width_m": 5.8,
+  "assumed_ramp_run_m": 55,
+  "assumed_bottom_z_m": -3.6,
+  "posted_maxheight_observed_m": 1.8,
+  "adopted": false,
+  "reason": "Current parking envelope conflicts with photo-supported west entrance; do not excavate existing model using unmeasured photo coordinates",
+  "objects": 35
+}

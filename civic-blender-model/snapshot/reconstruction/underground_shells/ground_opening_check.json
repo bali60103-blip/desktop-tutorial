@@ -1,0 +1,19 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/YGroundOpenings/CIVIC_Y_GROUND_OPENINGS_20260910_174438.blend",
+  "patched_entries": [
+    "Y10",
+    "Y9"
+  ],
+  "patch_meshes": 6,
+  "nonmanifold_edges": 0,
+  "remaining_vertical_hits": [],
+  "samples": 46,
+  "limitations": "Local 18m-radius patch around two blocked entries, horizontal source faces only. 0.08m patch thickness assumed; source XY/topZ retained. Holes follow estimated stairs, not measured. No new terrain for other17 entries.",
+  "main_ground_unchanged": true,
+  "sha256": "da1bbedc81843c6c3d11fea6e95028357fe5173aef41659af62abbf9f85114ca",
+  "reviewed_renders": [
+    "Y9_ground_opening.png",
+    "Y10_ground_opening.png"
+  ],
+  "remaining_issue": "Ground/stair-top elevation mismatch remains uncalibrated; no terrain coverage asserted at other17 entrances."
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "name": "COMP_ACCESS_中林_0_CAMERA",
+    "file": "COMP_ACCESS_中林_0_CAMERA.png",
+    "position": [
+      1290.3153076171875,
+      721.5392456054688,
+      1.7791111469268799
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_中林_1_CAMERA",
+    "file": "COMP_ACCESS_中林_1_CAMERA.png",
+    "position": [
+      1126.855224609375,
+      731.1368408203125,
+      1.7789957523345947
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_公中_0_CAMERA",
+    "file": "COMP_ACCESS_公中_0_CAMERA.png",
+    "position": [
+      942.828857421875,
+      765.7069091796875,
+      1.7792500257492065
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_塔城_0_CAMERA",
+    "file": "COMP_ACCESS_塔城_0_CAMERA.png",
+    "position": [
+      -68.96290588378906,
+      985.6647338867188,
+      1.7786146402359009
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_延吉_0_CAMERA",
+    "file": "COMP_ACCESS_延吉_0_CAMERA.png",
+    "position": [
+      4484.52978515625,
+      331.827880859375,
+      1.7412844896316528
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_建復_0_CAMERA",
+    "file": "COMP_ACCESS_建復_0_CAMERA.png",
+    "position": [
+      2695.682373046875,
+      380.4914855957031,
+      1.7792757749557495
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_復敦_0_CAMERA",
+    "file": "COMP_ACCESS_復敦_0_CAMERA.png",
+    "position": [
+      3848.228759765625,
+      398.784423828125,
+      1.778029441833496
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_復敦_1_CAMERA",
+    "file": "COMP_ACCESS_復敦_1_CAMERA.png",
+    "position": [
+      3553.84423828125,
+      415.78448486328125,
+      1.7789057493209839
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_復敦_2_CAMERA",
+    "file": "COMP_ACCESS_復敦_2_CAMERA.png",
+    "position": [
+      3756.2392578125,
+      410.57550048828125,
+      1.7782413959503174
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_敦延_0_CAMERA",
+    "file": "COMP_ACCESS_敦延_0_CAMERA.png",
+    "position": [
+      4243.23046875,
+      357.2214050292969,
+      1.7781922817230225
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_敦延_1_CAMERA",
+    "file": "COMP_ACCESS_敦延_1_CAMERA.png",
+    "position": [
+      4008.32470703125,
+      386.9408874511719,
+      1.7791252136230469
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_林金_0_CAMERA",
+    "file": "COMP_ACCESS_林金_0_CAMERA.png",
+    "position": [
+      1599.8583984375,
+      670.88623046875,
+      1.7792786359786987
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "COMP_ACCESS_林金_1_CAMERA",
+    "file": "COMP_ACCESS_林金_1_CAMERA.png",
+    "position": [
+      1898.81201171875,
+      570.2015991210938,
+      1.7792763710021973
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "RAMP_CAM_B1_B2",
+    "file": "RAMP_CAM_B1_B2.png",
+    "position": [
+      1191.6195068359375,
+      727.42041015625,
+      -1.4181816577911377
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "RAMP_CAM_EAST_1F_B1",
+    "file": "RAMP_CAM_EAST_1F_B1.png",
+    "position": [
+      1287.3365478515625,
+      721.7999877929688,
+      2.1828765869140625
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "RAMP_CAM_WEST_1F_B1",
+    "file": "RAMP_CAM_WEST_1F_B1.png",
+    "position": [
+      1129.8388671875,
+      731.0299072265625,
+      2.185866355895996
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "中林_B1_B2_CAMERA",
+    "file": "中林_B1_B2_CAMERA.png",
+    "position": [
+      1208.728271484375,
+      727.896728515625,
+      -1.399999976158142
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "公中_B1_B2_CAMERA",
+    "file": "公中_B1_B2_CAMERA.png",
+    "position": [
+      931.9466552734375,
+      767.0302734375,
+      -1.399999976158142
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "塔城_B1_B2_CAMERA",
+    "file": "塔城_B1_B2_CAMERA.png",
+    "position": [
+      -123.64122772216797,
+      992.1361083984375,
+      -1.399999976158142
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "復敦_B1_B2_CAMERA",
+    "file": "復敦_B1_B2_CAMERA.png",
+    "position": [
+      3612.0810546875,
+      424.59967041015625,
+      -1.399999976158142
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "敦延_B1_B2_CAMERA",
+    "file": "敦延_B1_B2_CAMERA.png",
+    "position": [
+      4115.76123046875,
+      371.5154724121094,
+      -1.399999976158142
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  },
+  {
+    "name": "林金_B1_B2_CAMERA",
+    "file": "林金_B1_B2_CAMERA.png",
+    "position": [
+      1705.8018798828125,
+      635.2644653320312,
+      -1.399999976158142
+    ],
+    "scope": "Model-only review after bottom-floor closure; cutaway roofs hidden, physical ceiling clearance checked separately"
+  }
+]

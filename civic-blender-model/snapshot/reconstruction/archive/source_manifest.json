@@ -1,0 +1,75 @@
+{
+  "retrieved": "2026-09-09",
+  "sources": [
+    {
+      "file": "data/taipei-sidewalks.geojson",
+      "title": "Taipei New Construction Office sidewalk extents",
+      "url": "https://data.taipei/dataset/detail?id=715d3a83-8445-4496-b6bf-b0900538b7e7",
+      "note": "File updated 2026-01-14; collection history begins 2020; not proof of current ground condition",
+      "sha256": "edd23396fc53bf39e2e08a752b2886dce3039edbf813fdada27ac57ae2d11b6c"
+    },
+    {
+      "file": "data/taipei-roads.zip",
+      "title": "Taipei roads wider than 8m",
+      "url": "https://data.taipei/dataset/detail?id=ee2e4015-8844-48fb-aa57-31209909b0fc",
+      "note": "Survey 2014–2016; file updated 2025-09-17",
+      "sha256": "86e1821c2548c8ee8677fcc97b6aecc8b766936370c64d9584f4a6025fd4baaa"
+    },
+    {
+      "file": "data/civic-official-pier-polygons.geojson",
+      "title": "Facility polygons near bridge — identity unconfirmed",
+      "url": "https://data.taipei/dataset/detail?id=cb7c3b97-30f8-4dd7-b038-ca8f072fe74a",
+      "note": "墩柱 class is NOT proof of bridge pier",
+      "sha256": "86ca22a6a654b8c1692a43f346c14b2053e13d6c5262579c19bc89d791cd0eda"
+    },
+    {
+      "file": "data/civic-official-piers.geojson",
+      "title": "Facility point candidates",
+      "url": "https://data.taipei/dataset/detail?id=90ac3126-7325-4944-9761-ddee3c56f54e",
+      "note": "25 nearby candidates; not used as surveyed bridge supports",
+      "sha256": "a14354a4076dab3ea74bf485f905ffb1249c562d637004f5559a9087a2d3651c"
+    },
+    {
+      "file": "data/osm.json",
+      "title": "OSM corridor subset extracted from supplied taiwan-260908.osm.pbf",
+      "url": "https://www.openstreetmap.org/copyright",
+      "note": "© OpenStreetMap contributors, ODbL; centerlines and building outlines, incomplete attributes",
+      "sha256": "a1d07b86d09c77ae5d6cf416edab7d700f644cbb1ab28ee9b821cfc272b137d4"
+    },
+    {
+      "file": "data/ceci-2014.pdf",
+      "title": "CECI 市區高架道路與土木設施共構之建設工程",
+      "url": "https://www.ceci.org.tw/Upload/Download/BE9F1DB3-1378-4492-BE0A-F183E2BE3798.pdf",
+      "note": "2014; PDF pages12–14 used as engineering context, not pier coordinate survey",
+      "sha256": "102b34e9dbe386e9326b938b514fe17005e4cf6aed3f307bb031d3af66c5b822"
+    }
+  ],
+  "bridge_inventory": {
+    "url": "https://bridge.nco.taipei/bms2/guest/bridge/inventory.aspx?vid=28846",
+    "asset": "D028 市民大道主橋",
+    "length_m": 5802.5,
+    "spans": 160,
+    "clear_width_min_m": 18,
+    "clear_width_max_m": 28.5,
+    "note": "Different asset extent from full input corridor; not used to rescale all geometry"
+  },
+  "assumptions": {
+    "road_datum_z": 0,
+    "sidewalk_height_m": 0.15,
+    "deck_top_z_m": 8,
+    "deck_slab_thickness_m": 0.35,
+    "main_direction_width": "OSM lane count * 3.25 + 2.0 m",
+    "pier_xy": "Legacy interpolated hypotheses; NOT surveyed",
+    "pier_diameter_m": 2,
+    "pier_shaft_height_m": 4.8,
+    "cap_top_z_m": 5.6,
+    "guardrail_height_m": 1.1
+  },
+  "limitations": [
+    "No verified as-built pier table found online",
+    "No surveyed bridge elevation profile",
+    "No complete verified median boundaries",
+    "Ramps remain in hidden original archive, not rebuilt",
+    "Context building heights largely inferred; no claim of verified elevations"
+  ]
+}

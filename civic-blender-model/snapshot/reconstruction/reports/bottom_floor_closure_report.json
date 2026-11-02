@@ -1,0 +1,95 @@
+{
+  "floors_repaired": 7,
+  "stair_voids_closed": 11,
+  "area_added_m2": 206.0250507255696,
+  "items": [
+    {
+      "object": "COMP_塔城_B2_FLOOR",
+      "retained_object": "PRE_BOTTOM12_COMP_塔城_B2_FLOOR",
+      "area_added_m2": 37.59959589854407,
+      "closed_core_paths": [
+        "CORE_塔城_0_B2_A",
+        "CORE_塔城_1_B2_A"
+      ]
+    },
+    {
+      "object": "COMP_公中_B2_FLOOR",
+      "retained_object": "PRE_BOTTOM12_COMP_公中_B2_FLOOR",
+      "area_added_m2": 37.59225201793015,
+      "closed_core_paths": [
+        "CORE_公中_0_B2_A",
+        "CORE_公中_1_B2_A"
+      ]
+    },
+    {
+      "object": "COMP_中林_B2_FLOOR",
+      "retained_object": "PRE_BOTTOM12_COMP_中林_B2_FLOOR",
+      "area_added_m2": 18.784948654472828,
+      "closed_core_paths": [
+        "CORE_中林_1_B2_A"
+      ]
+    },
+    {
+      "object": "COMP_林金_B2_FLOOR",
+      "retained_object": "PRE_BOTTOM12_COMP_林金_B2_FLOOR",
+      "area_added_m2": 37.50572896748781,
+      "closed_core_paths": [
+        "CORE_林金_0_B2_A",
+        "CORE_林金_1_B2_A"
+      ]
+    },
+    {
+      "object": "COMP_建復_B1_FLOOR",
+      "retained_object": "PRE_BOTTOM12_COMP_建復_B1_FLOOR",
+      "area_added_m2": 18.654219806194305,
+      "closed_core_paths": [
+        "CORE_建復_0_B1_A"
+      ]
+    },
+    {
+      "object": "COMP_復敦_B2_FLOOR",
+      "retained_object": "PRE_BOTTOM12_COMP_復敦_B2_FLOOR",
+      "area_added_m2": 37.13290359824896,
+      "closed_core_paths": [
+        "CORE_復敦_0_B2_A",
+        "CORE_復敦_1_B2_A"
+      ]
+    },
+    {
+      "object": "COMP_敦延_B2_FLOOR",
+      "retained_object": "PRE_BOTTOM12_COMP_敦延_B2_FLOOR",
+      "area_added_m2": 18.75540178269148,
+      "closed_core_paths": [
+        "CORE_敦延_0_B2_A"
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "floor": "COMP_中林_B2_FLOOR",
+      "core_path": "CORE_中林_0_B2_A",
+      "reason": "No enclosed stair hole found; boundary notch requires separate review"
+    },
+    {
+      "floor": "COMP_建復_B1_FLOOR",
+      "core_path": "CORE_建復_1_B1_A",
+      "reason": "No enclosed stair hole found; boundary notch requires separate review"
+    },
+    {
+      "floor": "COMP_敦延_B2_FLOOR",
+      "core_path": "CORE_敦延_1_B2_A",
+      "reason": "No enclosed stair hole found; boundary notch requires separate review"
+    },
+    {
+      "floor": "COMP_延吉_B1_FLOOR",
+      "core_path": "CORE_延吉_0_B1_A",
+      "reason": "No enclosed stair hole found; boundary notch requires separate review"
+    },
+    {
+      "floor": "COMP_延吉_B1_FLOOR",
+      "core_path": "CORE_延吉_1_B1_A",
+      "reason": "No enclosed stair hole found; boundary notch requires separate review"
+    }
+  ],
+  "scope": "Close only enclosed generated stair voids in the lowest modeled parking floor. No upper circulation openings or unmatched boundary notches altered."
+}

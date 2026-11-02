@@ -1,0 +1,27 @@
+{
+  "road_views_rendered": 106,
+  "underground_views_rendered": 22,
+  "huashan_views_rendered": 3,
+  "visual_review": "All six current road contact sheets reviewed; underground contact sheet after floor and guard updates reviewed; photo-detail renders reviewed. This is visual model QA, not one-to-one real-image calibration.",
+  "remaining_camera_occlusions": [
+    "CIVIC200_02K400_N",
+    "CIVIC200_01K800_S",
+    "CIVIC200_00K600_N",
+    "CIVIC200_00K400_S",
+    "CIVIC200_00K000_S"
+  ],
+  "known_remaining_limits": [
+    "15 sampled main-scene paths blocked; nine in separate unadopted Gongzhong comparison",
+    "13 lowest-floor support misses at two estimated core edges",
+    "Dunyan/Yanji estimated footprint overlap retained per user",
+    "Several pier coordinates remain unverified",
+    "Most individual facades and equipment dimensions still estimated"
+  ],
+  "geometry_coverage": "3604 selected source records reconciled to visible models; not a cadastral/address-level completeness claim",
+  "vent_detail_views": 15,
+  "latest_road_render": "106 road views after ventilation updates; eight affected views at indices 78-85 rerendered after hotel and station replacement",
+  "landmark_detail_views": 3,
+  "new_landmark_component_meshes_checked": 3930,
+  "current_visible_meshes": 21445,
+  "current_visible_objects": 21601
+}

@@ -1,0 +1,54 @@
+{
+  "batch": "UB_STATION_006_010",
+  "object_count": 19,
+  "names": [
+    "UB_STATION_006_010_006_WALL_EST",
+    "UB_STATION_006_010_006_VENT_BASE_EST",
+    "UB_STATION_006_010_006_VENT_LOUVRE_EST",
+    "UB_STATION_006_010_006_VENT_HOOD_EST",
+    "UB_STATION_006_010_007_LOW_PLINTH_EST",
+    "UB_STATION_006_010_007_VENT_A_EST",
+    "UB_STATION_006_010_007_HOOD_A_EST",
+    "UB_STATION_006_010_007_VENT_B_EST",
+    "UB_STATION_006_010_007_HOOD_B_EST",
+    "UB_STATION_006_010_008_ENCLOSURE_WEST_EST",
+    "UB_STATION_006_010_008_ENCLOSURE_EAST_EST",
+    "UB_STATION_006_010_009_SOIL_PATCH_EST",
+    "UB_STATION_006_010_009_SHRUB_PATCH_EST",
+    "UB_STATION_006_010_010_LOW_ENCLOSURE_EST",
+    "UB_STATION_006_010_007_ROCK_745_EST",
+    "UB_STATION_006_010_007_ROCK_741_EST",
+    "UB_STATION_006_010_008_ROCK_816_EST",
+    "UB_STATION_006_010_008_ROCK_812_EST",
+    "UB_STATION_006_010_008_ROCK_821_EST"
+  ],
+  "surface_intersections": [],
+  "aabb_candidates": [
+    [
+      "UB_STATION_006_010_009_SOIL_PATCH_EST",
+      "COMP_ACCESS_公中_0_WALL_-1"
+    ],
+    [
+      "UB_STATION_006_010_009_SHRUB_PATCH_EST",
+      "UNVERIFIED_Pier_527"
+    ]
+  ],
+  "median_sample_issues": [],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ],
+  "soil_correction": {
+    "size": [
+      10,
+      1,
+      0.02
+    ],
+    "outside_samples": 0,
+    "additional_y_shift_m": -0.5
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "input_feature_count": 93,
+  "bounds_wgs84": [
+    121.5037481,
+    25.0439955,
+    121.5658228,
+    25.050951
+  ],
+  "highway_counts": {
+    "trunk_link": 5,
+    "trunk": 25,
+    "residential": 2,
+    "service": 5,
+    "path": 1,
+    "tertiary": 47,
+    "tertiary_link": 8
+  },
+  "road_names": [
+    "市民大道一段",
+    "市民大道三段",
+    "市民大道三段128巷",
+    "市民大道三段150巷",
+    "市民大道三段150巷12弄",
+    "市民大道三段150巷18弄",
+    "市民大道二段",
+    "市民大道二段5巷",
+    "市民大道二段67巷",
+    "市民大道五段",
+    "市民大道入口匝道",
+    "市民大道出口匝道",
+    "市民大道四段",
+    "市民大道四段48巷",
+    "市民大道四段68巷",
+    "市民大道高架道路"
+  ],
+  "scope_status": "Existing input does not establish coverage of all sections of Civic Boulevard. Gate A pending.",
+  "baseline": {
+    "file": "${CIVIC_MODEL_ROOT}/01_civic_georeferenced_rebuild.blend",
+    "units": "METRIC",
+    "scale_length": 1.0,
+    "collections": {
+      "01_Sidewalks_official_XY": 376,
+      "02_Roads_official_extent": 211,
+      "03_Islands_estimated_width": 2,
+      "04_Elevated_deck_estimated": 30,
+      "05_Parapets_estimated": 60,
+      "06_Steel_girders_estimated": 360,
+      "07_Piers_legacy_UNVERIFIED": 482,
+      "08_Official_column_candidates_HIDDEN": 13,
+      "10_Buildings_context": 1,
+      "09_Median_legacy_UNVERIFIED": 1,
+      "11_Presentation": 5,
+      "12_Landmark_reference_anchors": 4,
+      "13_Median_gap_inference": 7
+    },
+    "nonfinite_vertices": 0,
+    "archive_hidden": true,
+    "total_new_collection_objects": 1552,
+    "geometry_accuracy": "NOT survey verified; see source_manifest.json",
+    "verified_pier_count": 0
+  },
+  "assets": [
+    {
+      "name": "00_original_live_snapshot.blend",
+      "bytes": 17349446,
+      "sha256": "3a94ced181db30833a592bc0bab535d1458795fc068b2322166546cad3f80cef",
+      "github_binary_backup": false
+    },
+    {
+      "name": "01_civic_georeferenced_rebuild.blend",
+      "bytes": 23857198,
+      "sha256": "02f80d32e3ab619d6fb4fbaa2e90e1ce3a332ffc34be53072fd24903d0c03d64",
+      "github_binary_backup": false
+    },
+    {
+      "name": "README.md",
+      "bytes": 4747,
+      "sha256": "5b7453caab247c59394aeefd15163f6f34fe820667c1e1b069872cf3804f6cc0",
+      "github_binary_backup": null
+    },
+    {
+      "name": "assemble_geometry.py",
+      "bytes": 6500,
+      "sha256": "c2d78ea7470a1562f0b7c100f63a840509a01d7e65fea9caddcaa3484d825e82",
+      "github_binary_backup": null
+    },
+    {
+      "name": "build_check.json",
+      "bytes": 487,
+      "sha256": "eca5a6c196a025a696b384eaf8799038a0b2e88dea95d3b9672a9f871a7d9cf4",
+      "github_binary_backup": null
+    },
+    {
+      "name": "building_matches.json",
+      "bytes": 1055136,
+      "sha256": "4becb3e17399c91775f37df7d428b90d6a5fa036d4f9f3919154f53b17a7fce0",
+      "github_binary_backup": null
+    },
+    {
+      "name": "civic-audit.py",
+      "bytes": 2475,
+      "sha256": "96366320a95744c3f7dfb25b474a6cfe2fa8ccebafb195bed0f53eac1d2a78e5",
+      "github_binary_backup": null
+    },
+    {
+      "name": "civic-finish-scene.py",
+      "bytes": 1994,
+      "sha256": "0bbcf1c7cd019bc90d9e57e98238baf6d85164507e868c80b35f1d987ccc3af4",
+      "github_binary_backup": null
+    },
+    {
+      "name": "civic-refine-scene.py",
+      "bytes": 3686,
+      "sha256": "c01b43b7eaa510af25fc8e159026aff9761fa5e0268f483c8c90dccd729534d4",
+      "github_binary_backup": null
+    },
+    {
+      "name": "civic-supplements.py",
+      "bytes": 578,
+      "sha256": "56dd2f669e980e5c5321bf6d71da7a49acb13be02f0065467219af4ddb3eac90",
+      "github_binary_backup": null
+    },
+    {
+      "name": "final_scene_check.json",
+      "bytes": 839,
+      "sha256": "8435c0f2d1489ff27a0167186f24cc8e438ce9314be8405c6f9a711e88a814da",
+      "github_binary_backup": null
+    },
+    {
+      "name": "install_blender.py",
+      "bytes": 6538,
+      "sha256": "fe94871583b5923a692a68619c9681a575f2e328643b00f867212022dd4772e9",
+      "github_binary_backup": null
+    },
+    {
+      "name": "registration.json",
+      "bytes": 829,
+      "sha256": "ee49a6c9d3acc1c181f1a1574cc0596115eb0f1d26f0d85e24fab15df70f1cea",
+      "github_binary_backup": null
+    },
+    {
+      "name": "source_manifest.json",
+      "bytes": 3339,
+      "sha256": "85b94f4d86eac506215e96bce8681a5482ba1424f758cc554a11cd9d11ed34b2",
+      "github_binary_backup": null
+    }
+  ]
+}

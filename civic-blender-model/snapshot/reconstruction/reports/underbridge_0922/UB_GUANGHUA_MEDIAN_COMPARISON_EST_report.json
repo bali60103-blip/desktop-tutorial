@@ -1,0 +1,54 @@
+{
+  "batch": "UB_GUANGHUA_MEDIAN_COMPARISON_EST",
+  "object_count": 3,
+  "names": [
+    "UB_GUANGHUA_MEDIAN_COMPARISON_EST_021_MEDIAN_BASE_EST",
+    "UB_GUANGHUA_MEDIAN_COMPARISON_EST_021_HEDGE_WEST_EST",
+    "UB_GUANGHUA_MEDIAN_COMPARISON_EST_022_HEDGE_EAST_EST"
+  ],
+  "surface_intersections": [],
+  "aabb_candidates": [
+    [
+      "UB_GUANGHUA_MEDIAN_COMPARISON_EST_021_MEDIAN_BASE_EST",
+      "COMP_OSM_EQUIP_1177794601"
+    ],
+    [
+      "UB_GUANGHUA_MEDIAN_COMPARISON_EST_021_MEDIAN_BASE_EST",
+      "BLOCK_w1177794601_CORE"
+    ],
+    [
+      "UB_GUANGHUA_MEDIAN_COMPARISON_EST_021_MEDIAN_BASE_EST",
+      "BLOCK_w1177794602_CORE"
+    ],
+    [
+      "UB_GUANGHUA_MEDIAN_COMPARISON_EST_021_MEDIAN_BASE_EST",
+      "BLOCK_w1345175523_CORE"
+    ],
+    [
+      "UB_GUANGHUA_MEDIAN_COMPARISON_EST_022_HEDGE_EAST_EST",
+      "UB_GUANGHUA_021_022_EST_022_VINE_ENCLOSURE_B_EST"
+    ]
+  ],
+  "median_sample_issues": [
+    {
+      "name": "UB_GUANGHUA_MEDIAN_COMPARISON_EST_021_MEDIAN_BASE_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_GUANGHUA_MEDIAN_COMPARISON_EST_021_HEDGE_WEST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_GUANGHUA_MEDIAN_COMPARISON_EST_022_HEDGE_EAST_EST",
+      "outside_samples": 4
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "batch_name": "UB_YANJI_PAIRED_EQUIPMENT_EST",
+  "observations": [
+    {
+      "pano": "Mqs5MSupW4FSCi88KmNx9Q",
+      "lat": 25.0446461,
+      "lon": 121.5553056,
+      "date": "2025-05",
+      "heading": 90,
+      "observed": [
+        "paired louvred equipment houses flanking central road"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    }
+  ],
+  "masses": [
+    {
+      "id": "NORTH",
+      "center": [
+        4538,
+        388,
+        1.83
+      ],
+      "size": [
+        22,
+        4,
+        3.3
+      ],
+      "angle": 10,
+      "kind": "box",
+      "material": "stone",
+      "pano": "Mqs5MSupW4FSCi88KmNx9Q",
+      "segment": "UB_X+045",
+      "placement_note": "Paired equipment houses visible from central ramp. Plan dimensions and offsets estimated; keep central carriageway open."
+    },
+    {
+      "id": "NORTH_GRILLE",
+      "center": [
+        4538.355110523329,
+        385.98606814509003,
+        1.65
+      ],
+      "size": [
+        18,
+        0.08,
+        2.6
+      ],
+      "angle": 10,
+      "kind": "box",
+      "material": "louvre",
+      "pano": "Mqs5MSupW4FSCi88KmNx9Q",
+      "segment": "UB_X+045",
+      "placement_note": "Schematic continuous grille band; openings and individual panel counts unverified."
+    },
+    {
+      "id": "SOUTH",
+      "center": [
+        4538,
+        365,
+        1.83
+      ],
+      "size": [
+        22,
+        4,
+        3.3
+      ],
+      "angle": 10,
+      "kind": "box",
+      "material": "stone",
+      "pano": "Mqs5MSupW4FSCi88KmNx9Q",
+      "segment": "UB_X+045",
+      "placement_note": "Paired equipment houses visible from central ramp. Plan dimensions and offsets estimated; keep central carriageway open."
+    },
+    {
+      "id": "SOUTH_GRILLE",
+      "center": [
+        4537.644889476671,
+        367.01393185490997,
+        1.65
+      ],
+      "size": [
+        18,
+        0.08,
+        2.6
+      ],
+      "angle": 10,
+      "kind": "box",
+      "material": "louvre",
+      "pano": "Mqs5MSupW4FSCi88KmNx9Q",
+      "segment": "UB_X+045",
+      "placement_note": "Schematic continuous grille band; openings and individual panel counts unverified."
+    }
+  ],
+  "full_corridor_complete": false
+}

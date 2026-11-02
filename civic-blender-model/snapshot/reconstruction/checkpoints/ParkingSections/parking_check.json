@@ -1,0 +1,174 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/ParkingSections/CIVIC_PARKING_SECTIONS_20260910_163751.blend",
+  "parking_sections": 8,
+  "floor_slabs": 14,
+  "interlevel_comparison_ramps": 6,
+  "ramp_cameras": [
+    "塔城_B1_B2_CAMERA",
+    "公中_B1_B2_CAMERA",
+    "中林_B1_B2_CAMERA",
+    "林金_B1_B2_CAMERA",
+    "復敦_B1_B2_CAMERA",
+    "敦延_B1_B2_CAMERA"
+  ],
+  "geometry_checks": [
+    {
+      "name": "塔城_B1",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "塔城_B2",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "塔城_B1_B2_RAMP_ASSUMED",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "公中_B1",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "公中_B2",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "公中_B1_B2_RAMP_ASSUMED",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "中林_B1",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "中林_B2",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "中林_B1_B2_RAMP_ASSUMED",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "林金_B1",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "林金_B2",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "林金_B1_B2_RAMP_ASSUMED",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "建復_B1",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "復敦_B1",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "復敦_B2",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "復敦_B1_B2_RAMP_ASSUMED",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "敦延_B1",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "敦延_B2",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "敦延_B1_B2_RAMP_ASSUMED",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "延吉_B1",
+      "nonmanifold_edges": 0
+    }
+  ],
+  "entry_candidate_markers": 13,
+  "overlaps": [
+    {
+      "sections": [
+        "敦延",
+        "延吉"
+      ],
+      "area_m2": 2040.0078840309518,
+      "status": "Estimated envelope overlap, not confirmed underground connection"
+    }
+  ],
+  "controls": {
+    "公園路": {
+      "station": 242.89571902206774,
+      "distance_m": 60.733725331616235,
+      "xy": [
+        302337.97719140665,
+        2771240.8778769863
+      ]
+    },
+    "中山北路一段": {
+      "station": 464.3334475715449,
+      "distance_m": 0.0,
+      "xy": [
+        302556.0505742621,
+        2771202.572158023
+      ]
+    },
+    "林森北路": {
+      "station": 802.7490449594803,
+      "distance_m": 0.0,
+      "xy": [
+        302893.1997830622,
+        2771176.089359776
+      ]
+    },
+    "金山北路": {
+      "station": 1481.658676311827,
+      "distance_m": 0.0,
+      "xy": [
+        303543.80729612045,
+        2770986.0402503796
+      ]
+    },
+    "建國南路一段": {
+      "station": 2078.0454188903677,
+      "distance_m": 0.0,
+      "xy": [
+        304121.27917115454,
+        2770845.345685353
+      ]
+    },
+    "復興南路一段": {
+      "station": 2830.652492121292,
+      "distance_m": 0.0,
+      "xy": [
+        304870.8909063414,
+        2770855.5152076655
+      ]
+    },
+    "敦化南路一段": {
+      "station": 3347.74775066367,
+      "distance_m": 0.0,
+      "xy": [
+        305384.7126393513,
+        2770858.384537599
+      ]
+    },
+    "延吉街": {
+      "station": 3844.387359696444,
+      "distance_m": 0.0,
+      "xy": [
+        305877.9662248619,
+        2770807.7111154213
+      ]
+    }
+  },
+  "limitations": "Separate comparison scene; all section widths and depths estimated. No stall arrangement, surveyed ramps, equipment or physical underground-street links claimed. Gongyuan road control projects over 60m; Yanji +/-100m is assumed. Main original model remains intact."
+}

@@ -1,0 +1,15 @@
+{
+  "scene": "UB_TAIYUAN_P123_PHOTO_COMPARISON",
+  "objects": 76,
+  "non_closed_meshes": [],
+  "source_url": "https://www.google.com/maps/@25.0491877,121.5149281,3a,45y,160h,90t/data=!3m4!1e1!3m2!1s7jxY9aXs4Z8BllYteOtqlw!2e0",
+  "adopted_in_working_scene": false,
+  "dimensions_verified": false,
+  "open_issues": [
+    "P123 identity observed but legacy pier match unresolved",
+    "column top and full height not verified",
+    "pipe back-side routes unknown",
+    "guard dimensions/count estimated",
+    "comparison only; do not duplicate into main without resolving legacy pier placement"
+  ]
+}

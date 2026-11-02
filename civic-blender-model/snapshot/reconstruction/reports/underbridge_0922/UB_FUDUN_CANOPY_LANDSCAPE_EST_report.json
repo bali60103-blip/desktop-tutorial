@@ -1,0 +1,68 @@
+{
+  "batch": "UB_FUDUN_CANOPY_LANDSCAPE_EST",
+  "object_count": 12,
+  "names": [
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_CANOPY_ROOF_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_CANOPY_POST_SW_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_CANOPY_POST_SE_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_CANOPY_POST_NW_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_CANOPY_POST_NE_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_GATE_UNIT_-2.15_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_GATE_UNIT_2.15_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_ROCK_3490_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_ROCK_3496_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_SHRUB_3650_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_SHRUB_3665_EST",
+    "UB_FUDUN_CANOPY_LANDSCAPE_EST_SHRUB_3698_EST"
+  ],
+  "surface_intersections": [
+    [
+      "UB_FUDUN_CANOPY_LANDSCAPE_EST_GATE_UNIT_-2.15_EST",
+      "COMP_ACCESS_\u5fa9\u6566_1_WALL_-1"
+    ]
+  ],
+  "aabb_candidates": [
+    [
+      "UB_FUDUN_CANOPY_LANDSCAPE_EST_CANOPY_POST_NE_EST",
+      "COMP_ACCESS_\u5fa9\u6566_1_WALL_-1"
+    ],
+    [
+      "UB_FUDUN_CANOPY_LANDSCAPE_EST_CANOPY_POST_NE_EST",
+      "COMP_ACCESS_\u5fa9\u6566_1_WALL_1"
+    ],
+    [
+      "UB_FUDUN_CANOPY_LANDSCAPE_EST_GATE_UNIT_-2.15_EST",
+      "COMP_ACCESS_\u5fa9\u6566_1_WALL_-1"
+    ],
+    [
+      "UB_FUDUN_CANOPY_LANDSCAPE_EST_GATE_UNIT_2.15_EST",
+      "COMP_ACCESS_\u5fa9\u6566_1_WALL_-1"
+    ],
+    [
+      "UB_FUDUN_CANOPY_LANDSCAPE_EST_GATE_UNIT_2.15_EST",
+      "COMP_ACCESS_\u5fa9\u6566_1_WALL_1"
+    ]
+  ],
+  "median_sample_issues": [
+    {
+      "name": "UB_FUDUN_CANOPY_LANDSCAPE_EST_GATE_UNIT_-2.15_EST",
+      "outside_samples": 2
+    },
+    {
+      "name": "UB_FUDUN_CANOPY_LANDSCAPE_EST_ROCK_3490_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_FUDUN_CANOPY_LANDSCAPE_EST_ROCK_3496_EST",
+      "outside_samples": 3
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

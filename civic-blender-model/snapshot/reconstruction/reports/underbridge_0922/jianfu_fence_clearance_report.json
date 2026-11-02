@@ -1,0 +1,17 @@
+{
+  "cuts": [
+    [
+      "UB_JIANFU_WALL_FENCE_EST_DARK_FENCE_EST",
+      "UNVERIFIED_Pier_235"
+    ]
+  ],
+  "remaining_hedge_pier_intersections": [],
+  "mesh_checks": [
+    {
+      "name": "UB_JIANFU_WALL_FENCE_EST_DARK_FENCE_EST",
+      "nonmanifold_edges": 0
+    }
+  ],
+  "median_base_pier_contact": "Expected model ground contact, not removed",
+  "dimensions_verified": false
+}

@@ -1,0 +1,11 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/CIVIC_FULL_WORKING_PASS_20260910_185632.blend",
+  "new_active_meshes": 4946,
+  "new_active_vertices": 55200,
+  "new_active_faces": 61152,
+  "mesh_issues": [],
+  "deferred_issues": 637,
+  "route_cameras_in_assembly": 106,
+  "estimated_access_cameras": 13,
+  "scope": "Finite geometry/zero-area/topology checks only. Overlaps, estimated layouts and site calibration deferred."
+}

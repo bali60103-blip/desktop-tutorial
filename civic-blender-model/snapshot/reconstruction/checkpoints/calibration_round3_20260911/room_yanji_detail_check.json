@@ -1,0 +1,26 @@
+{
+  "checked_meshes": 151,
+  "issues": [],
+  "drain_slot_checks": [
+    {
+      "drain": "UPPER",
+      "hit_object": "YANJI_DRAIN_CHANNEL_UPPER_BASE",
+      "depth_below_ramp_m": 0.12999999523162842,
+      "pass": true
+    },
+    {
+      "drain": "LOWER",
+      "hit_object": "YANJI_DRAIN_CHANNEL_LOWER_BASE",
+      "depth_below_ramp_m": 0.1299949722290039,
+      "pass": true
+    }
+  ],
+  "machine_rooms_detailed": 16,
+  "animation_camera_cuts_preserved": 106,
+  "frame_range": [
+    1,
+    2544
+  ],
+  "full_site_headroom_rerun": false,
+  "comparison_adopted": false
+}

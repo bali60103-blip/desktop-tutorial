@@ -1,0 +1,1503 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/RampDetail/CIVIC_RAMP_DETAIL_20260910_022450.blend",
+  "ramps": [
+    {
+      "ramp": "EAST_0_TO_B1_ASSUMED",
+      "length_m": 37.952995153230916,
+      "rise_m": -3.5999999046325684,
+      "transition_length_each_m": 3.0,
+      "maximum_grade": 0.10299546258769754,
+      "start_z": 0.0,
+      "end_z": -3.5999999046325684,
+      "endpoint_error_m": 0.0,
+      "landing_extension_m": 3,
+      "clear_width_m": 3.5,
+      "outer_width_m": 4.1,
+      "limitations": "No surveyed profile, turning envelope, waterproofing or hydraulic design; clearance must be checked separately."
+    },
+    {
+      "ramp": "WEST_0_TO_B1_ASSUMED",
+      "length_m": 45.01817672925996,
+      "rise_m": -3.5999999046325684,
+      "transition_length_each_m": 3.0,
+      "maximum_grade": 0.08567720412593859,
+      "start_z": 0.0,
+      "end_z": -3.5999999046325684,
+      "endpoint_error_m": 0.0,
+      "landing_extension_m": 3,
+      "clear_width_m": 3.5,
+      "outer_width_m": 4.1,
+      "limitations": "No surveyed profile, turning envelope, waterproofing or hydraulic design; clearance must be checked separately."
+    },
+    {
+      "ramp": "B1_TO_B2_TEST_RAMP",
+      "length_m": 35.99988270862996,
+      "rise_m": -3.5999999046325684,
+      "transition_length_each_m": 3.0,
+      "maximum_grade": 0.10909129394242104,
+      "start_z": -3.5999999046325684,
+      "end_z": -7.199999809265137,
+      "endpoint_error_m": 0.0,
+      "landing_extension_m": 3,
+      "clear_width_m": 3.5,
+      "outer_width_m": 4.1,
+      "limitations": "No surveyed profile, turning envelope, waterproofing or hydraulic design; clearance must be checked separately."
+    }
+  ],
+  "ground_apertures": [
+    {
+      "object": "GROUND_ROADS_OFFICIAL_XY",
+      "base_faces": 13964,
+      "evaluated_faces": 13986,
+      "status": "Unapplied modifiers; source mesh preserved. Face-count change does not alone verify opening."
+    },
+    {
+      "object": "GROUND_MEDIAN_WORKING_ESTIMATED",
+      "base_faces": 15905,
+      "evaluated_faces": 16031,
+      "status": "Unapplied modifiers; source mesh preserved. Face-count change does not alone verify opening."
+    },
+    {
+      "object": "GROUND_DATUM_Z0_not_surveyed_terrain",
+      "base_faces": 1,
+      "evaluated_faces": 13,
+      "status": "Unapplied modifiers; source mesh preserved. Face-count change does not alone verify opening."
+    }
+  ],
+  "mesh_count": 218,
+  "nonmanifold_edges": 0,
+  "support_samples": [
+    {
+      "cap": "UNVERIFIED_Pier_016_CAP_ESTIMATED",
+      "sample_xy": [
+        4419.60400390625,
+        345.79620361328125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_020_CAP_ESTIMATED",
+      "sample_xy": [
+        4488.666015625,
+        359.11492919921875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_036_CAP_ESTIMATED",
+      "sample_xy": [
+        4762.73876953125,
+        422.9284973144531
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_042_CAP_ESTIMATED",
+      "sample_xy": [
+        4866.765625,
+        436.7974548339844
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_048_CAP_ESTIMATED",
+      "sample_xy": [
+        4972.279296875,
+        438.2689208984375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_054_CAP_ESTIMATED",
+      "sample_xy": [
+        5077.82763671875,
+        437.3612976074219
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_060_CAP_ESTIMATED",
+      "sample_xy": [
+        5183.2373046875,
+        432.6264343261719
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_066_CAP_ESTIMATED",
+      "sample_xy": [
+        5287.70556640625,
+        418.1975402832031
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_074_CAP_ESTIMATED",
+      "sample_xy": [
+        3158.551025390625,
+        378.72698974609375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_078_CAP_ESTIMATED",
+      "sample_xy": [
+        3088.092041015625,
+        375.324951171875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_082_CAP_ESTIMATED",
+      "sample_xy": [
+        3017.569580078125,
+        377.3328857421875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_086_CAP_ESTIMATED",
+      "sample_xy": [
+        2947.089599609375,
+        380.7381896972656
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_090_CAP_ESTIMATED",
+      "sample_xy": [
+        2876.575439453125,
+        383.2888488769531
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_094_CAP_ESTIMATED",
+      "sample_xy": [
+        2806.02783203125,
+        384.7794189453125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_098_CAP_ESTIMATED",
+      "sample_xy": [
+        2735.485107421875,
+        386.34393310546875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_102_CAP_ESTIMATED",
+      "sample_xy": [
+        2665.0087890625,
+        389.85052490234375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_106_CAP_ESTIMATED",
+      "sample_xy": [
+        2594.560546875,
+        393.8793640136719
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_110_CAP_ESTIMATED",
+      "sample_xy": [
+        2524.31787109375,
+        400.2966613769531
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_114_CAP_ESTIMATED",
+      "sample_xy": [
+        2454.713623046875,
+        411.84423828125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_118_CAP_ESTIMATED",
+      "sample_xy": [
+        2386.7158203125,
+        430.6252746582031
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_122_CAP_ESTIMATED",
+      "sample_xy": [
+        2319.148681640625,
+        450.9700012207031
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_202_CAP_ESTIMATED",
+      "sample_xy": [
+        2283.107666015625,
+        450.4944152832031
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_206_CAP_ESTIMATED",
+      "sample_xy": [
+        2350.83984375,
+        429.77783203125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_210_CAP_ESTIMATED",
+      "sample_xy": [
+        2419.388427734375,
+        412.02783203125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_214_CAP_ESTIMATED",
+      "sample_xy": [
+        2488.63623046875,
+        397.2302551269531
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_218_CAP_ESTIMATED",
+      "sample_xy": [
+        2558.819580078125,
+        387.9774169921875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_234_CAP_ESTIMATED",
+      "sample_xy": [
+        2841.53125,
+        369.7743835449219
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_238_CAP_ESTIMATED",
+      "sample_xy": [
+        2912.16162109375,
+        364.45526123046875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_242_CAP_ESTIMATED",
+      "sample_xy": [
+        2982.8818359375,
+        360.5538330078125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_246_CAP_ESTIMATED",
+      "sample_xy": [
+        3053.651123046875,
+        357.77069091796875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_250_CAP_ESTIMATED",
+      "sample_xy": [
+        3124.442626953125,
+        358.29241943359375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_254_CAP_ESTIMATED",
+      "sample_xy": [
+        3194.72900390625,
+        366.9608459472656
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_259_CAP_ESTIMATED",
+      "sample_xy": [
+        5674.31884765625,
+        461.8337097167969
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_280_CAP_ESTIMATED",
+      "sample_xy": [
+        1337.62109375,
+        725.03564453125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_282_CAP_ESTIMATED",
+      "sample_xy": [
+        1302.6163330078125,
+        727.1038208007812
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_288_CAP_ESTIMATED",
+      "sample_xy": [
+        1197.60205078125,
+        733.3078002929688
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_294_CAP_ESTIMATED",
+      "sample_xy": [
+        1092.7607421875,
+        741.6419067382812
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_306_CAP_ESTIMATED",
+      "sample_xy": [
+        885.9351196289062,
+        780.05322265625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_310_CAP_ESTIMATED",
+      "sample_xy": [
+        816.793212890625,
+        791.9471435546875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_312_CAP_ESTIMATED",
+      "sample_xy": [
+        0.466159850358963,
+        966.744384765625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_318_CAP_ESTIMATED",
+      "sample_xy": [
+        108.06541442871094,
+        948.4107666015625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_324_CAP_ESTIMATED",
+      "sample_xy": [
+        212.83119201660156,
+        918.3034057617188
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_330_CAP_ESTIMATED",
+      "sample_xy": [
+        316.20440673828125,
+        883.4244995117188
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_336_CAP_ESTIMATED",
+      "sample_xy": [
+        421.0272521972656,
+        852.9166870117188
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_338_CAP_ESTIMATED",
+      "sample_xy": [
+        456.2373352050781,
+        843.722412109375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_340_CAP_ESTIMATED",
+      "sample_xy": [
+        491.44744873046875,
+        834.528076171875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_342_CAP_ESTIMATED",
+      "sample_xy": [
+        527.0753173828125,
+        827.2081298828125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_344_CAP_ESTIMATED",
+      "sample_xy": [
+        562.8639526367188,
+        820.6163940429688
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_346_CAP_ESTIMATED",
+      "sample_xy": [
+        598.6527709960938,
+        814.0245971679688
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_348_CAP_ESTIMATED",
+      "sample_xy": [
+        634.4414672851562,
+        807.432861328125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_350_CAP_ESTIMATED",
+      "sample_xy": [
+        670.230224609375,
+        800.841064453125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_352_CAP_ESTIMATED",
+      "sample_xy": [
+        706.0189819335938,
+        794.2493286132812
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_357_CAP_ESTIMATED",
+      "sample_xy": [
+        5350.24267578125,
+        416.00909423828125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_362_CAP_ESTIMATED",
+      "sample_xy": [
+        5246.69482421875,
+        434.6243591308594
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_368_CAP_ESTIMATED",
+      "sample_xy": [
+        5141.9765625,
+        444.0877990722656
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_374_CAP_ESTIMATED",
+      "sample_xy": [
+        5036.79931640625,
+        446.4757385253906
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_380_CAP_ESTIMATED",
+      "sample_xy": [
+        4931.59228515625,
+        447.8726501464844
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_386_CAP_ESTIMATED",
+      "sample_xy": [
+        4826.75732421875,
+        441.8130798339844
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_392_CAP_ESTIMATED",
+      "sample_xy": [
+        4723.1044921875,
+        424.0000305175781
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_394_CAP_ESTIMATED",
+      "sample_xy": [
+        4688.85302734375,
+        416.45343017578125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_396_CAP_ESTIMATED",
+      "sample_xy": [
+        4654.60205078125,
+        408.9070739746094
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_398_CAP_ESTIMATED",
+      "sample_xy": [
+        4620.35107421875,
+        401.360595703125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_400_CAP_ESTIMATED",
+      "sample_xy": [
+        4586.10107421875,
+        393.8143310546875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_402_CAP_ESTIMATED",
+      "sample_xy": [
+        4551.80517578125,
+        386.4772644042969
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_404_CAP_ESTIMATED",
+      "sample_xy": [
+        4517.4814453125,
+        379.271240234375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_408_CAP_ESTIMATED",
+      "sample_xy": [
+        4448.59130859375,
+        366.1189270019531
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_412_CAP_ESTIMATED",
+      "sample_xy": [
+        4378.79833984375,
+        359.28143310546875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_414_CAP_ESTIMATED",
+      "sample_xy": [
+        4343.79248046875,
+        357.7211608886719
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_416_CAP_ESTIMATED",
+      "sample_xy": [
+        4308.75,
+        359.1583251953125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_418_CAP_ESTIMATED",
+      "sample_xy": [
+        4273.77294921875,
+        361.7045593261719
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_420_CAP_ESTIMATED",
+      "sample_xy": [
+        4238.8203125,
+        364.58636474609375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_422_CAP_ESTIMATED",
+      "sample_xy": [
+        4203.88671875,
+        367.6987609863281
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_424_CAP_ESTIMATED",
+      "sample_xy": [
+        4169.01123046875,
+        371.34979248046875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_426_CAP_ESTIMATED",
+      "sample_xy": [
+        4134.2373046875,
+        375.9158630371094
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_428_CAP_ESTIMATED",
+      "sample_xy": [
+        4099.4638671875,
+        380.4818420410156
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_430_CAP_ESTIMATED",
+      "sample_xy": [
+        4064.690185546875,
+        385.0477294921875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_432_CAP_ESTIMATED",
+      "sample_xy": [
+        4029.91650390625,
+        389.6137390136719
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_434_CAP_ESTIMATED",
+      "sample_xy": [
+        3995.143310546875,
+        394.1796875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_438_CAP_ESTIMATED",
+      "sample_xy": [
+        3925.525634765625,
+        402.7381896972656
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_440_CAP_ESTIMATED",
+      "sample_xy": [
+        3890.677734375,
+        406.6969909667969
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_458_CAP_ESTIMATED",
+      "sample_xy": [
+        3576.6630859375,
+        426.81781005859375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_460_CAP_ESTIMATED",
+      "sample_xy": [
+        3541.852783203125,
+        422.234130859375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_464_CAP_ESTIMATED",
+      "sample_xy": [
+        5749.1171875,
+        537.1358032226562
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_465_CAP_ESTIMATED",
+      "sample_xy": [
+        5746.9521484375,
+        538.2832641601562
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_470_CAP_ESTIMATED",
+      "sample_xy": [
+        5805.1064453125,
+        641.0347900390625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_471_CAP_ESTIMATED",
+      "sample_xy": [
+        5804.71533203125,
+        641.233642578125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_472_CAP_ESTIMATED",
+      "sample_xy": [
+        5823.71142578125,
+        675.6998291015625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_476_CAP_ESTIMATED",
+      "sample_xy": [
+        5864.82568359375,
+        742.2678833007812
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_477_CAP_ESTIMATED",
+      "sample_xy": [
+        5864.4130859375,
+        742.6339721679688
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_492_CAP_ESTIMATED",
+      "sample_xy": [
+        369.6392822265625,
+        878.0471801757812
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_498_CAP_ESTIMATED",
+      "sample_xy": [
+        268.38250732421875,
+        908.4293212890625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_504_CAP_ESTIMATED",
+      "sample_xy": [
+        168.72633361816406,
+        944.0314331054688
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_510_CAP_ESTIMATED",
+      "sample_xy": [
+        65.47343444824219,
+        967.07470703125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_518_CAP_ESTIMATED",
+      "sample_xy": [
+        849.9261474609375,
+        772.58203125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_522_CAP_ESTIMATED",
+      "sample_xy": [
+        922.0216674804688,
+        761.0635375976562
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_524_CAP_ESTIMATED",
+      "sample_xy": [
+        958.0478515625,
+        755.1722412109375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_526_CAP_ESTIMATED",
+      "sample_xy": [
+        993.9000244140625,
+        748.3297729492188
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_528_CAP_ESTIMATED",
+      "sample_xy": [
+        1029.67919921875,
+        741.0859375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_534_CAP_ESTIMATED",
+      "sample_xy": [
+        1137.8712158203125,
+        724.7470092773438
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_540_CAP_ESTIMATED",
+      "sample_xy": [
+        1247.1741943359375,
+        717.962890625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_577_CAP_ESTIMATED",
+      "sample_xy": [
+        5826.23681640625,
+        680.4053344726562
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_582_CAP_ESTIMATED",
+      "sample_xy": [
+        5771.74365234375,
+        580.3496704101562
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_583_CAP_ESTIMATED",
+      "sample_xy": [
+        5772.35302734375,
+        580.009521484375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_598_CAP_ESTIMATED",
+      "sample_xy": [
+        -481.2143249511719,
+        1010.5742797851562
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_621_CAP_ESTIMATED",
+      "sample_xy": [
+        -272.4622802734375,
+        1026.0608825683594
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_623_CAP_ESTIMATED",
+      "sample_xy": [
+        741.6498413085938,
+        787.6866455078125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_624_CAP_ESTIMATED",
+      "sample_xy": [
+        777.8435668945312,
+        782.9996337890625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_642_CAP_ESTIMATED",
+      "sample_xy": [
+        3305.338134765625,
+        382.1122131347656
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_648_CAP_ESTIMATED",
+      "sample_xy": [
+        3418.71923828125,
+        396.9438171386719
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_658_CAP_ESTIMATED",
+      "sample_xy": [
+        3507.10595703125,
+        418.1150207519531
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_660_CAP_ESTIMATED",
+      "sample_xy": [
+        3472.319580078125,
+        413.9911193847656
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_666_CAP_ESTIMATED",
+      "sample_xy": [
+        3367.963134765625,
+        401.6199951171875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_672_CAP_ESTIMATED",
+      "sample_xy": [
+        3263.60595703125,
+        389.2486572265625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_674_CAP_ESTIMATED",
+      "sample_xy": [
+        3228.75439453125,
+        385.1182556152344
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_680_CAP_ESTIMATED",
+      "sample_xy": [
+        5700.65234375,
+        495.901611328125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_681_CAP_ESTIMATED",
+      "sample_xy": [
+        5700.650390625,
+        495.9003601074219
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_684_CAP_ESTIMATED",
+      "sample_xy": [
+        5633.521484375,
+        465.1521301269531
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_688_CAP_ESTIMATED",
+      "sample_xy": [
+        5565.2001953125,
+        436.86639404296875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_692_CAP_ESTIMATED",
+      "sample_xy": [
+        5496.02294921875,
+        410.9964599609375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_694_CAP_ESTIMATED",
+      "sample_xy": [
+        5460.111328125,
+        402.87225341796875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_706_CAP_ESTIMATED",
+      "sample_xy": [
+        5394.5146484375,
+        399.1211242675781
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_714_CAP_ESTIMATED",
+      "sample_xy": [
+        5538.39013671875,
+        407.74530029296875
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_718_CAP_ESTIMATED",
+      "sample_xy": [
+        5606.51611328125,
+        434.85406494140625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_726_CAP_ESTIMATED",
+      "sample_xy": [
+        3603.658935546875,
+        418.90618896484375
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_728_CAP_ESTIMATED",
+      "sample_xy": [
+        3639.603271484375,
+        419.902587890625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_730_CAP_ESTIMATED",
+      "sample_xy": [
+        3675.53955078125,
+        418.5260925292969
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_732_CAP_ESTIMATED",
+      "sample_xy": [
+        3711.38232421875,
+        415.7740173339844
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_734_CAP_ESTIMATED",
+      "sample_xy": [
+        3747.129150390625,
+        411.8253173828125
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_736_CAP_ESTIMATED",
+      "sample_xy": [
+        3782.876953125,
+        407.8765869140625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_738_CAP_ESTIMATED",
+      "sample_xy": [
+        3818.579345703125,
+        403.5445556640625
+      ],
+      "cap_top": 5.599999904632568,
+      "girder_underside_z": null,
+      "vertical_space_for_bearing_m": null,
+      "status": "Do not insert bearing without available gap or redesign; one sample cannot verify full contact"
+    }
+  ],
+  "camera_count": 44,
+  "status": "Working model. Ground openings and profile hypotheses need evidence; original pier positions retained; B/C not passed"
+}

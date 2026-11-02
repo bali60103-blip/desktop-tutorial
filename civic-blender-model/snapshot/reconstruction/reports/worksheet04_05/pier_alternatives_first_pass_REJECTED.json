@@ -1,0 +1,423 @@
+{
+  "summary": {
+    "bent_groups": 130,
+    "groups_intersecting_modeled_exclusions": 7,
+    "groups_with_translation_candidate": 7,
+    "unresolved_groups": 0
+  },
+  "limitations": [
+    "Crossing markings are inferred, with 1.5m buffer",
+    "Only six mapped Zhonglin access lines included, with assumed 3.5m exclusion radius",
+    "Bridge centerline width is estimated",
+    "Translations move a whole bent and cap together; spans, bearing contact and foundation conflicts require redesign",
+    "No available alternative is not proof that original position is safe"
+  ],
+  "groups": [
+    {
+      "cap": "UNVERIFIED_Pier_036_CAP_ESTIMATED",
+      "piers": [
+        "UNVERIFIED_Pier_036",
+        "UNVERIFIED_Pier_037"
+      ],
+      "center_xy": [
+        4762.73876953125,
+        422.9284973144531
+      ],
+      "original_overlap_m2": 4.658846236196622,
+      "candidate_options": [
+        {
+          "shift_m": -5,
+          "delta_xy": [
+            -4.835410397797844,
+            -1.2723231841275637
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -10,
+          "delta_xy": [
+            -9.670820795595688,
+            -2.5446463682551275
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 10,
+          "delta_xy": [
+            9.670820795595688,
+            2.5446463682551275
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -15,
+          "delta_xy": [
+            -14.50623119339353,
+            -3.816969552382691
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 15,
+          "delta_xy": [
+            14.50623119339353,
+            3.816969552382691
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -20,
+          "delta_xy": [
+            -19.341641591191376,
+            -5.089292736510255
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 20,
+          "delta_xy": [
+            19.341641591191376,
+            5.089292736510255
+          ],
+          "remaining_overlap_m2": 0.0
+        }
+      ],
+      "selected_for_comparison": {
+        "shift_m": -5,
+        "delta_xy": [
+          -4.835410397797844,
+          -1.2723231841275637
+        ],
+        "remaining_overlap_m2": 0.0
+      },
+      "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+      "nearest_other_bent_before_m": 39.64875942531738,
+      "nearest_other_bent_after_m": 34.87771213090284
+    },
+    {
+      "cap": "UNVERIFIED_Pier_114_CAP_ESTIMATED",
+      "piers": [
+        "UNVERIFIED_Pier_114",
+        "UNVERIFIED_Pier_115"
+      ],
+      "center_xy": [
+        2454.713623046875,
+        411.84423828125
+      ],
+      "original_overlap_m2": 0.295518751384003,
+      "candidate_options": [
+        {
+          "shift_m": -5,
+          "delta_xy": [
+            4.921202454894417,
+            -0.8841755470160637
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -10,
+          "delta_xy": [
+            9.842404909788835,
+            -1.7683510940321274
+          ],
+          "remaining_overlap_m2": 0.0
+        }
+      ],
+      "selected_for_comparison": {
+        "shift_m": -5,
+        "delta_xy": [
+          4.921202454894417,
+          -0.8841755470160637
+        ],
+        "remaining_overlap_m2": 0.0
+      },
+      "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+      "nearest_other_bent_before_m": 35.32567240027161,
+      "nearest_other_bent_after_m": 32.0872109568869
+    },
+    {
+      "cap": "UNVERIFIED_Pier_408_CAP_ESTIMATED",
+      "piers": [
+        "UNVERIFIED_Pier_408",
+        "UNVERIFIED_Pier_409"
+      ],
+      "center_xy": [
+        4448.59130859375,
+        366.1189270019531
+      ],
+      "original_overlap_m2": 1.9109704109150898,
+      "candidate_options": [
+        {
+          "shift_m": -5,
+          "delta_xy": [
+            4.967460992573925,
+            0.5695009106722055
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -10,
+          "delta_xy": [
+            9.93492198514785,
+            1.139001821344411
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 10,
+          "delta_xy": [
+            -9.93492198514785,
+            -1.139001821344411
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -15,
+          "delta_xy": [
+            14.902382977721777,
+            1.7085027320166164
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 15,
+          "delta_xy": [
+            -14.902382977721777,
+            -1.7085027320166164
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -20,
+          "delta_xy": [
+            19.8698439702957,
+            2.278003642688822
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 20,
+          "delta_xy": [
+            -19.8698439702957,
+            -2.278003642688822
+          ],
+          "remaining_overlap_m2": 0.0
+        }
+      ],
+      "selected_for_comparison": {
+        "shift_m": -5,
+        "delta_xy": [
+          4.967460992573925,
+          0.5695009106722055
+        ],
+        "remaining_overlap_m2": 0.0
+      },
+      "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+      "nearest_other_bent_before_m": 35.401651359483644,
+      "nearest_other_bent_after_m": 35.91485218098624
+    },
+    {
+      "cap": "UNVERIFIED_Pier_438_CAP_ESTIMATED",
+      "piers": [
+        "UNVERIFIED_Pier_438",
+        "UNVERIFIED_Pier_439"
+      ],
+      "center_xy": [
+        3925.525634765625,
+        402.7381896972656
+      ],
+      "original_overlap_m2": 3.1365484905460472,
+      "candidate_options": [
+        {
+          "shift_m": -5,
+          "delta_xy": [
+            4.9680460444739865,
+            -0.5643744324350461
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -10,
+          "delta_xy": [
+            9.936092088947973,
+            -1.1287488648700923
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 10,
+          "delta_xy": [
+            -9.936092088947973,
+            1.1287488648700923
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -15,
+          "delta_xy": [
+            14.904138133421958,
+            -1.6931232973051382
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 15,
+          "delta_xy": [
+            -14.904138133421958,
+            1.6931232973051382
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -20,
+          "delta_xy": [
+            19.872184177895946,
+            -2.2574977297401846
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 20,
+          "delta_xy": [
+            -19.872184177895946,
+            2.2574977297401846
+          ],
+          "remaining_overlap_m2": 0.0
+        }
+      ],
+      "selected_for_comparison": {
+        "shift_m": -5,
+        "delta_xy": [
+          4.9680460444739865,
+          -0.5643744324350461
+        ],
+        "remaining_overlap_m2": 0.0
+      },
+      "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+      "nearest_other_bent_before_m": 35.072043982730236,
+      "nearest_other_bent_after_m": 40.072043982725845
+    },
+    {
+      "cap": "UNVERIFIED_Pier_534_CAP_ESTIMATED",
+      "piers": [
+        "UNVERIFIED_Pier_534",
+        "UNVERIFIED_Pier_535"
+      ],
+      "center_xy": [
+        1137.8712158203125,
+        724.7470092773438
+      ],
+      "original_overlap_m2": 3.03831792331531,
+      "candidate_options": [
+        {
+          "shift_m": -15,
+          "delta_xy": [
+            -14.947070002971275,
+            1.2590068809487336
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": -20,
+          "delta_xy": [
+            -19.929426670628366,
+            1.678675841264978
+          ],
+          "remaining_overlap_m2": 0.0
+        }
+      ],
+      "selected_for_comparison": {
+        "shift_m": -15,
+        "delta_xy": [
+          -14.947070002971275,
+          1.2590068809487336
+        ],
+        "remaining_overlap_m2": 0.0
+      },
+      "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+      "nearest_other_bent_before_m": 48.170451436459096,
+      "nearest_other_bent_after_m": 33.97516729563081
+    },
+    {
+      "cap": "UNVERIFIED_Pier_540_CAP_ESTIMATED",
+      "piers": [
+        "UNVERIFIED_Pier_540",
+        "UNVERIFIED_Pier_541"
+      ],
+      "center_xy": [
+        1247.1741943359375,
+        717.962890625
+      ],
+      "original_overlap_m2": 3.1365484905459575,
+      "candidate_options": [
+        {
+          "shift_m": -15,
+          "delta_xy": [
+            -14.972536702929496,
+            0.9072732110170346
+          ],
+          "remaining_overlap_m2": 0.0
+        }
+      ],
+      "selected_for_comparison": {
+        "shift_m": -15,
+        "delta_xy": [
+          -14.972536702929496,
+          0.9072732110170346
+        ],
+        "remaining_overlap_m2": 0.0
+      },
+      "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+      "nearest_other_bent_before_m": 51.89280941830637,
+      "nearest_other_bent_after_m": 37.49104080656225
+    },
+    {
+      "cap": "UNVERIFIED_Pier_674_CAP_ESTIMATED",
+      "piers": [
+        "UNVERIFIED_Pier_674"
+      ],
+      "center_xy": [
+        3228.75439453125,
+        385.1182556152344
+      ],
+      "original_overlap_m2": 1.4972263050533894,
+      "candidate_options": [
+        {
+          "shift_m": 10,
+          "delta_xy": [
+            -9.95408696886339,
+            -0.9571586160632186
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 15,
+          "delta_xy": [
+            -14.931130453295086,
+            -1.435737924094828
+          ],
+          "remaining_overlap_m2": 0.0
+        },
+        {
+          "shift_m": 20,
+          "delta_xy": [
+            -19.90817393772678,
+            -1.9143172321264372
+          ],
+          "remaining_overlap_m2": 0.0
+        }
+      ],
+      "selected_for_comparison": {
+        "shift_m": 10,
+        "delta_xy": [
+          -9.95408696886339,
+          -0.9571586160632186
+        ],
+        "remaining_overlap_m2": 0.0
+      },
+      "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+      "nearest_other_bent_before_m": 35.09546446711125,
+      "nearest_other_bent_after_m": 29.585068800908786
+    }
+  ]
+}

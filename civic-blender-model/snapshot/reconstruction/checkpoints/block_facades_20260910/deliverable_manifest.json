@@ -1,0 +1,10 @@
+{
+  "model": "CIVIC_303_BLOCKS_FACADES_WORKING_20260910_212118.blend",
+  "model_bytes": 68876681,
+  "model_sha256": "0411cffa47c85de03447ca2f8683110c7e18d6cbdd669abd4d64602e460f888c",
+  "camera_images": 128,
+  "checked_blocks": 303,
+  "building_records": 3604,
+  "facade_instances": 628551,
+  "backup_scope": "Scripts and text checkpoints on GitHub; .blend, source geometry payloads and imagery local"
+}

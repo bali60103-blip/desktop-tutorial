@@ -1,0 +1,24 @@
+{
+  "route_way_count": 136,
+  "groups": {
+    "elevated": 30,
+    "ground": 106
+  },
+  "ground_sections": [
+    "市民大道一段",
+    "市民大道七段",
+    "市民大道三段",
+    "市民大道二段",
+    "市民大道五段",
+    "市民大道八段",
+    "市民大道六段",
+    "市民大道四段"
+  ],
+  "control_candidates": 28,
+  "map_label_seen": 9,
+  "duplicate_refs": {},
+  "roundtrip_max_m": 0.0,
+  "independent_survey_accuracy_m": null,
+  "underground_elevation_verified": false,
+  "gate_B_status": "Not passed: mapped references prepared; source-plan registration and elevation control incomplete"
+}

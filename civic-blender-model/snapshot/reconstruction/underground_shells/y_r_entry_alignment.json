@@ -1,0 +1,322 @@
+[
+  {
+    "ref": "R1",
+    "osm_id": 3192472090,
+    "live_xy": [
+      874.104471734436,
+      809.3139351382376
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 10.715191047166073,
+    "nearest_boundary_xy": [
+      865.5185511926694,
+      815.7246517618095
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y21",
+    "osm_id": 3505143596,
+    "live_xy": [
+      189.84770686506042,
+      951.4009382533122
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 2.903417442143147,
+    "nearest_boundary_xy": [
+      190.83203557673423,
+      954.1324085223644
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y9",
+    "osm_id": 3505143998,
+    "live_xy": [
+      549.4042700262952,
+      848.889728133995
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 1.8918830483950668,
+    "nearest_boundary_xy": [
+      549.7091041961413,
+      850.756891115017
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y26",
+    "osm_id": 3505144000,
+    "live_xy": [
+      121.83073261286829,
+      926.8633642997104
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 5.788046465617078,
+    "distance_to_boundary_m": 5.788046465617078,
+    "nearest_boundary_xy": [
+      122.9480438670305,
+      932.5425453541816
+    ],
+    "inside": false
+  },
+  {
+    "ref": "Y27",
+    "osm_id": 3505144002,
+    "live_xy": [
+      30.144631868653548,
+      987.0290421588916
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 10.049808436854683,
+    "distance_to_boundary_m": 10.049808436854683,
+    "nearest_boundary_xy": [
+      39.97023267859943,
+      984.9180664742693
+    ],
+    "inside": false
+  },
+  {
+    "ref": "Y17",
+    "osm_id": 3505144196,
+    "live_xy": [
+      337.8234461710095,
+      898.0184636933465
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 3.531947528831661,
+    "nearest_boundary_xy": [
+      338.7158716001388,
+      901.4358062573666
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y19",
+    "osm_id": 3505144197,
+    "live_xy": [
+      260.781533120425,
+      922.4604238412923
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 5.5660663608881515,
+    "nearest_boundary_xy": [
+      262.7752740573763,
+      927.6571624156421
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y10",
+    "osm_id": 3505145593,
+    "live_xy": [
+      586.779804140261,
+      803.7727895121765
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 2.2845423654548007,
+    "distance_to_boundary_m": 2.2845423654548007,
+    "nearest_boundary_xy": [
+      587.1826563436381,
+      806.0215322546421
+    ],
+    "inside": false
+  },
+  {
+    "ref": "Y12",
+    "osm_id": 3505145993,
+    "live_xy": [
+      529.9531816526106,
+      813.6248161541212
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 2.607607799099608,
+    "distance_to_boundary_m": 2.607607799099608,
+    "nearest_boundary_xy": [
+      530.4130026492772,
+      816.191561775516
+    ],
+    "inside": false
+  },
+  {
+    "ref": "Y23",
+    "osm_id": 3505145996,
+    "live_xy": [
+      133.22397349810515,
+      966.55003932929
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 2.6140310373011264,
+    "nearest_boundary_xy": [
+      133.71842752607438,
+      969.1168804771211
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y25",
+    "osm_id": 3505146395,
+    "live_xy": [
+      94.93177962372071,
+      974.4026345299679
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 2.1463108916923956,
+    "nearest_boundary_xy": [
+      95.33776258663428,
+      976.5101990669682
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y28",
+    "osm_id": 3699813329,
+    "live_xy": [
+      44.7162235074382,
+      943.9623934900319
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 4.088993741213546,
+    "nearest_boundary_xy": [
+      43.86144432120949,
+      939.9637409221693
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y11",
+    "osm_id": 4406419433,
+    "live_xy": [
+      526.9285464533536,
+      852.6808993617598
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 1.7761883706063748,
+    "nearest_boundary_xy": [
+      527.219804646999,
+      854.43304484445
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y13",
+    "osm_id": 4406419435,
+    "live_xy": [
+      452.4425373115721,
+      894.72137092182
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 22.27365066414428,
+    "distance_to_boundary_m": 22.27365066414428,
+    "nearest_boundary_xy": [
+      446.56569161265196,
+      873.2369998921757
+    ],
+    "inside": false
+  },
+  {
+    "ref": "Y14",
+    "osm_id": 4406419436,
+    "live_xy": [
+      464.47739443285724,
+      829.2372761581245
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 1.7322926113171657,
+    "distance_to_boundary_m": 1.7322926113171657,
+    "nearest_boundary_xy": [
+      464.90873916518046,
+      830.915006593302
+    ],
+    "inside": false
+  },
+  {
+    "ref": "Y15",
+    "osm_id": 4406419437,
+    "live_xy": [
+      404.7278324918561,
+      880.7382520307231
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 3.3465617501044993,
+    "nearest_boundary_xy": [
+      405.5734160634027,
+      883.9762242311585
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y16",
+    "osm_id": 4406419438,
+    "live_xy": [
+      432.06770412005443,
+      836.9894878120942
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 2.3057428646905596,
+    "distance_to_boundary_m": 2.3057428646905596,
+    "nearest_boundary_xy": [
+      432.66024273946937,
+      839.21779392719
+    ],
+    "inside": false
+  },
+  {
+    "ref": "Y18",
+    "osm_id": 4406419440,
+    "live_xy": [
+      370.8560096897789,
+      851.1011046026341
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 4.390021975515492,
+    "distance_to_boundary_m": 4.390021975515492,
+    "nearest_boundary_xy": [
+      371.8973490982428,
+      855.3658326340435
+    ],
+    "inside": false
+  },
+  {
+    "ref": "Y20",
+    "osm_id": 5318551122,
+    "live_xy": [
+      339.3009299410876,
+      867.6627766269769
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 0.0,
+    "distance_to_boundary_m": 4.213916469520315,
+    "nearest_boundary_xy": [
+      338.30136380949176,
+      863.5691279414323
+    ],
+    "inside": true
+  },
+  {
+    "ref": "Y22",
+    "osm_id": 12433935207,
+    "live_xy": [
+      246.96353131369318,
+      886.3311494013831
+    ],
+    "nearest_legacy": "Taipei_Station_Underground",
+    "distance_to_polygon_m": 5.840202469719969,
+    "distance_to_boundary_m": 5.840202469719969,
+    "nearest_boundary_xy": [
+      248.9218578075957,
+      891.833232845916
+    ],
+    "inside": false
+  }
+]

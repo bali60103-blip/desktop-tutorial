@@ -1,0 +1,628 @@
+{
+  "batch_name": "UB_GUANGHUA_021_022_EST",
+  "observations": [
+    {
+      "segment": "UB_X+005",
+      "pano": "fpBvxPDafuSLZq7KqrDa2A",
+      "lat": 25.0487937,
+      "lon": 121.5158176,
+      "date": "2025-02",
+      "status": "elevated_overview_only",
+      "observed": [
+        "opposite viaduct",
+        "low roofs beneath opposite span"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+006",
+      "pano": "ff___MA_weEO7gJ-dj-I3A",
+      "lat": 25.0485998,
+      "lon": 121.516809,
+      "date": "2025-05",
+      "heading": 10,
+      "status": "partial_ground_view",
+      "observed": [
+        "long stone-faced enclosure",
+        "adjacent hipped vent hood with louvres",
+        "paved forecourt",
+        "low retaining wall",
+        "curb"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+007",
+      "pano": "WoTp__lI-8855U_79CL80A",
+      "lat": 25.0485264,
+      "lon": 121.5173035,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "open cobbled median",
+        "long low stone plinth/wall",
+        "column base picket guards",
+        "raised curb",
+        "Y6 entrance and bus shelter opposite road"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+007",
+      "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+      "lat": 25.0484129,
+      "lon": 121.5179998,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "two adjacent green hipped louvre hoods",
+        "landscape boulders",
+        "small fenced bed",
+        "cobbled paving",
+        "column guards"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+008",
+      "pano": "thep3S5iPBSW9exGL5CO_g",
+      "lat": 25.048353,
+      "lon": 121.5183957,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "boulder landscape on gravel",
+        "stone enclosure at median end",
+        "U-turn opening beyond enclosure",
+        "column picket guard",
+        "road sign"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+008",
+      "pano": "PdYrpyY5JzRWty-6BTCaYw",
+      "lat": 25.0483018,
+      "lon": 121.5187415,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "wide U-turn opening",
+        "pointed median nose beyond opening",
+        "flat top enclosure with dark louvre panels",
+        "column perimeter fence"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+009",
+      "pano": "VuDIJbb1MdeZ8i5VHTxpZw",
+      "lat": 25.0482145,
+      "lon": 121.5192862,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "公園中山 underground parking entrance sign and height frame",
+        "ramp edge walls",
+        "narrow planted curb strip",
+        "round bridge columns with guards"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+009",
+      "pano": "dwnmAqivRESJAtK18Sb9vw",
+      "lat": 25.0481383,
+      "lon": 121.5197849,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "ramp wall with white coping",
+        "bare soil median",
+        "picket guard at end",
+        "small median trees further east"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+009",
+      "pano": "JDzQHdf53-iyGiEgCwyGgg",
+      "lat": 25.0480666,
+      "lon": 121.5202052,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "dense shrubs and small trees in median",
+        "roadside no-turn sign",
+        "median ends before Zhongshan junction"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+010",
+      "pano": "KDlqhgAP6r2QIz0x_yWfSQ",
+      "lat": 25.0479197,
+      "lon": 121.5210879,
+      "date": "2025-02",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "planted median nose",
+        "low stone enclosure between portal columns",
+        "separate turning opening west of island"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+011",
+      "pano": "SBu9uXniGhP4O-HNyevkIw",
+      "lat": 25.0478565,
+      "lon": 121.5215839,
+      "date": "2025-02",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "ramp retaining wall",
+        "narrow continuous shrub band",
+        "yellow railing at parking opening",
+        "column guard"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+012",
+      "pano": "upFbjEk13qEEQWlgIULMCw",
+      "lat": 25.0478047,
+      "lon": 121.522336,
+      "date": "2023-03",
+      "heading": 100,
+      "status": "partial_ground_view_occluded",
+      "observed": [
+        "Tianjin junction traffic signals",
+        "median shrubs",
+        "parking direction boards",
+        "blurred/occluded foreground"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+012",
+      "pano": "ZgE-HFiWqHTECOSw8S6Kgg",
+      "lat": 25.0477891,
+      "lon": 121.5230901,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "long sunken parking ramp opening",
+        "stone sidewalls and white coping",
+        "continuous narrow hedge outside ramp",
+        "roadside frame/sign"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+013",
+      "pano": "B0XewvKlNEUYQVIiP7QEIQ",
+      "lat": 25.0476951,
+      "lon": 121.5241113,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_junction_view",
+      "observed": [
+        "Linsen junction clear crossing",
+        "hedged median east of crossing",
+        "beige equipment cabinet between first columns east",
+        "signals"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+014",
+      "pano": "g1qfNHBGxt8bQ9Mxtk4-WQ",
+      "lat": 25.0476371,
+      "lon": 121.524588,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "irregular shrub beds",
+        "landscape boulder",
+        "picket column guards",
+        "electronic message board and steel support"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+015",
+      "pano": "9Xu4q5UelsxwgV3WUg6tDg",
+      "lat": 25.0474631,
+      "lon": 121.5254828,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "parallel clipped hedge beds",
+        "decorative circular plaque on column",
+        "small dark freestanding information board",
+        "painted column without visible base guard"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+016",
+      "pano": "kQpshBYGSJVRbdO4dhjoBg",
+      "lat": 25.0472215,
+      "lon": 121.5263696,
+      "date": "2025-04",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "hedged beds with transverse paved paths",
+        "decorated columns without base fences in view",
+        "U-turn direction sign",
+        "low curb"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+017",
+      "pano": "EJnaX5A24nUes5wWotO5yg",
+      "lat": 25.0469409,
+      "lon": 121.5272736,
+      "date": "2025-04",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "curved U-turn lane at west",
+        "narrow hedge median",
+        "low enclosure between columns",
+        "Linjin parking pedestrian entrance 5 across road"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+018",
+      "pano": "Jse0dXNcWtnaiOTs5a4Vqw",
+      "lat": 25.0466669,
+      "lon": 121.5281801,
+      "date": "2025-04",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "parking ramp exit below elevated ramp",
+        "height restriction gantry",
+        "ramp stone sidewalls",
+        "narrow hedge bands",
+        "guarded portal columns"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+019",
+      "pano": "Zk9yRm4TDWEgm2LCAfNGtQ",
+      "lat": 25.0463142,
+      "lon": 121.5290826,
+      "date": "2024-09",
+      "heading": 100,
+      "status": "partial_sidewalk_view",
+      "observed": [
+        "ramp screen and parapet",
+        "hedges between sidewalk and ramp",
+        "lamp posts",
+        "park perimeter fence"
+      ],
+      "dimensions_verified": false,
+      "limits": "Under-ramp space partly obscured"
+    },
+    {
+      "segment": "UB_X+019",
+      "pano": "aOv-shv6M6ES_3nd_LkhpA",
+      "lat": 25.0462506,
+      "lon": 121.5293192,
+      "date": "2024-09",
+      "heading": 100,
+      "status": "partial_sidewalk_view",
+      "observed": [
+        "raised stone planters in stepped sections",
+        "parallel clipped hedge strips",
+        "white portal column",
+        "ramp screen",
+        "park fence and retaining wall"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+019",
+      "pano": "j2sJsLSZ2kcjkVS7y2JBRw",
+      "lat": 25.0461874,
+      "lon": 121.5295219,
+      "date": "2024-09",
+      "heading": 100,
+      "status": "partial_sidewalk_view",
+      "observed": [
+        "parallel raised planters",
+        "motorcycle parking gaps",
+        "park fence",
+        "ramp side screen"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+019",
+      "pano": "mbnGxPg__qYfl6EcT6O0bg",
+      "lat": 25.0460987,
+      "lon": 121.5298408,
+      "date": "2024-09",
+      "heading": 100,
+      "status": "partial_sidewalk_view",
+      "observed": [
+        "end of park fence",
+        "raised stone planters",
+        "motorcycle parking gaps",
+        "under-ramp side road"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+019",
+      "pano": "oaAcr96uLwMRwPggIMaSPA",
+      "lat": 25.0460206,
+      "lon": 121.5299992,
+      "date": "2024-09",
+      "heading": 100,
+      "status": "partial_sidewalk_view",
+      "observed": [
+        "U-turn lane sign",
+        "column picket guard",
+        "stepped planters",
+        "linear drain along park path",
+        "motorcycle parking"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+020",
+      "pano": "Z4fYjkl4Ptiv8N_GFa3uzg",
+      "lat": 25.0459264,
+      "lon": 121.5302478,
+      "date": "2024-09",
+      "heading": 100,
+      "status": "partial_junction_sidewalk_view",
+      "observed": [
+        "transverse elevated crossing",
+        "planter end",
+        "column base guard",
+        "signals",
+        "open paved park edge"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+020",
+      "pano": "UTyZdhlFPApdQNTv-tHpbg",
+      "lat": 25.0459022,
+      "lon": 121.5303732,
+      "date": "2024-09",
+      "heading": 100,
+      "status": "partial_junction_sidewalk_view",
+      "observed": [
+        "金山北路 crossing label",
+        "three light bollards at crossing",
+        "small planted pier nose",
+        "signal poles",
+        "transverse bridge pier"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+020",
+      "pano": "-8viFBK4fuMnPijjMYKKSQ",
+      "lat": 25.0458083,
+      "lon": 121.5307932,
+      "date": "2025-05",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "junction median end",
+        "column picket guards",
+        "continuous clipped hedge on median edge",
+        "open south sidewalk",
+        "signal poles"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+021",
+      "pano": "TdNRoe2SIvYRDGd1pR5XNg",
+      "lat": 25.0457327,
+      "lon": 121.5314468,
+      "date": "2025-04",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "paired stone faced enclosures foreground median",
+        "long low clipped hedges",
+        "column base guards",
+        "rear of electronic message sign"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+022",
+      "pano": "BTsQuxiakoKbtWbDIMst0w",
+      "lat": 25.0455241,
+      "lon": 121.5321124,
+      "date": "2025-04",
+      "heading": 100,
+      "status": "partial_ground_view",
+      "observed": [
+        "tall vine-covered rectangular enclosure masses",
+        "landscape boulders",
+        "low hedge border",
+        "small fenced planting pocket",
+        "column guard"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+022",
+      "pano": "htQxClxGohJNBfAvFaUo2g",
+      "lat": 25.0453892,
+      "lon": 121.5325893,
+      "date": "2025-04",
+      "heading": 100,
+      "status": "partial_junction_view",
+      "observed": [
+        "open Songjiang/Xinsheng junction",
+        "no median in intersection",
+        "signal poles",
+        "column guards beyond junction"
+      ],
+      "dimensions_verified": false
+    }
+  ],
+  "masses": [
+    {
+      "id": "021_STONE_A",
+      "center": [
+        2100,
+        518,
+        1.08
+      ],
+      "size": [
+        4.5,
+        3,
+        1.8
+      ],
+      "angle": -17,
+      "kind": "box",
+      "material": "stone",
+      "pano": "TdNRoe2SIvYRDGd1pR5XNg",
+      "segment": "UB_X+021",
+      "placement_note": "Photo-proportion estimate; working median missing in this section; exact enclosure footprint unresolved"
+    },
+    {
+      "id": "021_STONE_B",
+      "center": [
+        2106,
+        516.2,
+        1.08
+      ],
+      "size": [
+        4.5,
+        3,
+        1.8
+      ],
+      "angle": -17,
+      "kind": "box",
+      "material": "stone",
+      "pano": "TdNRoe2SIvYRDGd1pR5XNg",
+      "segment": "UB_X+021",
+      "placement_note": "Photo-proportion estimate; working median missing in this section; exact enclosure footprint unresolved"
+    },
+    {
+      "id": "022_VINE_ENCLOSURE_A",
+      "center": [
+        2206,
+        485,
+        1.88
+      ],
+      "size": [
+        10,
+        4,
+        3.4
+      ],
+      "angle": -17,
+      "kind": "box",
+      "material": "stone",
+      "pano": "BTsQuxiakoKbtWbDIMst0w",
+      "segment": "UB_X+022",
+      "placement_note": "Photo-proportion estimate; working median missing in this section; exact enclosure footprint unresolved"
+    },
+    {
+      "id": "022_VINE_ENCLOSURE_B",
+      "center": [
+        2220,
+        480.8,
+        1.78
+      ],
+      "size": [
+        8,
+        4,
+        3.2
+      ],
+      "angle": -17,
+      "kind": "box",
+      "material": "stone",
+      "pano": "BTsQuxiakoKbtWbDIMst0w",
+      "segment": "UB_X+022",
+      "placement_note": "Photo-proportion estimate; working median missing in this section; exact enclosure footprint unresolved"
+    },
+    {
+      "id": "022_VINE_TOP_A",
+      "center": [
+        2206,
+        485,
+        3.755
+      ],
+      "size": [
+        10.4,
+        4.4,
+        0.35
+      ],
+      "angle": -17,
+      "kind": "box",
+      "material": "shrub",
+      "pano": "BTsQuxiakoKbtWbDIMst0w",
+      "segment": "UB_X+022",
+      "placement_note": "Photo-proportion estimate; working median missing in this section; exact enclosure footprint unresolved"
+    },
+    {
+      "id": "022_VINE_TOP_B",
+      "center": [
+        2220,
+        480.8,
+        3.555
+      ],
+      "size": [
+        8.4,
+        4.4,
+        0.35
+      ],
+      "angle": -17,
+      "kind": "box",
+      "material": "shrub",
+      "pano": "BTsQuxiakoKbtWbDIMst0w",
+      "segment": "UB_X+022",
+      "placement_note": "Photo-proportion estimate; working median missing in this section; exact enclosure footprint unresolved"
+    },
+    {
+      "id": "022_ROCK",
+      "center": [
+        2194,
+        487,
+        0.18
+      ],
+      "size": [
+        2.7,
+        2,
+        1.1
+      ],
+      "angle": -17,
+      "kind": "rock",
+      "material": "rock",
+      "pano": "BTsQuxiakoKbtWbDIMst0w",
+      "segment": "UB_X+022",
+      "placement_note": "Estimated landscape boulder before vine-covered enclosure"
+    }
+  ],
+  "full_corridor_complete": false
+}

@@ -1,0 +1,44 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/B_OfficialControls/B_operator_controls_20260910_003148.blend",
+  "official_markers": 14,
+  "objects": 22,
+  "flags": [
+    {
+      "name": "台北車站M6",
+      "osm_id": "3707479441",
+      "distance_m": 13.410476059896446,
+      "osm_live_xy": [
+        651.7766369200658,
+        525.3305391124404
+      ]
+    },
+    {
+      "name": "台北車站M8",
+      "osm_id": "2793285506",
+      "distance_m": 18.390928660465953,
+      "osm_live_xy": [
+        722.217405906612,
+        488.9580030705454
+      ]
+    },
+    {
+      "name": "台北車站M2",
+      "osm_id": "2793285508",
+      "distance_m": 10.319146807441934,
+      "osm_live_xy": [
+        873.2505584857413,
+        745.2096169477612
+      ]
+    },
+    {
+      "name": "台北車站M3",
+      "osm_id": "3505143793",
+      "distance_m": 10.102733684827022,
+      "osm_live_xy": [
+        751.4052046275925,
+        545.516674246036
+      ]
+    }
+  ],
+  "previous_markers_preserved": true
+}

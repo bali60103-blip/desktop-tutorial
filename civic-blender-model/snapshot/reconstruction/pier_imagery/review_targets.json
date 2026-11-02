@@ -1,0 +1,414 @@
+[
+  {
+    "cap": "UNVERIFIED_Pier_036_CAP_ESTIMATED",
+    "piers": [
+      "UNVERIFIED_Pier_036",
+      "UNVERIFIED_Pier_037"
+    ],
+    "center_xy": [
+      4762.73876953125,
+      422.9284973144531
+    ],
+    "original_overlap_m2": 4.658846236196622,
+    "candidate_options": [],
+    "selected_for_comparison": null,
+    "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+    "nearest_other_bent_before_m": 39.64875942531738,
+    "twd97": [
+      306258.3388931512,
+      2770882.430572344
+    ],
+    "lonlat": [
+      121.5575421265006,
+      25.045042365416183
+    ],
+    "streetview_url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=25.045042365416183,121.5575421265006",
+    "satellite_url": "https://www.google.com/maps/@?api=1&map_action=map&center=25.045042365416183,121.5575421265006&zoom=20&basemap=satellite",
+    "nearest_official_points": [
+      {
+        "properties": {
+          "OBJECTID": 714,
+          "Name": "墩柱",
+          "Town_N": "大安區",
+          "X_3826": 305070.0373,
+          "Y_3826": 2770861.7899
+        },
+        "distance_to_cap_center_m": 1188.481
+      },
+      {
+        "properties": {
+          "OBJECTID": 720,
+          "Name": "墩柱",
+          "Town_N": "中山區",
+          "X_3826": 304579.4255,
+          "Y_3826": 2770842.1599
+        },
+        "distance_to_cap_center_m": 1679.396
+      },
+      {
+        "properties": {
+          "OBJECTID": 721,
+          "Name": "墩柱",
+          "Town_N": "中山區",
+          "X_3826": 304576.6643,
+          "Y_3826": 2770842.2033
+        },
+        "distance_to_cap_center_m": 1682.156
+      }
+    ],
+    "decision": "Unresolved. Nearest official point is not established as same pier. Street image observation required."
+  },
+  {
+    "cap": "UNVERIFIED_Pier_114_CAP_ESTIMATED",
+    "piers": [
+      "UNVERIFIED_Pier_114",
+      "UNVERIFIED_Pier_115"
+    ],
+    "center_xy": [
+      2454.713623046875,
+      411.84423828125
+    ],
+    "original_overlap_m2": 0.295518751384003,
+    "candidate_options": [],
+    "selected_for_comparison": null,
+    "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+    "nearest_other_bent_before_m": 35.32567240027161,
+    "twd97": [
+      303950.3181914546,
+      2770871.3494868297
+    ],
+    "lonlat": [
+      121.53466910821467,
+      25.04502640270721
+    ],
+    "streetview_url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=25.04502640270721,121.53466910821467",
+    "satellite_url": "https://www.google.com/maps/@?api=1&map_action=map&center=25.04502640270721,121.53466910821467&zoom=20&basemap=satellite",
+    "nearest_official_points": [
+      {
+        "properties": {
+          "OBJECTID": 1102,
+          "Name": "墩柱",
+          "Town_N": "大安區",
+          "X_3826": 304021.7253,
+          "Y_3826": 2770834.7143
+        },
+        "distance_to_cap_center_m": 80.257
+      },
+      {
+        "properties": {
+          "OBJECTID": 1103,
+          "Name": "墩柱",
+          "Town_N": "大安區",
+          "X_3826": 304023.8919,
+          "Y_3826": 2770835.8969
+        },
+        "distance_to_cap_center_m": 81.67
+      },
+      {
+        "properties": {
+          "OBJECTID": 1104,
+          "Name": "墩柱",
+          "Town_N": "大安區",
+          "X_3826": 304026.6321,
+          "Y_3826": 2770835.7357
+        },
+        "distance_to_cap_center_m": 84.215
+      }
+    ],
+    "decision": "Unresolved. Nearest official point is not established as same pier. Street image observation required."
+  },
+  {
+    "cap": "UNVERIFIED_Pier_408_CAP_ESTIMATED",
+    "piers": [
+      "UNVERIFIED_Pier_408",
+      "UNVERIFIED_Pier_409"
+    ],
+    "center_xy": [
+      4448.59130859375,
+      366.1189270019531
+    ],
+    "original_overlap_m2": 1.9109704109150898,
+    "candidate_options": [],
+    "selected_for_comparison": null,
+    "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+    "nearest_other_bent_before_m": 35.401651359483644,
+    "twd97": [
+      305944.1919616728,
+      2770825.621540843
+    ],
+    "lonlat": [
+      121.55442661674802,
+      25.044541149704653
+    ],
+    "streetview_url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=25.044541149704653,121.55442661674802",
+    "satellite_url": "https://www.google.com/maps/@?api=1&map_action=map&center=25.044541149704653,121.55442661674802&zoom=20&basemap=satellite",
+    "nearest_official_points": [
+      {
+        "properties": {
+          "OBJECTID": 714,
+          "Name": "墩柱",
+          "Town_N": "大安區",
+          "X_3826": 305070.0373,
+          "Y_3826": 2770861.7899
+        },
+        "distance_to_cap_center_m": 874.903
+      },
+      {
+        "properties": {
+          "OBJECTID": 720,
+          "Name": "墩柱",
+          "Town_N": "中山區",
+          "X_3826": 304579.4255,
+          "Y_3826": 2770842.1599
+        },
+        "distance_to_cap_center_m": 1364.867
+      },
+      {
+        "properties": {
+          "OBJECTID": 1112,
+          "Name": "墩柱",
+          "Town_N": "大安區",
+          "X_3826": 304577.5345,
+          "Y_3826": 2770805.3069
+        },
+        "distance_to_cap_center_m": 1366.808
+      }
+    ],
+    "decision": "Unresolved. Nearest official point is not established as same pier. Street image observation required."
+  },
+  {
+    "cap": "UNVERIFIED_Pier_438_CAP_ESTIMATED",
+    "piers": [
+      "UNVERIFIED_Pier_438",
+      "UNVERIFIED_Pier_439"
+    ],
+    "center_xy": [
+      3925.525634765625,
+      402.7381896972656
+    ],
+    "original_overlap_m2": 3.1365484905460472,
+    "candidate_options": [],
+    "selected_for_comparison": null,
+    "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+    "nearest_other_bent_before_m": 35.072043982730236,
+    "twd97": [
+      305421.127348605,
+      2770862.241447135
+    ],
+    "lonlat": [
+      121.54924452405388,
+      25.04489100468748
+    ],
+    "streetview_url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=25.04489100468748,121.54924452405388",
+    "satellite_url": "https://www.google.com/maps/@?api=1&map_action=map&center=25.04489100468748,121.54924452405388&zoom=20&basemap=satellite",
+    "nearest_official_points": [
+      {
+        "properties": {
+          "OBJECTID": 714,
+          "Name": "墩柱",
+          "Town_N": "大安區",
+          "X_3826": 305070.0373,
+          "Y_3826": 2770861.7899
+        },
+        "distance_to_cap_center_m": 351.09
+      },
+      {
+        "properties": {
+          "OBJECTID": 720,
+          "Name": "墩柱",
+          "Town_N": "中山區",
+          "X_3826": 304579.4255,
+          "Y_3826": 2770842.1599
+        },
+        "distance_to_cap_center_m": 841.941
+      },
+      {
+        "properties": {
+          "OBJECTID": 721,
+          "Name": "墩柱",
+          "Town_N": "中山區",
+          "X_3826": 304576.6643,
+          "Y_3826": 2770842.2033
+        },
+        "distance_to_cap_center_m": 844.701
+      }
+    ],
+    "decision": "Unresolved. Nearest official point is not established as same pier. Street image observation required."
+  },
+  {
+    "cap": "UNVERIFIED_Pier_534_CAP_ESTIMATED",
+    "piers": [
+      "UNVERIFIED_Pier_534",
+      "UNVERIFIED_Pier_535"
+    ],
+    "center_xy": [
+      1137.8712158203125,
+      724.7470092773438
+    ],
+    "original_overlap_m2": 3.03831792331531,
+    "candidate_options": [],
+    "selected_for_comparison": null,
+    "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+    "nearest_other_bent_before_m": 48.170451436459096,
+    "twd97": [
+      302633.47875617136,
+      2771184.2534516146
+    ],
+    "lonlat": [
+      121.52163108997468,
+      25.0478976762499
+    ],
+    "streetview_url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=25.0478976762499,121.52163108997468",
+    "satellite_url": "https://www.google.com/maps/@?api=1&map_action=map&center=25.0478976762499,121.52163108997468&zoom=20&basemap=satellite",
+    "nearest_official_points": [
+      {
+        "properties": {
+          "OBJECTID": 2962,
+          "Name": "墩柱",
+          "Town_N": "大同區",
+          "X_3826": 302268.2141,
+          "Y_3826": 2771275.6479
+        },
+        "distance_to_cap_center_m": 376.525
+      },
+      {
+        "properties": {
+          "OBJECTID": 2961,
+          "Name": "墩柱",
+          "Town_N": "大同區",
+          "X_3826": 302260.6279,
+          "Y_3826": 2771276.8559
+        },
+        "distance_to_cap_center_m": 384.178
+      },
+      {
+        "properties": {
+          "OBJECTID": 359,
+          "Name": "墩柱",
+          "Town_N": "中正區",
+          "X_3826": 302139.7321,
+          "Y_3826": 2771252.9349
+        },
+        "distance_to_cap_center_m": 498.501
+      }
+    ],
+    "decision": "Unresolved. Nearest official point is not established as same pier. Street image observation required."
+  },
+  {
+    "cap": "UNVERIFIED_Pier_540_CAP_ESTIMATED",
+    "piers": [
+      "UNVERIFIED_Pier_540",
+      "UNVERIFIED_Pier_541"
+    ],
+    "center_xy": [
+      1247.1741943359375,
+      717.962890625
+    ],
+    "original_overlap_m2": 3.1365484905459575,
+    "candidate_options": [],
+    "selected_for_comparison": null,
+    "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+    "nearest_other_bent_before_m": 51.89280941830637,
+    "twd97": [
+      302742.7815142096,
+      2771177.4691967955
+    ],
+    "lonlat": [
+      121.52271405425438,
+      25.047832620768727
+    ],
+    "streetview_url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=25.047832620768727,121.52271405425438",
+    "satellite_url": "https://www.google.com/maps/@?api=1&map_action=map&center=25.047832620768727,121.52271405425438&zoom=20&basemap=satellite",
+    "nearest_official_points": [
+      {
+        "properties": {
+          "OBJECTID": 2962,
+          "Name": "墩柱",
+          "Town_N": "大同區",
+          "X_3826": 302268.2141,
+          "Y_3826": 2771275.6479
+        },
+        "distance_to_cap_center_m": 484.617
+      },
+      {
+        "properties": {
+          "OBJECTID": 2961,
+          "Name": "墩柱",
+          "Town_N": "大同區",
+          "X_3826": 302260.6279,
+          "Y_3826": 2771276.8559
+        },
+        "distance_to_cap_center_m": 492.29
+      },
+      {
+        "properties": {
+          "OBJECTID": 359,
+          "Name": "墩柱",
+          "Town_N": "中正區",
+          "X_3826": 302139.7321,
+          "Y_3826": 2771252.9349
+        },
+        "distance_to_cap_center_m": 607.753
+      }
+    ],
+    "decision": "Unresolved. Nearest official point is not established as same pier. Street image observation required."
+  },
+  {
+    "cap": "UNVERIFIED_Pier_674_CAP_ESTIMATED",
+    "piers": [
+      "UNVERIFIED_Pier_674"
+    ],
+    "center_xy": [
+      3228.75439453125,
+      385.1182556152344
+    ],
+    "original_overlap_m2": 1.4972263050533894,
+    "candidate_options": [],
+    "selected_for_comparison": null,
+    "status": "ESTIMATED ALTERNATIVE - structural spans, foundations and utilities unchecked",
+    "nearest_other_bent_before_m": 35.09546446711125,
+    "twd97": [
+      304724.3574307168,
+      2770844.62249869
+    ],
+    "lonlat": [
+      121.54233881425004,
+      25.044757309377804
+    ],
+    "streetview_url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=25.044757309377804,121.54233881425004",
+    "satellite_url": "https://www.google.com/maps/@?api=1&map_action=map&center=25.044757309377804,121.54233881425004&zoom=20&basemap=satellite",
+    "nearest_official_points": [
+      {
+        "properties": {
+          "OBJECTID": 720,
+          "Name": "墩柱",
+          "Town_N": "中山區",
+          "X_3826": 304579.4255,
+          "Y_3826": 2770842.1599
+        },
+        "distance_to_cap_center_m": 144.953
+      },
+      {
+        "properties": {
+          "OBJECTID": 721,
+          "Name": "墩柱",
+          "Town_N": "中山區",
+          "X_3826": 304576.6643,
+          "Y_3826": 2770842.2033
+        },
+        "distance_to_cap_center_m": 147.713
+      },
+      {
+        "properties": {
+          "OBJECTID": 1112,
+          "Name": "墩柱",
+          "Town_N": "大安區",
+          "X_3826": 304577.5345,
+          "Y_3826": 2770805.3069
+        },
+        "distance_to_cap_center_m": 151.996
+      }
+    ],
+    "decision": "Unresolved. Nearest official point is not established as same pier. Street image observation required."
+  }
+]

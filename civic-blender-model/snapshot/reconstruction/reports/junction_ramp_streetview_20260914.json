@@ -1,0 +1,81 @@
+{
+  "date_reviewed": "2026-09-14",
+  "scope": "User requested street-view checks of Huashan junctions and Civic elevated ramps. No geometry changes from imagery alone.",
+  "sites": [
+    {
+      "id": "LINSEN_CIVIC",
+      "lat": 25.0478121,
+      "lon": 121.5241884,
+      "pano": "CIABIhBqmk8t_Jr0KkpQi4oI1qoM",
+      "provider": "User-contributed Google Maps panorama",
+      "date_label": "header July 2026; footer image capture June 2026; mismatch retained",
+      "url": "https://www.google.com/maps/@25.0478121,121.5241884,3a,90y,90h,90t/data=!3m4!1e1!3m2!1sCIABIhBqmk8t_Jr0KkpQi4oI1qoM!2e10",
+      "observed": [
+        "Round bridge columns at intersection vicinity",
+        "Longitudinal girders and transverse underside members",
+        "Rounded planted island end with equipment enclosure and picket-type fence",
+        "Crosswalks, painted triangular channelization and green construction fence on Huashan side"
+      ],
+      "not_measured": [
+        "Pier diameter and station coordinates",
+        "Girder depths and underside clearance",
+        "Island and equipment dimensions"
+      ]
+    },
+    {
+      "id": "XINSHENG_RAMP_LOWER",
+      "lat": 25.0460563,
+      "lon": 121.530592,
+      "pano": "9vpQIz9F1fAlPl6-EUXauA",
+      "provider": "Google Street View",
+      "imagery_date": "2025-02",
+      "url": "https://www.google.com/maps/@25.0460563,121.530592,3a,90y,270h,90t/data=!3m4!1e1!3m2!1s9vpQIz9F1fAlPl6-EUXauA!2e0",
+      "observed": [
+        "Central two-way ramp approaching the junction",
+        "Large portal-shaped supports surrounding ramp corridor",
+        "Separate elevated decks and crossed roadway systems",
+        "Planted narrow islands, column-base fencing and exposed drain pipe",
+        "Crosswalk across ramp mouth and directional sign toward Huanhe North Road/Sanchong"
+      ],
+      "not_measured": [
+        "Ramp slope and vertical profile",
+        "Width and portal spacing",
+        "Assignment of each visible support to Civic versus Xinsheng structures"
+      ]
+    },
+    {
+      "id": "XINSHENG_RAMP_UPPER",
+      "lat": 25.0469364,
+      "lon": 121.5276641,
+      "pano": "9QUXn8kOwRLhmPYxCfaLjw",
+      "provider": "Google Street View",
+      "imagery_date": "2025-02",
+      "url": "https://www.google.com/maps/@25.0469364,121.5276641,3a,90y,90h,90t/data=!3m4!1e1!3m2!1s9QUXn8kOwRLhmPYxCfaLjw!2e0",
+      "observed": [
+        "Two opposing ramp lanes between adjacent mainline carriageways",
+        "Double-yellow centerline with flexible delineators",
+        "Concrete barriers separating ramp from mainline",
+        "Pale outer noise barriers and forked streetlights"
+      ],
+      "not_measured": [
+        "Exact merge/diverge nose location beyond current viewpoint",
+        "Barrier heights and noise-panel spacing",
+        "Lane and shoulder widths"
+      ]
+    }
+  ],
+  "local_osm_ramp_way_ids": [
+    51362366,
+    51362367,
+    51362403,
+    51362368
+  ],
+  "topology_from_osm": "Shared bidirectional ramp between ground endpoint near 121.5306452,25.0460768 and split near 121.527671,25.0469283; separate entry/exit branches to the west. OSM layer values are relative ordering, never absolute elevations.",
+  "next_model_checks": [
+    "Compare existing four ramp ways and portal geometry to image arrangement",
+    "Preserve differing column types by location; do not replace all corridor supports with one type",
+    "Audit crosswalk and median gaps before adding equipment or fences",
+    "Fit horizontal route first, then retain estimated vertical profile until additional constraints are available"
+  ],
+  "limitations": "Perspective panoramas support shape and arrangement checks, not surveyed measurements. No screenshots or images copied to repository; source links and observations only."
+}

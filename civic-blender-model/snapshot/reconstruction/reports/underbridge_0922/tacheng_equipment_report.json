@@ -1,0 +1,44 @@
+{
+  "objects": [
+    "UB_TACHENG_ROW_PLINTH_EST",
+    "UB_TACHENG_HOUSING_0_EST",
+    "UB_TACHENG_HIP_CAP_0_EST",
+    "UB_TACHENG_LOUVRE_0_-1_EST",
+    "UB_TACHENG_LOUVRE_0_1_EST",
+    "UB_TACHENG_HOUSING_1_EST",
+    "UB_TACHENG_HIP_CAP_1_EST",
+    "UB_TACHENG_LOUVRE_1_-1_EST",
+    "UB_TACHENG_LOUVRE_1_1_EST",
+    "UB_TACHENG_HOUSING_2_EST",
+    "UB_TACHENG_HIP_CAP_2_EST",
+    "UB_TACHENG_LOUVRE_2_-1_EST",
+    "UB_TACHENG_LOUVRE_2_1_EST",
+    "UB_TACHENG_HOUSING_3_EST",
+    "UB_TACHENG_HIP_CAP_3_EST",
+    "UB_TACHENG_LOUVRE_3_-1_EST",
+    "UB_TACHENG_LOUVRE_3_1_EST",
+    "UB_TACHENG_TOWER_PLINTH_EST",
+    "UB_TACHENG_LOUVRED_TOWER_MASS_EST",
+    "UB_TACHENG_SERVICE_LANDING_EST",
+    "UB_TACHENG_SERVICE_STEP_1_EST",
+    "UB_TACHENG_SERVICE_STEP_2_EST"
+  ],
+  "mesh_errors": [],
+  "structural_intersections": [],
+  "adopted_as_estimated_working_mass": true,
+  "dimensions_verified": false,
+  "source_url": "https://www.google.com/maps/@25.0502083,121.5109346,3a,90y,192h,90t/data=!3m4!1e1!3m2!1sm8uPsNjtR14tfM0vA6DBXA!2e0",
+  "assumptions": {
+    "equipment_row_length": 15.6,
+    "equipment_top": 3.3,
+    "tower_width_depth": 6.4,
+    "tower_top": 7.2,
+    "position": "Visual placement relative panorama, not triangulated"
+  },
+  "remaining": [
+    "Actual XY and dimensions",
+    "Road/sidewalk footprint clearance",
+    "Equipment function and exact count",
+    "Tower top is obscured in source photo"
+  ]
+}

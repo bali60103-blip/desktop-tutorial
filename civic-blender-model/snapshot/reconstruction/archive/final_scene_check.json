@@ -1,0 +1,25 @@
+{
+  "file": "${CIVIC_MODEL_ROOT}/01_civic_georeferenced_rebuild.blend",
+  "units": "METRIC",
+  "scale_length": 1.0,
+  "collections": {
+    "01_Sidewalks_official_XY": 376,
+    "02_Roads_official_extent": 211,
+    "03_Islands_estimated_width": 2,
+    "04_Elevated_deck_estimated": 30,
+    "05_Parapets_estimated": 60,
+    "06_Steel_girders_estimated": 360,
+    "07_Piers_legacy_UNVERIFIED": 482,
+    "08_Official_column_candidates_HIDDEN": 13,
+    "10_Buildings_context": 1,
+    "09_Median_legacy_UNVERIFIED": 1,
+    "11_Presentation": 5,
+    "12_Landmark_reference_anchors": 4,
+    "13_Median_gap_inference": 7
+  },
+  "nonfinite_vertices": 0,
+  "archive_hidden": true,
+  "total_new_collection_objects": 1552,
+  "geometry_accuracy": "NOT survey verified; see source_manifest.json",
+  "verified_pier_count": 0
+}

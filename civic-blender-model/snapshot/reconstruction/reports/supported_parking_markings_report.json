@@ -1,0 +1,79 @@
+{
+  "checked": 1919,
+  "corrected": 12,
+  "items": [
+    {
+      "object": "COMP_林金_B1_BAYLINE_309_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_309_1",
+      "removed_area_m2": 0.21903741035507168,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_312_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_312_1",
+      "removed_area_m2": 0.20767241485131588,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_315_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_315_1",
+      "removed_area_m2": 0.19659549947259908,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_318_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_318_1",
+      "removed_area_m2": 0.18512569021255826,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_321_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_321_1",
+      "removed_area_m2": 0.17389768219236257,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_324_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_324_1",
+      "removed_area_m2": 0.16254708084799757,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_327_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_327_1",
+      "removed_area_m2": 0.1515589377082761,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_330_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_330_1",
+      "removed_area_m2": 0.14035220143721805,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_333_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_333_1",
+      "removed_area_m2": 0.1291980547978635,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_336_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_336_1",
+      "removed_area_m2": 0.1179039625669327,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_339_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_339_1",
+      "removed_area_m2": 0.10657371098815427,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "COMP_林金_B1_BAYLINE_342_1",
+      "retained": "PRE_MARKING12_COMP_林金_B1_BAYLINE_342_1",
+      "removed_area_m2": 0.09532566316099733,
+      "remaining_vertices": 8
+    }
+  ],
+  "scope": "Main-scene generated paint only. No floor or ramp geometry changed. Earlier scenes retain originals."
+}
