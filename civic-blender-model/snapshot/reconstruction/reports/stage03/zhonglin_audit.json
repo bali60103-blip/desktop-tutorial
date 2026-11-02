@@ -1,0 +1,231 @@
+{
+  "crs": "EPSG:3826",
+  "entrances": [
+    {
+      "label": "West",
+      "osm_id": "3196999081",
+      "lonlat": [
+        121.5215419,
+        25.0479554
+      ],
+      "twd97": [
+        302624.45453161397,
+        2771190.61256413
+      ],
+      "live_xy": [
+        1128.8469651401476,
+        731.1061217562732
+      ],
+      "elevation_m": null,
+      "status": "OSM candidate, not surveyed",
+      "vehicle_height_limit_m": 1.8
+    },
+    {
+      "label": "East",
+      "osm_id": "3196999076",
+      "lonlat": [
+        121.5231221,
+        25.0478653
+      ],
+      "twd97": [
+        302783.9408049752,
+        2771181.248025947
+      ],
+      "live_xy": [
+        1288.3335594752364,
+        721.7417832905063
+      ],
+      "elevation_m": null,
+      "status": "OSM candidate, not surveyed",
+      "vehicle_height_limit_m": 1.8
+    }
+  ],
+  "routes": [
+    {
+      "osm_id": "313684460",
+      "live_xy": [
+        [
+          1250.4451695138077,
+          723.954667273775
+        ],
+        [
+          1288.3335594752364,
+          721.7417832905063
+        ]
+      ],
+      "lonlat": [
+        [
+          121.5227467,
+          25.0478866
+        ],
+        [
+          121.5231221,
+          25.0478653
+        ]
+      ],
+      "status": "OSM access centerline; width and Z unknown"
+    },
+    {
+      "osm_id": "313684462",
+      "live_xy": [
+        [
+          1128.8469651401476,
+          731.1061217562732
+        ],
+        [
+          1173.7328068979316,
+          727.6571519409139
+        ]
+      ],
+      "lonlat": [
+        [
+          121.5215419,
+          25.0479554
+        ],
+        [
+          121.5219866,
+          25.0479227
+        ]
+      ],
+      "status": "OSM access centerline; width and Z unknown"
+    },
+    {
+      "osm_id": "1454572596",
+      "live_xy": [
+        [
+          1173.7328068979316,
+          727.6571519409139
+        ],
+        [
+          1186.23985949725,
+          718.5449569089002
+        ]
+      ],
+      "lonlat": [
+        [
+          121.5219866,
+          25.0479227
+        ],
+        [
+          121.5221102,
+          25.04784
+        ]
+      ],
+      "status": "OSM access centerline; width and Z unknown"
+    },
+    {
+      "osm_id": "1454572597",
+      "live_xy": [
+        [
+          1185.9539200170198,
+          740.3428692738339
+        ],
+        [
+          1173.7328068979316,
+          727.6571519409139
+        ]
+      ],
+      "lonlat": [
+        [
+          121.5221082,
+          25.0480368
+        ],
+        [
+          121.5219866,
+          25.0479227
+        ]
+      ],
+      "status": "OSM access centerline; width and Z unknown"
+    },
+    {
+      "osm_id": "1454572598",
+      "live_xy": [
+        [
+          1236.6139868012585,
+          715.3610639069627
+        ],
+        [
+          1250.4451695138077,
+          723.954667273775
+        ]
+      ],
+      "lonlat": [
+        [
+          121.5226093,
+          25.0478095
+        ],
+        [
+          121.5227467,
+          25.0478866
+        ]
+      ],
+      "status": "OSM access centerline; width and Z unknown"
+    },
+    {
+      "osm_id": "1454572599",
+      "live_xy": [
+        [
+          1250.4451695138077,
+          723.954667273775
+        ],
+        [
+          1239.6364510992773,
+          737.4708301636658
+        ]
+      ],
+      "lonlat": [
+        [
+          121.5227467,
+          25.0478866
+        ],
+        [
+          121.5226401,
+          25.048009
+        ]
+      ],
+      "status": "OSM access centerline; width and Z unknown"
+    }
+  ],
+  "stairs": [
+    {
+      "number": 1,
+      "location_description": "North side, Zhongshan N Rd / health insurance office",
+      "coordinates": null,
+      "elevation_m": null
+    },
+    {
+      "number": 2,
+      "location_description": "South side, Zhongshan N Rd / Executive Yuan",
+      "coordinates": null,
+      "elevation_m": null
+    },
+    {
+      "number": 3,
+      "location_description": "South side, Tianjin St / police agency",
+      "coordinates": null,
+      "elevation_m": null
+    },
+    {
+      "number": 4,
+      "location_description": "South side, Linsen N Rd / Shandao Temple",
+      "coordinates": null,
+      "elevation_m": null
+    }
+  ],
+  "entrance_candidate_separation_m": 159.76096508862707,
+  "levels": {
+    "B1": {
+      "floor_elevation_m": null,
+      "floor_to_floor_m": null
+    },
+    "B2": {
+      "floor_elevation_m": null,
+      "floor_to_floor_m": null
+    }
+  },
+  "plan_scale": {
+    "status": "UNREGISTERED",
+    "reason": "No dimensioned control pairs established on plan. OSM entry nodes are not proven homologous plan points; do not stretch plan to fit."
+  },
+  "gate": "B NOT PASSED"
+}

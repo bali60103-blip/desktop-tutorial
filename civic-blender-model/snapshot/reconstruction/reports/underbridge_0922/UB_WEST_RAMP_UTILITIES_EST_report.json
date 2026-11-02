@@ -1,0 +1,63 @@
+{
+  "batch": "UB_WEST_RAMP_UTILITIES_EST",
+  "object_count": 9,
+  "names": [
+    "UB_WEST_RAMP_UTILITIES_EST_BLUE_A_EST",
+    "UB_WEST_RAMP_UTILITIES_EST_BLUE_B_EST",
+    "UB_WEST_RAMP_UTILITIES_EST_BLUE_B_LEG_1_EST",
+    "UB_WEST_RAMP_UTILITIES_EST_BLUE_B_LEG_2_EST",
+    "UB_WEST_RAMP_UTILITIES_EST_ROCK_A_EST",
+    "UB_WEST_RAMP_UTILITIES_EST_ROCK_B_EST",
+    "UB_WEST_RAMP_UTILITIES_EST_SHRUB_WEST_EST",
+    "UB_WEST_RAMP_UTILITIES_EST_SHRUB_EAST_EST",
+    "UB_WEST_RAMP_UTILITIES_EST_CABINET_PLINTH_EST"
+  ],
+  "surface_intersections": [],
+  "aabb_candidates": [],
+  "median_sample_issues": [
+    {
+      "name": "UB_WEST_RAMP_UTILITIES_EST_BLUE_A_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_WEST_RAMP_UTILITIES_EST_BLUE_B_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_WEST_RAMP_UTILITIES_EST_BLUE_B_LEG_1_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_WEST_RAMP_UTILITIES_EST_BLUE_B_LEG_2_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_WEST_RAMP_UTILITIES_EST_ROCK_A_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_WEST_RAMP_UTILITIES_EST_ROCK_B_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_WEST_RAMP_UTILITIES_EST_SHRUB_WEST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_WEST_RAMP_UTILITIES_EST_SHRUB_EAST_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_WEST_RAMP_UTILITIES_EST_CABINET_PLINTH_EST",
+      "outside_samples": 4
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

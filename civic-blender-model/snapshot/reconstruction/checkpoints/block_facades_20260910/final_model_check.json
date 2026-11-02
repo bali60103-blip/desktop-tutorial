@@ -1,0 +1,38 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/BlockFacades/CIVIC_303_BLOCKS_FACADES_WORKING_20260910_212118.blend",
+  "scene": "CIVIC_BLOCKS_FACADES_WORKING",
+  "counts": {
+    "BLOCK_BUILDING_CORES": 3604,
+    "BLOCK_RECESSED_FACADES": 3397,
+    "BLOCK_ROOFS": 1,
+    "BLOCK_CONTEXT_GROUND": 640,
+    "BLOCK_FACADE_ASSETS": 6
+  },
+  "stored_mesh_vertices": 790058,
+  "stored_mesh_faces": 212881,
+  "facade_instances": 628551,
+  "road_cameras": 106,
+  "preserved_original_cameras": 129,
+  "mesh_attribute_issues": [],
+  "selected_blocks": 303,
+  "building_records": 3604,
+  "first_row_unique_records": 1106,
+  "original_frontage_alias": {
+    "source_osm_id": "w1347249268",
+    "represented_by": "w1347249264",
+    "reason": "Coincident mapped footprint deduplicated; do not build overlapping duplicate facade"
+  },
+  "scope_status": "All selected mapped buildings constructed; unmapped buildings and actual facade details not verified",
+  "bounds": [
+    [
+      478.8789978027344,
+      30.152999877929688,
+      0.0
+    ],
+    [
+      10767.3876953125,
+      1952.8809814453125,
+      138.4499969482422
+    ]
+  ]
+}

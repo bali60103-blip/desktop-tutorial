@@ -1,0 +1,45 @@
+{
+  "source_panoramas": [
+    {
+      "id": "3QqW5-St5dq9zaCpfhdbbw",
+      "lat": 25.0461501,
+      "lon": 121.5303078,
+      "south_pixel_x": 309,
+      "north_pixel_x": 463
+    },
+    {
+      "id": "LyDE7zKTZ6cDVJfCjJg6jg",
+      "lat": 25.0461762,
+      "lon": 121.5302139,
+      "south_pixel_x": 276,
+      "north_pixel_x": 505
+    }
+  ],
+  "imagery_date": "2025-02",
+  "method": "Manual same-pillar pixel centers; yaw270, approximate horizontal FOV75, viewport538; ray intersection in EPSG3826, then inverse registration. Lens, yaw, panorama positional errors not solved.",
+  "pillar_xy": [
+    [
+      1985.837646484375,
+      537.8089599609375,
+      0.0
+    ],
+    [
+      1984.6593017578125,
+      550.8950805664062,
+      0.0
+    ]
+  ],
+  "center_spacing_m": 13.1390657123476,
+  "dimension_assumptions": {
+    "column_along": 2,
+    "column_across": 1.8,
+    "crossbeam_bottom": 10.5,
+    "crossbeam_top": 12,
+    "ground": 0
+  },
+  "geometry_meshes": 3,
+  "closed_mesh_errors": [],
+  "status": "Isolated photo-proportion study. Not linked into main/ramp scene.",
+  "conflict": "Current mainline z8 conflicts with this provisional photo-proportion height. Need joint deck/portal calibration before integration.",
+  "unmodeled": "Bearing pads are not clearly resolved in imagery; no pads invented. Other visible portals not equidistantly generated."
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "Internal model consistency only, no as-built pier verification",
+  "method": "World-space mesh vertices; convex deck XY envelopes and global minimum Z. Slopes, girders, bearings and local contact require detailed inspection. Positive deck gap is not automatically a defect.",
+  "summary": {
+    "support_objects": 482,
+    "deck_objects": 30,
+    "centers_outside_all_deck_envelopes": 0,
+    "max_xy_distance_m": 0.0
+  }
+}

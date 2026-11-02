@@ -1,0 +1,128 @@
+{
+  "source_records": 3604,
+  "original_cores_visible": 3580,
+  "visible_replacements": [
+    {
+      "osm_id": "w238513441",
+      "replacement": "MIRAMAR_BASE.001",
+      "first_row": true
+    },
+    {
+      "osm_id": "w268396843",
+      "replacement": "HUASHAN_WEST_PLINTH",
+      "first_row": true
+    },
+    {
+      "osm_id": "w270524575",
+      "replacement": "ZHONGLUN_w270524575_ROOF",
+      "first_row": true
+    },
+    {
+      "osm_id": "w270524576",
+      "replacement": "ZHONGLUN_w270524576_ROOF",
+      "first_row": true
+    },
+    {
+      "osm_id": "w270789165",
+      "replacement": "SWPLANT_BASE",
+      "first_row": false
+    },
+    {
+      "osm_id": "w552658460",
+      "replacement": "STATION_VENT_w552658460_BASE",
+      "first_row": false
+    },
+    {
+      "osm_id": "w552658461",
+      "replacement": "STATION_VENT_w552658461_BASE",
+      "first_row": false
+    },
+    {
+      "osm_id": "w552658462",
+      "replacement": "STATION_VENT_w552658462_BASE",
+      "first_row": false
+    },
+    {
+      "osm_id": "w552658463",
+      "replacement": "STATION_VENT_w552658463_BASE",
+      "first_row": false
+    },
+    {
+      "osm_id": "w875067960",
+      "replacement": "SMALL_STATION_VENT_w875067960_BASE",
+      "first_row": false
+    },
+    {
+      "osm_id": "w875067963",
+      "replacement": "SMALL_STATION_VENT_w875067963_BASE",
+      "first_row": false
+    },
+    {
+      "osm_id": "w875067964",
+      "replacement": "SMALL_STATION_VENT_w875067964_BASE",
+      "first_row": true
+    },
+    {
+      "osm_id": "w875067965",
+      "replacement": "SMALL_STATION_VENT_w875067965_BASE",
+      "first_row": true
+    },
+    {
+      "osm_id": "w875067966",
+      "replacement": "ADDSMALL_VENT_w875067966_BASE",
+      "first_row": false
+    },
+    {
+      "osm_id": "w875067971",
+      "replacement": "MAPPED_VENT_w875067971",
+      "first_row": false
+    },
+    {
+      "osm_id": "w1015817093",
+      "replacement": "TILED_SHAFT_BASE",
+      "first_row": false
+    },
+    {
+      "osm_id": "w1015818580",
+      "replacement": "ADDSMALL_VENT_w1015818580_BASE",
+      "first_row": true
+    },
+    {
+      "osm_id": "w1015831689",
+      "replacement": "MAPPED_VENT_w1015831689",
+      "first_row": false
+    },
+    {
+      "osm_id": "w1156916093",
+      "replacement": "MAPPED_VENT_w1156916093",
+      "first_row": true
+    },
+    {
+      "osm_id": "w1164891302",
+      "replacement": "MAPPED_VENT_w1164891302",
+      "first_row": true
+    },
+    {
+      "osm_id": "w1342705709",
+      "replacement": "RAILWAY_CHIMNEY_45M_BODY",
+      "first_row": false
+    },
+    {
+      "osm_id": "w1345175506",
+      "replacement": "MAPPED_VENT_w1345175506",
+      "first_row": false
+    },
+    {
+      "osm_id": "w1345175507",
+      "replacement": "MAPPED_VENT_w1345175507",
+      "first_row": false
+    },
+    {
+      "osm_id": "w1346883411",
+      "replacement": "MAPPED_VENT_w1346883411",
+      "first_row": true
+    }
+  ],
+  "unresolved_missing_geometry": [],
+  "scope": "Selected OSM record coverage including equipment and photo-informed replacements. Not address-level completeness or photo-calibrated facade certification."
+}

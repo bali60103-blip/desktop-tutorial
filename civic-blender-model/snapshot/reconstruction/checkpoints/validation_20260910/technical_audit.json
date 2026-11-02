@@ -1,0 +1,402 @@
+{
+  "timestamp": "2026-09-10T18:38:19.766343",
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/CIVIC_VALIDATION_REPAIRED_20260910_183657.blend",
+  "totals": {
+    "used_mesh_datablocks": 6317,
+    "vertices": 2079391,
+    "polygons": 1607009
+  },
+  "mesh_issue_count": 21,
+  "main_render_mesh_issue_count": 0,
+  "mesh_issues": [
+    {
+      "mesh": "Buildings_Massing_OSM_v2",
+      "object_names": [
+        "Buildings_Massing"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 1,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Datum",
+      "object_names": [
+        "GROUND_DATUM_Z0_not_surveyed_terrain"
+      ],
+      "boundary_edges": 4,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 0,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Guardrail_1.1m_Civic_Blvd_Elevated_Deck_mesh",
+      "object_names": [
+        "Guardrail_1.1m_Civic_Blvd_Elevated_Deck"
+      ],
+      "boundary_edges": 1612,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 0,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "OSM_Footway",
+      "object_names": [
+        "OSM_Footway"
+      ],
+      "boundary_edges": 149174,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 0,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "OSM_Major_Roads",
+      "object_names": [
+        "OSM_Major_Roads"
+      ],
+      "boundary_edges": 22556,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 0,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "OSM_Minor_Roads",
+      "object_names": [
+        "OSM_Minor_Roads"
+      ],
+      "boundary_edges": 55234,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 0,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Sidewalks.001",
+      "object_names": [
+        "Sidewalks"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 102,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Soundwall_3.0m_Civic_Blvd_Elevated_Deck_mesh",
+      "object_names": [
+        "Soundwall_3.0m_Civic_Blvd_Elevated_Deck"
+      ],
+      "boundary_edges": 1612,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 0,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Street_Trees_Trunks",
+      "object_names": [
+        "Street_Trees_Trunks"
+      ],
+      "boundary_edges": 120000,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 0,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Taipei_Terrain.001",
+      "object_names": [
+        "Taipei_Terrain"
+      ],
+      "boundary_edges": 506,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 0,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_交通人行道停車場",
+      "object_names": [
+        "Zoning_交通人行道停車場"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 12,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_住宅區",
+      "object_names": [
+        "Zoning_住宅區"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 352,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_公園綠地廣場",
+      "object_names": [
+        "Zoning_公園綠地廣場"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 48,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_其他分區",
+      "object_names": [
+        "Zoning_其他分區"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 63,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_商業區",
+      "object_names": [
+        "Zoning_商業區"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 160,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_學校文教",
+      "object_names": [
+        "Zoning_學校文教"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 9,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_市場用地",
+      "object_names": [
+        "Zoning_市場用地"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 1,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_機關用地",
+      "object_names": [
+        "Zoning_機關用地"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 10,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_河川保護區",
+      "object_names": [
+        "Zoning_河川保護區"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 23,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_特定專用聯開區",
+      "object_names": [
+        "Zoning_特定專用聯開區"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 18,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    },
+    {
+      "mesh": "Zoning_電力抽水設施",
+      "object_names": [
+        "Zoning_電力抽水設施"
+      ],
+      "boundary_edges": 0,
+      "edges_with_more_than_two_faces": 0,
+      "repeated_index_faces": [],
+      "repeated_index_face_count": 0,
+      "zero_area_faces": 6,
+      "nonfinite_vertices": 0,
+      "loose_edges": 0,
+      "main_render_objects": []
+    }
+  ],
+  "main_render_mesh_issues": [],
+  "camera_check": {
+    "route_count": 106,
+    "station_pairs": 53,
+    "bad_direction_pairs": {},
+    "regular_spacing_m": [
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      200.0,
+      195.0465
+    ],
+    "old_500m_count": 0,
+    "duplicate_camera_views": [],
+    "parking_ramp_cameras": [
+      "RAMP_CAM_B1_B2",
+      "RAMP_CAM_EAST_1F_B1",
+      "RAMP_CAM_WEST_1F_B1",
+      "中林_B1_B2_CAMERA",
+      "公中_B1_B2_CAMERA",
+      "塔城_B1_B2_CAMERA",
+      "復敦_B1_B2_CAMERA",
+      "敦延_B1_B2_CAMERA",
+      "林金_B1_B2_CAMERA"
+    ]
+  },
+  "scene_visible_object_counts": {
+    "BEARING_READABLE_DETAIL": 17,
+    "FRONTAGE_HEIGHT_COMPARISON": 21,
+    "FULL_FRONTAGE_HEIGHT_COMPARISON": 535,
+    "PARKING_SECTIONS_COMPARISON": 49,
+    "RAMP_ENTRANCE_DETAIL_REVIEW": 227,
+    "RAMP_TOPOLOGY_DETAIL": 2,
+    "Scene": 1299,
+    "STAGE04_B_SELECTED_OPEN_SECTION": 621,
+    "STAGE04_DEPTH_OPTIONS_SCHEMATIC": 33,
+    "STAGE05_ALTERNATIVE_PIERS_REVIEW": 829,
+    "STAGE05_BEARING_COMPARISON_ASSUMED": 2248,
+    "UNDERGROUND_SHELL_COMPARISON": 9,
+    "Y26_B_INTEGRATED_COMPARISON": 83,
+    "Y26_ORIENTATION_COMPARISON": 86,
+    "Y26_PHOTO_COMPARISON": 82,
+    "Y_MALL_ENTRANCE_COMPARISON": 1262
+  },
+  "viewport_clip_end": [
+    30000.0
+  ],
+  "interpretation": "Boundary edges and zero-area flags require review by object purpose. Source planes, curves converted to mesh and open cutaways are not automatically defects. No as-built, structural, collision-all-pairs, fire-egress or dimensional verification asserted."
+}

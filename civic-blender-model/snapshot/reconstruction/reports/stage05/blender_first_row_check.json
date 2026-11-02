@@ -1,0 +1,15 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Stage05_Buildings/05_building_review_20260910_000123.blend",
+  "candidate_objects": 56,
+  "summary": {
+    "candidate_buildings": 56,
+    "explicit_height": 1,
+    "levels_only": 12,
+    "no_height_or_levels": 43,
+    "sampling_sensitive": 13,
+    "search_depth_sensitive": 18,
+    "axis_length_m": 338.2889985594469,
+    "scope": "Zhonglin only, Zhongshan eastern carriageway to Linsen; full corridor pending"
+  },
+  "existing_buildings_changed": false
+}

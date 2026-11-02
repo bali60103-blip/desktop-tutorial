@@ -1,0 +1,17 @@
+[
+  {
+    "id": "OSM1177794601_DUPLICATE_HEIGHT",
+    "objects": [
+      "COMP_OSM_EQUIP_1177794601",
+      "BLOCK_w1177794601_CORE"
+    ],
+    "issue": "Same OSM footprint represented as 2.4m equipment and 16.5m first-row building; correspondence and height unresolved",
+    "status": "review_required",
+    "action": "Retain source objects; verify which physical mass footprint describes before scene-local replacement"
+  },
+  {
+    "id": "GUANGHUA_MEDIAN_MISSING",
+    "issue": "No CAL_GROUND_MEDIAN mesh between local x2028 and2628; added limited x2058-2242 estimated comparison from visible street views, rest unresolved",
+    "status": "partial_estimated_comparison"
+  }
+]

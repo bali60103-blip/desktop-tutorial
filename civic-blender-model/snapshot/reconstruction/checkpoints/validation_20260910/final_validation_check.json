@@ -1,0 +1,25 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/CIVIC_VALIDATION_REPAIRED_20260910_183657.blend",
+  "obsolete_walls_archived": [
+    "Y26_B_INTEGRATED_WALL_1"
+  ],
+  "evaluated_modifier_meshes": [
+    {
+      "object": "GROUND_ROADS_OFFICIAL_XY",
+      "vertices": 9514,
+      "faces": 13986,
+      "boundary_edges": 0,
+      "multi_face_edges": 3,
+      "zero_area_faces": 0
+    },
+    {
+      "object": "GROUND_MEDIAN_WORKING_ESTIMATED",
+      "vertices": 10898,
+      "faces": 16001,
+      "boundary_edges": 0,
+      "multi_face_edges": 2,
+      "zero_area_faces": 0
+    }
+  ],
+  "render": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/Y26_clearance_verified.png"
+}

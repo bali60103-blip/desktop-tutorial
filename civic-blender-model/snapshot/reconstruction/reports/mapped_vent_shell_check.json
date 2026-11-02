@@ -1,0 +1,148 @@
+{
+  "checked": 20,
+  "issues": [],
+  "animation_markers": 106,
+  "items": [
+    {
+      "object": "MAPPED_VENT_w268396843.001",
+      "z0": 0.0,
+      "z1": 26.399999618530273,
+      "vertices": 12684,
+      "faces": 9520
+    },
+    {
+      "object": "MAPPED_VENT_w270789165",
+      "z0": 0.0,
+      "z1": 16.649999618530273,
+      "vertices": 3544,
+      "faces": 2660
+    },
+    {
+      "object": "MAPPED_VENT_w552658460",
+      "z0": 0.0,
+      "z1": 13.199999809265137,
+      "vertices": 2808,
+      "faces": 2108
+    },
+    {
+      "object": "MAPPED_VENT_w552658461",
+      "z0": 0.0,
+      "z1": 13.199999809265137,
+      "vertices": 3516,
+      "faces": 2640
+    },
+    {
+      "object": "MAPPED_VENT_w552658462",
+      "z0": 0.0,
+      "z1": 13.199999809265137,
+      "vertices": 2808,
+      "faces": 2108
+    },
+    {
+      "object": "MAPPED_VENT_w552658463",
+      "z0": 0.0,
+      "z1": 13.199999809265137,
+      "vertices": 2808,
+      "faces": 2108
+    },
+    {
+      "object": "MAPPED_VENT_w875067960",
+      "z0": 0.0,
+      "z1": 13.199999809265137,
+      "vertices": 2808,
+      "faces": 2108
+    },
+    {
+      "object": "MAPPED_VENT_w875067963",
+      "z0": 0.0,
+      "z1": 13.199999809265137,
+      "vertices": 2808,
+      "faces": 2108
+    },
+    {
+      "object": "MAPPED_VENT_w875067964",
+      "z0": 0.0,
+      "z1": 3.299999952316284,
+      "vertices": 696,
+      "faces": 524
+    },
+    {
+      "object": "MAPPED_VENT_w875067965",
+      "z0": 0.0,
+      "z1": 3.299999952316284,
+      "vertices": 696,
+      "faces": 524
+    },
+    {
+      "object": "MAPPED_VENT_w875067966",
+      "z0": 0.0,
+      "z1": 16.649999618530273,
+      "vertices": 3544,
+      "faces": 2660
+    },
+    {
+      "object": "MAPPED_VENT_w875067971",
+      "z0": 0.0,
+      "z1": 16.649999618530273,
+      "vertices": 3544,
+      "faces": 2660
+    },
+    {
+      "object": "MAPPED_VENT_w1015817093",
+      "z0": 0.0,
+      "z1": 13.199999809265137,
+      "vertices": 2808,
+      "faces": 2108
+    },
+    {
+      "object": "MAPPED_VENT_w1015818580",
+      "z0": 0.0,
+      "z1": 3.299999952316284,
+      "vertices": 696,
+      "faces": 524
+    },
+    {
+      "object": "MAPPED_VENT_w1015831689",
+      "z0": 0.0,
+      "z1": 3.299999952316284,
+      "vertices": 696,
+      "faces": 524
+    },
+    {
+      "object": "MAPPED_VENT_w1156916093",
+      "z0": 0.0,
+      "z1": 16.5,
+      "vertices": 3512,
+      "faces": 2636
+    },
+    {
+      "object": "MAPPED_VENT_w1164891302",
+      "z0": 0.0,
+      "z1": 3.299999952316284,
+      "vertices": 696,
+      "faces": 524
+    },
+    {
+      "object": "MAPPED_VENT_w1345175506",
+      "z0": 0.0,
+      "z1": 3.299999952316284,
+      "vertices": 696,
+      "faces": 524
+    },
+    {
+      "object": "MAPPED_VENT_w1345175507",
+      "z0": 0.0,
+      "z1": 3.299999952316284,
+      "vertices": 1056,
+      "faces": 796
+    },
+    {
+      "object": "MAPPED_VENT_w1346883411",
+      "z0": 0.0,
+      "z1": 3.299999952316284,
+      "vertices": 1596,
+      "faces": 1204
+    }
+  ],
+  "limits": "Geometry/elevation and hidden-original checks only; not real-world height validation"
+}

@@ -1,0 +1,18 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Detail01_Sidewalk/DETAIL_01_20260910_005148.blend",
+  "render": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Detail01_Sidewalk/detail_joint_closeup.png",
+  "mesh_checks": [
+    [
+      "CURB_STONES_ESTIMATED",
+      5550,
+      5753,
+      0
+    ],
+    [
+      "PAVING_TILES_ESTIMATED",
+      166584,
+      169198,
+      0
+    ]
+  ]
+}

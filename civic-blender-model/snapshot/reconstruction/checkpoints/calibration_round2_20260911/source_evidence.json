@@ -1,0 +1,11 @@
+{
+  "source_url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MDctNS0x5biC5rCR5aSn6YGT5bu25ZCJ5q6156S65oSP5ZyWKOePvuazgeWclikucGRm&u=LzAwMS9VcGxvYWQvNDU1L3JlbGZpbGUvMjI0NzcvODE5NzE1NS84NmZjNTAzZi02YTYwLTQxOTctYmE3ZC05ZTIxMGYwZTVmNDAucGRm",
+  "retrieved": "2026-09-11",
+  "source_sha256": "d62866bbf1d1745830b968f25f5035ca9332120a7a054912b55fef58886d535f",
+  "observations": [
+    "B1 shown; official parking directory separately states one underground level",
+    "Stair1 near Yanji Street; Stair2 near Jingfu Temple",
+    "A/B/F supply air; C exhaust air; D water tank; E generator air outlet"
+  ],
+  "limits": "Schematic with no usable georeferenced control or absolute elevations; do not treat pixel distance as measured scale."
+}

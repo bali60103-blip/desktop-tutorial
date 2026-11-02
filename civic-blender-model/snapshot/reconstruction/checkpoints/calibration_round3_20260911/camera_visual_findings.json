@@ -1,0 +1,33 @@
+{
+  "visual_observations": [
+    {
+      "camera": "CIVIC200_03K800_S",
+      "issue": "Bridge pier obscures much of frame",
+      "action": "Keep station camera; evaluate offset pedestrian viewpoint"
+    },
+    {
+      "cameras": [
+        "CIVIC200_03K200_N",
+        "CIVIC200_03K400_N",
+        "CIVIC200_03K800_N",
+        "CIVIC200_04K400_N"
+      ],
+      "issue": "Very close facade dominates frame",
+      "action": "Check camera placement against surveyed/public right of way before offsetting"
+    },
+    {
+      "cameras": [
+        "RAMP_CAM_B1_B2",
+        "中林_B1_B2_CAMERA",
+        "復敦_B1_B2_CAMERA",
+        "敦延_B1_B2_CAMERA",
+        "林金_B1_B2_CAMERA"
+      ],
+      "issue": "Patchy or overlapping surfaces visible in parking-ramp views; possible coplanar surfaces require isolation",
+      "action": "Retain conflict markers; identify surface layers before altering elevations",
+      "resolution": "Streaks disappear with Workbench shadows off and cavity on. Five legacy slabs separately trimmed. 22 parking views refreshed; remaining geometry issues not claimed fixed."
+    }
+  ],
+  "scope": "All eight 16-frame contact sheets visually screened; six Jingfu-adjacent cameras refreshed separately. Screening is not full-resolution review or street-photo matching.",
+  "status": "Model views only, not per-building street-photo confirmation"
+}

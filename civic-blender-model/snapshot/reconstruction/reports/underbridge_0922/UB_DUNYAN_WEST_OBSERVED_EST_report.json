@@ -1,0 +1,46 @@
+{
+  "batch": "UB_DUNYAN_WEST_OBSERVED_EST",
+  "object_count": 11,
+  "names": [
+    "UB_DUNYAN_WEST_OBSERVED_EST_STONE_HOUSE_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_LOW_ENCLOSURE_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_CABINET_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_CANOPY_ROOF_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_POST_-2.6_-2.7_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_POST_-2.6_2.7_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_POST_2.6_-2.7_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_POST_2.6_2.7_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_SHRUB_3972_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_SHRUB_3984_EST",
+    "UB_DUNYAN_WEST_OBSERVED_EST_SHRUB_4065_EST"
+  ],
+  "surface_intersections": [],
+  "aabb_candidates": [
+    [
+      "UB_DUNYAN_WEST_OBSERVED_EST_POST_2.6_-2.7_EST",
+      "COMP_ACCESS_\u6566\u5ef6_1_WALL_-1"
+    ],
+    [
+      "UB_DUNYAN_WEST_OBSERVED_EST_POST_2.6_-2.7_EST",
+      "COMP_ACCESS_\u6566\u5ef6_1_WALL_1"
+    ]
+  ],
+  "median_sample_issues": [
+    {
+      "name": "UB_DUNYAN_WEST_OBSERVED_EST_LOW_ENCLOSURE_EST",
+      "outside_samples": 1
+    },
+    {
+      "name": "UB_DUNYAN_WEST_OBSERVED_EST_CABINET_EST",
+      "outside_samples": 4
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

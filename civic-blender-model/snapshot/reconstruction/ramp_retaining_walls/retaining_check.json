@@ -1,0 +1,45 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/RampRetainingWalls/CIVIC_RETAINING_WALLS_20260910_121754.blend",
+  "new_walls": [
+    {
+      "name": "EAST_0_TO_B1_ASSUMED_RETAINING_-1",
+      "nonmanifold_edges": 0,
+      "volume_m3": 11.886999257470848,
+      "bottom_z_min": -3.8499999046325684,
+      "top_at_bottom_end_m": -0.14,
+      "inner_offset_m": 1.9,
+      "thickness_m": 0.15
+    },
+    {
+      "name": "EAST_0_TO_B1_ASSUMED_RETAINING_1",
+      "nonmanifold_edges": 0,
+      "volume_m3": 11.886999257004902,
+      "bottom_z_min": -3.8499999046325684,
+      "top_at_bottom_end_m": -0.14,
+      "inner_offset_m": 1.9,
+      "thickness_m": 0.15
+    },
+    {
+      "name": "WEST_0_TO_B1_ASSUMED_RETAINING_-1",
+      "nonmanifold_edges": 0,
+      "volume_m3": 14.072287193722218,
+      "bottom_z_min": -3.8499999046325684,
+      "top_at_bottom_end_m": -0.14,
+      "inner_offset_m": 1.9,
+      "thickness_m": 0.15
+    },
+    {
+      "name": "WEST_0_TO_B1_ASSUMED_RETAINING_1",
+      "nonmanifold_edges": 0,
+      "volume_m3": 14.072287193702806,
+      "bottom_z_min": -3.8499999046325684,
+      "top_at_bottom_end_m": -0.14,
+      "inner_offset_m": 1.9,
+      "thickness_m": 0.15
+    }
+  ],
+  "ramp_usable_width_m": 3.5,
+  "original_walls_retained_hidden": 4,
+  "piers_moved": 0,
+  "limitations": "Ground underside -0.14m, wall thickness .15m and original ramp profile are assumptions. Not structural design. West pier conflict remains. B1-B2 walls unchanged."
+}

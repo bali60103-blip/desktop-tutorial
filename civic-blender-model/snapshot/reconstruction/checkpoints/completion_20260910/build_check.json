@@ -1,0 +1,15 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/CIVIC_COMPLETION_WORKING_20260910_184858.blend",
+  "scene": "CIVIC_COMPLETE_WORKING_ASSEMBLY",
+  "new_meshes": 4201,
+  "group_counts": {
+    "EQUIPMENT": 45,
+    "FRONTAGE": 581,
+    "MARKINGS": 1919,
+    "PARKING": 1656
+  },
+  "new_mesh_nonmanifold_edges": 0,
+  "issue_markers": 610,
+  "total_scene_objects": 7732,
+  "limits": "Working source-covered geometry only; layout, elevations, landmark heights and entrances remain estimated. Some retained underground alternatives overlap. Satellite/streetview calibration deferred per user."
+}

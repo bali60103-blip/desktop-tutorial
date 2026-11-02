@@ -1,0 +1,70 @@
+{
+  "sampled_paths": 117,
+  "samples": 6669,
+  "paths_with_obstructions": 9,
+  "issues": [
+    {
+      "path": "CORE_敦延_1_B1_A",
+      "obstruction_objects": [
+        "COMP_ROOF_ACCESS_延吉_0"
+      ]
+    },
+    {
+      "path": "CORE_敦延_1_B1_LANDING",
+      "obstruction_objects": [
+        "COMP_ROOF_ACCESS_延吉_0"
+      ]
+    },
+    {
+      "path": "CORE_敦延_1_B1_B",
+      "obstruction_objects": [
+        "COMP_ROOF_ACCESS_延吉_0",
+        "COMP_敦延_B1_PERIMETER"
+      ]
+    },
+    {
+      "path": "CORE_敦延_1_B2_A",
+      "obstruction_objects": [
+        "COMP_延吉_B1_FLOOR"
+      ]
+    },
+    {
+      "path": "CORE_敦延_1_B2_LANDING",
+      "obstruction_objects": [
+        "COMP_延吉_B1_FLOOR"
+      ]
+    },
+    {
+      "path": "CORE_敦延_1_B2_B",
+      "obstruction_objects": [
+        "COMP_延吉_B1_FLOOR",
+        "COMP_敦延_B2_PERIMETER"
+      ]
+    },
+    {
+      "path": "CORE_延吉_0_B1_A",
+      "obstruction_objects": [
+        "COMP_ROOF_ACCESS_敦延_0"
+      ]
+    },
+    {
+      "path": "CORE_延吉_0_B1_LANDING",
+      "obstruction_objects": [
+        "COMP_ROOF_ACCESS_敦延_0",
+        "COMP_敦延_B1_PERIMETER"
+      ]
+    },
+    {
+      "path": "CORE_延吉_0_B1_B",
+      "obstruction_objects": [
+        "CAL2_YANJI_ENTRY_WALL_0",
+        "COMP_ROOF_ACCESS_敦延_0",
+        "COMP_敦延_B1_PERIMETER"
+      ]
+    }
+  ],
+  "method": "Upward rays from interpolated tread/ramp height+0.2m to assumed pedestrian2.0m/vehicle2.1m envelope; includes hidden cutaway roofs. Sampling only, not continuous clearance certification.",
+  "active_comparison": "GONGZHONG_INTEGRATED_OPENINGS_0912_EST",
+  "main_scene_blocked_paths": 15,
+  "adopted": false
+}

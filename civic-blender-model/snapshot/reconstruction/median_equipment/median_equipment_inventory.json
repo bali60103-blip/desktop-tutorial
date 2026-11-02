@@ -1,0 +1,178 @@
+{
+  "source_sha256": "caf424773166e5a8d30072600ed976cf04f1c43852dd9c0462449f6ab62874b7",
+  "entries": [
+    {
+      "id": "中林-1",
+      "section": "中林",
+      "type": "進風口",
+      "relative_location": "西端",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 6,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "中林-2",
+      "section": "中林",
+      "type": "進風口",
+      "relative_location": "東端",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 6,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "中林-3",
+      "section": "中林",
+      "type": "水塔",
+      "relative_location": "西端",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 6,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "中林-4",
+      "section": "中林",
+      "type": "水塔",
+      "relative_location": "東端",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 6,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "中林-5",
+      "section": "中林",
+      "type": "排風口",
+      "relative_location": "西側坡道以東",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 6,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "中林-6",
+      "section": "中林",
+      "type": "排風口",
+      "relative_location": "東側坡道以西",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 6,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "中林-7",
+      "section": "中林",
+      "type": "發電機排煙管出口",
+      "relative_location": "東側坡道以西、排風口旁",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 6,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "林金-8",
+      "section": "林金",
+      "type": "進風口",
+      "relative_location": "西端",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 12,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "林金-9",
+      "section": "林金",
+      "type": "進風口",
+      "relative_location": "東端",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 12,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "林金-10",
+      "section": "林金",
+      "type": "水塔",
+      "relative_location": "西端",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 12,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "林金-11",
+      "section": "林金",
+      "type": "水塔",
+      "relative_location": "東端",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 12,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "林金-12",
+      "section": "林金",
+      "type": "排風口",
+      "relative_location": "西側坡道以東",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 12,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "林金-13",
+      "section": "林金",
+      "type": "排風口",
+      "relative_location": "東側坡道以西",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 12,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    },
+    {
+      "id": "林金-14",
+      "section": "林金",
+      "type": "發電機排煙管出口",
+      "relative_location": "東側坡道以西、排風口旁",
+      "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf",
+      "page": 12,
+      "confidence": "圖面標示存在；不是2026現勘",
+      "coordinates": null,
+      "dimensions_m": null,
+      "model_status": "待地理對位與比例校準；不以地下機房面積生成地面建築"
+    }
+  ],
+  "notes": [
+    "共14個圖面設備標示，不能視為14棟獨立建築；設備可能共構或位於同一包覆量體。",
+    "未定位照片：使用者PDF第22、24頁可見石材包覆箱體、矮牆、植栽槽；不能直接確定箱體用途。",
+    "街景只取得影像日期與頁面資訊，未完成影像量測。"
+  ]
+}

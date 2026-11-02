@@ -1,0 +1,20 @@
+{
+  "yanji_photo": {
+    "provider": "Google Maps contributor photo, fiona chou",
+    "photo_id": "CIHM0ogKEICAgMDQ293GRw",
+    "date_displayed": "2025-03",
+    "place_id": "0x3442abc48e31fa1f:0x54832b5d16d315a3",
+    "observed": "Portal sign1.8m; center flexible posts and entrance/exit separation; side retaining walls; portal and freestanding display pylon",
+    "displayed_map_coordinate": [
+      121.5521124,
+      25.0443885
+    ],
+    "coordinate_status": "Photo/map center, NOT surveyed portal location; consistent with official schematic entrance west of Yanji Street"
+  },
+  "streetview": {
+    "status": "In-app browser loads elevated Google panorama; ground-level POI streetview unavailable and falls back to contributor photos. Earlier blanket53unavailable report reflects prior client only, not global coverage.",
+    "elevated_pano": "Lniv9-UbcOOTIyY5Z2o9Qg",
+    "elevated_date": "2025-04"
+  },
+  "level": "L1; coordinate not surveyed"
+}

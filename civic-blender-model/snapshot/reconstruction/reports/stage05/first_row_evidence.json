@@ -1,0 +1,1138 @@
+{
+  "summary": {
+    "candidate_buildings": 56,
+    "explicit_height": 1,
+    "levels_only": 12,
+    "no_height_or_levels": 43,
+    "sampling_sensitive": 13,
+    "search_depth_sensitive": 18,
+    "axis_length_m": 338.2889985594469,
+    "scope": "Zhonglin only, Zhongshan eastern carriageway to Linsen; full corridor pending"
+  },
+  "method": {
+    "ray_spacing_m": 2,
+    "max_search_m": 200,
+    "sensitivity_spacing_m": 5,
+    "sensitivity_search_m": 100,
+    "note": "Search reach is not a fixed-buffer selection. Only first polygon intersections are candidates; open spaces may expose setback buildings. OSM missing or merged buildings remain a limitation."
+  },
+  "buildings": [
+    {
+      "osm_id": "1015825012",
+      "name": "",
+      "tags": {
+        "building": "apartments"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 505.57,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 4,
+      "min_axis_gap_m": 103.44,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1015828296",
+      "name": "交通執法聯合服務中心 (廢)",
+      "tags": {
+        "building": "yes",
+        "description": "於2015年左右廢棄，原單位遷移至愛國西路",
+        "disused:building": "public",
+        "name": "交通執法聯合服務中心 (廢)"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 341.78,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 3,
+      "min_axis_gap_m": 48.83,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1346882581",
+      "name": "",
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "1",
+      "area_m2": 5.06,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 2,
+      "min_axis_gap_m": 40.13,
+      "stable_at_5m": false,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1015825011",
+      "name": "",
+      "tags": {
+        "building": "apartments"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 309.97,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 126.07,
+      "stable_at_5m": false,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1015825010",
+      "name": "",
+      "tags": {
+        "building": "apartments"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 337.01,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 3,
+      "min_axis_gap_m": 139.13,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268357627",
+      "name": "",
+      "tags": {
+        "building": "yes",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 423.39,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 8,
+      "min_axis_gap_m": 48.19,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1346883411",
+      "name": "",
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "man_made": "ventilation_shaft"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "1",
+      "area_m2": 38.71,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 7,
+      "min_axis_gap_m": 17.65,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1174010648",
+      "name": "",
+      "tags": {
+        "building": "residential"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 129.46,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 3,
+      "min_axis_gap_m": 154.28,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "312820719",
+      "name": "興南吉發商業大樓",
+      "tags": {
+        "building": "commercial",
+        "building:levels": "18",
+        "name": "興南吉發商業大樓"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "18",
+      "area_m2": 638.76,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 15,
+      "min_axis_gap_m": 17.5,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1346353107",
+      "name": "陳情接待室",
+      "tags": {
+        "building": "government",
+        "building:levels": "4",
+        "name": "陳情接待室"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "4",
+      "area_m2": 583.21,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 8,
+      "min_axis_gap_m": 133.53,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "312820717",
+      "name": "互助營造大樓",
+      "tags": {
+        "building": "commercial",
+        "building:levels": "16",
+        "name": "互助營造大樓"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "16",
+      "area_m2": 622.56,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 2,
+      "min_axis_gap_m": 62.17,
+      "stable_at_5m": false,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1344469787",
+      "name": "",
+      "tags": {
+        "building": "yes"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 192.33,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 8,
+      "min_axis_gap_m": 73.01,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "267163049",
+      "name": "B棟大樓",
+      "tags": {
+        "building": "government",
+        "name": "B棟大樓"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 1708.59,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 35,
+      "min_axis_gap_m": 134.02,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1174015046",
+      "name": "",
+      "tags": {
+        "building": "residential"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 97.56,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 2,
+      "min_axis_gap_m": 151.79,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1174015047",
+      "name": "",
+      "tags": {
+        "building": "residential"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 83.31,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 159.57,
+      "stable_at_5m": false,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1174015048",
+      "name": "",
+      "tags": {
+        "building": "residential"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 108.19,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 163.14,
+      "stable_at_5m": false,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1174015049",
+      "name": "",
+      "tags": {
+        "building": "residential"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 313.05,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 7,
+      "min_axis_gap_m": 146.59,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1156915997",
+      "name": "",
+      "tags": {
+        "building": "apartments"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 614.49,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 16,
+      "min_axis_gap_m": 93.05,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "255061709",
+      "name": "",
+      "tags": {
+        "building": "apartments"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 1137.23,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 22,
+      "min_axis_gap_m": 85.74,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1347250436",
+      "name": "",
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "1",
+      "area_m2": 3.31,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 189.84,
+      "stable_at_5m": false,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "267163238",
+      "name": "",
+      "tags": {
+        "building": "government"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 1488.73,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 5,
+      "min_axis_gap_m": 146.96,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268357634",
+      "name": "臺北國際藝術村 (廢)",
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "description": "因此處為臺北市中正區行二行三都市更新計畫預定地，臺北國際藝術村已於2023年底遷往寶藏巖。請見 https://airofficialtest.chiliman.com.tw/about.php",
+        "disused:amenity": "arts_centre",
+        "disused:name": "臺北國際藝術村;臺北市政府養工處;臺北捷運公司辦公室",
+        "name": "臺北國際藝術村 (廢)",
+        "start_date": "1953",
+        "website": "https://airofficialtest.chiliman.com.tw/",
+        "wikidata": "Q18111010",
+        "wikipedia": "zh:臺北國際藝術村"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "4",
+      "area_m2": 408.14,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 111.3,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268357625",
+      "name": "",
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "4",
+      "area_m2": 415.16,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 94.1,
+      "stable_at_5m": false,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268531053",
+      "name": "",
+      "tags": {
+        "building": "house",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 101.85,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 66.11,
+      "stable_at_5m": false,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268531050",
+      "name": "",
+      "tags": {
+        "building": "house",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 112.98,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 7,
+      "min_axis_gap_m": 47.21,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1174015053",
+      "name": "",
+      "tags": {
+        "building": "residential"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 202.51,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 3,
+      "min_axis_gap_m": 136.6,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268531056",
+      "name": "",
+      "tags": {
+        "building": "house",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 77.2,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 6,
+      "min_axis_gap_m": 54.25,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1034205565",
+      "name": "",
+      "tags": {
+        "building": "yes"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 97.18,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 80.26,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1502285543",
+      "name": "",
+      "tags": {
+        "building": "apartments"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 172.08,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 10,
+      "min_axis_gap_m": 47.42,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268531068",
+      "name": "",
+      "tags": {
+        "building": "house",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 170.91,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 7,
+      "min_axis_gap_m": 56.03,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268531069",
+      "name": "",
+      "tags": {
+        "building": "house",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 146.15,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 7,
+      "min_axis_gap_m": 56.35,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1502285542",
+      "name": "",
+      "tags": {
+        "building": "residential"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 119.1,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 57.47,
+      "stable_at_5m": false,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1156915764",
+      "name": "",
+      "tags": {
+        "building": "yes"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 182.55,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 5,
+      "min_axis_gap_m": 75.42,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1156915763",
+      "name": "",
+      "tags": {
+        "building": "yes"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 189.38,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 4,
+      "min_axis_gap_m": 73.71,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268533337",
+      "name": "",
+      "tags": {
+        "building": "house",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 120.01,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 7,
+      "min_axis_gap_m": 60.13,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1502285540",
+      "name": "",
+      "tags": {
+        "building": "residential"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 316.15,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 10,
+      "min_axis_gap_m": 43.62,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268533340",
+      "name": "",
+      "tags": {
+        "building": "house",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 70.01,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 7,
+      "min_axis_gap_m": 62.75,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1156915760",
+      "name": "",
+      "tags": {
+        "building": "yes"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 100.01,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 3,
+      "min_axis_gap_m": 67.59,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268533362",
+      "name": "",
+      "tags": {
+        "building": "house",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 108.85,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 6,
+      "min_axis_gap_m": 63.86,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1034205564",
+      "name": "",
+      "tags": {
+        "building": "yes"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 136.03,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 89.22,
+      "stable_at_5m": false,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1156915759",
+      "name": "",
+      "tags": {
+        "building": "yes"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 108.65,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 6,
+      "min_axis_gap_m": 65.36,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1174015839",
+      "name": "",
+      "tags": {
+        "building": "office"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 564.07,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 2,
+      "min_axis_gap_m": 92.13,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268533350",
+      "name": "",
+      "tags": {
+        "building": "house",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 76.23,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 5,
+      "min_axis_gap_m": 79.48,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1034205566",
+      "name": "",
+      "tags": {
+        "building": "yes"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 119.75,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 87.96,
+      "stable_at_5m": false,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1473342988",
+      "name": "",
+      "tags": {
+        "building": "commercial"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 283.16,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 10,
+      "min_axis_gap_m": 61.96,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268533355",
+      "name": "",
+      "tags": {
+        "building": "roof",
+        "building:levels": "1"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "1",
+      "area_m2": 327.25,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 5,
+      "min_axis_gap_m": 92.38,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268531067",
+      "name": "",
+      "tags": {
+        "building": "yes",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 175.48,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 3,
+      "min_axis_gap_m": 97.64,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "267263960",
+      "name": "",
+      "tags": {
+        "building": "commercial"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 233.39,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 91.09,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "268531071",
+      "name": "",
+      "tags": {
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:full": "100臺北市中正區北平東路9-1號",
+        "addr:housenumber": "9-1",
+        "addr:postcode": "100",
+        "addr:street": "北平東路",
+        "building": "yes",
+        "building:levels": "3",
+        "source": "Bing"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "3",
+      "area_m2": 209.67,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 128.21,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1156915769",
+      "name": "臺金大樓",
+      "tags": {
+        "building": "apartments",
+        "name": "臺金大樓"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 480.8,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 10,
+      "min_axis_gap_m": 53.04,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1347367191",
+      "name": "",
+      "tags": {
+        "building": "yes",
+        "height": "1.5"
+      },
+      "height_m": 1.5,
+      "height_status": "OSM explicit height; unverified",
+      "levels": null,
+      "area_m2": 27.16,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 4,
+      "min_axis_gap_m": 72.5,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1156915768",
+      "name": "",
+      "tags": {
+        "building": "apartments"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 239.34,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 7,
+      "min_axis_gap_m": 51.05,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1156915757",
+      "name": "",
+      "tags": {
+        "building": "yes"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 180.87,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 109.48,
+      "stable_at_5m": false,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1285448040",
+      "name": "永新林森大廈",
+      "tags": {
+        "building": "apartments",
+        "name": "永新林森大廈"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": null,
+      "area_m2": 841.72,
+      "side": [
+        "north"
+      ],
+      "rays_hit": 11,
+      "min_axis_gap_m": 53.84,
+      "stable_at_5m": true,
+      "stable_at_100m": true,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "267986893",
+      "name": "",
+      "tags": {
+        "building": "roof",
+        "building:levels": "1"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "1",
+      "area_m2": 355.2,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 8,
+      "min_axis_gap_m": 181.16,
+      "stable_at_5m": true,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    },
+    {
+      "osm_id": "1347363382",
+      "name": "",
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "building:levels": "1",
+        "shelter_type": "public_transport"
+      },
+      "height_m": null,
+      "height_status": "UNKNOWN; levels not converted",
+      "levels": "1",
+      "area_m2": 11.01,
+      "side": [
+        "south"
+      ],
+      "rays_hit": 1,
+      "min_axis_gap_m": 117.28,
+      "stable_at_5m": false,
+      "stable_at_100m": false,
+      "status": "First-hit frontage candidate, not verified building frontage"
+    }
+  ]
+}

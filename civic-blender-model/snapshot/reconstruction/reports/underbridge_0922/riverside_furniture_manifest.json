@@ -1,0 +1,308 @@
+{
+  "batch_name": "UB_RIVERSIDE_FURNITURE_EST",
+  "observations": [
+    {
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "lat": 25.0509795,
+      "lon": 121.5060287,
+      "date": "2025-03",
+      "heading": 180,
+      "observed": [
+        "grass and paved paths beneath curved ramps",
+        "row of concrete benches",
+        "curved lamp posts",
+        "round columns without guards"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    }
+  ],
+  "masses": [
+    {
+      "id": "BENCH_0_SEAT",
+      "center": [
+        -451,
+        1042,
+        0.46
+      ],
+      "size": [
+        1.8,
+        0.5,
+        0.16
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_0_LEG_A",
+      "center": [
+        -451.65,
+        1042,
+        0.19
+      ],
+      "size": [
+        0.2,
+        0.45,
+        0.38
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_0_LEG_B",
+      "center": [
+        -450.35,
+        1042,
+        0.19
+      ],
+      "size": [
+        0.2,
+        0.45,
+        0.38
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_1_SEAT",
+      "center": [
+        -448,
+        1042,
+        0.46
+      ],
+      "size": [
+        1.8,
+        0.5,
+        0.16
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_1_LEG_A",
+      "center": [
+        -448.65,
+        1042,
+        0.19
+      ],
+      "size": [
+        0.2,
+        0.45,
+        0.38
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_1_LEG_B",
+      "center": [
+        -447.35,
+        1042,
+        0.19
+      ],
+      "size": [
+        0.2,
+        0.45,
+        0.38
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_2_SEAT",
+      "center": [
+        -445,
+        1042,
+        0.46
+      ],
+      "size": [
+        1.8,
+        0.5,
+        0.16
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_2_LEG_A",
+      "center": [
+        -445.65,
+        1042,
+        0.19
+      ],
+      "size": [
+        0.2,
+        0.45,
+        0.38
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_2_LEG_B",
+      "center": [
+        -444.35,
+        1042,
+        0.19
+      ],
+      "size": [
+        0.2,
+        0.45,
+        0.38
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_3_SEAT",
+      "center": [
+        -442,
+        1042,
+        0.46
+      ],
+      "size": [
+        1.8,
+        0.5,
+        0.16
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_3_LEG_A",
+      "center": [
+        -442.65,
+        1042,
+        0.19
+      ],
+      "size": [
+        0.2,
+        0.45,
+        0.38
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "BENCH_3_LEG_B",
+      "center": [
+        -441.35,
+        1042,
+        0.19
+      ],
+      "size": [
+        0.2,
+        0.45,
+        0.38
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "LAMP_POST",
+      "center": [
+        -447,
+        1056,
+        2.5
+      ],
+      "size": [
+        0.12,
+        0.12,
+        5
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "LAMP_ARM",
+      "center": [
+        -446.4,
+        1056,
+        5.02
+      ],
+      "size": [
+        1.3,
+        0.1,
+        0.1
+      ],
+      "material": "stone",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    },
+    {
+      "id": "LAMP_HEAD",
+      "center": [
+        -445.8,
+        1056,
+        5.02
+      ],
+      "size": [
+        0.45,
+        0.2,
+        0.1
+      ],
+      "material": "louvre",
+      "angle": 0,
+      "kind": "box",
+      "pano": "kh_wcLZksG1guzaOg1PXFA",
+      "segment": "UB_X-005",
+      "placement_note": "Visible park bench/lamp type. Four representative benches and one lamp are an estimated comparison placement, not an exhaustive count or surveyed coordinates. Lamp curvature simplified."
+    }
+  ],
+  "full_corridor_complete": false
+}

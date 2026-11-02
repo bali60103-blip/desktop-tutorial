@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "cap": "UNVERIFIED_Pier_036_CAP_ESTIMATED",
+      "shift_m": -5,
+      "outside_inferred_median_m2": 3.1365484905457506,
+      "status": "REJECT FOR ADOPTION: outside inferred median; vehicle-space conflict unresolved"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_114_CAP_ESTIMATED",
+      "shift_m": -5,
+      "outside_inferred_median_m2": 6.2730969810920945,
+      "status": "REJECT FOR ADOPTION: outside inferred median; vehicle-space conflict unresolved"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_408_CAP_ESTIMATED",
+      "shift_m": -5,
+      "outside_inferred_median_m2": 6.176320485408309,
+      "status": "REJECT FOR ADOPTION: outside inferred median; vehicle-space conflict unresolved"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_438_CAP_ESTIMATED",
+      "shift_m": -5,
+      "outside_inferred_median_m2": 6.2730969810920945,
+      "status": "REJECT FOR ADOPTION: outside inferred median; vehicle-space conflict unresolved"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_534_CAP_ESTIMATED",
+      "shift_m": -15,
+      "outside_inferred_median_m2": 3.1365484905459575,
+      "status": "REJECT FOR ADOPTION: outside inferred median; vehicle-space conflict unresolved"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_540_CAP_ESTIMATED",
+      "shift_m": -15,
+      "outside_inferred_median_m2": 6.273096981091915,
+      "status": "REJECT FOR ADOPTION: outside inferred median; vehicle-space conflict unresolved"
+    },
+    {
+      "cap": "UNVERIFIED_Pier_674_CAP_ESTIMATED",
+      "shift_m": 10,
+      "outside_inferred_median_m2": 3.136548490546048,
+      "status": "REJECT FOR ADOPTION: outside inferred median; vehicle-space conflict unresolved"
+    }
+  ],
+  "scope": "Second-pass spatial screening. Inferred median is not proof of actual lane boundary. Original and alternative retained only for comparison."
+}

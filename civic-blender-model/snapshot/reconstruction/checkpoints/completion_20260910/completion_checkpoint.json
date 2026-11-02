@@ -1,0 +1,20 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/CIVIC_FULL_WORKING_PASS_20260910_185632.blend",
+  "new_meshes": 706,
+  "new_nonmanifold_edges": 0,
+  "all_deferred_issue_count": 632,
+  "total_assembly_objects": 8617,
+  "collection_objects": {
+    "COMPLETION_GROUND_HIGHWAY": 1127,
+    "COMPLETION_FRONTAGE": 1112,
+    "COMPLETION_PARKING": 1654,
+    "COMPLETION_MARKINGS": 1919,
+    "COMPLETION_EQUIPMENT": 45,
+    "COMPLETION_MALLS": 1950,
+    "COMPLETION_REMOVABLE_ROOFS": 11,
+    "COMPLETION_ISSUE_MARKERS": 631,
+    "COMPLETION_SURFACE_ACCESS": 39,
+    "CIVIC_CAMERAS_200M_NORTH_SOUTH": 106
+  },
+  "limits": "First-pass source-covered assembly; unverified features remain provisional. Flags are not repaired by imagery yet. No as-built or all-path clearance claim."
+}

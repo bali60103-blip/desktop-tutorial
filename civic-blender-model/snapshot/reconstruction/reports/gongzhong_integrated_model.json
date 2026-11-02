@@ -1,0 +1,416 @@
+{
+  "scene": "GONGZHONG_INTEGRATED_OPENINGS_0912_EST",
+  "original_scene": "CIVIC_BLOCKS_FACADES_WORKING",
+  "adopted": false,
+  "moved_objects": 62,
+  "opening_meshes_rebuilt": 4,
+  "objects": [
+    {
+      "source": "CAL_GROUND_ROADS_OFFICIAL_XY_0_FIX0",
+      "copy": "GZ12_CAL_GROUND_ROADS_OFFICIAL_XY_0_FIX0",
+      "moved": false,
+      "opening_rebuilt": true
+    },
+    {
+      "source": "COMP_ROOF_ACCESS_公中_0",
+      "copy": "GZ12_COMP_ROOF_ACCESS_公中_0",
+      "moved": false,
+      "opening_rebuilt": true
+    },
+    {
+      "source": "COMP_公中_B1_FLOOR",
+      "copy": "GZ12_COMP_公中_B1_FLOOR",
+      "moved": false,
+      "opening_rebuilt": true
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A0",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A0",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B0",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B0",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A1",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A1",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B1",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B1",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A2",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A2",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B2",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B2",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A3",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A3",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B3",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B3",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A4",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A4",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B4",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B4",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A5",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A5",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B5",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B5",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A6",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A6",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B6",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B6",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A7",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A7",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B7",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B7",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A8",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A8",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B8",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B8",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A9",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A9",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B9",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B9",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A10",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A10",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B10",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B10",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_A11",
+      "copy": "GZ12_COMP_公中_CORE0_L1_A11",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_B11",
+      "copy": "GZ12_COMP_公中_CORE0_L1_B11",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L1_LANDING",
+      "copy": "GZ12_COMP_公中_CORE0_L1_LANDING",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_B2_FLOOR",
+      "copy": "GZ12_COMP_公中_B2_FLOOR",
+      "moved": false,
+      "opening_rebuilt": true
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A0",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A0",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B0",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B0",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A1",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A1",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B1",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B1",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A2",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A2",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B2",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B2",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A3",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A3",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B3",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B3",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A4",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A4",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B4",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B4",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A5",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A5",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B5",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B5",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A6",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A6",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B6",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B6",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A7",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A7",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B7",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B7",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A8",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A8",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B8",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B8",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A9",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A9",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B9",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B9",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A10",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A10",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B10",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B10",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_A11",
+      "copy": "GZ12_COMP_公中_CORE0_L2_A11",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_B11",
+      "copy": "GZ12_COMP_公中_CORE0_L2_B11",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "COMP_公中_CORE0_L2_LANDING",
+      "copy": "GZ12_COMP_公中_CORE0_L2_LANDING",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "RAIL_CORE_公中_0_B1_A",
+      "copy": "GZ12_RAIL_CORE_公中_0_B1_A",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "RAIL_CORE_公中_0_B1_B",
+      "copy": "GZ12_RAIL_CORE_公中_0_B1_B",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "RAIL_CORE_公中_0_B2_A",
+      "copy": "GZ12_RAIL_CORE_公中_0_B2_A",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "RAIL_CORE_公中_0_B2_B",
+      "copy": "GZ12_RAIL_CORE_公中_0_B2_B",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "GUARD_CORE_公中_0_B1_LANDING",
+      "copy": "GZ12_GUARD_CORE_公中_0_B1_LANDING",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "GUARD_CORE_公中_0_B2_LANDING",
+      "copy": "GZ12_GUARD_CORE_公中_0_B2_LANDING",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "INFILL_CORE_公中_0_B1_A",
+      "copy": "GZ12_INFILL_CORE_公中_0_B1_A",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "INFILL_CORE_公中_0_B1_B",
+      "copy": "GZ12_INFILL_CORE_公中_0_B1_B",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "INFILL_CORE_公中_0_B2_A",
+      "copy": "GZ12_INFILL_CORE_公中_0_B2_A",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "INFILL_CORE_公中_0_B2_B",
+      "copy": "GZ12_INFILL_CORE_公中_0_B2_B",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "INFILL_CORE_公中_0_B1_LANDING",
+      "copy": "GZ12_INFILL_CORE_公中_0_B1_LANDING",
+      "moved": true,
+      "opening_rebuilt": false
+    },
+    {
+      "source": "INFILL_CORE_公中_0_B2_LANDING",
+      "copy": "GZ12_INFILL_CORE_公中_0_B2_LANDING",
+      "moved": true,
+      "opening_rebuilt": false
+    }
+  ],
+  "translation": [
+    4.924996852874756,
+    -0.8627890348434448,
+    0.0
+  ],
+  "limits": [
+    "Estimated relocation, not surveyed entrance",
+    "New opening intersects modeled road surface; actual roadway/median classification unresolved",
+    "Other two conflicting cores not moved 105/140m; parking outline overlap retained",
+    "Full clearance check required after opening reconstruction"
+  ]
+}

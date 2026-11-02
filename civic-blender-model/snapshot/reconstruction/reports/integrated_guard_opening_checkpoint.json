@@ -1,0 +1,368 @@
+{
+  "guard_infill_report.json": {
+    "pickets": 2856,
+    "footplates": 700,
+    "seating_misses": [],
+    "assumptions": {
+      "picket_diameter_m": 0.024,
+      "maximum_nominal_spacing_m": 0.14,
+      "footplate_m": [
+        0.1,
+        0.1,
+        0.008
+      ]
+    },
+    "scope": "Model detail only. Retained wider gaps at existing support posts not a code assessment; real construction and fastening not verified."
+  },
+  "landing_guard_width_fix.json": {
+    "guards_fixed": 28,
+    "method": "Set outer rail/post centerline 0.08m inside actual modeled landing edge; retain connection to flight handrails. Mesh is shared by comparison copies."
+  },
+  "headroom_check.json": {
+    "sampled_paths": 117,
+    "samples": 6669,
+    "paths_with_obstructions": 15,
+    "method": "Upward rays from interpolated tread/ramp height+0.2m to assumed pedestrian2.0m/vehicle2.1m envelope; includes hidden cutaway roofs. Sampling only, not continuous clearance certification."
+  },
+  "gongzhong_integrated_headroom_check.json": {
+    "sampled_paths": 117,
+    "samples": 6669,
+    "paths_with_obstructions": 9,
+    "method": "Upward rays from interpolated tread/ramp height+0.2m to assumed pedestrian2.0m/vehicle2.1m envelope; includes hidden cutaway roofs. Sampling only, not continuous clearance certification."
+  },
+  "gongzhong_integrated_model.json": {
+    "scene": "GONGZHONG_INTEGRATED_OPENINGS_EST",
+    "original_scene": "CIVIC_BLOCKS_FACADES_WORKING",
+    "adopted": false,
+    "moved_objects": 56,
+    "opening_meshes_rebuilt": 4,
+    "translation": [
+      4.924996852874756,
+      -0.8627890348434448,
+      0.0
+    ],
+    "limits": [
+      "Estimated relocation, not surveyed entrance",
+      "New opening intersects modeled road surface; actual roadway/median classification unresolved",
+      "Other two conflicting cores not moved 105/140m; parking outline overlap retained",
+      "Full clearance check required after opening reconstruction"
+    ]
+  },
+  "integrated_asset_animation_audit.json": {
+    "main_scene": "CIVIC_BLOCKS_FACADES_WORKING",
+    "mesh_datablocks_checked": 15532,
+    "mesh_vertices_checked": 1673587,
+    "geometry_node_modifiers": 3495,
+    "geometry_issues": [],
+    "route_cameras": 106,
+    "animation_duration_seconds": 106.0,
+    "frame_range": [
+      1,
+      2544
+    ],
+    "camera_issues": [],
+    "missing_external_assets": [],
+    "limits": "Finite geometry, available assets and animation bindings only. Does not validate all facade dimensions, continuous clearance, cadastral position or real-world appearance."
+  },
+  "core_integration_search.json": {
+    "cases": [
+      {
+        "section": "公中",
+        "core": 0,
+        "prefix": "CORE_公中_0_",
+        "chosen": {
+          "distance_m": 5,
+          "lateral_m": 0,
+          "translation": [
+            4.924996958821861,
+            -0.8627890562561737,
+            0
+          ],
+          "hits": {},
+          "hit_count": 0
+        },
+        "candidate_count": 120,
+        "best_candidates": [
+          {
+            "distance_m": 5,
+            "lateral_m": 0,
+            "translation": [
+              4.924996958821861,
+              -0.8627890562561737,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": 5,
+            "lateral_m": -2,
+            "translation": [
+              4.579881336319391,
+              -2.832787839784918,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": 10,
+            "lateral_m": 0,
+            "translation": [
+              9.849993917643722,
+              -1.7255781125123475,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": 5,
+            "lateral_m": -4,
+            "translation": [
+              4.234765713816922,
+              -4.802786623313663,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": 10,
+            "lateral_m": -2,
+            "translation": [
+              9.504878295141253,
+              -3.695576896041092,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          }
+        ],
+        "requires_opening_updates": [
+          "GROUND_CURB_RAMPS_ESTIMATED",
+          "CAL_GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS_3",
+          "CAL_GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS_4",
+          "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_0",
+          "CAL_GROUND_ROADS_OFFICIAL_XY_0_FIX0",
+          "CAL_SECONDARY_GROUND_CURBS_WITH_ESTIMATED_OPENINGS_4_3",
+          "CAL_SECONDARY_GROUND_CURBS_WITH_ESTIMATED_OPENINGS_5_3",
+          "CAL_SECONDARY_GROUND_CROSSWALK_MARKINGS_ESTIMATED_5_3",
+          "CAL_SECONDARY_GROUND_CROSSWALK_MARKINGS_ESTIMATED_4_3",
+          "COMP_ROOF_ACCESS_公中_0",
+          "BLOCK_CONTEXT_LAND_4_3",
+          "BLOCK_CONTEXT_LAND_5_3",
+          "BLOCK_CONTEXT_ROAD_4_3",
+          "BLOCK_CONTEXT_ROAD_5_3",
+          "BLOCK_CONTEXT_SIDEWALK_4_3",
+          "BLOCK_CONTEXT_SIDEWALK_5_3",
+          "COMP_公中_B1_FLOOR",
+          "COMP_公中_B1_PERIMETER",
+          "COMP_公中_B2_FLOOR",
+          "COMP_公中_B2_PERIMETER"
+        ]
+      },
+      {
+        "section": "敦延",
+        "core": 1,
+        "prefix": "CORE_敦延_1_",
+        "chosen": {
+          "distance_m": -140,
+          "lateral_m": -6,
+          "translation": [
+            -139.84037651622367,
+            8.98159761962198,
+            0
+          ],
+          "hits": {},
+          "hit_count": 0
+        },
+        "candidate_count": 23,
+        "best_candidates": [
+          {
+            "distance_m": -140,
+            "lateral_m": -6,
+            "translation": [
+              -139.84037651622367,
+              8.98159761962198,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": -145,
+            "lateral_m": -6,
+            "translation": [
+              -144.81179715345976,
+              9.515429847632884,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": -150,
+            "lateral_m": -6,
+            "translation": [
+              -149.78321779069583,
+              10.049262075643785,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": -60,
+            "lateral_m": -6,
+            "translation": [
+              -60.29764632044619,
+              0.44028197144752834,
+              0
+            ],
+            "hits": {
+              "COMP_ROOF_ACCESS_延吉_0": 108,
+              "GUARD_CORE_延吉_0_B1_LANDING": 1,
+              "COMP_延吉_CORE0_L1_LANDING": 22,
+              "COMP_延吉_CORE0_L1_B1": 2,
+              "COMP_延吉_CORE0_L1_B2": 3,
+              "COMP_延吉_B1_FLOOR": 108
+            },
+            "hit_count": 244
+          },
+          {
+            "distance_m": -5,
+            "lateral_m": -2,
+            "translation": [
+              -5.184953528440453,
+              -1.4547360268835337,
+              0
+            ],
+            "hits": {
+              "COMP_ROOF_ACCESS_延吉_0": 126,
+              "COMP_延吉_B1_FLOOR": 126
+            },
+            "hit_count": 252
+          }
+        ],
+        "requires_opening_updates": [
+          "GROUND_CURB_RAMPS_ESTIMATED",
+          "CAL_GROUND_ROADS_OFFICIAL_XY_41",
+          "CAL_GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS_114",
+          "CAL_GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS_115",
+          "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_15",
+          "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_16",
+          "CAL_GROUND_ROADS_OFFICIAL_XY_0_FIX0",
+          "CAL_SECONDARY_GROUND_CURBS_WITH_ESTIMATED_OPENINGS_20_1",
+          "CAL_SECONDARY_GROUND_CURBS_WITH_ESTIMATED_OPENINGS_21_1",
+          "COMP_ROOF_ACCESS_敦延_0",
+          "BLOCK_CONTEXT_LAND_20_1",
+          "BLOCK_CONTEXT_LAND_21_1",
+          "BLOCK_CONTEXT_ROAD_20_1",
+          "BLOCK_CONTEXT_ROAD_21_1",
+          "BLOCK_CONTEXT_SIDEWALK_20_1",
+          "BLOCK_CONTEXT_SIDEWALK_21_1",
+          "COMP_敦延_B1_FLOOR",
+          "COMP_敦延_B1_PERIMETER",
+          "COMP_敦延_B2_FLOOR",
+          "COMP_敦延_B2_PERIMETER"
+        ]
+      },
+      {
+        "section": "延吉",
+        "core": 0,
+        "prefix": "CORE_延吉_0_",
+        "chosen": {
+          "distance_m": 105,
+          "lateral_m": -6,
+          "translation": [
+            105.15289456565341,
+            1.9669175032455515,
+            0
+          ],
+          "hits": {},
+          "hit_count": 0
+        },
+        "candidate_count": 33,
+        "best_candidates": [
+          {
+            "distance_m": 105,
+            "lateral_m": -6,
+            "translation": [
+              105.15289456565341,
+              1.9669175032455515,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": 110,
+            "lateral_m": -6,
+            "translation": [
+              110.13854343301358,
+              2.345474462487349,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": 115,
+            "lateral_m": -6,
+            "translation": [
+              115.12419230037374,
+              2.724031421729146,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": 120,
+            "lateral_m": -6,
+            "translation": [
+              120.10984116773389,
+              3.1025883809709427,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          },
+          {
+            "distance_m": 125,
+            "lateral_m": -6,
+            "translation": [
+              125.09549003509404,
+              3.4811453402127395,
+              0
+            ],
+            "hits": {},
+            "hit_count": 0
+          }
+        ],
+        "requires_opening_updates": [
+          "GROUND_CURB_RAMPS_ESTIMATED",
+          "CAL_GROUND_ROADS_OFFICIAL_XY_41",
+          "CAL_GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS_114",
+          "CAL_GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS_125",
+          "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_15",
+          "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_16",
+          "CAL_GROUND_ROADS_OFFICIAL_XY_0_FIX0",
+          "CAL_SECONDARY_GROUND_CURBS_WITH_ESTIMATED_OPENINGS_21_1",
+          "CAL_SECONDARY_GROUND_CURBS_WITH_ESTIMATED_OPENINGS_22_1",
+          "CAL_SECONDARY_GROUND_CROSSWALK_MARKINGS_ESTIMATED_22_1",
+          "COMP_ROOF_ACCESS_延吉_0",
+          "BLOCK_CONTEXT_LAND_21_1",
+          "BLOCK_CONTEXT_LAND_22_1",
+          "BLOCK_CONTEXT_ROAD_21_1",
+          "BLOCK_CONTEXT_ROAD_22_1",
+          "BLOCK_CONTEXT_SIDEWALK_21_1",
+          "BLOCK_CONTEXT_SIDEWALK_22_1",
+          "COMP_延吉_B1_FLOOR"
+        ]
+      }
+    ],
+    "scope": "Candidates stay inside prior estimated parking outlines and avoid other modeled obstacles in sampled headroom rays. Own parking floors/perimeters/roof and thin ground surfaces intentionally excluded because relocated openings would need rebuilding. Not adopted or survey-corrected."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/CIVIC_COMPLETION_ACCESS_20260910_185207.blend",
+  "new_surface_ramps": 13,
+  "new_meshes": 47,
+  "new_ramp_cameras": 13,
+  "roof_openings_updated": [
+    "COMP_塔城_ROOF",
+    "COMP_公中_ROOF",
+    "COMP_中林_ROOF",
+    "COMP_林金_ROOF",
+    "COMP_建復_ROOF",
+    "COMP_復敦_ROOF",
+    "COMP_敦延_ROOF",
+    "COMP_延吉_ROOF"
+  ],
+  "nonmanifold_edges_new": 0,
+  "issues": [
+    {
+      "id": "COMP_ACCESS_塔城_0",
+      "xy": [
+        -70.93595719656838,
+        985.9389020571242
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 4524864156
+    },
+    {
+      "id": "COMP_ACCESS_公中_0",
+      "xy": [
+        944.7855441329326,
+        765.3337601870177
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 7495435646
+    },
+    {
+      "id": "COMP_ACCESS_中林_0",
+      "xy": [
+        1288.3335594752364,
+        721.7417832905063
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 3196999076
+    },
+    {
+      "id": "COMP_ACCESS_中林_1",
+      "xy": [
+        1128.8469651401476,
+        731.1061217562732
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 3196999081
+    },
+    {
+      "id": "COMP_ACCESS_林金_0",
+      "xy": [
+        1601.75027602444,
+        670.2628268046915
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": null
+    },
+    {
+      "id": "COMP_ACCESS_林金_1",
+      "xy": [
+        1896.9217007211178,
+        570.8297887438067
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": null
+    },
+    {
+      "id": "COMP_ACCESS_建復_0",
+      "xy": [
+        2697.6725308174746,
+        380.4110442030711
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": null
+    },
+    {
+      "id": "COMP_ACCESS_復敦_0",
+      "xy": [
+        3846.2941521501107,
+        399.2593726299716
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 3196968790
+    },
+    {
+      "id": "COMP_ACCESS_復敦_1",
+      "xy": [
+        3555.802366569282,
+        416.1510957626198
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 3196968802
+    },
+    {
+      "id": "COMP_ACCESS_復敦_2",
+      "xy": [
+        3754.2990287476664,
+        411.0269041554125
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 3410375598
+    },
+    {
+      "id": "COMP_ACCESS_敦延_0",
+      "xy": [
+        4241.2386586324,
+        357.25678830168147
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 3196968779
+    },
+    {
+      "id": "COMP_ACCESS_敦延_1",
+      "xy": [
+        4010.2910336785185,
+        386.62194660150925
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 3196968788
+    },
+    {
+      "id": "COMP_ACCESS_延吉_0",
+      "xy": [
+        4482.752854442665,
+        332.7350847535158
+      ],
+      "type": "access_direction_and_ground_excavation_pending",
+      "osm_id": 12398062041
+    }
+  ],
+  "limits": "Ground/median excavation and inlet-to-road transitions remain flagged, no claim of continuous road-to-parking clearance"
+}

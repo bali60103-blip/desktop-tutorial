@@ -1,0 +1,35 @@
+{
+  "exit_forward_rays": [
+    {
+      "ramp": "EAST_0_TO_B1_ASSUMED",
+      "offset_m": -1.7,
+      "new_wall_hit": null
+    },
+    {
+      "ramp": "EAST_0_TO_B1_ASSUMED",
+      "offset_m": 0,
+      "new_wall_hit": null
+    },
+    {
+      "ramp": "EAST_0_TO_B1_ASSUMED",
+      "offset_m": 1.7,
+      "new_wall_hit": null
+    },
+    {
+      "ramp": "WEST_0_TO_B1_ASSUMED",
+      "offset_m": -1.7,
+      "new_wall_hit": null
+    },
+    {
+      "ramp": "WEST_0_TO_B1_ASSUMED",
+      "offset_m": 0,
+      "new_wall_hit": null
+    },
+    {
+      "ramp": "WEST_0_TO_B1_ASSUMED",
+      "offset_m": 1.7,
+      "new_wall_hit": null
+    }
+  ],
+  "scope": "New retaining walls only; not vehicle turning, structural or full clearance approval"
+}

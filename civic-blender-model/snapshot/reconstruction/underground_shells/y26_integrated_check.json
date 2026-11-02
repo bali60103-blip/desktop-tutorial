@@ -1,0 +1,22 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Y26Orientation/CIVIC_Y26_INTEGRATED_20260910_182420.blend",
+  "parts": [
+    {
+      "name": "Y26_B_INTEGRATED_FLOOR",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Y26_B_INTEGRATED_WALL_0",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Y26_B_INTEGRATED_WALL_1",
+      "nonmanifold_edges": 0
+    }
+  ],
+  "connected_floor_polygon": true,
+  "wall_hits_at_head_height_on_connector": [],
+  "viewport_clip_end_m": 30000,
+  "limitations": "Integrated B alternative only; legacy shell XY and entrance orientation/dimensions remain estimates. Centerline is not a full-body clearance or egress check.",
+  "originals_retained": true
+}

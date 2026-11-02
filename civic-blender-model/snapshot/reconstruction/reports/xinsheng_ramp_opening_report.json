@@ -1,0 +1,24 @@
+{
+  "replacement_meshes": 3,
+  "closed_mesh_errors": [],
+  "barrier_deck_intersections": [],
+  "removed_barrier_plan_area_m2": 14.84341479340685,
+  "assumptions": "0.25m connection clearance, near-level deck only; comparison",
+  "adopted_in_main": false,
+  "pending": [
+    "Visual confirmation of opening extent",
+    "Support ownership and geometry",
+    "Deck overlap and driving clearance",
+    "Measured elevation and widths"
+  ],
+  "main_before": {
+    "markers": 106,
+    "objects": 22493,
+    "cameras": 133
+  },
+  "main_after": {
+    "markers": 106,
+    "objects": 22493,
+    "cameras": 133
+  }
+}

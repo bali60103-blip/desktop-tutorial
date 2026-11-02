@@ -1,0 +1,207 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/CIVIC_VALIDATION_REPAIRED_20260910_183657.blend",
+  "missing_external_assets": [],
+  "external_asset_count": 3,
+  "nonfinite_transforms": [],
+  "zero_scale_objects": [],
+  "invalid_camera_parameters": [],
+  "mesh_objects_with_explicit_provenance_or_assumption_fields": 5636,
+  "metadata_examples": [
+    {
+      "object": "A_B1",
+      "fields": {
+        "status": "SCHEMATIC ASSUMPTION, not site geometry"
+      }
+    },
+    {
+      "object": "A_B2",
+      "fields": {
+        "status": "SCHEMATIC ASSUMPTION, not site geometry"
+      }
+    },
+    {
+      "object": "A_cap",
+      "fields": {
+        "status": "SCHEMATIC ASSUMPTION, not site geometry"
+      }
+    },
+    {
+      "object": "A_deck",
+      "fields": {
+        "status": "SCHEMATIC ASSUMPTION, not site geometry"
+      }
+    },
+    {
+      "object": "A_girder",
+      "fields": {
+        "status": "SCHEMATIC ASSUMPTION, not site geometry"
+      }
+    },
+    {
+      "object": "A_ground",
+      "fields": {
+        "status": "SCHEMATIC ASSUMPTION, not site geometry"
+      }
+    },
+    {
+      "object": "A_pier",
+      "fields": {
+        "status": "SCHEMATIC ASSUMPTION, not site geometry"
+      }
+    },
+    {
+      "object": "A_pier.001",
+      "fields": {
+        "status": "SCHEMATIC ASSUMPTION, not site geometry"
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_016",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_016_CAP_ESTIMATED",
+      "fields": {
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_017",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_020",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_020_CAP_ESTIMATED",
+      "fields": {
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_021",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_036",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "UNRESOLVED CONFLICT: no candidate within inferred median under current search limits"
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_036_CAP_ESTIMATED",
+      "fields": {
+        "status": "UNRESOLVED CONFLICT: no candidate within inferred median under current search limits"
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_037",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "UNRESOLVED CONFLICT: no candidate within inferred median under current search limits"
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_042",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_042_CAP_ESTIMATED",
+      "fields": {
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_043",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_048",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_048_CAP_ESTIMATED",
+      "fields": {
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_049",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_054",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_054_CAP_ESTIMATED",
+      "fields": {
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_055",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_060",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_060_CAP_ESTIMATED",
+      "fields": {
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_061",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    },
+    {
+      "object": "ALT_UNVERIFIED_Pier_066",
+      "fields": {
+        "source": "Previous scene interpolated support",
+        "status": "Estimated alternative; not as-built. Structural redesign and foundation checks unresolved."
+      }
+    }
+  ],
+  "limits": "Metadata presence does not validate provenance correctness; absence may be covered by collection/report-level tags. External file existence does not establish accuracy."
+}

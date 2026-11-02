@@ -1,0 +1,33 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/CIVIC_VALIDATION_REPAIRED_20260910_183657.blend",
+  "changes": [
+    {
+      "object": "GROUND_ROADS_OFFICIAL_XY",
+      "reason": "Split edge-touching road shells; no coordinate displacement",
+      "before_mesh_retained": "GROUND_ROADS_OFFICIAL_XY_SHELLS.005",
+      "after": {
+        "boundary": 0,
+        "multiple": 0
+      }
+    },
+    {
+      "object": "Buildings_context__OSM_XY__HEIGHTS_UNVERIFIED",
+      "reason": "Collapse exact duplicate vertices at zero-width wall; remove collapsed face",
+      "before_mesh_retained": "Buildings_Massing_OSM_v2.001",
+      "after": {
+        "boundary": 0,
+        "multiple": 0
+      }
+    },
+    {
+      "object": "Y26_B_INTEGRATED_WALL_0",
+      "reason": "Cut full estimated staircase footprint from legacy mall wall; preserve pre-repair mesh",
+      "before_mesh_retained": "Y26_B_INTEGRATED_WALL_0",
+      "after": {
+        "boundary": 0,
+        "multiple": 0
+      }
+    }
+  ],
+  "limits": "Geometry fixes only; no surveyed coordinates, elevations or dimensions asserted."
+}

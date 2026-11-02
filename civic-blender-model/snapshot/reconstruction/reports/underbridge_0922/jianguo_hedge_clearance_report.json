@@ -1,0 +1,73 @@
+{
+  "cuts": [
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "UNVERIFIED_Pier_118"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "UNVERIFIED_Pier_119"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "UNVERIFIED_Pier_206"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "UNVERIFIED_Pier_207"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_106"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_107"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_110"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_111"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_114"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_115"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_214"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_215"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_218"
+    ],
+    [
+      "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "UNVERIFIED_Pier_219"
+    ]
+  ],
+  "remaining_hedge_pier_intersections": [],
+  "mesh_checks": [
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_HEDGE_WEST_EST",
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "UB_JIANGUO_WEST_023_025_EST_HEDGE_EAST_EST",
+      "nonmanifold_edges": 0
+    }
+  ],
+  "median_base_pier_contact": "Expected model ground contact, not removed",
+  "dimensions_verified": false
+}

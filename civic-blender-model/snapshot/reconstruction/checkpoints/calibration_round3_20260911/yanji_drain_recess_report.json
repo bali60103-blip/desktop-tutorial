@@ -1,0 +1,23 @@
+{
+  "drains": [
+    {
+      "drain": "UPPER",
+      "recess_m": 0.15,
+      "pan_interior_depth_m": 0.13,
+      "remaining_under_slab_m": 0.05,
+      "outfall": "not modeled or surveyed",
+      "status": "Geometry comparison only; not a drainage or structural design"
+    },
+    {
+      "drain": "LOWER",
+      "recess_m": 0.15,
+      "pan_interior_depth_m": 0.13,
+      "remaining_under_slab_m": 0.05,
+      "outfall": "not modeled or surveyed",
+      "status": "Geometry comparison only; not a drainage or structural design"
+    }
+  ],
+  "old_objects_retained": 4,
+  "new_mesh_objects": 20,
+  "adopted": false
+}

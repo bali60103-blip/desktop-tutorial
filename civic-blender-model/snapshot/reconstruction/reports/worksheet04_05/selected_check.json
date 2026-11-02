@@ -1,0 +1,38 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Worksheet04_05/STAGE45_SELECTED_20260910_015522.blend",
+  "chosen_levels": [
+    -3.6,
+    -7.2
+  ],
+  "ramps": [
+    {
+      "name": "EAST_0_TO_B1_ASSUMED",
+      "run_m": 37.952995153230916,
+      "rise_m": -3.6,
+      "grade": 0.09485417383965108,
+      "width_m": 3.5
+    },
+    {
+      "name": "WEST_0_TO_B1_ASSUMED",
+      "run_m": 45.01817672925996,
+      "rise_m": -3.6,
+      "grade": 0.07996769886196098,
+      "width_m": 3.5
+    },
+    {
+      "name": "B1_TO_B2_TEST_RAMP",
+      "run_m": 35.99988270862996,
+      "rise_m": -3.6,
+      "grade": 0.10000032581042274,
+      "width_m": 3.5
+    }
+  ],
+  "pier_summary": {
+    "bent_groups": 130,
+    "groups_intersecting_modeled_exclusions": 7,
+    "groups_with_translation_candidate": 0,
+    "unresolved_groups": 7
+  },
+  "comparison_focus_cap": "UNVERIFIED_Pier_540_CAP_ESTIMATED",
+  "status": "Selected-depth test cell and estimated bent alternatives created. No actual underground perimeter, stair locations or foundation verified; no structural acceptance; B/C not passed."
+}

@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "median_working_area_m2": 49923.32955000003,
+    "median_components": 37,
+    "official_records_with_median_area": 84,
+    "wide_gap_samples_capped_at_12m": 1624
+  },
+  "assumptions": {
+    "height_m": 0.18,
+    "max_gap_width_m": 12,
+    "crossing_clearance_radius_m": 14,
+    "lane_width_m": 3.25,
+    "status": "Estimated median location; official CEN_MEDIAN confirms area attribute only, not geometry"
+  }
+}

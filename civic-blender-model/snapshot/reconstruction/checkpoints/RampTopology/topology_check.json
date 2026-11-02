@@ -1,0 +1,336 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/RampTopology/CIVIC_RAMP_TOPOLOGY_20260910_154300.blend",
+  "objects": [
+    {
+      "name": "Ramp_00_市民大道入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_01_光復南路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_02_健康路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_03_永吉路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_04_忠孝東路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_05_建國南路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_06_建國南路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_07_建國南路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_08_忠孝東路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_09_南京東路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_10_長安東路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_11_長安東路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_12_永吉路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_13_永吉路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_14_塔悠路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_15_長安東路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_16_長安東路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_17_新生南路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_18_新生南路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_19_新生南路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_20_八德路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_21_八德路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_22_新生南路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_23_長安東路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_24_環河北路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_25_環河北路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_26_環河北路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_27_重慶北路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_28_重慶北路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_29_重慶北路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_30_仁愛路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_31_仁愛路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_32_基隆路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_33_基隆路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_34_長春路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_35_民生東路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_36_重慶南路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_37_臺北轉運站出站通道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_38_光復南路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_39_長安東路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_40_長安東路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_41_長安東路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_42_民生東路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_43_長安東路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_44_八德路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_45_八德路入口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    },
+    {
+      "name": "Ramp_46_光復南路出口匝道",
+      "status": "two end caps added",
+      "before_bad_edges": 8,
+      "after_bad_edges": 0,
+      "vertex_positions_unchanged": true
+    }
+  ],
+  "repaired": 47,
+  "limitations": "Topology only. Names in legacy ramp collection include other roads. No change to routes, widths, grades or merge geometry; these need imagery/source verification."
+}

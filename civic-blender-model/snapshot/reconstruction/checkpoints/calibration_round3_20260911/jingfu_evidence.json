@@ -1,0 +1,131 @@
+{
+  "name": "Jingfu Temple",
+  "evidence_level": "L1",
+  "source_image": "Calibration/stations_current/03K800.jpg",
+  "imagery": "NLSC PHOTO2 orthophoto bearing 2024 watermark",
+  "photo_source": "https://commons.wikimedia.org/wiki/File:Checeng_Jingfu_Temple_front_view_20221129.jpg",
+  "registry": "https://crgis.rchss.sinica.edu.tw/temples/TaipeiCity/daan/63003054-DACCJFG",
+  "pixel_polygons": {
+    "roof": [
+      [
+        480,
+        341
+      ],
+      [
+        490,
+        339
+      ],
+      [
+        491,
+        330
+      ],
+      [
+        503,
+        330
+      ],
+      [
+        503,
+        340
+      ],
+      [
+        497,
+        342
+      ],
+      [
+        497,
+        350
+      ],
+      [
+        480,
+        351
+      ]
+    ],
+    "canopy": [
+      [
+        478,
+        352
+      ],
+      [
+        497,
+        351
+      ],
+      [
+        497,
+        364
+      ],
+      [
+        478,
+        364
+      ]
+    ]
+  },
+  "live_polygons": {
+    "roof": [
+      [
+        4399.261338448268,
+        320.91849691281095
+      ],
+      [
+        4404.670002412458,
+        322.0173106319271
+      ],
+      [
+        4405.191478090244,
+        326.86448751436546
+      ],
+      [
+        4411.687160388043,
+        326.8910771738738
+      ],
+      [
+        4411.709197802702,
+        321.50778678571805
+      ],
+      [
+        4408.465762590815,
+        320.4178332639858
+      ],
+      [
+        4408.483391470625,
+        316.11119912192225
+      ],
+      [
+        4399.283370920282,
+        315.5352042890154
+      ]
+    ],
+    "canopy": [
+      [
+        4398.202959520277,
+        314.99244408728555
+      ],
+      [
+        4408.485595079139,
+        315.5728697599843
+      ],
+      [
+        4408.514241961879,
+        308.5745861423202
+      ],
+      [
+        4398.22939792939,
+        308.5324899251573
+      ]
+    ]
+  },
+  "assumptions": {
+    "eave_height_m": 3.4,
+    "ridge_height_m": 5.0,
+    "canopy_height_m": 2.7,
+    "trace_pick_uncertainty_px": 3,
+    "absolute_registration_error": "unknown",
+    "footprint": "roof-outline proxy, not surveyed wall footprint",
+    "front_orientation": "west inferred from photograph and Yanji Street"
+  },
+  "unresolved": [
+    "Temple interior and roof ornaments not surveyed",
+    "OSM POI and Commons category coordinate differ by approximately 30m; neither treated as precise footprint",
+    "Orthophoto roof occlusion and manual trace uncertainty",
+    "Ground road and bridge clearance require integrated review"
+  ]
+}

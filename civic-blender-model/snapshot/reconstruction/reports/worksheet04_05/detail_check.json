@@ -1,0 +1,42 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Worksheet04_05/STAGE45_SELECTED_20260910_015522.blend",
+  "new_mesh_checks": [
+    {
+      "object": "B1_SLAB_west",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "B1_SLAB_east",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "B1_SLAB_north",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "B1_SLAB_south",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "B2_SLAB",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "NORTH_WALL_SECTION",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "EAST_0_TO_B1_ASSUMED",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "WEST_0_TO_B1_ASSUMED",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "B1_TO_B2_TEST_RAMP",
+      "nonmanifold_edges": 0
+    }
+  ],
+  "section_display": "Open test cell, roof/south wall omitted intentionally; not completed parking model"
+}

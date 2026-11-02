@@ -1,0 +1,62 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/RampCameras/CIVIC_RAMP_CAMERAS_20260910_024247.blend",
+  "added_cameras": 3,
+  "cameras": [
+    {
+      "camera": "RAMP_CAM_EAST_1F_B1",
+      "ramp": "EAST_0_TO_B1_ASSUMED",
+      "frame": 101,
+      "location": [
+        1287.3365478515625,
+        721.7999877929688,
+        2.1828765869140625
+      ],
+      "target": [
+        1269.389404296875,
+        722.8482055664062,
+        -1.1999999284744263
+      ],
+      "lens_mm": 24,
+      "height_above_ramp_m": 2.2,
+      "render": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/RampCameras/RAMP_CAM_EAST_1F_B1.png"
+    },
+    {
+      "camera": "RAMP_CAM_WEST_1F_B1",
+      "ramp": "WEST_0_TO_B1_ASSUMED",
+      "frame": 102,
+      "location": [
+        1129.8388671875,
+        731.0299072265625,
+        2.185866355895996
+      ],
+      "target": [
+        1151.413818359375,
+        729.3721313476562,
+        -1.2106547355651855
+      ],
+      "lens_mm": 24,
+      "height_above_ramp_m": 2.2,
+      "render": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/RampCameras/RAMP_CAM_WEST_1F_B1.png"
+    },
+    {
+      "camera": "RAMP_CAM_B1_B2",
+      "ramp": "B1_TO_B2_TEST_RAMP",
+      "frame": 103,
+      "location": [
+        1191.6195068359375,
+        727.42041015625,
+        -1.4181816577911377
+      ],
+      "target": [
+        1208.5902099609375,
+        726.4239501953125,
+        -4.799999713897705
+      ],
+      "lens_mm": 24,
+      "height_above_ramp_m": 2.2,
+      "render": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/RampCameras/RAMP_CAM_B1_B2.png"
+    }
+  ],
+  "existing_500m_cameras": 44,
+  "scope": "Three currently modeled ramps only; other parking ramps not yet reconstructed."
+}

@@ -1,0 +1,141 @@
+{
+  "sampled_paths": 117,
+  "samples": 6669,
+  "paths_with_obstructions": 15,
+  "method": "Upward rays from interpolated tread/ramp height+0.2m to assumed pedestrian2.0m/vehicle2.1m envelope; includes hidden cutaway roofs. Sampling only, not continuous clearance certification.",
+  "issues": [
+    {
+      "path": "CORE_公中_0_B1_A",
+      "hit_count": 21,
+      "objects": {
+        "CAL_SECONDARY_Y_REMOVABLE_ROOF_0_1_4": 6,
+        "CAL_SECONDARY_Zhongshan_Underground_Street_中山地下街_REMOVABLE_ROOF_4_4": 13,
+        "Zhongshan_Underground_Street_中山地下街_PERIMETER_WALL_0": 2
+      },
+      "minimum_sampled_clearance_m": 0.27249998301267625
+    },
+    {
+      "path": "CORE_公中_0_B1_LANDING",
+      "hit_count": 6,
+      "objects": {
+        "Zhongshan_Underground_Street_中山地下街_PERIMETER_WALL_0": 3,
+        "CAL_SECONDARY_Zhongshan_Underground_Street_中山地下街_REMOVABLE_ROOF_4_4": 2,
+        "CAL_SECONDARY_Y_REMOVABLE_ROOF_0_1_4": 1
+      },
+      "minimum_sampled_clearance_m": 0.9999998331069946
+    },
+    {
+      "path": "CORE_公中_0_B1_B",
+      "hit_count": 36,
+      "objects": {
+        "CAL_SECONDARY_Zhongshan_Underground_Street_中山地下街_REMOVABLE_ROOF_4_4": 33,
+        "CAL_SECONDARY_Y_REMOVABLE_ROOF_0_1_4": 3
+      },
+      "minimum_sampled_clearance_m": 1.0824998140335083
+    },
+    {
+      "path": "CORE_公中_0_B2_A",
+      "hit_count": 42,
+      "objects": {
+        "Zhongshan_Underground_Street_中山地下街_FLOOR": 34,
+        "Y_WORKING_FLOOR_0": 8
+      },
+      "minimum_sampled_clearance_m": 0.2474998913705349
+    },
+    {
+      "path": "CORE_公中_0_B2_LANDING",
+      "hit_count": 6,
+      "objects": {
+        "Zhongshan_Underground_Street_中山地下街_FLOOR": 5,
+        "Y_WORKING_FLOOR_0": 1
+      },
+      "minimum_sampled_clearance_m": 1.5000000715255737
+    },
+    {
+      "path": "CORE_公中_0_B2_B",
+      "hit_count": 18,
+      "objects": {
+        "Zhongshan_Underground_Street_中山地下街_FLOOR": 13,
+        "Y_WORKING_FLOOR_0": 5
+      },
+      "minimum_sampled_clearance_m": 1.582500171661377
+    },
+    {
+      "path": "CORE_敦延_1_B1_A",
+      "hit_count": 51,
+      "objects": {
+        "COMP_ROOF_ACCESS_延吉_0": 51
+      },
+      "minimum_sampled_clearance_m": 0.24749995470046998
+    },
+    {
+      "path": "CORE_敦延_1_B1_LANDING",
+      "hit_count": 57,
+      "objects": {
+        "COMP_ROOF_ACCESS_延吉_0": 57
+      },
+      "minimum_sampled_clearance_m": 1.499999713897705
+    },
+    {
+      "path": "CORE_敦延_1_B1_B",
+      "hit_count": 16,
+      "objects": {
+        "COMP_敦延_B1_PERIMETER": 3,
+        "COMP_ROOF_ACCESS_延吉_0": 13
+      },
+      "minimum_sampled_clearance_m": 1.5824996948242187
+    },
+    {
+      "path": "CORE_敦延_1_B2_A",
+      "hit_count": 51,
+      "objects": {
+        "COMP_延吉_B1_FLOOR": 51
+      },
+      "minimum_sampled_clearance_m": 0.2474998950958252
+    },
+    {
+      "path": "CORE_敦延_1_B2_LANDING",
+      "hit_count": 57,
+      "objects": {
+        "COMP_延吉_B1_FLOOR": 57
+      },
+      "minimum_sampled_clearance_m": 1.5000000715255737
+    },
+    {
+      "path": "CORE_敦延_1_B2_B",
+      "hit_count": 16,
+      "objects": {
+        "COMP_敦延_B2_PERIMETER": 4,
+        "COMP_延吉_B1_FLOOR": 12
+      },
+      "minimum_sampled_clearance_m": 1.5825000524520874
+    },
+    {
+      "path": "CORE_延吉_0_B1_A",
+      "hit_count": 51,
+      "objects": {
+        "COMP_ROOF_ACCESS_敦延_0": 51
+      },
+      "minimum_sampled_clearance_m": 0.24749995470046998
+    },
+    {
+      "path": "CORE_延吉_0_B1_LANDING",
+      "hit_count": 56,
+      "objects": {
+        "COMP_ROOF_ACCESS_敦延_0": 52,
+        "COMP_敦延_B1_PERIMETER": 4
+      },
+      "minimum_sampled_clearance_m": 1.499999713897705
+    },
+    {
+      "path": "CORE_延吉_0_B1_B",
+      "hit_count": 12,
+      "objects": {
+        "COMP_敦延_B1_PERIMETER": 5,
+        "COMP_ROOF_ACCESS_敦延_0": 6,
+        "CAL2_YANJI_ENTRY_WALL_0": 1
+      },
+      "minimum_sampled_clearance_m": 1.5824998140335083
+    }
+  ]
+}

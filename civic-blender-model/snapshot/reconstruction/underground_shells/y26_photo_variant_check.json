@@ -1,0 +1,28 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Y26PhotoVariant/CIVIC_Y26_PHOTO_VARIANT_20260910_180007.blend",
+  "meshes": 118,
+  "nonmanifold_edges": 0,
+  "source": "https://www.studiox4.com/works/y26/",
+  "photo_observed": [
+    "white-framed glazed pavilion",
+    "raised exterior entrance landing",
+    "parallel stairs and escalator"
+  ],
+  "assumed": {
+    "platform_z": 0.6,
+    "B1_z": -3.6,
+    "roof_z": 3.75,
+    "roof_plan_m": [
+      10.4,
+      5.8
+    ],
+    "stair_width": 2.4,
+    "escalator_tread_width": 1.0
+  },
+  "limitations": "Footprint, roof simplification, stair orientation, escalator direction, dimensions, tread counts all estimated. Roof hanging mesh art omitted. Project design area115.5m2 not treated as canopy footprint. Separate scene, original Y26 retained; no certified connection or obstruction check.",
+  "balustrade_fix": "28 stepped segment meshes hidden;2 continuous closed panels added",
+  "active_meshes": 92,
+  "review": "Corrected continuous balustrades visually checked in cutaway; glass hidden in workbench preview",
+  "photo_credit": "StudioX4 project page; photographs credited there to YHLAA and Ethan Lee",
+  "streetview_measured": false
+}

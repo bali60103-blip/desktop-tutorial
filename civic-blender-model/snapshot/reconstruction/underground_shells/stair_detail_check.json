@@ -1,0 +1,169 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/YStairDetail/CIVIC_Y_STAIR_DETAIL_20260910_173942.blend",
+  "entrances": 19,
+  "mesh_count": 764,
+  "nonmanifold_edges": 0,
+  "centerline_ray_hits_against_new_parts": [],
+  "centerline_ray_samples": 456,
+  "details": [
+    {
+      "ref": "Y21",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y9",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y26",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y27",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 2.8498084368546825
+    },
+    {
+      "ref": "Y17",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y19",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y10",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y12",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y23",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y25",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y28",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y11",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y13",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 15.073650664144282
+    },
+    {
+      "ref": "Y14",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y15",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y16",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y18",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y20",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    },
+    {
+      "ref": "Y22",
+      "flight_sidewalls": 24,
+      "handrails": 2,
+      "posts": 14,
+      "clear_between_handrails_m": 2.09,
+      "branch_wall_length_m": 0
+    }
+  ],
+  "limits": "Checks against new parts only; no compliance or as-built accuracy claim. Ground excavation, actual elevator/escalator types, shop layout and entrance directions unresolved.",
+  "sha256": "edac4b024ca84a9d67cd411750cd805ec34cc566111b3e6d0b4082d65080f0c9",
+  "visually_reviewed": [
+    "Y13_detail.png",
+    "Y27_detail.png",
+    "Y12_detail.png"
+  ]
+}

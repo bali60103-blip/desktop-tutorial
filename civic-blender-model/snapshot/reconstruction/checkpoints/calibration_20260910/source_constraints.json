@@ -1,0 +1,23 @@
+[
+  {
+    "id": "Y_VERTICAL_SOURCE",
+    "source": "https://www.ceci.org.tw/Upload/Download/BE9F1DB3-1378-4492-BE0A-F183E2BE3798.pdf",
+    "page": 88,
+    "B1_floor_to_floor_m": 5.7,
+    "B2_floor_to_floor_m": 5.4,
+    "status": "Published structural floor heights; ground cover/datum unknown; current -3.6/-7.2 assumptions are not calibrated. Do not equate these with clear height."
+  },
+  {
+    "id": "QSQUARE_HEIGHT",
+    "source": "https://www.onenessarchitects.com/project/Redium-Parcel-9-Taipei-Main-Station-BOT-Joint-Development?lang=tw",
+    "complex_max_height_m": 69.95,
+    "status": "Mixed podium/tower complex. Existing3.3m podium is unverified; applying69.95m to whole footprint would be incorrect."
+  },
+  {
+    "id": "SONGSHAN_HEIGHT",
+    "source": "https://www.twarchitect.org.tw/works/潤泰松山車站共構bot/",
+    "station_tower_height_m": 81,
+    "other_tower_height_m": 84.8,
+    "status": "A podium footprint is not the81m tower footprint; tower-part geometry must be identified before height change."
+  }
+]

@@ -1,0 +1,584 @@
+﻿path,type,bytes,last_commit,last_commit_date,last_commit_subject
+reconstruction/BRANCH_WORKFLOW.md,md,1551,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/README.md,md,868,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/archive/assemble_geometry.py,py,6500,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/archive/civic-audit.py,py,2475,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/archive/civic-finish-scene.py,py,1994,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/archive/civic-refine-scene.py,py,3686,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/archive/civic-supplements.py,py,578,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/archive/final_scene_check.json,json,809,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/archive/install_blender.py,py,6538,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/archive/registration.json,json,829,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/archive/source_manifest.json,json,3339,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/cameras_200m/verification.json,json,295,fbc814d,2026-09-10,Record verified 106 route cameras and removal of old 500m configuration
+reconstruction/checkpoints/EntrancePortals/portal_check.json,json,897,0648800,2026-09-10,"Back up parking, portal, ramp topology and underground entry alignment checkpoints"
+reconstruction/checkpoints/ParkingSections/parking_check.json,json,3813,0648800,2026-09-10,"Back up parking, portal, ramp topology and underground entry alignment checkpoints"
+reconstruction/checkpoints/RampTopology/topology_check.json,json,9654,0648800,2026-09-10,"Back up parking, portal, ramp topology and underground entry alignment checkpoints"
+reconstruction/checkpoints/block_facades_20260910/REBUILD_ORDER.md,md,576,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/checkpoints/block_facades_20260910/deliverable_manifest.json,json,403,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/checkpoints/block_facades_20260910/final_model_check.json,json,1135,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/checkpoints/block_facades_20260910/frontage_coverage_alias.json,json,170,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/checkpoints/block_facades_20260910/selection_summary.json,json,1126,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/checkpoints/block_facades_20260910/街廓立面報告.md,md,4527,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/checkpoints/calibration_20260910/final_checkpoint.json,json,491,bacedf1,2026-09-10,"Checkpoint partial site calibration and explicit unresolved source, streetview and clearance limits"
+reconstruction/checkpoints/calibration_20260910/flow_corrections_applied.json,json,766,bacedf1,2026-09-10,"Checkpoint partial site calibration and explicit unresolved source, streetview and clearance limits"
+reconstruction/checkpoints/calibration_20260910/source_constraints.json,json,1035,bacedf1,2026-09-10,"Checkpoint partial site calibration and explicit unresolved source, streetview and clearance limits"
+reconstruction/checkpoints/calibration_20260910/streetview_status.json,json,11365,bacedf1,2026-09-10,"Checkpoint partial site calibration and explicit unresolved source, streetview and clearance limits"
+reconstruction/checkpoints/calibration_20260910/校準報告.md,md,5330,bacedf1,2026-09-10,"Checkpoint partial site calibration and explicit unresolved source, streetview and clearance limits"
+reconstruction/checkpoints/calibration_round2_20260911/final_check.json,json,311,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/checkpoints/calibration_round2_20260911/manifest.json,json,229,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/checkpoints/calibration_round2_20260911/source_evidence.json,json,743,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/checkpoints/calibration_round2_20260911/第二輪校準紀錄.md,md,1909,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/checkpoints/calibration_round3_20260911/ROOM_YANJI_PROGRESS.md,md,1565,95e4ceb,2026-09-11,Integrate machine-room and ramp detail checks with preserved inward-camera timeline
+reconstruction/checkpoints/calibration_round3_20260911/ROUND3_PROGRESS.md,md,2119,5b7af3e,2026-09-11,Integrate legacy slab repairs and refreshed parking camera validation
+reconstruction/checkpoints/calibration_round3_20260911/STAIR_DETAIL_PROGRESS.md,md,1305,4767261,2026-09-11,Integrate stair detail checks while retaining entrance conflicts and inward camera animation
+reconstruction/checkpoints/calibration_round3_20260911/applied_minlevel.json,json,119,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/checkpoints/calibration_round3_20260911/applied_tnh.json,json,152,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/checkpoints/calibration_round3_20260911/camera_animation_east_west.json,json,13690,8a498fc,2026-09-11,Add east-to-west timeline camera cuts at one-second intervals
+reconstruction/checkpoints/calibration_round3_20260911/camera_obstruction_audit.json,json,2344,6d56ee2,2026-09-11,Integrate Jingfu estimate and 128-camera review with unresolved obstruction findings
+reconstruction/checkpoints/calibration_round3_20260911/camera_visual_findings.json,json,1378,5b7af3e,2026-09-11,Integrate legacy slab repairs and refreshed parking camera validation
+reconstruction/checkpoints/calibration_round3_20260911/checkpoint_manifest_current.json,json,404,5b7af3e,2026-09-11,Integrate legacy slab repairs and refreshed parking camera validation
+reconstruction/checkpoints/calibration_round3_20260911/gongzhong_comparison_model.json,json,691,998a40c,2026-09-11,Add parking stair handrails and landing guards with unadopted Gongzhong offset comparison
+reconstruction/checkpoints/calibration_round3_20260911/gongzhong_offset_comparison.json,json,3256,998a40c,2026-09-11,Add parking stair handrails and landing guards with unadopted Gongzhong offset comparison
+reconstruction/checkpoints/calibration_round3_20260911/handrail_seating_check.json,json,161,998a40c,2026-09-11,Add parking stair handrails and landing guards with unadopted Gongzhong offset comparison
+reconstruction/checkpoints/calibration_round3_20260911/inward_camera_summary.json,json,1820,5fde0af,2026-09-11,Place road cameras on opposite sides facing the boulevard axis while preserving timeline cuts
+reconstruction/checkpoints/calibration_round3_20260911/jingfu_evidence.json,json,2507,8fc4d3e,2026-09-11,Add estimated Jingfu Temple massing from orthophoto and public photo evidence
+reconstruction/checkpoints/calibration_round3_20260911/jingfu_model_check.json,json,393,8fc4d3e,2026-09-11,Add estimated Jingfu Temple massing from orthophoto and public photo evidence
+reconstruction/checkpoints/calibration_round3_20260911/landing_guard_report.json,json,4290,998a40c,2026-09-11,Add parking stair handrails and landing guards with unadopted Gongzhong offset comparison
+reconstruction/checkpoints/calibration_round3_20260911/legacy_slab_trim_report.json,json,2314,5327898,2026-09-11,Trim duplicate Zhonglin legacy floor regions and diagnose parking render shadow artifacts
+reconstruction/checkpoints/calibration_round3_20260911/legacy_slab_trim_validation.json,json,234,5327898,2026-09-11,Trim duplicate Zhonglin legacy floor regions and diagnose parking render shadow artifacts
+reconstruction/checkpoints/calibration_round3_20260911/machine_room_door_payload.json,json,12048,2771f38,2026-09-11,Detail 16 machine-room doors and refine the unadopted Yanji ramp alternative
+reconstruction/checkpoints/calibration_round3_20260911/machine_room_door_report.json,json,7473,2771f38,2026-09-11,Detail 16 machine-room doors and refine the unadopted Yanji ramp alternative
+reconstruction/checkpoints/calibration_round3_20260911/minlevel_audit.json,json,10335,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/checkpoints/calibration_round3_20260911/model_check.json,json,10401,75c4374,2026-09-11,Integrate building and entrance work with independent 80-record validation
+reconstruction/checkpoints/calibration_round3_20260911/parking_render_diagnosis.json,json,702,5327898,2026-09-11,Trim duplicate Zhonglin legacy floor regions and diagnose parking render shadow artifacts
+reconstruction/checkpoints/calibration_round3_20260911/room_yanji_detail_check.json,json,571,95e4ceb,2026-09-11,Integrate machine-room and ramp detail checks with preserved inward-camera timeline
+reconstruction/checkpoints/calibration_round3_20260911/stair_detail_checkpoint.json,json,387,4767261,2026-09-11,Integrate stair detail checks while retaining entrance conflicts and inward camera animation
+reconstruction/checkpoints/calibration_round3_20260911/stair_handrail_report.json,json,9605,998a40c,2026-09-11,Add parking stair handrails and landing guards with unadopted Gongzhong offset comparison
+reconstruction/checkpoints/calibration_round3_20260911/tnh_evidence.json,json,311,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/checkpoints/calibration_round3_20260911/yanji_detail_report.json,json,1440,2771f38,2026-09-11,Detail 16 machine-room doors and refine the unadopted Yanji ramp alternative
+reconstruction/checkpoints/calibration_round3_20260911/yanji_drain_recess_report.json,json,613,2771f38,2026-09-11,Detail 16 machine-room doors and refine the unadopted Yanji ramp alternative
+reconstruction/checkpoints/calibration_round3_20260911/yanji_photo_comparison.json,json,585,ee1a5f4,2026-09-11,Separate entrance and equipment work: Yanji photo evidence and reversible comparison model
+reconstruction/checkpoints/calibration_round3_20260911/yanji_photo_evidence.json,json,954,ee1a5f4,2026-09-11,Separate entrance and equipment work: Yanji photo evidence and reversible comparison model
+reconstruction/checkpoints/completion_20260910/WORKING_MODEL_README.md,md,3832,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/checkpoints/completion_20260910/access_check.json,json,3405,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/checkpoints/completion_20260910/all_deferred_issues.json,json,125630,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/checkpoints/completion_20260910/build_check.json,json,616,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/checkpoints/completion_20260910/checkpoint_mesh_check.json,json,454,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/checkpoints/completion_20260910/completion_checkpoint.json,json,801,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/checkpoints/completion_20260910/completion_manifest.json,json,1723,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/checkpoints/completion_20260910/numeric_repair.json,json,151,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/checkpoints/validation_20260910/VALIDATION_REPORT_zh-TW.md,md,5997,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/checkpoints/validation_20260910/assets_metadata_check.json,json,6746,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/checkpoints/validation_20260910/before_technical_audit.json,json,12242,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/checkpoints/validation_20260910/before_walk_envelope_audit.json,json,13843,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/checkpoints/validation_20260910/final_validation_check.json,json,710,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/checkpoints/validation_20260910/repair_check.json,json,1108,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/checkpoints/validation_20260910/technical_audit.json,json,10439,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/checkpoints/validation_20260910/validation_manifest.json,json,2450,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/checkpoints/validation_20260910/walk_envelope_audit.json,json,7569,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/docs/COMMAND_LOG.md,md,1862,94562c5,2026-09-09,"Record source-plan review, entrance references and Gate B accuracy limits"
+reconstruction/docs/DETAIL01_REVIEW.md,md,1927,f24553a,2026-09-10,"Save physical sidewalk detail results, manifold verification and model checkpoint"
+reconstruction/docs/GATE_A.md,md,2779,94562c5,2026-09-09,"Record source-plan review, entrance references and Gate B accuracy limits"
+reconstruction/docs/GATE_B.md,md,3596,94562c5,2026-09-09,"Record source-plan review, entrance references and Gate B accuracy limits"
+reconstruction/docs/GATE_B_RENDER_REVIEW.md,md,2040,bdddf8d,2026-09-10,"Back up gate B progress manifests, rendered review findings and support consistency results"
+reconstruction/docs/SEARCH_AND_ESTIMATION.md,md,2290,f688853,2026-09-10,"Record official exit coordinates, source discrepancies and conditional estimation workflow"
+reconstruction/docs/SOURCES_UNDERGROUND.md,md,1351,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/docs/STAGE01.md,md,1117,2a82fc9,2026-09-09,Approve Gate A scope and back up stage 01 source acquisition
+reconstruction/docs/STAGE04_GROUND_REVIEW.md,md,1962,faed1b9,2026-09-09,"Record Zhonglin ground QA outlines, connected road references, and stair-location limitations"
+reconstruction/docs/STAGE05_BUILDING_REVIEW.md,md,2352,ee33949,2026-09-10,"Record Zhonglin frontage candidates, missing height evidence and sensitivity checks"
+reconstruction/docs/WORKSHEET.md,md,5160,c4261f3,2026-09-10,"Record 473 trial bearing stacks, no-fit exclusions, ramp detail and model backups"
+reconstruction/docs/ZHONGLIN_REVIEW.md,md,2400,fa87cb5,2026-09-09,"Record Zhonglin access alignment, verified entry limit, and unresolved plan scale and floor elevations"
+reconstruction/median_equipment/README.md,md,2862,6417e35,2026-09-10,Document 14 ground-plan equipment labels and 15 geolocated OSM candidates; retain placement uncertainty
+reconstruction/median_equipment/median_equipment_inventory.json,json,7359,6417e35,2026-09-10,Document 14 ground-plan equipment labels and 15 geolocated OSM candidates; retain placement uncertainty
+reconstruction/median_equipment/osm_equipment_candidates.geojson,geojson,14205,6417e35,2026-09-10,Document 14 ground-plan equipment labels and 15 geolocated OSM candidates; retain placement uncertainty
+reconstruction/pier_imagery/README.md,md,1107,386a162,2026-09-10,Save seven georeferenced pier review targets and document image-observation blocker
+reconstruction/pier_imagery/review_targets.json,json,12553,386a162,2026-09-10,Save seven georeferenced pier review targets and document image-observation blocker
+reconstruction/ramp_retaining_walls/README.md,md,1053,370a7e5,2026-09-10,"Record four retaining walls, exit-ray checks and model snapshot"
+reconstruction/ramp_retaining_walls/exit_checks.json,json,734,370a7e5,2026-09-10,"Record four retaining walls, exit-ray checks and model snapshot"
+reconstruction/ramp_retaining_walls/retaining_check.json,json,1486,370a7e5,2026-09-10,"Record four retaining walls, exit-ray checks and model snapshot"
+reconstruction/reports/MAPPED_VENT_PROGRESS.md,md,1029,dd1e2db,2026-09-11,Record current scene validation and widen shaft review framing
+reconstruction/reports/PHOTO_EVIDENCE_0912.md,md,1445,dbf48a6,2026-09-12,Integrate Huashan photo shell and parking guards; reconcile complete selected-record coverage
+reconstruction/reports/UNDERGROUND_PROGRESS_0912.md,md,1011,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/reports/WORKING_CHECKPOINT_20260912.md,md,2421,8233a52,2026-09-12,Refresh saved-scene verification and explicit reconstruction limitations
+reconstruction/reports/additional_small_vent_photo_report.json,json,9556,7d08d36,2026-09-12,Add recessed tile shaft and two small utility-shell corrections with explicit inference labels
+reconstruction/reports/bearing_detail/REVIEW.md,md,1898,c4261f3,2026-09-10,"Record 473 trial bearing stacks, no-fit exclusions, ramp detail and model backups"
+reconstruction/reports/bearing_detail/bearing_summary.json,json,56493,c4261f3,2026-09-10,"Record 473 trial bearing stacks, no-fit exclusions, ramp detail and model backups"
+reconstruction/reports/bearing_detail/local_model_manifest.json,json,13628,c4261f3,2026-09-10,"Record 473 trial bearing stacks, no-fit exclusions, ramp detail and model backups"
+reconstruction/reports/bearing_detail/render_manifest.json,json,262,c4261f3,2026-09-10,"Record 473 trial bearing stacks, no-fit exclusions, ramp detail and model backups"
+reconstruction/reports/bottom_core_edge_conflicts.json,json,2656,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/reports/bottom_floor_closure_report.json,json,2880,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/reports/bottom_floor_support_check.json,json,3637,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/reports/bottom_notch_closure_report.json,json,1297,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/reports/cameras_500m/README.md,md,1617,8576eb5,2026-09-10,"Record 44 north/south cameras, 500m station checks, render hashes and local model backup"
+reconstruction/reports/cameras_500m/camera_build_check.json,json,19186,8576eb5,2026-09-10,"Record 44 north/south cameras, 500m station checks, render hashes and local model backup"
+reconstruction/reports/cameras_500m/camera_stations.json,json,11590,8576eb5,2026-09-10,"Record 44 north/south cameras, 500m station checks, render hashes and local model backup"
+reconstruction/reports/cameras_500m/camera_verification.json,json,4494,8576eb5,2026-09-10,"Record 44 north/south cameras, 500m station checks, render hashes and local model backup"
+reconstruction/reports/cameras_500m/local_model_manifest.json,json,12337,8576eb5,2026-09-10,"Record 44 north/south cameras, 500m station checks, render hashes and local model backup"
+reconstruction/reports/cameras_500m/render_manifest.json,json,6508,8576eb5,2026-09-10,"Record 44 north/south cameras, 500m station checks, render hashes and local model backup"
+reconstruction/reports/current_building_coverage_0912.json,json,3133,fac2972,2026-09-12,Integrate landmark shell corrections and reconcile corridor coverage
+reconstruction/reports/current_completion_audit_0912.json,json,5039,fac2972,2026-09-12,Integrate landmark shell corrections and reconcile corridor coverage
+reconstruction/reports/detail01/build_check.json,json,593,f24553a,2026-09-10,"Save physical sidewalk detail results, manifold verification and model checkpoint"
+reconstruction/reports/detail01/mesh_check.json,json,403,f24553a,2026-09-10,"Save physical sidewalk detail results, manifold verification and model checkpoint"
+reconstruction/reports/detail01/model_manifest.json,json,218,f24553a,2026-09-10,"Save physical sidewalk detail results, manifold verification and model checkpoint"
+reconstruction/reports/detail01/parameters_and_check.json,json,730,f24553a,2026-09-10,"Save physical sidewalk detail results, manifold verification and model checkpoint"
+reconstruction/reports/full_corridor_review_0912.json,json,1337,8233a52,2026-09-12,Refresh saved-scene verification and explicit reconstruction limitations
+reconstruction/reports/gate_A_scope.svg,svg,16025,83061fa,2026-09-09,"Record stage 00 scope audit, model hashes and Gate A findings"
+reconstruction/reports/gate_B/checkpoint_manifest.json,json,3378,bdddf8d,2026-09-10,"Back up gate B progress manifests, rendered review findings and support consistency results"
+reconstruction/reports/gate_B/review_manifest.json,json,1334,bdddf8d,2026-09-10,"Back up gate B progress manifests, rendered review findings and support consistency results"
+reconstruction/reports/gate_B/support_summary.json,json,436,bdddf8d,2026-09-10,"Back up gate B progress manifests, rendered review findings and support consistency results"
+reconstruction/reports/gongzhong_bottom_slab_closure.json,json,143,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/reports/gongzhong_floor_persistence_check.json,json,185,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/reports/gongzhong_integrated_model.json,json,10895,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/reports/gongzhong_integration_0912_validation.json,json,1714,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/reports/ground_full/REVIEW.md,md,3432,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/ground_full/crossing_build_check.json,json,722,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/ground_full/crossing_sources.json,json,29582,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/ground_full/finish_check.json,json,1989,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/ground_full/ground_check.json,json,12953,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/ground_full/local_model_manifest.json,json,10619,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/ground_full/median_check.json,json,432,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/ground_full/pilot_parameters.json,json,772,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/ground_full/render_check.json,json,548,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/ground_full/render_manifest.json,json,606,c3575a0,2026-09-10,"Record full-corridor ground working model, render review, limitations and local backup hashes"
+reconstruction/reports/headroom_checkpoint_0912.json,json,4074,c11da1a,2026-09-12,Verify saved scene persistence and latest route renders; record remaining clearance conflicts
+reconstruction/reports/huashan_photo_shell_report.json,json,6039,4c0fee6,2026-09-12,Replace inherited Huashan vent tower with photo-informed stepped shell; label estimated heights
+reconstruction/reports/huashan_station_report.json,json,6234,2365673,2026-09-14,Detail Huashan station near priority A1 from official archive imagery
+reconstruction/reports/integrated_guard_opening_checkpoint.json,json,11391,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/reports/junction_ramp_streetview_20260914.json,json,3787,305850d,2026-09-14,Record Huashan junction and Xinsheng ramp street-view evidence
+reconstruction/reports/landmark_replacement_audit_0912.json,json,1214,fac2972,2026-09-12,Integrate landmark shell corrections and reconcile corridor coverage
+reconstruction/reports/mapped_vent_shell_check.json,json,3118,5093312,2026-09-11,Replace generic facades on 20 mapped ventilation shafts with estimated louver shells
+reconstruction/reports/mapped_vent_shell_report.json,json,7094,5093312,2026-09-11,Replace generic facades on 20 mapped ventilation shafts with estimated louver shells
+reconstruction/reports/median_vent_detail_report.json,json,2815,28e5911,2026-09-11,Model estimated louvered housings for eight officially labeled median vents
+reconstruction/reports/official_controls/blender_check.json,json,1018,f688853,2026-09-10,"Record official exit coordinates, source discrepancies and conditional estimation workflow"
+reconstruction/reports/official_controls/operator_controls.json,json,10792,f688853,2026-09-10,"Record official exit coordinates, source discrepancies and conditional estimation workflow"
+reconstruction/reports/official_controls/source_manifest.json,json,519,f688853,2026-09-10,"Record official exit coordinates, source discrepancies and conditional estimation workflow"
+reconstruction/reports/parking_opening_guards_check.json,json,166,b7b09fe,2026-09-12,Add supported B1 opening guards to five parking sections; retain estimated dimensions
+reconstruction/reports/parking_opening_guards_report.json,json,3841,b7b09fe,2026-09-12,Add supported B1 opening guards to five parking sections; retain estimated dimensions
+reconstruction/reports/photo_working_checkpoint_0912.json,json,3718,8233a52,2026-09-12,Refresh saved-scene verification and explicit reconstruction limitations
+reconstruction/reports/priority_a_registration.json,json,13601,f23a209,2026-09-14,Register priority A review nodes and integrate station detail
+reconstruction/reports/priority_a_review.json,json,878,f23a209,2026-09-14,Register priority A review nodes and integrate station detail
+reconstruction/reports/railway_chimney_report.json,json,1093,3958762,2026-09-11,Rebuild railway chimney with official 45m height and remove generic window facade
+reconstruction/reports/ramp_cameras/README.md,md,865,c9aace5,2026-09-10,"Record three ramp cameras, preview observations and saved model hash"
+reconstruction/reports/ramp_cameras/camera_check.json,json,1733,c9aace5,2026-09-10,"Record three ramp cameras, preview observations and saved model hash"
+reconstruction/reports/ramp_cameras/manifest.json,json,619,c9aace5,2026-09-10,"Record three ramp cameras, preview observations and saved model hash"
+reconstruction/reports/ramp_detail/REVIEW.md,md,2326,c4261f3,2026-09-10,"Record 473 trial bearing stacks, no-fit exclusions, ramp detail and model backups"
+reconstruction/reports/ramp_detail/connection_check.json,json,22545,aa4fda9,2026-09-10,"Record ramp detail, apertures, clearance probes and zero-gap bearing issue"
+reconstruction/reports/ramp_detail/local_model_manifest.json,json,12983,aa4fda9,2026-09-10,"Record ramp detail, apertures, clearance probes and zero-gap bearing issue"
+reconstruction/reports/ramp_detail/ramp_detail_check.json,json,50977,aa4fda9,2026-09-10,"Record ramp detail, apertures, clearance probes and zero-gap bearing issue"
+reconstruction/reports/ramp_detail/render_manifest.json,json,262,aa4fda9,2026-09-10,"Record ramp detail, apertures, clearance probes and zero-gap bearing issue"
+reconstruction/reports/scope_audit.json,json,4488,83061fa,2026-09-09,"Record stage 00 scope audit, model hashes and Gate A findings"
+reconstruction/reports/small_station_vent_photo_report.json,json,25151,952dc9b,2026-09-12,Rebuild eight station vent shells from street-view morphology with explicit estimated dimensions
+reconstruction/reports/southwest_plant_photo_report.json,json,27756,1f8c597,2026-09-12,Replace southwest station vent proxy with photo-informed lattice enclosure and visible machinery
+reconstruction/reports/stage01/extraction_check.json,json,1067,94562c5,2026-09-09,"Record source-plan review, entrance references and Gate B accuracy limits"
+reconstruction/reports/stage01/source_register.json,json,2011,94562c5,2026-09-09,"Record source-plan review, entrance references and Gate B accuracy limits"
+reconstruction/reports/stage02/blender_control_check.json,json,320,94562c5,2026-09-09,"Record source-plan review, entrance references and Gate B accuracy limits"
+reconstruction/reports/stage02/control_check.json,json,625,94562c5,2026-09-09,"Record source-plan review, entrance references and Gate B accuracy limits"
+reconstruction/reports/stage02/controls.json,json,14117,94562c5,2026-09-09,"Record source-plan review, entrance references and Gate B accuracy limits"
+reconstruction/reports/stage02/gate_B_controls.svg,svg,27450,94562c5,2026-09-09,"Record source-plan review, entrance references and Gate B accuracy limits"
+reconstruction/reports/stage03/blender_zhonglin_check.json,json,322,fa87cb5,2026-09-09,"Record Zhonglin access alignment, verified entry limit, and unresolved plan scale and floor elevations"
+reconstruction/reports/stage03/sources.json,json,621,fa87cb5,2026-09-09,"Record Zhonglin access alignment, verified entry limit, and unresolved plan scale and floor elevations"
+reconstruction/reports/stage03/zhonglin_audit.json,json,4667,fa87cb5,2026-09-09,"Record Zhonglin access alignment, verified entry limit, and unresolved plan scale and floor elevations"
+reconstruction/reports/stage04/blender_surface_check.json,json,203,faed1b9,2026-09-09,"Record Zhonglin ground QA outlines, connected road references, and stair-location limitations"
+reconstruction/reports/stage04/surface_summary.json,json,14080,faed1b9,2026-09-09,"Record Zhonglin ground QA outlines, connected road references, and stair-location limitations"
+reconstruction/reports/stage05/blender_first_row_check.json,json,518,ee33949,2026-09-10,"Record Zhonglin frontage candidates, missing height evidence and sensitivity checks"
+reconstruction/reports/stage05/first_row_evidence.json,json,29425,ee33949,2026-09-10,"Record Zhonglin frontage candidates, missing height evidence and sensitivity checks"
+reconstruction/reports/station_vent_photo_report.json,json,27819,952dc9b,2026-09-12,Rebuild eight station vent shells from street-view morphology with explicit estimated dimensions
+reconstruction/reports/supported_parking_markings_report.json,json,2581,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/reports/tiled_shaft_photo_report.json,json,14370,7d08d36,2026-09-12,Add recessed tile shaft and two small utility-shell corrections with explicit inference labels
+reconstruction/reports/underbridge_0916/README.md,md,1844,a1db241,2026-09-16,Start full underbridge coverage audit and retain Linsen placement conflict for calibration
+reconstruction/reports/underbridge_0916/checkpoint.json,json,398,a1db241,2026-09-16,Start full underbridge coverage audit and retain Linsen placement conflict for calibration
+reconstruction/reports/underbridge_0916/coverage_index.json,json,22757,a1db241,2026-09-16,Start full underbridge coverage audit and retain Linsen placement conflict for calibration
+reconstruction/reports/underbridge_0916/linsen_fixed_objects_report.json,json,1117,a1db241,2026-09-16,Start full underbridge coverage audit and retain Linsen placement conflict for calibration
+reconstruction/reports/underbridge_0922/EAST_WEST_CHECKPOINT.md,md,1502,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/README_JIANFU_FUDUN.md,md,992,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/UB_DUNYAN_WEST_OBSERVED_EST_report.json,json,1457,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/UB_EAST_EQUIPMENT_PLINTHS_EST_report.json,json,1155,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/UB_EAST_HEDGES_CURBS_EST_report.json,json,1043,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/UB_FUDUN_CANOPY_LANDSCAPE_EST_report.json,json,2117,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/UB_FUXING_EQUIPMENT_EST_report.json,json,1391,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/UB_GUANGFU_SERVICE_HOUSE_EST_report.json,json,795,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/UB_GUANGHUA_021_022_EST_report.json,json,1515,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/UB_GUANGHUA_MEDIAN_COMPARISON_EST_report.json,json,1552,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/UB_JIANFU_WALL_FENCE_EST_report.json,json,1058,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/UB_JIANGUO_WEST_023_025_EST_report.json,json,8144,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/UB_LINSEN_MESSAGE_BOARD_EST_report.json,json,578,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/UB_RIVERSIDE_FURNITURE_EST_report.json,json,2745,cb745d8,2026-09-22,Add riverside furniture estimates and update 79-view coverage checkpoint
+reconstruction/reports/underbridge_0922/UB_STATION_006_010_report.json,json,1619,d8294d0,2026-09-22,Add station underbridge enclosure and landscape masses with dated observations and checks
+reconstruction/reports/underbridge_0922/UB_WEST_RAMP_UTILITIES_EST_report.json,json,1784,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/UB_YANJI_PAIRED_EQUIPMENT_EST_report.json,json,1075,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/antong_footbridge_manifest.json,json,905,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/antong_footbridge_report.json,json,348,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/coverage_checkpoint.json,json,25640,cb745d8,2026-09-22,Add riverside furniture estimates and update 79-view coverage checkpoint
+reconstruction/reports/underbridge_0922/coverage_progress.json,json,20735,3dc4559,2026-09-22,Model paired Y15 enclosures as estimates and synchronize partial street-view coverage
+reconstruction/reports/underbridge_0922/deck_edge_smoothing_report.json,json,5170,0bfa501,2026-09-22,Embed height audit and review pier-road overlaps against station Street View
+reconstruction/reports/underbridge_0922/dunyan_west_manifest.json,json,7944,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/east_equipment_plinths_manifest.json,json,2581,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/east_hedges_curbs_manifest.json,json,6067,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/fudun_canopy_landscape_manifest.json,json,27965,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/fudun_gate_clearance_report.json,json,102,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/full_corridor_observations.json,json,44024,cb745d8,2026-09-22,Add riverside furniture estimates and update 79-view coverage checkpoint
+reconstruction/reports/underbridge_0922/fuxing_equipment_manifest.json,json,23855,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/guangfu_door_clearance_report.json,json,119,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/guangfu_service_manifest.json,json,2874,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/guanghua_021_022_manifest.json,json,16371,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/guanghua_median_manifest.json,json,15167,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/jianfu_continuous_wall_report.json,json,446,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/jianfu_fence_clearance_report.json,json,382,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/jianfu_wall_fence_manifest.json,json,19811,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/reports/underbridge_0922/jianguo_hedge_clearance_report.json,json,1699,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/jianguo_west_manifest.json,json,20810,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/landscape_011_018_manifest.json,json,45513,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/reports/underbridge_0922/landscape_011_018_report.json,json,204,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/reports/underbridge_0922/linsen_message_board_manifest.json,json,12833,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/mass_topology_checkpoint.json,json,4299,cb745d8,2026-09-22,Add riverside furniture estimates and update 79-view coverage checkpoint
+reconstruction/reports/underbridge_0922/new_model_issues.json,json,678,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/reports/underbridge_0922/p123_photo_comparison_report.json,json,597,76a6842,2026-09-22,"Add P123 street-view comparison with maintenance platform, guard and pipe masses"
+reconstruction/reports/underbridge_0922/pier_road_overlap_summary.csv,csv,27172,0bfa501,2026-09-22,Embed height audit and review pier-road overlaps against station Street View
+reconstruction/reports/underbridge_0922/pier_road_streetview_checkpoint.json,json,1296,0bfa501,2026-09-22,Embed height audit and review pier-road overlaps against station Street View
+reconstruction/reports/underbridge_0922/riverside_furniture_manifest.json,json,8368,cb745d8,2026-09-22,Add riverside furniture estimates and update 79-view coverage checkpoint
+reconstruction/reports/underbridge_0922/span_export_checks.json,json,202,f6dfd96,2026-09-22,Audit model heights between candidate support groups and flag unresolved span mapping
+reconstruction/reports/underbridge_0922/span_height_audit.csv,csv,26303,f6dfd96,2026-09-22,Audit model heights between candidate support groups and flag unresolved span mapping
+reconstruction/reports/underbridge_0922/span_height_coverage_gaps.json,json,719,04021cb,2026-09-22,Track unpaired supports and unmeasured deck paths in height audit
+reconstruction/reports/underbridge_0922/span_height_notes.md,md,3292,04021cb,2026-09-22,Track unpaired supports and unmeasured deck paths in height audit
+reconstruction/reports/underbridge_0922/span_height_summary.json,json,76738,f6dfd96,2026-09-22,Audit model heights between candidate support groups and flag unresolved span mapping
+reconstruction/reports/underbridge_0922/station_006_010_manifest.json,json,10861,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/reports/underbridge_0922/station_uturn_correction_report.json,json,879,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/reports/underbridge_0922/tacheng_equipment_report.json,json,1420,6a7fead,2026-09-22,Add estimated Tacheng equipment masses and preserve recovered western streetview evidence
+reconstruction/reports/underbridge_0922/west_ramp_utilities_manifest.json,json,4806,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/west_streetview_notes.json,json,4494,3dc4559,2026-09-22,Model paired Y15 enclosures as estimates and synchronize partial street-view coverage
+reconstruction/reports/underbridge_0922/y15_equipment_report.json,json,331,3dc4559,2026-09-22,Model paired Y15 enclosures as estimates and synchronize partial street-view coverage
+reconstruction/reports/underbridge_0922/yanji_paired_equipment_manifest.json,json,2223,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/reports/underbridge_0922/zhengzhou_landscape_report.json,json,979,d72b09a,2026-09-22,Add estimated Zhengzhou underbridge landscape masses from two street views
+reconstruction/reports/underground_camera_review_0912.json,json,7045,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/reports/validation.json,json,350,83061fa,2026-09-09,"Record stage 00 scope audit, model hashes and Gate A findings"
+reconstruction/reports/worksheet04_05/REVIEW.md,md,3397,8ac7638,2026-09-10,Record selected Stage 04 depth sample and reject all seven pier shifts failing median constraints
+reconstruction/reports/worksheet04_05/detail_check.json,json,944,8ac7638,2026-09-10,Record selected Stage 04 depth sample and reject all seven pier shifts failing median constraints
+reconstruction/reports/worksheet04_05/local_model_manifest.json,json,11909,8ac7638,2026-09-10,Record selected Stage 04 depth sample and reject all seven pier shifts failing median constraints
+reconstruction/reports/worksheet04_05/median_clearance_check.json,json,1839,8ac7638,2026-09-10,Record selected Stage 04 depth sample and reject all seven pier shifts failing median constraints
+reconstruction/reports/worksheet04_05/pier_alternatives.json,json,4208,8ac7638,2026-09-10,Record selected Stage 04 depth sample and reject all seven pier shifts failing median constraints
+reconstruction/reports/worksheet04_05/pier_alternatives_first_pass_REJECTED.json,json,10958,8ac7638,2026-09-10,Record selected Stage 04 depth sample and reject all seven pier shifts failing median constraints
+reconstruction/reports/worksheet04_05/render_manifest.json,json,1211,8ac7638,2026-09-10,Record selected Stage 04 depth sample and reject all seven pier shifts failing median constraints
+reconstruction/reports/worksheet04_05/selected_check.json,json,1100,8ac7638,2026-09-10,Record selected Stage 04 depth sample and reject all seven pier shifts failing median constraints
+reconstruction/reports/worksheet04_05/stage45_check.json,json,21965,8ac7638,2026-09-10,Record selected Stage 04 depth sample and reject all seven pier shifts failing median constraints
+reconstruction/reports/xinsheng_joint_detail_report.json,json,831,572a4bb,2026-09-14,Model visible Xinsheng bolted joint and drain details from enlarged street view
+reconstruction/reports/xinsheng_observed_portal_report.json,json,1361,9335854,2026-09-14,Add two-view Xinsheng portal study and flag conflicting mainline elevation
+reconstruction/reports/xinsheng_ramp_comparison_report.json,json,15577,aa6bd3e,2026-09-14,Build estimated Xinsheng ramp comparison and resolve mainline barrier intersection
+reconstruction/reports/xinsheng_ramp_opening_report.json,json,605,aa6bd3e,2026-09-14,Build estimated Xinsheng ramp comparison and resolve mainline barrier intersection
+reconstruction/reports/xinsheng_ramp_review_notes.md,md,1555,aa6bd3e,2026-09-14,Build estimated Xinsheng ramp comparison and resolve mainline barrier intersection
+reconstruction/reports/xinsheng_support_inventory.json,json,147,aa6bd3e,2026-09-14,Build estimated Xinsheng ramp comparison and resolve mainline barrier intersection
+reconstruction/scripts/add_underground_ramp_cameras.py,py,2853,7091407,2026-09-10,Add downhill inspection cameras to all three modeled underground ramps
+reconstruction/scripts/analyze_support_check.py,py,1912,1df4fb7,2026-09-10,Back up read-only support-to-deck geometry checks
+reconstruction/scripts/apply_calibration_pass.py,py,4525,d5ddd1c,2026-09-10,"Prepare aerial calibration and reversible ground, camera and underground classification corrections"
+reconstruction/scripts/apply_flow_corrections.py,py,1340,c40c5cd,2026-09-10,Add per-camera reviews and reversible corrections for generated entry-route obstructions
+reconstruction/scripts/apply_inward_cameras.py,py,3459,5fde0af,2026-09-11,Place road cameras on opposite sides facing the boulevard axis while preserving timeline cuts
+reconstruction/scripts/apply_legacy_slab_trim.py,py,2021,5327898,2026-09-11,Trim duplicate Zhonglin legacy floor regions and diagnose parking render shadow artifacts
+reconstruction/scripts/apply_minlevel_repairs.py,py,1627,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/scripts/apply_secondary_calibration.py,py,2727,da953a2,2026-09-10,"Audit hidden-roof clearances and preserve reversible stair, opening and duplicate-ramp repairs"
+reconstruction/scripts/apply_tnh_photo_facades.py,py,3944,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/scripts/apply_yanji_entry_cut.py,py,1662,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/scripts/assemble_block_camera_sheets.py,py,755,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/scripts/assemble_calibration_review.py,py,651,da953a2,2026-09-10,"Audit hidden-roof clearances and preserve reversible stair, opening and duplicate-ramp repairs"
+reconstruction/scripts/audit_calibration_scene.py,py,1814,c40c5cd,2026-09-10,Add per-camera reviews and reversible corrections for generated entry-route obstructions
+reconstruction/scripts/audit_current_completion_0912.py,py,2092,dbf48a6,2026-09-12,Integrate Huashan photo shell and parking guards; reconcile complete selected-record coverage
+reconstruction/scripts/audit_full_frontage.py,py,5183,618b0ba,2026-09-10,Select first-hit frontage along full axis and prepare source-tagged height solids
+reconstruction/scripts/audit_integrated_checkpoint.py,py,2775,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/audit_landmark_replacements_0912.py,py,2033,fac2972,2026-09-12,Integrate landmark shell corrections and reconcile corridor coverage
+reconstruction/scripts/audit_mall_entries.py,py,1572,1544196,2026-09-10,Add OSM-anchored Y entrance stair and branch alternatives with explicit assumptions
+reconstruction/scripts/audit_round3_camera_obstructions.py,py,1727,6d56ee2,2026-09-11,Integrate Jingfu estimate and 128-camera review with unresolved obstruction findings
+reconstruction/scripts/audit_scope.py,py,3303,c6a607a,2026-09-09,Back up reconstruction scripts and define stage 00 scope review
+reconstruction/scripts/audit_y_ground_openings.py,py,1995,2e42b78,2026-09-10,Audit Y stair ground obstructions and build reversible Y9/Y10 opening patches
+reconstruction/scripts/blender_control_review.py,py,2542,f03323c,2026-09-09,Store large OSM IDs as strings and safely rebuild generated reference layer
+reconstruction/scripts/blender_first_row.py,py,1986,7e5162c,2026-09-09,Add reproducible first-row building and height-evidence audit before Blender execution
+reconstruction/scripts/blender_operator_controls.py,py,1702,32ca82a,2026-09-10,Record conditional estimation authorization and add official metro exit coordinate comparison
+reconstruction/scripts/blender_surface_check.py,py,1699,1e61b30,2026-09-09,Add Zhonglin ground sidewalk and crossing QA scripts before execution
+reconstruction/scripts/blender_zhonglin_refs.py,py,2052,1c050f5,2026-09-09,Add Zhonglin entrance audit and non-destructive Blender reference scripts before execution
+reconstruction/scripts/build_200m_cameras.py,py,4876,7ba6ab5,2026-09-10,Restore active camera by name after removing replaced camera objects
+reconstruction/scripts/build_500m_cameras.py,py,3363,c97f4f1,2026-09-10,Add 500m analysis chainage and paired true-north/south Blender camera rig
+reconstruction/scripts/build_additional_small_vents.py,py,3756,7d08d36,2026-09-12,Add recessed tile shaft and two small utility-shell corrections with explicit inference labels
+reconstruction/scripts/build_bearing_comparison.py,py,6899,4012be4,2026-09-10,Fit 0.30m trial bearing footprints inside modeled 0.48m flanges
+reconstruction/scripts/build_block_context.py,py,911,2d29ee6,2026-09-10,Complete frontage coverage including tiny structures and prepare block ground and side-street context
+reconstruction/scripts/build_block_facades.py,py,7441,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/scripts/build_bottom_floor_closures.py,py,2933,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/build_bottom_notch_closures.py,py,2915,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/build_completion_access.py,py,4043,0b96a45,2026-09-10,"Add thirteen assumed surface access ramps, matching roof openings and review cameras"
+reconstruction/scripts/build_completion_malls_relations.py,py,3812,7b93595,2026-09-10,"Complete provisional mall interiors, R1 access and missing frontage relation footprints"
+reconstruction/scripts/build_completion_pass.py,py,5832,0b96a45,2026-09-10,"Add thirteen assumed surface access ramps, matching roof openings and review cameras"
+reconstruction/scripts/build_current_gongzhong_integration.py,py,4090,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/scripts/build_entrance_portals.py,py,2826,cd10b8a,2026-09-10,"Add two sourced-limit, estimated-placement parking entrance portals"
+reconstruction/scripts/build_frontage_solids.py,py,3212,4a667a9,2026-09-10,Prepare 13 frontage height comparison solids with explicit assumptions and preserved context
+reconstruction/scripts/build_full_frontage_solids.py,py,3634,b6b7dd8,2026-09-10,Build full-axis frontage candidate comparison with five render panels
+reconstruction/scripts/build_gongzhong_core_comparison.py,py,2561,998a40c,2026-09-11,Add parking stair handrails and landing guards with unadopted Gongzhong offset comparison
+reconstruction/scripts/build_gongzhong_integrated_comparison.py,py,3343,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/build_ground_corridor.py,py,3629,84db795,2026-09-10,Constrain triangulation to ground boundaries and add full surface build and crossing extraction
+reconstruction/scripts/build_ground_crossings.py,py,2215,7345338,2026-09-10,Integrate ground crossings and curb openings without overlapping pilot paving
+reconstruction/scripts/build_huashan_photo_shell.py,py,3757,4c0fee6,2026-09-12,Replace inherited Huashan vent tower with photo-informed stepped shell; label estimated heights
+reconstruction/scripts/build_huashan_station_priority.py,py,3653,2365673,2026-09-14,Detail Huashan station near priority A1 from official archive imagery
+reconstruction/scripts/build_jingfu_temple.py,py,5075,8fc4d3e,2026-09-11,Add estimated Jingfu Temple massing from orthophoto and public photo evidence
+reconstruction/scripts/build_machine_room_door_details.py,py,4105,2771f38,2026-09-11,Detail 16 machine-room doors and refine the unadopted Yanji ramp alternative
+reconstruction/scripts/build_mall_shells.py,py,3424,287cc06,2026-09-10,Add reversible underground shell comparison at user-selected floor elevation
+reconstruction/scripts/build_mapped_vent_shells.py,py,3585,5093312,2026-09-11,Replace generic facades on 20 mapped ventilation shafts with estimated louver shells
+reconstruction/scripts/build_miramar_photo_shell.py,py,6711,993dd5a,2026-09-12,Replace implausible hotel and service-station masses with photo-informed working shells
+reconstruction/scripts/build_parking_guard_infill.py,py,5447,0ba9c3f,2026-09-11,Fix landing guard clearance and add estimated stair infill and footplates
+reconstruction/scripts/build_parking_opening_guards.py,py,2454,b7b09fe,2026-09-12,Add supported B1 opening guards to five parking sections; retain estimated dimensions
+reconstruction/scripts/build_parking_sections.py,py,4547,60fd1d8,2026-09-10,Build eight parking comparison sections with 14 floors and six assumed interlevel ramps
+reconstruction/scripts/build_parking_stair_handrails.py,py,3179,998a40c,2026-09-11,Add parking stair handrails and landing guards with unadopted Gongzhong offset comparison
+reconstruction/scripts/build_priority_a_review.py,py,3698,f23a209,2026-09-14,Register priority A review nodes and integrate station detail
+reconstruction/scripts/build_ramp_detail.py,py,7699,714ad55,2026-09-10,"Build detailed assumed ramp profiles, edge walls and reversible ground apertures"
+reconstruction/scripts/build_ramp_retaining_walls.py,py,3346,74d79e6,2026-09-10,Extend four entrance retaining walls to assumed ground underside per selected option
+reconstruction/scripts/build_sidewalk_detail.py,py,3150,f668291,2026-09-10,Close planar triangulation gaps and require manifold paving solids
+reconstruction/scripts/build_small_station_vent_shells.py,py,3646,952dc9b,2026-09-12,Rebuild eight station vent shells from street-view morphology with explicit estimated dimensions
+reconstruction/scripts/build_southwest_plant_photo.py,py,3801,1f8c597,2026-09-12,Replace southwest station vent proxy with photo-informed lattice enclosure and visible machinery
+reconstruction/scripts/build_stage45_selected.py,py,8354,26b49dc,2026-09-10,Honor median-constrained pier search and preserve unresolved bents with red conflict markers
+reconstruction/scripts/build_stair_landing_guards.py,py,3243,0ba9c3f,2026-09-11,Fix landing guard clearance and add estimated stair infill and footplates
+reconstruction/scripts/build_station_vent_photo_shells.py,py,3598,952dc9b,2026-09-12,Rebuild eight station vent shells from street-view morphology with explicit estimated dimensions
+reconstruction/scripts/build_supported_parking_markings.py,py,2342,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/build_tiled_shaft_photo.py,py,3773,7d08d36,2026-09-12,Add recessed tile shaft and two small utility-shell corrections with explicit inference labels
+reconstruction/scripts/build_underground_cavity.py,py,3964,8104412,2026-09-10,Excavate synthetic datum within assumed underground pilot and suppress overlapping landings
+reconstruction/scripts/build_xinsheng_observed_portal.py,py,4264,9335854,2026-09-14,Add two-view Xinsheng portal study and flag conflicting mainline elevation
+reconstruction/scripts/build_xinsheng_ramp_comparison.py,py,4064,aa6bd3e,2026-09-14,Build estimated Xinsheng ramp comparison and resolve mainline barrier intersection
+reconstruction/scripts/build_y26_connections.py,py,2301,344c798,2026-09-10,Compare Y26 site clearances and add explicit lower-landing connector alternatives
+reconstruction/scripts/build_y26_integrated.py,py,3231,302a951,2026-09-10,Integrate Y26 B connector with legacy mall floor and open joining walls in comparison scene
+reconstruction/scripts/build_y26_orientation.py,py,2722,63716a0,2026-09-10,Add Y26 context audit and clearly marked nearby-building-axis orientation alternative
+reconstruction/scripts/build_y26_photo_variant.py,py,4825,5218c47,2026-09-10,"Add Y26 photo-informed pavilion, raised landing and parallel stair/escalator alternative"
+reconstruction/scripts/build_y_entrances.py,py,3462,7150056,2026-09-10,Snap clipping geometry to 0.1mm precision to remove degenerate roof faces and support background rebuild
+reconstruction/scripts/build_y_ground_openings.py,py,2696,2e42b78,2026-09-10,Audit Y stair ground obstructions and build reversible Y9/Y10 opening patches
+reconstruction/scripts/build_y_stair_detail.py,py,5414,27cb02b,2026-09-10,Add assumed Y entrance sidewalls and handrails with walking-centerline obstruction checks
+reconstruction/scripts/build_y_top_transition.py,py,2770,1dd49ba,2026-09-10,Connect Y9/Y10 assumed stairs to modeled sidewalk with 0.15m top steps
+reconstruction/scripts/build_yanji_photo_comparison.py,py,4544,ee1a5f4,2026-09-11,Separate entrance and equipment work: Yanji photo evidence and reversible comparison model
+reconstruction/scripts/build_zhonglun_station_photo.py,py,4889,993dd5a,2026-09-12,Replace implausible hotel and service-station masses with photo-informed working shells
+reconstruction/scripts/calibrate_route_axis.py,py,2734,d5ddd1c,2026-09-10,"Prepare aerial calibration and reversible ground, camera and underground classification corrections"
+reconstruction/scripts/check_bottom_floor_support.py,py,1475,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/check_calibration_flows.py,py,4341,da953a2,2026-09-10,"Audit hidden-roof clearances and preserve reversible stair, opening and duplicate-ramp repairs"
+reconstruction/scripts/check_calibration_headroom.py,py,2541,da953a2,2026-09-10,"Audit hidden-roof clearances and preserve reversible stair, opening and duplicate-ramp repairs"
+reconstruction/scripts/check_completion_checkpoint.py,py,3716,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/scripts/check_current_gongzhong_integration.py,py,3270,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/scripts/check_full_headroom_with_hidden_roofs.py,py,3130,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/check_gongzhong_floor_and_persistence.py,py,1708,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/scripts/check_gongzhong_integrated_headroom.py,py,3258,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/check_mapped_vent_shells.py,py,1515,5093312,2026-09-11,Replace generic facades on 20 mapped ventilation shafts with estimated louver shells
+reconstruction/scripts/check_parking_opening_guards.py,py,1217,b7b09fe,2026-09-12,Add supported B1 opening guards to five parking sections; retain estimated dimensions
+reconstruction/scripts/check_parking_surface_overlap.py,py,1277,5327898,2026-09-11,Trim duplicate Zhonglin legacy floor regions and diagnose parking render shadow artifacts
+reconstruction/scripts/check_pier_median_clearance.py,py,1593,88635a5,2026-09-10,Add second-pass rejection screening for alternatives outside inferred medians
+reconstruction/scripts/check_ramp_connections.py,py,4442,24088e5,2026-09-10,Fit ramp walls into B1 aperture and audit modeled clearance and cap/girder gaps
+reconstruction/scripts/check_room_and_yanji_details.py,py,2522,95e4ceb,2026-09-11,Integrate machine-room and ramp detail checks with preserved inward-camera timeline
+reconstruction/scripts/check_round2_headroom.py,py,2693,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/scripts/check_round3_models.py,py,1652,75c4374,2026-09-11,Integrate building and entrance work with independent 80-record validation
+reconstruction/scripts/check_stair_detail_checkpoint.py,py,2432,4767261,2026-09-11,Integrate stair detail checks while retaining entrance conflicts and inward camera animation
+reconstruction/scripts/check_streetviews.cjs,cjs,1881,da953a2,2026-09-10,"Audit hidden-roof clearances and preserve reversible stair, opening and duplicate-ramp repairs"
+reconstruction/scripts/check_y26_orientation_context.py,py,3632,344c798,2026-09-10,Compare Y26 site clearances and add explicit lower-landing connector alternatives
+reconstruction/scripts/checkpoint_manifest.py,py,1062,9f4a174,2026-09-10,Record autonomous A-E checkpoint policy and back up render and snapshot-manifest scripts
+reconstruction/scripts/close_gongzhong_comparison_bottom_slab.py,py,1191,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/scripts/compare_gongzhong_core_offsets.py,py,2107,998a40c,2026-09-11,Add parking stair handrails and landing guards with unadopted Gongzhong offset comparison
+reconstruction/scripts/compare_gongzhong_offsets_with_hidden_roofs.py,py,2558,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/complete_building_relations.py,py,1401,350bed4,2026-09-10,Include OSM building multipolygons and interior courtyards in frontage audit
+reconstruction/scripts/complete_small_frontage.py,py,3630,2d29ee6,2026-09-10,Complete frontage coverage including tiny structures and prepare block ground and side-street context
+reconstruction/scripts/detail_confirmed_median_vents.py,py,4390,28e5911,2026-09-11,Model estimated louvered housings for eight officially labeled median vents
+reconstruction/scripts/detail_xinsheng_portal_joint.py,py,3993,572a4bb,2026-09-14,Model visible Xinsheng bolted joint and drain details from enlarged street view
+reconstruction/scripts/draw_block_coverage.py,py,1733,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/scripts/export_bottom_floor_openings.py,py,1039,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/export_calibration_geometry.py,py,1060,d5ddd1c,2026-09-10,"Prepare aerial calibration and reversible ground, camera and underground classification corrections"
+reconstruction/scripts/export_calibration_surfaces.py,py,751,d5ddd1c,2026-09-10,"Prepare aerial calibration and reversible ground, camera and underground classification corrections"
+reconstruction/scripts/export_equipment_detail_inventory.py,py,749,28e5911,2026-09-11,Model estimated louvered housings for eight officially labeled median vents
+reconstruction/scripts/export_gongzhong_integration_surfaces.py,py,914,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/export_machine_room_doors.py,py,895,2771f38,2026-09-11,Detail 16 machine-room doors and refine the unadopted Yanji ramp alternative
+reconstruction/scripts/export_parking_marking_support.py,py,859,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/export_parking_surface_overlap.py,py,827,5327898,2026-09-11,Trim duplicate Zhonglin legacy floor regions and diagnose parking render shadow artifacts
+reconstruction/scripts/export_secondary_opening_surfaces.py,py,559,da953a2,2026-09-10,"Audit hidden-roof clearances and preserve reversible stair, opening and duplicate-ramp repairs"
+reconstruction/scripts/export_support_check.py,py,669,1df4fb7,2026-09-10,Back up read-only support-to-deck geometry checks
+reconstruction/scripts/export_yanji_wall.py,py,360,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/scripts/extract_corridor_buildings.py,py,2106,fe1e775,2026-09-10,Expand frontage source extraction across full Civic axis with bounded OSM node cache
+reconstruction/scripts/extract_ground_crossings.py,py,1307,84db795,2026-09-10,Constrain triangulation to ground boundaries and add full surface build and crossing extraction
+reconstruction/scripts/extract_median_equipment.py,py,2334,14aade7,2026-09-10,Inventory median equipment from official ground plans and OSM before placement
+reconstruction/scripts/extract_street_blocks.py,py,2994,e8efdd0,2026-09-10,Expand frontage to complete mapped street blocks and prepare reversible recessed facade instances
+reconstruction/scripts/extract_y26_context.py,py,1025,63716a0,2026-09-10,Add Y26 context audit and clearly marked nearby-building-axis orientation alternative
+reconstruction/scripts/fetch_calibration_imagery.py,py,2610,d5ddd1c,2026-09-10,"Prepare aerial calibration and reversible ground, camera and underground classification corrections"
+reconstruction/scripts/fetch_current_camera_orthos.py,py,3277,da953a2,2026-09-10,"Audit hidden-roof clearances and preserve reversible stair, opening and duplicate-ramp repairs"
+reconstruction/scripts/finalize_bearing_review.py,py,2862,3eba6b7,2026-09-10,Restore three no-fit caps and expose unresolved bearing intersections in review
+reconstruction/scripts/finalize_calibration_checkpoint.py,py,2441,bacedf1,2026-09-10,"Checkpoint partial site calibration and explicit unresolved source, streetview and clearance limits"
+reconstruction/scripts/finalize_photo_working_checkpoint_0912.py,py,5440,8233a52,2026-09-12,Refresh saved-scene verification and explicit reconstruction limitations
+reconstruction/scripts/finalize_validation.py,py,2656,d494538,2026-09-10,"Archive superseded wall and rerun mesh, envelope and evaluated-output checks"
+reconstruction/scripts/finish_calibration_geometry.py,py,3482,faa64e6,2026-09-10,Repair isolated ground contact and calibrate TaiNEX2 massing height from architect publication
+reconstruction/scripts/finish_ground_working.py,py,3569,fd0c3db,2026-09-10,Finalize integrated ground shells and preserve curb-ramp cuts in detailed paving
+reconstruction/scripts/finish_round2.py,py,1625,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/scripts/first_row_audit.py,py,5168,350bed4,2026-09-10,Include OSM building multipolygons and interior courtyards in frontage audit
+reconstruction/scripts/fix_landing_guard_clear_width.py,py,1508,0ba9c3f,2026-09-11,Fix landing guard clearance and add estimated stair infill and footplates
+reconstruction/scripts/fix_southwest_plant_lattice.py,py,2019,1f8c597,2026-09-12,Replace southwest station vent proxy with photo-informed lattice enclosure and visible machinery
+reconstruction/scripts/fix_y26_balustrades.py,py,1940,b3e0e61,2026-09-10,Hide retained panels across comparison view layers
+reconstruction/scripts/gate_review_render.py,py,2488,9f4a174,2026-09-10,Record autonomous A-E checkpoint policy and back up render and snapshot-manifest scripts
+reconstruction/scripts/mark_bottom_floor_edge_conflicts.py,py,1730,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/official_metro_controls.py,py,2411,32ca82a,2026-09-10,Record conditional estimation authorization and add official metro exit coordinate comparison
+reconstruction/scripts/overlay_calibration_stations.py,py,2423,d5ddd1c,2026-09-10,"Prepare aerial calibration and reversible ground, camera and underground classification corrections"
+reconstruction/scripts/prepare_200m_cameras.py,py,3148,796337e,2026-09-10,Replace 500m route cameras with 200m north/south pairs and preserve parking views
+reconstruction/scripts/prepare_500m_cameras.py,py,3148,c97f4f1,2026-09-10,Add 500m analysis chainage and paired true-north/south Blender camera rig
+reconstruction/scripts/prepare_additional_small_vents.py,py,4249,7d08d36,2026-09-12,Add recessed tile shaft and two small utility-shell corrections with explicit inference labels
+reconstruction/scripts/prepare_block_context.py,py,4524,2d29ee6,2026-09-10,Complete frontage coverage including tiny structures and prepare block ground and side-street context
+reconstruction/scripts/prepare_bottom_floor_closures.py,py,2627,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/prepare_bottom_notch_closures.py,py,2983,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/prepare_calibrated_openings.py,py,3257,d5ddd1c,2026-09-10,"Prepare aerial calibration and reversible ground, camera and underground classification corrections"
+reconstruction/scripts/prepare_calibration_topology_repair.py,py,1450,faa64e6,2026-09-10,Repair isolated ground contact and calibrate TaiNEX2 massing height from architect publication
+reconstruction/scripts/prepare_completion_access.py,py,3069,0b96a45,2026-09-10,"Add thirteen assumed surface access ramps, matching roof openings and review cameras"
+reconstruction/scripts/prepare_completion_malls.py,py,3668,7b93595,2026-09-10,"Complete provisional mall interiors, R1 access and missing frontage relation footprints"
+reconstruction/scripts/prepare_completion_pass.py,py,7575,b5f07f4,2026-09-10,"Build estimated missing frontage, parking interiors and equipment with deferred-calibration flags"
+reconstruction/scripts/prepare_completion_relations.py,py,2741,7b93595,2026-09-10,"Complete provisional mall interiors, R1 access and missing frontage relation footprints"
+reconstruction/scripts/prepare_control_review.py,py,5386,2764087,2026-09-09,Back up coordinate review and non-surveyed Blender reference scripts
+reconstruction/scripts/prepare_core_relocation_candidates.py,py,1378,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/prepare_crossing_detail.py,py,7126,31b09d2,2026-09-10,Resolve offset paired crossing footprints found in final close-up review
+reconstruction/scripts/prepare_current_gongzhong_openings.py,py,3050,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/scripts/prepare_facade_modules.py,py,7610,e8efdd0,2026-09-10,Expand frontage to complete mapped street blocks and prepare reversible recessed facade instances
+reconstruction/scripts/prepare_flow_corrections.py,py,1410,c40c5cd,2026-09-10,Add per-camera reviews and reversible corrections for generated entry-route obstructions
+reconstruction/scripts/prepare_frontage_blocks.py,py,5150,e8efdd0,2026-09-10,Expand frontage to complete mapped street blocks and prepare reversible recessed facade instances
+reconstruction/scripts/prepare_frontage_solids.py,py,1578,4a667a9,2026-09-10,Prepare 13 frontage height comparison solids with explicit assumptions and preserved context
+reconstruction/scripts/prepare_full_frontage_solids.py,py,1644,618b0ba,2026-09-10,Select first-hit frontage along full axis and prepare source-tagged height solids
+reconstruction/scripts/prepare_gongzhong_cutaway_review.py,py,1436,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/scripts/prepare_gongzhong_integrated_openings.py,py,2901,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/prepare_ground_corridor.py,py,6151,84db795,2026-09-10,Constrain triangulation to ground boundaries and add full surface build and crossing extraction
+reconstruction/scripts/prepare_huashan_photo_shell.py,py,4282,4c0fee6,2026-09-12,Replace inherited Huashan vent tower with photo-informed stepped shell; label estimated heights
+reconstruction/scripts/prepare_huashan_station_priority.py,py,3931,2365673,2026-09-14,Detail Huashan station near priority A1 from official archive imagery
+reconstruction/scripts/prepare_inward_cameras.py,py,2495,5fde0af,2026-09-11,Place road cameras on opposite sides facing the boulevard axis while preserving timeline cuts
+reconstruction/scripts/prepare_jingfu.py,py,1601,8fc4d3e,2026-09-11,Add estimated Jingfu Temple massing from orthophoto and public photo evidence
+reconstruction/scripts/prepare_legacy_slab_trim.py,py,2003,5327898,2026-09-11,Trim duplicate Zhonglin legacy floor regions and diagnose parking render shadow artifacts
+reconstruction/scripts/prepare_machine_room_doors.py,py,1809,2771f38,2026-09-11,Detail 16 machine-room doors and refine the unadopted Yanji ramp alternative
+reconstruction/scripts/prepare_mall_shells.py,py,1883,287cc06,2026-09-10,Add reversible underground shell comparison at user-selected floor elevation
+reconstruction/scripts/prepare_mapped_vent_shells.py,py,2407,5093312,2026-09-11,Replace generic facades on 20 mapped ventilation shafts with estimated louver shells
+reconstruction/scripts/prepare_median_working.py,py,4822,894f5ca,2026-09-10,Correct rendered crossing extents to mapped sidewalks and clear inferred intersection islands
+reconstruction/scripts/prepare_minlevel_repairs.py,py,2404,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/scripts/prepare_parking_meshes.py,py,2792,60fd1d8,2026-09-10,Build eight parking comparison sections with 14 floors and six assumed interlevel ramps
+reconstruction/scripts/prepare_parking_opening_guards.py,py,1875,b7b09fe,2026-09-12,Add supported B1 opening guards to five parking sections; retain estimated dimensions
+reconstruction/scripts/prepare_parking_sections.py,py,4380,a11788f,2026-09-10,Prepare eight parking comparison envelopes with source floor counts and explicit estimated dimensions
+reconstruction/scripts/prepare_pier_alternatives.py,py,5258,26b49dc,2026-09-10,Honor median-constrained pier search and preserve unresolved bents with red conflict markers
+reconstruction/scripts/prepare_pier_imagery_review.py,py,1815,c7f7280,2026-09-10,Prepare seven conflict-pier image review targets; do not snap to unverified nearby piers
+reconstruction/scripts/prepare_priority_a_registration.py,py,2752,f23a209,2026-09-14,Register priority A review nodes and integrate station detail
+reconstruction/scripts/prepare_secondary_opening_corrections.py,py,2621,da953a2,2026-09-10,"Audit hidden-roof clearances and preserve reversible stair, opening and duplicate-ramp repairs"
+reconstruction/scripts/prepare_sidewalk_detail.py,py,5131,fd0c3db,2026-09-10,Finalize integrated ground shells and preserve curb-ramp cuts in detailed paving
+reconstruction/scripts/prepare_small_station_vent_shells.py,py,4172,952dc9b,2026-09-12,Rebuild eight station vent shells from street-view morphology with explicit estimated dimensions
+reconstruction/scripts/prepare_southwest_plant_photo.py,py,4316,1f8c597,2026-09-12,Replace southwest station vent proxy with photo-informed lattice enclosure and visible machinery
+reconstruction/scripts/prepare_station_vent_photo_shells.py,py,4116,952dc9b,2026-09-12,Rebuild eight station vent shells from street-view morphology with explicit estimated dimensions
+reconstruction/scripts/prepare_supported_parking_markings.py,py,1912,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/prepare_tiled_shaft_photo.py,py,3382,7d08d36,2026-09-12,Add recessed tile shaft and two small utility-shell corrections with explicit inference labels
+reconstruction/scripts/prepare_tnh_photo_facades.py,py,1924,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/scripts/prepare_xinsheng_barrier_opening.py,py,1929,aa6bd3e,2026-09-14,Build estimated Xinsheng ramp comparison and resolve mainline barrier intersection
+reconstruction/scripts/prepare_xinsheng_ramp.py,py,5949,aa6bd3e,2026-09-14,Build estimated Xinsheng ramp comparison and resolve mainline barrier intersection
+reconstruction/scripts/prepare_y26_clearance_fix.py,py,2435,444e1b7,2026-09-10,"Repair audited touching shells, collapsed wall and Y26 stair obstruction"
+reconstruction/scripts/prepare_y26_connections.py,py,2574,344c798,2026-09-10,Compare Y26 site clearances and add explicit lower-landing connector alternatives
+reconstruction/scripts/prepare_y26_integrated.py,py,2411,302a951,2026-09-10,Integrate Y26 B connector with legacy mall floor and open joining walls in comparison scene
+reconstruction/scripts/prepare_y26_orientation.py,py,1841,63716a0,2026-09-10,Add Y26 context audit and clearly marked nearby-building-axis orientation alternative
+reconstruction/scripts/prepare_y_entrances.py,py,3360,7150056,2026-09-10,Snap clipping geometry to 0.1mm precision to remove degenerate roof faces and support background rebuild
+reconstruction/scripts/prepare_y_ground_openings.py,py,2095,2e42b78,2026-09-10,Audit Y stair ground obstructions and build reversible Y9/Y10 opening patches
+reconstruction/scripts/prepare_yanji_entry_cut.py,py,1899,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/scripts/rebuild_railway_chimney.py,py,4598,3958762,2026-09-11,Rebuild railway chimney with official 45m height and remove generic window facade
+reconstruction/scripts/recess_yanji_comparison_drains.py,py,2916,2771f38,2026-09-11,Detail 16 machine-room doors and refine the unadopted Yanji ramp alternative
+reconstruction/scripts/reconcile_current_building_coverage.py,py,1919,fac2972,2026-09-12,Integrate landmark shell corrections and reconcile corridor coverage
+reconstruction/scripts/refine_block_boundaries.py,py,1643,e8efdd0,2026-09-10,Expand frontage to complete mapped street blocks and prepare reversible recessed facade instances
+reconstruction/scripts/refine_facade_semantics.py,py,1735,504cf62,2026-09-10,"Refine facade semantic templates, preserve building hierarchies and validate recessed-window preview"
+reconstruction/scripts/refine_jingfu_front.py,py,2958,8fc4d3e,2026-09-11,Add estimated Jingfu Temple massing from orthophoto and public photo evidence
+reconstruction/scripts/refine_miramar_photo_shell.py,py,551,993dd5a,2026-09-12,Replace implausible hotel and service-station masses with photo-informed working shells
+reconstruction/scripts/refine_xinsheng_ramp_comparison.py,py,4364,aa6bd3e,2026-09-14,Build estimated Xinsheng ramp comparison and resolve mainline barrier intersection
+reconstruction/scripts/refine_yanji_ramp_details.py,py,5130,2771f38,2026-09-11,Detail 16 machine-room doors and refine the unadopted Yanji ramp alternative
+reconstruction/scripts/refresh_facade_prototype.py,py,690,504cf62,2026-09-10,"Refine facade semantic templates, preserve building hierarchies and validate recessed-window preview"
+reconstruction/scripts/render_block_cameras.py,py,2092,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/scripts/render_block_overviews.py,py,2243,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/scripts/render_calibration_cameras.py,py,2033,c40c5cd,2026-09-10,Add per-camera reviews and reversible corrections for generated entry-route obstructions
+reconstruction/scripts/render_current_inward_route.py,py,1774,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/render_current_parking_cameras.py,py,1680,f930075,2026-09-12,Repair lowest parking slabs and clip unsupported parking markings; retain estimated core conflicts
+reconstruction/scripts/render_facade_preview.py,py,1530,504cf62,2026-09-10,"Refine facade semantic templates, preserve building hierarchies and validate recessed-window preview"
+reconstruction/scripts/render_gongzhong_cutaway_review.py,py,2073,0a4a88a,2026-09-12,Build current Gongzhong entrance integration comparison with closed B2 slab
+reconstruction/scripts/render_ground_review.py,py,1624,641f788,2026-09-10,Complete explicit median estimates and add consolidated ground-only review renders
+reconstruction/scripts/render_inward_camera_review.py,py,1048,5fde0af,2026-09-11,Place road cameras on opposite sides facing the boulevard axis while preserving timeline cuts
+reconstruction/scripts/render_mall_interior.py,py,1317,29a13b4,2026-09-10,Add close cutaway inspection of estimated Zhongshan shell
+reconstruction/scripts/render_mapped_vent_review.py,py,2017,dd1e2db,2026-09-11,Record current scene validation and widen shaft review framing
+reconstruction/scripts/render_parking_local_checks.py,py,1904,54594db,2026-09-10,Render six local parking ramp checks and mark unresolved Yanji envelope overlap
+reconstruction/scripts/render_parking_shadow_diagnostic.py,py,892,5327898,2026-09-11,Trim duplicate Zhonglin legacy floor regions and diagnose parking render shadow artifacts
+reconstruction/scripts/render_round2_entry.py,py,2162,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/scripts/render_round3_cameras.py,py,2272,5b7af3e,2026-09-11,Integrate legacy slab repairs and refreshed parking camera validation
+reconstruction/scripts/render_stage45_detail.py,py,2903,fc6b092,2026-09-10,Add unobstructed pier comparison plans and underground mesh review
+reconstruction/scripts/render_tnh_photo_review.py,py,1759,050b3be,2026-09-11,Separate building work: photo-informed TNH facades and mapped lower-storey corrections
+reconstruction/scripts/render_underground_geometry.py,py,925,f293d59,2026-09-10,Separate geometry inspection from Workbench screen-space shadows
+reconstruction/scripts/repair_datum_and_guardrails.py,py,3225,9e757de,2026-09-10,Correct single-face datum render visibility after failed excavation probe; add assumed opening guardrails
+reconstruction/scripts/repair_ramp_end_caps.py,py,3748,97618c4,2026-09-10,Repair simple missing ramp end caps without moving source vertices
+reconstruction/scripts/repair_validation_findings.py,py,3428,e53c194,2026-09-10,Split local face fans at shared road edge without moving geometry
+reconstruction/scripts/report_round2.py,py,3957,d40dc1c,2026-09-11,Correct provisional Yanji entry wall and refresh underground clearance evidence
+reconstruction/scripts/resume_completion_pass.py,py,2120,0b96a45,2026-09-10,"Add thirteen assumed surface access ramps, matching roof openings and review cameras"
+reconstruction/scripts/retain_corridor_service_building.py,py,3511,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/scripts/route_graph.py,py,1122,d5ddd1c,2026-09-10,"Prepare aerial calibration and reversible ground, camera and underground classification corrections"
+reconstruction/scripts/save_full_corridor_checkpoint_0912.py,py,2076,95ce3f2,2026-09-12,Integrate station ventilation shells and reconcile replacement geometry coverage
+reconstruction/scripts/search_core_integration_offsets.py,py,3662,416b8e2,2026-09-11,Validate hidden roofs and build isolated Gongzhong stair-opening comparison
+reconstruction/scripts/seat_stair_handrail_posts.py,py,2062,998a40c,2026-09-11,Add parking stair handrails and landing guards with unadopted Gongzhong offset comparison
+reconstruction/scripts/setup_east_west_camera_animation.py,py,3090,8a498fc,2026-09-11,Add east-to-west timeline camera cuts at one-second intervals
+reconstruction/scripts/stabilize_completion_walls.py,py,1276,0ef22c0,2026-09-10,"Checkpoint assembled working model, 4946 added meshes and 637 deferred calibration issues"
+reconstruction/scripts/stage01_sources.py,py,5619,387e890,2026-09-09,Back up verified-TLS download fallback for municipal source PDFs
+reconstruction/scripts/stage45_sample_review.py,py,7584,63df24a,2026-09-10,Prepare reversible cap deduplication and Stage 04 underground section alternatives
+reconstruction/scripts/underbridge_0916/build_linsen_visible_objects.py,py,3753,a1db241,2026-09-16,Start full underbridge coverage audit and retain Linsen placement conflict for calibration
+reconstruction/scripts/underbridge_0916/build_underbridge_review.py,py,4091,a1db241,2026-09-16,Start full underbridge coverage audit and retain Linsen placement conflict for calibration
+reconstruction/scripts/underbridge_0916/prepare_audit.py,py,3061,a1db241,2026-09-16,Start full underbridge coverage audit and retain Linsen placement conflict for calibration
+reconstruction/scripts/underbridge_0916/prepare_linsen_masses.py,py,2184,a1db241,2026-09-16,Start full underbridge coverage audit and retain Linsen placement conflict for calibration
+reconstruction/scripts/underbridge_0922/align_guangfu_facade_parts.py,py,3043,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/scripts/underbridge_0922/audit_added_masses.py,py,1176,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/scripts/underbridge_0922/audit_span_coverage_gaps.py,py,1882,04021cb,2026-09-22,Track unpaired supports and unmeasured deck paths in height audit
+reconstruction/scripts/underbridge_0922/build_antong_footbridge.py,py,3081,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/scripts/underbridge_0922/build_landscape_011_018.py,py,2192,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/scripts/underbridge_0922/build_observed_mass_batch.py,py,5387,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/scripts/underbridge_0922/build_p123_photo_comparison.py,py,5593,76a6842,2026-09-22,"Add P123 street-view comparison with maintenance platform, guard and pipe masses"
+reconstruction/scripts/underbridge_0922/build_tacheng_equipment.py,py,5159,6a7fead,2026-09-22,Add estimated Tacheng equipment masses and preserve recovered western streetview evidence
+reconstruction/scripts/underbridge_0922/build_y15_equipment_masses.py,py,4780,3dc4559,2026-09-22,Model paired Y15 enclosures as estimates and synchronize partial street-view coverage
+reconstruction/scripts/underbridge_0922/build_zhengzhou_landscape.py,py,6001,d72b09a,2026-09-22,Add estimated Zhengzhou underbridge landscape masses from two street views
+reconstruction/scripts/underbridge_0922/check_pier_road_footprints.py,py,1375,0bfa501,2026-09-22,Embed height audit and review pier-road overlaps against station Street View
+reconstruction/scripts/underbridge_0922/correct_fudun_gate_clearance.py,py,1066,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/scripts/underbridge_0922/correct_jianfu_continuous_wall.py,py,2081,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/scripts/underbridge_0922/correct_station_uturn_opening.py,py,4339,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/scripts/underbridge_0922/create_span_height_review.py,py,4743,04021cb,2026-09-22,Track unpaired supports and unmeasured deck paths in height audit
+reconstruction/scripts/underbridge_0922/embed_span_height_data.py,py,3292,0bfa501,2026-09-22,Embed height audit and review pier-road overlaps against station Street View
+reconstruction/scripts/underbridge_0922/export_pier_road_footprints.py,py,1279,0bfa501,2026-09-22,Embed height audit and review pier-road overlaps against station Street View
+reconstruction/scripts/underbridge_0922/export_span_station_heights.py,py,2017,f6dfd96,2026-09-22,Audit model heights between candidate support groups and flag unresolved span mapping
+reconstruction/scripts/underbridge_0922/generate_landscape_footprints.py,py,2687,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/scripts/underbridge_0922/measure_support_spans.py,py,9163,f6dfd96,2026-09-22,Audit model heights between candidate support groups and flag unresolved span mapping
+reconstruction/scripts/underbridge_0922/project_observations.py,py,603,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/scripts/underbridge_0922/render_antong_footbridge.py,py,1521,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/scripts/underbridge_0922/render_dunyan_review.py,py,1542,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/scripts/underbridge_0922/render_east_equipment_north.py,py,940,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/scripts/underbridge_0922/render_fudun_review.py,py,1545,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/scripts/underbridge_0922/render_fuxing_equipment.py,py,1900,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/scripts/underbridge_0922/render_guangfu_service.py,py,1519,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/scripts/underbridge_0922/render_guanghua_review.py,py,1552,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/scripts/underbridge_0922/render_jianfu_review.py,py,1542,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/scripts/underbridge_0922/render_jianguo_west_review.py,py,1541,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/scripts/underbridge_0922/render_landscape_review.py,py,1551,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/scripts/underbridge_0922/render_riverside_furniture.py,py,1526,cb745d8,2026-09-22,Add riverside furniture estimates and update 79-view coverage checkpoint
+reconstruction/scripts/underbridge_0922/render_station_review.py,py,1720,881c334,2026-09-22,Add observed hedge masses and station U-turn comparison with explicit unresolved pier conflicts
+reconstruction/scripts/underbridge_0922/render_west_ramp_utilities.py,py,1915,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/scripts/underbridge_0922/render_yanji_equipment.py,py,1520,c62f942,2026-09-22,Add Dunyan–Guangfu and western ramp masses with provenance and geometry checkpoints
+reconstruction/scripts/underbridge_0922/review_pier_road_conflicts.py,py,4016,0bfa501,2026-09-22,Embed height audit and review pier-road overlaps against station Street View
+reconstruction/scripts/underbridge_0922/smooth_deck_edges.py,py,1683,0bfa501,2026-09-22,Embed height audit and review pier-road overlaps against station Street View
+reconstruction/scripts/underbridge_0922/trim_jianfu_fence.py,py,2621,18e17a7,2026-09-22,"Add Jianfu–Fudun observed masses, Antong footbridge comparison and clearance corrections"
+reconstruction/scripts/underbridge_0922/trim_jianguo_hedges.py,py,2622,c2d74b0,2026-09-22,"Add Guanghua and Jianguo west photo-based masses, median comparisons and hedge clearance fixes"
+reconstruction/scripts/validate_assets_and_metadata.py,py,1731,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/scripts/validate_civic_model.py,py,4107,b98ebd9,2026-09-10,Add read-only full-scene topology and camera validation
+reconstruction/scripts/validate_facade_payload.py,py,1073,e8efdd0,2026-09-10,Expand frontage to complete mapped street blocks and prepare reversible recessed facade instances
+reconstruction/scripts/validate_save_block_facades.py,py,3682,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/scripts/validate_walk_envelopes.py,py,4948,c81450c,2026-09-10,Add physical-envelope audit including hidden glazing and roofs
+reconstruction/scripts/verify_500m_cameras.py,py,2373,abfd5ad,2026-09-10,Render each inspection camera at its bound timeline frame
+reconstruction/scripts/write_block_facade_report.py,py,9843,25f3d67,2026-09-10,Complete mapped frontage blocks and estimated recessed facades; preserve validation and model checksum
+reconstruction/scripts/write_calibration_report.py,py,10753,bacedf1,2026-09-10,"Checkpoint partial site calibration and explicit unresolved source, streetview and clearance limits"
+reconstruction/scripts/write_validation_report.py,py,7114,4685998,2026-09-10,"Record final validation outcomes, repaired meshes and unresolved acceptance gates"
+reconstruction/scripts/zhonglin_audit.py,py,3736,1c050f5,2026-09-09,Add Zhonglin entrance audit and non-destructive Blender reference scripts before execution
+reconstruction/scripts/zhonglin_surface_check.py,py,4363,30f6688,2026-09-09,Use connected eastern Zhongshan carriageway nodes for road-end reference
+reconstruction/underground_cavity/README.md,md,1134,b26cbaa,2026-09-10,"Record verified ramp previews, 42 guardrail meshes and local model backup hash"
+reconstruction/underground_shells/ground_opening_audit.json,json,6507,243dfcd,2026-09-10,Record Y9/Y10 opening patch verification and unresolved ground coverage/elevation limits
+reconstruction/underground_shells/ground_opening_check.json,json,843,243dfcd,2026-09-10,Record Y9/Y10 opening patch verification and unresolved ground coverage/elevation limits
+reconstruction/underground_shells/shell_check.json,json,1993,0829d56,2026-09-10,"Record underground shell geometry checks, render review and local model checksum"
+reconstruction/underground_shells/stair_detail_check.json,json,4046,f0957c9,2026-09-10,Record 19 detailed entrance comparisons and 456 centerline checks against new parts
+reconstruction/underground_shells/top_transition_check.json,json,466,2f44a35,2026-09-10,Record Y9/Y10 modeled sidewalk transition dimensions and saved comparison
+reconstruction/underground_shells/y26_connection_check.json,json,1512,2505df2,2026-09-10,Record Y26 context and lower-connection comparison results
+reconstruction/underground_shells/y26_context_check.json,json,3174,2505df2,2026-09-10,Record Y26 context and lower-connection comparison results
+reconstruction/underground_shells/y26_integrated_check.json,json,710,cbc049c,2026-09-10,Record connected comparison floor and connector wall clearance with restored viewport clip
+reconstruction/underground_shells/y26_orientation_check.json,json,1096,40c0903,2026-09-10,Record Y26 orientation alternative and retained uncertainty
+reconstruction/underground_shells/y26_photo_variant_check.json,json,1206,a8a946c,2026-09-10,"Record Y26 photo sources, corrected preview and explicit dimensional uncertainty"
+reconstruction/underground_shells/y_entrance_check.json,json,15372,f882f1e,2026-09-10,"Record corrected 19 entrance comparison meshes, inspected renders and saved model checksum"
+reconstruction/underground_shells/y_r_entry_alignment.json,json,7446,0648800,2026-09-10,"Back up parking, portal, ramp topology and underground entry alignment checkpoints"
+src/blender/export_site_model.py,py,5784,587d1e4,2026-09-09,Restore complete civic pipeline layout and missing source files
+src/blender/export_site_model_part2.py,py,5002,587d1e4,2026-09-09,Restore complete civic pipeline layout and missing source files
+src/measure_blend_model.py,py,13259,587d1e4,2026-09-09,Restore complete civic pipeline layout and missing source files
+src/register_blend_model.py,py,4314,587d1e4,2026-09-09,Restore complete civic pipeline layout and missing source files
+src/config.py,py,3666,587d1e4,2026-09-09,Restore complete civic pipeline layout and missing source files
+CLAUDE.md,md,5442,587d1e4,2026-09-09,Restore complete civic pipeline layout and missing source files
+README.md,md,5756,587d1e4,2026-09-09,Restore complete civic pipeline layout and missing source files

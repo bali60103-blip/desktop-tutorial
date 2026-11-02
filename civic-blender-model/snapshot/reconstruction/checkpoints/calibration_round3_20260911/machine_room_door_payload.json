@@ -1,0 +1,418 @@
+[
+  {
+    "source": "COMP_\u5854\u57ce_MACHINE_ROOM_0",
+    "origin": [
+      -220.349402550632,
+      988.1420448161423,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9986561081237111,
+      -0.05182641900809466
+    ],
+    "f": [
+      0.05182641900809466,
+      0.9986561081237111
+    ],
+    "front_y": 2.000039940193119,
+    "door_left": -1.0000067775906145,
+    "door_right": 0.20000082019960494,
+    "existing_gap_width_m": 1.2000075977902194,
+    "width_m": 5.999958632389394,
+    "depth_m": 4.000079880381691,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u5854\u57ce_MACHINE_ROOM_1",
+    "origin": [
+      12.0804524307883,
+      976.0816192111384,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9986562641224576,
+      -0.051823412942185114
+    ],
+    "f": [
+      0.051823412942185114,
+      0.9986562641224576
+    ],
+    "front_y": 2.0000630447519825,
+    "door_left": -1.0000026493677343,
+    "door_right": 0.20000343987707028,
+    "existing_gap_width_m": 1.2000060892448046,
+    "width_m": 6.000058327868167,
+    "depth_m": 4.000126089503624,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u516c\u4e2d_MACHINE_ROOM_0",
+    "origin": [
+      860.552704311821,
+      769.2774378963975,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9849977348337745,
+      -0.1725672691223139
+    ],
+    "f": [
+      0.1725672691223139,
+      0.9849977348337745
+    ],
+    "front_y": 1.9998128327121094,
+    "door_left": -0.9998948255657398,
+    "door_right": 0.19995574867930957,
+    "existing_gap_width_m": 1.1998505742450494,
+    "width_m": 5.999385183243476,
+    "depth_m": 3.9996256654225135,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u516c\u4e2d_MACHINE_ROOM_1",
+    "origin": [
+      1039.2501220702884,
+      737.9721984863614,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9850002214133652,
+      -0.172553075358342
+    ],
+    "f": [
+      0.172553075358342,
+      0.9850002214133652
+    ],
+    "front_y": 1.9997880391650824,
+    "door_left": -0.999897143586841,
+    "door_right": 0.2000488754029989,
+    "existing_gap_width_m": 1.1999460189898399,
+    "width_m": 5.999460806277966,
+    "depth_m": 3.9995760783875767,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u4e2d\u6797_MACHINE_ROOM_0",
+    "origin": [
+      1079.489257974969,
+      730.8342917716684,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.99733431971268,
+      -0.0729674908657669
+    ],
+    "f": [
+      0.0729674908657669,
+      0.99733431971268
+    ],
+    "front_y": 1.9992210016813488,
+    "door_left": -0.9996378372576552,
+    "door_right": 0.19990961230681054,
+    "existing_gap_width_m": 1.1995474495644658,
+    "width_m": 5.997685273047523,
+    "depth_m": 3.9984420034244295,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u4e2d\u6797_MACHINE_ROOM_1",
+    "origin": [
+      1376.9913990531109,
+      709.0669935317026,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9973345635232178,
+      -0.07296415833786118
+    ],
+    "f": [
+      0.07296415833786118,
+      0.9973345635232178
+    ],
+    "front_y": 1.999255891533494,
+    "door_left": -0.9995727442244852,
+    "door_right": 0.19990936199592577,
+    "existing_gap_width_m": 1.1994821062204108,
+    "width_m": 5.997563527729653,
+    "depth_m": 3.998511783066988,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u6797\u91d1_MACHINE_ROOM_0",
+    "origin": [
+      1414.677170739417,
+      704.593688805565,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9582161800429263,
+      -0.28604501796735093
+    ],
+    "f": [
+      0.28604501796735093,
+      0.9582161800429263
+    ],
+    "front_y": 1.9975307165191225,
+    "door_left": -0.9987466681082107,
+    "door_right": 0.1997123502706015,
+    "existing_gap_width_m": 1.1984590183788122,
+    "width_m": 5.992604894596525,
+    "depth_m": 3.995061432832017,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u6797\u91d1_MACHINE_ROOM_1",
+    "origin": [
+      2026.1255554024608,
+      522.0601705340429,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9582154195395985,
+      -0.2860475655490732
+    ],
+    "f": [
+      0.2860475655490732,
+      0.9582154195395985
+    ],
+    "front_y": 1.997534964786837,
+    "door_left": -0.998774185090314,
+    "door_right": 0.19974329624967935,
+    "existing_gap_width_m": 1.1985174813399935,
+    "width_m": 5.992514546027451,
+    "depth_m": 3.9950699298624386,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u5efa\u5fa9_MACHINE_ROOM_0",
+    "origin": [
+      2645.755737304662,
+      376.5701599121345,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9999292875971115,
+      0.011892005950764943
+    ],
+    "f": [
+      -0.011892005950764943,
+      0.9999292875971115
+    ],
+    "front_y": 1.9922519612926521,
+    "door_left": -0.9961917180409543,
+    "door_right": 0.19920518451985236,
+    "existing_gap_width_m": 1.1953969025608067,
+    "width_m": 5.9767614536476685,
+    "depth_m": 3.9845039226361223,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u5efa\u5fa9_MACHINE_ROOM_1",
+    "origin": [
+      3355.5440673828475,
+      385.02114868164466,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.999929254345617,
+      0.011894801545995076
+    ],
+    "f": [
+      -0.011894801545995076,
+      0.999929254345617
+    ],
+    "front_y": 1.992243606412842,
+    "door_left": -0.9960640837344643,
+    "door_right": 0.1992105534749241,
+    "existing_gap_width_m": 1.1952746372093883,
+    "width_m": 5.976772593472106,
+    "depth_m": 3.984487212832846,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u5fa9\u6566_MACHINE_ROOM_0",
+    "origin": [
+      3395.177653036534,
+      389.0567755134343,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9999846086712592,
+      0.005548190749117227
+    ],
+    "f": [
+      -0.005548190749117227,
+      0.9999846086712592
+    ],
+    "front_y": 1.9875619435006797,
+    "door_left": -0.9935954022451025,
+    "door_right": 0.1988059445209359,
+    "existing_gap_width_m": 1.1924013467660384,
+    "width_m": 5.962738251324481,
+    "depth_m": 3.9751238869497456,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u5fa9\u6566_MACHINE_ROOM_1",
+    "origin": [
+      3869.2973632813005,
+      391.68699645997674,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9999845815241853,
+      0.005553081477877777
+    ],
+    "f": [
+      -0.005553081477877777,
+      0.9999845815241853
+    ],
+    "front_y": 1.9875798689854491,
+    "door_left": -0.99378926488252,
+    "door_right": 0.19873388714481668,
+    "existing_gap_width_m": 1.1925231520273367,
+    "width_m": 5.962880833871168,
+    "depth_m": 3.975159738001935,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u6566\u5ef6_MACHINE_ROOM_0",
+    "origin": [
+      3907.9899775543686,
+      387.46472375813426,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9942845451307154,
+      -0.10676255576842637
+    ],
+    "f": [
+      0.10676255576842637,
+      0.9942845451307154
+    ],
+    "front_y": 1.997650745786018,
+    "door_left": -0.9988011774454706,
+    "door_right": 0.19970302765451722,
+    "existing_gap_width_m": 1.198504205099988,
+    "width_m": 5.992990116141755,
+    "depth_m": 3.995301491181067,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u6566\u5ef6_MACHINE_ROOM_1",
+    "origin": [
+      4361.4796035295085,
+      338.7689158182363,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.994284689694465,
+      -0.10676120943105438
+    ],
+    "f": [
+      0.10676120943105438,
+      0.994284689694465
+    ],
+    "front_y": 1.9976348608792023,
+    "door_left": -0.9989177386882658,
+    "door_right": 0.1998242770145341,
+    "existing_gap_width_m": 1.1987420157028,
+    "width_m": 5.993232861456818,
+    "depth_m": 3.9952697217238438,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u5ef6\u5409_MACHINE_ROOM_0",
+    "origin": [
+      4288.11840820314,
+      340.0993499755867,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.997129572563118,
+      0.07571403780075286
+    ],
+    "f": [
+      -0.07571403780075286,
+      0.997129572563118
+    ],
+    "front_y": 1.99212624041553,
+    "door_left": -0.9958894768531904,
+    "door_right": 0.19943477829554895,
+    "existing_gap_width_m": 1.1953242551487393,
+    "width_m": 5.976722373694429,
+    "depth_m": 3.984252480830321,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  },
+  {
+    "source": "COMP_\u5ef6\u5409_MACHINE_ROOM_1",
+    "origin": [
+      4476.828125000031,
+      354.4279479980509,
+      -3.5999999046325684
+    ],
+    "floor_z": -3.5999999046325684,
+    "top_z": -0.30000001192092896,
+    "u": [
+      0.9971294897076024,
+      0.07571512897338582
+    ],
+    "f": [
+      -0.07571512897338582,
+      0.9971294897076024
+    ],
+    "front_y": 1.9921262404608342,
+    "door_left": -0.99613197760487,
+    "door_right": 0.1991945645648759,
+    "existing_gap_width_m": 1.1953265421697459,
+    "width_m": 5.976228823391466,
+    "depth_m": 3.9842524809249653,
+    "door_height_assumed_m": 2.1,
+    "status": "Door position follows existing estimated full-height wall gap; 2.1m head height inferred, no survey claim"
+  }
+]

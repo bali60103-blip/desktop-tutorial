@@ -1,0 +1,10 @@
+import bpy,json,os,pathlib
+from mathutils import Vector
+out=pathlib.Path(os.environ['CIVIC_MODEL_ROOT'])/'CalibrationRound3';source=bpy.data.scenes['GONGZHONG_INTEGRATED_OPENINGS_0912_EST'];name='GONGZHONG_ENTRANCE_CUTAWAY_0912';old=bpy.data.scenes.get(name)
+if old:bpy.data.scenes.remove(old)
+sc=bpy.data.scenes.new(name);sc.use_fake_user=True;sc.world=source.world;r=json.load(open(out/'gongzhong_cutaway_payload.json'));center=Vector(r['center']);mat=bpy.data.materials.new('GZ12_REVIEW_SLAB');mat.diffuse_color=(.42,.48,.5,1)
+for o in source.objects:
+ if o.name.startswith('GZ12_') and o.get('source_object','').startswith(('COMP_公中_CORE0_L','RAIL_CORE_公中_0_','GUARD_CORE_公中_0_','INFILL_CORE_公中_0_')):sc.collection.objects.link(o)
+for row in r['surfaces']:
+ m=bpy.data.meshes.new('REVIEW_CUT_'+row['source']);m.from_pydata([tuple(Vector(v)-center) for v in row['vertices']],[],row['faces']);m.materials.append(mat);m.update();o=bpy.data.objects.new(m.name,m);o.location=center;sc.collection.objects.link(o);o['status']='Cutaway display geometry only; complete slabs remain in integrated comparison scene'
+cd=bpy.data.cameras.new('GZ12_CUTAWAY_CAMERA');cam=bpy.data.objects.new(cd.name,cd);sc.collection.objects.link(cam);cam.location=center+Vector((-13,-18,11));cam.rotation_euler=(center-cam.location).to_track_quat('-Z','Y').to_euler();cd.type='ORTHO';cd.ortho_scale=16;sc.camera=cam;sc.render.engine='BLENDER_WORKBENCH';sc.render.resolution_x=1100;sc.render.resolution_y=1000;sc.render.resolution_percentage=100;sc.display.shading.color_type='MATERIAL';sc.display.shading.show_shadows=False;sc.display.shading.show_cavity=True;sc.render.image_settings.file_format='PNG';sc.render.filepath=str(out/'GONGZHONG_ENTRANCE_CUTAWAY_0912.png');bpy.ops.render.render(write_still=True,scene=sc.name);bpy.context.window.scene=bpy.data.scenes['CIVIC_BLOCKS_FACADES_WORKING'];bpy.context.scene.frame_set(1);bpy.ops.wm.save_as_mainfile(filepath=bpy.data.filepath);result={'scene':sc.name,'render':'GONGZHONG_ENTRANCE_CUTAWAY_0912.png','main_scene_preserved':True}

@@ -1,0 +1,25 @@
+{
+  "piers_total": 241,
+  "piers_used_as_candidate_boundaries": 239,
+  "piers_not_in_any_candidate_span": [
+    "UNVERIFIED_Pier_598",
+    "UNVERIFIED_Pier_621"
+  ],
+  "decks_without_candidate_spans": [
+    "DECK_48793405",
+    "DECK_51919180",
+    "DECK_51919192",
+    "DECK_204711199",
+    "DECK_262844199",
+    "DECK_616091807",
+    "DECK_668070775",
+    "DECK_713760137",
+    "DECK_909274073",
+    "DECK_1119664466",
+    "DECK_1119664467",
+    "DECK_1272718725",
+    "DECK_1538959317"
+  ],
+  "explanation": "Assignment to a deck does not mean a valid adjacent support pair exists. Unpaired paths may include ramps and branches. These have NOT been measured as spans.",
+  "full_height_verification_complete": false
+}

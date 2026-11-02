@@ -1,0 +1,18 @@
+{
+  "scene": "GONGZHONG_CORE_OFFSET_COMPARISON",
+  "counts": {
+    "ORIGINAL": 56,
+    "OFFSET_5M": 56
+  },
+  "original_color": "orange",
+  "alternative_color": "green",
+  "offset_m": 5,
+  "translation": [
+    4.924991130828857,
+    -0.8628214597702026,
+    0.0
+  ],
+  "adopted": false,
+  "limits": "Six public-parking core paths vs selected Y/Zhongshan mall meshes only, including roofs; 342 upward samples per candidate. Parking slabs, shafts, ground/road openings, property boundaries, piers, utilities and route connections not checked.",
+  "handrail_detail": "Both copies use new estimated handrails seated on existing modeled treads. No stair openings relocated in working assembly."
+}

@@ -1,0 +1,347 @@
+{
+  "flights_detailed": 56,
+  "handrails_per_flight": 2,
+  "assumed_height_m": 0.9,
+  "rail_radius_m": 0.035,
+  "post_radius_m": 0.025,
+  "clear_width_preserved_m": "Existing path width; rail centers are 0.07m outside its edges",
+  "limitations": "Terminal extensions, landing continuity, substrate attachment, accessibility and real dimensions remain unverified. Blocked paths are not cleared by adding detail.",
+  "paths": [
+    {
+      "path": "CORE_\u5854\u57ce_0_B1_A",
+      "object": "RAIL_CORE_\u5854\u57ce_0_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5854\u57ce_0_B1_B",
+      "object": "RAIL_CORE_\u5854\u57ce_0_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5854\u57ce_0_B2_A",
+      "object": "RAIL_CORE_\u5854\u57ce_0_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5854\u57ce_0_B2_B",
+      "object": "RAIL_CORE_\u5854\u57ce_0_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5854\u57ce_1_B1_A",
+      "object": "RAIL_CORE_\u5854\u57ce_1_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5854\u57ce_1_B1_B",
+      "object": "RAIL_CORE_\u5854\u57ce_1_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5854\u57ce_1_B2_A",
+      "object": "RAIL_CORE_\u5854\u57ce_1_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5854\u57ce_1_B2_B",
+      "object": "RAIL_CORE_\u5854\u57ce_1_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u516c\u4e2d_0_B1_A",
+      "object": "RAIL_CORE_\u516c\u4e2d_0_B1_A",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u516c\u4e2d_0_B1_B",
+      "object": "RAIL_CORE_\u516c\u4e2d_0_B1_B",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u516c\u4e2d_0_B2_A",
+      "object": "RAIL_CORE_\u516c\u4e2d_0_B2_A",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u516c\u4e2d_0_B2_B",
+      "object": "RAIL_CORE_\u516c\u4e2d_0_B2_B",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u516c\u4e2d_1_B1_A",
+      "object": "RAIL_CORE_\u516c\u4e2d_1_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u516c\u4e2d_1_B1_B",
+      "object": "RAIL_CORE_\u516c\u4e2d_1_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u516c\u4e2d_1_B2_A",
+      "object": "RAIL_CORE_\u516c\u4e2d_1_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u516c\u4e2d_1_B2_B",
+      "object": "RAIL_CORE_\u516c\u4e2d_1_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u4e2d\u6797_0_B1_A",
+      "object": "RAIL_CORE_\u4e2d\u6797_0_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u4e2d\u6797_0_B1_B",
+      "object": "RAIL_CORE_\u4e2d\u6797_0_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u4e2d\u6797_0_B2_A",
+      "object": "RAIL_CORE_\u4e2d\u6797_0_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u4e2d\u6797_0_B2_B",
+      "object": "RAIL_CORE_\u4e2d\u6797_0_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u4e2d\u6797_1_B1_A",
+      "object": "RAIL_CORE_\u4e2d\u6797_1_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u4e2d\u6797_1_B1_B",
+      "object": "RAIL_CORE_\u4e2d\u6797_1_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u4e2d\u6797_1_B2_A",
+      "object": "RAIL_CORE_\u4e2d\u6797_1_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u4e2d\u6797_1_B2_B",
+      "object": "RAIL_CORE_\u4e2d\u6797_1_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6797\u91d1_0_B1_A",
+      "object": "RAIL_CORE_\u6797\u91d1_0_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6797\u91d1_0_B1_B",
+      "object": "RAIL_CORE_\u6797\u91d1_0_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6797\u91d1_0_B2_A",
+      "object": "RAIL_CORE_\u6797\u91d1_0_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6797\u91d1_0_B2_B",
+      "object": "RAIL_CORE_\u6797\u91d1_0_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6797\u91d1_1_B1_A",
+      "object": "RAIL_CORE_\u6797\u91d1_1_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6797\u91d1_1_B1_B",
+      "object": "RAIL_CORE_\u6797\u91d1_1_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6797\u91d1_1_B2_A",
+      "object": "RAIL_CORE_\u6797\u91d1_1_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6797\u91d1_1_B2_B",
+      "object": "RAIL_CORE_\u6797\u91d1_1_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5efa\u5fa9_0_B1_A",
+      "object": "RAIL_CORE_\u5efa\u5fa9_0_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5efa\u5fa9_0_B1_B",
+      "object": "RAIL_CORE_\u5efa\u5fa9_0_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5efa\u5fa9_1_B1_A",
+      "object": "RAIL_CORE_\u5efa\u5fa9_1_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5efa\u5fa9_1_B1_B",
+      "object": "RAIL_CORE_\u5efa\u5fa9_1_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5fa9\u6566_0_B1_A",
+      "object": "RAIL_CORE_\u5fa9\u6566_0_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5fa9\u6566_0_B1_B",
+      "object": "RAIL_CORE_\u5fa9\u6566_0_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5fa9\u6566_0_B2_A",
+      "object": "RAIL_CORE_\u5fa9\u6566_0_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5fa9\u6566_0_B2_B",
+      "object": "RAIL_CORE_\u5fa9\u6566_0_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5fa9\u6566_1_B1_A",
+      "object": "RAIL_CORE_\u5fa9\u6566_1_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5fa9\u6566_1_B1_B",
+      "object": "RAIL_CORE_\u5fa9\u6566_1_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5fa9\u6566_1_B2_A",
+      "object": "RAIL_CORE_\u5fa9\u6566_1_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5fa9\u6566_1_B2_B",
+      "object": "RAIL_CORE_\u5fa9\u6566_1_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6566\u5ef6_0_B1_A",
+      "object": "RAIL_CORE_\u6566\u5ef6_0_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6566\u5ef6_0_B1_B",
+      "object": "RAIL_CORE_\u6566\u5ef6_0_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6566\u5ef6_0_B2_A",
+      "object": "RAIL_CORE_\u6566\u5ef6_0_B2_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6566\u5ef6_0_B2_B",
+      "object": "RAIL_CORE_\u6566\u5ef6_0_B2_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6566\u5ef6_1_B1_A",
+      "object": "RAIL_CORE_\u6566\u5ef6_1_B1_A",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6566\u5ef6_1_B1_B",
+      "object": "RAIL_CORE_\u6566\u5ef6_1_B1_B",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6566\u5ef6_1_B2_A",
+      "object": "RAIL_CORE_\u6566\u5ef6_1_B2_A",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u6566\u5ef6_1_B2_B",
+      "object": "RAIL_CORE_\u6566\u5ef6_1_B2_B",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5ef6\u5409_0_B1_A",
+      "object": "RAIL_CORE_\u5ef6\u5409_0_B1_A",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5ef6\u5409_0_B1_B",
+      "object": "RAIL_CORE_\u5ef6\u5409_0_B1_B",
+      "known_obstructed_path": true,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5ef6\u5409_1_B1_A",
+      "object": "RAIL_CORE_\u5ef6\u5409_1_B1_A",
+      "known_obstructed_path": false,
+      "vertices": 240
+    },
+    {
+      "path": "CORE_\u5ef6\u5409_1_B1_B",
+      "object": "RAIL_CORE_\u5ef6\u5409_1_B1_B",
+      "known_obstructed_path": false,
+      "vertices": 240
+    }
+  ]
+}

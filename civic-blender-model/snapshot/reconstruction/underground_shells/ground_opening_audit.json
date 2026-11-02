@@ -1,0 +1,310 @@
+[
+  {
+    "ref": "Y21",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y9",
+    "ground_hits": [
+      {
+        "step": 1,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 2,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 3,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999985694885254
+      },
+      {
+        "step": 4,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999985694885254
+      },
+      {
+        "step": 5,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 6,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 7,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999985694885254
+      },
+      {
+        "step": 8,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 9,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999985694885254
+      },
+      {
+        "step": 10,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999985694885254
+      },
+      {
+        "step": 11,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 2.384185791015625e-07
+      },
+      {
+        "step": 12,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 0.0
+      },
+      {
+        "step": 13,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -2.384185791015625e-07
+      },
+      {
+        "step": 14,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -2.384185791015625e-07
+      },
+      {
+        "step": 15,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -4.76837158203125e-07
+      },
+      {
+        "step": 16,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 0.0
+      },
+      {
+        "step": 17,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 0.0
+      },
+      {
+        "step": 18,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 0.0
+      },
+      {
+        "step": 19,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 2.384185791015625e-07
+      },
+      {
+        "step": 20,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 2.384185791015625e-07
+      },
+      {
+        "step": 21,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -2.384185791015625e-07
+      },
+      {
+        "step": 22,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 0.0
+      },
+      {
+        "step": 23,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -2.384185791015625e-07
+      }
+    ]
+  },
+  {
+    "ref": "Y26",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y27",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y17",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y19",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y10",
+    "ground_hits": [
+      {
+        "step": 1,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000033378601074
+      },
+      {
+        "step": 2,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999985694885254
+      },
+      {
+        "step": 3,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 4,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999985694885254
+      },
+      {
+        "step": 5,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 6,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999961853027344
+      },
+      {
+        "step": 7,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 8,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999961853027344
+      },
+      {
+        "step": 9,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000033378601074
+      },
+      {
+        "step": 10,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 11,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000033378601074
+      },
+      {
+        "step": 12,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000033378601074
+      },
+      {
+        "step": 13,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.15000009536743164
+      },
+      {
+        "step": 14,
+        "surface": "GROUND_SIDEWALKS_WITH_ESTIMATED_RAMPS",
+        "z": 0.14999985694885254
+      },
+      {
+        "step": 15,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 0.0
+      },
+      {
+        "step": 16,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -2.384185791015625e-07
+      },
+      {
+        "step": 17,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -2.384185791015625e-07
+      },
+      {
+        "step": 18,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 0.0
+      },
+      {
+        "step": 19,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 0.0
+      },
+      {
+        "step": 20,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -2.384185791015625e-07
+      },
+      {
+        "step": 21,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -2.384185791015625e-07
+      },
+      {
+        "step": 22,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": 0.0
+      },
+      {
+        "step": 23,
+        "surface": "GROUND_ROADS_OFFICIAL_XY",
+        "z": -2.384185791015625e-07
+      }
+    ]
+  },
+  {
+    "ref": "Y12",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y23",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y25",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y28",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y11",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y13",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y14",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y15",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y16",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y18",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y20",
+    "ground_hits": []
+  },
+  {
+    "ref": "Y22",
+    "ground_hits": []
+  }
+]

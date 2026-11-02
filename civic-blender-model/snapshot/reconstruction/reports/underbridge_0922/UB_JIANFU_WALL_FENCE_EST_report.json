@@ -1,0 +1,40 @@
+{
+  "batch": "UB_JIANFU_WALL_FENCE_EST",
+  "object_count": 4,
+  "names": [
+    "UB_JIANFU_WALL_FENCE_EST_RAMP_WALL_UPPER_EST",
+    "UB_JIANFU_WALL_FENCE_EST_RAMP_WALL_COPING_EST",
+    "UB_JIANFU_WALL_FENCE_EST_RAMP_EQUIP_BOX_EST",
+    "UB_JIANFU_WALL_FENCE_EST_DARK_FENCE_EST"
+  ],
+  "surface_intersections": [
+    [
+      "UB_JIANFU_WALL_FENCE_EST_DARK_FENCE_EST",
+      "UNVERIFIED_Pier_235"
+    ]
+  ],
+  "aabb_candidates": [
+    [
+      "UB_JIANFU_WALL_FENCE_EST_DARK_FENCE_EST",
+      "UNVERIFIED_Pier_235"
+    ]
+  ],
+  "median_sample_issues": [
+    {
+      "name": "UB_JIANFU_WALL_FENCE_EST_RAMP_WALL_UPPER_EST",
+      "outside_samples": 2
+    },
+    {
+      "name": "UB_JIANFU_WALL_FENCE_EST_RAMP_WALL_COPING_EST",
+      "outside_samples": 2
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

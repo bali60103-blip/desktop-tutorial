@@ -1,0 +1,11 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Calibration/CIVIC_CALIBRATION_20260910_192914.blend",
+  "checked_active_meshes": 5441,
+  "mesh_issues": [],
+  "road_cameras": 106,
+  "all_cameras": 129,
+  "headroom_sample_paths": 117,
+  "headroom_samples": 6669,
+  "headroom_unresolved_paths": 15,
+  "status": "PARTIAL_SITE_CALIBRATION; geometry fixes applied, streetview images unavailable; absolute elevations, occluded equipment and conflicting source envelopes unresolved"
+}

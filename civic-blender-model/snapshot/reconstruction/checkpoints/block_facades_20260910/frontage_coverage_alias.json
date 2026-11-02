@@ -1,0 +1,5 @@
+{
+  "source_osm_id": "w1347249268",
+  "represented_by": "w1347249264",
+  "reason": "Coincident mapped footprint deduplicated; do not build overlapping duplicate facade"
+}

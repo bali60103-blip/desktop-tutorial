@@ -1,0 +1,323 @@
+{
+  "batch_name": "UB_DUNYAN_WEST_OBSERVED_EST",
+  "observations": [
+    {
+      "pano": "uKMagVCBFOMP5Zreqyt1Gg",
+      "lat": 25.0449469,
+      "lon": 121.5470737,
+      "date": "2024-12",
+      "heading": 67.32,
+      "observed": [
+        "P247 visible label",
+        "picket guard",
+        "cobbled median and shrub islands",
+        "parking and U-turn signs"
+      ],
+      "visible_pier_label": "P247",
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    },
+    {
+      "pano": "Qe2dOHcJSmTRKLtsEIicjg",
+      "lat": 25.0448727,
+      "lon": 121.5477668,
+      "date": "2024-12",
+      "heading": 67.32,
+      "observed": [
+        "cobbled open median",
+        "low stone wall",
+        "column guard",
+        "lamp poles"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    },
+    {
+      "pano": "SZqEPEzJAb3DnwU1bIR4jA",
+      "lat": 25.0447803,
+      "lon": 121.5486804,
+      "date": "2025-01",
+      "heading": 67.32,
+      "observed": [
+        "Dunhua open junction",
+        "setback portal piers",
+        "signals"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    },
+    {
+      "pano": "yrWNNlTILLiGU7aAPbWlLw",
+      "lat": 25.0448064,
+      "lon": 121.5491452,
+      "date": "2025-04",
+      "heading": 67.32,
+      "observed": [
+        "portal column drainage pipe",
+        "low stone enclosure",
+        "electrical cabinet",
+        "lamp pole",
+        "shrubs",
+        "zebra crossing"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    },
+    {
+      "pano": "ijgLhCuoC7XsOHBS4Y0R3Q",
+      "lat": 25.04467,
+      "lon": 121.5494928,
+      "date": "2025-04",
+      "heading": 90,
+      "observed": [
+        "tall stone enclosure at median edge",
+        "column planting bed",
+        "electronic message board",
+        "motorcycle parking on south sidewalk"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    },
+    {
+      "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+      "lat": 25.0446013,
+      "lon": 121.5501896,
+      "date": "2025-04",
+      "heading": 90,
+      "observed": [
+        "pitched parking canopy",
+        "gate equipment",
+        "ramp walls",
+        "low shrubs"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    },
+    {
+      "pano": "qW5wQ6xlNLKJE7jPZ8_Beg",
+      "lat": 25.0444841,
+      "lon": 121.5511214,
+      "date": "2025-04",
+      "heading": 90,
+      "observed": [
+        "segmented stone planting curbs",
+        "cobbled median",
+        "unguarded portal piers"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view"
+    }
+  ],
+  "masses": [
+    {
+      "id": "STONE_HOUSE",
+      "center": [
+        3948,
+        390,
+        1.83
+      ],
+      "size": [
+        15,
+        5,
+        3.3
+      ],
+      "material": "stone",
+      "pano": "ijgLhCuoC7XsOHBS4Y0R3Q",
+      "angle": -9.2,
+      "kind": "box",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "LOW_ENCLOSURE",
+      "center": [
+        3936,
+        391.5,
+        0.83
+      ],
+      "size": [
+        5,
+        4,
+        1.3
+      ],
+      "material": "stone",
+      "pano": "yrWNNlTILLiGU7aAPbWlLw",
+      "angle": -9.2,
+      "kind": "box",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "CABINET",
+      "center": [
+        3933,
+        386.5,
+        1.03
+      ],
+      "size": [
+        0.8,
+        0.65,
+        1.7
+      ],
+      "material": "louvre",
+      "pano": "yrWNNlTILLiGU7aAPbWlLw",
+      "angle": -9.2,
+      "kind": "box",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "CANOPY_ROOF",
+      "center": [
+        4010.3,
+        386.62,
+        3.1
+      ],
+      "size": [
+        6,
+        6,
+        0.65
+      ],
+      "material": "roof",
+      "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+      "angle": -9.2,
+      "kind": "hip",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "POST_-2.6_-2.7",
+      "center": [
+        4007.3017665040425,
+        384.3704231723017,
+        1.64
+      ],
+      "size": [
+        0.18,
+        0.18,
+        2.92
+      ],
+      "material": "stone",
+      "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+      "angle": -9.2,
+      "kind": "box",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "POST_-2.6_2.7",
+      "center": [
+        4008.1651249175784,
+        389.70095900369586,
+        1.64
+      ],
+      "size": [
+        0.18,
+        0.18,
+        2.92
+      ],
+      "material": "stone",
+      "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+      "angle": -9.2,
+      "kind": "box",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "POST_2.6_-2.7",
+      "center": [
+        4012.434875082422,
+        383.53904099630415,
+        1.64
+      ],
+      "size": [
+        0.18,
+        0.18,
+        2.92
+      ],
+      "material": "stone",
+      "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+      "angle": -9.2,
+      "kind": "box",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "POST_2.6_2.7",
+      "center": [
+        4013.298233495958,
+        388.8695768276983,
+        1.64
+      ],
+      "size": [
+        0.18,
+        0.18,
+        2.92
+      ],
+      "material": "stone",
+      "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+      "angle": -9.2,
+      "kind": "box",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "SHRUB_3972",
+      "center": [
+        3972,
+        391,
+        0.18
+      ],
+      "size": [
+        7,
+        2,
+        0.7
+      ],
+      "material": "shrub",
+      "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+      "angle": -9.2,
+      "kind": "rock",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "SHRUB_3984",
+      "center": [
+        3984,
+        389,
+        0.18
+      ],
+      "size": [
+        7,
+        2,
+        0.7
+      ],
+      "material": "shrub",
+      "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+      "angle": -9.2,
+      "kind": "rock",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    },
+    {
+      "id": "SHRUB_4065",
+      "center": [
+        4065,
+        379,
+        0.18
+      ],
+      "size": [
+        7,
+        2,
+        0.7
+      ],
+      "material": "shrub",
+      "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+      "angle": -9.2,
+      "kind": "rock",
+      "segment": "UB_X+039_041",
+      "placement_note": "Photo-supported category. XY aligned approximately to existing median/ramp; numeric dimensions estimated, not surveyed."
+    }
+  ],
+  "full_corridor_complete": false
+}

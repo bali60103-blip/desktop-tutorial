@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/CIVIC_FULL_WORKING_PASS_20260910_185632.blend",
+    "bytes": 53141526,
+    "sha256": "9f674393a7ea59060afb929ac65e525786f0bd3ff6f2d1eb357b2bf1ac59d99c"
+  },
+  {
+    "path": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/payload.json",
+    "bytes": 3411836,
+    "sha256": "ba0c3876b162f727aece3a3fa257065e1dc8938bcba69375aa49092fc1215f33"
+  },
+  {
+    "path": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/access_payload.json",
+    "bytes": 438959,
+    "sha256": "7cf79030cb785bb316f2dc0a87ac4cd7b050d199a14a85fcddee4d4c71097341"
+  },
+  {
+    "path": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/malls_payload.json",
+    "bytes": 382629,
+    "sha256": "74677e9b26c90efdfc8855314896762fa4558343fc5a9dc10bfdd24db2d2a766"
+  },
+  {
+    "path": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/relations_payload.json",
+    "bytes": 6832,
+    "sha256": "cf7fa1c0ca866f087d1cd6f2eb4e80e3261a0449a680f634613b8ddccb831b28"
+  },
+  {
+    "path": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/all_deferred_issues.json",
+    "bytes": 125630,
+    "sha256": "d80d978f982fc3fcfc63e40885f4d4f8f92b0404b7b33eafdeb3bf1f26c32e3a"
+  },
+  {
+    "path": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/checkpoint_mesh_check.json",
+    "bytes": 454,
+    "sha256": "ca50125caec2381dc9e56074c1af1b6e98773c0ef1db981cfbbe811488a700aa"
+  },
+  {
+    "path": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/CompletionPass/WORKING_MODEL_README.md",
+    "bytes": 3832,
+    "sha256": "88195a8d5d1160ed176eee538ac7ebb414b86ba789033d0fa924267a521b8bf6"
+  }
+]

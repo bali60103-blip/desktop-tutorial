@@ -1,0 +1,891 @@
+{
+  "segments": [
+    {
+      "id": "UB_X-007",
+      "x_start": -700,
+      "x_end": -600,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [],
+      "coverage_status": "no_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X-006",
+      "x_start": -600,
+      "x_end": -500,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [],
+      "coverage_status": "no_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X-005",
+      "x_start": -500,
+      "x_end": -400,
+      "prior_streetview_status": "partial_ground_view",
+      "camera_observations": [
+        "kh_wcLZksG1guzaOg1PXFA",
+        "SBVIjhNhgPYIqGro8I2Sgg",
+        "5u3VeX7pm9GqXDQ_C5FKZw",
+        "AlMN8Axcpjv5CIgtHUi5gg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": [
+        "SBVIjhNhgPYIqGro8I2Sgg"
+      ]
+    },
+    {
+      "id": "UB_X-004",
+      "x_start": -400,
+      "x_end": -300,
+      "prior_streetview_status": "partial_ground_view",
+      "camera_observations": [],
+      "coverage_status": "prior_partial_observation_without_camera_projection",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": [
+        "M2SHdeR6iDydeEFqEEYfJA"
+      ]
+    },
+    {
+      "id": "UB_X-003",
+      "x_start": -300,
+      "x_end": -200,
+      "prior_streetview_status": "partial_ground_view",
+      "camera_observations": [
+        "bv8E256QgS9eQ5HFGPisGw"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": [
+        "bv8E256QgS9eQ5HFGPisGw"
+      ]
+    },
+    {
+      "id": "UB_X-002",
+      "x_start": -200,
+      "x_end": -100,
+      "prior_streetview_status": "partial_ground_view",
+      "camera_observations": [],
+      "coverage_status": "prior_partial_observation_without_camera_projection",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": [
+        "6r1uoT9hQu2JROltO-9XRw"
+      ]
+    },
+    {
+      "id": "UB_X-001",
+      "x_start": -100,
+      "x_end": 0,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [],
+      "coverage_status": "no_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+000",
+      "x_start": 0,
+      "x_end": 100,
+      "prior_streetview_status": "partial_ground_view",
+      "camera_observations": [],
+      "coverage_status": "prior_partial_observation_without_camera_projection",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": [
+        "m8uPsNjtR14tfM0vA6DBXA"
+      ]
+    },
+    {
+      "id": "UB_X+001",
+      "x_start": 100,
+      "x_end": 200,
+      "prior_streetview_status": "partial_ground_view",
+      "camera_observations": [],
+      "coverage_status": "prior_partial_observation_without_camera_projection",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": [
+        "DhbR1c0EQE4zelfovgpoCw"
+      ]
+    },
+    {
+      "id": "UB_X+002",
+      "x_start": 200,
+      "x_end": 300,
+      "prior_streetview_status": "partial_ground_view",
+      "camera_observations": [],
+      "coverage_status": "prior_partial_observation_without_camera_projection",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": [
+        "rOneZw1Hy2btmcnrLp2cjQ"
+      ]
+    },
+    {
+      "id": "UB_X+003",
+      "x_start": 300,
+      "x_end": 400,
+      "prior_streetview_status": "partial_ground_view",
+      "camera_observations": [],
+      "coverage_status": "prior_partial_observation_without_camera_projection",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": [
+        "moMq0z-UBTjiDjOudI-lmw"
+      ]
+    },
+    {
+      "id": "UB_X+004",
+      "x_start": 400,
+      "x_end": 500,
+      "prior_streetview_status": "partial_ground_view",
+      "camera_observations": [],
+      "coverage_status": "prior_partial_observation_without_camera_projection",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": [
+        "modALEC3WgErR-jyX2zyUA",
+        "7jxY9aXs4Z8BllYteOtqlw"
+      ]
+    },
+    {
+      "id": "UB_X+005",
+      "x_start": 500,
+      "x_end": 600,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "fpBvxPDafuSLZq7KqrDa2A"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+006",
+      "x_start": 600,
+      "x_end": 700,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "ff___MA_weEO7gJ-dj-I3A"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+007",
+      "x_start": 700,
+      "x_end": 800,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "WoTp__lI-8855U_79CL80A",
+        "dT6rsCF6QU3LC81ufbpmZQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+008",
+      "x_start": 800,
+      "x_end": 900,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "thep3S5iPBSW9exGL5CO_g",
+        "PdYrpyY5JzRWty-6BTCaYw"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+009",
+      "x_start": 900,
+      "x_end": 1000,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "VuDIJbb1MdeZ8i5VHTxpZw",
+        "dwnmAqivRESJAtK18Sb9vw",
+        "JDzQHdf53-iyGiEgCwyGgg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+010",
+      "x_start": 1000,
+      "x_end": 1100,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "KDlqhgAP6r2QIz0x_yWfSQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+011",
+      "x_start": 1100,
+      "x_end": 1200,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "SBu9uXniGhP4O-HNyevkIw"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+012",
+      "x_start": 1200,
+      "x_end": 1300,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "upFbjEk13qEEQWlgIULMCw",
+        "ZgE-HFiWqHTECOSw8S6Kgg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+013",
+      "x_start": 1300,
+      "x_end": 1400,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "B0XewvKlNEUYQVIiP7QEIQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+014",
+      "x_start": 1400,
+      "x_end": 1500,
+      "prior_streetview_status": "partial_one_view",
+      "camera_observations": [
+        "g1qfNHBGxt8bQ9Mxtk4-WQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+015",
+      "x_start": 1500,
+      "x_end": 1600,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "9Xu4q5UelsxwgV3WUg6tDg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+016",
+      "x_start": 1600,
+      "x_end": 1700,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "kQpshBYGSJVRbdO4dhjoBg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+017",
+      "x_start": 1700,
+      "x_end": 1800,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "EJnaX5A24nUes5wWotO5yg",
+        "Jse0dXNcWtnaiOTs5a4Vqw"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+018",
+      "x_start": 1800,
+      "x_end": 1900,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "Zk9yRm4TDWEgm2LCAfNGtQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+019",
+      "x_start": 1900,
+      "x_end": 2000,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "aOv-shv6M6ES_3nd_LkhpA",
+        "j2sJsLSZ2kcjkVS7y2JBRw",
+        "mbnGxPg__qYfl6EcT6O0bg",
+        "oaAcr96uLwMRwPggIMaSPA"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+020",
+      "x_start": 2000,
+      "x_end": 2100,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "Z4fYjkl4Ptiv8N_GFa3uzg",
+        "UTyZdhlFPApdQNTv-tHpbg",
+        "-8viFBK4fuMnPijjMYKKSQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+021",
+      "x_start": 2100,
+      "x_end": 2200,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "TdNRoe2SIvYRDGd1pR5XNg",
+        "BTsQuxiakoKbtWbDIMst0w"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+022",
+      "x_start": 2200,
+      "x_end": 2300,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "htQxClxGohJNBfAvFaUo2g",
+        "mg8uGWmROsxmOz9X-JTgZQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+023",
+      "x_start": 2300,
+      "x_end": 2400,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "Jp9c0sgxTssnLaOMpx-aNg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+024",
+      "x_start": 2400,
+      "x_end": 2500,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "mc4ARoq6Vr6H2le74g1BDQ",
+        "TmJaZc2pavLdf2zfcodVMA"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+025",
+      "x_start": 2500,
+      "x_end": 2600,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "UPKfuf0v1ndm02e9vSLrcA",
+        "kVbZzJzuhXHaoWM-anP_DQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+026",
+      "x_start": 2600,
+      "x_end": 2700,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "3Vq9E0LHU4N9sIW2U3PM2A",
+        "Y3YXY7-SlZ5-QFp9zNLfSA"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+027",
+      "x_start": 2700,
+      "x_end": 2800,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "C0ErFunaxlWpr9M3Oo4Hyg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+028",
+      "x_start": 2800,
+      "x_end": 2900,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "qcnBLenMbFh4WolbZO5JUA",
+        "NfN9c34laNEaExIh-8h8xA"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+029",
+      "x_start": 2900,
+      "x_end": 3000,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "qlNEhY2vapGKjolnhyIrxQ",
+        "dMVEE6UYTNXGPO74I7fYNw"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+030",
+      "x_start": 3000,
+      "x_end": 3100,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "4Ucq9xiovJvNR2OeItBkag"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+031",
+      "x_start": 3100,
+      "x_end": 3200,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "D93ruj14fi2oZZ0vJUEfBw",
+        "eky2lmiChtmPW0J836_p-w"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+032",
+      "x_start": 3200,
+      "x_end": 3300,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "GNaYshgbXGqT6PZXF7RvSw"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+033",
+      "x_start": 3300,
+      "x_end": 3400,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "4NKKDkj7LTh70nLelXcPqw"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+034",
+      "x_start": 3400,
+      "x_end": 3500,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "W7yVqpmB3_GRMjErCguLjQ",
+        "qO9vy2z0l826vmFLb83htg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+035",
+      "x_start": 3500,
+      "x_end": 3600,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "2882lEnxh46OedwtnsGNQg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+036",
+      "x_start": 3600,
+      "x_end": 3700,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "V1Ms-Pwo1NGzX82d62EMhA"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+037",
+      "x_start": 3700,
+      "x_end": 3800,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "uKMagVCBFOMP5Zreqyt1Gg",
+        "Qe2dOHcJSmTRKLtsEIicjg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+038",
+      "x_start": 3800,
+      "x_end": 3900,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "SZqEPEzJAb3DnwU1bIR4jA"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+039",
+      "x_start": 3900,
+      "x_end": 4000,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "yrWNNlTILLiGU7aAPbWlLw",
+        "ijgLhCuoC7XsOHBS4Y0R3Q"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+040",
+      "x_start": 4000,
+      "x_end": 4100,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "mH5lm3Z4AqDNqXslfDrhHQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+041",
+      "x_start": 4100,
+      "x_end": 4200,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "qW5wQ6xlNLKJE7jPZ8_Beg",
+        "rZ15HNibSMZkMVtt7zegbw"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+042",
+      "x_start": 4200,
+      "x_end": 4300,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "EtE1zVxTgl8sNr_LOvrrfA"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+043",
+      "x_start": 4300,
+      "x_end": 4400,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "uJj_8PV86O1kGT1blAVpkA"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+044",
+      "x_start": 4400,
+      "x_end": 4500,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "WFFTmS80iciUSGSbmrjuFw"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+045",
+      "x_start": 4500,
+      "x_end": 4600,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "Mqs5MSupW4FSCi88KmNx9Q"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+046",
+      "x_start": 4600,
+      "x_end": 4700,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "LBdnHvU6GYBVYHWf7_yI6Q"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+047",
+      "x_start": 4700,
+      "x_end": 4800,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "GZMhNyE7IicA0gM0V4WQJg",
+        "_G36_NzKikasV2eh0nq9jg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+048",
+      "x_start": 4800,
+      "x_end": 4900,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "-mhyRldoDgcRnniHnvmIoQ"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+049",
+      "x_start": 4900,
+      "x_end": 5000,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "YVcanWSyhNmp1yfyOvNtTA",
+        "XI0GRYZUJORiWeuIYeH4Qg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+050",
+      "x_start": 5000,
+      "x_end": 5100,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "qPXPdnQ2g8461_pjGwlepg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+051",
+      "x_start": 5100,
+      "x_end": 5200,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "jdlNrNM-B5BHPzABvdUkgg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+052",
+      "x_start": 5200,
+      "x_end": 5300,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "YG-Zb3gLNXKXoozUWgo3pg"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+053",
+      "x_start": 5300,
+      "x_end": 5400,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [
+        "Vw0HgmC2TlqgbfIYaH_j2g"
+      ],
+      "coverage_status": "partial_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+054",
+      "x_start": 5400,
+      "x_end": 5500,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [],
+      "coverage_status": "no_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+055",
+      "x_start": 5500,
+      "x_end": 5600,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [],
+      "coverage_status": "no_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+056",
+      "x_start": 5600,
+      "x_end": 5700,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [],
+      "coverage_status": "no_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+057",
+      "x_start": 5700,
+      "x_end": 5800,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [],
+      "coverage_status": "no_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    },
+    {
+      "id": "UB_X+058",
+      "x_start": 5800,
+      "x_end": 5900,
+      "prior_streetview_status": "not_reviewed",
+      "camera_observations": [],
+      "coverage_status": "no_camera_observation",
+      "full_visibility_verified": false,
+      "dimensions_verified": false,
+      "prior_panorama_refs": []
+    }
+  ],
+  "segment_count": 66,
+  "panorama_count": 79,
+  "strips_with_camera_observation": 51,
+  "fully_verified_segments": 0,
+  "full_corridor_complete": false,
+  "limits": [
+    "100m easting strips, not chainage",
+    "Camera location is not object location or whole-strip visibility",
+    "Original mapped object counts are not a verified real-world inventory",
+    "Occluded and opposite-side objects require further review"
+  ],
+  "strips_with_any_partial_observation": 58
+}

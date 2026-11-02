@@ -1,0 +1,20 @@
+[
+  {
+    "file": "repair.pdf",
+    "url": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/d3732f62-085a-40b1-9d47-2fdca68687a7.pdf",
+    "sha256": "a98d99f0e7c850400d0e7358cc96b7e9f8aec9abc277d5eae171bbcca1a001b0",
+    "retrieved": "2026-09-09",
+    "visual_review_pages": [
+      8
+    ]
+  },
+  {
+    "file": "height_limits.pdf",
+    "url": "https://www-ws.gov.taipei/001/Upload/455/relfile/0/30448/730d9989-37b7-4035-b8be-2401bc4ef0d1.pdf",
+    "sha256": "0634faeb0fe2f40c03b56e1e44590791221e6605c1b452a910993160684b6541",
+    "retrieved": "2026-09-09",
+    "visual_review_pages": [
+      2
+    ]
+  }
+]

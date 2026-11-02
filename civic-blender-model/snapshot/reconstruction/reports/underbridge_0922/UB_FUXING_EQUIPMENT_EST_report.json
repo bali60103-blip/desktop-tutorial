@@ -1,0 +1,50 @@
+{
+  "batch": "UB_FUXING_EQUIPMENT_EST",
+  "object_count": 7,
+  "names": [
+    "UB_FUXING_EQUIPMENT_EST_WEST_NORTH_EST",
+    "UB_FUXING_EQUIPMENT_EST_WEST_SOUTH_EST",
+    "UB_FUXING_EQUIPMENT_EST_EAST_PLINTH_EST",
+    "UB_FUXING_EQUIPMENT_EST_EAST_HOUSE_EST",
+    "UB_FUXING_EQUIPMENT_EST_WEST_NORTH_GRILLE_EST",
+    "UB_FUXING_EQUIPMENT_EST_WEST_SOUTH_GRILLE_EST",
+    "UB_FUXING_EQUIPMENT_EST_EAST_HOUSE_GRILLE_EST"
+  ],
+  "surface_intersections": [],
+  "aabb_candidates": [
+    [
+      "UB_FUXING_EQUIPMENT_EST_WEST_NORTH_EST",
+      "BLOCK_w1038721655_CORE"
+    ]
+  ],
+  "median_sample_issues": [
+    {
+      "name": "UB_FUXING_EQUIPMENT_EST_WEST_NORTH_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_FUXING_EQUIPMENT_EST_WEST_SOUTH_EST",
+      "outside_samples": 2
+    },
+    {
+      "name": "UB_FUXING_EQUIPMENT_EST_EAST_PLINTH_EST",
+      "outside_samples": 2
+    },
+    {
+      "name": "UB_FUXING_EQUIPMENT_EST_EAST_HOUSE_EST",
+      "outside_samples": 2
+    },
+    {
+      "name": "UB_FUXING_EQUIPMENT_EST_WEST_NORTH_GRILLE_EST",
+      "outside_samples": 4
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

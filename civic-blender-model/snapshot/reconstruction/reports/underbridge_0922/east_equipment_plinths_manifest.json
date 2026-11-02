@@ -1,0 +1,101 @@
+{
+  "batch_name": "UB_EAST_EQUIPMENT_PLINTHS_EST",
+  "observations": [
+    {
+      "pano": "Mqs5MSupW4FSCi88KmNx9Q",
+      "lat": 25.0446461,
+      "lon": 121.5553056,
+      "date": "2025-05",
+      "heading": 90,
+      "observed": [
+        "paired louvred equipment houses flanking central road"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view",
+      "camera_model_xy": [
+        4537.239,
+        378.108
+      ],
+      "camera_easting_strip": "UB_X+045",
+      "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+    },
+    {
+      "pano": "GZMhNyE7IicA0gM0V4WQJg",
+      "lat": 25.0450688,
+      "lon": 121.5569551,
+      "date": "2025-01",
+      "heading": 90,
+      "observed": [
+        "louvred service enclosure, arched hood and picket fence"
+      ],
+      "dimensions_verified": false,
+      "status": "partial_ground_view",
+      "camera_model_xy": [
+        4703.492,
+        425.613
+      ],
+      "camera_easting_strip": "UB_X+047",
+      "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+    }
+  ],
+  "masses": [
+    {
+      "id": "YANJI_NORTH",
+      "center": [
+        4538,
+        388,
+        0.09
+      ],
+      "size": [
+        22.4,
+        4.4,
+        0.18
+      ],
+      "angle": 10,
+      "pano": "Mqs5MSupW4FSCi88KmNx9Q",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+045_047",
+      "placement_note": "Estimated 0.18m local equipment curb/plinth bridging model's missing median support. Not proof of actual footprint or kerb height."
+    },
+    {
+      "id": "YANJI_SOUTH",
+      "center": [
+        4538,
+        365,
+        0.09
+      ],
+      "size": [
+        22.4,
+        4.4,
+        0.18
+      ],
+      "angle": 10,
+      "pano": "Mqs5MSupW4FSCi88KmNx9Q",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+045_047",
+      "placement_note": "Estimated 0.18m local equipment curb/plinth bridging model's missing median support. Not proof of actual footprint or kerb height."
+    },
+    {
+      "id": "GUANGFU",
+      "center": [
+        4713,
+        410,
+        0.09
+      ],
+      "size": [
+        30.4,
+        6.4,
+        0.18
+      ],
+      "angle": 12,
+      "pano": "GZMhNyE7IicA0gM0V4WQJg",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+045_047",
+      "placement_note": "Estimated 0.18m local equipment curb/plinth bridging model's missing median support. Not proof of actual footprint or kerb height."
+    }
+  ],
+  "full_corridor_complete": false
+}

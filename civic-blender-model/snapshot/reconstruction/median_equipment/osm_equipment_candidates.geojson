@@ -1,0 +1,631 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5202756,
+          25.0488552
+        ]
+      },
+      "properties": {
+        "osm_id": 11069754058,
+        "osm_type": "node",
+        "location": "outdoor",
+        "power": "transformer",
+        "transformer": "distribution",
+        "distance_named_road_m": 64.05,
+        "status": "OSM candidate; median membership and surface visibility unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5202394,
+          25.048724
+        ]
+      },
+      "properties": {
+        "osm_id": 11069754059,
+        "osm_type": "node",
+        "location": "outdoor",
+        "power": "transformer",
+        "transformer": "distribution",
+        "distance_named_road_m": 49.09,
+        "status": "OSM candidate; median membership and surface visibility unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5200248,
+          25.0487617
+        ]
+      },
+      "properties": {
+        "osm_id": 11069754060,
+        "osm_type": "node",
+        "location": "outdoor",
+        "power": "transformer",
+        "transformer": "distribution",
+        "distance_named_road_m": 49.05,
+        "status": "OSM candidate; median membership and surface visibility unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5345676,
+          25.0435544
+        ]
+      },
+      "properties": {
+        "osm_id": 13657308144,
+        "osm_type": "node",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 60.91,
+        "status": "OSM candidate; median membership and surface visibility unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5158677,
+              25.0481565
+            ],
+            [
+              121.5160045,
+              25.0481318
+            ],
+            [
+              121.5160146,
+              25.0481775
+            ],
+            [
+              121.5158778,
+              25.0482022
+            ],
+            [
+              121.5158677,
+              25.0481565
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 552658460,
+        "osm_type": "way",
+        "barrier": "fence",
+        "building": "service",
+        "description": "換氣口",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 64.33,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 72.66,
+        "osm_rotated_bbox_m": [
+          5.16,
+          14.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5186721,
+              25.0476812
+            ],
+            [
+              121.5188089,
+              25.0476565
+            ],
+            [
+              121.518819,
+              25.0477022
+            ],
+            [
+              121.5186822,
+              25.0477269
+            ],
+            [
+              121.5186721,
+              25.0476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 824790911,
+        "osm_type": "way",
+        "building": "yes",
+        "description": "換氣口",
+        "layer": "1",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 65.42,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 72.66,
+        "osm_rotated_bbox_m": [
+          5.16,
+          14.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5154839,
+              25.0483376
+            ],
+            [
+              121.515475,
+              25.0483008
+            ],
+            [
+              121.5154318,
+              25.0483093
+            ],
+            [
+              121.5154406,
+              25.0483461
+            ],
+            [
+              121.5154839,
+              25.0483376
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 875067963,
+        "osm_type": "way",
+        "building": "service",
+        "description": "通風井",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 56.82,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 18.63,
+        "osm_rotated_bbox_m": [
+          4.17,
+          4.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5156533,
+              25.0483094
+            ],
+            [
+              121.515644,
+              25.0482731
+            ],
+            [
+              121.5156023,
+              25.0482819
+            ],
+            [
+              121.5156116,
+              25.0483182
+            ],
+            [
+              121.5156533,
+              25.0483094
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 875067964,
+        "osm_type": "way",
+        "building": "service",
+        "description": "通風井",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 56.66,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 17.83,
+        "osm_rotated_bbox_m": [
+          4.13,
+          4.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5161175,
+              25.048231
+            ],
+            [
+              121.5161086,
+              25.0481942
+            ],
+            [
+              121.5160654,
+              25.0482027
+            ],
+            [
+              121.5160742,
+              25.0482395
+            ],
+            [
+              121.5161175,
+              25.048231
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 1015818580,
+        "osm_type": "way",
+        "building": "service",
+        "description": "通風井",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 56.6,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 18.63,
+        "osm_rotated_bbox_m": [
+          4.17,
+          4.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5186261,
+              25.0477244
+            ],
+            [
+              121.5186161,
+              25.047679
+            ],
+            [
+              121.5185322,
+              25.0476942
+            ],
+            [
+              121.5185422,
+              25.0477396
+            ],
+            [
+              121.5186261,
+              25.0477244
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 1164881521,
+        "osm_type": "way",
+        "building": "service",
+        "layer": "1",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 66.21,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 44.27,
+        "osm_rotated_bbox_m": [
+          5.13,
+          8.64
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5191369,
+              25.0479935
+            ],
+            [
+              121.5194456,
+              25.0479412
+            ],
+            [
+              121.5194609,
+              25.0480154
+            ],
+            [
+              121.5191522,
+              25.0480677
+            ],
+            [
+              121.5191369,
+              25.0479935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 1164891302,
+        "osm_type": "way",
+        "building": "service",
+        "building:levels": "1",
+        "description": "通風井",
+        "layer": "1",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 20.69,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 264.95,
+        "osm_rotated_bbox_m": [
+          8.36,
+          31.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5316771,
+              25.0461921
+            ],
+            [
+              121.5320142,
+              25.0459898
+            ],
+            [
+              121.5319674,
+              25.0459214
+            ],
+            [
+              121.5319012,
+              25.045943
+            ],
+            [
+              121.5317659,
+              25.0460242
+            ],
+            [
+              121.5317517,
+              25.0460047
+            ],
+            [
+              121.5317061,
+              25.046032
+            ],
+            [
+              121.5316903,
+              25.0460104
+            ],
+            [
+              121.5315887,
+              25.0460713
+            ],
+            [
+              121.5316771,
+              25.0461921
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 1177794601,
+        "osm_type": "way",
+        "building": "service",
+        "distance_named_road_m": 13.6,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 509.22,
+        "osm_rotated_bbox_m": [
+          16.08,
+          41.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5633988,
+              25.0453729
+            ],
+            [
+              121.5634071,
+              25.0453657
+            ],
+            [
+              121.5634185,
+              25.0453658
+            ],
+            [
+              121.5634265,
+              25.0453733
+            ],
+            [
+              121.5634264,
+              25.0453836
+            ],
+            [
+              121.5634182,
+              25.0453909
+            ],
+            [
+              121.5634067,
+              25.0453908
+            ],
+            [
+              121.5633987,
+              25.0453833
+            ],
+            [
+              121.5633988,
+              25.0453729
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 1342705709,
+        "osm_type": "way",
+        "building": "industrial",
+        "height": "45",
+        "man_made": "chimney",
+        "name": "台北機廠煙囪",
+        "distance_named_road_m": 45.17,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 6.43,
+        "osm_rotated_bbox_m": [
+          2.78,
+          2.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5209506,
+              25.0478979
+            ],
+            [
+              121.5210657,
+              25.0478811
+            ],
+            [
+              121.521065,
+              25.0478771
+            ],
+            [
+              121.5210894,
+              25.0478735
+            ],
+            [
+              121.5210881,
+              25.0478665
+            ],
+            [
+              121.5210869,
+              25.0478595
+            ],
+            [
+              121.5210061,
+              25.0478713
+            ],
+            [
+              121.5210032,
+              25.047855
+            ],
+            [
+              121.5209444,
+              25.0478636
+            ],
+            [
+              121.5209506,
+              25.0478979
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 1346883411,
+        "osm_type": "way",
+        "building": "yes",
+        "building:levels": "1",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 5.8,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 38.71,
+        "osm_rotated_bbox_m": [
+          3.85,
+          14.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5187818,
+              25.0476485
+            ],
+            [
+              121.5187913,
+              25.0476944
+            ],
+            [
+              121.5186876,
+              25.0477119
+            ],
+            [
+              121.5186867,
+              25.0477077
+            ],
+            [
+              121.5186836,
+              25.0476925
+            ],
+            [
+              121.5186781,
+              25.047666
+            ],
+            [
+              121.5187818,
+              25.0476485
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": 1434131925,
+        "osm_type": "way",
+        "building": "service",
+        "building:levels": "2",
+        "description": "通風井",
+        "man_made": "ventilation_shaft",
+        "distance_named_road_m": 66.98,
+        "status": "OSM candidate; median membership and surface visibility unverified",
+        "osm_footprint_area_m2": 55.06,
+        "osm_rotated_bbox_m": [
+          5.17,
+          10.66
+        ]
+      }
+    }
+  ]
+}

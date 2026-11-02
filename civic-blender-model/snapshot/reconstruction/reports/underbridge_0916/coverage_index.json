@@ -1,0 +1,945 @@
+{
+  "scope": "100m easting strips covering mapped Civic elevated mainline incl western and eastern curved approaches; not chainage. Ramps/interchanges require separate extensions. Candidate bbox assignment is approximate.",
+  "source_scene": "CIVIC_FULL_CORRIDOR_PRESENTATION",
+  "segments": [
+    {
+      "id": "UB_X-007",
+      "x_start": -700,
+      "x_end": -600,
+      "xy": [
+        -636.4630956974215,
+        951.7353051306727
+      ],
+      "lat": 25.0500076427066,
+      "lon": 121.50405527655073,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 21
+    },
+    {
+      "id": "UB_X-006",
+      "x_start": -600,
+      "x_end": -500,
+      "xy": [
+        -584.3618014360923,
+        850.3014324718735
+      ],
+      "lat": 25.049090148769395,
+      "lon": 121.50456787599099,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 33
+    },
+    {
+      "id": "UB_X-005",
+      "x_start": -500,
+      "x_end": -400,
+      "xy": [
+        -478.6195644057352,
+        1013.4052973111409
+      ],
+      "lat": 25.050559078042884,
+      "lon": 121.50562186710995,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 17
+    },
+    {
+      "id": "UB_X-004",
+      "x_start": -400,
+      "x_end": -300,
+      "xy": [
+        -376.92897032395206,
+        980.4649532715953
+      ],
+      "lat": 25.05025825913844,
+      "lon": 121.50662845182677,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 23
+    },
+    {
+      "id": "UB_X-003",
+      "x_start": -300,
+      "x_end": -200,
+      "xy": [
+        -250.0,
+        1014.0160774684327
+      ],
+      "lat": 25.050556859693323,
+      "lon": 121.5078876300836,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 4
+    },
+    {
+      "id": "UB_X-002",
+      "x_start": -200,
+      "x_end": -100,
+      "xy": [
+        -150.0,
+        998.1681932377736
+      ],
+      "lat": 25.050410392752113,
+      "lon": 121.50887809160419,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 0
+    },
+    {
+      "id": "UB_X-001",
+      "x_start": -100,
+      "x_end": 0,
+      "xy": [
+        -50.0,
+        981.1010786985446
+      ],
+      "lat": 25.050252912096372,
+      "lon": 121.50986850510266,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 3
+    },
+    {
+      "id": "UB_X+000",
+      "x_start": 0,
+      "x_end": 100,
+      "xy": [
+        50.0,
+        963.6478335366676
+      ],
+      "lat": 25.05009193890788,
+      "lon": 121.51085890149609,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 53
+    },
+    {
+      "id": "UB_X+001",
+      "x_start": 100,
+      "x_end": 200,
+      "xy": [
+        150.0,
+        942.1779245209574
+      ],
+      "lat": 25.04989469694211,
+      "lon": 121.51184914455253,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 51
+    },
+    {
+      "id": "UB_X+002",
+      "x_start": 200,
+      "x_end": 300,
+      "xy": [
+        250.0,
+        909.813101330451
+      ],
+      "lat": 25.04959908977067,
+      "lon": 121.51283897496651,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 36
+    },
+    {
+      "id": "UB_X+003",
+      "x_start": 300,
+      "x_end": 400,
+      "xy": [
+        350.0,
+        879.8658710887269
+      ],
+      "lat": 25.049325301952656,
+      "lon": 121.51382889152991,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 51
+    },
+    {
+      "id": "UB_X+004",
+      "x_start": 400,
+      "x_end": 500,
+      "xy": [
+        450.0,
+        854.6100748448024
+      ],
+      "lat": 25.049093861579987,
+      "lon": 121.51481898052707,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 54
+    },
+    {
+      "id": "UB_X+005",
+      "x_start": 500,
+      "x_end": 600,
+      "xy": [
+        550.0,
+        830.6724768690142
+      ],
+      "lat": 25.048874315272897,
+      "lon": 121.5158091155012,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 78
+    },
+    {
+      "id": "UB_X+006",
+      "x_start": 600,
+      "x_end": 700,
+      "xy": [
+        650.0,
+        813.0807142923636
+      ],
+      "lat": 25.048712052219148,
+      "lon": 121.51679948708987,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 20
+    },
+    {
+      "id": "UB_X+007",
+      "x_start": 700,
+      "x_end": 800,
+      "xy": [
+        750.0,
+        795.1687325208013
+      ],
+      "lat": 25.048546891682264,
+      "lon": 121.51778984380081,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 39
+    },
+    {
+      "id": "UB_X+008",
+      "x_start": 800,
+      "x_end": 900,
+      "xy": [
+        850.0,
+        778.9447403685735
+      ],
+      "lat": 25.04839696364161,
+      "lon": 121.51878026188785,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 16
+    },
+    {
+      "id": "UB_X+009",
+      "x_start": 900,
+      "x_end": 1000,
+      "xy": [
+        950.0,
+        762.1518428756831
+      ],
+      "lat": 25.048241892993577,
+      "lon": 121.51977065577844,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 16
+    },
+    {
+      "id": "UB_X+010",
+      "x_start": 1000,
+      "x_end": 1100,
+      "xy": [
+        1050.0,
+        743.7703670851527
+      ],
+      "lat": 25.04807247420205,
+      "lon": 121.5207609864481,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 16
+    },
+    {
+      "id": "UB_X+011",
+      "x_start": 1100,
+      "x_end": 1200,
+      "xy": [
+        1150.0,
+        730.8152229609822
+      ],
+      "lat": 25.04795203739608,
+      "lon": 121.52175152168005,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 14
+    },
+    {
+      "id": "UB_X+012",
+      "x_start": 1200,
+      "x_end": 1300,
+      "xy": [
+        1250.0,
+        724.0422916998268
+      ],
+      "lat": 25.047887406597166,
+      "lon": 121.52274229159796,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 11
+    },
+    {
+      "id": "UB_X+013",
+      "x_start": 1300,
+      "x_end": 1400,
+      "xy": [
+        1350.0,
+        717.398563145394
+      ],
+      "lat": 25.047823935639133,
+      "lon": 121.52373306530575,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 15
+    },
+    {
+      "id": "UB_X+014",
+      "x_start": 1400,
+      "x_end": 1500,
+      "xy": [
+        1450.0,
+        705.4267011439531
+      ],
+      "lat": 25.047712356089534,
+      "lon": 121.52472363305168,
+      "streetview_status": "partial_one_view",
+      "dimensions_status": "not_verified",
+      "observed_categories": [
+        "planter",
+        "shrub",
+        "column",
+        "column_fence",
+        "equipment_enclosure",
+        "traffic_signal"
+      ],
+      "added_mass_objects": [
+        "UB_LINSEN_CURB_00_EST",
+        "UB_LINSEN_SHRUB_00_EST"
+      ],
+      "existing_candidate_count": 6
+    },
+    {
+      "id": "UB_X+015",
+      "x_start": 1500,
+      "x_end": 1600,
+      "xy": [
+        1550.0,
+        683.2890652993864
+      ],
+      "lat": 25.047508994111013,
+      "lon": 121.52571380737162,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 7
+    },
+    {
+      "id": "UB_X+016",
+      "x_start": 1600,
+      "x_end": 1700,
+      "xy": [
+        1650.0,
+        652.972713884124
+      ],
+      "lat": 25.04723178875245,
+      "lon": 121.52670366273337,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 4
+    },
+    {
+      "id": "UB_X+017",
+      "x_start": 1700,
+      "x_end": 1800,
+      "xy": [
+        1750.0,
+        619.3358109399294
+      ],
+      "lat": 25.046924599175,
+      "lon": 121.52769338516678,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 2
+    },
+    {
+      "id": "UB_X+018",
+      "x_start": 1800,
+      "x_end": 1900,
+      "xy": [
+        1850.0,
+        585.355644891748
+      ],
+      "lat": 25.046614304118883,
+      "lon": 121.52868308925899,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 5
+    },
+    {
+      "id": "UB_X+019",
+      "x_start": 1900,
+      "x_end": 2000,
+      "xy": [
+        1950.0,
+        553.7349466633921
+      ],
+      "lat": 25.046325303627935,
+      "lon": 121.52967287980117,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 7
+    },
+    {
+      "id": "UB_X+020",
+      "x_start": 2000,
+      "x_end": 2100,
+      "xy": [
+        2050.0,
+        524.450433258891
+      ],
+      "lat": 25.046057387497612,
+      "lon": 121.53066275639739,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 10
+    },
+    {
+      "id": "UB_X+021",
+      "x_start": 2100,
+      "x_end": 2200,
+      "xy": [
+        2150.0,
+        495.71855226487696
+      ],
+      "lat": 25.045794453953285,
+      "lon": 121.53165265009372,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 6
+    },
+    {
+      "id": "UB_X+022",
+      "x_start": 2200,
+      "x_end": 2300,
+      "xy": [
+        2250.0,
+        466.3936113088841
+      ],
+      "lat": 25.04552615977647,
+      "lon": 121.53264251630902,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 4
+    },
+    {
+      "id": "UB_X+023",
+      "x_start": 2300,
+      "x_end": 2400,
+      "xy": [
+        2350.0,
+        435.96263406635956
+      ],
+      "lat": 25.045247873861793,
+      "lon": 121.53363233486381,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 24
+    },
+    {
+      "id": "UB_X+024",
+      "x_start": 2400,
+      "x_end": 2500,
+      "xy": [
+        2450.0,
+        410.17492106964505
+      ],
+      "lat": 25.0450115004142,
+      "lon": 121.53462233066085,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 19
+    },
+    {
+      "id": "UB_X+025",
+      "x_start": 2500,
+      "x_end": 2600,
+      "xy": [
+        2550.0,
+        394.2673758812774
+      ],
+      "lat": 25.044864317735122,
+      "lon": 121.53561271015857,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 22
+    },
+    {
+      "id": "UB_X+026",
+      "x_start": 2600,
+      "x_end": 2700,
+      "xy": [
+        2650.0,
+        386.5059660551518
+      ],
+      "lat": 25.04479067109239,
+      "lon": 121.5366034073429,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 13
+    },
+    {
+      "id": "UB_X+027",
+      "x_start": 2700,
+      "x_end": 2800,
+      "xy": [
+        2750.0,
+        382.1709321439421
+      ],
+      "lat": 25.04474795088116,
+      "lon": 121.53759423813256,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 12
+    },
+    {
+      "id": "UB_X+028",
+      "x_start": 2800,
+      "x_end": 2900,
+      "xy": [
+        2850.0,
+        377.9278010704011
+      ],
+      "lat": 25.044706053763303,
+      "lon": 121.5385850717286,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 12
+    },
+    {
+      "id": "UB_X+029",
+      "x_start": 2900,
+      "x_end": 3000,
+      "xy": [
+        2950.0,
+        371.7096921411676
+      ],
+      "lat": 25.044646320128013,
+      "lon": 121.53957582646352,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 13
+    },
+    {
+      "id": "UB_X+030",
+      "x_start": 3000,
+      "x_end": 3100,
+      "xy": [
+        3050.0,
+        367.4721931431693
+      ],
+      "lat": 25.044604460664036,
+      "lon": 121.54056665852687,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 18
+    },
+    {
+      "id": "UB_X+031",
+      "x_start": 3100,
+      "x_end": 3200,
+      "xy": [
+        3150.0,
+        371.5376794638676
+      ],
+      "lat": 25.044637553173153,
+      "lon": 121.54155781913862,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 18
+    },
+    {
+      "id": "UB_X+032",
+      "x_start": 3200,
+      "x_end": 3300,
+      "xy": [
+        3250.0,
+        381.8529920071374
+      ],
+      "lat": 25.04472706189363,
+      "lon": 121.5425492285154,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 19
+    },
+    {
+      "id": "UB_X+033",
+      "x_start": 3300,
+      "x_end": 3400,
+      "xy": [
+        3350.0,
+        394.0200606048595
+      ],
+      "lat": 25.04483328144616,
+      "lon": 121.5435407129221,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 19
+    },
+    {
+      "id": "UB_X+034",
+      "x_start": 3400,
+      "x_end": 3500,
+      "xy": [
+        3450.0,
+        406.4882100803359
+      ],
+      "lat": 25.04494221247961,
+      "lon": 121.5445322109134,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 24
+    },
+    {
+      "id": "UB_X+035",
+      "x_start": 3500,
+      "x_end": 3600,
+      "xy": [
+        3550.0,
+        418.057855665828
+      ],
+      "lat": 25.045043025261773,
+      "lon": 121.5455236746215,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 16
+    },
+    {
+      "id": "UB_X+036",
+      "x_start": 3600,
+      "x_end": 3700,
+      "xy": [
+        3650.0,
+        424.28814439755797
+      ],
+      "lat": 25.045095628229955,
+      "lon": 121.54651492607854,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 20
+    },
+    {
+      "id": "UB_X+037",
+      "x_start": 3700,
+      "x_end": 3800,
+      "xy": [
+        3750.0,
+        417.02455359745966
+      ],
+      "lat": 25.045026403222945,
+      "lon": 121.54750563709644,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 28
+    },
+    {
+      "id": "UB_X+038",
+      "x_start": 3800,
+      "x_end": 3900,
+      "xy": [
+        3850.0,
+        405.73474481981134
+      ],
+      "lat": 25.044920823353863,
+      "lon": 121.54849618511152,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 18
+    },
+    {
+      "id": "UB_X+039",
+      "x_start": 3900,
+      "x_end": 4000,
+      "xy": [
+        3950.0,
+        393.5322634037014
+      ],
+      "lat": 25.044806997395867,
+      "lon": 121.54948669456337,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 15
+    },
+    {
+      "id": "UB_X+040",
+      "x_start": 4000,
+      "x_end": 4100,
+      "xy": [
+        4050.0,
+        380.68832699903066
+      ],
+      "lat": 25.044687373876553,
+      "lon": 121.55047717618922,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 21
+    },
+    {
+      "id": "UB_X+041",
+      "x_start": 4100,
+      "x_end": 4200,
+      "xy": [
+        4150.0,
+        367.6408176200992
+      ],
+      "lat": 25.044565905949753,
+      "lon": 121.55146764753675,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 12
+    },
+    {
+      "id": "UB_X+042",
+      "x_start": 4200,
+      "x_end": 4300,
+      "xy": [
+        4250.0,
+        357.048769901074
+      ],
+      "lat": 25.044466599087638,
+      "lon": 121.55245821615891,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 20
+    },
+    {
+      "id": "UB_X+043",
+      "x_start": 4300,
+      "x_end": 4400,
+      "xy": [
+        4350.0,
+        350.5502383601351
+      ],
+      "lat": 25.044404241453098,
+      "lon": 121.55344894899054,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 21
+    },
+    {
+      "id": "UB_X+044",
+      "x_start": 4400,
+      "x_end": 4500,
+      "xy": [
+        4450.0,
+        360.99725651222747
+      ],
+      "lat": 25.044494859730083,
+      "lon": 121.55444036884083,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 24
+    },
+    {
+      "id": "UB_X+045",
+      "x_start": 4500,
+      "x_end": 4600,
+      "xy": [
+        4550.0,
+        380.3734109392818
+      ],
+      "lat": 25.044666082579045,
+      "lon": 121.55543215327592,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 18
+    },
+    {
+      "id": "UB_X+046",
+      "x_start": 4600,
+      "x_end": 4700,
+      "xy": [
+        4650.0,
+        401.82359649990696
+      ],
+      "lat": 25.04485602286608,
+      "lon": 121.55642402486238,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 16
+    },
+    {
+      "id": "UB_X+047",
+      "x_start": 4700,
+      "x_end": 4800,
+      "xy": [
+        4750.0,
+        425.7359252455451
+      ],
+      "lat": 25.045068184409633,
+      "lon": 121.55741599990014,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 13
+    },
+    {
+      "id": "UB_X+048",
+      "x_start": 4800,
+      "x_end": 4900,
+      "xy": [
+        4850.0,
+        438.19277065624624
+      ],
+      "lat": 25.045176920540435,
+      "lon": 121.55840750967064,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 11
+    },
+    {
+      "id": "UB_X+049",
+      "x_start": 4900,
+      "x_end": 5000,
+      "xy": [
+        4950.0,
+        442.7248321915886
+      ],
+      "lat": 25.04521410603969,
+      "lon": 121.55939869633991,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 10
+    },
+    {
+      "id": "UB_X+050",
+      "x_start": 5000,
+      "x_end": 5100,
+      "xy": [
+        5050.0,
+        441.9178236142078
+      ],
+      "lat": 25.045203084449465,
+      "lon": 121.56038966431618,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 6
+    },
+    {
+      "id": "UB_X+051",
+      "x_start": 5100,
+      "x_end": 5200,
+      "xy": [
+        5150.0,
+        438.4837431109952
+      ],
+      "lat": 25.045168339374907,
+      "lon": 121.56138052395303,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 9
+    },
+    {
+      "id": "UB_X+052",
+      "x_start": 5200,
+      "x_end": 5300,
+      "xy": [
+        5250.0,
+        428.4196940523692
+      ],
+      "lat": 25.045073733183003,
+      "lon": 121.56237110979214,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 13
+    },
+    {
+      "id": "UB_X+053",
+      "x_start": 5300,
+      "x_end": 5400,
+      "xy": [
+        5350.0,
+        411.45239374284387
+      ],
+      "lat": 25.044916798740907,
+      "lon": 121.56336140911729,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 6
+    },
+    {
+      "id": "UB_X+054",
+      "x_start": 5400,
+      "x_end": 5500,
+      "xy": [
+        5450.0,
+        400.38673383961435
+      ],
+      "lat": 25.04481313698575,
+      "lon": 121.56435194973857,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 13
+    },
+    {
+      "id": "UB_X+055",
+      "x_start": 5500,
+      "x_end": 5600,
+      "xy": [
+        5550.0,
+        421.80753117611647
+      ],
+      "lat": 25.045002752142253,
+      "lon": 121.5653438337889,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 17
+    },
+    {
+      "id": "UB_X+056",
+      "x_start": 5600,
+      "x_end": 5700,
+      "xy": [
+        5650.0,
+        463.080024695779
+      ],
+      "lat": 25.04537157909445,
+      "lon": 121.56633654425495,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 15
+    },
+    {
+      "id": "UB_X+057",
+      "x_start": 5700,
+      "x_end": 5800,
+      "xy": [
+        5769.3086217508735,
+        575.1268434528345
+      ],
+      "lat": 25.04637860921375,
+      "lon": 121.5675235519157,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 28
+    },
+    {
+      "id": "UB_X+058",
+      "x_start": 5800,
+      "x_end": 5900,
+      "xy": [
+        5833.243966248559,
+        693.7164240495571
+      ],
+      "lat": 25.04744679699547,
+      "lon": 121.56816209259719,
+      "streetview_status": "not_reviewed",
+      "dimensions_status": "not_verified",
+      "existing_candidate_count": 12
+    }
+  ],
+  "segment_count": 66,
+  "existing_candidates": 1217,
+  "complete": false
+}

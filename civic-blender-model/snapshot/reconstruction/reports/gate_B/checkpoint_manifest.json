@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-10T00:09:18.424809+08:00",
+  "storage": "Local desktop only; GitHub receives this manifest and scripts, not model binaries",
+  "gate_status": {
+    "A": "accepted scope; see Stage00 records",
+    "B": "in progress, not passed",
+    "C": "not passed",
+    "D": "not passed",
+    "E": "not passed"
+  },
+  "models": [
+    {
+      "path_relative_to_backup_root": "00_original_live_snapshot.blend",
+      "bytes": 17349446,
+      "sha256": "3a94ced181db30833a592bc0bab535d1458795fc068b2322166546cad3f80cef"
+    },
+    {
+      "path_relative_to_backup_root": "01_civic_georeferenced_rebuild.blend",
+      "bytes": 23857198,
+      "sha256": "02f80d32e3ab619d6fb4fbaa2e90e1ce3a332ffc34be53072fd24903d0c03d64"
+    },
+    {
+      "path_relative_to_backup_root": "Gate_B_Review/B_IN_PROGRESS_before_review_20260910_000742.blend",
+      "bytes": 23945659,
+      "sha256": "67a1a2bbae06a0d4fc71c19dc2082f343cd060af01ee08798f91793b759a16a6"
+    },
+    {
+      "path_relative_to_backup_root": "Gate_B_Review/B_review_20260910_000742.blend",
+      "bytes": 23941183,
+      "sha256": "f50290358a674487021f47859799a19385e229881d471c5250f54c1f33a47572"
+    },
+    {
+      "path_relative_to_backup_root": "Stage02_ControlReview/02_control_review_20260909_212124.blend",
+      "bytes": 23860721,
+      "sha256": "2c42e4fad285810b2f7708ae512659347e7cb34a9d17331e14726c325ea50f21"
+    },
+    {
+      "path_relative_to_backup_root": "Stage02_ControlReview/02_control_review_20260909_212343.blend",
+      "bytes": 23900825,
+      "sha256": "f6764a3b4746bdad7fa72b1de0133686a691ac148e185358ed3719997a2bab53"
+    },
+    {
+      "path_relative_to_backup_root": "Stage02_ControlReview/before_controls_20260909_212124.blend",
+      "bytes": 23860610,
+      "sha256": "b5457a7bc77db98e6c3f6bb93ae681083a7d3509c25e4b946fbf00ce693cd5b1"
+    },
+    {
+      "path_relative_to_backup_root": "Stage02_ControlReview/before_controls_20260909_212343.blend",
+      "bytes": 23891037,
+      "sha256": "d910c96a09a28cc9864e63aa4355c75ef28095d3c94f882ff20945c6903dec7f"
+    },
+    {
+      "path_relative_to_backup_root": "Stage03_Zhonglin/03_zhonglin_review_20260909_224416.blend",
+      "bytes": 23898639,
+      "sha256": "50ea6a2b340a4a5f6689d8baf79ac5989a47827ba18ecbfd41b944ec017053ac"
+    },
+    {
+      "path_relative_to_backup_root": "Stage03_Zhonglin/before_zhonglin_20260909_224416.blend",
+      "bytes": 23897919,
+      "sha256": "3abe3553137316f8555cfea16556493cb3910b584c30c09b126931f94b25f903"
+    },
+    {
+      "path_relative_to_backup_root": "Stage04_SurfaceQA/04_surface_review_20260909_230545.blend",
+      "bytes": 23907733,
+      "sha256": "170739c2fe9db4507d426e3d939ccd9eb93d8b45a412f19990b4ffaa4cfb38b1"
+    },
+    {
+      "path_relative_to_backup_root": "Stage04_SurfaceQA/before_surface_20260909_230545.blend",
+      "bytes": 23899142,
+      "sha256": "014f36923ebfc74b8cbaf901c75d1ee681e6efbbc751105ca69af388e4683df3"
+    },
+    {
+      "path_relative_to_backup_root": "Stage05_Buildings/05_building_review_20260910_000123.blend",
+      "bytes": 23948406,
+      "sha256": "924a18b9e051e263399e0a2e69655235ddf9aca0e6cb674f494a4eec363dddd1"
+    },
+    {
+      "path_relative_to_backup_root": "Stage05_Buildings/before_buildings_20260910_000123.blend",
+      "bytes": 23909733,
+      "sha256": "c7e5dec9646f25dbf6369d3bfc51a511e36af06e8004ed572b908ec0250c304a"
+    }
+  ]
+}

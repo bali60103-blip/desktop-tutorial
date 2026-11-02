@@ -1,0 +1,590 @@
+[
+  {
+    "id": 2793285506,
+    "ref": "M8",
+    "wgs84": [
+      121.5175029,
+      25.0457834
+    ],
+    "twd97": [
+      302217.8254274286,
+      2770948.4654687
+    ],
+    "xy": [
+      722.217405906612,
+      488.9580030705454
+    ],
+    "z_m": null,
+    "osm_level_tag": "0",
+    "plan_label_seen": true,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 2793285507,
+    "ref": "M1",
+    "wgs84": [
+      121.5181697,
+      25.048253
+    ],
+    "twd97": [
+      302284.06164968654,
+      2771222.269232939
+    ],
+    "xy": [
+      788.4533822178515,
+      762.7623868563021
+    ],
+    "z_m": null,
+    "osm_level_tag": "0",
+    "plan_label_seen": true,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 2793285508,
+    "ref": "M2",
+    "wgs84": [
+      121.5190094,
+      25.0480916
+    ],
+    "twd97": [
+      302368.8586381241,
+      2771204.71638114
+    ],
+    "xy": [
+      873.2505584857413,
+      745.2096169477612
+    ],
+    "z_m": null,
+    "osm_level_tag": "0",
+    "plan_label_seen": true,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3192472090,
+    "ref": "R1",
+    "wgs84": [
+      121.5190203,
+      25.0486703
+    ],
+    "twd97": [
+      302369.7126372708,
+      2771268.820574292
+    ],
+    "xy": [
+      874.104471734436,
+      809.3139351382376
+    ],
+    "z_m": null,
+    "osm_level_tag": "0",
+    "plan_label_seen": true,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505143594,
+    "ref": "M7",
+    "wgs84": [
+      121.5186555,
+      25.046061
+    ],
+    "twd97": [
+      302334.01095019875,
+      2770979.6591653903
+    ],
+    "xy": [
+      838.4031105869525,
+      520.1519187148631
+    ],
+    "z_m": null,
+    "osm_level_tag": "0",
+    "plan_label_seen": true,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505143596,
+    "ref": "Y21",
+    "wgs84": [
+      121.5122444,
+      25.0499766
+    ],
+    "twd97": [
+      301685.457388679,
+      2771410.9082373427
+    ],
+    "xy": [
+      189.84770686506042,
+      951.4009382533122
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505143693,
+    "ref": "M4",
+    "wgs84": [
+      121.5173846,
+      25.046473
+    ],
+    "twd97": [
+      302205.5963276553,
+      2771024.8036583615
+    ],
+    "xy": [
+      709.9881782458853,
+      565.2963235432263
+    ],
+    "z_m": null,
+    "osm_level_tag": "0",
+    "plan_label_seen": true,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505143793,
+    "ref": "M3",
+    "wgs84": [
+      121.5177943,
+      25.046293
+    ],
+    "twd97": [
+      302247.01324699126,
+      2771005.023990722
+    ],
+    "xy": [
+      751.4052046275925,
+      545.516674246036
+    ],
+    "z_m": null,
+    "osm_level_tag": "0",
+    "plan_label_seen": true,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505143993,
+    "ref": "M5",
+    "wgs84": [
+      121.5161582,
+      25.0467795
+    ],
+    "twd97": [
+      302081.7173871251,
+      2771058.2807207266
+    ],
+    "xy": [
+      586.1089526170583,
+      598.7732814141996
+    ],
+    "z_m": null,
+    "osm_level_tag": "0",
+    "plan_label_seen": true,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505143998,
+    "ref": "Y9",
+    "wgs84": [
+      121.5158039,
+      25.0490388
+    ],
+    "twd97": [
+      302045.01311704813,
+      2771308.3967342605
+    ],
+    "xy": [
+      549.4042700262952,
+      848.889728133995
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505144000,
+    "ref": "Y26",
+    "wgs84": [
+      121.5115694,
+      25.0497574
+    ],
+    "twd97": [
+      301617.4405123485,
+      2771386.370803696
+    ],
+    "xy": [
+      121.83073261286829,
+      926.8633642997104
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505144002,
+    "ref": "Y27",
+    "wgs84": [
+      121.510663,
+      25.0503037
+    ],
+    "twd97": [
+      301525.7546709435,
+      2771446.5364905107
+    ],
+    "xy": [
+      30.144631868653548,
+      987.0290421588916
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505144196,
+    "ref": "Y17",
+    "wgs84": [
+      121.5137089,
+      25.0494896
+    ],
+    "twd97": [
+      301833.432769138,
+      2771357.5256638443
+    ],
+    "xy": [
+      337.8234461710095,
+      898.0184636933465
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505144197,
+    "ref": "Y19",
+    "wgs84": [
+      121.5129463,
+      25.0497129
+    ],
+    "twd97": [
+      301756.3910383405,
+      2771381.967681979
+    ],
+    "xy": [
+      260.781533120425,
+      922.4604238412923
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505145593,
+    "ref": "Y10",
+    "wgs84": [
+      121.5161726,
+      25.0486302
+    ],
+    "twd97": [
+      302082.3885173225,
+      2771263.2798317764
+    ],
+    "xy": [
+      586.779804140261,
+      803.7727895121765
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505145993,
+    "ref": "Y12",
+    "wgs84": [
+      121.5156098,
+      25.0487211
+    ],
+    "twd97": [
+      302025.5620180991,
+      2771273.1319169896
+    ],
+    "xy": [
+      529.9531816526106,
+      813.6248161541212
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505145996,
+    "ref": "Y23",
+    "wgs84": [
+      121.5116838,
+      25.0501153
+    ],
+    "twd97": [
+      301628.83378541854,
+      2771426.057386477
+    ],
+    "xy": [
+      133.22397349810515,
+      966.55003932929
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3505146395,
+    "ref": "Y25",
+    "wgs84": [
+      121.5113046,
+      25.0501875
+    ],
+    "twd97": [
+      301590.5416762627,
+      2771433.9100188
+    ],
+    "xy": [
+      94.93177962372071,
+      974.4026345299679
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3699813329,
+    "ref": "Y28",
+    "wgs84": [
+      121.5108058,
+      25.0499144
+    ],
+    "twd97": [
+      301540.3261756081,
+      2771403.4699051613
+    ],
+    "xy": [
+      44.7162235074382,
+      943.9623934900319
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 3707479441,
+    "ref": "M6",
+    "wgs84": [
+      121.5168062,
+      25.0461142
+    ],
+    "twd97": [
+      302147.3848442331,
+      2770984.838030659
+    ],
+    "xy": [
+      651.7766369200658,
+      525.3305391124404
+    ],
+    "z_m": null,
+    "osm_level_tag": "0",
+    "plan_label_seen": true,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 4406419433,
+    "ref": "Y11",
+    "wgs84": [
+      121.5155813,
+      25.0490738
+    ],
+    "twd97": [
+      302022.53744208394,
+      2771312.1879288577
+    ],
+    "xy": [
+      526.9285464533536,
+      852.6808993617598
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 4406419435,
+    "ref": "Y13",
+    "wgs84": [
+      121.5148447,
+      25.0494559
+    ],
+    "twd97": [
+      301948.05163429084,
+      2771354.228420907
+    ],
+    "xy": [
+      452.4425373115721,
+      894.72137092182
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 4406419436,
+    "ref": "Y14",
+    "wgs84": [
+      121.5149615,
+      25.0488643
+    ],
+    "twd97": [
+      301960.086378724,
+      2771288.744436246
+    ],
+    "xy": [
+      464.47739443285724,
+      829.2372761581245
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 4406419437,
+    "ref": "Y15",
+    "wgs84": [
+      121.5143713,
+      25.0493313
+    ],
+    "twd97": [
+      301900.337002576,
+      2771340.245394201
+    ],
+    "xy": [
+      404.7278324918561,
+      880.7382520307231
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 4406419438,
+    "ref": "Y16",
+    "wgs84": [
+      121.5146406,
+      25.0489354
+    ],
+    "twd97": [
+      301927.67676162557,
+      2771296.496677182
+    ],
+    "xy": [
+      432.06770412005443,
+      836.9894878120942
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 4406419440,
+    "ref": "Y18",
+    "wgs84": [
+      121.5140345,
+      25.0490649
+    ],
+    "twd97": [
+      301866.4652047505,
+      2771310.6083503016
+    ],
+    "xy": [
+      370.8560096897789,
+      851.1011046026341
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 5318551122,
+    "ref": "Y20",
+    "wgs84": [
+      121.5137224,
+      25.0492155
+    ],
+    "twd97": [
+      301834.9102085959,
+      2771327.170033418
+    ],
+    "xy": [
+      339.3009299410876,
+      867.6627766269769
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  },
+  {
+    "id": 12433935207,
+    "ref": "Y22",
+    "wgs84": [
+      121.512808,
+      25.0493872
+    ],
+    "twd97": [
+      301742.57301389286,
+      2771345.838496225
+    ],
+    "xy": [
+      246.96353131369318,
+      886.3311494013831
+    ],
+    "z_m": null,
+    "osm_level_tag": null,
+    "plan_label_seen": false,
+    "confidence": "OSM XY; matching map label is NOT an independently surveyed ground control point",
+    "public_access": "not verified; emergency exits must be classified separately"
+  }
+]

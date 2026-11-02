@@ -1,0 +1,6277 @@
+[
+  {
+    "id": "HEIGHT_605982572",
+    "xy": [
+      722.4689158561591,
+      870.2190129279033
+    ],
+    "type": "height_unverified",
+    "name": "京站時尚廣場",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_875067964",
+    "xy": [
+      531.9490620544142,
+      766.5064964887647
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_875067965",
+    "xy": [
+      528.8932049113326,
+      749.636808499616
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1015818580",
+    "xy": [
+      578.7640189119223,
+      757.9572693967724
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_450732441",
+    "xy": [
+      597.2809927002235,
+      629.3434641073688
+    ],
+    "type": "height_unverified",
+    "name": "東森廣場K區地下街",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_309194438",
+    "xy": [
+      692.1079304453816,
+      971.2312772859444
+    ],
+    "type": "height_unverified",
+    "name": "遠東中央ABC大樓",
+    "estimated_height_m": 30.0
+  },
+  {
+    "id": "HEIGHT_1164891303",
+    "xy": [
+      678.9312917255988,
+      786.3623713354442
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1164881518",
+    "xy": [
+      755.876907941936,
+      772.1536771454879
+    ],
+    "type": "height_unverified",
+    "name": "臺北車站(鄭州)",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_605982576",
+    "xy": [
+      825.9759251930843,
+      854.9274194666342
+    ],
+    "type": "height_unverified",
+    "name": "臺北轉運站",
+    "estimated_height_m": 30.0
+  },
+  {
+    "id": "HEIGHT_366766273",
+    "xy": [
+      739.0178464862028,
+      596.0381766689313
+    ],
+    "type": "height_unverified",
+    "name": "捷運台北車站",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1015783976",
+    "xy": [
+      801.1665936817793,
+      804.6445877941238
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_838479529",
+    "xy": [
+      798.1835990782744,
+      760.3630236220217
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1015783975",
+    "xy": [
+      832.2779292738686,
+      800.6465063893401
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_450732442",
+    "xy": [
+      994.9449510623073,
+      1268.7805288681873
+    ],
+    "type": "height_unverified",
+    "name": "中山地下街",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1015777969",
+    "xy": [
+      867.6676816002234,
+      746.46823721127
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1164881514",
+    "xy": [
+      876.9151026636549,
+      744.6804139442062
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_259759585",
+    "xy": [
+      940.1380699578623,
+      798.3664611822364
+    ],
+    "type": "height_unverified",
+    "name": "華捷維修股",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1015825003",
+    "xy": [
+      946.279944124899,
+      687.2115811006148
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_461351880",
+    "xy": [
+      971.7268966532694,
+      719.5622644861638
+    ],
+    "type": "height_unverified",
+    "name": "梅屋敷",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1164885251",
+    "xy": [
+      1013.4625290103118,
+      888.322460357767
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_461351879",
+    "xy": [
+      985.712183690848,
+      701.9665528673088
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1015783961",
+    "xy": [
+      1024.6021403036991,
+      913.3225516288034
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1015825009",
+    "xy": [
+      1016.0970291462922,
+      798.7351357369263
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1174015868",
+    "xy": [
+      1044.4505789020643,
+      861.1314300046621
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_255061700",
+    "xy": [
+      1006.4903912897134,
+      568.4081191789325
+    ],
+    "type": "height_unverified",
+    "name": "C棟大樓",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1015825012",
+    "xy": [
+      1065.137736360194,
+      857.1679959722202
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1346353108",
+    "xy": [
+      1045.2466895676168,
+      610.2370478846656
+    ],
+    "type": "height_unverified",
+    "name": "餐廳大樓",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1015828296",
+    "xy": [
+      1051.136464086524,
+      679.9339090740353
+    ],
+    "type": "height_unverified",
+    "name": "交通執法聯合服務中心 (廢)",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1015825010",
+    "xy": [
+      1074.826686266452,
+      891.2518828003405
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1174010648",
+    "xy": [
+      1088.9420540490328,
+      901.3844596922729
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1174010647",
+    "xy": [
+      1093.0986307750638,
+      909.8908547903615
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1174010646",
+    "xy": [
+      1096.0723225856657,
+      916.4337305110894
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1174010645",
+    "xy": [
+      1099.919196244712,
+      920.7904844990082
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_268357627",
+    "xy": [
+      1076.389137131848,
+      684.065210772199
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1344469787",
+    "xy": [
+      1130.9048834027021,
+      815.8278658862456
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_267163049",
+    "xy": [
+      1137.1356895831666,
+      581.4439894347842
+    ],
+    "type": "height_unverified",
+    "name": "B棟大樓",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1174015046",
+    "xy": [
+      1143.425445613984,
+      892.3009599725025
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1174015047",
+    "xy": [
+      1146.098226531162,
+      898.1250396097638
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1174015048",
+    "xy": [
+      1149.37454135921,
+      903.316401407003
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1174015049",
+    "xy": [
+      1164.4372257260018,
+      890.2872222408777
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1156915997",
+    "xy": [
+      1180.8559014788952,
+      841.9242946592888
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_255061709",
+    "xy": [
+      1216.0167328533319,
+      834.0412741537775
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_267163238",
+    "xy": [
+      1202.057864811036,
+      558.3276246780512
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_268531053",
+    "xy": [
+      1214.5220185522207,
+      659.9463218875227
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_268531077",
+    "xy": [
+      1216.1985178007176,
+      666.927316986043
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_268531050",
+    "xy": [
+      1218.5464020551449,
+      674.8377882358776
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1174015053",
+    "xy": [
+      1237.2102490039724,
+      871.8333615385093
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_268531056",
+    "xy": [
+      1230.949669947118,
+      667.9473683907296
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1034205565",
+    "xy": [
+      1248.5600688659947,
+      806.3525773361703
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1502285543",
+    "xy": [
+      1250.229318878161,
+      779.0271108500943
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_268531068",
+    "xy": [
+      1243.359384581483,
+      661.8532584985784
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_268531069",
+    "xy": [
+      1257.179561139738,
+      662.1109928245163
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1502285541",
+    "xy": [
+      1253.5059688687359,
+      792.2767371765573
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1156915764",
+    "xy": [
+      1267.505851283568,
+      807.5565232570174
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_268533337",
+    "xy": [
+      1271.5419513691456,
+      658.0410091928962
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1156915763",
+    "xy": [
+      1280.7858905873507,
+      806.687715562531
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1502285540",
+    "xy": [
+      1289.8439402659835,
+      777.3639252767075
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_268533358",
+    "xy": [
+      1283.7450999939972,
+      650.9560162715292
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_268533340",
+    "xy": [
+      1285.4894911159513,
+      656.5187191565719
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1156915760",
+    "xy": [
+      1301.861637303442,
+      795.8278143009157
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_268533362",
+    "xy": [
+      1298.1030237098178,
+      652.9599535326646
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1156915759",
+    "xy": [
+      1313.9337176408178,
+      793.1283507379642
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1174015839",
+    "xy": [
+      1286.5091833370216,
+      629.746802493541
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_268533350",
+    "xy": [
+      1310.7077144373688,
+      636.6249957376002
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1156915758",
+    "xy": [
+      1316.2824590126957,
+      802.7573863579883
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1034205566",
+    "xy": [
+      1322.0911815395689,
+      816.2868225102662
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1473342988",
+    "xy": [
+      1332.9248821233896,
+      792.1869355832857
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_268531067",
+    "xy": [
+      1326.1836423664965,
+      610.340908272951
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_267263960",
+    "xy": [
+      1335.675351809218,
+      813.8954054268196
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1156915769",
+    "xy": [
+      1356.3477809088279,
+      785.5250739133013
+    ],
+    "type": "height_unverified",
+    "name": "臺金大樓",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1347249268",
+    "xy": [
+      1315.874050906603,
+      544.559575039931
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1156915768",
+    "xy": [
+      1371.6268105751815,
+      781.4077597219854
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1156915757",
+    "xy": [
+      1378.7771046145888,
+      835.0508380561099
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1285448040",
+    "xy": [
+      1393.5440418287506,
+      793.3819733434709
+    ],
+    "type": "height_unverified",
+    "name": "永新林森大廈",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_949768985",
+    "xy": [
+      1467.098377644172,
+      811.7955567141535
+    ],
+    "type": "height_unverified",
+    "name": "林森區民活動中心",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015838",
+    "xy": [
+      1492.5408415386462,
+      780.176336667008
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015837",
+    "xy": [
+      1502.0657891911387,
+      776.7848611268903
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015856",
+    "xy": [
+      1511.245417802917,
+      807.9665293012524
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015857",
+    "xy": [
+      1529.9787745982264,
+      801.683222076903
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015859",
+    "xy": [
+      1539.4973851665345,
+      820.312516043277
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015855",
+    "xy": [
+      1541.690426344827,
+      793.517621218127
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015853",
+    "xy": [
+      1550.5135412110637,
+      791.2188065818159
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_268396843",
+    "xy": [
+      1506.5023136063396,
+      543.9894809090755
+    ],
+    "type": "height_unverified",
+    "name": "華山鐵路地下化引道換氣口",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_1174015852",
+    "xy": [
+      1564.3715974417705,
+      791.4435056116932
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015849",
+    "xy": [
+      1566.6186635555066,
+      761.0964306996624
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015848",
+    "xy": [
+      1554.7797433251212,
+      746.9838132860103
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015847",
+    "xy": [
+      1565.265530181472,
+      741.9971222216974
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015846",
+    "xy": [
+      1575.9987577772754,
+      739.6751293782313
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1174015845",
+    "xy": [
+      1585.0968494873375,
+      737.8750650471344
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1156916069",
+    "xy": [
+      1632.1586200740353,
+      795.7291098598192
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_810560899",
+    "xy": [
+      1613.66786939704,
+      779.4804377732685
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_810560900",
+    "xy": [
+      1620.0940446836364,
+      777.8053208675091
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_810560911",
+    "xy": [
+      1622.0920240653218,
+      749.9134144495163
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_810560903",
+    "xy": [
+      1639.3740083923637,
+      772.7938744173225
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_810560917",
+    "xy": [
+      1632.4005216806227,
+      725.618728826771
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_810560915",
+    "xy": [
+      1645.0071780047185,
+      722.1066299805744
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_810560914",
+    "xy": [
+      1659.7639549180656,
+      718.3813791849047
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_810560913",
+    "xy": [
+      1670.6486833149756,
+      715.2558216825664
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_810560912",
+    "xy": [
+      1679.7197101302693,
+      712.7601198734158
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1473342992",
+    "xy": [
+      1698.941180279872,
+      725.9664960693833
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_810560909",
+    "xy": [
+      1702.9264700368658,
+      706.070009935432
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1156915746",
+    "xy": [
+      1759.9493371446692,
+      832.9375723881574
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_810560904",
+    "xy": [
+      1746.0376252808076,
+      746.3575782289573
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1304019646",
+    "xy": [
+      1660.8116266407721,
+      454.3837227547422
+    ],
+    "type": "height_unverified",
+    "name": "虹耀文創大樓",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1473342991",
+    "xy": [
+      1749.6328514833845,
+      715.1372384042597
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_810560907",
+    "xy": [
+      1742.2993402393588,
+      694.6008279012867
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_810560908",
+    "xy": [
+      1757.6387605007499,
+      690.8051657387024
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1473342990",
+    "xy": [
+      1766.7967185297878,
+      709.6306996262384
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_834249452",
+    "xy": [
+      1806.390210725889,
+      790.5698619054472
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1360179969",
+    "xy": [
+      1809.7590817250334,
+      753.6381446325811
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1360179970",
+    "xy": [
+      1810.066130276226,
+      735.476132626261
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_810560906",
+    "xy": [
+      1791.6141164571518,
+      687.5719509792348
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1360179971",
+    "xy": [
+      1823.6095401374346,
+      748.9214623477457
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1360179972",
+    "xy": [
+      1888.4852746134904,
+      777.1750263197262
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1473342993",
+    "xy": [
+      1872.3376753426141,
+      713.1281932806153
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1473342994",
+    "xy": [
+      1870.0343801620563,
+      687.8610093257317
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1473342989",
+    "xy": [
+      1864.449464975103,
+      665.74022775851
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_198342346",
+    "xy": [
+      1793.137343012575,
+      423.3237689171206
+    ],
+    "type": "height_unverified",
+    "name": "樟腦工廠",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_347314130",
+    "xy": [
+      1918.0634881476603,
+      724.4837898479922
+    ],
+    "type": "height_unverified",
+    "name": "喜瑞飯店",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794597",
+    "xy": [
+      1934.8448068605076,
+      712.3956432557472
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794598",
+    "xy": [
+      1943.3286789627107,
+      671.8917857258217
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794600",
+    "xy": [
+      1962.7129436042637,
+      653.3695843009671
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794599",
+    "xy": [
+      1974.311925392492,
+      642.233277314699
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_963426237",
+    "xy": [
+      2013.0893468337931,
+      614.0186232183584
+    ],
+    "type": "height_unverified",
+    "name": "文藝春秋",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_963426229",
+    "xy": [
+      2001.466674290661,
+      586.6347027721094
+    ],
+    "type": "height_unverified",
+    "name": "鍌園",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_419824449",
+    "xy": [
+      2084.409920256321,
+      718.3122117175313
+    ],
+    "type": "height_unverified",
+    "name": "華山川",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1156916044",
+    "xy": [
+      2107.8741388954027,
+      704.6844347402234
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_260881640",
+    "xy": [
+      2030.2109043277342,
+      325.672955837761
+    ],
+    "type": "height_unverified",
+    "name": "華山文旅",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1156915996",
+    "xy": [
+      2124.9046521240966,
+      550.3348529879232
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1177794601",
+    "xy": [
+      2163.9466364597215,
+      524.4011982489375
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_609514185",
+    "xy": [
+      2127.2961744791905,
+      354.75069241194876
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1177794602",
+    "xy": [
+      2204.7237588306066,
+      524.9110600107165
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_916542295",
+    "xy": [
+      2202.2608280413383,
+      358.1317076770576
+    ],
+    "type": "height_unverified",
+    "name": "全球人壽希望園區",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_352920618",
+    "xy": [
+      2360.5091105292327,
+      524.6985445857047
+    ],
+    "type": "height_unverified",
+    "name": "台北營業處倉庫",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_352996420",
+    "xy": [
+      2389.7650822609926,
+      591.0845724260158
+    ],
+    "type": "height_unverified",
+    "name": "台北營業處辦公室",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_352920617",
+    "xy": [
+      2427.6323246708466,
+      551.82795021613
+    ],
+    "type": "height_unverified",
+    "name": "新成品倉庫",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794603",
+    "xy": [
+      2402.986818614029,
+      359.61211234431
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1177794605",
+    "xy": [
+      2416.369645176522,
+      344.7537830119684
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1177794604",
+    "xy": [
+      2431.816873629382,
+      333.74365783811794
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1177794636",
+    "xy": [
+      2465.995603437251,
+      369.329191251172
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1177794637",
+    "xy": [
+      2471.317766879593,
+      368.86235076366404
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1177794638",
+    "xy": [
+      2476.6430752583933,
+      368.4019217690714
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1177794639",
+    "xy": [
+      2481.965239511066,
+      367.9350854139027
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794640",
+    "xy": [
+      2487.284455038791,
+      367.4749232159986
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794641",
+    "xy": [
+      2492.6043784790254,
+      367.01103013381737
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794587",
+    "xy": [
+      2506.3684367389305,
+      366.6087661176326
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794651",
+    "xy": [
+      2512.651222217199,
+      351.2092199965387
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794607",
+    "xy": [
+      2512.6392949918627,
+      337.1899812323101
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1177794593",
+    "xy": [
+      2534.9381046022304,
+      365.0041719386641
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1177794588",
+    "xy": [
+      2544.6730885012803,
+      342.9428745960226
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1177794592",
+    "xy": [
+      2560.5253798162553,
+      359.5980380273351
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1177794591",
+    "xy": [
+      2576.920226695449,
+      353.61706370933075
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1177794590",
+    "xy": [
+      2592.707505455185,
+      347.53552401525315
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1177794589",
+    "xy": [
+      2605.921815013412,
+      346.87427414517356
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1177794586",
+    "xy": [
+      2602.760126697649,
+      315.3692339597655
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_238513441",
+    "xy": [
+      2720.1370039040567,
+      421.0538444001219
+    ],
+    "type": "height_unverified",
+    "name": "美麗信花園酒店",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_668195918",
+    "xy": [
+      2764.6316226620024,
+      250.9838966424194
+    ],
+    "type": "height_unverified",
+    "name": "北科大學生宿舍",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_430828456",
+    "xy": [
+      2772.415990055177,
+      320.0627531520403
+    ],
+    "type": "height_unverified",
+    "name": "明日博",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_494800348",
+    "xy": [
+      2748.9501576883254,
+      579.2557963283282
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_834408406",
+    "xy": [
+      2771.863791458666,
+      528.8579328698296
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_690524659",
+    "xy": [
+      2790.222419873498,
+      470.2109963841183
+    ],
+    "type": "height_unverified",
+    "name": "忠泰玉光",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_430830506",
+    "xy": [
+      2793.8348067560514,
+      439.47901607173685
+    ],
+    "type": "height_unverified",
+    "name": "臺北市身心障礙就業大樓",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_494800345",
+    "xy": [
+      2814.876053118821,
+      572.8321692158457
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_494800344",
+    "xy": [
+      2829.0465093912785,
+      576.101999547413
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1360179983",
+    "xy": [
+      2833.7711421869626,
+      469.15849214530823
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1360179984",
+    "xy": [
+      2849.890464377193,
+      468.2634749456158
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1556443045",
+    "xy": [
+      2862.4891397287934,
+      462.45924902958586
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_340104576",
+    "xy": [
+      2856.991919707976,
+      265.76857915177294
+    ],
+    "type": "height_unverified",
+    "name": "慈濟靜思堂",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_830725362",
+    "xy": [
+      2876.943520078154,
+      242.8261977160923
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1360177255",
+    "xy": [
+      2899.8214497677645,
+      487.4029058715333
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1360179985",
+    "xy": [
+      2906.3464634415577,
+      471.707911139252
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1241584048",
+    "xy": [
+      2920.8309373786005,
+      404.252532822414
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_270524575",
+    "xy": [
+      2947.7187603627053,
+      506.74279726627014
+    ],
+    "type": "height_unverified",
+    "name": "中油洗車服務",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_270524576",
+    "xy": [
+      2949.987637101067,
+      525.444185413628
+    ],
+    "type": "height_unverified",
+    "name": "台灣中油 中崙站",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_964257209",
+    "xy": [
+      3002.6337401398846,
+      426.40171905539296
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_238275327",
+    "xy": [
+      3037.635363465223,
+      549.7058352565047
+    ],
+    "type": "height_unverified",
+    "name": "國民黨中央黨部",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_268005608",
+    "xy": [
+      3093.7275349757588,
+      556.2858298601335
+    ],
+    "type": "height_unverified",
+    "name": "中影八德大樓",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_668629690",
+    "xy": [
+      3192.931402019038,
+      339.470784489617
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1038721627",
+    "xy": [
+      3192.952415497908,
+      467.82797103461604
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1038721629",
+    "xy": [
+      3202.7126750297225,
+      446.4742347118737
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1038721632",
+    "xy": [
+      3208.6012167636886,
+      424.69857736207285
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1038721634",
+    "xy": [
+      3211.059432505263,
+      416.41570517771163
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1038721637",
+    "xy": [
+      3214.743691086062,
+      403.9985601750786
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1038721638",
+    "xy": [
+      3215.982698195555,
+      399.85729011646885
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1174687312",
+    "xy": [
+      3226.618174932595,
+      211.8770145754464
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1038721645",
+    "xy": [
+      3228.0987742173006,
+      448.2318828130429
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1038721646",
+    "xy": [
+      3229.659825737021,
+      443.3403405262235
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1038721656",
+    "xy": [
+      3231.2208783402434,
+      438.4487984269221
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_447734846",
+    "xy": [
+      3245.169149905248,
+      315.7534701907657
+    ],
+    "type": "height_unverified",
+    "name": "福佑宮",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1038721657",
+    "xy": [
+      3238.754379782358,
+      426.2908836122953
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1038721655",
+    "xy": [
+      3245.2232474761704,
+      407.94002987504166
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1038721639",
+    "xy": [
+      3259.1508223627243,
+      430.58184801724786
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1038721654",
+    "xy": [
+      3266.7878487057055,
+      413.8406523796755
+    ],
+    "type": "height_unverified",
+    "name": "裕園華廈",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_477132763",
+    "xy": [
+      3281.456876575167,
+      356.2963720085871
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_304850357",
+    "xy": [
+      3271.949137080649,
+      532.7229134341699
+    ],
+    "type": "height_unverified",
+    "name": "中崙大樓",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_668629715",
+    "xy": [
+      3327.9944712104166,
+      527.3836980755763
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1509745737",
+    "xy": [
+      3416.5913866371466,
+      341.8648415705755
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1509745736",
+    "xy": [
+      3434.7220473505886,
+      342.68331152607175
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_824669492",
+    "xy": [
+      3466.038852411566,
+      292.90806252099867
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1509745730",
+    "xy": [
+      3466.1992452367526,
+      313.8560722764233
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_772037209",
+    "xy": [
+      3460.0813562478397,
+      354.66596195386006
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1241584277",
+    "xy": [
+      3461.8297583651606,
+      378.3835448439831
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1241584278",
+    "xy": [
+      3472.29269571937,
+      379.81261593528706
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1241584279",
+    "xy": [
+      3484.754062740421,
+      381.5152503973402
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1241584280",
+    "xy": [
+      3496.8693191863117,
+      383.17353607074233
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_197837188",
+    "xy": [
+      3481.7045266994246,
+      518.6740401589493
+    ],
+    "type": "height_unverified",
+    "name": "微風廣場",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1241584281",
+    "xy": [
+      3510.6169358952952,
+      385.0512380568913
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584282",
+    "xy": [
+      3525.2344491761282,
+      387.047585808855
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584242",
+    "xy": [
+      3538.0019236003404,
+      363.2107554187943
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584283",
+    "xy": [
+      3540.9897091705147,
+      389.471820452474
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584285",
+    "xy": [
+      3570.5004404182596,
+      381.85702187528693
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1241584284",
+    "xy": [
+      3583.858607802556,
+      392.8995314096174
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_911847140",
+    "xy": [
+      3576.2463837174237,
+      496.6438377977366
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1241584240",
+    "xy": [
+      3595.8429054349212,
+      339.59109697579925
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 18.0
+  },
+  {
+    "id": "HEIGHT_541987223",
+    "xy": [
+      3605.418128880218,
+      361.35330264553073
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 18.0
+  },
+  {
+    "id": "HEIGHT_541987216",
+    "xy": [
+      3607.621790530799,
+      384.90059911589174
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 18.0
+  },
+  {
+    "id": "HEIGHT_911847141",
+    "xy": [
+      3575.7797026344488,
+      534.1089517861517
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.0
+  },
+  {
+    "id": "HEIGHT_1241584258",
+    "xy": [
+      3632.995390773051,
+      272.62796520194905
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 18.0
+  },
+  {
+    "id": "HEIGHT_541987222",
+    "xy": [
+      3634.665063349343,
+      386.37655334816367
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 15.0
+  },
+  {
+    "id": "HEIGHT_541864098",
+    "xy": [
+      3635.0449418836333,
+      397.5669581113682
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1366493244",
+    "xy": [
+      3636.675551383959,
+      338.73231834027746
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 15.0
+  },
+  {
+    "id": "HEIGHT_430624863",
+    "xy": [
+      3681.451716427964,
+      458.7417432317936
+    ],
+    "type": "height_unverified",
+    "name": "中崙福成宮",
+    "estimated_height_m": 15.0
+  },
+  {
+    "id": "HEIGHT_1241584253",
+    "xy": [
+      3710.271052316892,
+      269.99814836932126
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 12.0
+  },
+  {
+    "id": "HEIGHT_1509745723",
+    "xy": [
+      3741.9866745143845,
+      385.22911211028895
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 12.0
+  },
+  {
+    "id": "HEIGHT_1047125987",
+    "xy": [
+      3987.439840982374,
+      489.1725194800299
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1509745690",
+    "xy": [
+      3947.7804054486505,
+      309.0907856649091
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1509745790",
+    "xy": [
+      4021.506192431127,
+      457.53680849403304
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1509745797",
+    "xy": [
+      4030.425782390126,
+      434.1290700849414
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1509745798",
+    "xy": [
+      4045.876656663412,
+      434.2865386385002
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_839828362",
+    "xy": [
+      4034.8642228923973,
+      286.65703095416285
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1509745801",
+    "xy": [
+      4041.986510374313,
+      313.4003998462514
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1509745799",
+    "xy": [
+      4060.511425086872,
+      434.43641516675336
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1509745802",
+    "xy": [
+      4057.2082647352,
+      313.4844840177515
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_1509745641",
+    "xy": [
+      4083.6802750351926,
+      513.159864419417
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1509745803",
+    "xy": [
+      4073.176732235523,
+      313.57162316897376
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 18.0
+  },
+  {
+    "id": "HEIGHT_1509745800",
+    "xy": [
+      4093.525973520851,
+      404.65853389086044
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_839828364",
+    "xy": [
+      4069.029483807926,
+      286.2726303399506
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 18.0
+  },
+  {
+    "id": "HEIGHT_1241584556",
+    "xy": [
+      4127.420654812042,
+      486.6920199921139
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_368734606",
+    "xy": [
+      4109.639452095681,
+      340.8113000132701
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 18.0
+  },
+  {
+    "id": "HEIGHT_1241584559",
+    "xy": [
+      4137.293287980814,
+      487.9209748711857
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1241584564",
+    "xy": [
+      4145.824099956396,
+      487.5137356863756
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1241584563",
+    "xy": [
+      4156.412527542499,
+      487.55589714839607
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1509745642",
+    "xy": [
+      4155.952003667023,
+      436.85853802893826
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1509745689",
+    "xy": [
+      4171.572946115503,
+      436.81148930233974
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_964257131",
+    "xy": [
+      4165.5571267426385,
+      335.40629914004734
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_964257130",
+    "xy": [
+      4186.635748883749,
+      331.70322286485475
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_1054530021",
+    "xy": [
+      4223.0862470581815,
+      530.0691778651661
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1054530018",
+    "xy": [
+      4222.744596616065,
+      514.6184444364394
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1509745792",
+    "xy": [
+      4221.5476928800845,
+      496.46979539077967
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1509745793",
+    "xy": [
+      4221.358592122755,
+      476.9670482107987
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1054530022",
+    "xy": [
+      4270.451100844566,
+      530.3179657938956
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1076161961",
+    "xy": [
+      4273.363769894484,
+      442.26386294223687
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1068807476",
+    "xy": [
+      4272.268389731509,
+      403.58826149475516
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1068807472",
+    "xy": [
+      4274.441247205519,
+      389.279196391715
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1068807471",
+    "xy": [
+      4291.565112068755,
+      388.7433641572147
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1068807470",
+    "xy": [
+      4309.074473352037,
+      384.92597232089963
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1068807469",
+    "xy": [
+      4327.001985456298,
+      381.0046538968424
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_766384213",
+    "xy": [
+      4331.296054406771,
+      308.73117840901466
+    ],
+    "type": "height_unverified",
+    "name": "hotelpoispois",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_1068807466",
+    "xy": [
+      4346.697907732882,
+      390.047963863116
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_1068807463",
+    "xy": [
+      4350.3886787058145,
+      373.29007626307214
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_1068807464",
+    "xy": [
+      4368.638749871873,
+      374.8455991054864
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_1068807455",
+    "xy": [
+      4396.586277376296,
+      376.6775407121945
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_1241584545",
+    "xy": [
+      4381.577356827245,
+      494.4780338271591
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_1241584549",
+    "xy": [
+      4416.861578823252,
+      380.7723986551916
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_368877199",
+    "xy": [
+      4420.545212888103,
+      417.095758649038
+    ],
+    "type": "height_unverified",
+    "name": "美仁浸信會",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1241584548",
+    "xy": [
+      4431.300775777638,
+      383.0761719584551
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584547",
+    "xy": [
+      4430.140425220715,
+      398.90266051889654
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_771384933",
+    "xy": [
+      4454.016420701377,
+      386.8834566473788
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1509745644",
+    "xy": [
+      4451.766753961496,
+      402.8560941844844
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_771384932",
+    "xy": [
+      4464.340309029457,
+      405.78303026114145
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1038699524",
+    "xy": [
+      4476.416440957905,
+      407.6435920869838
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_667548640",
+    "xy": [
+      4530.484457988824,
+      330.8975459339793
+    ],
+    "type": "height_unverified",
+    "name": "文教大樓",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1038699523",
+    "xy": [
+      4486.516029282229,
+      409.19698380764765
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_771384931",
+    "xy": [
+      4506.9337771860455,
+      397.8603261974501
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1038699518",
+    "xy": [
+      4523.465449264047,
+      414.8869465093596
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1038699517",
+    "xy": [
+      4530.509425171131,
+      415.973686164539
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_771384930",
+    "xy": [
+      4545.436688169926,
+      405.42338821042523
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_233620377",
+    "xy": [
+      4655.428705549027,
+      241.5750743824672
+    ],
+    "type": "height_unverified",
+    "name": "製作大樓",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_1038699535",
+    "xy": [
+      4538.23907565125,
+      483.88154253067484
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_543000988",
+    "xy": [
+      4647.663920286877,
+      280.10743178266284
+    ],
+    "type": "height_unverified",
+    "name": "攝影大樓",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_771384938",
+    "xy": [
+      4551.707379415294,
+      588.7146797527568
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_771384924",
+    "xy": [
+      4636.818443177881,
+      354.0702341601761
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584520",
+    "xy": [
+      4590.477842924885,
+      505.94195002891695
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_771384923",
+    "xy": [
+      4662.3969430698235,
+      372.69858568962377
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_771384928",
+    "xy": [
+      4696.802902546968,
+      328.99824479527155
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_771384920",
+    "xy": [
+      4692.443162946598,
+      349.1123394922029
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_771384919",
+    "xy": [
+      4692.082423659782,
+      363.54664617314177
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_771384922",
+    "xy": [
+      4692.663788166618,
+      378.58505338645637
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_771384921",
+    "xy": [
+      4708.416813489373,
+      365.43047341070326
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_331650862",
+    "xy": [
+      4756.544902988928,
+      386.0341882276013
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_442195154",
+    "xy": [
+      4853.161322303221,
+      352.4480533105337
+    ],
+    "type": "height_unverified",
+    "name": "遠東 Garden City 本館 (影城棟)",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_304850038",
+    "xy": [
+      4806.96616218637,
+      478.29849180912043
+    ],
+    "type": "height_unverified",
+    "name": "合麗大樓",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_331650856",
+    "xy": [
+      4742.317213177413,
+      255.64834549600369
+    ],
+    "type": "height_unverified",
+    "name": "華視光復大樓",
+    "estimated_height_m": 21.0
+  },
+  {
+    "id": "HEIGHT_228920408",
+    "xy": [
+      4953.242294886319,
+      272.0652238881717
+    ],
+    "type": "height_unverified",
+    "name": "辦公廳舍",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_228920407",
+    "xy": [
+      4961.603370221708,
+      377.1863868101475
+    ],
+    "type": "height_unverified",
+    "name": "一號倉庫",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_228920409",
+    "xy": [
+      4989.509148695949,
+      376.7126169902352
+    ],
+    "type": "height_unverified",
+    "name": "二號倉庫",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1342687284",
+    "xy": [
+      4939.4249894440545,
+      464.88858771979466
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_229056585",
+    "xy": [
+      5021.933807835547,
+      376.10206712735237
+    ],
+    "type": "height_unverified",
+    "name": "四號倉庫",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_229056579",
+    "xy": [
+      5038.153322298108,
+      375.79179832452536
+    ],
+    "type": "height_unverified",
+    "name": "五號倉庫",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_826995426",
+    "xy": [
+      4972.894178678329,
+      544.9688031649432
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_826995432",
+    "xy": [
+      4984.382861155812,
+      545.4234875462731
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_229059792",
+    "xy": [
+      5142.155429868223,
+      375.1791432483135
+    ],
+    "type": "height_unverified",
+    "name": "臺北文創大樓",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_826995474",
+    "xy": [
+      4979.13832814521,
+      563.2827345651838
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_764157027",
+    "xy": [
+      4995.642977701002,
+      565.4113095760626
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_826995433",
+    "xy": [
+      5012.62829278325,
+      567.6003136273079
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_229056578",
+    "xy": [
+      5006.038903748654,
+      376.3946055224277
+    ],
+    "type": "height_unverified",
+    "name": "三號倉庫",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_826995436",
+    "xy": [
+      5028.610536343071,
+      569.6597887322253
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_481015668",
+    "xy": [
+      5058.1461102268395,
+      508.82154209422544
+    ],
+    "type": "height_unverified",
+    "name": "台鐵宿舍",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_481015670",
+    "xy": [
+      5066.590804101804,
+      528.2100164789224
+    ],
+    "type": "height_unverified",
+    "name": "台鐵宿舍",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_826995425",
+    "xy": [
+      5055.687500685737,
+      595.927286254332
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_826995421",
+    "xy": [
+      5082.831325262402,
+      596.6965630537624
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_826995430",
+    "xy": [
+      5081.030982569934,
+      607.6558864482195
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_826995434",
+    "xy": [
+      5107.8949302672245,
+      608.3550894924333
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_477903360",
+    "xy": [
+      5125.188122311521,
+      538.7889231015914
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_477903361",
+    "xy": [
+      5143.494846777381,
+      549.3818911880276
+    ],
+    "type": "height_unverified",
+    "name": "內燃機工場",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_826995420",
+    "xy": [
+      5116.715289509347,
+      631.0565308924051
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_313680586",
+    "xy": [
+      5147.448970489494,
+      727.7744362248188
+    ],
+    "type": "height_unverified",
+    "name": "臺北偶戲館",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_520945229",
+    "xy": [
+      5134.0048704434985,
+      788.4567110686738
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1504680876",
+    "xy": [
+      5205.234635039321,
+      724.9691555891854
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_477903366",
+    "xy": [
+      5345.293362377918,
+      564.1444874446935
+    ],
+    "type": "height_unverified",
+    "name": "組立工場",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_477903354",
+    "xy": [
+      5280.264569229012,
+      614.635835150649
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_477903362",
+    "xy": [
+      5274.034655601585,
+      625.1348112157708
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1504680870",
+    "xy": [
+      5197.619773295575,
+      782.8087353455954
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1504680881",
+    "xy": [
+      5264.343644370455,
+      726.9162804814456
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_477903364",
+    "xy": [
+      5327.549084844064,
+      619.0919735619633
+    ],
+    "type": "height_unverified",
+    "name": "總辦公室",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1504680865",
+    "xy": [
+      5252.650491626723,
+      789.4589837654154
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_826995437",
+    "xy": [
+      5258.647555994477,
+      865.1163768375553
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_477903352",
+    "xy": [
+      5383.4313394946585,
+      658.4705356688652
+    ],
+    "type": "height_unverified",
+    "name": "技工養成所",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1504680866",
+    "xy": [
+      5341.629037428641,
+      753.6584204469608
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1504680862",
+    "xy": [
+      5360.948111942744,
+      756.025115356341
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1504680873",
+    "xy": [
+      5380.269043031627,
+      758.3990672486319
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1341821195",
+    "xy": [
+      5416.340729371146,
+      684.4774885570505
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1504680869",
+    "xy": [
+      5399.587681033275,
+      760.7669376187397
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_477903346",
+    "xy": [
+      5455.6897056222115,
+      640.1935026578732
+    ],
+    "type": "height_unverified",
+    "name": "鐵路文工會",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1341821201",
+    "xy": [
+      5453.828653111727,
+      696.1496328262032
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1504680874",
+    "xy": [
+      5418.906312956405,
+      763.1348354624413
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_913201684",
+    "xy": [
+      5415.126104174331,
+      786.435765789942
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_366004482",
+    "xy": [
+      5412.862128745081,
+      824.8351772370163
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_555513371",
+    "xy": [
+      5485.067211368972,
+      689.205330207431
+    ],
+    "type": "height_unverified",
+    "name": "澡堂",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1241584119",
+    "xy": [
+      5440.826390875965,
+      818.4638397955689
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1241584118",
+    "xy": [
+      5463.428866561105,
+      821.188309462425
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_477903350",
+    "xy": [
+      5537.245829303787,
+      639.9478584648509
+    ],
+    "type": "height_unverified",
+    "name": "松山材料廠4",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1241584117",
+    "xy": [
+      5486.03746277395,
+      823.9164706010264
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1241584114",
+    "xy": [
+      5484.815021358588,
+      833.9414237942912
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_298062722",
+    "xy": [
+      5552.943519742457,
+      814.4750746240796
+    ],
+    "type": "height_unverified",
+    "name": "振興商業大樓",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1360177450",
+    "xy": [
+      5540.954352591362,
+      876.0322417748023
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_824879835",
+    "xy": [
+      5544.294675276986,
+      895.5250884466375
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1360177448",
+    "xy": [
+      5536.9839237598635,
+      914.6323751207809
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_292838371",
+    "xy": [
+      5662.865752517979,
+      767.5287085230472
+    ],
+    "type": "height_unverified",
+    "name": "中農科技大樓 (37~43號)",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1241584460",
+    "xy": [
+      5591.314409682797,
+      915.0256490020361
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1241584462",
+    "xy": [
+      5613.199208121335,
+      917.2324782481292
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1076158977",
+    "xy": [
+      5606.437273602372,
+      947.8899144693861
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1241584463",
+    "xy": [
+      5643.4943947878955,
+      890.4042186239254
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_292838370",
+    "xy": [
+      5682.599196525186,
+      731.4234549779434
+    ],
+    "type": "height_unverified",
+    "name": "中農科技大樓 (45~55號)",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_292838372",
+    "xy": [
+      5697.046981828962,
+      694.0056214450241
+    ],
+    "type": "height_unverified",
+    "name": "中農科技大樓 (57~61號)",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_292838374",
+    "xy": [
+      5742.643412806775,
+      651.1057445099423
+    ],
+    "type": "height_unverified",
+    "name": "統豐世貿大樓",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1241584449",
+    "xy": [
+      5789.409829985074,
+      933.4531849913616
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584450",
+    "xy": [
+      5805.944152378172,
+      935.2326861428169
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_764255639",
+    "xy": [
+      5822.4510381362625,
+      936.97873441999
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584445",
+    "xy": [
+      5841.004967552333,
+      911.542690382032
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584446",
+    "xy": [
+      5853.966913263589,
+      913.0111425085277
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584447",
+    "xy": [
+      5866.92871445972,
+      914.4783044480571
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1466334924",
+    "xy": [
+      5863.115718741277,
+      1015.3140535439024
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1241583846",
+    "xy": [
+      5966.27001417676,
+      800.8835549820635
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 3.3
+  },
+  {
+    "id": "HEIGHT_1241583859",
+    "xy": [
+      5987.475436454549,
+      814.4108352363045
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1241583858",
+    "xy": [
+      5988.082135249822,
+      834.0952454830796
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1241583857",
+    "xy": [
+      5999.026427829669,
+      833.8558780880278
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241583851",
+    "xy": [
+      6009.193213547818,
+      859.4572150183469
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1241583850",
+    "xy": [
+      6024.021039826283,
+      859.7062380857056
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1241583849",
+    "xy": [
+      6037.4680984298975,
+      859.8221577627191
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1241583848",
+    "xy": [
+      6049.51859455579,
+      859.5135650279126
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1241583847",
+    "xy": [
+      6057.836109862777,
+      857.826379753898
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 29.7
+  },
+  {
+    "id": "HEIGHT_1189918402",
+    "xy": [
+      6090.480223576527,
+      739.1954253440011
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_752296174",
+    "xy": [
+      6098.637314221479,
+      786.1069759558598
+    ],
+    "type": "height_unverified",
+    "name": "中華職業訓練中心",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1504680907",
+    "xy": [
+      6057.919451025978,
+      932.2557538601964
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_1504680908",
+    "xy": [
+      6078.242490217017,
+      923.0446417344154
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1504680909",
+    "xy": [
+      6094.481196603403,
+      935.4816880112537
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_764255656",
+    "xy": [
+      6092.408024532458,
+      986.8624276435559
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 46.199999999999996
+  },
+  {
+    "id": "HEIGHT_261197038",
+    "xy": [
+      6092.361149164358,
+      1058.6911302562223
+    ],
+    "type": "height_unverified",
+    "name": "南松市場",
+    "estimated_height_m": 46.199999999999996
+  },
+  {
+    "id": "HEIGHT_1241583841",
+    "xy": [
+      6225.164626219357,
+      828.5091225481596
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1241583840",
+    "xy": [
+      6223.226797633727,
+      846.341323360186
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1241583844",
+    "xy": [
+      6197.51563349485,
+      772.7948044615287
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1241583860",
+    "xy": [
+      6053.779350641172,
+      814.2955506395692
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_313565792",
+    "xy": [
+      6248.588165298575,
+      1057.3031708800295
+    ],
+    "type": "height_unverified",
+    "name": "南京抽水站",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_313557444",
+    "xy": [
+      6247.46259589401,
+      1009.9974399347711
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1241583839",
+    "xy": [
+      6257.8500609185385,
+      823.6010101933856
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241583836",
+    "xy": [
+      6280.043990535179,
+      837.6955542052237
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_643771506",
+    "xy": [
+      6325.286666245204,
+      730.9497188737282
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_643771494",
+    "xy": [
+      6312.972610963276,
+      844.0103826806263
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1241584043",
+    "xy": [
+      6345.593775974367,
+      1038.4647101788516
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_764255644",
+    "xy": [
+      6355.70502160025,
+      949.1539556472881
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_392096476",
+    "xy": [
+      6376.484781093234,
+      1038.7820767172348
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_313557451",
+    "xy": [
+      6388.224271945785,
+      908.2111194044373
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1241584042",
+    "xy": [
+      6403.2508065297125,
+      1004.4286415938302
+    ],
+    "type": "height_unverified",
+    "name": "嘉磐101",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_389332875",
+    "xy": [
+      6412.276655899226,
+      950.4683016056638
+    ],
+    "type": "height_unverified",
+    "name": "合作金庫商業銀行",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1241584017",
+    "xy": [
+      6520.82925159628,
+      700.748445234919
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1241584008",
+    "xy": [
+      6525.920242717343,
+      763.1796619421581
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1241584039",
+    "xy": [
+      6533.060635514928,
+      1080.7298105760183
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_1241584007",
+    "xy": [
+      6549.079179412229,
+      762.7542516467631
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1241584006",
+    "xy": [
+      6572.238905835003,
+      762.3321420425403
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_1241584024",
+    "xy": [
+      6580.1823066549305,
+      871.5296234559349
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_313584147",
+    "xy": [
+      6586.810520577059,
+      947.1114562932361
+    ],
+    "type": "height_unverified",
+    "name": "首都大飯店",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_313565797",
+    "xy": [
+      6605.5844093748965,
+      943.8683272215112
+    ],
+    "type": "height_unverified",
+    "name": "東星大樓",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1241584005",
+    "xy": [
+      6595.397847284125,
+      761.9068102399477
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_313565798",
+    "xy": [
+      6626.885012629389,
+      1019.370435921297
+    ],
+    "type": "height_unverified",
+    "name": "松山市場",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1241584004",
+    "xy": [
+      6612.993506580001,
+      755.5437743622676
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_427461153",
+    "xy": [
+      6641.407044206602,
+      931.4791977103289
+    ],
+    "type": "height_unverified",
+    "name": "臺北府城隍廟",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1054529125",
+    "xy": [
+      6672.943063485338,
+      937.1114206060015
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_957096213",
+    "xy": [
+      6689.696457322714,
+      756.7275649714736
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1153986071",
+    "xy": [
+      6682.774630747147,
+      814.0482477241462
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1054529124",
+    "xy": [
+      6701.333576412486,
+      936.7057376962645
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_824879834",
+    "xy": [
+      6700.824585654045,
+      820.3879107734153
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_474173599",
+    "xy": [
+      6713.073481450953,
+      957.0070470145977
+    ],
+    "type": "height_unverified",
+    "name": "松山綜合大樓",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1016292903",
+    "xy": [
+      6717.934348713634,
+      820.3645054799954
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_298061757",
+    "xy": [
+      6745.113623406576,
+      952.3476451219718
+    ],
+    "type": "height_unverified",
+    "name": "松山區行政中心大樓",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1016292902",
+    "xy": [
+      6735.042994625349,
+      820.3366936971471
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1241583974",
+    "xy": [
+      6740.781445673573,
+      736.0070473149533
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1153985791",
+    "xy": [
+      6753.272115614862,
+      802.3936621659211
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_197842872",
+    "xy": [
+      6788.2303072460845,
+      1123.8697261942384
+    ],
+    "type": "height_unverified",
+    "name": "松山慈祐宮",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_684442044",
+    "xy": [
+      6836.447490742707,
+      1073.7477075959325
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1433563168",
+    "xy": [
+      6818.632487058743,
+      1041.4017343265891
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_684442045",
+    "xy": [
+      6844.306616662585,
+      1033.4786548142383
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1153987605",
+    "xy": [
+      6829.01776588623,
+      689.5443693740916
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_1396820953",
+    "xy": [
+      6829.921570333454,
+      835.2072096474247
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 33.0
+  },
+  {
+    "id": "HEIGHT_1504680871",
+    "xy": [
+      6995.135515164899,
+      892.6131023355699
+    ],
+    "type": "height_unverified",
+    "name": "松山車站",
+    "estimated_height_m": 46.199999999999996
+  },
+  {
+    "id": "HEIGHT_1153984919",
+    "xy": [
+      7159.098067560958,
+      828.2063500837583
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 46.199999999999996
+  },
+  {
+    "id": "HEIGHT_1153984917",
+    "xy": [
+      7158.209068726266,
+      852.3368905746007
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 46.199999999999996
+  },
+  {
+    "id": "HEIGHT_298062234",
+    "xy": [
+      7218.47856922857,
+      858.3654632364907
+    ],
+    "type": "height_unverified",
+    "name": "南港運動中心",
+    "estimated_height_m": 46.199999999999996
+  },
+  {
+    "id": "HEIGHT_313584146",
+    "xy": [
+      7213.609365122342,
+      941.6681392430644
+    ],
+    "type": "height_unverified",
+    "name": "臺灣基督長老教會",
+    "estimated_height_m": 46.199999999999996
+  },
+  {
+    "id": "HEIGHT_1504680860",
+    "xy": [
+      7293.4534986953995,
+      790.8295243724718
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 46.199999999999996
+  },
+  {
+    "id": "HEIGHT_865956950",
+    "xy": [
+      7344.262624121909,
+      796.015975127558
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1186669373",
+    "xy": [
+      7360.729662558993,
+      899.8909735874614
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_865956949",
+    "xy": [
+      7399.657522650438,
+      888.3363728978733
+    ],
+    "type": "height_unverified",
+    "name": "N24台北方舟ARK·TPE 台北區塊鏈創新育成基地",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_684442068",
+    "xy": [
+      7452.851228165958,
+      921.9511008743327
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_684442069",
+    "xy": [
+      7484.137218669809,
+      923.5556301743928
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_684442070",
+    "xy": [
+      7504.715047759423,
+      901.3146263135874
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1450869751",
+    "xy": [
+      7509.263072317114,
+      989.1593508010045
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_684442072",
+    "xy": [
+      7539.9245789843935,
+      916.3536150389504
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_684442073",
+    "xy": [
+      7551.07827246467,
+      932.8591028938459
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_833669465",
+    "xy": [
+      7499.034583845175,
+      1179.4673606720692
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1450869747",
+    "xy": [
+      7545.798966396046,
+      995.0017416128793
+    ],
+    "type": "height_unverified",
+    "name": "南港玉成福德宮",
+    "estimated_height_m": 9.899999999999999
+  },
+  {
+    "id": "HEIGHT_827011459",
+    "xy": [
+      7908.919298430497,
+      1242.7630942960018
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1042385143",
+    "xy": [
+      8000.40176603606,
+      896.2709365195172
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_786173592",
+    "xy": [
+      8009.9481775258,
+      1154.2880709814276
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_829963606",
+    "xy": [
+      8073.018796150415,
+      990.7992020022836
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_785801679",
+    "xy": [
+      8068.047995159647,
+      1167.8767573016883
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_785801680",
+    "xy": [
+      8076.136377704221,
+      1164.1846927132385
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_432577357",
+    "xy": [
+      8061.004687438615,
+      1281.1282878113836
+    ],
+    "type": "height_unverified",
+    "name": "所羅門大樓",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_1526378473",
+    "xy": [
+      8130.430308521205,
+      1315.9866174121246
+    ],
+    "type": "height_unverified",
+    "name": "A棟企業總部暨旅館棟",
+    "estimated_height_m": 36.3
+  },
+  {
+    "id": "HEIGHT_202938291",
+    "xy": [
+      8175.413532618907,
+      1020.084216555905
+    ],
+    "type": "height_unverified",
+    "name": "貴族世家",
+    "estimated_height_m": 19.799999999999997
+  },
+  {
+    "id": "HEIGHT_1153979520",
+    "xy": [
+      8211.982846225896,
+      953.606047085755
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_202938290",
+    "xy": [
+      8220.6870266015,
+      1022.3558787387221
+    ],
+    "type": "height_unverified",
+    "name": "第一鮮生猛現撈熱炒",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1024324409",
+    "xy": [
+      8257.424325430127,
+      963.8188762055827
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_372150102",
+    "xy": [
+      8276.740948722165,
+      965.4327495247005
+    ],
+    "type": "height_unverified",
+    "name": "頂呱呱",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_372150100",
+    "xy": [
+      8287.65858192205,
+      970.5829526383607
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_829964311",
+    "xy": [
+      8277.228136597703,
+      1277.909569375004
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 12.0
+  },
+  {
+    "id": "HEIGHT_558011744",
+    "xy": [
+      8299.51321776157,
+      1234.3485445864576
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_478861013",
+    "xy": [
+      8496.978498659137,
+      1313.8208532280455
+    ],
+    "type": "height_unverified",
+    "name": "務本樓",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_478861012",
+    "xy": [
+      8503.881037896763,
+      1290.8335045280153
+    ],
+    "type": "height_unverified",
+    "name": "明德樓",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_829963688",
+    "xy": [
+      8517.957832975082,
+      1032.7427411227873
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_478861009",
+    "xy": [
+      8529.716669611307,
+      1178.608196564995
+    ],
+    "type": "height_unverified",
+    "name": "崇實樓",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_763958011",
+    "xy": [
+      8531.602219235252,
+      1036.423480513961
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_478861008",
+    "xy": [
+      8536.154525046128,
+      1162.3185418037676
+    ],
+    "type": "height_unverified",
+    "name": "格致樓",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_371495506",
+    "xy": [
+      8566.077230156696,
+      1120.5960055001394
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_499730915",
+    "xy": [
+      8638.674686474775,
+      976.4347019036138
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_558011737",
+    "xy": [
+      8577.052392573663,
+      1342.0444961932144
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_558011750",
+    "xy": [
+      8621.213788583555,
+      1249.3917965163732
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_558011752",
+    "xy": [
+      8708.408629745627,
+      1282.7827507210416
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_558011751",
+    "xy": [
+      8670.173182710243,
+      1235.7941601343396
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_558011749",
+    "xy": [
+      8767.743744310805,
+      1233.8761207847886
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_558011748",
+    "xy": [
+      8790.474286905885,
+      1251.6663009622928
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_558011747",
+    "xy": [
+      8830.703507170669,
+      1222.233436039926
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_1042339762",
+    "xy": [
+      8943.069958881404,
+      1410.429668878315
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1042339761",
+    "xy": [
+      8950.582068515409,
+      1408.3601474238365
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1042339760",
+    "xy": [
+      8958.092398709876,
+      1406.2869897941957
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1042339759",
+    "xy": [
+      8965.600919904937,
+      1404.21981452049
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1042339758",
+    "xy": [
+      8973.11274644786,
+      1402.1507643057128
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1042339756",
+    "xy": [
+      8980.483114235394,
+      1400.119855918672
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1042339757",
+    "xy": [
+      8983.600997657944,
+      1412.1917055782028
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1453901689",
+    "xy": [
+      9049.99803089811,
+      1292.2710586716792
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_1453901682",
+    "xy": [
+      9093.016261429058,
+      1279.6288166068
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_499730917",
+    "xy": [
+      9133.382106484252,
+      1119.1843549225166
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 6.6
+  },
+  {
+    "id": "HEIGHT_987090189",
+    "xy": [
+      9085.333886920966,
+      1423.229806652024
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1453901683",
+    "xy": [
+      9123.240078035768,
+      1302.7089022547673
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_987090191",
+    "xy": [
+      9126.071308795032,
+      1405.7987818183565
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1453901684",
+    "xy": [
+      9154.172281836054,
+      1326.4289600782597
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1451937947",
+    "xy": [
+      9170.466011825589,
+      1224.558922741252
+    ],
+    "type": "height_unverified",
+    "name": "城市聲景",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042354495",
+    "xy": [
+      9155.797869443602,
+      1435.6715320114492
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1453901685",
+    "xy": [
+      9192.070081509128,
+      1332.8619752668656
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_499731814",
+    "xy": [
+      9227.712138385876,
+      1109.6514511005357
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_558011756",
+    "xy": [
+      9261.124217718378,
+      1083.1747990497377
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042354499",
+    "xy": [
+      9187.633973768636,
+      1408.2241117590813
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042354493",
+    "xy": [
+      9201.736999657769,
+      1416.543001296322
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1453901686",
+    "xy": [
+      9233.10951946713,
+      1319.8408768131994
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042354485",
+    "xy": [
+      9228.663836829874,
+      1420.4763746323536
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1453901687",
+    "xy": [
+      9270.063232312508,
+      1306.6521660813044
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042354501",
+    "xy": [
+      9275.873844289603,
+      1409.4289753102385
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1453901688",
+    "xy": [
+      9310.25482559927,
+      1323.4219104167798
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1076147143",
+    "xy": [
+      9348.244671973904,
+      1484.4797602423796
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339771",
+    "xy": [
+      9376.28114293481,
+      1387.1682085340365
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339775",
+    "xy": [
+      9381.091003715395,
+      1380.2544988542963
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339776",
+    "xy": [
+      9387.52908344609,
+      1375.2114165749601
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339777",
+    "xy": [
+      9389.979297525484,
+      1371.471401539208
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339778",
+    "xy": [
+      9392.427743601334,
+      1367.7272565859528
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339779",
+    "xy": [
+      9394.87796032693,
+      1363.9872424078167
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339781",
+    "xy": [
+      9399.77306505593,
+      1356.500362636599
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339782",
+    "xy": [
+      9402.219722380081,
+      1352.7576273881543
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339783",
+    "xy": [
+      9404.669944397741,
+      1349.0176149267734
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1042339784",
+    "xy": [
+      9407.118398413093,
+      1345.2734725452665
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_73750289",
+    "xy": [
+      9391.025382637043,
+      1444.4617040567264
+    ],
+    "type": "height_unverified",
+    "name": "南港郵局",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_313682985",
+    "xy": [
+      9444.263085433588,
+      1398.9351796226254
+    ],
+    "type": "height_unverified",
+    "name": "低壓印鐵工廠",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_299389997",
+    "xy": [
+      9498.948827842205,
+      1376.700323963781
+    ],
+    "type": "height_unverified",
+    "name": "高壓印鐵工廠",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_313684406",
+    "xy": [
+      9529.581079149893,
+      1366.016085178363
+    ],
+    "type": "height_unverified",
+    "name": "電器室",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_299389993",
+    "xy": [
+      9539.747059625495,
+      1402.214198937088
+    ],
+    "type": "height_unverified",
+    "name": "舊辦公室(冠軍撞球場)",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_313684407",
+    "xy": [
+      9546.905414956396,
+      1421.5310991305064
+    ],
+    "type": "height_unverified",
+    "name": "哨站",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_950388579",
+    "xy": [
+      9641.001545033396,
+      1517.9750127932393
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 13.2
+  },
+  {
+    "id": "HEIGHT_810557337",
+    "xy": [
+      9721.800155335908,
+      1222.4709963470416
+    ],
+    "type": "height_unverified",
+    "name": "南港站",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_222428329",
+    "xy": [
+      9841.076140910041,
+      1418.10615116628
+    ],
+    "type": "height_unverified",
+    "name": "南港社會福利服務中心",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_556511660",
+    "xy": [
+      9895.654371407727,
+      1330.9118479816473
+    ],
+    "type": "height_unverified",
+    "name": "環球購物中心 南港車站",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_706586096",
+    "xy": [
+      9843.243361494639,
+      1533.6748883670539
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 23.099999999999998
+  },
+  {
+    "id": "HEIGHT_1415586314",
+    "xy": [
+      9960.3547027926,
+      1463.202722384575
+    ],
+    "type": "height_unverified",
+    "name": "味全鮮乳松山營業所",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_503196334",
+    "xy": [
+      10025.083929030989,
+      1598.2238794991672
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1187124487",
+    "xy": [
+      10156.797242364682,
+      1311.456563419919
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_312687801",
+    "xy": [
+      10149.255679514408,
+      1465.8657780509536
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_312687803",
+    "xy": [
+      10203.288093922825,
+      1509.4705526707005
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_312687805",
+    "xy": [
+      10211.866892264714,
+      1478.0053344877565
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 42.9
+  },
+  {
+    "id": "HEIGHT_307981696",
+    "xy": [
+      10352.026315981098,
+      1559.5110872851549
+    ],
+    "type": "height_unverified",
+    "name": "南港農會",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_970993364",
+    "xy": [
+      10375.575912512026,
+      1357.4358564615468
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 39.599999999999994
+  },
+  {
+    "id": "HEIGHT_344723203",
+    "xy": [
+      10395.815675449614,
+      1337.021168581583
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_839834958",
+    "xy": [
+      10425.372301145666,
+      1340.5705848883867
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_344722629",
+    "xy": [
+      10438.334302289883,
+      1342.3543902226018
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_839835011",
+    "xy": [
+      10451.297216541745,
+      1344.1412240977636
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_312592609",
+    "xy": [
+      10439.670639978793,
+      1524.0827217030594
+    ],
+    "type": "height_unverified",
+    "name": "陶膳壽司鋪",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1156932368",
+    "xy": [
+      10466.143981363228,
+      1361.6591817233589
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_1156932370",
+    "xy": [
+      10477.235849906387,
+      1363.036225199085
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_1156932369",
+    "xy": [
+      10491.978840272533,
+      1364.8710866316285
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_839834979",
+    "xy": [
+      10506.720328663378,
+      1366.7043778091715
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 26.4
+  },
+  {
+    "id": "HEIGHT_839834992",
+    "xy": [
+      10521.463311899093,
+      1368.5392712528771
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_344722875",
+    "xy": [
+      10526.865443976967,
+      1354.2314398358894
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_344722715",
+    "xy": [
+      10539.737017259338,
+      1356.0304025411915
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_558011740",
+    "xy": [
+      10602.981385385168,
+      1682.1178601328409
+    ],
+    "type": "height_unverified",
+    "name": "南港展覽館二館",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_344947623",
+    "xy": [
+      10551.900385003979,
+      1358.0987659769235
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_839834929",
+    "xy": [
+      10566.02299056257,
+      1370.8649267898431
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_344722934",
+    "xy": [
+      10566.572389071067,
+      1377.1257274935813
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329042",
+    "xy": [
+      10594.213593962437,
+      1385.3797022948838
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329039",
+    "xy": [
+      10588.871952750918,
+      1396.5091333701778
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329038",
+    "xy": [
+      10589.996868515129,
+      1405.9576691527411
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329033",
+    "xy": [
+      10593.416269702293,
+      1411.4729248023614
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329031",
+    "xy": [
+      10593.402192349047,
+      1421.7965352109593
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024328999",
+    "xy": [
+      10593.17771225247,
+      1431.581997459936
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024328998",
+    "xy": [
+      10593.162666669961,
+      1440.5614334163
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024328996",
+    "xy": [
+      10593.048099318368,
+      1448.2594211448265
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024328995",
+    "xy": [
+      10606.269759159057,
+      1440.5923524387076
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329027",
+    "xy": [
+      10618.558371635903,
+      1436.1420998707179
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329028",
+    "xy": [
+      10619.229819444854,
+      1431.4145630631413
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329020",
+    "xy": [
+      10639.461740550252,
+      1421.3997158183424
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329018",
+    "xy": [
+      10640.673860383573,
+      1430.4804266461058
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329017",
+    "xy": [
+      10641.286585194579,
+      1435.021565905949
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329016",
+    "xy": [
+      10641.89439081989,
+      1439.566095350644
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329015",
+    "xy": [
+      10642.503595018114,
+      1444.1044261045545
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332051",
+    "xy": [
+      10645.520614204752,
+      1513.949156687213
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329004",
+    "xy": [
+      10669.676521946718,
+      1383.2752658057827
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332050",
+    "xy": [
+      10650.902492373876,
+      1514.2690809460635
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329013",
+    "xy": [
+      10671.404865492612,
+      1427.3854959738928
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332049",
+    "xy": [
+      10656.636889414714,
+      1514.620042481597
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329011",
+    "xy": [
+      10673.980114911117,
+      1437.9378148656294
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332048",
+    "xy": [
+      10662.157343011475,
+      1514.9480180656983
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024329010",
+    "xy": [
+      10677.427357525256,
+      1443.277866384149
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332047",
+    "xy": [
+      10667.677771948493,
+      1515.2815345291524
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332046",
+    "xy": [
+      10673.200357657135,
+      1515.614875819376
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332045",
+    "xy": [
+      10678.723463607266,
+      1515.9410865601913
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332044",
+    "xy": [
+      10684.243630904637,
+      1516.2781758412161
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332043",
+    "xy": [
+      10689.764236139397,
+      1516.6126350226784
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332056",
+    "xy": [
+      10713.602584249464,
+      1383.09562798388
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332057",
+    "xy": [
+      10714.37936832984,
+      1388.6653244060615
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332059",
+    "xy": [
+      10715.905728842823,
+      1399.5939329837765
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_970993362",
+    "xy": [
+      10691.041676746316,
+      1537.0285967708844
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332060",
+    "xy": [
+      10720.604913746665,
+      1404.5084988495264
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332061",
+    "xy": [
+      10721.409543455153,
+      1410.231163891509
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_970993363",
+    "xy": [
+      10692.782115447932,
+      1552.7415104003808
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "HEIGHT_1024332063",
+    "xy": [
+      10722.549916343989,
+      1421.1001720114614
+    ],
+    "type": "height_unverified",
+    "name": "",
+    "estimated_height_m": 16.5
+  },
+  {
+    "id": "PARK_塔城",
+    "xy": [
+      -103.66809517401393,
+      991.0997425044768
+    ],
+    "type": "whole_layout_estimated",
+    "detail": "Stairs/columns/stalls/rooms are generic placeholders; stairs require slab openings and vehicle entry integration review"
+  },
+  {
+    "id": "PARK_公中",
+    "xy": [
+      951.5902774792374,
+      763.258504367564
+    ],
+    "type": "whole_layout_estimated",
+    "detail": "Stairs/columns/stalls/rooms are generic placeholders; stairs require slab openings and vehicle entry integration review"
+  },
+  {
+    "id": "PARK_中林",
+    "xy": [
+      1228.7359351039704,
+      727.3034708912364
+    ],
+    "type": "whole_layout_estimated",
+    "detail": "Stairs/columns/stalls/rooms are generic placeholders; stairs require slab openings and vehicle entry integration review"
+  },
+  {
+    "id": "PARK_林金",
+    "xy": [
+      1724.315851184215,
+      627.3168110303783
+    ],
+    "type": "whole_layout_estimated",
+    "detail": "Stairs/columns/stalls/rooms are generic placeholders; stairs require slab openings and vehicle entry integration review"
+  },
+  {
+    "id": "PARK_建復",
+    "xy": [
+      3000.7330928534016,
+      375.0092690609574
+    ],
+    "type": "whole_layout_estimated",
+    "detail": "Stairs/columns/stalls/rooms are generic placeholders; stairs require slab openings and vehicle entry integration review"
+  },
+  {
+    "id": "PARK_復敦",
+    "xy": [
+      3632.138932464697,
+      414.00362102426897
+    ],
+    "type": "whole_layout_estimated",
+    "detail": "Stairs/columns/stalls/rooms are generic placeholders; stairs require slab openings and vehicle entry integration review"
+  },
+  {
+    "id": "PARK_敦延",
+    "xy": [
+      4135.497081031102,
+      368.5716042454419
+    ],
+    "type": "whole_layout_estimated",
+    "detail": "Stairs/columns/stalls/rooms are generic placeholders; stairs require slab openings and vehicle entry integration review"
+  },
+  {
+    "id": "PARK_延吉",
+    "xy": [
+      4382.131796558234,
+      351.2454281965492
+    ],
+    "type": "whole_layout_estimated",
+    "detail": "Stairs/columns/stalls/rooms are generic placeholders; stairs require slab openings and vehicle entry integration review"
+  },
+  {
+    "id": "MEDIAN_中林-1",
+    "xy": [
+      1111.8060037103194,
+      735.0620523404606
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_中林-2",
+    "xy": [
+      1345.7051150662012,
+      720.1357465852268
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_中林-3",
+    "xy": [
+      1118.5508919147794,
+      734.3239273519388
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_中林-4",
+    "xy": [
+      1338.9303789082849,
+      720.5116393624465
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_中林-5",
+    "xy": [
+      1125.299494430276,
+      733.6205769637456
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_中林-6",
+    "xy": [
+      1332.1556500402655,
+      720.8876635016477
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_中林-7",
+    "xy": [
+      1325.381621035725,
+      721.2758790110363
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_林金-8",
+    "xy": [
+      1489.1061812519058,
+      700.940439994964
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_林金-9",
+    "xy": [
+      1958.8383955732634,
+      551.4146884444558
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_林金-10",
+    "xy": [
+      1503.0356993098326,
+      697.8163501794315
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_林金-11",
+    "xy": [
+      1945.1769696209265,
+      555.5584479307663
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_林金-12",
+    "xy": [
+      1516.916688935606,
+      694.4813674310979
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_林金-13",
+    "xy": [
+      1931.5607070397202,
+      559.8457704065291
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "MEDIAN_林金-14",
+    "xy": [
+      1917.9535425145878,
+      564.163991008903
+    ],
+    "type": "facility_position_and_size_unverified",
+    "source": "https://www-ws.gov.taipei/001/Upload/455/relfile/22477/9158834/adb80235-54e8-477f-8357-90b9c1625e5f.pdf"
+  },
+  {
+    "id": "PIER_036",
+    "type": "pier_conflict",
+    "detail": "Retain flagged existing geometry; imagery calibration deferred"
+  },
+  {
+    "id": "PIER_114",
+    "type": "pier_conflict",
+    "detail": "Retain flagged existing geometry; imagery calibration deferred"
+  },
+  {
+    "id": "PIER_408",
+    "type": "pier_conflict",
+    "detail": "Retain flagged existing geometry; imagery calibration deferred"
+  },
+  {
+    "id": "PIER_438",
+    "type": "pier_conflict",
+    "detail": "Retain flagged existing geometry; imagery calibration deferred"
+  },
+  {
+    "id": "PIER_534",
+    "type": "pier_conflict",
+    "detail": "Retain flagged existing geometry; imagery calibration deferred"
+  },
+  {
+    "id": "PIER_540",
+    "type": "pier_conflict",
+    "detail": "Retain flagged existing geometry; imagery calibration deferred"
+  },
+  {
+    "id": "PIER_674",
+    "type": "pier_conflict",
+    "detail": "Retain flagged existing geometry; imagery calibration deferred"
+  },
+  {
+    "id": "PARK_OVERLAP",
+    "type": "overlap",
+    "detail": "敦延/延吉 ~85m unresolved; retain both"
+  },
+  {
+    "id": "COMP_ACCESS_塔城_0",
+    "xy": [
+      -70.93595719656838,
+      985.9389020571242
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 4524864156
+  },
+  {
+    "id": "COMP_ACCESS_公中_0",
+    "xy": [
+      944.7855441329326,
+      765.3337601870177
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 7495435646
+  },
+  {
+    "id": "COMP_ACCESS_中林_0",
+    "xy": [
+      1288.3335594752364,
+      721.7417832905063
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 3196999076
+  },
+  {
+    "id": "COMP_ACCESS_中林_1",
+    "xy": [
+      1128.8469651401476,
+      731.1061217562732
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 3196999081
+  },
+  {
+    "id": "COMP_ACCESS_林金_0",
+    "xy": [
+      1601.75027602444,
+      670.2628268046915
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": null
+  },
+  {
+    "id": "COMP_ACCESS_林金_1",
+    "xy": [
+      1896.9217007211178,
+      570.8297887438067
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": null
+  },
+  {
+    "id": "COMP_ACCESS_建復_0",
+    "xy": [
+      2697.6725308174746,
+      380.4110442030711
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": null
+  },
+  {
+    "id": "COMP_ACCESS_復敦_0",
+    "xy": [
+      3846.2941521501107,
+      399.2593726299716
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 3196968790
+  },
+  {
+    "id": "COMP_ACCESS_復敦_1",
+    "xy": [
+      3555.802366569282,
+      416.1510957626198
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 3196968802
+  },
+  {
+    "id": "COMP_ACCESS_復敦_2",
+    "xy": [
+      3754.2990287476664,
+      411.0269041554125
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 3410375598
+  },
+  {
+    "id": "COMP_ACCESS_敦延_0",
+    "xy": [
+      4241.2386586324,
+      357.25678830168147
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 3196968779
+  },
+  {
+    "id": "COMP_ACCESS_敦延_1",
+    "xy": [
+      4010.2910336785185,
+      386.62194660150925
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 3196968788
+  },
+  {
+    "id": "COMP_ACCESS_延吉_0",
+    "xy": [
+      4482.752854442665,
+      332.7350847535158
+    ],
+    "type": "access_direction_and_ground_excavation_pending",
+    "osm_id": 12398062041
+  },
+  {
+    "id": "MALL_INTERIOR_Taipei_Station_Underground",
+    "xy": [
+      455.39532131535316,
+      863.6137920877094
+    ],
+    "type": "generic_interiors_and_shell_identity_pending"
+  },
+  {
+    "id": "MALL_INTERIOR_Zhongshan_Underground_Street_中山地下街",
+    "xy": [
+      994.9531947693273,
+      1268.784433280948
+    ],
+    "type": "generic_interiors_and_shell_identity_pending"
+  },
+  {
+    "id": "MALL_INTERIOR_ZhongxiaoW_Underground_Passage_忠孝西路地下通道",
+    "xy": [
+      606.7897169973043,
+      612.5652856607364
+    ],
+    "type": "generic_interiors_and_shell_identity_pending"
+  },
+  {
+    "id": "R1_ENTRANCE",
+    "xy": [
+      874.1038879440748,
+      809.3111774800345
+    ],
+    "type": "heading_and_shell_association_unverified",
+    "provisional_shell": "Taipei_Station_Underground",
+    "ground_and_roof_opening": "pending"
+  },
+  {
+    "id": "REL_6075184_0",
+    "xy": [
+      3130.5671200360343,
+      410.3473552733194
+    ],
+    "type": "relation_height_and_frontage_pending",
+    "overlap_ratio": 0.0,
+    "tags": {
+      "building": "school",
+      "building:levels": "3"
+    }
+  },
+  {
+    "id": "REL_16066283_0",
+    "xy": [
+      8793.613089824947,
+      1013.6969708809629
+    ],
+    "type": "relation_height_and_frontage_pending",
+    "overlap_ratio": 0.3353205857593768,
+    "tags": {
+      "building": "depot"
+    }
+  },
+  {
+    "id": "REL_16131193_0",
+    "xy": [
+      1003.0939359429658,
+      842.3886692347005
+    ],
+    "type": "relation_height_and_frontage_pending",
+    "overlap_ratio": 0.0,
+    "tags": {
+      "building": "service",
+      "building:levels": "2"
+    }
+  },
+  {
+    "id": "REL_17934959_0",
+    "xy": [
+      1678.9695497775342,
+      510.9771728753112
+    ],
+    "type": "relation_height_and_frontage_pending",
+    "overlap_ratio": 0.0,
+    "tags": {
+      "building": "retail",
+      "building:levels": "1"
+    }
+  },
+  {
+    "id": "PRIOR_BOOLEAN_TOPOLOGY",
+    "type": "known_nonmanifold",
+    "detail": "Road3+median2 evaluated Boolean edges; prior Validation/final_validation_check.json"
+  },
+  {
+    "id": "PRIOR_BEARINGS",
+    "type": "unfitted_supports",
+    "detail": "577/680/681 no fitted bearings;114 candidate cap/girder intersections unresolved"
+  },
+  {
+    "id": "PRIOR_VERTICAL_DATUM",
+    "type": "estimated_elevation",
+    "detail": "B1/B2=-3.6/-7.2 and mall clearheight2.8 are assumed; no survey datum"
+  },
+  {
+    "id": "PRIOR_Y26_ORIENTATION",
+    "type": "alternative_heading",
+    "detail": "A/B remain alternative scenes; assembly uses mapped straight working entrances"
+  },
+  {
+    "id": "PRIOR_ALL_PATH_CLEARANCE",
+    "type": "not_checked",
+    "detail": "New estimated interiors/access routes not full swept-body or car-clearance checked"
+  }
+]

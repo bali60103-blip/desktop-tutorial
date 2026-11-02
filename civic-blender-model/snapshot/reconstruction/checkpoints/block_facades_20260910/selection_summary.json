@@ -1,0 +1,29 @@
+{
+  "selected_street_blocks": 303,
+  "closed_selected_blocks": 303,
+  "mapped_buildings_and_parts": 3604,
+  "first_row_buildings": 1106,
+  "interior_buildings_and_parts": 2498,
+  "input_first_row_unmatched_to_closed_blocks": [],
+  "underground_excluded": true,
+  "height_status_counts": {
+    "OSM explicit height; unmeasured": 186,
+    "Preserved previous neighbor-height estimate": 574,
+    "OSM floor count x estimated3.3m": 1892,
+    "Estimated13.2m fallback; no height source": 274,
+    "Estimated median of known heights in selected block": 675,
+    "Architect publication46.05m; roof form simplified": 1
+  },
+  "scope": "All mapped building areas selected by frontage-containing road blocks; unmapped site buildings may be missing. Facades will be explicitly estimated.",
+  "coincident_frontage_aliases": [
+    {
+      "source_osm_id": "w1347249268",
+      "represented_by": "w1347249264",
+      "reason": "Coincident mapped footprint deduplicated; do not build overlapping duplicate facade"
+    }
+  ],
+  "small_frontage_retained_m2": 3.3058179419940217,
+  "retained_corridor_service_relations": [
+    "r16131193"
+  ]
+}

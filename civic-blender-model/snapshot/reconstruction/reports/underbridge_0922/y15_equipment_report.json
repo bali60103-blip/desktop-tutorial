@@ -1,0 +1,13 @@
+{
+  "collection": "UB_Y15_PAIRED_ENCLOSURES_PHOTO_EST",
+  "objects": 8,
+  "aabb_conflicts": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "two visible masses only",
+    "no assumed internal function",
+    "subsurface connections unknown",
+    "XY and dimensions require calibration"
+  ]
+}

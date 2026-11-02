@@ -1,0 +1,119 @@
+{
+  "checks": [
+    {
+      "variant": "A: original estimate",
+      "building_overlaps": [],
+      "surface_line_distances_m": [
+        {
+          "osm_id": 338922082,
+          "type": "tertiary",
+          "distance": 33.03712230323646,
+          "intersects": false
+        },
+        {
+          "osm_id": 548583033,
+          "type": "service",
+          "distance": 64.94388577923536,
+          "intersects": false
+        },
+        {
+          "osm_id": 801414446,
+          "type": "service",
+          "distance": 3.249677434519577,
+          "intersects": false
+        },
+        {
+          "osm_id": 801414447,
+          "type": "service",
+          "distance": 26.54274518479567,
+          "intersects": false
+        },
+        {
+          "osm_id": 824790905,
+          "type": "footway",
+          "distance": 20.542638022635085,
+          "intersects": false
+        },
+        {
+          "osm_id": 1303200027,
+          "type": "pedestrian",
+          "distance": 63.46226760849483,
+          "intersects": false
+        },
+        {
+          "osm_id": 1306286390,
+          "type": "pedestrian",
+          "distance": 91.36856129156776,
+          "intersects": false
+        },
+        {
+          "osm_id": 1306286391,
+          "type": "pedestrian",
+          "distance": 67.88016672105132,
+          "intersects": false
+        }
+      ],
+      "limit": "OSM line clearance only, no road width or sidewalk-edge proof; canopy dimensions estimated"
+    },
+    {
+      "variant": "B: building-axis estimate",
+      "building_overlaps": [],
+      "surface_line_distances_m": [
+        {
+          "osm_id": 338922082,
+          "type": "tertiary",
+          "distance": 34.105865666597275,
+          "intersects": false
+        },
+        {
+          "osm_id": 548583033,
+          "type": "service",
+          "distance": 62.29620378556021,
+          "intersects": false
+        },
+        {
+          "osm_id": 801414446,
+          "type": "service",
+          "distance": 9.518511134834156,
+          "intersects": false
+        },
+        {
+          "osm_id": 801414447,
+          "type": "service",
+          "distance": 26.790970008446436,
+          "intersects": false
+        },
+        {
+          "osm_id": 824790905,
+          "type": "footway",
+          "distance": 20.99200386119322,
+          "intersects": false
+        },
+        {
+          "osm_id": 1303200027,
+          "type": "pedestrian",
+          "distance": 66.76369017867931,
+          "intersects": false
+        },
+        {
+          "osm_id": 1306286390,
+          "type": "pedestrian",
+          "distance": 88.04917496066133,
+          "intersects": false
+        },
+        {
+          "osm_id": 1306286391,
+          "type": "pedestrian",
+          "distance": 64.69404481608679,
+          "intersects": false
+        }
+      ],
+      "limit": "OSM line clearance only, no road width or sidewalk-edge proof; canopy dimensions estimated"
+    }
+  ],
+  "decision": "Neither alternative proven correct. Preserve both; no main-model rotation authorized by this check.",
+  "sources": [
+    "local taiwan-260908.osm.pbf",
+    "https://www.studiox4.com/works/y26/"
+  ]
+}

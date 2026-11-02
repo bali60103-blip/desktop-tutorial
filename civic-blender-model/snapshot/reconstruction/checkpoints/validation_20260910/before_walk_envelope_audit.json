@@ -1,0 +1,543 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Y26Orientation/CIVIC_Y26_INTEGRATED_20260910_182420.blend",
+  "method": "Sampled 0.60m diameter, 1.80m high envelope; vertical rays exclude bottom 0.20m. Raw physical meshes including cutaway-hidden roofs/glazing, excluding archived hide_viewport meshes. Not continuous swept collision or regulatory validation. Floor support checked at center only.",
+  "checks": [
+    {
+      "label": "Y21",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y9",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y26",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 34,
+      "obstacle_rays": 850,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y27",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 49,
+      "obstacle_rays": 1225,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y17",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 34,
+      "obstacle_rays": 850,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y19",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 34,
+      "obstacle_rays": 850,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y10",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 34,
+      "obstacle_rays": 850,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y12",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y23",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y25",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y28",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y11",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y13",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 110,
+      "obstacle_rays": 2750,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y14",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y15",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 34,
+      "obstacle_rays": 850,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y16",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 34,
+      "obstacle_rays": 850,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y18",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 34,
+      "obstacle_rays": 850,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y20",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y22",
+      "scene": "Y_MALL_ENTRANCE_COMPARISON",
+      "samples": 33,
+      "obstacle_rays": 825,
+      "physical_meshes": 1243,
+      "collision_hits": 0,
+      "hit_objects": {},
+      "hit_examples": [],
+      "unsupported_center_samples": []
+    },
+    {
+      "label": "Y26_B_INTEGRATED",
+      "scene": "Y26_B_INTEGRATED_COMPARISON",
+      "samples": 74,
+      "obstacle_rays": 1850,
+      "physical_meshes": 95,
+      "collision_hits": 20,
+      "hit_objects": {
+        "Y26_B_INTEGRATED_WALL_1": 20
+      },
+      "hit_examples": [
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.32872009277344,
+            929.9404296875,
+            -2.8499999046325684
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.28923034667969,
+            929.7971801757812,
+            -2.8499999046325684
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.3717041015625,
+            930.0011596679688,
+            -2.8499999046325684
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.32872009277344,
+            929.9404296875,
+            -2.4000000953674316
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.28923034667969,
+            929.7971801757812,
+            -2.4000000953674316
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.3717041015625,
+            930.0011596679688,
+            -2.4000000953674316
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.32872009277344,
+            929.9404296875,
+            -1.9500000476837158
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.28923034667969,
+            929.7971801757812,
+            -1.9500000476837158
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.3717041015625,
+            930.0011596679688,
+            -1.9500000476837158
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.32872009277344,
+            929.9404296875,
+            -1.5499999523162842
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.28923034667969,
+            929.7971801757812,
+            -1.5499999523162842
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 26,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.3717041015625,
+            930.0011596679688,
+            -1.5499999523162842
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 27,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.35069274902344,
+            930.0201416015625,
+            -3.0
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 27,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.33727264404297,
+            929.8261108398438,
+            -3.0
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 27,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.35069274902344,
+            930.0201416015625,
+            -2.549999952316284
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 27,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.33727264404297,
+            929.8261108398438,
+            -2.549999952316284
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 27,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.35069274902344,
+            930.0201416015625,
+            -2.0999999046325684
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 27,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.33727264404297,
+            929.8261108398438,
+            -2.0999999046325684
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 27,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.35069274902344,
+            930.0201416015625,
+            -1.7000000476837158
+          ],
+          "kind": "body_cross_section"
+        },
+        {
+          "sample": 27,
+          "object": "Y26_B_INTEGRATED_WALL_1",
+          "hit_xyz": [
+            114.33727264404297,
+            929.8261108398438,
+            -1.7000000476837158
+          ],
+          "kind": "body_cross_section"
+        }
+      ],
+      "unsupported_center_samples": []
+    }
+  ],
+  "localized_mesh_issues": [
+    {
+      "object": "GROUND_ROADS_OFFICIAL_XY",
+      "multi_face_edges": [
+        {
+          "vertex_indices": [
+            1542,
+            1545
+          ],
+          "world_endpoints": [
+            [
+              5950.92431640625,
+              895.3668823242188,
+              -0.25
+            ],
+            [
+              5950.92431640625,
+              895.3668823242188,
+              0.0
+            ]
+          ],
+          "face_indices": [
+            12624,
+            12625,
+            12627,
+            12628
+          ]
+        }
+      ],
+      "zero_area_faces": []
+    },
+    {
+      "object": "Buildings_context__OSM_XY__HEIGHTS_UNVERIFIED",
+      "multi_face_edges": [],
+      "zero_area_faces": [
+        {
+          "face": 136720,
+          "vertices": [
+            [
+              3525.798095703125,
+              978.7774047851562,
+              0.0
+            ],
+            [
+              3525.798095703125,
+              978.7774047851562,
+              0.0
+            ],
+            [
+              3525.798095703125,
+              978.7774047851562,
+              12.0
+            ],
+            [
+              3525.798095703125,
+              978.7774047851562,
+              12.0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "modifiers": [
+    {
+      "object": "GROUND_DATUM_Z0_not_surveyed_terrain",
+      "modifier": "RAMP_APERTURE_ESTIMATED",
+      "type": "BOOLEAN",
+      "render": true,
+      "viewport": true
+    },
+    {
+      "object": "GROUND_DATUM_Z0_not_surveyed_terrain",
+      "modifier": "RAMP_APERTURE_ESTIMATED.001",
+      "type": "BOOLEAN",
+      "render": true,
+      "viewport": true
+    },
+    {
+      "object": "GROUND_DATUM_Z0_not_surveyed_terrain",
+      "modifier": "PILOT_UNDERGROUND_VOID_ASSUMED",
+      "type": "BOOLEAN",
+      "render": false,
+      "viewport": false
+    },
+    {
+      "object": "GROUND_MEDIAN_WORKING_ESTIMATED",
+      "modifier": "RAMP_APERTURE_ESTIMATED",
+      "type": "BOOLEAN",
+      "render": true,
+      "viewport": true
+    },
+    {
+      "object": "GROUND_MEDIAN_WORKING_ESTIMATED",
+      "modifier": "RAMP_APERTURE_ESTIMATED.001",
+      "type": "BOOLEAN",
+      "render": true,
+      "viewport": true
+    },
+    {
+      "object": "GROUND_ROADS_OFFICIAL_XY",
+      "modifier": "RAMP_APERTURE_ESTIMATED",
+      "type": "BOOLEAN",
+      "render": true,
+      "viewport": true
+    },
+    {
+      "object": "GROUND_ROADS_OFFICIAL_XY",
+      "modifier": "RAMP_APERTURE_ESTIMATED.001",
+      "type": "BOOLEAN",
+      "render": true,
+      "viewport": true
+    }
+  ]
+}

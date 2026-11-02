@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "osm_id": "w238513441",
+      "parts": 3872,
+      "z_range": [
+        0.0,
+        51.20000076293945
+      ],
+      "height_estimate_m": 51.2,
+      "source_url": "https://www.yaifu.com.tw/%E7%BE%8E%E9%BA%97%E4%BF%A1%E8%8A%B1%E5%9C%92%E9%85%92%E5%BA%97",
+      "status": "Photo-informed working estimate, not surveyed"
+    },
+    {
+      "osm_id": "w270524576",
+      "parts": 31,
+      "z_range": [
+        0.0,
+        5.599999904632568
+      ],
+      "height_estimate_m": 5.6,
+      "source_url": "https://www.google.com/maps/@25.0461347,121.5398856,3a,90y,270h,90t/data=!3m4!1e1!3m2!1sD1Rot5xfxAoFnFVJWYeqwQ!2e0",
+      "status": "Photo-informed working estimate, not surveyed"
+    },
+    {
+      "osm_id": "w270524575",
+      "parts": 27,
+      "z_range": [
+        0.0,
+        4.400000095367432
+      ],
+      "height_estimate_m": 4.4,
+      "source_url": "https://www.google.com/maps/@25.0461347,121.5398856,3a,90y,270h,90t/data=!3m4!1e1!3m2!1sD1Rot5xfxAoFnFVJWYeqwQ!2e0",
+      "status": "Photo-informed working estimate, not surveyed"
+    }
+  ],
+  "errors": [],
+  "road_cameras": 106,
+  "fps": 24,
+  "frames": [
+    1,
+    2544
+  ],
+  "all_dimensions_still_estimates": true
+}

@@ -1,0 +1,148 @@
+{
+  "landings": 28,
+  "guard_height_m": 0.9,
+  "posts": 140,
+  "status": "Estimated geometric detail, no claim of measured construction or code compliance",
+  "items": [
+    {
+      "object": "GUARD_CORE_\u5854\u57ce_0_B1_LANDING",
+      "landing_path": "CORE_\u5854\u57ce_0_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5854\u57ce_0_B2_LANDING",
+      "landing_path": "CORE_\u5854\u57ce_0_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5854\u57ce_1_B1_LANDING",
+      "landing_path": "CORE_\u5854\u57ce_1_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5854\u57ce_1_B2_LANDING",
+      "landing_path": "CORE_\u5854\u57ce_1_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u516c\u4e2d_0_B1_LANDING",
+      "landing_path": "CORE_\u516c\u4e2d_0_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u516c\u4e2d_0_B2_LANDING",
+      "landing_path": "CORE_\u516c\u4e2d_0_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u516c\u4e2d_1_B1_LANDING",
+      "landing_path": "CORE_\u516c\u4e2d_1_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u516c\u4e2d_1_B2_LANDING",
+      "landing_path": "CORE_\u516c\u4e2d_1_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u4e2d\u6797_0_B1_LANDING",
+      "landing_path": "CORE_\u4e2d\u6797_0_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u4e2d\u6797_0_B2_LANDING",
+      "landing_path": "CORE_\u4e2d\u6797_0_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u4e2d\u6797_1_B1_LANDING",
+      "landing_path": "CORE_\u4e2d\u6797_1_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u4e2d\u6797_1_B2_LANDING",
+      "landing_path": "CORE_\u4e2d\u6797_1_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u6797\u91d1_0_B1_LANDING",
+      "landing_path": "CORE_\u6797\u91d1_0_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u6797\u91d1_0_B2_LANDING",
+      "landing_path": "CORE_\u6797\u91d1_0_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u6797\u91d1_1_B1_LANDING",
+      "landing_path": "CORE_\u6797\u91d1_1_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u6797\u91d1_1_B2_LANDING",
+      "landing_path": "CORE_\u6797\u91d1_1_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5efa\u5fa9_0_B1_LANDING",
+      "landing_path": "CORE_\u5efa\u5fa9_0_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5efa\u5fa9_1_B1_LANDING",
+      "landing_path": "CORE_\u5efa\u5fa9_1_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5fa9\u6566_0_B1_LANDING",
+      "landing_path": "CORE_\u5fa9\u6566_0_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5fa9\u6566_0_B2_LANDING",
+      "landing_path": "CORE_\u5fa9\u6566_0_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5fa9\u6566_1_B1_LANDING",
+      "landing_path": "CORE_\u5fa9\u6566_1_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5fa9\u6566_1_B2_LANDING",
+      "landing_path": "CORE_\u5fa9\u6566_1_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u6566\u5ef6_0_B1_LANDING",
+      "landing_path": "CORE_\u6566\u5ef6_0_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u6566\u5ef6_0_B2_LANDING",
+      "landing_path": "CORE_\u6566\u5ef6_0_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u6566\u5ef6_1_B1_LANDING",
+      "landing_path": "CORE_\u6566\u5ef6_1_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u6566\u5ef6_1_B2_LANDING",
+      "landing_path": "CORE_\u6566\u5ef6_1_B2_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5ef6\u5409_0_B1_LANDING",
+      "landing_path": "CORE_\u5ef6\u5409_0_B1_LANDING",
+      "post_count": 5
+    },
+    {
+      "object": "GUARD_CORE_\u5ef6\u5409_1_B1_LANDING",
+      "landing_path": "CORE_\u5ef6\u5409_1_B1_LANDING",
+      "post_count": 5
+    }
+  ]
+}

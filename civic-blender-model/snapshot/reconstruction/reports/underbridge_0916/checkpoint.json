@@ -1,0 +1,11 @@
+{
+  "scene": "CIVIC_UNDERBRIDGE_MASSING_20260916",
+  "coverage_segments": 66,
+  "fully_verified_segments": 0,
+  "partial_streetview_segments": 1,
+  "new_mass_meshes": 2,
+  "mesh_errors": [],
+  "baseline_unchanged": true,
+  "dimensions": "Estimated, not real measured sizes",
+  "remaining": "All segments require completion; special ramps/interchanges need explicit extra coverage; Linsen partial"
+}

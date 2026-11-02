@@ -1,0 +1,45 @@
+{
+  "review_scene": "PRIORITY_A_REVIEW_20260914",
+  "renders": [
+    {
+      "node": "A1",
+      "camera": "P1_A1_N",
+      "side": "N"
+    },
+    {
+      "node": "A1",
+      "camera": "P1_A1_S",
+      "side": "S"
+    },
+    {
+      "node": "A2",
+      "camera": "P1_A2_N",
+      "side": "N"
+    },
+    {
+      "node": "A2",
+      "camera": "P1_A2_S",
+      "side": "S"
+    },
+    {
+      "node": "A3",
+      "camera": "P1_A3_N",
+      "side": "N"
+    },
+    {
+      "node": "A3",
+      "camera": "P1_A3_S",
+      "side": "S"
+    },
+    {
+      "node": "A",
+      "camera": "P1_A_OVERVIEW",
+      "side": "overview"
+    }
+  ],
+  "node_count": 3,
+  "road_animation_cameras": 106,
+  "boundary_status": "Working schematic registration, not exact site boundaries",
+  "saved_model": "CIVIC_PRIORITY_A_WORKING_20260914.blend",
+  "snapshot": "BEFORE_PRIORITY_A_20260914_124640.blend"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/walk_envelope_audit.json",
+    "bytes": 7569,
+    "sha256": "fb015d9e755d59ae0afd246239c67f64ec796fb1734666297148bac0ce4a1c2f",
+    "backup": "GitHub report"
+  },
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/before_walk_envelope_audit.json",
+    "bytes": 13843,
+    "sha256": "90ffdad22970f02a7534e9dbb4363d98ac44d5a0da2fb368170b5bf14de1e142",
+    "backup": "GitHub report"
+  },
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/VALIDATION_REPORT_zh-TW.md",
+    "bytes": 5997,
+    "sha256": "efa526eb8a73e00d7d6ab7101071ad1b8113238fde301d5f713bc6d369c794c3",
+    "backup": "GitHub report"
+  },
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/assets_metadata_check.json",
+    "bytes": 6746,
+    "sha256": "1c745b0d7c397f01f6ee70c5af6d8774b3cfb12bb1e263b9c4e35e35e710b23f",
+    "backup": "GitHub report"
+  },
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/technical_audit.json",
+    "bytes": 10439,
+    "sha256": "fae258325e681e0a596eeec090d2407e8ac76d5b167dda3f12245c33b5deedb8",
+    "backup": "GitHub report"
+  },
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/final_validation_check.json",
+    "bytes": 710,
+    "sha256": "417f08f7a518f089d858a723e439989e5aa8dd32c762e84e5755f678a4937cb7",
+    "backup": "GitHub report"
+  },
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/before_technical_audit.json",
+    "bytes": 12242,
+    "sha256": "27e1b610dcb8caf2b562e0150be1e68be79edddcad87f8a544a543af83d3fcd3",
+    "backup": "GitHub report"
+  },
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/repair_check.json",
+    "bytes": 1108,
+    "sha256": "3d9df74bdd939f32ef42b8e1de074b324458084d7c49f1aa4dcf4bb2add2515b",
+    "backup": "GitHub report"
+  },
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/Y26_clearance_verified.png",
+    "bytes": 1140900,
+    "sha256": "471c4cf13d91264fbf07227275b66e1be33c03d976c24fef431150f13f8bf2f5",
+    "backup": "local binary"
+  },
+  {
+    "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Validation/CIVIC_VALIDATION_REPAIRED_20260910_183657.blend",
+    "bytes": 50371105,
+    "sha256": "ae802256c2e8e54da13f9df0505824549661f1ab46094fa5b9f9836888fad768",
+    "backup": "local binary"
+  }
+]

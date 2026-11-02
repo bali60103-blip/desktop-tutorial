@@ -1,0 +1,16 @@
+{
+  "mesh_objects_checked": 84,
+  "mesh_issues": [],
+  "landing_post_seating_misses": [],
+  "flight_posts_seated": 560,
+  "landing_posts_checked": 140,
+  "animation_markers_preserved": 106,
+  "frame_range": [
+    1,
+    2544
+  ],
+  "inward_camera_directions_preserved": true,
+  "comparison_adopted": false,
+  "previously_reported_blocked_paths": 15,
+  "full_site_headroom_rerun": false
+}

@@ -1,0 +1,15 @@
+{
+  "file": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Detail01_Sidewalk/DETAIL_01_20260910_005148.blend",
+  "objects": 2,
+  "summary": {
+    "source_features": 6,
+    "sidewalk_union_area_m2": 3462.457935214033,
+    "overlap_removed_m2": -4.547473508864641e-13,
+    "curb_stones": 643,
+    "paving_tiles": 20169,
+    "curb_area_m2": 95.32814072387039,
+    "tile_area_m2": 3266.6986664457168
+  },
+  "render": "/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Detail01_Sidewalk/detail_closeup.png",
+  "status": "Detailed physical paving pilot started; gates not automatically passed"
+}

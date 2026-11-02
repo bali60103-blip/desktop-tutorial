@@ -1,0 +1,53 @@
+{
+  "batch": "UB_GUANGHUA_021_022_EST",
+  "object_count": 7,
+  "names": [
+    "UB_GUANGHUA_021_022_EST_021_STONE_A_EST",
+    "UB_GUANGHUA_021_022_EST_021_STONE_B_EST",
+    "UB_GUANGHUA_021_022_EST_022_VINE_ENCLOSURE_A_EST",
+    "UB_GUANGHUA_021_022_EST_022_VINE_ENCLOSURE_B_EST",
+    "UB_GUANGHUA_021_022_EST_022_VINE_TOP_A_EST",
+    "UB_GUANGHUA_021_022_EST_022_VINE_TOP_B_EST",
+    "UB_GUANGHUA_021_022_EST_022_ROCK_EST"
+  ],
+  "surface_intersections": [],
+  "aabb_candidates": [],
+  "median_sample_issues": [
+    {
+      "name": "UB_GUANGHUA_021_022_EST_021_STONE_A_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_GUANGHUA_021_022_EST_021_STONE_B_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_GUANGHUA_021_022_EST_022_VINE_ENCLOSURE_A_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_GUANGHUA_021_022_EST_022_VINE_ENCLOSURE_B_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_GUANGHUA_021_022_EST_022_VINE_TOP_A_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_GUANGHUA_021_022_EST_022_VINE_TOP_B_EST",
+      "outside_samples": 4
+    },
+    {
+      "name": "UB_GUANGHUA_021_022_EST_022_ROCK_EST",
+      "outside_samples": 4
+    }
+  ],
+  "non_closed_meshes": [],
+  "dimensions_verified": false,
+  "full_corridor_complete": false,
+  "limits": [
+    "surface test does not prove volumetric containment or clearance",
+    "median checks are sampled against an estimated model",
+    "one-side views leave occluded objects unresolved"
+  ]
+}

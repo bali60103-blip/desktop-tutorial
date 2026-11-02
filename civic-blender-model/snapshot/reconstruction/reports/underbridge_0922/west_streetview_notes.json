@@ -1,0 +1,158 @@
+{
+  "full_corridor_complete": false,
+  "recovered_from_session_observations": true,
+  "views": [
+    {
+      "segment": "UB_X-005",
+      "pano": "SBVIjhNhgPYIqGro8I2Sgg",
+      "date": "2025-02",
+      "status": "partial_ground_view",
+      "observed": [
+        "round piers",
+        "paths",
+        "grass islands",
+        "lamps",
+        "curbs",
+        "drainage"
+      ]
+    },
+    {
+      "segment": "UB_X-004",
+      "pano": "M2SHdeR6iDydeEFqEEYfJA",
+      "date": "2025-02",
+      "status": "partial_ground_view",
+      "observed": [
+        "trees",
+        "shrubs",
+        "floodwall",
+        "adjacent canopy"
+      ]
+    },
+    {
+      "segment": "UB_X-003",
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "date": "2024-12",
+      "status": "partial_ground_view",
+      "observed": [
+        "low ramp",
+        "blue cabinets",
+        "small utility boxes",
+        "foundation masses",
+        "pedestrian passage"
+      ]
+    },
+    {
+      "segment": "UB_X-002",
+      "pano": "6r1uoT9hQu2JROltO-9XRw",
+      "date": "2024-12",
+      "status": "partial_ground_view",
+      "observed": [
+        "columns",
+        "base fences",
+        "sunken opening sidewall",
+        "shrubs",
+        "sign frame"
+      ]
+    },
+    {
+      "segment": "UB_X+000",
+      "pano": "m8uPsNjtR14tfM0vA6DBXA",
+      "date": "2025-02",
+      "status": "partial_ground_view_revisited_20260922",
+      "observed": [
+        "large louvred tower",
+        "low four-hood equipment row",
+        "plinth",
+        "maintenance steps"
+      ]
+    },
+    {
+      "segment": "UB_X+001",
+      "pano": "DhbR1c0EQE4zelfovgpoCw",
+      "date": "2024-12",
+      "status": "partial_ground_view",
+      "observed": [
+        "round column",
+        "shrub beds",
+        "rock landscape",
+        "narrow pedestrian passage",
+        "low vent wall",
+        "traffic signal pole"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+002",
+      "pano": "rOneZw1Hy2btmcnrLp2cjQ",
+      "date": "2024-12",
+      "source_url": "https://www.google.com/maps/@25.0494753,121.5128275,3a,90y,20h,90t/data=!3m4!1e1!3m2!1srOneZw1Hy2btmcnrLp2cjQ!2e0",
+      "status": "partial_ground_view",
+      "observed": [
+        "round column without visible base fence",
+        "irregular shrub patches",
+        "exposed soil",
+        "landscape rocks",
+        "low masonry enclosure"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+003",
+      "pano": "moMq0z-UBTjiDjOudI-lmw",
+      "date": "2025-05",
+      "source_url": "https://www.google.com/maps/@25.0494051,121.5138901,3a,90y,193h,90t/data=!3m4!1e1!3m2!1smoMq0z-UBTjiDjOudI-lmw!2e0",
+      "status": "partial_ground_view",
+      "observed": [
+        "round column with picket base guard",
+        "shrub median",
+        "drainage openings in curb",
+        "low masonry enclosure",
+        "bridge pipework",
+        "traffic signals"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+004",
+      "pano": "modALEC3WgErR-jyX2zyUA",
+      "date": "2025-05",
+      "source_url": "https://www.google.com/maps/@25.0492765,121.514265,3a,75y,103h,90t/data=!3m4!1e1!3m2!1smodALEC3WgErR-jyX2zyUA!2e0",
+      "observed": [
+        "two stone-clad rectangular enclosures on separate medians",
+        "low shrub strip",
+        "Y15 covered entrance",
+        "column base picket guard"
+      ],
+      "status": "partial_ground_view",
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+004",
+      "pano": "7jxY9aXs4Z8BllYteOtqlw",
+      "date": "2025-05",
+      "source_url": "https://www.google.com/maps/@25.0491877,121.5149281,3a,75y,103h,90t/data=!3m4!1e1!3m2!1s7jxY9aXs4Z8BllYteOtqlw!2e0",
+      "observed": [
+        "Taiyuan junction",
+        "long corrugated enclosure/canopy",
+        "large exposed white and green pipes",
+        "solid roadside wall",
+        "traffic signal and control cabinets"
+      ],
+      "status": "partial_ground_view_objects_pending",
+      "dimensions_verified": false
+    }
+  ],
+  "dimensions_verified": false,
+  "rejected_as_ground_coverage": [
+    "bu_z1d2wQKazI-6TiDmr2g",
+    "0Op4JpC313xYjh7xdzONMA"
+  ],
+  "historical_only_panos": [
+    "Q2f8s_yNPawNoPIM_8kU7g"
+  ],
+  "unresolved_column_mapping": {
+    "visible_label": "P120",
+    "pano": "moMq0z-UBTjiDjOudI-lmw",
+    "note": "Observed label; existing legacy pier ID correspondence unconfirmed. Do not attach verified label to a guessed legacy pier."
+  }
+}

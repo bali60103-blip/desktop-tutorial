@@ -1,0 +1,19 @@
+{
+  "retained_in_excluded_collection": [
+    "COMP_MALL_Taipei_Station_Underground_COLUMN_1_1_0",
+    "COMP_MALL_Taipei_Station_Underground_COLUMN_38_1_0",
+    "COMP_中林_B1_COL_60_-6",
+    "COMP_延吉_B1_COL_156_-6",
+    "COMP_建復_B1_COL_68_-6",
+    "COMP_建復_B1_COL_76_-6",
+    "COMP_建復_B1_COL_84_-6",
+    "COMP_復敦_B1_COL_428_6",
+    "COMP_敦延_B1_COL_300_-6",
+    "COMP_敦延_B1_COL_308_-6",
+    "COMP_敦延_B1_COL_316_-6",
+    "COMP_敦延_B1_COL_324_-6",
+    "COMP_MALL_Taipei_Station_Underground_PARTITION_1_1_0"
+  ],
+  "collection": "CALIBRATION_RETAINED_CONFLICT_OBJECTS",
+  "status": "Remove generic generated columns from working alternative; original retained. This is spatial model cleanup, not a structural modification proposal."
+}

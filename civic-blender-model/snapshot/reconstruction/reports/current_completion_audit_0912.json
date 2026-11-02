@@ -1,0 +1,187 @@
+{
+  "visible_objects": 21601,
+  "visible_meshes": 21445,
+  "source_building_records": 3604,
+  "visible_core_matches": 3580,
+  "missing_exact_core_names": [
+    {
+      "osm_id": "w238513441",
+      "first_row": true,
+      "name": "美麗信花園酒店",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
+    {
+      "osm_id": "w268396843",
+      "first_row": true,
+      "name": "華山鐵路地下化引道換氣口",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
+    {
+      "osm_id": "w270524575",
+      "first_row": true,
+      "name": "中油洗車服務",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
+    {
+      "osm_id": "w270524576",
+      "first_row": true,
+      "name": "台灣中油 中崙站",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
+    {
+      "osm_id": "w270789165",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated median of known heights in selected block"
+    },
+    {
+      "osm_id": "w552658460",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated13.2m fallback; no height source"
+    },
+    {
+      "osm_id": "w552658461",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated13.2m fallback; no height source"
+    },
+    {
+      "osm_id": "w552658462",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated13.2m fallback; no height source"
+    },
+    {
+      "osm_id": "w552658463",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated13.2m fallback; no height source"
+    },
+    {
+      "osm_id": "w875067960",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated13.2m fallback; no height source"
+    },
+    {
+      "osm_id": "w875067963",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated13.2m fallback; no height source"
+    },
+    {
+      "osm_id": "w875067964",
+      "first_row": true,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
+    {
+      "osm_id": "w875067965",
+      "first_row": true,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
+    {
+      "osm_id": "w875067966",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated median of known heights in selected block"
+    },
+    {
+      "osm_id": "w875067971",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated median of known heights in selected block"
+    },
+    {
+      "osm_id": "w1015817093",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Estimated13.2m fallback; no height source"
+    },
+    {
+      "osm_id": "w1015818580",
+      "first_row": true,
+      "name": "",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
+    {
+      "osm_id": "w1015831689",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "OSM floor count x estimated3.3m"
+    },
+    {
+      "osm_id": "w1156916093",
+      "first_row": true,
+      "name": "",
+      "core_visible": false,
+      "height_status": "OSM floor count x estimated3.3m"
+    },
+    {
+      "osm_id": "w1164891302",
+      "first_row": true,
+      "name": "",
+      "core_visible": false,
+      "height_status": "OSM floor count x estimated3.3m"
+    },
+    {
+      "osm_id": "w1342705709",
+      "first_row": false,
+      "name": "台北機廠煙囪",
+      "core_visible": false,
+      "height_status": "OSM explicit height; unmeasured"
+    },
+    {
+      "osm_id": "w1345175506",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "OSM floor count x estimated3.3m"
+    },
+    {
+      "osm_id": "w1345175507",
+      "first_row": false,
+      "name": "",
+      "core_visible": false,
+      "height_status": "OSM floor count x estimated3.3m"
+    },
+    {
+      "osm_id": "w1346883411",
+      "first_row": true,
+      "name": "",
+      "core_visible": false,
+      "height_status": "OSM floor count x estimated3.3m"
+    }
+  ],
+  "nonfinite_transforms": [],
+  "missing_image_assets": [],
+  "animation": {
+    "markers": 106,
+    "fps": 24,
+    "frame_start": 1,
+    "frame_end": 2544,
+    "invalid_bindings": [],
+    "uniform_24_frame_spacing": true
+  },
+  "scope": "Exact-name source coverage audit. Replacement landmark and equipment objects require separate reconciliation. Visible geometry does not prove photo accuracy."
+}

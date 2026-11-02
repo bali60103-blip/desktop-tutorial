@@ -1,0 +1,139 @@
+{
+  "photo_informed_or_neighbor_inferred_vent_records": 13,
+  "photo_or_inferred_assets_total": 16,
+  "component_meshes_checked": 6494,
+  "geometry_errors": [],
+  "items": [
+    {
+      "osm_id": "w268396843",
+      "parts": 174,
+      "bottom_z_m": 0.0,
+      "top_z_m": 7.199999809265137,
+      "source_report": "huashan_photo_shell_report.json"
+    },
+    {
+      "osm_id": "w552658460",
+      "parts": 137,
+      "bottom_z_m": 0.0,
+      "top_z_m": 7.199999809265137,
+      "source_report": "station_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w552658461",
+      "parts": 141,
+      "bottom_z_m": 0.0,
+      "top_z_m": 7.199999809265137,
+      "source_report": "station_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w552658462",
+      "parts": 137,
+      "bottom_z_m": 0.0,
+      "top_z_m": 7.199999809265137,
+      "source_report": "station_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w552658463",
+      "parts": 137,
+      "bottom_z_m": 0.0,
+      "top_z_m": 7.199999809265137,
+      "source_report": "station_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w875067960",
+      "parts": 110,
+      "bottom_z_m": 0.0,
+      "top_z_m": 5.400000095367432,
+      "source_report": "small_station_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w875067963",
+      "parts": 110,
+      "bottom_z_m": 0.0,
+      "top_z_m": 5.400000095367432,
+      "source_report": "small_station_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w875067964",
+      "parts": 110,
+      "bottom_z_m": 0.0,
+      "top_z_m": 5.400000095367432,
+      "source_report": "small_station_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w875067965",
+      "parts": 110,
+      "bottom_z_m": 0.0,
+      "top_z_m": 5.400000095367432,
+      "source_report": "small_station_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w270789165",
+      "parts": 842,
+      "bottom_z_m": 0.0,
+      "top_z_m": 4.800000190734863,
+      "source_report": "southwest_plant_photo_report.json"
+    },
+    {
+      "osm_id": "w1015817093",
+      "parts": 384,
+      "bottom_z_m": 0.0,
+      "top_z_m": 6.0,
+      "source_report": "tiled_shaft_photo_report.json"
+    },
+    {
+      "osm_id": "w875067966",
+      "parts": 62,
+      "bottom_z_m": 0.0,
+      "top_z_m": 5.400000095367432,
+      "source_report": "additional_small_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w1015818580",
+      "parts": 110,
+      "bottom_z_m": 0.0,
+      "top_z_m": 5.400000095367432,
+      "source_report": "additional_small_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w238513441",
+      "parts": 3872,
+      "bottom_z_m": 0.0,
+      "top_z_m": 51.20000076293945,
+      "source_report": "miramar_photo_shell_report.json"
+    },
+    {
+      "osm_id": "w270524576",
+      "parts": 31,
+      "bottom_z_m": 0.0,
+      "top_z_m": 5.599999904632568,
+      "source_report": "zhonglun_station_photo_report.json"
+    },
+    {
+      "osm_id": "w270524575",
+      "parts": 27,
+      "bottom_z_m": 0.0,
+      "top_z_m": 4.400000095367432,
+      "source_report": "zhonglun_station_photo_report.json"
+    }
+  ],
+  "remaining_generic_vents": [
+    "w875067971",
+    "w1015831689",
+    "w1156916093",
+    "w1164891302",
+    "w1345175506",
+    "w1345175507",
+    "w1346883411"
+  ],
+  "source_building_records": 3604,
+  "first_row_source_records": 1106,
+  "route_cameras": 106,
+  "fps": 24,
+  "frames": [
+    1,
+    2544
+  ],
+  "main_scene": "CIVIC_BLOCKS_FACADES_WORKING",
+  "limitations": "Closed finite meshes and source coverage are not survey accuracy, whole-site completeness, physical clearance or regulatory certification. Individual photo reports distinguish observed features from assumed dimensions and inferred neighbors."
+}

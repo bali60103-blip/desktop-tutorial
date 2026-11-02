@@ -1,0 +1,32 @@
+{
+  "collection": "UB_ZHENGZHOU_002_003_PHOTO_EST",
+  "objects": 15,
+  "names": [
+    "UB_ZZ_002_SOIL_PATCH_EST",
+    "UB_ZZ_002_CURB_EST_-1.9",
+    "UB_ZZ_002_CURB_EST_1.9",
+    "UB_ZZ_002_SHRUB_PATCH_EST_0",
+    "UB_ZZ_002_SHRUB_PATCH_EST_1",
+    "UB_ZZ_002_SHRUB_PATCH_EST_2",
+    "UB_ZZ_002_LANDSCAPE_ROCK_EST_0",
+    "UB_ZZ_002_LANDSCAPE_ROCK_EST_1",
+    "UB_ZZ_003_SOIL_PATCH_EST",
+    "UB_ZZ_003_CURB_EST_-1.9",
+    "UB_ZZ_003_CURB_EST_1.9",
+    "UB_ZZ_003_SHRUB_PATCH_EST_0",
+    "UB_ZZ_003_SHRUB_PATCH_EST_1",
+    "UB_ZZ_003_SHRUB_PATCH_EST_2",
+    "UB_ZZ_SHARED_LOW_ENCLOSURE_EST"
+  ],
+  "non_closed_meshes": [],
+  "aabb_conflicts": [],
+  "full_corridor_complete": false,
+  "dimensions_verified": false,
+  "coverage": "two local patches, not entire 100m strips",
+  "open_issues": [
+    "island endpoints/widths unmeasured",
+    "wall identity and function unresolved",
+    "column guard placement still requires matching",
+    "subsurface containment not checked"
+  ]
+}
