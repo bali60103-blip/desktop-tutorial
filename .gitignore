@@ -2,3 +2,5 @@ data/*.csv
 output/*.html
 __pycache__/
 *.pyc
+
+.claude/settings.local.json
